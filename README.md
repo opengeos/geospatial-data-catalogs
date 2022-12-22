@@ -14,21 +14,21 @@ This repo provides the list of geospatial datasets in two formats:
 
 ### Tab separated values (TSV) format
 
-- AWS Open Data: aws_open_datasets.tsv
-- AWS Open Geospatial Data: aws_geo_datasets.tsv
-- AWS Open Geospatial Data with STAC endpoint: aws_stac_catalogs.tsv
-- STAC Index Catalogs: stac_catalogs.tsv
-- Earth Engine Catalog: gee_catalog.tsv
-- Planetary Computer Catalog: pc_catalog.tsv
+- AWS Open Data: [aws_open_datasets.tsv](https://github.com/giswqs/geospatial-data-catalogs/blob/master/aws_open_datasets.tsv)
+- AWS Open Geospatial Data: [aws_geo_datasets.tsv](https://github.com/giswqs/geospatial-data-catalogs/blob/master/aws_geo_datasets.tsv)
+- AWS Open Geospatial Data with STAC endpoint: [aws_stac_catalogs.tsv](https://github.com/giswqs/geospatial-data-catalogs/blob/master/aws_stac_catalogs.tsv)
+- STAC Index Catalogs: [stac_catalogs.tsv](https://github.com/giswqs/geospatial-data-catalogs/blob/master/stac_catalogs.tsv)
+- Earth Engine Catalog: [gee_catalog.tsv](https://github.com/giswqs/geospatial-data-catalogs/blob/master/gee_catalog.tsv)
+- Planetary Computer Catalog: [pc_catalog.tsv](https://github.com/giswqs/geospatial-data-catalogs/blob/master/pc_catalog.tsv)
 
 ### JSON format
 
-- AWS Open Data: aws_open_datasets.json
-- AWS Open Geospatial Data: aws_geo_datasets.json
-- AWS Open Geospatial Data with STAC endpoint: aws_stac_catalogs.json
-- STAC Index Catalogs: stac_catalogs.json
-- Earth Engine Catalog: gee_catalog.json
-- Planetary Computer Catalog: pc_catalog.json
+- AWS Open Data: [aws_open_datasets.json](https://github.com/giswqs/geospatial-data-catalogs/blob/master/aws_open_datasets.json)
+- AWS Open Geospatial Data: [aws_geo_datasets.json](https://github.com/giswqs/geospatial-data-catalogs/blob/master/aws_geo_datasets.json)
+- AWS Open Geospatial Data with STAC endpoint: [aws_stac_catalogs.json](https://github.com/giswqs/geospatial-data-catalogs/blob/master/aws_stac_catalogs.json)
+- STAC Index Catalogs: [stac_catalogs.json](https://github.com/giswqs/geospatial-data-catalogs/blob/master/stac_catalogs.json)
+- Earth Engine Catalog: [gee_catalog.json](https://github.com/giswqs/geospatial-data-catalogs/blob/master/gee_catalog.json)
+- Planetary Computer Catalog: [pc_catalog.json](https://github.com/giswqs/geospatial-data-catalogs/blob/master/pc_catalog.json)
 
 ### Examples
 
