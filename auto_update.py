@@ -12,7 +12,9 @@ links = [
     "https://github.com/giswqs/Earth-Engine-Catalog/raw/master/gee_catalog.tsv",
     "https://github.com/giswqs/Earth-Engine-Catalog/raw/master/gee_catalog.json",
     "https://github.com/giswqs/Planetary-Computer-Catalog/raw/master/pc_catalog.tsv",
-    "https://github.com/giswqs/Planetary-Computer-Catalog/raw/master/pc_catalog.json"
+    "https://github.com/giswqs/Planetary-Computer-Catalog/raw/master/pc_catalog.json",
+    "https://github.com/giswqs/NASA-CMR-STAC/raw/master/nasa_cmr_catalog.tsv",
+    "https://github.com/giswqs/NASA-CMR-STAC/raw/master/nasa_cmr_catalog.json"
 ]
 
 for link in links:
