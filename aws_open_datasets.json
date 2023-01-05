@@ -996,12 +996,12 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
+        "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "RequesterPays": null,
         "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1016,12 +1016,12 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
+        "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "RequesterPays": null,
         "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1596,6 +1596,24 @@
         "Host": null
     },
     {
+        "Name": "CMS 2008-2010 Data Entrepreneurs\u2019 Synthetic Public Use File (DE-SynPUF) in OMOP Common Data Model",
+        "Description": "Project data files",
+        "ARN": "arn:aws:s3:::synpuf-omop",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null,
+        "Explore": null,
+        "Documentation": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use",
+        "Contact": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use",
+        "ManagedBy": "[Amazon Web Sevices](https://aws.amazon.com/)",
+        "UpdateFrequency": "Not updated",
+        "License": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Downloadable-Public-Use",
+        "Tags": "aws-pds, bioinformatics, health, life sciences, natural language processing, us",
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "COCO - Common Objects in Context - fast.ai datasets",
         "Description": "Datasets",
         "ARN": "arn:aws:s3:::fast-ai-coco",
@@ -1746,7 +1764,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "RequesterPays": null,
@@ -1764,7 +1782,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "RequesterPays": null,
@@ -4985,11 +5003,13 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "RequesterPays": null,
-        "Explore": null,
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5003,13 +5023,11 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "RequesterPays": null,
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9143,7 +9161,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "RequesterPays": null,
@@ -9161,7 +9179,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "RequesterPays": null,
@@ -11641,6 +11659,24 @@
         "Host": null
     },
     {
+        "Name": "Public Utility Data Liberation Project",
+        "Description": "All PUDL data outputs",
+        "ARN": "arn:aws:s3:::intake.catalyst.coop",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null,
+        "Explore": null,
+        "Documentation": "To access the data via the the PUDL intake catalog, follow the setup[instruction",
+        "Contact": "For general questions or feedback about the data, create an GitHub issue or disc",
+        "ManagedBy": "[Catalyst Cooperative](https://catalyst.coop/)",
+        "UpdateFrequency": "The federal agencies that publish the raw data PUDL processes release new data, ",
+        "License": "The PUDL data and documentation are published under the [Creative Commons Attrib",
+        "Tags": "climate, climate model, energy, environmental, government records, infrastructure, open source software, electricity, energy modeling, utilities",
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "QIIME 2 User Tutorial Datasets",
         "Description": "Rendered docs and tutorial data, as generated by https://githubcom/qiime2/docs",
         "ARN": "arn:aws:s3:::qiime2-data",
@@ -11919,24 +11955,6 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
         "Description": "Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-global-prd",
-        "Region": "eu-west-2",
-        "Type": "S3 Bucket",
-        "RequesterPays": null,
-        "Explore": null,
-        "Documentation": "https://github.com/MetOffice/aws-earth-examples",
-        "Contact": "https://www.metoffice.gov.uk/about-us/contact",
-        "ManagedBy": "[UK Met Office](https://www.metoffice.gov.uk/)",
-        "UpdateFrequency": "Daily (with 24 hour delay)",
-        "License": "This data is made available under a [Creative Commons licence](https://creativec",
-        "Tags": "aws-pds, agriculture, earth observation, climate, weather, meteorological, sustainability",
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
-        "Description": "Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
         "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-global-prd",
         "Region": "eu-west-2",
         "Type": "SNS Topic",
@@ -11953,9 +11971,9 @@
         "Host": null
     },
     {
-        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
-        "Description": "Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-mogreps-g-prd",
+        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
+        "Description": "Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-global-prd",
         "Region": "eu-west-2",
         "Type": "S3 Bucket",
         "RequesterPays": null,
@@ -11989,9 +12007,9 @@
         "Host": null
     },
     {
-        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global and Regional Ensemble Prediction System (UK) MOGREPS-UK",
-        "Description": "Met Office Global and Regional Ensemble Prediction System (UK) MOGREPS-UK",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-mogreps-uk-prd",
+        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
+        "Description": "Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-mogreps-g-prd",
         "Region": "eu-west-2",
         "Type": "S3 Bucket",
         "RequesterPays": null,
@@ -12025,9 +12043,9 @@
         "Host": null
     },
     {
-        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
-        "Description": "Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-ukv-prd",
+        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global and Regional Ensemble Prediction System (UK) MOGREPS-UK",
+        "Description": "Met Office Global and Regional Ensemble Prediction System (UK) MOGREPS-UK",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-mogreps-uk-prd",
         "Region": "eu-west-2",
         "Type": "S3 Bucket",
         "RequesterPays": null,
@@ -12048,6 +12066,24 @@
         "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-ukv-prd",
         "Region": "eu-west-2",
         "Type": "SNS Topic",
+        "RequesterPays": null,
+        "Explore": null,
+        "Documentation": "https://github.com/MetOffice/aws-earth-examples",
+        "Contact": "https://www.metoffice.gov.uk/about-us/contact",
+        "ManagedBy": "[UK Met Office](https://www.metoffice.gov.uk/)",
+        "UpdateFrequency": "Daily (with 24 hour delay)",
+        "License": "This data is made available under a [Creative Commons licence](https://creativec",
+        "Tags": "aws-pds, agriculture, earth observation, climate, weather, meteorological, sustainability",
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
+        "Description": "Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-ukv-prd",
+        "Region": "eu-west-2",
+        "Type": "S3 Bucket",
         "RequesterPays": null,
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
@@ -13055,6 +13091,24 @@
         "UpdateFrequency": "annually",
         "License": "You may use this dataset for non-commercial purposes. You may use this dataset f",
         "Tags": "cities, geospatial, infrastructure, mapping, traffic, transportation",
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Synthea synthetic patient generator data in OMOP Common Data Model",
+        "Description": "Project data files",
+        "ARN": "arn:aws:s3:::synthea-omop",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null,
+        "Explore": null,
+        "Documentation": "https://github.com/synthetichealth/synthea/wiki",
+        "Contact": "https://github.com/synthetichealth/synthea",
+        "ManagedBy": "[Amazon Web Sevices](https://aws.amazon.com/)",
+        "UpdateFrequency": "Not updated",
+        "License": "https://github.com/synthetichealth/synthea/blob/master/LICENSE",
+        "Tags": "aws-pds, bioinformatics, health, life sciences, natural language processing, us",
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -14132,7 +14186,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "RequesterPays": null,
@@ -14150,7 +14204,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "RequesterPays": null,

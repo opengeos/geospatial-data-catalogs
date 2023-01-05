@@ -130,6 +130,32 @@
         "accessInfo": "Some datasets are restricted by licensing to the exclusive usage for the disaster response by authorized users."
     },
     {
+        "title": "EO Data Cubes for Brazil - CBERS 4",
+        "id": 63,
+        "url": "https://bdc-cbers.s3.us-west-2.amazonaws.com/catalog.json",
+        "slug": "bdc-cbers",
+        "summary": "Catalogs of Brazil Data Cube (BDC) CBERS 4 Earth Observation data cube imagery on AWS.",
+        "access": "public",
+        "created": "2023-01-04T11:17:52.841Z",
+        "updated": "2023-01-04T11:17:52.841Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "EO Data Cubes for Brazil - Sentinel 2",
+        "id": 64,
+        "url": "https://bdc-sentinel-2.s3.us-west-2.amazonaws.com/catalog.json",
+        "slug": "bdc-sentinel-2",
+        "summary": "Catalogs of Brazil Data Cube (BDC) Sentinel-2 (A+B) Earth Observation data cube imagery on AWS.",
+        "access": "public",
+        "created": "2023-01-04T11:19:31.343Z",
+        "updated": "2023-01-04T11:19:31.343Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "EODC API (openEO)",
         "id": 4,
         "url": "https://openeo.eodc.eu/v1.0/",
@@ -166,19 +192,6 @@
         "updated": "2020-08-20T00:00:00.000Z",
         "isPrivate": false,
         "isApi": true,
-        "accessInfo": null
-    },
-    {
-        "title": "Ebird Status And Trends Model Results",
-        "id": 9,
-        "url": "https://ebirdst-data.s3-us-west-2.amazonaws.com/catalog.json",
-        "slug": "ebird-status-and-trends-model-results",
-        "summary": "From: https://registry.opendata.aws/ebirdst/ - The eBird Status and Trends project generates estimates of bird occurrence and abundance at a high spatiotemporal resolution. This dataset represents the primary modeled results from the analysis workflow and are designed for further analysis, synthesis, visualization, and exploration.",
-        "access": "public",
-        "created": "2020-08-20T00:00:00.000Z",
-        "updated": "2020-08-20T00:00:00.000Z",
-        "isPrivate": false,
-        "isApi": false,
         "accessInfo": null
     },
     {
@@ -364,19 +377,6 @@
         "accessInfo": "Contact [mundialis](https://www.mundialis.de/de/contact/) for details."
     },
     {
-        "title": "NASA AVIRIS catalog",
-        "id": 33,
-        "url": "https://franklin.nasa-hsi.azavea.com/",
-        "slug": "nasa-aviris-catalog",
-        "summary": "Franklin instance indexing some of [NASA's AVIRIS data](https://aviris.jpl.nasa.gov/)",
-        "access": "public",
-        "created": "2021-05-03T17:36:06.774Z",
-        "updated": "2021-05-03T17:36:06.774Z",
-        "isPrivate": false,
-        "isApi": false,
-        "accessInfo": null
-    },
-    {
         "title": "NASA CMR CLOUDSTAC Proxy",
         "id": 48,
         "url": "https://cmr.earthdata.nasa.gov/cloudstac",
@@ -481,6 +481,19 @@
         "accessInfo": null
     },
     {
+        "title": "Polar Geospatial Center Data Catalog",
+        "id": 61,
+        "url": "https://pgc-opendata-dems.s3.us-west-2.amazonaws.com/pgc-data-stac.json",
+        "slug": "polar-geospatial-center",
+        "summary": "Includes data from multiple projects, each with 2m GSD and usually available in mosaics and strips: ArcticDEM (DEMs over the Arctic, starting 2007), EarthDEM (DEMs over non-polar regions, staring 2008) and REMA (Reference Elevation Model of Antarctica, starting 2009).",
+        "access": "public",
+        "created": "2023-01-04T10:20:07.793Z",
+        "updated": "2023-01-04T10:20:07.793Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Radiant MLHub",
         "id": 5,
         "url": "https://api.radiant.earth/mlhub/v1/",
@@ -533,6 +546,19 @@
         "accessInfo": null
     },
     {
+        "title": "Sentinel 3 Level 2+3 on AWS",
+        "id": 65,
+        "url": "https://meeo-s3.s3.amazonaws.com/catalog.json",
+        "slug": "sentinel-3-aws",
+        "summary": "Observations from the Sentinel-3 satellite of the European Commission\u2019s Copernicus Earth Observation Programme, available in Level 2 and 3. Hosted on AWS.",
+        "access": "public",
+        "created": "2023-01-04T11:24:29.169Z",
+        "updated": "2023-01-04T11:24:29.169Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Sentinel 5P Level 2 on AWS",
         "id": 11,
         "url": "https://meeo-s5p.s3.amazonaws.com/catalog.json",
@@ -559,6 +585,19 @@
         "accessInfo": "The Sentinel Hub API uses OAuth2 Authentication and requires that you have an access token. See the [Authentication chapter](https://docs.sentinel-hub.com/api/latest/api/overview/authentication/) for more information."
     },
     {
+        "title": "Sentinel-1 RTC CONUS",
+        "id": 59,
+        "url": "https://raw.githubusercontent.com/scottyhq/sentinel1-rtc-stac/main/collection.json",
+        "slug": "sentinel-1-rtc-conus",
+        "summary": "Sentinel1 radiometric terrain corrected backscatter (RTC) over CONUS since 2017. These radar data have been processed from original GRD scenes into a Radiometrically Terrain Corrected, tiled product suitable for analysis.",
+        "access": "public",
+        "created": "2023-01-04T10:01:53.109Z",
+        "updated": "2023-01-04T10:01:53.109Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Sentinel-2 and Landsat-8 catalog",
         "id": 18,
         "url": "https://tamn.snapplanet.io",
@@ -570,6 +609,19 @@
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
+    },
+    {
+        "title": "Terrascope",
+        "id": 62,
+        "url": "https://services.terrascope.be/stac/",
+        "slug": "terrascope",
+        "summary": "VITO Remote Sensing EO Data Catalogue for the Terrascope platform. Offers Sentinel-1/2/5P, PROBA-V, WorldCover, DEMs, CLS and more.",
+        "access": "protected",
+        "created": "2023-01-04T11:14:18.546Z",
+        "updated": "2023-01-04T11:14:18.546Z",
+        "isPrivate": true,
+        "isApi": true,
+        "accessInfo": "You need to register yourself a Terrascope account at <https://portal.terrascope.be/home> and subscribe to a paid plan."
     },
     {
         "title": "UK NCEO Analysis Ready Data (ARD)",
