@@ -1339,6 +1339,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AQUARIUS_L2_SSS_CAP_V5.v5.0",
+        "title": "Aquarius CAP Level 2 Sea Surface Salinity, Wind Speed & Direction Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-05",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121315-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121315-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L2_SSS_CAP_V5.v5.0",
+        "description": "The version 5.0 Aquarius CAP Level 2 product contains the fourth release of the AQUARIUS/SAC-D orbital/swath data based on the Combined Active Passive (CAP) algorithm. CAP is a P.I. produced dataset developed and provided by JPL.  This Level 2 dataset contains sea surface salinity (SSS), wind speed and wind direction data derived from 3 different radiometers and the onboard scatterometer. The CAP algorithm simultaneously retrieves the salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. Each L2 data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
         "id": "AQUARIUS_L2_SSS_QL_V5.v5.0",
         "title": "Aquarius Official Release Level 2 Sea Surface Salinity & Wind Speed Quicklook Data V5.0",
         "catalog": "PODAAC",
@@ -1349,6 +1362,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553146-PODAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L2_SSS_QL_V5.v5.0",
         "description": "The version 5.0 Aquarius Level 2 quicklook product includes the instrumental wiggle correction and exponential drift correction and is part of the official end of mission release of the orbital/swath data from AQUARIUS/SAC-D mission. The Aquarius Level 2 data set contains sea surface salinity (SSS) and wind speed data derived from 3 different radiometers and the onboard scatterometer. Included also in the Level 2 data are the horizontal and vertical brightness temperatures (TH and TV) for each radiometer, ancillary data, flags, converted telemetry and navigation data. Each data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath. Enhancements to the version 5.0 Level 2 data relative to v4.0 include: improvement of the salinity retrieval geophysical model for SST bias, estimates of SSS uncertainties (systematic and random components), and inclusion of a new spiciness variable.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L2_SSS_V5.v5.0",
+        "title": "Aquarius Official Release Level 2 Sea Surface Salinity & Wind Speed Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-25",
+        "end_date": "2015-06-07",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2036882456-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2036882456-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L2_SSS_V5.v5.0",
+        "description": "The version 5.0 Aquarius Level 2 product is the official third release of the orbital/swath data from AQUARIUS/SAC-D mission. The Aquarius Level 2 data set contains sea surface salinity (SSS) and wind speed data derived from 3 different radiometers and the onboard scatterometer. Included also in the Level 2 data are the horizontal and vertical brightness temperatures (TH and TV) for each radiometer, ancillary data, flags, converted telemetry and navigation data. Each data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath. Enhancements to the version 5.0 Level 2 data relative to v4.0 include: improvement of the salinity retrieval geophysical model for SST bias, estimates of SSS uncertainties (systematic and random components), and inclusion of a new spiciness variable.",
         "license": "not-provided"
     },
     {
@@ -1365,6 +1391,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AQUARIUS_L3_ANCILLARY_SST_SMI_28DAY-RUNNINGMEAN_V5.v5.0",
+        "title": "Aquarius Official Release Level 3 Ancillary Reynolds Sea Surface Temperature Standard Mapped Image 28-Day Running Mean Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-25",
+        "end_date": "2015-06-07",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491742792-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491742792-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_ANCILLARY_SST_SMI_28DAY-RUNNINGMEAN_V5.v5.0",
+        "description": "Aquarius Level 3 ancillary sea surface temperature (SST) standard mapped image data are the ancillary SST data used in the Aquarius calibration for salinity retrieval.  They are simply the daily SSTs from the Reynolds National Climatic Data Center (NCDC) 0.25 degree dataset, gridded and averaged using the Aquarius processing L2-L3 processing scheme to the same 1 degree spatial resolution and daily, 7 day, monthly, 7-Day, and annual time intervals as Aquarius L3 standard salinity and wind speed products.  This particular data set is the 28-Day running mean, ancillary sea surface temperature product associated with version 5.0  of the Aquarius data set, which is the official end of mission public data release from the AQUARIUS/SAC-D mission.",
+        "license": "not-provided"
+    },
+    {
         "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
         "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
         "catalog": "PODAAC",
@@ -1374,6 +1413,19 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549176-PODAAC.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549176-PODAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
         "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
@@ -1391,6 +1443,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image Monthly Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-09-01",
+        "end_date": "2015-06-01",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756350-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756350-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly sea surface salinity (SSS) V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
         "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
         "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image 7-Day Data V5.0",
         "catalog": "PODAAC",
@@ -1400,6 +1465,19 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549053-PODAAC.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549053-PODAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image 7-Day Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756351-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756351-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
         "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
@@ -1417,6 +1495,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_MONTHLY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image Monthly Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-09-01",
+        "end_date": "2015-06-01",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756352-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756352-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_MONTHLY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
         "id": "AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
         "title": "Aquarius CAP Level 3 Wind Speed Standard Mapped Image 7-Day Data V5.0",
         "catalog": "PODAAC",
@@ -1427,6 +1518,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549419-PODAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
         "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean wind speed V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.  The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Wind Speed Standard Mapped Image 7-Day Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757161-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757161-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean wind speed V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.  The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_WIND_SPEED_CAP_MONTHLY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Wind Speed Standard Mapped Image Monthly Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-09-01",
+        "end_date": "2015-06-01",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757162-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757162-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_WIND_SPEED_CAP_MONTHLY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly wind speed V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
     {
@@ -4079,6 +4196,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2497480059-CSDA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/CSDA/collections/QB02_Pan_L1B.v1",
         "description": "The QuickBird Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery was collected by the DigitalGlobe QuickBird-2 satellite using the Ball High Resolution Camera 60 across the global land surface from October 2001 to January 2015. This data product includes panchromatic imagery with a spatial resolution of 0.55m at nadir and a temporal resolution of 2.5 to 5.6 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+        "license": "not-provided"
+    },
+    {
+        "id": "SEAGLIDER_GUAM_2019.vV1",
+        "title": "Adaptive Sampling of Rain and Ocean Salinity from Autonomous Seagliders (Guam 2019-2020)",
+        "catalog": "POCLOUD",
+        "state_date": "2019-10-03",
+        "end_date": "2020-01-15",
+        "bbox": "143.63035, 13.39476, 144.613, 14.71229",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2151536874-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2151536874-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/SEAGLIDER_GUAM_2019.vV1",
+        "description": "This dataset was produced by the Adaptive Sampling of Rain and Ocean Salinity from Autonomous Seagliders (NASA grant NNX17AK07G) project, an investigation to develop tools and strategies to better measure the structure and variability of upper-ocean salinity in rain-dominated environments. From October 2019 to January 2020, three Seagliders were deployed near Guam (14\u00b0N 144\u00b0E). The Seaglider is an autonomous profiler measuring salinity and temperature in the upper ocean. The three gliders sampled in an adaptive formation to capture the patchiness of the rain and the corresponding oceanic response in real time. The location was chosen because of the likelihood of intense tropical rain events and the availability of a NEXRAD (S-band) rain radar at the Guam Airport. Spacing between gliders varies from 1 to 60 km. Data samples are gridded by profile and on regular depth bins from 0 to 1000 m. The time interval between profiles was about 3 hours, and they are typically about 1.5 km apart. These profiles are available at Level 2 (basic gridding) and Level 3 (despiked and interpolated). All Seaglider data files are in netCDF format with standards compliant metadata. The project was led by a team from the Applied Physics Laboratory at the University of Washington.",
         "license": "not-provided"
     },
     {
