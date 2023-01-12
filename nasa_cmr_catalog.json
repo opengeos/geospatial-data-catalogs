@@ -689,6 +689,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ACTAMERICA_MFLL_L1_1817.v1",
+        "title": "ACT-America: L1 DAOD Measurements by Airborne CO2 Lidar, Eastern USA",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2016-05-27",
+        "end_date": "2018-05-20",
+        "bbox": "-106.05, 27.23, -71.91, 49.11",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1966605694-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1966605694-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/ACTAMERICA_MFLL_L1_1817.v1",
+        "description": "This dataset provides Level 1 (L1) remotely sensed differential absorption optical depth (DAOD) measurements made through the Multi-Functional Fiber Laser Lidar (MFLL; Harris Corporation) during airborne campaigns in Summer 2016, Winter 2017, Fall 2017, and Spring 2018 conducted over central and eastern regions of the United States for the Atmospheric Carbon and Transport (ACT-America) project. DAOD were measured at 0.1 second frequency during flights of the C-130 Hercules aircraft at altitudes up to 8 km with MFLL. The MFLL is a set of Continuous-Wave (CW) lidar instruments consisting of an intensity modulated multi-frequency single-beam synchronous-detection Laser Absorption Spectrometer (LAS) operating at 1571 nm for measuring the column amount of CO2 number density and range between the aircraft and the surface or to cloud tops, and surface reflectance and a Pseudo-random Noise (PN) altimeter at 1596 nm for measuring the path length from the aircraft to the scattering surface and/or cloud tops. The MFLL was onboard all ACT-America seasonal campaigns, except Summer 2019. Complete aircraft flight information, interpolated to the 0.1 second column CO2 reporting frequency, are included, but not limited to, latitude, longitude, altitude, and attitude. Data users should note that a Level 2 (L2) MFLL data product is available (related dataset) that contains all data variables (plus the column-average CO2) included in this L1 MFLL data product but has undergone additional processing and calibrations and is recommended for most use cases.",
+        "license": "not-provided"
+    },
+    {
         "id": "ACTIVATE_Aerosol_AircraftInSitu_Falcon_Data.v1",
         "title": "ACTIVATE Falcon In Situ Aerosol Data",
         "catalog": "LARC_ASDC",
@@ -741,16 +754,16 @@
         "license": "not-provided"
     },
     {
-        "id": "ADAM.Surface.Reflectance.Database",
-        "title": "ADAM Surface Reflectance Database v4.0",
-        "catalog": "ESA",
-        "state_date": "2005-01-01",
-        "end_date": "2005-12-31",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336812-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336812-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/ADAM.Surface.Reflectance.Database",
-        "description": "ADAM enables generating typical monthly variations of the global Earth surface reflectance at 0.1\u00b0 spatial resolution (Plate Carree projection) and over the spectral range 240-4000nm.  The ADAM product is made of gridded monthly mean climatologies over land and ocean surfaces, and of a companion API toolkit that enables the calculation of hyperspectral (at 1 nm resolution over the whole 240-4000 nm spectral range) and multidirectional reflectances (i.e. in any illumination/viewing geometry) depending on user choices.  The ADAM climatologies that feed the ADAM calculation tools are:  For ocean:  monthly chlorophyll concentration derived from SeaWiFS-OrbView-2 (1999-2009); it is used to compute the water column reflectance (which shows large spectral variations in the visible, but is insignificant in the near and mid infrared). monthly wind speed derived from SeaWinds-QuikSCAT-(1999-2009); it is used to calculate the ocean glint reflectance. For land:  monthly normalized surface reflectances in the 7 MODIS narrow spectral bands derived from FondsdeSol processing chain of MOD09A1 products (derived from Aqua and Terra observations), on which relies the modelling of the hyperspectral/multidirectional surface (soil/vegetation/snow) reflectance. uncertainty variance-covariance matrix for the 7 spectral bands associated to the normalized surface reflectance. For sea-ice:  Sea ice pixels (masked in the original MOD09A1 products) have been accounted for by a gap-filling approach relying on the spatial-temporal distribution of sea ice coverage provided by the CryoClim climatology for year 2005.",
+        "id": "ACT_CASA_Ensemble_Prior_Fluxes_1675.v1.1",
+        "title": "ACT-America: Gridded Ensembles of Surface Biogenic Carbon Fluxes, 2003-2019",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2003-01-01",
+        "end_date": "2019-12-31",
+        "bbox": "-176, 0.5, -24.5, 70.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1947165563-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1947165563-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/ACT_CASA_Ensemble_Prior_Fluxes_1675.v1.1",
+        "description": "This data set provides gridded, model-derived gross primary productivity (GPP), ecosystem respiration (RECO), and net ecosystem exchange (NEE) of CO2 biogenic fluxes and their uncertainties at monthly and 3-hourly time scales over 2003-2019 on a 463-m spatial resolution grid for the conterminous United States (CONUS) and on both 5-km and half-degree spatial resolution grids for North America (NA). The biogeochemical model Carnegie Ames Stanford Approach (CASA) was used.",
         "license": "not-provided"
     },
     {
@@ -1196,71 +1209,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ALOS",
-        "title": "Alos African Coverage ESA archive",
-        "catalog": "ESA",
-        "state_date": "2006-07-09",
-        "end_date": "2009-05-12",
-        "bbox": "-26, -37, 53, 37",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336815-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336815-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/ALOS",
-        "description": "ALOS Africa is a dataset of the best available (cloud minimal, below 10%) African coverage acquired by AVNIR-2 in OBS mode and PRISM in OB1 mode (all Backward, Nadir and Forward views, in separated products), two different collections one for each instrument. The processing level for both AVNIR-2 and PRISM products is L1B.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ALOS.AVNIR-2.L1C",
-        "title": "ALOS AVNIR-2 L1C",
-        "catalog": "ESA",
-        "state_date": "2006-04-28",
-        "end_date": "2011-04-20",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2119689548-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2119689548-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/ALOS.AVNIR-2.L1C",
-        "description": "This collection is providing access to the ALOS-1 AVNIR-2 (Advanced Visible and Near Infrared Radiometer type 2) L1C data acquired by ESA stations in the ADEN zone plus some worldwide data requested by European scientists. The ADEN zone (https://earth.esa.int/eogateway/documents/20142/37627/ALOS-ADEN-Zone.pdf) was the area belonging to the European Data node and covered both the European and the African continents, large part of the Greenland and the Middle East. The full mission is covered, obviously with gaps outside to the ADEN zone: \u2022 Time windows: from 2006-04-28 to 2011-04-20 \u2022 Orbits: from 1375 to 27898 \u2022 Path (corresponds to JAXA track number): from 1 to 670 \u2022 Row (corresponds to JAXA scene centre frame number): from 370 to 5230 One single Level 1C product types is offered for the OBS instrument mode: AV2_OBS_1C.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ALOS.PALSAR.FBS.FBD.PLR.products",
-        "title": "ALOS PALSAR products",
-        "catalog": "ESA",
-        "state_date": "2006-05-02",
-        "end_date": "2011-04-14",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336814-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336814-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/ALOS.PALSAR.FBS.FBD.PLR.products",
-        "description": "The dataset contains all ESA acquisitions over the ADEN zone (Europe, Africa and the Middle East) plus some products received from JAXA over areas of interest around the world. Further information on ADEN zones can be found in this technical note (https://earth.esa.int/eogateway/documents/20142/37627/ALOS-ADEN-Zone.pdf).  ALOS PALSAR products are available in following modes:\u2022 Fine Beam Single polarisation(FBS): single polarisation (HH or VV), swath 40-70km, resolution 10m, temporal coverage from 02/05/2006 to 30/03/2011 \u2022 Fine Beam Double polarisation (FBD): double polarisation (HH/HV or VV/VH) ), swath 40-70km, resolution 10m, temporal coverage from 02/05/2006 to 30/03/2011 \u2022 Polarimetry mode (PLR), with four polarisations simultaneously: swath 30km, resolution 30m, temporal coverage from 26/08/2006 to 14/04/2011 \u2022 ScanSAR Burst mode 1 (WB1), single polarization: swath 250-350km, resolution 100m,  temporal coverage from 12/06/2006 to 21/04/2011  Following processing levels are available: \u2022 RAW( level 1.0): Raw data generated by every downlink segment and every band. Divided into an equivalent size to one scene. \u2022 GDH (level 1.5):Ground range Detected, Normal resolution product \u2022 GEC (level 1.5): Geocoded product",
-        "license": "not-provided"
-    },
-    {
-        "id": "ALOSIPY",
-        "title": "ALOS PALSAR International Polar Year Antarctica",
-        "catalog": "ESA",
-        "state_date": "2008-07-25",
-        "end_date": "2010-03-31",
-        "bbox": "-180, 0, 180, 65",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336817-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336817-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/ALOSIPY",
-        "description": "International Polar Year (IPY), focusing on the north and south polar regions, aimed to investigate the impact of how changes to the ice sheets affect ocean and climate change to the habitats in these regions. IPY was a collaborative project involving over sixty countries for two years from March 2007 to March 2009. To meet the project goal, world space agencies observed these regions intensively using their own Earth observation satellites. One of these satellites, ALOS - with the PALSAR (Phased Array type L-band Synthetic Aperture Radar) sensor - observed these regions independently from day-night conditions or weather conditions. Carrying on this initiative, ESA is providing the ALOS PALSAR IPY Antarctica dataset, which consists of full resolution ALOS PALSAR ScanSAR WB1 products (100m spatial resolution) over Antarctica from July 2008 (cycle 21) to December 2008 (Cycle 24) and from May 2009 (cycle 27) to March 2010 (cycle 31). Missing products between the two periods above is due to L0 data over Antarctica not being available in ADEN archives and not processed to L1.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ALOS_PRISM_L1B",
-        "title": "Alos PRISM L1B",
-        "catalog": "ESA",
-        "state_date": "2006-07-09",
-        "end_date": "2011-03-31",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2119689640-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2119689640-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/ALOS_PRISM_L1B",
-        "description": "This collection provides access to the ALOS-1 PRISM (Panchromatic Remote-sensing Instrument for Stereo Mapping) L1B data acquired by ESA stations in the ADEN zone plus some data requested by European scientists over their areas of interest around the world. The ADEN zone (https://earth.esa.int/eogateway/documents/20142/37627/ALOS-ADEN-Zone.pdf) was the area belonging to the European Data node and covered both the European and African continents, a large part of Greenland and the Middle East.  The full mission is covered, though with gaps outside of the ADEN zone:  Time window: from 2006-07-09 to 2011-03-31 Orbits: from 2425 to 24189 Path (corresponds to JAXA track number): from 1 to 668 Row (corresponds to JAXA scene centre frame number): from 55 to 7185. Two different Level 1B product types (Panchromatic images in VIS-NIR bands, 2.5 m resolution at nadir) are offered, one for each available sensor mode:  PSM_OB1_11 -> composed of up to three views; Nadir, Forward and Backward at 35 km swath PSM_OB2_11 -> composed of up to two views; Nadir view at 70 km width and Backward view at 35 km width. All ALOS PRISM EO-SIP products have, at least, the Nadir view which is used for the frame number identification. All views are packaged together; each view, in CEOS format, is stored in a directory named according to the view ID according to the JAXA naming convention.",
-        "license": "not-provided"
-    },
-    {
         "id": "AM1EPHNE.v6.1NRT",
         "title": "Files containing only extrapolated orbital metadata, to be read via SDP Toolkit, Binary Format",
         "catalog": "LANCEMODIS",
@@ -1341,19 +1289,6 @@
     {
         "id": "AQUARIUS_L2_SSS_V5.v5.0",
         "title": "Aquarius Official Release Level 2 Sea Surface Salinity & Wind Speed Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-08-25",
-        "end_date": "2015-06-07",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553296-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553296-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L2_SSS_V5.v5.0",
-        "description": "The version 5.0 Aquarius Level 2 product is the official third release of the orbital/swath data from AQUARIUS/SAC-D mission. The Aquarius Level 2 data set contains sea surface salinity (SSS) and wind speed data derived from 3 different radiometers and the onboard scatterometer. Included also in the Level 2 data are the horizontal and vertical brightness temperatures (TH and TV) for each radiometer, ancillary data, flags, converted telemetry and navigation data. Each data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath. Enhancements to the version 5.0 Level 2 data relative to v4.0 include: improvement of the salinity retrieval geophysical model for SST bias, estimates of SSS uncertainties (systematic and random components), and inclusion of a new spiciness variable.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L2_SSS_V5.v5.0",
-        "title": "Aquarius Official Release Level 2 Sea Surface Salinity & Wind Speed Data V5.0",
         "catalog": "POCLOUD",
         "state_date": "2011-08-25",
         "end_date": "2015-06-07",
@@ -1361,6 +1296,19 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2036882456-POCLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2036882456-POCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L2_SSS_V5.v5.0",
+        "description": "The version 5.0 Aquarius Level 2 product is the official third release of the orbital/swath data from AQUARIUS/SAC-D mission. The Aquarius Level 2 data set contains sea surface salinity (SSS) and wind speed data derived from 3 different radiometers and the onboard scatterometer. Included also in the Level 2 data are the horizontal and vertical brightness temperatures (TH and TV) for each radiometer, ancillary data, flags, converted telemetry and navigation data. Each data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath. Enhancements to the version 5.0 Level 2 data relative to v4.0 include: improvement of the salinity retrieval geophysical model for SST bias, estimates of SSS uncertainties (systematic and random components), and inclusion of a new spiciness variable.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L2_SSS_V5.v5.0",
+        "title": "Aquarius Official Release Level 2 Sea Surface Salinity & Wind Speed Data V5.0",
+        "catalog": "PODAAC",
+        "state_date": "2011-08-25",
+        "end_date": "2015-06-07",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553296-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553296-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L2_SSS_V5.v5.0",
         "description": "The version 5.0 Aquarius Level 2 product is the official third release of the orbital/swath data from AQUARIUS/SAC-D mission. The Aquarius Level 2 data set contains sea surface salinity (SSS) and wind speed data derived from 3 different radiometers and the onboard scatterometer. Included also in the Level 2 data are the horizontal and vertical brightness temperatures (TH and TV) for each radiometer, ancillary data, flags, converted telemetry and navigation data. Each data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath. Enhancements to the version 5.0 Level 2 data relative to v4.0 include: improvement of the salinity retrieval geophysical model for SST bias, estimates of SSS uncertainties (systematic and random components), and inclusion of a new spiciness variable.",
         "license": "not-provided"
     },
@@ -1380,19 +1328,6 @@
     {
         "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
         "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-08-26",
-        "end_date": "2015-06-08",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549176-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549176-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
         "catalog": "POCLOUD",
         "state_date": "2011-08-26",
         "end_date": "2015-06-08",
@@ -1400,6 +1335,19 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
+        "catalog": "PODAAC",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549176-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549176-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
         "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
@@ -1807,6 +1755,32 @@
         "license": "not-provided"
     },
     {
+        "id": "AU_DySno_NRT_R02.v2",
+        "title": "NRT AMSR2 Unified L3 Global Daily 25 km EASE-Grid Snow Water Equivalent V2",
+        "catalog": "LANCEAMSR2",
+        "state_date": "2021-04-15",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2052622563-LANCEAMSR2.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2052622563-LANCEAMSR2.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LANCEAMSR2/collections/AU_DySno_NRT_R02.v2",
+        "description": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument on the Global Change Observation Mission - Water 1 (GCOM-W1) provides global passive microwave measurements of terrestrial, oceanic, and atmospheric parameters for the investigation of global water and energy cycles.  Near real-time (NRT) products are generated within 3 hours of the last observations in the file, by the Land Atmosphere Near real-time Capability for EOS (LANCE) at the AMSR Science Investigator-led Processing System (AMSR SIPS), which is collocated with the Global Hydrology Resource Center (GHRC) DAAC.  The NRT AMSR2 Unified L3 Global Daily Snow Water Equivalent data set contains snow water equivalent (SWE) data and quality assurance flags mapped to Northern and Southern Hemisphere 25 km Equal-Area Scalable Earth Grids (EASE-Grids).  Data are stored in HDF-EOS5 format and are available via HTTP from the EOSDIS LANCE system at https://lance.nsstc.nasa.gov/amsr2-science/data/level3/daysnow/.  If data latency is not a primary concern, please consider using science quality products.  Science products are created using the best available ancillary, calibration and ephemeris information.  Science quality products are an internally consistent, well-calibrated record of the Earth's geophysical properties to support science.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AU_Land_NRT_R02.v2",
+        "title": "NRT AMSR2 Unified L2B Half-Orbit 25 km EASE-Grid Surface Soil Moisture Beta V2",
+        "catalog": "LANCEAMSR2",
+        "state_date": "2018-04-11",
+        "end_date": "",
+        "bbox": "-180, -89.24, 180, 89.24",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1514684539-LANCEAMSR2.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1514684539-LANCEAMSR2.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LANCEAMSR2/collections/AU_Land_NRT_R02.v2",
+        "description": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument on the Global Change Observation Mission - Water 1 (GCOM-W1) provides global passive microwave measurements of terrestrial, oceanic, and atmospheric parameters for the investigation of global water and energy cycles.  Near real-time (NRT) products are generated within 3 hours of the last observations in the file, by the Land Atmosphere Near real-time Capability for EOS (LANCE) at the AMSR Science Investigator-led Processing System (AMSR SIPS), which is collocated with the Global Hydrology Resource Center (GHRC) DAAC.  The GCOM-W1 NRT AMSR2 Unified L2B Half-Orbit 25 km EASE-Grid Surface Soil Moisture product is a daily measurement of surface soil moisture produced by two retrieval algorithms using resampled Tb (Level-1R) data provided by JAXA: the Normalized Polarization Difference (NPD) algorithm developed by JPL and the Single Channel Algorithm (SCA) developed by USDA.  Ancillary data include time, geolocation, and quality assessment.  Data are stored in HDF-EOS5 and netCDF4 formats and are available via HTTPS from the EOSDIS LANCE system at https://lance.nsstc.nasa.gov/amsr2-science/data/level2/land/.  If data latency is not a primary concern, please consider using science quality products.  Science products are created using the best available ancillary, calibration and ephemeris information.  Science quality products are an internally consistent, well-calibrated record of the Earth's geophysical properties to support science.  The AMSR SIPS produces AMSR2 standard science quality data products and they are available at the NSIDC DAAC.  Note:  This is the same algorithm that generates the corresponding standard science products in the AMSR SIPS.  With this beta release, we are generating NRT products in both HDF-EOS5 and netCDF with CF metadata. Version 2 corrects these issues from the previous release: a boundary condition error that resulted in the failure of a small number of version 1 product files and an error in the number of low resolution scans processed which caused only the first half of each scan to be processed.",
+        "license": "not-provided"
+    },
+    {
         "id": "AU_Ocean.v1",
         "title": "AMSR-E/AMSR2 Unified L2B Global Swath Ocean Products V001",
         "catalog": "NSIDC_ECS",
@@ -1820,6 +1794,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AU_Ocean_NRT_R01.v1",
+        "title": "NRT AMSR2 Unified L2B Global Swath Ocean Products V1",
+        "catalog": "LANCEAMSR2",
+        "state_date": "2020-06-01",
+        "end_date": "",
+        "bbox": "-180, -89, 180, 89",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1841273046-LANCEAMSR2.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1841273046-LANCEAMSR2.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LANCEAMSR2/collections/AU_Ocean_NRT_R01.v1",
+        "description": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument on the Global Change Observation Mission - Water 1 (GCOM-W1) provides global passive microwave measurements of terrestrial, oceanic, and atmospheric parameters for the investigation of global water and energy cycles.  Near real-time (NRT) products are generated within 3 hours of the last observations in the file, by the Land Atmosphere Near real-time Capability for EOS (LANCE) at the AMSR Science Investigator-led Processing System (AMSR SIPS), which is collocated with the Global Hydrology Resource Center (GHRC) DAAC.  The GCOM-W1 NRT AMSR2 Unified L2B Global Swath Ocean Products is a swath product containing global sea surface temperature over ocean, wind speed over ocean, water vapor over ocean and cloud liquid water over ocean, using resampled NRT Level-1R data provided by JAXA.  This is the same algorithm that generates the corresponding standard science products in the AMSR SIPS. The NRT products are generated in HDF-EOS-5 augmented with netCDF-4/CF metadata and are available via HTTPS from the EOSDIS LANCE system at https://lance.nsstc.nasa.gov/amsr2-science/data/level2/ocean/.  If data latency is not a primary concern, please consider using science quality products.  Science products are created using the best available ancillary, calibration and ephemeris information.  Science quality products are an internally consistent, well-calibrated record of the Earth's geophysical properties to support science.  The AMSR SIPS produces AMSR2 standard science quality data products, and they are available at the NSIDC DAAC.",
+        "license": "not-provided"
+    },
+    {
         "id": "AU_Rain.v1",
         "title": "AMSR-E/AMSR2 Unified L2B Global Swath Surface Precipitation V001",
         "catalog": "NSIDC_ECS",
@@ -1830,6 +1817,58 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1708620364-NSIDC_ECS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/AU_Rain.v1",
         "description": "This AMSR-E/AMSR2 Unified Level-2B data set reports instantaneous surface precipitation rates and types (over land and ocean) and precipitation profiles (over ocean). The data are derived by applying the AMSR-E/AMSR2 unified algorithm to L1R data obtained by the Advanced Microwave Scanning Radiometer (AMSR) for EOS (AMSR-E) and AMSR2 instruments.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AU_Rain_NRT_R02.v2",
+        "title": "NRT AMSR2 Unified Global Swath Surface Precipitation GSFC Profiling Algorithm V2",
+        "catalog": "LANCEAMSR2",
+        "state_date": "2021-10-01",
+        "end_date": "",
+        "bbox": "-180, -89, 180, 89",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2152626500-LANCEAMSR2.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2152626500-LANCEAMSR2.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LANCEAMSR2/collections/AU_Rain_NRT_R02.v2",
+        "description": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument on the Global Change Observation Mission - Water 1 (GCOM-W1) provides global passive microwave measurements of terrestrial, oceanic, and atmospheric parameters for the investigation of global water and energy cycles.  Near real-time (NRT) products are generated within 3 hours of the last observations in the file, by the Land Atmosphere Near real-time Capability for EOS (LANCE) at the AMSR Science Investigator-led Processing System (AMSR SIPS), which is collocated with the Global Hydrology Resource Center (GHRC) DAAC.  The GCOM-W1 NRT AMSR2 Unified Global Swath Surface Precipitation GSFC Profiling Algorithm is a swath product containing global rain rate and type, calculated by the GPROF 2017 V2R rainfall retrieval algorithm using resampled NRT Level-1R data provided by JAXA. This is the same algorithm that generates the corresponding standard science products in the AMSR SIPS. The NRT products are generated in HDF-EOS-5 augmented with netCDF-4/CF metadata and are available via HTTPS from the EOSDIS LANCE system at https://lance.nsstc.nasa.gov/amsr2-science/data/level2/rain/.  If data latency is not a primary concern, please consider using science quality products.  Science products are created using the best available ancillary, calibration and ephemeris information.  Science quality products are an internally consistent, well-calibrated record of the Earth's geophysical properties to support science.  The AMSR SIPS produces AMSR2 standard science quality data products, and they are available at the NSIDC DAAC.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AU_SI12_NRT_R04.v4",
+        "title": "NRT AMSR2 Unified L3 Daily 12.5 km Brightness Temperature & Sea Ice Concentration V4",
+        "catalog": "LANCEAMSR2",
+        "state_date": "2020-06-29",
+        "end_date": "",
+        "bbox": "-180, -89, 180, 89",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1886605827-LANCEAMSR2.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1886605827-LANCEAMSR2.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LANCEAMSR2/collections/AU_SI12_NRT_R04.v4",
+        "description": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument on the Global Change Observation Mission - Water 1 (GCOM-W1) provides global passive microwave measurements of terrestrial, oceanic, and atmospheric parameters for the investigation of global water and energy cycles. Near real-time (NRT) products are generated within 3 hours of the last observations in the file, by the Land Atmosphere Near real-time Capability for EOS (LANCE) at the AMSR Science Investigator-led Processing System (AMSR SIPS), which is collocated with the Global Hydrology Resource Center (GHRC) DAAC.  The NRT AMSR2 Unified L3 Daily 12.5 km Brightness Temperature & Sea Ice Concentration, Version 4 uses as input the resampled brightness temperature (Level-1R) data provided by the Japanese Aerospace Exploration Agency (JAXA).  The Version 4 dataset uses the AMSR-U2 product generation algorithm with slight modifications for NRT product generation, same algorithm used to generation the standard, science quality, data that is available at the NSIDC DAAC.  This Level-3 gridded product includes brightness temperatures at 89.0 GHz. Data are mapped to a polar stereographic grid at 12.5 km spatial resolution. Sea ice concentration and brightness temperatures include daily ascending averages, daily descending averages, and daily averages. Data are stored in HDF-EOS5 format and are available via HTTP from the EOSDIS LANCE system at https://lance.nsstc.nasa.gov/amsr2-science/data/level3/seaice12.  If data latency is not a primary concern, please consider using science quality products. Science products are created using the best available ancillary, calibration and ephemeris information. Science quality products are an internally consistent, well-calibrated record of the Earth's geophysical properties to support science. These standard product, science quality, are available at the NSIDC DAAC: https://nsidc.org/",
+        "license": "not-provided"
+    },
+    {
+        "id": "AU_SI25_NRT_R04.v4",
+        "title": "NRT AMSR2 Unified L3 Daily 25 km Brightness Temperature & Sea Ice Concentration Polar Grids V4",
+        "catalog": "LANCEAMSR2",
+        "state_date": "2020-06-29",
+        "end_date": "",
+        "bbox": "-180, -89, 180, 89",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1886605830-LANCEAMSR2.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1886605830-LANCEAMSR2.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LANCEAMSR2/collections/AU_SI25_NRT_R04.v4",
+        "description": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument on the Global Change Observation Mission - Water 1 (GCOM-W1) provides global passive microwave measurements of terrestrial, oceanic, and atmospheric parameters for the investigation of global water and energy cycles. Near real-time (NRT) products are generated within 3 hours of the last observations in the file, by the Land Atmosphere Near real-time Capability for EOS (LANCE) at the AMSR Science Investigator-led Processing System (AMSR SIPS), which is collocated with the Global Hydrology Resource Center (GHRC) DAAC.  The NRT AMSR2 Unified L3 Daily 25 km Brightness Temperature & Sea Ice Concentration Polar Grids, Version 4 uses as input the resampled brightness temperature (Level-1R) data provided by the Japanese Aerospace Exploration Agency (JAXA).  The Version 4 dataset uses the AMSR-U2 product generation algorithm with slight modifications for NRT product generation, same algorithm used to generation the standard, science quality, data that is available at the NSIDC DAAC.  This Level-3 gridded product includes brightness temperatures at 6.9 through 89.0 GHz and sea ice concentrations.  Data are mapped to a polar stereographic grid at 25 km spatial resolution.   Sea ice concentration and brightness temperatures include daily ascending averages, daily descending averages, and daily averages. Data are stored in HDF-EOS5 format and are available via HTTP from the EOSDIS LANCE system at https://lance.nsstc.nasa.gov/amsr2-science/data/level3/seaice25.  If data latency is not a primary concern, please consider using science quality products. Science products are created using the best available ancillary, calibration and ephemeris information. Science quality products are an internally consistent, well-calibrated record of the Earth's geophysical properties to support science. These standard product, science quality, are available at the NSIDC DAAC: https://nsidc.org/",
+        "license": "not-provided"
+    },
+    {
+        "id": "AU_SI6_NRT_R04.v4",
+        "title": "NRT AMSR2 Unified L3 Daily 6.25 km Polar Gridded 89 GHz Brightness Temperatures V4",
+        "catalog": "LANCEAMSR2",
+        "state_date": "2020-06-29",
+        "end_date": "",
+        "bbox": "-180, -89, 180, 89",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1886605828-LANCEAMSR2.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1886605828-LANCEAMSR2.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LANCEAMSR2/collections/AU_SI6_NRT_R04.v4",
+        "description": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument on the Global Change Observation Mission - Water 1 (GCOM-W1) provides global passive microwave measurements of terrestrial, oceanic, and atmospheric parameters for the investigation of global water and energy cycles. Near real-time (NRT) products are generated within 3 hours of the last observations in the file, by the Land Atmosphere Near real-time Capability for EOS (LANCE) at the AMSR Science Investigator-led Processing System (AMSR SIPS), which is collocated with the Global Hydrology Resource Center (GHRC) DAAC.  The NRT AMSR2 Unified L3 Daily 6.25 km Polar Gridded 89 GHz Brightness Temperatures, Version 4 uses as input the resampled brightness temperature (Level-1R) data provided by the Japanese Aerospace Exploration Agency (JAXA).  The Version 4 dataset uses the AMSR-U2 product generation algorithm with slight modifications for NRT product generation, same algorithm used to generation the standard, science quality, data that is available at the NSIDC DAAC.  This Level-3 gridded product includes brightness temperatures at 89.0 GHz. Data are mapped to a polar stereographic grid at 6.25 km spatial resolution. This product is an intermediate product during processing of LANCE AMSR2 Level-3 sea ice products at 12.5 km and 25 km resolution. Data are stored in HDF-EOS5/netCDF-CF  format and are available via HTTP from the EOSDIS LANCE system at https://lance.nsstc.nasa.gov/amsr2-science/data/level3/seaice6.  If data latency is not a primary concern, please consider using science quality products. Science products are created using the best available ancillary, calibration and ephemeris information. Science quality products are an internally consistent, well-calibrated record of the Earth's geophysical properties to support science. These standard product, science quality, are available at the NSIDC DAAC: https://nsidc.org/",
         "license": "not-provided"
     },
     {
@@ -2080,6 +2119,136 @@
         "license": "not-provided"
     },
     {
+        "id": "CIESIN_SEDAC_EPI_2008.v2008.00",
+        "title": "2008 Environmental Performance Index (EPI)",
+        "catalog": "SEDAC",
+        "state_date": "1994-01-01",
+        "end_date": "2007-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179001707-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179001707-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_EPI_2008.v2008.00",
+        "description": "The 2008 Environmental Performance Index (EPI) centers on two broad environmental protection objectives: (1) reducing environmental stresses on human health, and (2) promoting ecosystem vitality and sound natural resource management. Derived from a careful review of the environmental literature, these twin goals mirror the priorities expressed by policymakers. Environmental health and ecosystem vitality are gauged using 25 indicators tracked in six well-established policy categories: Environmental Health (Environmental Burden of Disease, Water, and Air Pollution), Air Pollution (effects on ecosystems), Water (effects on ecosystems), Biodiversity and Habitat, Productive Natural Resources (Forestry, Fisheries, and Agriculture), and Climate Change. The 2008 EPI utilizes a proximity-to-target methodology in which performance on each indicator is rated on a 0 to 100 scale (100 represents \u00ef\u00bf\u00bdat target\u00ef\u00bf\u00bd). By identifying specific targets and measuring how close each country comes to them, the EPI provides a foundation for policy analysis and a context for evaluating performance. Issue-by-issue and aggregate rankings facilitate cross-country comparisons both globally and within relevant peer groups. The 2008 EPI is the result of collaboration among the Yale Center for Environmental Law and Policy (YCELP), Columbia University Center for International Earth Science Information Network (CIESIN), World Economic Forum (WEF), and the Joint Research Centre (JRC), European Commission.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_EPI_2010.v2010.00",
+        "title": "2010 Environmental Performance Index (EPI)",
+        "catalog": "SEDAC",
+        "state_date": "1994-01-01",
+        "end_date": "2009-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179002147-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179002147-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_EPI_2010.v2010.00",
+        "description": "The 2010 Environmental Performance Index (EPI) ranks 163 countries on environmental performance based on twenty-five indicators grouped within ten core policy categories addressing environmental health, air quality, water resource management, biodiversity and habitat, forestry, fisheries, agriculture, and climate change in the context of two broad objectives: environmental health and ecosystem vitality. The EPI\u00ef\u00bf\u00bds proximity-to-target methodology facilitates cross-country comparisons  among economic and regional peer groups. It was formally released in Davos, Switzerland, at the annual meeting of the World Economic Forum on January 28, 2010. The 2010 EPI is the result of collaboration between the Yale Center for Environmental Law and Policy (YCELP) and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_EPI_2012.v2012.00",
+        "title": "2012 Environmental Performance Index and Pilot Trend Environmental Performance Index",
+        "catalog": "SEDAC",
+        "state_date": "2000-01-01",
+        "end_date": "2010-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000000-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000000-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_EPI_2012.v2012.00",
+        "description": "The 2012 Environmental Performance Index (EPI) ranks 132 countries on 22 performance indicators in the following 10 policy categories:  environmental burden of disease, water (effects on human health), air pollution (effects on human health), air pollution (ecosystem effects), water resources (ecosystem effects), biodiversity and habitat, forestry, fisheries, agriculture and climate change. These categories track performance and progress on two broad policy objectives, environmental health and ecosystem vitality. Each indicator has an associated environmental public health or ecosystem sustainability target. The EPI's proximity-to-target methodology facilitates cross-country comparisons among economic and regional peer groups.      The Pilot Trend Environmental Performance Index (Trend EPI) ranks countries on the change in their environmental performance over the last decade. As a complement to the EPI, the Trend EPI shows who is improving and who is declining over time.       The 2012 EPI and Pilot Trend EPI were formally released in Davos, Switzerland, at the annual meeting of the World Economic Forum on January 27, 2012. These are the result of collaboration between the Yale Center for Environmental Law and Policy (YCELP) and the Columbia University Center for International Earth Science Information Network (CIESIN). The Interactive Website for the 2012 EPI is at http://epi.yale.edu/.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_EPI_2014.v2014.00",
+        "title": "2014 Environmental Performance Index (EPI)",
+        "catalog": "SEDAC",
+        "state_date": "2002-01-01",
+        "end_date": "2014-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000541-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000541-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_EPI_2014.v2014.00",
+        "description": "The 2014 Environmental Performance Index (EPI) ranks 178 countries on 20 performance indicators in the following 9 policy categories: health impacts, air quality, water and sanitation, water resources, agriculture, forests, fisheries, biodiversity and habitat, and climate and energy. These categories track performance and progress on two broad policy objectives, environmental health and ecosystem vitality. The EPI's proximity-to-target methodology facilitates cross-country comparisons among economic and regional peer groups. The data set includes the 2014 EPI and component scores, backcast EPI scores for 2002-2012, and time-series source data. The 2014 EPI was formally released in Davos, Switzerland, at the annual meeting of the World Economic Forum on January 25, 2014. These are the result of collaboration between the Yale Center for Environmental Law and Policy (YCELP) and the Columbia University Center for International Earth Science Information Network (CIESIN). The Interactive Website for the 2014 EPI is at http://epi.yale.edu/.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_EPI_2016.v2016.00",
+        "title": "2016 Environmental Performance Index (EPI)",
+        "catalog": "SEDAC",
+        "state_date": "1950-01-01",
+        "end_date": "2016-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1419908204-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1419908204-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_EPI_2016.v2016.00",
+        "description": "The 2016 Environmental Performance Index (EPI) ranks 180 countries on 20 performance indicators in the following 9 policy categories: health impacts, air quality, water and sanitation, water resources, agriculture, forests, fisheries, biodiversity and habitat, and climate and energy. These categories track performance and progress on two broad policy objectives, environmental health and ecosystem vitality. The EPI's proximity-to-target methodology facilitates cross-country comparisons among economic and regional peer groups. The data set includes the 2016 EPI and component scores, backcast EPI scores for 1950-2016, and time-series source data. The 2016 EPI was formally released in Davos, Switzerland, at the annual meeting of the World Economic Forum on January 23, 2016. These are the result of collaboration between the Yale Center for Environmental Law and Policy (YCELP) and Yale Data-Driven Environmental Solutions Group, Yale University, Columbia University Center for International Earth Science Information Network (CIESIN), and the World Economic Forum (WEF). The Interactive Website for the 2016 EPI is at https://epi.yale.edu.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_ESI_2000.v2000.00",
+        "title": "2000 Pilot Environmental Sustainability Index (ESI)",
+        "catalog": "SEDAC",
+        "state_date": "1978-01-01",
+        "end_date": "1999-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179001887-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179001887-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_ESI_2000.v2000.00",
+        "description": "The 2000 Pilot Environmental Sustainability Index (ESI) is an exploratory effort to construct an index that measures the ability of a nation's economy to achieve sustainable development, with the long term goal of finding a single indicator for environmental sustainability analagous to that of the Gross Domestic Product (GDP). The index covering 56 countries is a composite measure of the current status of a nation's environmental systems, pressures on those systems, human vulnerability to environmental change, national capacity to respond, and contributions to global environmental stewardship. The index was unveiled at the World Economic Forum's annual meeting, January 2000, Davos, Switzerland. The 2000 Pilot ESI is the result of collaboration among the World Economic Forum (WEF), Yale Center for Environmental Law and Policy (YCELP), and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_ESI_2001.v2001.00",
+        "title": "2001 Environmental Sustainability Index (ESI)",
+        "catalog": "SEDAC",
+        "state_date": "1980-01-01",
+        "end_date": "2000-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000220-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000220-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_ESI_2001.v2001.00",
+        "description": "The 2001 Environmental Sustainability Index (ESI) utilizes a refined methodology based on the 2000 Pilot ESI effort, to construct an index covering 122 countries that measures the overall progress towards environmental sustainability. The index is a composite measure of the current status of a nation's environmental systems, pressures on those systems, human vulnerability to environmental change, national capacity to respond, and contributions to global environmental stewardship. The refinements included the addition and deletion of indicators, filling gaps in data coverage, new data sets, and the modification of the aggregation scheme. The index was unveiled at the World Economic Forum's annual meeting, January 2001, Davos, Switzerland. The 2001 ESI is the result of collaboration among the World Economic Forum (WEF), Yale Center for Environmental Law and Policy (YCELP), and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_ESI_2002.v2002.00",
+        "title": "2002 Environmental Sustainability Index (ESI)",
+        "catalog": "SEDAC",
+        "state_date": "1980-01-01",
+        "end_date": "2000-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179001967-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179001967-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_ESI_2002.v2002.00",
+        "description": "The 2002 Environmental Sustainability Index (ESI) measures overall progress toward environmental sustainability for 142 countries based on  environmental systems, stresses, human vulnerability, social and institutional capacity and global stewardship. The addition of a climate change indicator, reduction in number of capacity indicators, and  an improved imputation methodology contributed to an improvement from the 2001 ESI. The index was unveiled at the World Economic Forum's annual meeting, January 2002, New York. The 2002 ESI is the result of collaboration among the World Economic Forum (WEF), Yale Center for Environmental Law and Policy (YCELP), and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_ESI_2005.v2005.00",
+        "title": "2005 Environmental Sustainability Index (ESI)",
+        "catalog": "SEDAC",
+        "state_date": "1980-01-01",
+        "end_date": "2000-12-31",
+        "bbox": "-180, -55, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179001889-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179001889-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_ESI_2005.v2005.00",
+        "description": "The 2005 Environmental Sustainability Index (ESI) is a measure of overall progress towards environmental sustainability, developed for 146 countries.  The index provides a composite profile of national environmental stewardship based on a compilation of 21 indicators derived from 76 underlying data sets. The 2005 version of the ESI represents a significant update and improvement on earlier versions; the country ESI scores or rankings should not be compared to earlier versions because of changes to the methodology and underlying data. The index was unveiled at the World Economic Forum's annual meeting, January 2005, Davos, Switzerland. The 2005 ESI is a joint product of the Yale Center for Environmental Law and Policy (YCELP) and the Columbia University Center for International Earth Science Information Network (CIESIN), in collaboration with the World Economic Forum (WEF) and the Joint Research Centre (JRC), European Commission.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CIESIN_SEDAC_USPAT_USUEXT2015.v1.00",
+        "title": "2015 Urban Extents from VIIRS and MODIS for the Continental U.S. Using Machine Learning Methods",
+        "catalog": "SEDAC",
+        "state_date": "2015-01-01",
+        "end_date": "2015-12-31",
+        "bbox": "-180, -56, 180, 84",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1648035940-SEDAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1648035940-SEDAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SEDAC/collections/CIESIN_SEDAC_USPAT_USUEXT2015.v1.00",
+        "description": "The 2015 Urban Extents from VIIRS and MODIS for the Continental U.S. Using Machine Learning Methods data set models urban settlements in the Continental United States (CONUS) as of 2015. When applied to the combination of daytime spectral and nighttime lights satellite data, the machine learning methods achieved high accuracy at an intermediate-resolution of 500 meters at large spatial scales. The input data for these models were two types of satellite imagery: Visible Infrared Imaging Radiometer Suite (VIIRS) Nighttime Light (NTL) data from the Day/Night Band (DNB), and Moderate Resolution Imaging Spectroradiometer (MODIS) corrected daytime Normalized Difference Vegetation Index (NDVI). Although several machine learning methods were evaluated, including Random Forest (RF), Gradient Boosting Machine (GBM), Neural Network (NN), and the Ensemble of RF, GBM, and NN (ESB), the highest accuracy results were achieved with NN, and those results were used to delineate the urban extents in this data set.",
+        "license": "not-provided"
+    },
+    {
         "id": "CLDMSK_L2_VIIRS_NOAA20_NRT.v1",
         "title": "VIIRS/NOAA-20 Cloud Mask L2 6-Min Swath 750m (NRT)",
         "catalog": "ASIPS",
@@ -2327,32 +2496,6 @@
         "license": "not-provided"
     },
     {
-        "id": "EO1_ALI.v1",
-        "title": "Earth Observing-1 Advanced Land Imager V1",
-        "catalog": "USGS_EROS",
-        "state_date": "2001-05-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1379757686-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1379757686-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/EO1_ALI.v1",
-        "description": "Abstract: The Earth Observing-1(EO-1) satellite was launched on November 21, 2000 by the U.S. Geological Survey (USGS) and the National Aeronautics and Space Administration (NASA) as a one-year technology demonstration mission to evaluate the performance of advanced capabilities for future space missions. The EO-1 mission validated highly integrated multispectral data from the Advanced Land Imager (ALI) sensor and hyperspectral imaging data from the Hyperion sensor. After the initial technology mission was accomplished, NASA and the USGS agreed to continue the EO-1 program due to high interest in the specialized data from scientific communities. EO-1 Data products consist of imagery collected during the original one-year mission, as well as more recent Data Acquisition Requests (DARs) from the EO-1 Extended Mission. EO-1 scenes are processed to Level 1Gst (L1Gst) and images with adequate ground control points are processed to Level 1T (L1T). L1Gst and L1T products are provided in GeoTIFF format. Scenes that have been processed to L1T are also available as Full Resolution Browse and GIS Ready Bundle products in JPEG format. Level 1R (L1R) products in HDF format are only available for Hyperion data. More information about the EO-1 products including processing level information can be found at https://lta.cr.usgs.gov/ALI.",
-        "license": "not-provided"
-    },
-    {
-        "id": "EO1_Hyperion.v1",
-        "title": "Earth Observing-1 Hyperion V1",
-        "catalog": "USGS_EROS",
-        "state_date": "2001-05-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1379758136-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1379758136-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/EO1_Hyperion.v1",
-        "description": "Abstract: The Earth Observing-1(EO-1) satellite was launched on November 21, 2000 by the U.S. Geological Survey (USGS) and the National Aeronautics and Space Administration (NASA) as a one-year technology demonstration mission to evaluate the performance of advanced capabilities for future space missions. The EO-1 mission validated highly integrated multispectral data from the Advanced Land Imager (ALI) sensor and hyperspectral imaging data from the Hyperion sensor. After the initial technology mission was accomplished, NASA and the USGS agreed to continue the EO-1 program due to high interest in the specialized data from scientific communities. EO-1 Data products consist of imagery collected during the original one-year mission, as well as more recent Data Acquisition Requests (DARs) from the EO-1 Extended Mission. EO-1 scenes are processed to Level 1Gst (L1Gst) and images with adequate ground control points are processed to Level 1T (L1T). L1Gst and L1T products are provided in GeoTIFF format. Scenes that have been processed to L1T are also available as Full Resolution Browse and GIS Ready Bundle products in JPEG format. Level 1R (L1R) products in HDF format are only available for Hyperion data. More information about the EO-1 products including processing level information can be found at https://lta.cr.usgs.gov/ALI. ",
-        "license": "not-provided"
-    },
-    {
         "id": "EO:EUM:CM:METOP:ASCSZFR02.v2014-10-07",
         "title": "ASCAT L1 SZF Climate Data Record Release 2 - Metop",
         "catalog": "EUMETSAT",
@@ -2480,32 +2623,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1588901374-EUMETSAT.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/EUMETSAT/collections/EO:EUM:DAT:METOP:SOMO25.v2010-06-21",
         "description": "The Surface Soil Moisture L2 product is derived from the Advanced SCATterometer (ASCAT) data and given in swath geometry. This product provides an estimate of the water saturation of the 5 cm topsoil layer, in relative units between 0 and 100 [%]. The algorithm used to derive this parameter is based on a linear relationship of soil moisture and scatterometer backscatter and uses change detection techniques to eliminate the contributions of vegetation, land cover and surface topography, considered invariant from year to year. Seasonal vegetation effects are modelled by exploiting the multiple viewing capabilities of ASCAT. The processor has been developed by the Institute of Photogrammetry and Remote Sensing of the Vienna University of Technology. Note that some of the data are reprocessed. Please refer to the associated product validation reports or product release notes for further information.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ETM.v1",
-        "title": "Tri-Decadal Global Landsat Orthorectified ETM+ Reg Scene V1",
-        "catalog": "USGS_EROS",
-        "state_date": "1999-06-29",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C162886581-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C162886581-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/ETM.v1",
-        "description": " Abstract: The Landsat Orthorectified data collection consists of a global set of high-quality, relatively cloud-free orthorectified MSS, TM and ETM+ imagery from Landsats 1-5 and 7. This dataset was selected and generated through NASA's Commercial Remote Sensing Program, as part of a cooperative effort between NASA and the commercial remote sensing community to provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. The data collection was compiled via NASA contract with Earth Satellite Corporation (Rockville, MD) in association with NASA's Scientific Data Purchase program. The Landsat Orthorectified data collection consists of approximately 7,500 MSS (Landsat 1-5) images, 7,461 TM (Landsat 4-5) images and approximately 8,500 ETM+ (Landsat 7) images, which were selected to provide two full sets of global coverage over an approximate 10-year interval (circa 1990 and circa 2000). All selected images were either cloud-free or contained minimal cloud cover. In addition, only images with a high quality ranking in regards to the possible presence of errors such as missing scans or saturated bands were selected. Purpose: To provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. Supplemental_Information: The average acquisition date for the Landsat Orthorectified ETM+ data is 2000 (+/- 1 year). All scenes were acquired between 1999 and 2001. These data have been orthorectified for coregistration with the earlier (circa 1990) Landsat TM coverage.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ETMPAN.v1",
-        "title": "Tri-Decadal Global Landsat Orthorectified ETM+ Pan Scene V1",
-        "catalog": "USGS_EROS",
-        "state_date": "1999-06-29",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C162886584-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C162886584-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/ETMPAN.v1",
-        "description": " Abstract: The Landsat Orthorectified data collection consists of a global set of high-quality, relatively cloud-free orthorectified MSS, TM and ETM+ imagery from Landsats 1-5 and 7. This dataset was selected and generated through NASA's Commercial Remote Sensing Program, as part of a cooperative effort between NASA and the commercial remote sensing community to provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. The data collection was compiled via NASA contract with Earth Satellite Corporation (Rockville, MD) in association with NASA's Scientific Data Purchase program. The Landsat Orthorectified data collection consists of approximately 7,500 MSS (Landsat 1-5) images, 7,461 TM (Landsat 4-5) images and approximately 8,500 ETM+ (Landsat 7) images, which were selected to provide two full sets of global coverage over an approximate 10-year interval (circa 1990 and circa 2000). All selected images were either cloud-free or contained minimal cloud cover. In addition, only images with a high quality ranking in regards to the possible presence of errors such as missing scans or saturated bands were selected. Purpose: To provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. Supplemental_Information: The average acquisition date for the Landsat Orthorectified ETM+ data is 2000 (+/- 1 year). All scenes were acquired between 1999 and 2001. These data have been orthorectified for coregistration with the earlier (circa 1990) Landsat TM coverage.",
         "license": "not-provided"
     },
     {
@@ -2782,6 +2899,19 @@
         "license": "not-provided"
     },
     {
+        "id": "HALO_LiDAR_AOP_ML_Heights_1833.v1",
+        "title": "ACT-America: HALO Lidar Measurements of AOP and ML Heights, 2019",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2019-06-17",
+        "end_date": "2019-07-28",
+        "bbox": "-102, 28, -73, 50",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2575353759-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2575353759-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/HALO_LiDAR_AOP_ML_Heights_1833.v1",
+        "description": "This dataset provides measurements from the High Altitude Lidar Observatory (HALO) instrument, an airborne multi-function Differential Absorption Lidar (DIAL) and High Spectral Resolution Lidar (HSRL), operating at 532 nm and 1064 nm wavelengths onboard a C-130 aircraft during the June and July 2019 ACT-America campaign. The flights took place over eastern and central North America based from Shreveport, Louisiana; Lincoln, Nebraska; and NASA Wallops Flight Facility located on the eastern shore of Virginia. HALO data were sampled at 0.5 s temporal and 1.25 m vertical resolutions. The data include profiles of aerosol optical properties (AOP), distributions of mixed layer heights (MLH), columns of tropospheric methane, and navigation parameters. The data are provided in HDF5 format along with PNG images and a companion files in Portable Document (*.pdf) format.",
+        "license": "not-provided"
+    },
+    {
         "id": "HLSL30.v2.0",
         "title": "HLS Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30m v2.0",
         "catalog": "LPCLOUD",
@@ -2831,19 +2961,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214622602-ISRO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ISRO/collections/IMS1_HYSI_GEO.v1.0",
         "description": "The data received from IMS1, HySI which operates in 64 spectral bands in VNIR bands(400-900nm) with 500 meter spatial resolution and swath of 128 kms.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ISERV.v1",
-        "title": "International Space Station SERVIR Environmental Research and Visualization System V1",
-        "catalog": "USGS_EROS",
-        "state_date": "2013-03-27",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/ISERV.v1",
-        "description": "Abstract: The ISS SERVIR Environmental Research and Visualization System (ISERV) acquired images of the Earth's surface from the International Space Station (ISS). The goal was to improve automatic image capturing and data transfer. ISERV's main component was the optical assembly which consisted of a 9.25 inch Schmidt-Cassegrain telescope, a focal reducer (field of view enlarger), a digital single lens reflex camera, and a high precision focusing mechanism. A motorized 2-axis pointing mount allowed pointing at targets approximately 23 degrees from nadir in both along- and across-track directions.",
         "license": "not-provided"
     },
     {
@@ -3003,32 +3120,6 @@
         "license": "not-provided"
     },
     {
-        "id": "L1B_Wind_Products",
-        "title": "Aeolus preliminary HLOS (horizontal line-of-sight) wind observations for Rayleigh and Mie receivers",
-        "catalog": "ESA",
-        "state_date": "2020-04-20",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2119689596-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2119689596-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/L1B_Wind_Products",
-        "description": "The Level 1B wind product of the Aeolus mission contains the preliminary HLOS (horizontal line-of-sight) wind observations for Rayleigh and Mie receivers, which are generated in Near Real Time. Standard atmospheric correction (Rayleigh channel), receiver response and bias correction is applied. The product is generated within 3 hours after data acquisition.",
-        "license": "not-provided"
-    },
-    {
-        "id": "L2B_Wind_Products",
-        "title": "Aeolus Scientific L2B Rayleigh/Mie wind product",
-        "catalog": "ESA",
-        "state_date": "2020-04-20",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2119689544-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2119689544-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/L2B_Wind_Products",
-        "description": "The Level 2B wind product of the Aeolus mission is a geo-located consolidated HLOS (horizontal line-of-sight) wind observation with actual atmospheric correction applied to Rayleigh channel. The product is generated by within 3 hours after data acquisition.",
-        "license": "not-provided"
-    },
-    {
         "id": "LAI_WOODY_PLANTS_1231.v1",
         "title": "A Global Database of Field-observed Leaf Area Index in Woody Plant Species, 1932-2011",
         "catalog": "ORNL_DAAC",
@@ -3081,19 +3172,6 @@
         "license": "not-provided"
     },
     {
-        "id": "Level_2A_aerosol_cloud_optical_products",
-        "title": "Aeolus L2A Aerosol/Cloud optical product",
-        "catalog": "ESA",
-        "state_date": "2021-05-26",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207498185-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207498185-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/Level_2A_aerosol_cloud_optical_products",
-        "description": "The Level 2A aerosol/cloud optical products of the Aeolus mission include geo-located consolidated backscatter and extinction profiles, backscatter-to-extinction coefficient, LIDAR ratio, scene classification, heterogeneity index and attenuated backscatter signals.   Resolution -        Horizontal resolution of L2A optical properties at observation scale (~87 km);          Exceptions are group properties (horizontal accumulation of measurements from ~3 km to ~87 km) and attenuated backscatters (~3 km);           Note: the resolution of \"groups\" in the L2A can only go down to 5 measurements at the moment, i.e. ~15 km horizontal resolution. This could be configured to go to 1 measurement -        Vertical resolution 250-2000 m (Defined by Range Bin Settings https://earth.esa.int/eogateway/instruments/aladin/overview-of-the-main-wind-rbs-changes).",
-        "license": "not-provided"
-    },
-    {
         "id": "MCD06COSP_D3_MODIS.v6.1",
         "title": "MODIS (Aqua/Terra) Cloud Properties Level 3 daily, 1x1 degree grid",
         "catalog": "LAADS",
@@ -3117,6 +3195,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1888024429-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MCD06COSP_M3_MODIS.v6.1",
         "description": "The combined MODIS (Aqua/Terra) Cloud Properties Level 3 monthly, 1x1 degree grid product represents a new addition that is especially geared to facilitate climate scientists who deal with both models and observations. MCD06COSP_D3_MODIS represents the daily product\u2019s short-name.  The \u201cCOSP\u201d acronym in its short-name stands for  Cloud Feedback Model Intercomparison Project (CFMIP) Observation Simulator Package. The L3 monthly product is derived by aggregating the daily-produced Aqua+Terra/MODIS D3 Cloud Properties product (MCD06COSP_D3_MODIS).  Provided in netCDF4 format, it contains 23 aggregated science data sets (SDS/parameters).",
+        "license": "not-provided"
+    },
+    {
+        "id": "MCD14DL_C5_NRT.v005",
+        "title": "MODIS/Aqua+Terra Thermal Anomalies/Fire locations 1km FIRMS V005 NRT",
+        "catalog": "LM_FIRMS",
+        "state_date": "2014-01-28",
+        "end_date": "",
+        "bbox": "-180, -80, 180, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LM_FIRMS/collections/MCD14DL_C5_NRT.v005",
+        "description": "Near Real-Time (NRT) MODIS Thermal Anomalies / Fire locations processed by FIRMS (Fire Information for Resource Management System) - Land Atmosphere Near real time Capability for EOS (LANCE), using swath products (MOD14/MYD14) rather than the tiled MOD14A1 and MYD14A1 products. The thermal anomalies / active fire represent the center of a 1km pixel that is flagged by the MODIS MOD14/MYD14 Fire and Thermal Anomalies algorithm (Giglio 2003) as containing one or more fires within the pixel. This is the most basic fire product in which active fires and other thermal anomalies, such as volcanoes, are identified.MCD14DL are available in the following formats: TXT, SHP, KML, WMS. These data are also provided through the FIRMS Fire Email Alerts. Please note only the TXT and SHP files contain all the attributes.",
         "license": "not-provided"
     },
     {
@@ -3208,45 +3299,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1398625065-MOPITT.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/MOPITT/collections/MOP02R_NRT.v5",
         "description": "MOPITT Retrieved CO Near Real Time data produced as a LANCE Element.",
-        "license": "not-provided"
-    },
-    {
-        "id": "MOSAICETM.v1",
-        "title": "Tri-Decadal Global Landsat Orthorectified ETM+ Pan Mosaic V1",
-        "catalog": "USGS_EROS",
-        "state_date": "1999-06-29",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C162886583-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C162886583-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/MOSAICETM.v1",
-        "description": " Abstract: The Landsat Orthorectified data collection consists of a global set of high-quality, relatively cloud-free orthorectified MSS, TM and ETM+ imagery from Landsats 1-5 and 7. This dataset was selected and generated through NASA's Commercial Remote Sensing Program, as part of a cooperative effort between NASA and the commercial remote sensing community to provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. The data collection was compiled via NASA contract with Earth Satellite Corporation (Rockville, MD) in association with NASA's Scientific Data Purchase program. The Landsat Orthorectified data collection consists of approximately 7,500 MSS (Landsat 1-5) images, 7,461 TM (Landsat 4-5) images and approximately 8,500 ETM+ (Landsat 7) images, which were selected to provide two full sets of global coverage over an approximate 10-year interval (circa 1990 and circa 2000). All selected images were either cloud-free or contained minimal cloud cover. In addition, only images with a high quality ranking in regards to the possible presence of errors such as missing scans or saturated bands were selected. Purpose: To provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. Supplemental_Information: The average acquisition date for the Landsat Orthorectified ETM+ data is 2000 (+/- 1 year). All scenes were acquired between 1999 and 2001. These data have been orthorectified for coregistration with the earlier (circa 1990) Landsat TM coverage.",
-        "license": "not-provided"
-    },
-    {
-        "id": "MOSAICTM.v1",
-        "title": "Tri-Decadal Global Landsat Orthorectified TM Mosaic V1",
-        "catalog": "USGS_EROS",
-        "state_date": "1984-04-13",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C162886586-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C162886586-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/MOSAICTM.v1",
-        "description": " Abstract: The Landsat Orthorectified data collection consists of a global set of high-quality, relatively cloud-free orthorectified MSS, TM and ETM+ imagery from Landsats 1-5 and 7. This dataset was selected and generated through NASA's Commercial Remote Sensing Program, as part of a cooperative effort between NASA and the commercial remote sensing community to provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. The data collection was compiled via NASA contract with Earth Satellite Corporation (Rockville, MD) in association with NASA's Scientific Data Purchase program. The Landsat Orthorectified data collection consists of approximately 7,500 MSS (Landsat 1-5) images, 7,461 TM (Landsat 4-5) images and approximately 8,500 ETM+ (Landsat 7) images, which were selected to provide two full sets of global coverage over an approximate 10-year interval (circa 1990 and circa 2000). All selected images were either cloud-free or contained minimal cloud cover. In addition, only images with a high quality ranking in regards to the possible presence of errors such as missing scans or saturated bands were selected. Purpose: To provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. Supplemental_Information: The average acquisition date for the Landsat Orthorectified ETM+ data is 2000 (+/- 1 year). All scenes were acquired between 1999 and 2001. These data have been orthorectified for coregistration with the earlier (circa 1990) Landsat TM coverage.",
-        "license": "not-provided"
-    },
-    {
-        "id": "MSS.v1",
-        "title": "Tri-Decadal Global Landsat Orthorectified MSS Scene V1",
-        "catalog": "USGS_EROS",
-        "state_date": "1972-07-25",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C162886585-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C162886585-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/MSS.v1",
-        "description": " Abstract: The Landsat Orthorectified data collection consists of a global set of high-quality, relatively cloud-free orthorectified MSS, TM and ETM+ imagery from Landsats 1-5 and 7. This dataset was selected and generated through NASA's Commercial Remote Sensing Program, as part of a cooperative effort between NASA and the commercial remote sensing community to provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. The data collection was compiled via NASA contract with Earth Satellite Corporation (Rockville, MD) in association with NASA's Scientific Data Purchase program. The Landsat Orthorectified data collection consists of approximately 7,500 MSS (Landsat 1-5) images, 7,461 TM (Landsat 4-5) images and approximately 8,500 ETM+ (Landsat 7) images, which were selected to provide two full sets of global coverage over an approximate 10-year interval (circa 1990 and circa 2000). All selected images were either cloud-free or contained minimal cloud cover. In addition, only images with a high quality ranking in regards to the possible presence of errors such as missing scans or saturated bands were selected. Purpose: To provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. Supplemental_Information: The average acquisition date for the Landsat Orthorectified ETM+ data is 2000 (+/- 1 year). All scenes were acquired between 1999 and 2001. These data have been orthorectified for coregistration with the earlier (circa 1990) Landsat TM coverage.",
         "license": "not-provided"
     },
     {
@@ -3416,19 +3468,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2196591903-MLHUB.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/MLHUB/collections/Marine Debris Dataset for Object Detection in Planetscope Imagery.v1",
         "description": "Floating marine debris is a global pollution problem which leads to the loss of marine and terrestrial biodiversity. Large swaths of marine debris are also navigational hazards to ocean vessels. The use of Earth observation data and artificial intelligence techniques can revolutionize the detection of floating marine debris on satellite imagery and pave the way to a global monitoring system for controlling and preventing the accumulation of marine debris in oceans. This dataset consists of images of marine debris which are 256 by 256 pixels in size and labels which are bounding boxes with geographical coordinates. The images were obtained from PlanetScope optical imagery which has a spatial resolution of approximately 3 meters. In this dataset, marine debris consists of floating objects on the ocean surface which can belong to one or more classes namely plastics, algae, sargassum, wood, and other artificial items. Several studies were used for data collection and validation. While a small percentage of the dataset represents the coastlines of Ghana and Greece, most of the observations surround the Bay Islands in Honduras. The marine debris detection models created and the relevant code for using this dataset can be found here. https://github.com/NASA-IMPACT/marine_debris_ML",
-        "license": "not-provided"
-    },
-    {
-        "id": "NASA_OMI",
-        "title": "Aura OMI complete NASA dataset",
-        "catalog": "ESA",
-        "state_date": "2004-10-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336929-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336929-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/NASA_OMI",
-        "description": "The OMI observations provide the following capabilities and features: \u2022  A mapping of ozone columns at 13 km x 24 km and profiles at 13 km x 48 km \u2022  A measurement of key air quality components: NO2, SO2, BrO, HCHO, and aerosol \u2022 The ability to distinguish between aerosol types, such as smoke, dust and sulfates \u2022 The ability to measure aerosol absorption capacity in terms of aerosol absorption optical depth or single scattering albedo \u2022 A measurement of cloud pressure and coverage \u2022 A mapping of the global distribution and trends in UV-B radiation   The OMI data are available in the following four levels: Level 0, Level 1B, Level 2, and Level 3. \u2022 Level 0 products are raw sensor counts. Level 0 data are packaged into two-hour \"chunks\" of observations in the life of the spacecraft (and the OMI aboard it) irrespective of orbital boundaries. They contain orbital swath data. \u2022 Level 1B processing takes Level 0 data and calibrates, geo-locates and packages the data into orbits. They contain orbital swath data. \u2022 Level 2 products contain orbital swath data. \u2022 Level 3 products contain global data that are composited over time (daily or monthly) or over space for small equal angle (latitude longitude) grids covering the whole globe.",
         "license": "not-provided"
     },
     {
@@ -3962,19 +4001,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214313847-AU_AADC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/Survey_1988_89_Mawson_npcms.v1",
         "description": "Field season report of these programs: 1988/89 Summer Season surveying and mapping North Prince Charles Mountains; ...mapping program Northern PCM's - Mawson Doppler Translocation Support; ....mapping program Voyage 6 stopover Davis. Includes maps and mapsheet layouts.  See the report for full details on the program.  Contents are: Introduction Preparation Voytage to Antarctica 1988/89 Summer Season Surveying and Mapping Program, Northern Prince Charles Mountains 1988/89 Summer Season Surveying and Mapping Program, Voyage 6 Stopover, Davis Performance of Equipment Station Marking Field Camping Climatic Conditions Conclusion Appendices ",
-        "license": "not-provided"
-    },
-    {
-        "id": "TM.v1",
-        "title": "Tri-Decadal Global Landsat Orthorectified TM Scene V1",
-        "catalog": "USGS_EROS",
-        "state_date": "1984-04-13",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C162886582-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C162886582-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/TM.v1",
-        "description": " Abstract: The Landsat Orthorectified data collection consists of a global set of high-quality, relatively cloud-free orthorectified MSS, TM and ETM+ imagery from Landsats 1-5 and 7. This dataset was selected and generated through NASA's Commercial Remote Sensing Program, as part of a cooperative effort between NASA and the commercial remote sensing community to provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. The data collection was compiled via NASA contract with Earth Satellite Corporation (Rockville, MD) in association with NASA's Scientific Data Purchase program. The Landsat Orthorectified data collection consists of approximately 7,500 MSS (Landsat 1-5) images, 7,461 TM (Landsat 4-5) images and approximately 8,500 ETM+ (Landsat 7) images, which were selected to provide two full sets of global coverage over an approximate 10-year interval (circa 1990 and circa 2000). All selected images were either cloud-free or contained minimal cloud cover. In addition, only images with a high quality ranking in regards to the possible presence of errors such as missing scans or saturated bands were selected. Purpose: To provide users with access to quality-screened, high-resolution satellite images with global coverage over the Earth's land masses. Supplemental_Information: The average acquisition date for the Landsat Orthorectified ETM+ data is 2000 (+/- 1 year). All scenes were acquired between 1999 and 2001. These data have been orthorectified for coregistration with the earlier (circa 1990) Landsat TM coverage.",
         "license": "not-provided"
     },
     {
