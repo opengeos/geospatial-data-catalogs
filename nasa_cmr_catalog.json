@@ -2522,6 +2522,19 @@
         "license": "not-provided"
     },
     {
+        "id": "EMITL1BATT.v001",
+        "title": "EMIT L1B Corrected Spacecraft Attitude and Ephemeris V001",
+        "catalog": "LPCLOUD",
+        "state_date": "2022-07-27",
+        "end_date": "",
+        "bbox": "-180, -52, 180, 52",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2408031090-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2408031090-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/EMITL1BATT.v001",
+        "description": "The Earth Surface Mineral Dust Source Investigation (EMIT) instrument measures surface mineralogy, targeting the Earth\u2019s arid dust source regions. EMIT is installed on the International Space Station (ISS). During its one-year mission, EMIT will take mineralogical measurements of the sunlit regions of interest between 52\u00b0 N latitude and 52\u00b0 S latitude. A map of the regions being investigated can be found on the EMIT website. The EMIT Level 1B Corrected Spacecraft Attitude and Ephemeris (EMITL1BATT) Version 1 data product provides both corrected and uncorrected attitude quaternions and spacecraft ephemeris data obtained from the ISS, including Earth-centered inertial (ECI) position and velocity, and associated time elements. The data are provided in 1 second intervals, and each product file contains vectors from the duration of the orbit. The time elements are copied from the ISS raw data. The data for each EMITL1BATT granule are delivered in a single Network Common Data Format 4 (NetCDF4) file.",
+        "license": "not-provided"
+    },
+    {
         "id": "EMITL1BRAD.v001",
         "title": "EMIT L1B At-Sensor Calibrated Radiance and Geolocation Data 60 m V001",
         "catalog": "LPCLOUD",
@@ -2987,19 +3000,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2575353759-ORNL_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/HALO_LiDAR_AOP_ML_Heights_1833.v1",
         "description": "This dataset provides measurements from the High Altitude Lidar Observatory (HALO) instrument, an airborne multi-function Differential Absorption Lidar (DIAL) and High Spectral Resolution Lidar (HSRL), operating at 532 nm and 1064 nm wavelengths onboard a C-130 aircraft during the June and July 2019 ACT-America campaign. The flights took place over eastern and central North America based from Shreveport, Louisiana; Lincoln, Nebraska; and NASA Wallops Flight Facility located on the eastern shore of Virginia. HALO data were sampled at 0.5 s temporal and 1.25 m vertical resolutions. The data include profiles of aerosol optical properties (AOP), distributions of mixed layer heights (MLH), columns of tropospheric methane, and navigation parameters. The data are provided in HDF5 format along with PNG images and a companion files in Portable Document (*.pdf) format.",
-        "license": "not-provided"
-    },
-    {
-        "id": "HLSL30.v2.0",
-        "title": "HLS Landsat Operational Land Imager Surface Reflectance and TOA Brightness Daily Global 30m v2.0",
-        "catalog": "LPCLOUD",
-        "state_date": "2013-04-11",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2021957657-LPCLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2021957657-LPCLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/HLSL30.v2.0",
-        "description": "The Harmonized Landsat Sentinel-2 (HLS) project provides consistent surface reflectance (SR) and top of atmosphere (TOA) brightness data from a virtual constellation of satellite sensors. The Operational Land Imager (OLI) is housed aboard the joint NASA/USGS Landsat 8 and Landsat 9 satellites, while the Multi-Spectral Instrument (MSI) is mounted aboard Europe\u2019s Copernicus Sentinel-2A and Sentinel-2B satellites. The combined measurement enables global observations of the land every 2\u20133 days at 30-meter (m) spatial resolution. The HLS project uses a set of algorithms to obtain seamless products from OLI and MSI that include atmospheric correction, cloud and cloud-shadow masking, spatial co-registration and common gridding, illumination and view angle normalization, and spectral bandpass adjustment.    The HLSL30 product provides 30-m Nadir Bidirectional Reflectance Distribution Function (BRDF)-Adjusted Reflectance (NBAR) and is derived from Landsat 8/9 OLI data products. The HLSS30 and HLSL30 products are gridded to the same resolution and Military Grid Reference System (MGRS)(https://hls.gsfc.nasa.gov/products-description/tiling-system/) tiling system, and thus are \u201cstackable\u201d for time series analysis.    The HLSL30 product is provided in Cloud Optimized GeoTIFF (COG) format, and each band is distributed as a separate file. There are 11 bands included in the HLSL30 product along with one quality assessment (QA) band and four angle bands. See the User Guide for a more detailed description of the individual bands provided in the HLSL30 product.",
         "license": "not-provided"
     },
     {
