@@ -279,10 +279,19 @@
         "RequesterPays": null
     },
     {
-        "Name": "Sentinel-2",
+        "Name": "Sentinel-2 - Level 1C scenes and metadata, in [Requester Pays](https:--docs.aws.amazon.com-AmazonS3-latest-dev-RequesterPaysBuckets.html) S3 bucket",
         "Endpoint": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l1c",
         "Description": "Level 1C scenes and metadata, in [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html) S3 bucket",
         "ARN": "arn:aws:s3:::sentinel-s2-l1c",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": true
+    },
+    {
+        "Name": "Sentinel-2 - Level 2A scenes and metadata, in [Requester Pays](https:--docs.aws.amazon.com-AmazonS3-latest-dev-RequesterPaysBuckets.html) S3 bucket",
+        "Endpoint": "https://sentinel-s2-l2a-stac.s3.amazonaws.com/",
+        "Description": "Level 2A scenes and metadata, in [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html) S3 bucket",
+        "ARN": "arn:aws:s3:::sentinel-s2-l2a",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "RequesterPays": true
