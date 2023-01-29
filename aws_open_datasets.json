@@ -996,11 +996,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
+        "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1016,11 +1016,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
+        "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1800,7 +1800,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -1818,7 +1818,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5133,6 +5133,26 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
+        ],
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
         "Region": "eu-central-1",
         "Type": "SNS Topic",
@@ -5149,14 +5169,12 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
-        ],
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5189,10 +5207,10 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
@@ -5215,24 +5233,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -6359,6 +6359,42 @@
         "License": "MIT-0",
         "Tags": "amazon.science, traffic, transportation, graph",
         "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Mars Spectrometry 2: Gas Chromatography for the Sample Analysis at Mars Data (SAM) Instrument",
+        "Description": "GCMS SAM Instrument Exploration Dataset",
+        "ARN": "arn:aws:s3:::gcms-samdata-mlchallenge",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://pds-geosciences.wustl.edu/missions/msl/sam.htm",
+        "Contact": "victoria.dapoian@nasa.gov, eric.i.lyness@nasa.gov",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "\"Static dataset for the commercial data. When more data is collected on the SAM ",
+        "License": "There are no restrictions on the use, access, and/or download of data from the N",
+        "Tags": "aws-pds, analytics, archives, deep learning, planetary, machine learning",
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Mars Spectrometry: Detect Evidence for Past Habitability",
+        "Description": "EGAMS SAM Instrument Exploration Dataset",
+        "ARN": "arn:aws:s3:::egams-samdata-mlchallenge",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://pds-geosciences.wustl.edu/missions/msl/sam.htm",
+        "Contact": "victoria.dapoian@nasa.gov , eric.i.lyness@nasa.gov",
+        "ManagedBy": "NASA",
+        "UpdateFrequency": "Static dataset for the commercial dataWhen more data is collected on the SAM ins",
+        "License": "There are no restrictions on the use, access, and/or download of data from the N",
+        "Tags": "aws-pds, analytics, archives, deep learning, planetary, machine learning",
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -9289,7 +9325,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -9307,7 +9343,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -12579,12 +12615,32 @@
         "Host": null
     },
     {
+        "Name": "Sentinel Near Real-time Canada Mirror",
+        "Description": "Sentinel data in an S3 bucket broken down by sensor, product type and date",
+        "ARN": "arn:aws:s3:::sentinel-products-ca-mirror",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://sentinel.esa.int/web/sentinel/home",
+        "Contact": "eodms-sgdot@nrcan-rncan.gc.ca",
+        "ManagedBy": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
+        "UpdateFrequency": "Sentinel-1 is a near real-time (NRT) dataset retrieved from ESA's [collaborative",
+        "License": "Access to Sentinel data is free, full and open for the broad Regional, National,",
+        "Tags": "aws-pds, agriculture, earth observation, satellite imagery, geospatial, sustainability, disaster response, synthetic aperture radar, stac",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Sentinel-1 - GRD in a Requester Pays S3 bucket",
         "Description": "GRD in a Requester Pays S3 bucket",
         "ARN": "arn:aws:s3:::sentinel-s1-l1c",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
-        "Explore": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://sentinel-s1-l1c-stac.s3.amazonaws.com/)"
+        ],
         "Documentation": "https://roda.sentinel-hub.com/sentinel-s1-l1c/GRD/readme.html",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
@@ -12676,7 +12732,8 @@
         "Type": "S3 Bucket",
         "Explore": [
             "[Earth Search STAC L1C Collection](https://earth-search.aws.element84.com/v1/collections/sentinel-2-l1c)",
-            "[STAC Browser L1C Collection](https://radiantearth.github.io/stac-browser/#/external/earth-search.aws.element84.com/v1/collections/sentinel-2-l1c)"
+            "[Earth Search STAC Browser L1C Collection](https://radiantearth.github.io/stac-browser/#/external/earth-search.aws.element84.com/v1/collections/sentinel-2-l1c)",
+            "[STAC V1.0.0 endpoint](https://sentinel-s2-l1c-stac.s3.amazonaws.com/)"
         ],
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/se",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
@@ -12695,7 +12752,9 @@
         "ARN": "arn:aws:s3:::sentinel-s2-l2a",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
-        "Explore": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://sentinel-s2-l2a-stac.s3.amazonaws.com/)"
+        ],
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/se",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
@@ -14404,7 +14463,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -14422,7 +14481,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
