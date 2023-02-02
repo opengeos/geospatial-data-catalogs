@@ -492,6 +492,25 @@
         "AccountRequired": null
     },
     {
+        "Name": "CMAS Data Warehouse - CMAQ 2018 Modeling Platform",
+        "Description": "CMAQ 2018 Modeling Platform",
+        "ARN": "arn:aws:s3:::cmas-cmaq-modeling-platform-2018",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://cmas-cmaq-modeling-platform-2018.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://paste",
+        "Tags": "aws-pds, air quality, meteorological, geospatial, environmental, sustainability, climate",
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "CMAS Data Warehouse - CMAQ CONUS-2 Benchmark Data",
         "Description": "CMAQ CONUS-2 Benchmark Data",
         "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
@@ -2558,6 +2577,23 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -2575,10 +2611,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
@@ -2611,10 +2647,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
@@ -2647,12 +2683,14 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2681,14 +2719,12 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
-        ],
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2708,23 +2744,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -7486,9 +7505,9 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
         "Description": "Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
-        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-mogreps-g-prd",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-mogreps-g-prd",
         "Region": "eu-west-2",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
@@ -7503,9 +7522,9 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
         "Description": "Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-mogreps-g-prd",
+        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-mogreps-g-prd",
         "Region": "eu-west-2",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
@@ -7765,15 +7784,17 @@
     },
     {
         "Name": "Sentinel Near Real-time Canada Mirror",
-        "Description": "Sentinel data in an S3 bucket broken down by sensor, product type and date",
+        "Description": "NRT Sentinel data in an S3 bucket broken down by sensor, product type and date",
         "ARN": "arn:aws:s3:::sentinel-products-ca-mirror",
         "Region": "ca-central-1",
         "Type": "S3 Bucket",
-        "Explore": null,
+        "Explore": [
+            "[EODMS STAC for Sentinel products](https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/)"
+        ],
         "Documentation": "https://sentinel.esa.int/web/sentinel/home",
         "Contact": "eodms-sgdot@nrcan-rncan.gc.ca",
         "ManagedBy": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
-        "UpdateFrequency": "Sentinel-1 is a near real-time (NRT) dataset retrieved from ESA's [collaborative",
+        "UpdateFrequency": "Sentinel-1 is an NRT dataset retrieved from ESA's [collaborative hub](https://co",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National,",
         "Tags": "aws-pds, agriculture, earth observation, satellite imagery, geospatial, sustainability, disaster response, synthetic aperture radar, stac",
         "RequesterPays": null,
