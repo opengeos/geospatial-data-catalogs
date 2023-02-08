@@ -1032,11 +1032,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
+        "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1052,11 +1052,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
+        "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -2979,6 +2979,26 @@
         "Host": null
     },
     {
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Demand-Side Grid Model (dsgrid) Data from the Electrification Futures Project (E",
+        "Description": "Demand-Side Grid Model (dsgrid) Data from the Electrification Futures Project (E",
+        "ARN": "arn:aws:s3:::oedi-data-lake/dsgrid-2018-efs/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=dsgrid-2018-efs%2F)"
+        ],
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": "aws-pds, energy, environmental, sustainability, geospatial, model, solar, lidar",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Distributed Generation Market Demand (dGen) model",
         "Description": "Distributed Generation Market Demand (dGen) model",
         "ARN": "arn:aws:s3:::oedi-data-lake/dgen/",
@@ -2999,13 +3019,13 @@
         "Host": null
     },
     {
-        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - End-Use Load Profiles for the US Building Stock",
-        "Description": "End-Use Load Profiles for the US Building Stock",
-        "ARN": "arn:aws:s3:::oedi-data-lake/nrel-pds-building-stock/",
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - EGS Collab Experiment 1: Continuous Active-Source Seismic Monitoring (CASSM) Dat",
+        "Description": "EGS Collab Experiment 1: Continuous Active-Source Seismic Monitoring (CASSM) Dat",
+        "ARN": "arn:aws:s3:::oedi-data-lake/egs_collab/EGS_CASSM/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=egs_collab%2FEGS_CASSM%2F)"
         ],
         "Documentation": "https://github.com/openEDI/documentation/",
         "Contact": "https://github.com/openEDI/documentation/issues",
@@ -3019,13 +3039,13 @@
         "Host": null
     },
     {
-        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Lawrence Berkeley National Laboratory (LBNL) AlphaBuilding-SyntheticDataset",
-        "Description": "Lawrence Berkeley National Laboratory (LBNL) AlphaBuilding-SyntheticDataset",
-        "ARN": "arn:aws:s3:::oedi-data-lake/building_synthetic_dataset/A_Synthetic_Building_Operation_Dataset.h5",
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - End-Use Load Profiles for the US Building Stock",
+        "Description": "End-Use Load Profiles for the US Building Stock",
+        "ARN": "arn:aws:s3:::oedi-data-lake/nrel-pds-building-stock/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=building_synthetic_dataset%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2F)"
         ],
         "Documentation": "https://github.com/openEDI/documentation/",
         "Contact": "https://github.com/openEDI/documentation/issues",
@@ -3119,6 +3139,26 @@
         "Host": null
     },
     {
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - PR100: Puerto Rico Grid Resilience and Transition to 100% Renewable Energy",
+        "Description": "PR100: Puerto Rico Grid Resilience and Transition to 100% Renewable Energy",
+        "ARN": "arn:aws:s3:::oedi-data-lake/PR100/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=PR100%2F)"
+        ],
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": "aws-pds, energy, environmental, sustainability, geospatial, model, solar, lidar",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Photovoltaic Data Acquisition (PVDAQ) Public Datasets",
         "Description": "Photovoltaic Data Acquisition (PVDAQ) Public Datasets",
         "ARN": "arn:aws:s3:::oedi-data-lake/pvdaq/",
@@ -3139,13 +3179,13 @@
         "Host": null
     },
     {
-        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Sample IEEE123 Bus system for OEDI SI",
-        "Description": "Sample IEEE123 Bus system for OEDI SI",
-        "ARN": "arn:aws:s3:::gadal/gadal_ieee123/",
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Synthetic Models for Advanced, Realistic Testing: Distribution systems and Scena",
+        "Description": "Synthetic Models for Advanced, Realistic Testing: Distribution systems and Scena",
+        "ARN": "arn:aws:s3:::oedi-data-lake/SMART-DS/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gadal&prefix=gadal_ieee123%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=SMART-DS%2F)"
         ],
         "Documentation": "https://github.com/openEDI/documentation/",
         "Contact": "https://github.com/openEDI/documentation/issues",
@@ -3159,13 +3199,13 @@
         "Host": null
     },
     {
-        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Synthetic Models for Advanced, Realistic Testing: Distribution systems and Scena",
-        "Description": "Synthetic Models for Advanced, Realistic Testing: Distribution systems and Scena",
-        "ARN": "arn:aws:s3:::oedi-data-lake/SMART-DS/",
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Tidal Resource Data from Sequim Bay Inlet, WA, August 2020",
+        "Description": "Tidal Resource Data from Sequim Bay Inlet, WA, August 2020",
+        "ARN": "arn:aws:s3:::oedi-data-lake/primre/sequim-tidal-resource/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=SMART-DS%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=primre%2Fsequim-tidal-resource%2F)"
         ],
         "Documentation": "https://github.com/openEDI/documentation/",
         "Contact": "https://github.com/openEDI/documentation/issues",
@@ -5151,26 +5191,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
         "Type": "SNS Topic",
@@ -5187,12 +5207,14 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5225,14 +5247,12 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
-        ],
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5263,13 +5283,13 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
-        "Region": "sa-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
+        "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
         ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
@@ -5289,6 +5309,26 @@
         "Region": "sa-east-1",
         "Type": "SNS Topic",
         "Explore": null,
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5441,6 +5481,26 @@
         "UpdateFrequency": "Occasionally as new derived files (alignment files or variant call files) are ge",
         "License": "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)",
         "Tags": "bioinformatics, life sciences, genetic, genomic, fastq, short read sequencing, long read sequencing, whole exome sequencing, whole genome sequencing",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Grid Algorithms and Data Analytics Library (GADAL)",
+        "Description": "Sample IEEE123 Bus system for OEDI SI",
+        "ARN": "arn:aws:s3:::gadal/gadal_ieee123/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gadal&prefix=gadal_ieee123%2F)"
+        ],
+        "Documentation": "https://github.com/openEDI/GADAL",
+        "Contact": "https://github.com/openEDI/GADAL/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": "aws-pds, energy, environmental, sustainability, model",
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -9419,7 +9479,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -9437,7 +9497,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -10065,6 +10125,26 @@
         "Host": null
     },
     {
+        "Name": "NREL Wind Integration National Dataset - Great Lakes wind resource data (2000-2020) in HDF5 format",
+        "Description": "Great Lakes wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/Great_Lakes/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Great_Lakes%2F)"
+        ],
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": "aws-pds, environmental, geospatial, meteorological, sustainability",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "NREL Wind Integration National Dataset - Gulf of Mexico wind resource data (2000-2020) in HDF5 format",
         "Description": "Gulf of Mexico wind resource data (2000-2020) in HDF5 format",
         "ARN": "arn:aws:s3:::nrel-pds-wtk/gulf_of_mexico/",
@@ -10325,6 +10405,26 @@
         "Host": null
     },
     {
+        "Name": "NREL Wind Integration National Dataset - Puerto Rico wind resource data (2001-2020) in HDF5 format",
+        "Description": "Puerto Rico wind resource data (2001-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/pr100/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=pr100%2F)"
+        ],
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": "aws-pds, environmental, geospatial, meteorological, sustainability",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "NREL Wind Integration National Dataset - Source files for WIND Toolkit CONUS (2007-2014)",
         "Description": "Source files for WIND Toolkit CONUS (2007-2014)",
         "ARN": "arn:aws:s3:::nrel-pds-wtk/conus/",
@@ -10392,6 +10492,46 @@
         "Type": "S3 Bucket",
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-us%2F)"
+        ],
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": "aws-pds, environmental, geospatial, meteorological, sustainability",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset - Southeast Asia wind resource data (2017-2021) in HDF5 format",
+        "Description": "Southeast Asia wind resource data (2017-2021) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind%2F)"
+        ],
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": "aws-pds, environmental, geospatial, meteorological, sustainability",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset - Southeast Asia wind resource data v2 (2007-2021) in HDF5 format",
+        "Description": "Southeast Asia wind resource data v2 (2007-2021) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind_v2/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind_v2%2F)"
         ],
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
         "Contact": "wind-toolkit@nrel.gov",
@@ -12285,9 +12425,9 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
         "Description": "Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-global-prd",
+        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-global-prd",
         "Region": "eu-west-2",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
@@ -12303,9 +12443,9 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
         "Description": "Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
-        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-global-prd",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-global-prd",
         "Region": "eu-west-2",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
@@ -14577,7 +14717,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -14595,7 +14735,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
