@@ -2509,6 +2509,25 @@
         "AccountRequired": null
     },
     {
+        "Name": "Ensemble Meteorological Dataset for Planet Earth, EM-Earth",
+        "Description": "Ensemble Meteorological Dataset for Planet Earth, EM-Earth",
+        "ARN": "arn:aws:s3:::emearth",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://emearth.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://doi.org/10.20383/102.0547",
+        "Contact": "shervan.gharari@usask.ca",
+        "ManagedBy": "Computational Hydrology, University of Saskatchewan",
+        "UpdateFrequency": "N/A",
+        "License": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommo",
+        "Tags": "atmosphere, netcdf, near-surface air temperature, precipitation, meteorological",
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Finnish Meteorological Institute Weather Radar Data - Notifications for new GeoTIFF data",
         "Description": "Notifications for new GeoTIFF data",
         "ARN": "arn:aws:sns:eu-west-1:916174725480:fmi-opendata-radar-geotiff-object_created",
@@ -2634,12 +2653,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2653,10 +2670,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2742,6 +2761,23 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -2759,10 +2795,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
@@ -2784,23 +2820,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5676,7 +5695,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -5693,7 +5712,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -7725,9 +7744,9 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
         "Description": "Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-ukv-prd",
+        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-ukv-prd",
         "Region": "eu-west-2",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
@@ -7742,9 +7761,9 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
         "Description": "Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
-        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-ukv-prd",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-ukv-prd",
         "Region": "eu-west-2",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",

@@ -38,8 +38,8 @@
     {
         "Name": "1000 Genomes Phase 3 Reanalysis with DRAGEN 3.5 and 3.7 - BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
         "Description": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
-        "ARN": "arn:aws:s3:::1000genomes-dragen-v3.7.6",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::1000genomes-dragen-3.7.6",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "[DRAGEN Support Resources](https://support.illumina.com/sequencing/sequencing_so",
@@ -56,8 +56,8 @@
     {
         "Name": "1000 Genomes Phase 3 Reanalysis with DRAGEN 3.5 and 3.7 - BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
         "Description": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
-        "ARN": "arn:aws:s3:::1000genomes-dragen-3.7.6",
-        "Region": "us-west-2",
+        "ARN": "arn:aws:s3:::1000genomes-dragen-v3.7.6",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "[DRAGEN Support Resources](https://support.illumina.com/sequencing/sequencing_so",
@@ -1032,11 +1032,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
+        "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1052,11 +1052,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
+        "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -4443,6 +4443,26 @@
         "Host": null
     },
     {
+        "Name": "Ensemble Meteorological Dataset for Planet Earth, EM-Earth",
+        "Description": "Ensemble Meteorological Dataset for Planet Earth, EM-Earth",
+        "ARN": "arn:aws:s3:::emearth",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://emearth.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://doi.org/10.20383/102.0547",
+        "Contact": "shervan.gharari@usask.ca",
+        "ManagedBy": "Computational Hydrology, University of Saskatchewan",
+        "UpdateFrequency": "N/A",
+        "License": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://creativecommo",
+        "Tags": "atmosphere, netcdf, near-surface air temperature, precipitation, meteorological",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Epoch of Reionization Dataset",
         "Description": "Selected MWA EoR data (uvfits format) from 2013-2015",
         "ARN": "arn:aws:s3:::mwapublic",
@@ -5305,6 +5325,24 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -5323,10 +5361,10 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
@@ -5349,24 +5387,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -12443,24 +12463,6 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
         "Description": "Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
-        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-global-prd",
-        "Region": "eu-west-2",
-        "Type": "SNS Topic",
-        "Explore": null,
-        "Documentation": "https://github.com/MetOffice/aws-earth-examples",
-        "Contact": "https://www.metoffice.gov.uk/about-us/contact",
-        "ManagedBy": "[UK Met Office](https://www.metoffice.gov.uk/)",
-        "UpdateFrequency": "Daily (with 24 hour delay)",
-        "License": "This data is made available under a [Creative Commons licence](https://creativec",
-        "Tags": "aws-pds, agriculture, earth observation, climate, weather, meteorological, sustainability",
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
-        "Description": "Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
         "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-global-prd",
         "Region": "eu-west-2",
         "Type": "S3 Bucket",
@@ -12477,11 +12479,11 @@
         "Host": null
     },
     {
-        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
-        "Description": "Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-mogreps-g-prd",
+        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
+        "Description": "Met Office Global Atmospheric Hi-Res Model - 10km Deterministic",
+        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-global-prd",
         "Region": "eu-west-2",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
@@ -12500,6 +12502,24 @@
         "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-mogreps-g-prd",
         "Region": "eu-west-2",
         "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://github.com/MetOffice/aws-earth-examples",
+        "Contact": "https://www.metoffice.gov.uk/about-us/contact",
+        "ManagedBy": "[UK Met Office](https://www.metoffice.gov.uk/)",
+        "UpdateFrequency": "Daily (with 24 hour delay)",
+        "License": "This data is made available under a [Creative Commons licence](https://creativec",
+        "Tags": "aws-pds, agriculture, earth observation, climate, weather, meteorological, sustainability",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
+        "Description": "Met Office Global and Regional Ensemble Prediction System (Global) - MOGREPS-G",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-mogreps-g-prd",
+        "Region": "eu-west-2",
+        "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
