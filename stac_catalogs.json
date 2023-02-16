@@ -28,12 +28,12 @@
     {
         "title": "CBERS and Amazonia-1 on AWS",
         "id": 8,
-        "url": "https://stac.amskepler.com/v100",
+        "url": "https://stac.amskepler.com/v100/",
         "slug": "cbers",
         "summary": "Imagery acquired by the China-Brazil Earth Resources (CBERS) and Amazonia-1 satellites. The image files are recorded and processed by INPE and are converted to Cloud Optimized Geotiff format in order to optimize its use for cloud based applications. Daily updated and hosted on AWS.",
         "access": "public",
         "created": "2020-08-20T00:00:00.000Z",
-        "updated": "2022-08-31T19:00:00.000Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -176,7 +176,7 @@
         "summary": "Some open data sets from the Russian Federal Space Agency, e.g. from the Meteor-M and Electro-L satellites.",
         "access": "public",
         "created": "2022-10-19T08:47:28.185Z",
-        "updated": "2022-10-19T08:47:28.185Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -184,12 +184,12 @@
     {
         "title": "Earth Search",
         "id": 2,
-        "url": "https://earth-search.aws.element84.com/v0",
+        "url": "https://earth-search.aws.element84.com/v0/",
         "slug": "earth-search",
         "summary": "A STAC API of [AWS Public Datasets](https://registry.opendata.aws/).",
         "access": "public",
         "created": "2020-08-20T00:00:00.000Z",
-        "updated": "2020-08-20T00:00:00.000Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -223,12 +223,12 @@
     {
         "title": "FAIRiCUBE Hub Catalog",
         "id": 58,
-        "url": "https://catalog.fairicube.eu/stac/index.json ",
+        "url": "https://catalog.fairicube.eu/stac/index.json",
         "slug": "fairicube-hub-catalog",
         "summary": "A STAC catalog that contains all collections available on the FAIRiCUBE Hub and within the Sentinel Hub openEO backend.",
         "access": "public",
         "created": "2022-12-20T08:10:04.157Z",
-        "updated": "2022-12-20T08:10:04.157Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -275,12 +275,12 @@
     {
         "title": "Google Earth Engine (openEO)",
         "id": 6,
-        "url": "https://earthengine.openeo.org/v1.0",
+        "url": "https://earthengine.openeo.org/v1.0/",
         "slug": "google-earth-engine-openeo",
         "summary": "This is the Google Earth Engine Driver for openEO. Google Earth Engine is a planetary-scale platform for Earth science data & analysis. It is powered by Google's cloud infrastructure and combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. Google makes it available for scientists, researchers, and developers to detect changes, map trends, and quantify differences on the Earth's surface.",
         "access": "public",
         "created": "2020-08-20T00:00:00.000Z",
-        "updated": "2020-08-20T00:00:00.000Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -301,12 +301,12 @@
     {
         "title": "MSC GeoMet - GeoMet-OGC-API",
         "id": 29,
-        "url": "https://api.weather.gc.ca/stac?f=json",
+        "url": "https://api.weather.gc.ca/stac/?f=json",
         "slug": "msc-geomet",
         "summary": "GeoMet-OGC-API provides public access to the Meteorological Service of Canada (MSC) and Environment and Climate Change Canada (ECCC) data via interoperable web services and application programming interfaces (API).",
         "access": "public",
         "created": "2021-02-19T21:48:40.527Z",
-        "updated": "2021-02-19T21:48:40.527Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -340,12 +340,12 @@
     {
         "title": "Microsoft Planetary Computer STAC API",
         "id": 32,
-        "url": "https://planetarycomputer.microsoft.com/api/stac/v1",
+        "url": "https://planetarycomputer.microsoft.com/api/stac/v1/",
         "slug": "microsoft-pc",
         "summary": "Searchable spatiotemporal metadata describing Earth science datasets hosted by the Microsoft Planetary Computer",
         "access": "public",
         "created": "2021-05-03T16:29:53.726Z",
-        "updated": "2021-05-03T16:29:53.726Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -366,12 +366,12 @@
     {
         "title": "Mundialis Actinia (Openeo)",
         "id": 24,
-        "url": "https://openeo.mundialis.de/api/v1.0",
+        "url": "https://openeo.mundialis.de/api/v1.0/",
         "slug": "mundialis-actinia-openeo",
         "summary": "Access to the mundialis Actinia service via an openEO interface.",
         "access": "protected",
         "created": "2020-11-13T09:22:13.399Z",
-        "updated": "2020-11-13T09:22:13.399Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": true,
         "isApi": true,
         "accessInfo": "Contact [mundialis](https://www.mundialis.de/de/contact/) for details."
@@ -379,7 +379,7 @@
     {
         "title": "NASA CMR CLOUDSTAC Proxy",
         "id": 48,
-        "url": "https://cmr.earthdata.nasa.gov/cloudstac",
+        "url": "https://cmr.earthdata.nasa.gov/cloudstac/",
         "slug": "nasa-cmr-cloudstac-proxy",
         "summary": "SpatioTemporal Asset Catalog API on top of [NASA's Common Metadata Repository](https://cmr.earthdata.nasa.gov/search/). The Common Metadata Repository (CMR) is a high-performance, high-quality, continuously evolving metadata system that catalogs Earth Science data and associated service metadata records.  This API only contains STAC Collections where the Item Assets are available \"in the cloud\" (i.e., on s3).",
         "access": "public",
@@ -392,12 +392,12 @@
     {
         "title": "NASA CMR STAC",
         "id": 7,
-        "url": "https://cmr.earthdata.nasa.gov/stac",
+        "url": "https://cmr.earthdata.nasa.gov/stac/",
         "slug": "cmr-stac",
         "summary": "SpatioTemporal Asset Catalog API on top of NASA's [Common Metadata Repository](https://cmr.earthdata.nasa.gov/search/). The Common Metadata Repository (CMR) is a high-performance, high-quality, continuously evolving metadata system that catalogs Earth Science data and associated service metadata records.",
         "access": "public",
         "created": "2020-08-20T00:00:00.000Z",
-        "updated": "2022-02-23T18:00:00.000Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -678,12 +678,12 @@
     {
         "title": "USGS Landsat Collection 2 API",
         "id": 41,
-        "url": "https://landsatlook.usgs.gov/stac-server",
+        "url": "https://landsatlook.usgs.gov/stac-server/",
         "slug": "usgs-landsat-collection-2-api",
         "summary": "USGS authoritative source for Landsat Collection 2 data",
         "access": "public",
         "created": "2021-10-29T06:24:42.967Z",
-        "updated": "2021-10-29T06:24:42.967Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -704,12 +704,12 @@
     {
         "title": "VITO (openEO)",
         "id": 10,
-        "url": "https://openeo.vito.be/openeo/1.0",
+        "url": "https://openeo.vito.be/openeo/1.0/",
         "slug": "vito-openeo",
         "summary": "openEO API to the VITO Remote Sensing product catalog and processing services.",
         "access": "protected",
         "created": "2020-08-24T20:44:28.248Z",
-        "updated": "2020-08-24T20:44:28.248Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": true,
         "isApi": true,
         "accessInfo": "Contact [Jeroen Dries](https://remotesensing.vito.be/team/jeroen-dries) or [VITO Remote Sensing](https://remotesensing.vito.be/contact-us) for more information."
@@ -717,12 +717,12 @@
     {
         "title": "WeatherLayers",
         "id": 49,
-        "url": "https://catalog.weatherlayers.com/catalog",
+        "url": "https://catalog.weatherlayers.com/catalog/",
         "slug": "weatherlayers",
         "summary": "WeatherLayers is Weather Visualization as a Service, providing pre-processed weather data for visualization and a frontend weather visualization library, which can be used with both cloud and custom self-hosted data. See [WeatherLayers](https://weatherlayers.com/) for more details.",
         "access": "protected",
         "created": "2022-03-26T16:47:34.737Z",
-        "updated": "2022-03-26T16:47:34.737Z",
+        "updated": "2023-02-15T11:00:00.000Z",
         "isPrivate": true,
         "isApi": false,
         "accessInfo": "Subscription plans are available to access periodically pre-processed weather data for visualization. See [WeatherLayers](https://weatherlayers.com/) for more details."

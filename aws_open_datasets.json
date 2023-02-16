@@ -4407,7 +4407,7 @@
         "Host": null
     },
     {
-        "Name": "End of Term Web Archive Datasets",
+        "Name": "End of Term Web Archive Dataset",
         "Description": "Web Archive Crawl Data (WARC and ARC formats)",
         "ARN": "arn:aws:s3:::eotarchive",
         "Region": "us-east-1",
@@ -4569,26 +4569,6 @@
         "UpdateFrequency": "5 minutes",
         "License": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
         "Tags": "aws-pds, agriculture, earth observation, weather, meteorological, sustainability",
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "First Street Foundation (FSF) Flood Risk Summary Statistics",
-        "Description": "First Street Climate Flood Risk Statistics",
-        "ARN": "arn:aws:s3:::first-street-climate-risk-statistics-for-noncommercial-use",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse flood risk statistics in the S3 console](https://s3.console.aws.amazon.com/s3/buckets/first-street-climate-risk-statistics-for-noncommercial-use?region=us-west-2&tab=objects)"
-        ],
-        "Documentation": "https://assets.firststreet.org/uploads/2020/06/first_street_foundation__first_na",
-        "Contact": "datashare@firststreet.org",
-        "ManagedBy": "[First Street](http://www.firststreet.org/)",
-        "UpdateFrequency": "Annually",
-        "License": "Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) https:/",
-        "Tags": "aws-pds, agriculture, climate, model, statistics, sustainability, water, weather",
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
