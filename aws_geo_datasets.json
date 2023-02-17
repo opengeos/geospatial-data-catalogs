@@ -2653,10 +2653,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2670,12 +2672,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2797,10 +2797,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2814,12 +2816,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5695,7 +5695,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -5712,7 +5712,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -7036,9 +7036,26 @@
         "AccountRequired": null
     },
     {
-        "Name": "PALSAR-2 ScanSAR CARD4L (L2.2)",
+        "Name": "PALSAR-2 ScanSAR CARD4L (L2.2) - PALSAR-2 ScanSAR CARD4L",
         "Description": "PALSAR-2 ScanSAR CARD4L",
         "ARN": "arn:aws:s3:::jaxaalos2/palsar2/L2.2/Africa/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://www.eorc.jaxa.jp/ALOS/en/dataset/palsar2_l22_e.htm",
+        "Contact": "aproject@jaxa.jp",
+        "ManagedBy": "[JAXA](https://www.jaxa.jp/)",
+        "UpdateFrequency": "Every month after 42 days observed",
+        "License": "Data is available for free under the [terms of use](https://earth.jaxa.jp/policy",
+        "Tags": "aws-pds, agriculture, earth observation, satellite imagery, geospatial, natural resource, sustainability, disaster response, synthetic aperture radar, deafrica, stac, cog",
+        "RequesterPays": false,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "PALSAR-2 ScanSAR CARD4L (L2.2) - PALSAR-2 ScanSAR L11 & L22 (Turkey & Syria)",
+        "Description": "PALSAR-2 ScanSAR L11 & L22 (Turkey & Syria)",
+        "ARN": "arn:aws:s3:::jaxaalos2/palsar2-scansar/Turkey-Syria-earthquake/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -7744,9 +7761,9 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
         "Description": "Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
-        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-ukv-prd",
+        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-ukv-prd",
         "Region": "eu-west-2",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
@@ -7761,9 +7778,9 @@
     {
         "Name": "Retired \u2013 UK Met Office Atmospheric Deterministic and Probabilistic Forecasts - Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
         "Description": "Met Office UK Atmospheric Hi-Res Model (UKV) - 2km Deterministic",
-        "ARN": "arn:aws:s3:::aws-earth-mo-atmospheric-ukv-prd",
+        "ARN": "arn:aws:sns:eu-west-2:021908831235:aws-earth-mo-atmospheric-ukv-prd",
         "Region": "eu-west-2",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "https://github.com/MetOffice/aws-earth-examples",
         "Contact": "https://www.metoffice.gov.uk/about-us/contact",
