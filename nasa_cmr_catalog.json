@@ -1266,11 +1266,11 @@
         "catalog": "ESA",
         "state_date": "2008-07-25",
         "end_date": "2010-03-31",
-        "bbox": "-180, 0, 180, 65",
+        "bbox": "-180, -90, 180, -50",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336817-ESA.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336817-ESA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/ALOSIPY",
-        "description": "International Polar Year (IPY), focusing on the north and south polar regions, aimed to investigate the impact of how changes to the ice sheets affect ocean and climate change to the habitats in these regions. IPY was a collaborative project involving over sixty countries for two years from March 2007 to March 2009. To meet the project goal, world space agencies observed these regions intensively using their own Earth observation satellites. One of these satellites, ALOS - with the PALSAR (Phased Array type L-band Synthetic Aperture Radar) sensor - observed these regions independently from day-night conditions or weather conditions. Carrying on this initiative, ESA is providing the ALOS PALSAR IPY Antarctica dataset, which consists of full resolution ALOS PALSAR ScanSAR WB1 products (100m spatial resolution) over Antarctica from July 2008 (cycle 21) to December 2008 (Cycle 24) and from May 2009 (cycle 27) to March 2010 (cycle 31). Missing products between the two periods above is due to L0 data over Antarctica not being available in ADEN archives and not processed to L1.",
+        "description": "International Polar Year (IPY), focusing on the north and south polar regions, aimed to investigate the impact of how changes to the ice sheets affect ocean and climate change to the habitats in these regions. IPY was a collaborative project involving over sixty countries for two years from March 2007 to March 2009. To meet the project goal, world space agencies observed these regions intensively using their own Earth observation satellites. One of these satellites, ALOS - with the PALSAR (Phased Array type L-band Synthetic Aperture Radar) sensor - observed these regions independently from day-night conditions or weather conditions. Carrying on this initiative, ESA is providing the ALOS PALSAR IPY Antarctica dataset, which consists of full resolution ALOS PALSAR ScanSAR WB1 products (100m spatial resolution) over Antarctica from July 2008 (cycle 21) to December 2008 (Cycle 24) and from May 2009 (cycle 27) to March 2010 (cycle 31). Missing products between the two periods above is due to L0 data over Antarctica not being available in ADEN archives and not processed to L1. Spatial coverage: Check the spatial coverage of the collection on a _$$map$$ https://tpm-ds.eo.esa.int/smcat/ALOSIPY/ available on the Third Party Missions Dissemination Service.",
         "license": "not-provided"
     },
     {
@@ -3237,6 +3237,19 @@
         "license": "not-provided"
     },
     {
+        "id": "L2C_Wind_products",
+        "title": "Aeolus Level 2C assisted wind fields resulting from NWP Numerical Weather Prediction assimilation processing",
+        "catalog": "ESA",
+        "state_date": "2020-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2619280864-ESA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2619280864-ESA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/L2C_Wind_products",
+        "description": "The Level 2C wind product of the Aeolus mission provides ECMWF analysis horizontal wind vectors at the geolocations of assimilated L2B HLOS wind components.  The L2C can therefore be described as an Aeolus-assisted horizontal wind vector product. The L2C is a distinct product, however the L2C and L2B share a common Earth Explorer file template, with the L2C being a superset of the L2B.  The L2C consists of extra datasets appended to the L2B product with information which are relevant to the data assimilation of the L2B winds.",
+        "license": "not-provided"
+    },
+    {
         "id": "LAI_WOODY_PLANTS_1231.v1",
         "title": "A Global Database of Field-observed Leaf Area Index in Woody Plant Species, 1932-2011",
         "catalog": "ORNL_DAAC",
@@ -3598,19 +3611,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2196591903-MLHUB.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/MLHUB/collections/Marine Debris Dataset for Object Detection in Planetscope Imagery.v1",
         "description": "Floating marine debris is a global pollution problem which leads to the loss of marine and terrestrial biodiversity. Large swaths of marine debris are also navigational hazards to ocean vessels. The use of Earth observation data and artificial intelligence techniques can revolutionize the detection of floating marine debris on satellite imagery and pave the way to a global monitoring system for controlling and preventing the accumulation of marine debris in oceans. This dataset consists of images of marine debris which are 256 by 256 pixels in size and labels which are bounding boxes with geographical coordinates. The images were obtained from PlanetScope optical imagery which has a spatial resolution of approximately 3 meters. In this dataset, marine debris consists of floating objects on the ocean surface which can belong to one or more classes namely plastics, algae, sargassum, wood, and other artificial items. Several studies were used for data collection and validation. While a small percentage of the dataset represents the coastlines of Ghana and Greece, most of the observations surround the Bay Islands in Honduras. The marine debris detection models created and the relevant code for using this dataset can be found here. https://github.com/NASA-IMPACT/marine_debris_ML",
-        "license": "not-provided"
-    },
-    {
-        "id": "NASA_OMI",
-        "title": "Aura OMI complete NASA dataset",
-        "catalog": "ESA",
-        "state_date": "2004-10-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336929-ESA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1965336929-ESA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ESA/collections/NASA_OMI",
-        "description": "The OMI observations provide the following capabilities and features: \u2022  A mapping of ozone columns at 13 km x 24 km and profiles at 13 km x 48 km \u2022  A measurement of key air quality components: NO2, SO2, BrO, HCHO, and aerosol \u2022 The ability to distinguish between aerosol types, such as smoke, dust and sulfates \u2022 The ability to measure aerosol absorption capacity in terms of aerosol absorption optical depth or single scattering albedo \u2022 A measurement of cloud pressure and coverage \u2022 A mapping of the global distribution and trends in UV-B radiation   The OMI data are available in the following four levels: Level 0, Level 1B, Level 2, and Level 3. \u2022 Level 0 products are raw sensor counts. Level 0 data are packaged into two-hour \"chunks\" of observations in the life of the spacecraft (and the OMI aboard it) irrespective of orbital boundaries. They contain orbital swath data. \u2022 Level 1B processing takes Level 0 data and calibrates, geo-locates and packages the data into orbits. They contain orbital swath data. \u2022 Level 2 products contain orbital swath data. \u2022 Level 3 products contain global data that are composited over time (daily or monthly) or over space for small equal angle (latitude longitude) grids covering the whole globe.",
         "license": "not-provided"
     },
     {
