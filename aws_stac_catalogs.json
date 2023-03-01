@@ -243,6 +243,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "NASA - USGS Controlled THEMIS Mosaics",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/collections/mo_themis_controlled_mosaics",
+        "Description": "Scenes and metadata",
+        "ARN": "arn:aws:s3:::astrogeo-ard/mars/mo/themis/controlled_mosaics/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "NASA - USGS Europa Controlled Observation Mosaics",
         "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/collections/galileo_usgs_photogrammetrically_controlled_mosaics",
         "Description": "Scenes and metadata",
