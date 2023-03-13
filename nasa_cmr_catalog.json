@@ -481,19 +481,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ABoVE_reference_grid_1367.v1",
-        "title": "ABoVE: Study Domain and Standard Reference Grids",
-        "catalog": "ORNL_DAAC",
-        "state_date": "2014-01-01",
-        "end_date": "2021-12-31",
-        "bbox": "-177.47, 34.06, -16.79, 82.48",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2630644132-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2630644132-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/ABoVE_reference_grid_1367.v1",
-        "description": "The Arctic - Boreal Vulnerability Experiment (ABoVE) has developed two standardized spatial data products to expedite coordination of research activities and to facilitate data interoperability. First, the ABoVE Study Domain encompasses the Arctic and boreal regions of Alaska, USA, and the western provinces of Canada, North America. Core and Extended study regions have been designated within this Domain and are provided in both a vector representation (Shapefile) and a raster representation (GeoTIFF at 1,000-meter pixel resolution). Second, a Standard Reference Grid System has been developed to cover the entire Study Domain and also extends to the eastern portion of North America. This Reference Grid is provided as a nested pair of polygon grids at scales of 240- and 30-meter spatial resolution. A shapefile is provided for each grid. Note that the designated standard projection for the all ABoVE products is the Canadian Albers Equal Area projection.",
-        "license": "not-provided"
-    },
-    {
         "id": "ACE-ASIA.v0",
         "title": "ACE-ASIA",
         "catalog": "OB_DAAC",
@@ -702,6 +689,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ACTAMERICA_MFLL_L1_1817.v1",
+        "title": "ACT-America: L1 DAOD Measurements by Airborne CO2 Lidar, Eastern USA",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2016-05-27",
+        "end_date": "2018-05-20",
+        "bbox": "-106.05, 27.23, -71.91, 49.11",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1966605694-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1966605694-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/ACTAMERICA_MFLL_L1_1817.v1",
+        "description": "This dataset provides Level 1 (L1) remotely sensed differential absorption optical depth (DAOD) measurements made through the Multi-Functional Fiber Laser Lidar (MFLL; Harris Corporation) during airborne campaigns in Summer 2016, Winter 2017, Fall 2017, and Spring 2018 conducted over central and eastern regions of the United States for the Atmospheric Carbon and Transport (ACT-America) project. DAOD were measured at 0.1 second frequency during flights of the C-130 Hercules aircraft at altitudes up to 8 km with MFLL. The MFLL is a set of Continuous-Wave (CW) lidar instruments consisting of an intensity modulated multi-frequency single-beam synchronous-detection Laser Absorption Spectrometer (LAS) operating at 1571 nm for measuring the column amount of CO2 number density and range between the aircraft and the surface or to cloud tops, and surface reflectance and a Pseudo-random Noise (PN) altimeter at 1596 nm for measuring the path length from the aircraft to the scattering surface and/or cloud tops. The MFLL was onboard all ACT-America seasonal campaigns, except Summer 2019. Complete aircraft flight information, interpolated to the 0.1 second column CO2 reporting frequency, are included, but not limited to, latitude, longitude, altitude, and attitude. Data users should note that a Level 2 (L2) MFLL data product is available (related dataset) that contains all data variables (plus the column-average CO2) included in this L1 MFLL data product but has undergone additional processing and calibrations and is recommended for most use cases.",
+        "license": "not-provided"
+    },
+    {
         "id": "ACTIVATE_Aerosol_AircraftInSitu_Falcon_Data.v1",
         "title": "ACTIVATE Falcon In Situ Aerosol Data",
         "catalog": "LARC_ASDC",
@@ -751,6 +751,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1994460919-LARC_ASDC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACTIVATE_TraceGas_AircraftInSitu_Falcon_Data.v1",
         "description": "ACTIVATE_TraceGas_AircraftInSitu_Falcon_Data is the trace gas data collected onboard the HU-25 Falcon aircraft via in-situ instrumentation during the ACTIVATE project. ACTIVATE is a 5-year NASA Earth-Venture Sub-Orbital field campaign, with a target completion of December 2023. Data collection is still ongoing.     Marine boundary layer clouds play a critical role in Earth\u2019s energy balance and water cycle. These clouds cover more than 45% of the ocean surface and exert a net cooling effect. The Aerosol Cloud meTeorology Interactions oVer the western Atlantic Experiment (ACTIVATE) project is a five-year project (January 2019-December 2023) that will provide important globally-relevant data about changes in marine boundary layer cloud systems, atmospheric aerosols and multiple feedbacks that warm or cool the climate. ACTIVATE studies the atmosphere over the western North Atlantic and samples its broad range of aerosol, cloud and meteorological conditions using two aircraft, the UC-12 King Air and HU-25 Falcon. The UC-12 King Air will primarily be used for remote sensing measurements while the HU-25 Falcon will contain a comprehensive instrument payload for detailed in-situ measurements of aerosol, cloud properties, and atmospheric state. A few trace gas measurements will also be onboard the HU-25 Falcon for the measurements of pollution traces, which will contribute to airmass classification analysis. A total of 150 coordinated flights over the western North Atlantic are planned through 6 deployments from 2020-2022. The ACTIVATE science observing strategy intensively targets the shallow cumulus cloud regime and aims to collect sufficient statistics over a broad range of aerosol and weather conditions which enables robust characterization of aerosol-cloud-meteorology interactions. This strategy is implemented by two nominal flight patterns: Statistical Survey and Process Study. The statistical survey pattern involves close coordination between the remote sensing and in-situ aircraft to conduct near coincident sampling at and below cloud base as well as above and within cloud top. The process study pattern involves extensive vertical profiling to characterize the target cloud and surrounding aerosol and meteorological conditions.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACT_CASA_Ensemble_Prior_Fluxes_1675.v1.1",
+        "title": "ACT-America: Gridded Ensembles of Surface Biogenic Carbon Fluxes, 2003-2019",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2003-01-01",
+        "end_date": "2019-12-31",
+        "bbox": "-176, 0.5, -24.5, 70.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1947165563-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1947165563-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/ACT_CASA_Ensemble_Prior_Fluxes_1675.v1.1",
+        "description": "This data set provides gridded, model-derived gross primary productivity (GPP), ecosystem respiration (RECO), and net ecosystem exchange (NEE) of CO2 biogenic fluxes and their uncertainties at monthly and 3-hourly time scales over 2003-2019 on a 463-m spatial resolution grid for the conterminous United States (CONUS) and on both 5-km and half-degree spatial resolution grids for North America (NA). The biogeochemical model Carnegie Ames Stanford Approach (CASA) was used.",
         "license": "not-provided"
     },
     {
@@ -1393,19 +1406,6 @@
     {
         "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
         "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
-        "catalog": "POCLOUD",
-        "state_date": "2011-08-26",
-        "end_date": "2015-06-08",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
         "catalog": "PODAAC",
         "state_date": "2011-08-26",
         "end_date": "2015-06-08",
@@ -1417,16 +1417,16 @@
         "license": "not-provided"
     },
     {
-        "id": "AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image Monthly Data V5.0",
+        "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
         "catalog": "POCLOUD",
-        "state_date": "2011-09-01",
-        "end_date": "2015-06-01",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
         "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756350-POCLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756350-POCLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly sea surface salinity (SSS) V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
     {
@@ -1443,16 +1443,16 @@
         "license": "not-provided"
     },
     {
-        "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image 7-Day Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-08-26",
-        "end_date": "2015-06-08",
+        "id": "AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image Monthly Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-09-01",
+        "end_date": "2015-06-01",
         "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549053-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549053-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756350-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756350-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly sea surface salinity (SSS) V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
     {
@@ -1465,6 +1465,19 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756351-POCLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756351-POCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image 7-Day Data V5.0",
+        "catalog": "PODAAC",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549053-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549053-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
         "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
@@ -1986,19 +1999,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360093-OB_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/Active_Fluorescence_2001.v0",
         "description": "Measurements in the Gulf Stream off the East Coast of the US in 2001.",
-        "license": "not-provided"
-    },
-    {
-        "id": "Alaskan_Wildfire_C_Emissions_1341.v1",
-        "title": "ABoVE: Ignitions, burned area and emissions of fires in AK, YT, and NWT, 2001-2015",
-        "catalog": "ORNL_DAAC",
-        "state_date": "2001-01-01",
-        "end_date": "2015-12-31",
-        "bbox": "-176.93, 59.99, -100, 75.75",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2630642210-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2630642210-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/Alaskan_Wildfire_C_Emissions_1341.v1",
-        "description": "This data set provides estimates of daily burned area, carbon emissions and uncertainty, and daily fire ignition locations for boreal fires in Alaska, USA, and the Yukon and Northwest Territories, Canada. The data are at 500-m resolution for the period 2001 to 2015.",
         "license": "not-provided"
     },
     {
@@ -2925,19 +2925,6 @@
         "license": "not-provided"
     },
     {
-        "id": "GLOBAL_SRDB_V3_1235.v3",
-        "title": "A Global Database of Soil Respiration Data, Version 3.0",
-        "catalog": "ORNL_DAAC",
-        "state_date": "1961-01-01",
-        "end_date": "2011-12-31",
-        "bbox": "-162.2, -78.02, 175.5, 78.17",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2630637270-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2630637270-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/GLOBAL_SRDB_V3_1235.v3",
-        "description": "This data set provides an update of the soil respiration database (SRDB), a near-universal compendium of published soil respiration (RS) data. Soil respiration, the flux of autotrophically- and heterotrophically-generated CO2 from the soil to the atmosphere, remains the least well-constrained component of the terrestrial Carbon cycle. The database encompasses all published studies that report at least one of the following data measured in the field (not laboratory): annual RS, mean seasonal RS, a seasonal or annual partitioning of RS into its sources fluxes, RS temperature response (Q10), or RS at 10 degrees C. The SRDB's orientation is thus to seasonal and annual fluxes, not shorter-term or chamber-specific measurements, and the database is dominated by temperate, well-drained forest measurement locations. The data set includes a file of RS data and a linked file of study bibliographic data; both files are in comma-separated format.",
-        "license": "not-provided"
-    },
-    {
         "id": "GMAO-CMIP5.v1",
         "title": "GMAO Decadal Analysis & Prediction for CMIP5",
         "catalog": "NCCS",
@@ -3000,6 +2987,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2216863284-ORNL_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Global_RTSG_Flux_1078.v1",
         "description": "This database contains information compiled from published studies on gas flux from soil following rewetting or thawing. The resulting database includes 222 field and laboratory observations focused on rewetting of dry soils, and 116 field laboratory observations focused on thawing of frozen soils studies conducted from 1956 to 2010. Fluxes of carbon dioxide, methane, nitrous oxide, nitrogen oxide, and ammonia (CO2, CH4, N2O, NO and NH3) were compiled from the literature and the flux rates were normalized for ease of comparison. Field observations of gas flux following rewetting of dry soils include events caused by natural rainfall, simulated rainfall in natural ecosystems, and irrigation in agricultural lands. Similarly, thawing of frozen soils include field observations of natural thawing, simulated freezing-thawing events (i.e., thawing of simulated frozen soil by snow removal), and thawing of seasonal ice in temperate and high latitude regions (Kim et al., 2012). Reported parameters include experiment type, location, site type, vegetation, climate, soil properties, rainfall, soil moisture, soil gas flux after wetting and thawing, peak soil gas flux properties, and the corresponding study references. There is one comma-delimited data file. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "HALO_LiDAR_AOP_ML_Heights_1833.v1",
+        "title": "ACT-America: HALO Lidar Measurements of AOP and ML Heights, 2019",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2019-06-17",
+        "end_date": "2019-07-28",
+        "bbox": "-102, 28, -73, 50",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2575353759-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2575353759-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/HALO_LiDAR_AOP_ML_Heights_1833.v1",
+        "description": "This dataset provides measurements from the High Altitude Lidar Observatory (HALO) instrument, an airborne multi-function Differential Absorption Lidar (DIAL) and High Spectral Resolution Lidar (HSRL), operating at 532 nm and 1064 nm wavelengths onboard a C-130 aircraft during the June and July 2019 ACT-America campaign. The flights took place over eastern and central North America based from Shreveport, Louisiana; Lincoln, Nebraska; and NASA Wallops Flight Facility located on the eastern shore of Virginia. HALO data were sampled at 0.5 s temporal and 1.25 m vertical resolutions. The data include profiles of aerosol optical properties (AOP), distributions of mixed layer heights (MLH), columns of tropospheric methane, and navigation parameters. The data are provided in HDF5 format along with PNG images and a companion files in Portable Document (*.pdf) format.",
         "license": "not-provided"
     },
     {
