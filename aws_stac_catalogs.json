@@ -360,6 +360,15 @@
         "RequesterPays": true
     },
     {
+        "Name": "Umbra Synthetic Aperture Radar (SAR) Open Data",
+        "Endpoint": "http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/",
+        "Description": "Umbra Spotlight collects including GEC, SICD, SIDD, CPHD data and metadata",
+        "ARN": "arn:aws:s3:::umbra-open-data-catalog",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
         "Name": "World Bank - Light Every Night",
         "Endpoint": "https://stacindex.org/catalogs/world-bank-light-every-night#/",
         "Description": "Light Every Night dataset of all VIIRS DNB and DMSP-OLS nighttime satellite data",

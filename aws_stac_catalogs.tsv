@@ -39,4 +39,5 @@ Sentinel-3	https://meeo-s3.s3.amazonaws.com/	Sentinel-3 Cloud Optimized GeoTIFF 
 Sentinel-5P Level 2	https://meeo-s5p.s3.amazonaws.com/index.html?t=catalogs	Sentinel-5p Cloud Opimised GeoTIFF (COGT). TIFF format.	arn:aws:s3:::meeo-s5p/COGT/	eu-central-1	S3 Bucket	
 USGS 3DEP LiDAR Point Clouds	https://usgs-lidar-stac.s3-us-west-2.amazonaws.com/ept/catalog.json	Public access Entwine Point Tiles of most resources from the ``arn:aws:s3:::usgs-lidar`` bucket.	arn:aws:s3:::usgs-lidar-public	us-west-2	S3 Bucket	
 USGS Landsat	https://landsatlook.usgs.gov/stac-server/collections	Scenes and metadata	arn:aws:s3:::usgs-landsat/collection02/	us-west-2	S3 Bucket	True
+Umbra Synthetic Aperture Radar (SAR) Open Data	http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/	Umbra Spotlight collects including GEC, SICD, SIDD, CPHD data and metadata	arn:aws:s3:::umbra-open-data-catalog	us-west-2	S3 Bucket	False
 World Bank - Light Every Night	https://stacindex.org/catalogs/world-bank-light-every-night#/	Light Every Night dataset of all VIIRS DNB and DMSP-OLS nighttime satellite data	arn:aws:s3:::globalnightlight	us-east-1	S3 Bucket	
