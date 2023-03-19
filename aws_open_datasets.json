@@ -2573,7 +2573,7 @@
     {
         "Name": "Crowdsourced Bathymetry - Crowdsourced bathymetry data",
         "Description": "Crowdsourced bathymetry data",
-        "ARN": "arn:aws:s3:::noaa-bathymetry-pds",
+        "ARN": "arn:aws:s3:::noaa-dcdb-bathymetry-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://noaa-bathymetry-pds.s3.amazonaws.com/readme.html",
@@ -2583,7 +2583,7 @@
         "License": "There are no restrictions on the use of this data.",
         "Tags": "aws-pds, earth observation, oceans",
         "Explore": [
-            "[Browse Bucket](https://noaa-bathymetry-pds.s3.amazonaws.com/index.html#csv/)"
+            "[Browse Bucket](https://noaa-dcdb-bathymetry-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -2593,7 +2593,7 @@
     {
         "Name": "Crowdsourced Bathymetry - Notifications for CSB data",
         "Description": "Notifications for CSB data",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewBathymetryObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewDCDBBathymetryObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://noaa-bathymetry-pds.s3.amazonaws.com/readme.html",
@@ -5243,24 +5243,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
@@ -5273,6 +5255,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -5357,24 +5357,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -5387,6 +5369,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -9777,7 +9777,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
@@ -9795,7 +9795,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
