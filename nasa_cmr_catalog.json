@@ -3354,19 +3354,6 @@
         "license": "not-provided"
     },
     {
-        "id": "MER_FRS_1P.v1",
-        "title": "Full Resolution Full Swath Geolocated and Calibrated TOA Radiance V1",
-        "catalog": "LAADS",
-        "state_date": "2002-05-17",
-        "end_date": "2012-04-08",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1219767900-LAADS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1219767900-LAADS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MER_FRS_1P.v1",
-        "description": "MERIS was a push-broom spectrometer launched aboard the European Space Agency's (ESA) ENVISAT-1 spacecraft along with 9 other instruments. MERIS consisted of five cameras aligned side by side to provide a wide field-of-view of the Earth, which it could image in 3-days. The sensor had a swath width of 1150 km and measured the Earth's reflected radiation in 15 spectral bands.    MERIS data are provided and multiple processing levels and at 3 resolutions - Low, Reduced, and Full. The MER_FRS_1P product is a full-resolution (260m x 290m) Level-1P (Geolocated and Calibrated TOA Radiance) product. The Full Resolution Full Swath Geolocated and Calibrated TOA Radiance,  provided in radiance units [W/sr m2 \u00b5] after scaling is Level-1B product.    The MERIS sensor is no longer operational. The ENVISAT mission collected data from 2002 until 2012 when communication with the satellite was unexpectedly lost. Global density maps of annual MERIS data coverage are available.",
-        "license": "not-provided"
-    },
-    {
         "id": "MIANACP.v1",
         "title": "MISR Aerosol Climatology Product V001",
         "catalog": "LARC",
@@ -3533,6 +3520,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1426751946-LANCEMODIS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LANCEMODIS/collections/MYD04_L2.v6.1NRT",
         "description": "The new Collection 6.1 (C61) MYD04_L2 product is an improved version based on algorithm changes in Dark Target (DT) Aerosol retrieval over urban areas and uncertainty estimates for Deep Blue (DB) Aerosol retrievals.  The MODIS level-2 atmospheric aerosol product provides retrieved ambient aerosol optical properties, quality assurance, and other parameters, globally over ocean and land. In Collection 5, and earlier collections, there was only one aerosol product (MYD04_L2) at 10km (at nadir) spatial resolution. Starting from C6, the Dark Target (DT) Aerosol algorithm team provided a new 3 km spatial resolution product (MYD04_3k) intended for the air quality community.  For more information visit the MODIS Atmosphere website at: https://modis-atmos.gsfc.nasa.gov/products/aerosol  And, for C6.1 changes and updates, visit: https://modis-atmosphere.gsfc.nasa.gov/documentation/collection-61",
+        "license": "not-provided"
+    },
+    {
+        "id": "MYD08_D3.v6.1",
+        "title": "MODIS/Aqua Aerosol Cloud Water Vapor Ozone Daily L3 Global 1Deg CMG",
+        "catalog": "LAADS",
+        "state_date": "2002-07-04",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1443729298-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1443729298-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD08_D3.v6.1",
+        "description": "The MODIS/Aqua Aerosol Cloud Water Vapor Ozone Daily L3 Global 1Deg CMG product (MYD08_D3) contains daily 1 x 1 degree grid average values of atmospheric parameters related to atmospheric aerosol particle properties, total ozone burden, atmospheric water vapor, cloud optical and physical properties, and atmospheric stability indices. This product also provides standard deviations, quality assurance weighted means and other statistically derived quantities for each parameter.     The MYD08_D3 contains roughly 600 statistical datasets that are derived from approximately 80 scientific parameters from four Level-2 MODIS Atmosphere Products: MOD04_L2, MOD05_L2, MOD06_L2, and MOD07_L2. Statistics are computed over a 1 degree equal-angle lat-lon grid that spans a 24-hour (0000 to 2400 Greenwich Mean Time) interval. Since the grid cells are 1 degree by 1 degree, the output grid is always 360 pixels in width and 180 pixels in length.    MYD08_D3 product files are stored in Hierarchical Data Format (HDF-EOS). Each gridded global parameter is stored as Scientific Data Sets (SDS) within the file.     The MODIS Daily Product will be used in the simultaneously study of clouds, water vapor, aerosol , trace gases, land surface and oceanic properties, as well as the interaction between them and their effect on the Earth's energy budget and climate. This product will also be used to investigate seasonal and inter-annual changes in cirrus (semi-transparent) global cloud cover and cloud phase with multispectral observations at high spatial resolution.    For more information about the MYD08_D3 product, please visit the MODIS-Atmosphere site at:  https://modis-atmos.gsfc.nasa.gov/products/daily",
         "license": "not-provided"
     },
     {

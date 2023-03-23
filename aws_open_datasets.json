@@ -1032,26 +1032,6 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
-        "Region": "ap-southeast-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
-        "Contact": "soles.wildlife-genomics@sydney.edu.au",
-        "ManagedBy": "[Australasian Wildlife Genomics Group at The University of Sydney](https://www.s",
-        "UpdateFrequency": "As new genomes are produced",
-        "License": "https://threatenedspeciesinitiative.com/threatened-species-initiative-data-polic",
-        "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
-        "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Australasian Genomes - Data files",
-        "Description": "Data files",
         "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
@@ -1063,6 +1043,26 @@
         "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
         "Explore": [
             "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Australasian Genomes - Data files",
+        "Description": "Data files",
+        "ARN": "arn:aws:s3:::koalagenomes",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
+        "Contact": "soles.wildlife-genomics@sydney.edu.au",
+        "ManagedBy": "[Australasian Wildlife Genomics Group at The University of Sydney](https://www.s",
+        "UpdateFrequency": "As new genomes are produced",
+        "License": "https://threatenedspeciesinitiative.com/threatened-species-initiative-data-polic",
+        "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
+        "Explore": [
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -1666,6 +1666,24 @@
         "Host": null
     },
     {
+        "Name": "COBRA",
+        "Description": "Whole slide images with corresponding labels including skin cancer and basal cel",
+        "ARN": "arn:aws:s3:::cobra-pathology",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://daangeijs.github.io/cobra/",
+        "Contact": "https://www.computationalpathologygroup.eu/members/daan-geijs/",
+        "ManagedBy": "Radboud University Medical Center",
+        "UpdateFrequency": "As required",
+        "License": "CC BY-SA-NC 4.0",
+        "Tags": "aws-pds, life sciences, cancer, computational pathology, deep learning, histopathology, computer vision",
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "COCO - Common Objects in Context - fast.ai datasets",
         "Description": "Datasets",
         "ARN": "arn:aws:s3:::fast-ai-coco",
@@ -1816,7 +1834,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://ocg.cancer.gov/programs/cgci",
@@ -1834,7 +1852,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://ocg.cancer.gov/programs/cgci",
@@ -4735,8 +4753,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
+        "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
         "Contact": "awsdata@loka.com",
@@ -4753,8 +4771,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
-        "Region": "us-east-2",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
         "Contact": "awsdata@loka.com",
@@ -5529,24 +5547,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -5565,10 +5565,10 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
@@ -5597,6 +5597,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -5643,6 +5661,26 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
         "Region": "sa-east-1",
         "Type": "SNS Topic",
@@ -5659,20 +5697,18 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
         "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
         "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
         "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -5693,24 +5729,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -5974,6 +5992,24 @@
             "[train.json](https://helpful-sentences-from-reviews.s3.amazonaws.com/train.json)",
             "[test.json](https://helpful-sentences-from-reviews.s3.amazonaws.com/test.json)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "High Resolution Canopy Height Maps by WRI and Meta",
+        "Description": "Cloud-optimized GeoTIFF files and Geojson files with observation date",
+        "ARN": "arn:aws:s3:::dataforgood-fb-data/forests/v1/",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "[Project overview](https://dataforgood.facebook.com/dfg/docs)",
+        "Contact": "dataforgood@meta.com",
+        "ManagedBy": "[Meta](https://dataforgood.fb.com/)",
+        "UpdateFrequency": "TBD",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Tags": "aws-pds, cog, earth observation, climate, land cover, agriculture, machine learning, aerial imagery, satellite imagery, image processing, geospatial",
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -9141,7 +9177,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9159,7 +9195,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9195,7 +9231,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10101,7 +10137,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
@@ -10119,7 +10155,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
@@ -14990,6 +15026,24 @@
         "Host": null
     },
     {
+        "Name": "UniProt - UniProt 2023_01",
+        "Description": "UniProt 2023_01",
+        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2023-01/",
+        "Region": "eu-west-3",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.uniprot.org/help/about",
+        "Contact": "https://www.uniprot.org/contact",
+        "ManagedBy": "[SIB Swiss Institute of Bioinformatics](https://sp.sib.swiss/) on behalf of the ",
+        "UpdateFrequency": "Under 1 months after a new UniProt release.",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": "aws-pds, chemistry, protein, enzyme, molecule, life sciences, bioinformatics, biology, RDF, graph, SPARQL",
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "University of British Columbia Sunflower Genome Dataset",
         "Description": "UBC Sunflower Genome Data 1",
         "ARN": "arn:aws:s3:::ubc-sunflower-genome",
@@ -15368,7 +15422,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
@@ -15386,7 +15440,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
