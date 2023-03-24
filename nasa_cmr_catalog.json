@@ -1300,6 +1300,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AMSRE-REMSS-L2P-v7a.v7.0",
+        "title": "GHRSST Level 2P Global Subskin Sea Surface Temperature from the Advanced Scanning Microwave Radiometer - Earth  Observing System (AMSR-E) on the NASA Aqua Satellite",
+        "catalog": "PODAAC",
+        "state_date": "2002-06-01",
+        "end_date": "2011-10-04",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1666605425-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1666605425-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AMSRE-REMSS-L2P-v7a.v7.0",
+        "description": "The Advanced Microwave Scanning Radiometer (AMSR-E) was launched on 4 May 2002, aboard NASA's Aqua spacecraft. The National Space Development Agency of Japan (NASDA) provided AMSR-E to NASA as an indispensable part of Aqua's global hydrology mission. Over the oceans, AMSR-E is measuring a number of important geophysical parameters, including sea surface temperature (SST), wind speed, atmospheric water vapor, cloud water, and rain rate. A key feature of AMSR-E is its capability to see through clouds, thereby providing an uninterrupted view of global SST and surface wind fields. Remote Sensing Systems (RSS, or REMSS)  is the provider of these SST data for the Group for High Resolution Sea Surface Temperature (GHRSST) Project, performs a detailed processing of AMSR-E instrument data in two stages. The first stage produces a near-real-time (NRT) product (identified by \"_rt_\" within the file name) which is made as available as soon as possible. This is generally within 3 hours of when the data are recorded. Although suitable for many timely uses the NRT products are not intended to be archive quality. \"Final\" data (currently identified by \"v7\" within the file name) are processed when RSS receives the atmospheric model National Center for Environmental Prediction (NCEP) Final Analysis (FNL) Operational Global Analysis. The NCEP wind directions are particularly useful for retrieving more accurate SSTs and wind speeds. This dataset adheres to the GHRSST Data Processing Specification (GDS) version 2 format specifications.",
+        "license": "not-provided"
+    },
+    {
         "id": "AMSRE_L3_SST_1DEG_1MO.v1",
         "title": "AMSR-E Level 3 Sea Surface Temperature for Climate Model Comparison",
         "catalog": "PODAAC",
@@ -1326,19 +1339,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AQUARIUS_ANCILLARY_CELESTIALSKY_V1.v1",
-        "title": "Aquarius Celestial Sky Microwave Emission Map Ancillary Dataset V1.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-09-01",
-        "end_date": "2015-06-07",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649526829-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649526829-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_ANCILLARY_CELESTIALSKY_V1.v1",
-        "description": "This datasets contains three maps of L-band (wavelength = 21 cm) brightness temperature of the celestial sky (\"Galaxy\") used in the processing of the NASA Aquarius instrument data. The maps report Sky brightness temperatures in Kelvin gridded on the Earth Centered Inertial (ECI) reference frame epoch J2000. They are sampled over 721 Declinations between -90 degrees and +90 degrees and 1441 Right Ascensions between 0 degrees and 360 degrees, all evenly spaced at 0.25 degrees intervals. The brightness temperatures are assumed temporally invariant and polarization has been neglected.  They include microwave continuum and atomic hydrogen line (HI) emissions. The maps differ only in how the strong radio source Cassiopeia A has been included into the whole sky background surveys: 1/ TB_no_Cas_A does not include Cassiopeia A and reports only the whole Sky surveys. 2/ TB_Cas_A_1cell spread Cas A total flux homogeneously over 1 map grid cell (i.e. 9.8572E-6 sr). 3/ TB_Cas_A_beam spreads Cas A over surrounding grid cells using a convolution by a Gaussian beam with HPBW of 35 arcmin (equivalent to the instrument used for the Sky surveys). Cassiopeia A  is a supernova remnant (SNR) in the constellation Cassiopeia and the brightest extra-solar radio source in the sky at frequencies above 1.",
-        "license": "not-provided"
-    },
-    {
         "id": "AQUARIUS_L2_SSS_CAP_V5.v5.0",
         "title": "Aquarius CAP Level 2 Sea Surface Salinity, Wind Speed & Direction Data V5.0",
         "catalog": "POCLOUD",
@@ -1349,32 +1349,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121315-POCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L2_SSS_CAP_V5.v5.0",
         "description": "The version 5.0 Aquarius CAP Level 2 product contains the fourth release of the AQUARIUS/SAC-D orbital/swath data based on the Combined Active Passive (CAP) algorithm. CAP is a P.I. produced dataset developed and provided by JPL.  This Level 2 dataset contains sea surface salinity (SSS), wind speed and wind direction data derived from 3 different radiometers and the onboard scatterometer. The CAP algorithm simultaneously retrieves the salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. Each L2 data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L2_SSS_QL_V5.v5.0",
-        "title": "Aquarius Official Release Level 2 Sea Surface Salinity & Wind Speed Quicklook Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-08-25",
-        "end_date": "2015-06-07",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553146-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553146-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L2_SSS_QL_V5.v5.0",
-        "description": "The version 5.0 Aquarius Level 2 quicklook product includes the instrumental wiggle correction and exponential drift correction and is part of the official end of mission release of the orbital/swath data from AQUARIUS/SAC-D mission. The Aquarius Level 2 data set contains sea surface salinity (SSS) and wind speed data derived from 3 different radiometers and the onboard scatterometer. Included also in the Level 2 data are the horizontal and vertical brightness temperatures (TH and TV) for each radiometer, ancillary data, flags, converted telemetry and navigation data. Each data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath. Enhancements to the version 5.0 Level 2 data relative to v4.0 include: improvement of the salinity retrieval geophysical model for SST bias, estimates of SSS uncertainties (systematic and random components), and inclusion of a new spiciness variable.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L2_SSS_V5.v5.0",
-        "title": "Aquarius Official Release Level 2 Sea Surface Salinity & Wind Speed Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-08-25",
-        "end_date": "2015-06-07",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553296-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649553296-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L2_SSS_V5.v5.0",
-        "description": "The version 5.0 Aquarius Level 2 product is the official third release of the orbital/swath data from AQUARIUS/SAC-D mission. The Aquarius Level 2 data set contains sea surface salinity (SSS) and wind speed data derived from 3 different radiometers and the onboard scatterometer. Included also in the Level 2 data are the horizontal and vertical brightness temperatures (TH and TV) for each radiometer, ancillary data, flags, converted telemetry and navigation data. Each data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath. Enhancements to the version 5.0 Level 2 data relative to v4.0 include: improvement of the salinity retrieval geophysical model for SST bias, estimates of SSS uncertainties (systematic and random components), and inclusion of a new spiciness variable.",
         "license": "not-provided"
     },
     {
@@ -1406,19 +1380,6 @@
     {
         "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
         "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-08-26",
-        "end_date": "2015-06-08",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549176-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549176-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
         "catalog": "POCLOUD",
         "state_date": "2011-08-26",
         "end_date": "2015-06-08",
@@ -1427,19 +1388,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
         "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image Monthly Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-09-01",
-        "end_date": "2015-06-01",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649539971-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649539971-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly sea surface salinity (SSS) V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
     {
@@ -1469,19 +1417,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image 7-Day Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-08-26",
-        "end_date": "2015-06-08",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549053-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549053-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
         "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_MONTHLY_V5.v5.0",
         "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image Monthly Data V5.0",
         "catalog": "POCLOUD",
@@ -1495,32 +1430,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_MONTHLY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image Monthly Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-09-01",
-        "end_date": "2015-06-01",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649539559-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649539559-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_MONTHLY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Wind Speed Standard Mapped Image 7-Day Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-08-26",
-        "end_date": "2015-06-08",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549419-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649549419-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean wind speed V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.  The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
         "id": "AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
         "title": "Aquarius CAP Level 3 Wind Speed Standard Mapped Image 7-Day Data V5.0",
         "catalog": "POCLOUD",
@@ -1531,19 +1440,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757161-POCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
         "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean wind speed V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.  The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AQUARIUS_L3_WIND_SPEED_CAP_MONTHLY_V5.v5.0",
-        "title": "Aquarius CAP Level 3 Wind Speed Standard Mapped Image Monthly Data V5.0",
-        "catalog": "PODAAC",
-        "state_date": "2011-09-01",
-        "end_date": "2015-06-01",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1649540312-PODAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1649540312-PODAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/AQUARIUS_L3_WIND_SPEED_CAP_MONTHLY_V5.v5.0",
-        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly wind speed V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
         "license": "not-provided"
     },
     {
@@ -2717,6 +2613,19 @@
         "license": "not-provided"
     },
     {
+        "id": "EUR-L2P-AVHRR_METOP_A.v1",
+        "title": "GHRSST Level 2P Global Skin Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the MetOp-A satellite produced by EUMETSAT",
+        "catalog": "PODAAC",
+        "state_date": "2009-09-30",
+        "end_date": "2013-07-04",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1657552702-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1657552702-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/EUR-L2P-AVHRR_METOP_A.v1",
+        "description": "The European Organization for the Exploitation of Meteorological Satellites (EUMETSAT), Ocean and Sea Ice Satellite Application Facility (OSI SAF) is producing SST products in near realtime from Metop/AVHRR. Global AVHRR level 1b data are acquired at Meteo-France/Centre de Meteorologie Spatiale (CMS) through the EUMETSAT/EUMETCAST system. SST is retrieved from the AVHRR infrared channels (3.7, 10.8 and 12.0   m) using a multispectral algorithm. Atmospheric profiles of water vapor and temperature from a numerical weather prediction model, together with a radiative transfer model, are used to correct the multispectral algorithm for regional and seasonal biases due to changing atmospheric conditions. This product is delivered at full resolution in satellite projection as metagranule corresponding to 3 minutes of acquisition. The product format is compliant with the GHRSST Data Specification (GDS) version 2.",
+        "license": "not-provided"
+    },
+    {
         "id": "FIFE_RAIN_30M_2.v1",
         "title": "30 Minute Rainfall Data (FIFE)",
         "catalog": "ORNL_DAAC",
@@ -3614,6 +3523,58 @@
         "license": "not-provided"
     },
     {
+        "id": "NAVO-L2P-AVHRR18_G.v1.0",
+        "title": "GHRSST Level 2P Global Bulk Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-18 satellite produced by NAVO",
+        "catalog": "PODAAC",
+        "state_date": "2006-01-25",
+        "end_date": "2015-02-16",
+        "bbox": "-180, -70, 180, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1655117046-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1655117046-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/NAVO-L2P-AVHRR18_G.v1.0",
+        "description": "A global Group for High Resolution Sea Surface Temperature (GHRSST) Level 2P dataset based on multi-channel sea surface temperature (SST) retrievals generated in real-time from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-18 platform (launched 20 May 2005) produced and used operationally in  oceanographic analyses and forecasts by the US Naval Oceanographic Office (NAVO). The AVHRR is a space-borne scanning sensor on the National Oceanic and Atmospheric Administration (NOAA) family of Polar Orbiting Environmental Satellites (POES) having a operational legacy that traces back to the Television Infrared Observation Satellite-N (TIROS-N) launched in 1978. AVHRR instruments measure the radiance of the Earth in 5 (or 6) relatively wide spectral bands. The first two are centered around the red (0.6 micrometer) and near-infrared (0.9 micrometer) regions, the third one is located around 3.5 micrometer, and the last two sample the emitted thermal radiation, around 11 and 12 micrometers, respectively. The legacy 5 band instrument is known as AVHRR/2 while the more recent version, the AVHRR/3 (first carried on the NOAA-15 platform),  acquires data in a 6th channel located at 1.6 micrometer. Typically the 11 and 12 micron channels are used to derive SST sometimes in combination with the 3.5 micron channel. The NOAA platforms are sun synchronous generally viewing the same earth location twice a day (latitude dependent) due to the relatively large AVHRR swath of approximately 2400 km. The highest ground resolution that can be obtained from the current AVHRR instruments is 1.1 km at nadir. AVHRR data are acquired in three formats: High Resolution Picture Transmission (HRPT), Local Area Coverage (LAC), and Global Area Coverage (GAC).  HRPT data are full resolution image data transmitted to a ground stations as they are collected. LAC are also full resolution data, but the acquisition is prescheduled and recorded with an on-board tape recorder for subsequent transmission during a station overpass. This particular dataset is produced from GAC data that are derived from an on-board sample averaging of the full resolution global AVHRR data. Four out of every five samples along the scan line are used to compute on average value and the data from only every third scan line are processed, yielding an effective 4 km resolution at nadir.  Further binning and averaging of these pixels results in a final dataset resolution of 8.8 km.",
+        "license": "not-provided"
+    },
+    {
+        "id": "NAVO-L2P-AVHRR18_L.v1.0",
+        "title": "GHRSST Level 2P Regional Bulk Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-18 satellite produced by NAVO",
+        "catalog": "PODAAC",
+        "state_date": "2006-01-25",
+        "end_date": "2009-09-09",
+        "bbox": "-180, -70, 180, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1655117070-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1655117070-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/NAVO-L2P-AVHRR18_L.v1.0",
+        "description": "A regional Group for High Resolution Sea Surface Temperature (GHRSST) Level 2P dataset based on multi-channel sea surface temperature (SST) retrievals generated in real-time from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-18 platform (launched 20 May 2005) produced and used operationally in  oceanographic analyses and forecasts by the US Naval Oceanographic Office (NAVO). The AVHRR is a space-borne scanning sensor on the National Oceanic and Atmospheric Administration (NOAA) family of Polar Orbiting Environmental Satellites (POES) having a operational legacy that traces back to the Television Infrared Observation Satellite-N (TIROS-N) launched in 1978. AVHRR instruments measure the radiance of the Earth in 5 (or 6) relatively wide spectral bands. The first two are centered around the red (0.6 micrometer) and near-infrared (0.9 micrometer) regions, the third one is located around 3.5 micrometer, and the last two sample the emitted thermal radiation, around 11 and 12 micrometers, respectively. The legacy 5 band instrument is known as AVHRR/2 while the more recent version, the AVHRR/3 (first carried on the NOAA-15 platform),  acquires data in a 6th channel located at 1.6 micrometer. Typically the 11 and 12 micron channels are used to derive SST sometimes in combination with the 3.5 micron channel. The NOAA platforms are sun synchronous generally viewing the same earth location twice a day (latitude dependent) due to the relatively large AVHRR swath of approximately 2400 km. The highest ground resolution that can be obtained from the current AVHRR instruments is 1.1 km at nadir. AVHRR data are acquired in three formats: High Resolution Picture Transmission (HRPT), Local Area Coverage (LAC), and Global Area Coverage (GAC).  HRPT data are full resolution image data transmitted to a ground stations as they are collected. LAC are also full resolution data, but the acquisition is prescheduled and recorded with an on-board tape recorder for subsequent transmission during a station overpass. GAC data provide daily subsampled global coverage recorded on tape recorders and then transmitted to a ground station. This particular dataset is derived from LAC data. Further binning and averaging of the 1.1 km  LAC pixels results in a final dataset resolution of 2.2 km. The coverage of the LAC data can vary but generally contains scenes over the oceans adjacent to Australia and the North Indian Ocean.",
+        "license": "not-provided"
+    },
+    {
+        "id": "NAVO-L2P-AVHRR19_G.v1",
+        "title": "GHRSST Level 2P Global Bulk Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-19 satellite produced by NAVO",
+        "catalog": "PODAAC",
+        "state_date": "2009-10-05",
+        "end_date": "2015-02-17",
+        "bbox": "-180, -70, 180, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1655116933-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1655116933-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/NAVO-L2P-AVHRR19_G.v1",
+        "description": "A global Group for High Resolution Sea Surface Temperature (GHRSST) Level 2P dataset based on multi-channel sea surface temperature (SST) retrievals generated in real-time from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-19 platform (launched 6 Feb 2009) produced and used operationally in  oceanographic analyses and forecasts by the US Naval Oceanographic Office (NAVO). The AVHRR is a space-borne scanning sensor on the National Oceanic and Atmospheric Administration (NOAA) family of Polar Orbiting Environmental Satellites (POES) having a operational legacy that traces back to the Television Infrared Observation Satellite-N (TIROS-N) launched in 1978. AVHRR instruments measure the radiance of the Earth in 5 (or 6) relatively wide spectral bands. The first two are centered around the red (0.6 micrometer) and near-infrared (0.9 micrometer) regions, the third one is located around 3.5 micrometer, and the last two sample the emitted thermal radiation, around 11 and 12 micrometers, respectively. The legacy 5 band instrument is known as AVHRR/2 while the more recent version, the AVHRR/3 (first carried on the NOAA-15 platform),  acquires data in a 6th channel located at 1.6 micrometer. Typically the 11 and 12 micron channels are used to derive SST sometimes in combination with the 3.5 micron channel. The NOAA platforms are sun synchronous generally viewing the same earth location twice a day (latitude dependent) due to the relatively large AVHRR swath of approximately 2400 km. The highest ground resolution that can be obtained from the current AVHRR instruments is 1.1 km at nadir. AVHRR data are acquired in three formats: High Resolution Picture Transmission (HRPT), Local Area Coverage (LAC), and Global Area Coverage (GAC).  HRPT data are full resolution image data transmitted to a ground stations as they are collected. LAC are also full resolution data, but the acquisition is prescheduled and recorded with an on-board tape recorder for subsequent transmission during a station overpass. This particular dataset is produced from GAC data that are derived from an on-board sample averaging of the full resolution global AVHRR data. Four out of every five samples along the scan line are used to compute on average value and the data from only every third scan line are processed, yielding an effective 4 km resolution at nadir.  Further binning and averaging of these pixels results in a final dataset resolution of 8.8 km.",
+        "license": "not-provided"
+    },
+    {
+        "id": "NAVO-L2P-AVHRRMTA_G.v1.0",
+        "title": "GHRSST Level 2P Global Bulk Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the MetOp-A satellite produced by NAVO",
+        "catalog": "PODAAC",
+        "state_date": "2007-09-26",
+        "end_date": "2015-02-17",
+        "bbox": "-180, -70, 180, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1658476128-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1658476128-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/NAVO-L2P-AVHRRMTA_G.v1.0",
+        "description": "A global Group for High Resolution Sea Surface Temperature (GHRSST) Level 2P dataset based on multi-channel sea surface temperature (SST) retrievals generated in real-time from the Advanced Very High Resolution Radiometer (AVHRR) on the European Meteorological Operational-A  (MetOp-A; launched 19 Oct 2006) ) satellite produced and used operationally in oceanographic analyses and forecasts by the US Naval Oceanographic Office (NAVO). The MetOp satellite program is a European undertaking providing weather data services for monitoring climate and improving weather forecasts.  It was jointly established by the European Space Agency (ESA) and the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT) with a contribution by the US National Oceanic and Atmospheric Administration (NOAA) of an AVHRR sensor identical to those flying on the family of Polar Orbiting Environmental Satellites (POES). AVHRR instruments measure the radiance of the Earth in 5 (or 6) relatively wide spectral bands. The first two are centered around the red (0.6 micrometer) and near-infrared (0.9 micrometer) regions, the third one is located around 3.5 micrometer, and the last two sample the emitted thermal radiation, around 11 and 12 micrometers, respectively. The legacy 5 band instrument is known as AVHRR/2 while the more recent version, the AVHRR/3 (first carried on the NOAA-15 platform),  acquires data in a 6th channel located at 1.6 micrometer. Typically the 11 and 12 micron channels are used to derive SST sometimes in combination with the 3.5 micron channel. The MetOp-A platform is sun synchronous generally viewing the same earth location twice a day (latitude dependent) due to the relatively large AVHRR swath of approximately 2400 km. The highest ground resolution that can be obtained from the current AVHRR instruments is 1.1 km at nadir. This particular dataset is produced from Global Area Coverage (GAC) data that are derived from an on-board sample averaging of the full resolution global AVHRR data. Four out of every five samples along the scan line are used to compute on average value and the data from only every third scan line are processed, yielding an effective 4 km resolution at nadir.  Further binning and averaging of these pixels results in a final dataset resolution of 8.8 km.",
+        "license": "not-provided"
+    },
+    {
         "id": "ND01020",
         "title": "ADEOS Data Set(JAXA/EOC)",
         "catalog": "JAXA",
@@ -3637,6 +3598,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214560360-JAXA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/JAXA/collections/ND02009",
         "description": "Atmosphere             Atmospheric Temperature and Water Vapor             Global Distribution of Atmospheric Suspended Particles(Aerosols)             Daily Image of Absorbing Aerosols over Land from TOMS Data             Sources and Transport of Tropospheric Aerosols             Global Cloud Properties and Water Vapor             Greenhouse Gases          Ocean             Global Sea Surface Temperature Distribution             Global Chlorophyll-a Distribution             Unusual Path of the Kuroshio in Spring 1997 as Revealed             by OCTS Images          Land             Vegetation Distribution seen from OCTS             Monitoring of Global Biosphere             Assessment and Monitoring of Wetland Environment with AVNIR             Global Change, Sea Ice, Glaciers and Ice Sheet             Mouth of the Ganges          Interaction             Strong Air-Sea Interaction Forms the Deep Water in the Japan Sea              Monitoring of Atmospheric Ozone          Three-Dimensional Distribution of Atmospheric Ozone             Arctic Ozone Decrease in 1997 Spring             Change of Antarctic Ozone Hole             Application          97/98 El Nino Captured by ADEOS             The Impact of NSCAT Data on a Global NWP Model             Coastal Eddies and Fishing Ground Formation in Spring 1997 as             Revealed by OCTS Images             Volcanic Eruptions Measured from Space with TOMS             A Bird's Eye View Image Utilizing Stereo AVNIR Images             Simultaneous Observation by \"HIMAWARI\" and \"MIDORI\"",
+        "license": "not-provided"
+    },
+    {
+        "id": "NEODAAS-L2P-AVHRR19_L.v1",
+        "title": "GHRSST Level 2P North Atlantic Regional Bulk Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-19 satellite produced by NEODAAS",
+        "catalog": "PODAAC",
+        "state_date": "2009-09-06",
+        "end_date": "2021-08-05",
+        "bbox": "-60, -24, 60, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1655116962-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1655116962-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/NEODAAS-L2P-AVHRR19_L.v1",
+        "description": "A Level 2P swath-based Group for High Resolution Sea Surface Temperature (GHRSST) dataset for the North Atlantic area from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-19 platform (launched on 6 Feb 2009). This particular dataset is produced by the Natural Environment Research Council (NERC) Earth Observation Data Acquisition and Analysis Service (NEODAAS) in collaboration with the National Centre for Ocean Forecasting (NCOF) in the United Kingdom. The AVHRR is a space-borne scanning sensor on the National Oceanic and Atmospheric Administration (NOAA) family of Polar Orbiting Environmental Satellites (POES) having a operational legacy that traces back to the Television Infrared Observation Satellite-N (TIROS-N) launched in 1978. AVHRR instruments measure the radiance of the Earth in 5 (or 6) relatively wide spectral bands. The first two are centered around the red (0.6 micrometer) and near-infrared (0.9 micrometer) regions, the third one is located around 3.5 micrometer, and the last two sample the emitted thermal radiation, around 11 and 12 micrometers, respectively. The legacy 5 band instrument is known as AVHRR/2 while the more recent version, the AVHRR/3 (first carried on the NOAA-15 platform), acquires data in a 6th channel located at 1.6 micrometer. Typically the 11 and 12 micron channels are used to derive sea surface temperature (SST) sometimes in combination with the 3.5 micron channel. The highest ground resolution that can be obtained from the current AVHRR instruments is 1.1 km at nadir. The NOAA platforms are sun synchronous generally viewing the same earth location twice a day or more (latitude dependent) due to the relatively large AVHRR swath of approximately 2400 km.NEODAAS-Dundee acquires approximately 15 AVHRR direct broadcast High Resolution Picture Transmission (HRPT) passes per day over NW Europe and the Arctic. Each pass is approximately 15 minutes duration. These are immediately transferred to NEODAAS-Plymouth where they are processed into sea surface temperature (SST) products and converted to L2P specifications.",
         "license": "not-provided"
     },
     {
@@ -4134,6 +4108,19 @@
         "license": "not-provided"
     },
     {
+        "id": "SEVIRI_SST_DR-OSISAF-L3C-v1.0.v1.0",
+        "title": "GHRSST L3C OSISAF reprocessed  SSTskin dataset v1.0 from SEVIRI on MSG for Atlantic (GDS V2)",
+        "catalog": "PODAAC",
+        "state_date": "2004-01-19",
+        "end_date": "2012-12-31",
+        "bbox": "-60, -60, 60, 60",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1661293061-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1661293061-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/SEVIRI_SST_DR-OSISAF-L3C-v1.0.v1.0",
+        "description": "A Group for High Resolution Sea Surface Temperature (GHRSST) dataset for the Eastern Atlantic Region from the Spinning Enhanced Visible and InfraRed Imager (SEVIRI) on the MSG satellites (Meteosat-8 and Meteosat-9). The European Organization for the Exploitation of Meteorological Satellites (EUMETSAT),Ocean and Sea Ice Satellite Application Facility (OSI SAF) has reprocessed SST products in (long) delayed-mode from MSG/SEVIRI. SST is retrieved from the SEVIRI infrared channels (10.8 and 12.0 micrometer) using a multispectral algorithm and the cloud mask (CM) from OSI SAF.  Atmospheric profiles of water vapor and temperature from a numerical weather prediction (NWP) model, OSTIA Sea Surface Temperature re-analysis and analysis, together with a radiatiave transfer model (RTTOV), are used to correct the multispectral algorithm for regional and seasonal biases due to changing atmospheric conditions.  Every 15 minutes slot is processed at full satellite resolution. The operational products are then produced by remapping over a 0.05 degree regular grid (60S-60N and 60W-60E) SST fields obtained by aggregating all 15 minute SST data available in one hour time, and the priority being given to the value the closest in time to the product nominal hour. The product format is compliant with the GHRSST Data Specification (GDS) version 2.",
+        "license": "not-provided"
+    },
+    {
         "id": "SRDB_V5_1827.v5",
         "title": "A Global Database of Soil Respiration Data, Version 5.0",
         "catalog": "ORNL_CLOUD",
@@ -4170,6 +4157,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2260133500-MLHUB.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/MLHUB/collections/Tropical Cyclone Wind Estimation Model.v1",
         "description": "This is a PyTorch model trained on the Tropical Cyclone Wind Estimation Competition dataset with v0.1 of the TorchGeo package. The model is a resnet18 model pretrained on ImageNet then trained with a MSE loss. The data were randomly split 80/20 by storm ID and an early stop was used based on performance.",
+        "license": "not-provided"
+    },
+    {
+        "id": "UPA-L2P-ATS_NR_2P.v1.5",
+        "title": "GHRSST Level 2P Global Skin Sea Surface Temperature from the  Advanced Along Track Scanning Radiometer (AATSR) on the ESA Envisat satellite produced by UPA",
+        "catalog": "PODAAC",
+        "state_date": "2008-05-27",
+        "end_date": "2012-04-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1657550148-PODAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1657550148-PODAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/PODAAC/collections/UPA-L2P-ATS_NR_2P.v1.5",
+        "description": "Launched in March 2002 by the European Space Agency (ESA), Envisat is the largest Earth Observation spacecraft ever built. It carries ten sophisticated optical and radar instruments to provide continuous observation and monitoring of the Earth's land, atmosphere, oceans and ice caps. The Advanced Along-Track Scanning Radiometer (AATSR) onboard the Envisat spacecraft is designed to meet the challenging task of monitoring and detecting the climate change signal of sea surface temperature (SST). It builds on the success of its predecessor instruments on the European Remote-Sensing Satellite (ERS)-1, and ERS-2 satellites, and will lead to a multi-decade record of precise and accurate global SST measurements, thereby making a valuable contribution to the long-term climate record. The exceptionally high radiometric accuracy and stability of AATSR data are achieved through a number of unique features. A comprehensive pre-launch calibration programme, combined with continuous in-flight calibration, ensures that the data are continually corrected for sensor drift and degradation. A \"dual-view\" algorithm offering improved atmospheric correction by applying two different atmospheric path lengths is used to derive the SSTskin observations. The accuracies achieved with this configuration are further enhanced by using low-noise infrared detectors, cooled to their optimum operating temperature by a pair of Stirling-cycle coolers. With its high-accuracy, high-quality imagery and channels in the visible, near-infrared and thermal wavelengths, AATSR data will support many applications in addition to oceanographic and climate research, including a wide range of land-surface, cryosphere and atmospheric studies. See Llewellyn-Jones et al (2001) ESA bulletin 105, Feb 2001 for a full description. These AATSR L2P SST data are produced as part of the Group for High Resolution Sea Surface Temperature (GHRSST) Project according to the GHRSST-PP Data Processing Specification (GDS) version 1.5. This particular GHRSST AATSR dataset is produced by the UK Processing and Archiving (UPA) Centre Regional Data Assembly Facility (RDAC) for ESA since mid-2008. From the perspective of data format and quality it is identical to the L2P AATSR Medspiration (EUR) RDAC dataset produced earlier in the GHRSST Project.",
         "license": "not-provided"
     },
     {
