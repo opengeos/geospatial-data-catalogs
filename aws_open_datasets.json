@@ -10345,9 +10345,9 @@
         "Host": null
     },
     {
-        "Name": "NOAA Wang Sheeley Arge (WSA) Ensil - NOAA WSA-Ensil Products",
-        "Description": "NOAA WSA-Ensil Products",
-        "ARN": "arn:aws:s3:::noaa-wsa-ensil-pds",
+        "Name": "NOAA Wang Sheeley Arge (WSA) Enlil - NOAA WSA-Enlil Products",
+        "Description": "NOAA WSA-Enlil Products",
+        "ARN": "arn:aws:s3:::noaa-wsa-enlil-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction",
@@ -10357,7 +10357,7 @@
         "License": "Open Data. There are no restrictions on the use of this data.",
         "Tags": "aws-pds, climate, meteorological, solar, weather",
         "Explore": [
-            "[Browse Bucket](https://noaa-wsa-ensil-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-wsa-enlil-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -10365,8 +10365,8 @@
         "Host": null
     },
     {
-        "Name": "NOAA Wang Sheeley Arge (WSA) Ensil - New data notifications for NOAA WSA-Ensil Products, only Lambda and SQS protocol",
-        "Description": "New data notifications for NOAA WSA-Ensil Products, only Lambda and SQS protocol",
+        "Name": "NOAA Wang Sheeley Arge (WSA) Enlil - New data notifications for NOAA WSA-Enlil Products, only Lambda and SQS protocol",
+        "Description": "New data notifications for NOAA WSA-Enlil Products, only Lambda and SQS protocol",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSWPCWSAEnlilObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
