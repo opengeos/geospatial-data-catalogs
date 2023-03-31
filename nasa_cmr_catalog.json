@@ -2275,6 +2275,45 @@
         "license": "not-provided"
     },
     {
+        "id": "CWIC_REG.v1.0",
+        "title": "Radarsat-2 Scenes, Natural Resources Canada",
+        "catalog": "CCMEO",
+        "state_date": "2008-04-27",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2204659831-CCMEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2204659831-CCMEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CCMEO/collections/CWIC_REG.v1.0",
+        "description": "The collection represents browse images and metadata for systematically georeferenced Radarsat-2 Synthetic Aperture Radar(SAR) satellite scenes. The browse scenes are not geometrically enhanced using ground control points, but are systematically corrected using sensor parameters. Full resolution precision geocoded scenes(corrected using ground control points) which correspond to the browse images can be ordered from MacDonald Dettwiler and Associates Ltd., Vancouver, Canada. Metadata discovery is achieved using the online catalog http://neodf.nrcan.gc.ca OR by using the CWIC OGC CSW service URL : http://cwic.csiss.gmu.edu/cwicv1/discovery. The imaging frequency is C Band SAR : 5405.0000 MHz. RADARSAT-2 is in a polar, sun-synchronous orbit with a period of approximately 101 minutes. The RADARSAT-2 orbit will be maintained at +\\/- 1 km in across track direction. This orbit maintenance is suitable for InSAR data collection. The geo-location accuracy of RADARSAT-2 products varies with product type. It is currently estimated at +\\/- 30 m for Standard beam products.  The revisit period for RADARSAT-2 depends on the beam mode, incidence angle and geographic location of the area of interest. In general, revisit is more frequent at the poles than the equator and the wider swath modes have higher revisit than t he narrow swath modes.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CWIC_REG_RCM.v1.0",
+        "title": "RCM (Radarsat Constellation Mission ) Products, Natural Resources Canada",
+        "catalog": "CCMEO",
+        "state_date": "2019-06-12",
+        "end_date": "2026-06-12",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2204659595-CCMEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2204659595-CCMEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CCMEO/collections/CWIC_REG_RCM.v1.0",
+        "description": "The collection represents products and metadata for georeferenced Radarsat Constellation Mission ( RCM ) satellite scenes. Metadata discovery and product ordering is achieved using the online catalog https://www.eodms-sgdot.nrcan-rncan.gc.ca/index-en.html OR by using the CWIC OpenSearch OSDD : http://cwic.csiss.gmu.edu/cwicv1/discovery. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "CWIC_REG_Radarsat-1.v1.0",
+        "title": "Radarsat-1 Scenes, Natural Resources Canada",
+        "catalog": "CCMEO",
+        "state_date": "1996-01-11",
+        "end_date": "2013-03-29",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2204658925-CCMEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2204658925-CCMEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CCMEO/collections/CWIC_REG_Radarsat-1.v1.0",
+        "description": "The collection represents browse images and metadata for systematically georeferenced Radarsat-1 Synthetic Aperture Radar(SAR) satellite scenes. The browse scenes are not geometrically enhanced using ground control points, but are systematically corrected using sensor parameters. Full resolution precision geocoded scenes(corrected using ground control points) which correspond to the browse images can be ordered from MacDonald Dettwiler and Associates Ltd., Vancouver, Canada. Metadata discovery is achieved using the online catalog https://neodf.nrcan.gc.ca/neodf_cat3 OR by using the CWIC OGC CSW service URL : http://cwic.csiss.gmu.edu/cwicv1/discovery.  Radarsat-1 operates at 5.3 GHz. (C-Band). It is in a sun-synchronous orbit. Image resolution is in the range 8-100 meters.",
+        "license": "not-provided"
+    },
+    {
         "id": "DLG100K",
         "title": "1:100,000-scale Digital Line Graphs (DLG) from the U.S. Geological Survey",
         "catalog": "USGS_LTA",
