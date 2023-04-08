@@ -1,5 +1,14 @@
 [
     {
+        "Name": "10m Annual Land Use Land Cover (9-class)",
+        "Endpoint": "https://api.impactobservatory.com/stac-aws/",
+        "Description": "10m Annual Land Use Land Cover (9-class)",
+        "ARN": "arn:aws:s3:::io-10m-annual-lulc",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "Amazonia EO satellite on AWS",
         "Endpoint": "https://stac.amskepler.com/v100",
         "Description": "Amazonia 1 imagery (COG files)",
