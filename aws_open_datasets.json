@@ -101,7 +101,9 @@
         "UpdateFrequency": "Annually, each January",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": "aws-pds, earth observation, environmental, geospatial, satellite imagery, sustainability, stac, cog, land cover, land use, machine learning, mapping, planetary",
-        "Explore": null,
+        "Explore": [
+            "[STAC 1.0.0 endpoint](https://api.impactobservatory.com/stac-aws/)"
+        ],
         "ControlledAccess": null,
         "RequesterPays": null,
         "AccountRequired": null,
@@ -5875,6 +5877,24 @@
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gadal&prefix=gadal_ieee123%2F)"
         ],
+        "ControlledAccess": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Guys Breast Cancer Lymph Nodes (GRAPE)",
+        "Description": "H&E-stained WSI lymph node ndpi images in a public bucket",
+        "ARN": "arn:aws:s3:::GRAPE",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/cancerbioinformatics/GRAPE",
+        "Contact": "https://github.com/cancerbioinformatics/GRAPE/issues",
+        "ManagedBy": "http://www.cancerbioinformatics.co.uk",
+        "UpdateFrequency": "New data will be added as soon as it's available",
+        "License": "There are no restrictions on the use of this data.",
+        "Tags": "aws-pds, biology, cancer, life sciences, breast cancer, computational pathology, histopathology",
+        "Explore": null,
         "ControlledAccess": null,
         "RequesterPays": null,
         "AccountRequired": null,
