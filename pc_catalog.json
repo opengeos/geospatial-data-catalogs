@@ -2,10 +2,10 @@
     {
         "title": "10m Annual Land Use Land Cover (9-class)",
         "id": "io-lulc-9-class",
-        "description": "Global land cover information with 9 classes for for 2017-2021 at 10m resolution",
+        "description": "Global land cover information with 9 classes for for 2017-2022 at 10m resolution",
         "bbox": "-180, -90, 180, 90",
         "start_date": "2017-01-01",
-        "end_date": "2022-01-01",
+        "end_date": "2023-01-01",
         "group_id": "io-land-cover",
         "container": "io-lulc",
         "storage_account": "ai4edataeuwest",
@@ -88,6 +88,24 @@
         "variables": "",
         "dimensions": "",
         "assets": "TIR, xml, SWIR, VNIR, qa-txt, qa-browse, tir-browse, vnir-browse"
+    },
+    {
+        "title": "Biodiversity Intactness",
+        "id": "io-biodiversity",
+        "description": "Global terrestrial biodiversity intactness at 100m resolution for years 2017-2020",
+        "bbox": "-180, -90, 180, 90",
+        "start_date": "2017-01-01",
+        "end_date": "2020-12-31",
+        "group_id": "",
+        "container": "impact",
+        "storage_account": "pcdata01euw",
+        "keywords": "Global, Biodiversity",
+        "providers": "Impact Observatory, Vizzuality, Microsoft",
+        "license": "CC-BY-4.0",
+        "link": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/io-biodiversity",
+        "variables": "",
+        "dimensions": "",
+        "assets": "data"
     },
     {
         "title": "C-CAP Regional Land Cover and Change",
