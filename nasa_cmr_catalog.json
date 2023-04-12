@@ -2369,7 +2369,7 @@
         "id": "EMITL1BATT.v001",
         "title": "EMIT L1B Corrected Spacecraft Attitude and Ephemeris V001",
         "catalog": "LPCLOUD",
-        "state_date": "2022-07-27",
+        "state_date": "2022-08-09",
         "end_date": "",
         "bbox": "-180, -52, 180, 52",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2408031090-LPCLOUD.json",
@@ -2382,26 +2382,26 @@
         "id": "EMITL1BRAD.v001",
         "title": "EMIT L1B At-Sensor Calibrated Radiance and Geolocation Data 60 m V001",
         "catalog": "LPCLOUD",
-        "state_date": "2022-07-27",
+        "state_date": "2022-08-09",
         "end_date": "",
         "bbox": "-180, -52, 180, 52",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2408009906-LPCLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2408009906-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/EMITL1BRAD.v001",
-        "description": "The Earth Surface Mineral Dust Source Investigation (EMIT) instrument measures surface mineralogy, targeting the Earth\u2019s arid dust source regions. EMIT is installed on the International Space Station (ISS). During its one-year mission, EMIT will take mineralogical measurements of  sunlit regions of interest between 52\u00b0 N latitude and 52\u00b0 S latitude. A map of the regions being investigated can be found on the EMIT website.  The EMIT Level 1B At-Sensor Calibrated Radiance and Geolocation (EMITL1BRAD) Version 1 data product provides at-sensor calibrated radiance values along with observation data in a spatially raw, non-orthocorrected format. Each EMITL1BRAD granule consists of two Network Common Data Format 4 (NetCDF4) files at a spatial resolution of 60 meters (m): Radiance (EMIT_L1B_RAD) and Observation (EMIT_L1B_OBS). The Radiance file contains the at-sensor radiance measurements of 285 bands with a spectral range of 381-2493 nanometers (nm) and with a spectral resolution of ~7.5 nm, which are held within a single science dataset layer (SDS). The Observation file contains viewing and solar geometries, timing, topographic, and other information related to the observation.   Each NetCDF4 file holds a location group containing geometric lookup tables (GLT), which are orthorectified images that provide relative x and y reference locations from the raw scene to allow for projection of the data. Along with the GLT layers, the files also contain latitude, longitude, and elevation layers. The latitude and longitude coordinates are presented using the World Geodetic System 84 (WGS84) ellipsoid. The elevation data was obtained from Shuttle Radar Topography Mission v3 (SRTM v3) data and resampled to EMIT\u2019s spatial resolution.    The early release of EMITL1BRAD includes a small representation of EMIT data with limited spatial and temporal coverage to provide the science community with an opportunity to become familiar with the data. Feedback is welcome and can be sent to LP DAAC User Services at lpdaac@usgs.gov.",
+        "description": "The Earth Surface Mineral Dust Source Investigation (EMIT) instrument measures surface mineralogy, targeting the Earth\u2019s arid dust source regions. EMIT is installed on the International Space Station (ISS). During its one-year mission, EMIT will take mineralogical measurements of  sunlit regions of interest between 52\u00b0 N latitude and 52\u00b0 S latitude. A map of the regions being investigated can be found on the EMIT website.  The EMIT Level 1B At-Sensor Calibrated Radiance and Geolocation (EMITL1BRAD) Version 1 data product provides at-sensor calibrated radiance values along with observation data in a spatially raw, non-orthocorrected format. Each EMITL1BRAD granule consists of two Network Common Data Format 4 (NetCDF4) files at a spatial resolution of 60 meters (m): Radiance (EMIT_L1B_RAD) and Observation (EMIT_L1B_OBS). The Radiance file contains the at-sensor radiance measurements of 285 bands with a spectral range of 381-2493 nanometers (nm) and with a spectral resolution of ~7.5 nm, which are held within a single science dataset layer (SDS). The Observation file contains viewing and solar geometries, timing, topographic, and other information related to the observation.   Each NetCDF4 file holds a location group containing geometric lookup tables (GLT), which are orthorectified images that provide relative x and y reference locations from the raw scene to allow for projection of the data. Along with the GLT layers, the files also contain latitude, longitude, and elevation layers. The latitude and longitude coordinates are presented using the World Geodetic System 84 (WGS84) ellipsoid. The elevation data was obtained from Shuttle Radar Topography Mission v3 (SRTM v3) data and resampled to EMIT\u2019s spatial resolution.",
         "license": "not-provided"
     },
     {
         "id": "EMITL2ARFL.v001",
         "title": "EMIT L2A Estimated Surface Reflectance and Uncertainty and Masks 60 m V001",
         "catalog": "LPCLOUD",
-        "state_date": "2022-07-27",
+        "state_date": "2022-08-09",
         "end_date": "",
         "bbox": "-180, -52, 180, 52",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2408750690-LPCLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2408750690-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/EMITL2ARFL.v001",
-        "description": "The Earth Surface Mineral Dust Source Investigation (EMIT) instrument measures surface mineralogy, targeting the Earth\u2019s arid dust source regions. EMIT is installed on the International Space Station (ISS). During its one-year mission, EMIT will take mineralogical measurements of sunlit regions of interest between 52\u00b0 N latitude and 52\u00b0 S latitude. A map of the regions being investigated can be found on the EMIT website (https://earth.jpl.nasa.gov/emit/instrument/operations/).    The EMIT Level 2A Estimated Surface Reflectance and Uncertainty and Masks (EMITL2ARFL) Version 1 data product provides surface reflectance data in a spatially raw, non-orthocorrected format. Each EMITL2ARFL granule consists of three Network Common Data Format 4 (NetCDF4) files at a spatial resolution of 60 meters (m): Reflectance (EMIT_L2A_RFL), Reflectance Uncertainty (EMIT_L2A_RFLUNCERT), and Reflectance Mask (EMIT_L2A_MASK). The Reflectance file contains surface reflectance maps of 285 bands with a spectral range of 381-2493 nanometers (nm) at a spectral resolution of ~7.5 nm, which are held within a single science dataset layer (SDS). The Reflectance Uncertainty file contains uncertainty estimates about the reflectance captured as per-pixel, per-band, posterior standard deviations. The Reflectance Mask file contains six binary flag bands and two data bands. The binary flag bands identify the presence of features including clouds, water, and spacecraft which indicate if a pixel should be excluded from analysis. The data bands contain estimates of aerosol optical depth (AOD) and water vapor.    Each NetCDF4 file holds a location group containing a geometric lookup table (GLT) which is an orthorectified image that provides relative x and y reference locations from the raw scene to allow for projection of the data. Along with the GLT layers, the files will also contain latitude, longitude, and elevation layers. The latitude and longitude coordinates are presented using the World Geodetic System 84 (WGS84) ellipsoid. The elevation data was obtained from Shuttle Radar Topography Mission v3 (SRTM v3) data and resampled to EMIT\u2019s spatial resolution.    The early release of EMITL2ARFL includes a small representation of EMIT data with limited spatial and temporal coverage to provide the science community with an opportunity to become familiar with the data. Feedback is welcome and can be sent to LP DAAC User Services at lpdaac@usgs.gov.",
+        "description": "The Earth Surface Mineral Dust Source Investigation (EMIT) instrument measures surface mineralogy, targeting the Earth\u2019s arid dust source regions. EMIT is installed on the International Space Station (ISS). During its one-year mission, EMIT will take mineralogical measurements of sunlit regions of interest between 52\u00b0 N latitude and 52\u00b0 S latitude. A map of the regions being investigated can be found on the EMIT website (https://earth.jpl.nasa.gov/emit/instrument/operations/).    The EMIT Level 2A Estimated Surface Reflectance and Uncertainty and Masks (EMITL2ARFL) Version 1 data product provides surface reflectance data in a spatially raw, non-orthocorrected format. Each EMITL2ARFL granule consists of three Network Common Data Format 4 (NetCDF4) files at a spatial resolution of 60 meters (m): Reflectance (EMIT_L2A_RFL), Reflectance Uncertainty (EMIT_L2A_RFLUNCERT), and Reflectance Mask (EMIT_L2A_MASK). The Reflectance file contains surface reflectance maps of 285 bands with a spectral range of 381-2493 nanometers (nm) at a spectral resolution of ~7.5 nm, which are held within a single science dataset layer (SDS). The Reflectance Uncertainty file contains uncertainty estimates about the reflectance captured as per-pixel, per-band, posterior standard deviations. The Reflectance Mask file contains six binary flag bands and two data bands. The binary flag bands identify the presence of features including clouds, water, and spacecraft which indicate if a pixel should be excluded from analysis. The data bands contain estimates of aerosol optical depth (AOD) and water vapor.    Each NetCDF4 file holds a location group containing a geometric lookup table (GLT) which is an orthorectified image that provides relative x and y reference locations from the raw scene to allow for projection of the data. Along with the GLT layers, the files will also contain latitude, longitude, and elevation layers. The latitude and longitude coordinates are presented using the World Geodetic System 84 (WGS84) ellipsoid. The elevation data was obtained from Shuttle Radar Topography Mission v3 (SRTM v3) data and resampled to EMIT\u2019s spatial resolution.",
         "license": "not-provided"
     },
     {
@@ -3302,6 +3302,32 @@
         "license": "not-provided"
     },
     {
+        "id": "MURI_Camouflage.v0",
+        "title": "A Multi University Research Initiative (MURI) Camouflage Project",
+        "catalog": "OB_DAAC",
+        "state_date": "2010-06-14",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360494-OB_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360494-OB_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/MURI_Camouflage.v0",
+        "description": "A Multi University Research Initiative was funded to study the biological response to the dynamic, polarized light field in distinct water types. During June 2010, a campaign was undertaken in the coastal waters off Port Aransas, Texas to study the angular/temporal distribution of polarization in multiple environment types (eutrophic sediment laden coastal waters, oligotrophic off-shore), as well as the polarization-reflectance responses of several organisms. In addition to radiometric polarization measurements, water column IOPs, Rrs, benthic reflectance, and pigment concentration measurements were collected. Later campaigns expanded this research in the coastal waters off the Florida Keys.",
+        "license": "not-provided"
+    },
+    {
+        "id": "MURI_HI.v0",
+        "title": "A Multi University Research Initiative (MURI) near the Hawaiian Islands",
+        "catalog": "OB_DAAC",
+        "state_date": "2012-05-31",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360508-OB_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360508-OB_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/MURI_HI.v0",
+        "description": "Measurements taken by the RV Kilo Moana in 2012 near the Hawaiian Islands.",
+        "license": "not-provided"
+    },
+    {
         "id": "MYD021KM.v6.1NRT",
         "title": "MODIS/Aqua Calibrated Radiances 5-Min L1B Swath 1km - NRT",
         "catalog": "LANCEMODIS",
@@ -3887,45 +3913,6 @@
         "license": "not-provided"
     },
     {
-        "id": "OCTS_L1.v1",
-        "title": "ADEOS-I Ocean Color and Temperature Scanner (OCTS) Data Regional Data",
-        "catalog": "OB_DAAC",
-        "state_date": "1996-11-01",
-        "end_date": "1997-06-30",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1200034340-OB_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1200034340-OB_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/OCTS_L1.v1",
-        "description": "On August 17, 1996, the Japanese Space Agency (NASDA - National Space Development Agency) launched the Advanced Earth Observing Satellite (ADEOS). ADEOS was in a descending, Sun synchronous orbit with a nominal equatorial crossing time of 10:30 a.m. Amoung the instruments carried aboard the ADEOS spacecraft was the Ocean Color and Temperature Scanner (OCTS). OCTS is an optical radiometer with 12 bands covering the visible, near infrared and thermal infrared regions. (Eight of the bands are in the VIS/NIR. These are the only bands calibrated and processed by the OBPG) OCTS has a swath width of approximately 1400 km, and a nominal nadir resolution of 700 m. The instrument operated at three tilt states (20 degrees aft, nadir and 20 degrees fore), similar to SeaWiFS.",
-        "license": "not-provided"
-    },
-    {
-        "id": "OCTS_L3b_CHL.v2014",
-        "title": "ADEOS-I Ocean Color and Temperature Scanner (OCTS) Chlorophyll (CHL) Global Binned Data",
-        "catalog": "OB_DAAC",
-        "state_date": "1996-11-01",
-        "end_date": "1997-06-30",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1200034361-OB_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1200034361-OB_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/OCTS_L3b_CHL.v2014",
-        "description": "On August 17, 1996, the Japanese Space Agency (NASDA - National Space Development Agency) launched the Advanced Earth Observing Satellite (ADEOS). ADEOS was in a descending, Sun synchronous orbit with a nominal equatorial crossing time of 10:30 a.m. Amoung the instruments carried aboard the ADEOS spacecraft was the Ocean Color and Temperature Scanner (OCTS). OCTS is an optical radiometer with 12 bands covering the visible, near infrared and thermal infrared regions. (Eight of the bands are in the VIS/NIR. These are the only bands calibrated and processed by the OBPG) OCTS has a swath width of approximately 1400 km, and a nominal nadir resolution of 700 m. The instrument operated at three tilt states (20 degrees aft, nadir and 20 degrees fore), similar to SeaWiFS.",
-        "license": "not-provided"
-    },
-    {
-        "id": "OCTS_L3m_CHL.v2014",
-        "title": "ADEOS-I Ocean Color and Temperature Scanner (OCTS) Chlorophyll (CHL) Global Mapped Data",
-        "catalog": "OB_DAAC",
-        "state_date": "1996-11-01",
-        "end_date": "1997-06-30",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1200034342-OB_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1200034342-OB_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/OCTS_L3m_CHL.v2014",
-        "description": "On August 17, 1996, the Japanese Space Agency (NASDA - National Space Development Agency) launched the Advanced Earth Observing Satellite (ADEOS). ADEOS was in a descending, Sun synchronous orbit with a nominal equatorial crossing time of 10:30 a.m. Amoung the instruments carried aboard the ADEOS spacecraft was the Ocean Color and Temperature Scanner (OCTS). OCTS is an optical radiometer with 12 bands covering the visible, near infrared and thermal infrared regions. (Eight of the bands are in the VIS/NIR. These are the only bands calibrated and processed by the OBPG) OCTS has a swath width of approximately 1400 km, and a nominal nadir resolution of 700 m. The instrument operated at three tilt states (20 degrees aft, nadir and 20 degrees fore), similar to SeaWiFS.",
-        "license": "not-provided"
-    },
-    {
         "id": "OMAERUV.v003",
         "title": "OMI/Aura Near UV Aerosol Optical Depth and Single Scattering Albedo 1-orbit L2 Swath 13x24 km V003 NRT",
         "catalog": "OMINRT",
@@ -4131,6 +4118,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2260133500-MLHUB.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/MLHUB/collections/Tropical Cyclone Wind Estimation Model.v1",
         "description": "This is a PyTorch model trained on the Tropical Cyclone Wind Estimation Competition dataset with v0.1 of the TorchGeo package. The model is a resnet18 model pretrained on ImageNet then trained with a MSE loss. The data were randomly split 80/20 by storm ID and an early stop was used based on performance.",
+        "license": "not-provided"
+    },
+    {
+        "id": "Turbid9.v0",
+        "title": "2004 Measurements made in the Chesapeake Bay",
+        "catalog": "OB_DAAC",
+        "state_date": "2004-10-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360689-OB_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360689-OB_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/Turbid9.v0",
+        "description": "Measurements made in the Chesapeake Bay in 2004.",
         "license": "not-provided"
     },
     {
