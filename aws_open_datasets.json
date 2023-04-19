@@ -1052,26 +1052,6 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
-        "Region": "ap-southeast-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
-        "Contact": "soles.wildlife-genomics@sydney.edu.au",
-        "ManagedBy": "[Australasian Wildlife Genomics Group at The University of Sydney](https://www.s",
-        "UpdateFrequency": "As new genomes are produced",
-        "License": "https://threatenedspeciesinitiative.com/threatened-species-initiative-data-polic",
-        "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
-        "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
-        ],
-        "ControlledAccess": null,
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Australasian Genomes - Data files",
-        "Description": "Data files",
         "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
@@ -1083,6 +1063,26 @@
         "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
         "Explore": [
             "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
+        ],
+        "ControlledAccess": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Australasian Genomes - Data files",
+        "Description": "Data files",
+        "ARN": "arn:aws:s3:::threatenedspecies",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
+        "Contact": "soles.wildlife-genomics@sydney.edu.au",
+        "ManagedBy": "[Australasian Wildlife Genomics Group at The University of Sydney](https://www.s",
+        "UpdateFrequency": "As new genomes are produced",
+        "License": "https://threatenedspeciesinitiative.com/threatened-species-initiative-data-polic",
+        "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
+        "Explore": [
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "ControlledAccess": null,
         "RequesterPays": null,
@@ -1657,7 +1657,7 @@
         "Contact": "s.rahimi@ucla.edu",
         "ManagedBy": "[UCLA Center for Climate Science](https://dept.atmos.ucla.edu/)",
         "UpdateFrequency": "New downscaled results are uploaded as soon as they become available",
-        "License": "Creative Commons Attribution-ShareAlike 4.0 International License",
+        "License": "Creative Commons Attribution 4.0 International License",
         "Tags": "aws-pds, agriculture, atmosphere, climate, earth observation, environmental, model, oceans, simulations, weather",
         "Explore": [
             "[Browse Bucket](https://wrf-cmip6-noversioning.s3.amazonaws.com/index.html)"
@@ -5643,24 +5643,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
-        "ControlledAccess": null,
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
@@ -5673,6 +5655,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
         ],
+        "ControlledAccess": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
         "ControlledAccess": null,
         "RequesterPays": null,
         "AccountRequired": null,
@@ -5719,6 +5719,24 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
+        "ControlledAccess": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -5731,24 +5749,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "ControlledAccess": null,
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
         "ControlledAccess": null,
         "RequesterPays": null,
         "AccountRequired": null,
@@ -9215,7 +9215,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9251,7 +9251,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9269,7 +9269,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10175,7 +10175,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
@@ -10193,7 +10193,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
@@ -11611,6 +11611,46 @@
         "License": "There are no restrictions on the use of this data.",
         "Tags": "aws-pds, earth observation, geospatial, urban, satellite imagery",
         "Explore": null,
+        "ControlledAccess": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Basic network transformation capacity",
+        "Description": "Basic network transformation capacity",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-transformacao)"
+        ],
+        "ControlledAccess": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Installed generation capacity",
+        "Description": "Installed generation capacity",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-geracao)"
+        ],
         "ControlledAccess": null,
         "RequesterPays": null,
         "AccountRequired": null,
@@ -15496,7 +15536,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
@@ -15514,7 +15554,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
