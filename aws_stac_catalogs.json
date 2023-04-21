@@ -279,6 +279,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "NASA - USGS Mars Reconnaissance Orbiter (MRO) Context Camera (CTX) Targeted DTMs",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/collections/mro_ctx_controlled_usgs_dtms",
+        "Description": "DTMs, orthoimages, error images, and quality assurance metrics",
+        "ARN": "arn:aws:s3:::astrogeo-ard/mars/mro/ctx/controlled/usgs/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "Reference Elevation Model of Antarctica (REMA) - REMA DEM Mosaics",
         "Endpoint": "https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/rema/mosaics.json",
         "Description": "REMA DEM Mosaics",
