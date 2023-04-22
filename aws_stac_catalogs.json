@@ -288,6 +288,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "NASA - USGS Uncontrolled HiRISE RDRs",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/collections/mro_hirise_uncontrolled_observations",
+        "Description": "Scenes and metadata",
+        "ARN": "arn:aws:s3:::astrogeo-ard/mars/mro/hirise/uncontrolled_rdr_observations/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "Reference Elevation Model of Antarctica (REMA) - REMA DEM Mosaics",
         "Endpoint": "https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/rema/mosaics.json",
         "Description": "REMA DEM Mosaics",
