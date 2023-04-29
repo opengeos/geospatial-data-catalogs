@@ -38,8 +38,8 @@
     {
         "Name": "1000 Genomes Phase 3 Reanalysis with DRAGEN 3.5 and 3.7 - BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
         "Description": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
-        "ARN": "arn:aws:s3:::1000genomes-dragen-3.7.6",
-        "Region": "us-west-2",
+        "ARN": "arn:aws:s3:::1000genomes-dragen-v3.7.6",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "[DRAGEN Support Resources](https://support.illumina.com/sequencing/sequencing_so",
@@ -56,8 +56,8 @@
     {
         "Name": "1000 Genomes Phase 3 Reanalysis with DRAGEN 3.5 and 3.7 - BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
         "Description": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
-        "ARN": "arn:aws:s3:::1000genomes-dragen-v3.7.6",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::1000genomes-dragen-3.7.6",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "[DRAGEN Support Resources](https://support.illumina.com/sequencing/sequencing_so",
@@ -1052,11 +1052,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
+        "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1072,11 +1072,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
+        "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1854,7 +1854,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -1872,7 +1872,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5187,7 +5187,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5205,7 +5205,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5661,10 +5661,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
         "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5679,12 +5681,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
         "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -6492,6 +6492,24 @@
         "AccountRequired": null
     },
     {
+        "Name": "Integrative Analysis of Lung Adenocarcinoma in Environment and Genetics Lung cancer Etiology (Phase 2)",
+        "Description": "Whole Genome Sequencing, Whole Exome Sequencing",
+        "ARN": "arn:aws:s3:::gdc-cddp-eagle-1-phs001239-2-open",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://ftp.ncbi.nlm.nih.gov/dbgap/studies/phs001239/phs001239.v1.p1",
+        "Contact": "support@nci-gdc.datacommons.io",
+        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctd",
+        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers month",
+        "License": "(NIH Genomic Data Sharing Policy)[https://gdc.cancer.gov/access-data/data-access",
+        "Tags": "cancer, whole exome sequencing, whole genome sequencing, aws-pds, life sciences, STRIDES, genomic, epigenomics",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "International Neuroimaging Data-Sharing Initiative (INDI)",
         "Description": "Neuroimaging data for the International Neuroimaging Data-Sharing Initiative (IN",
         "ARN": "arn:aws:s3:::fcp-indi",
@@ -7091,6 +7109,24 @@
         "UpdateFrequency": "This is a static dataset; however, tutorials and resources will be updated as th",
         "License": "[CC-BY-SA 4.0 International](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": "aws-pds, health, life sciences, medicine, imaging, magnetic resonance imaging, nifti, computed tomography, segmentation",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Molecular Profiling to Predict Response to Treatment (phs001965)",
+        "Description": "miRNA Sequencing, Total RNA Sequencing, Whole Genome Sequencing, Targeted Sequen",
+        "ARN": "arn:aws:s3:::gdc-mp2prt-wt-phs001965-2-open",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://datacatalog.ccdi.cancer.gov/dataset/GDC-MP2PRT",
+        "Contact": "support@nci-gdc.datacommons.io",
+        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctd",
+        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers month",
+        "License": "[NIH Genomic Data Sharing Policy](https://gdc.cancer.gov/access-data/data-access",
+        "Tags": "aws-pds, life sciences, cancer, genomic, whole genome sequencing, STRIDES",
         "RequesterPays": null,
         "ControlledAccess": null,
         "Host": null,
