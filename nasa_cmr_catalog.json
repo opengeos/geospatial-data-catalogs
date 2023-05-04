@@ -2314,19 +2314,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ECO_L1B_RAD.v002",
-        "title": "ECOSTRESS Swath Top of Atmosphere Calibrated Radiance Instantaneous L1B Global 70 m V002",
-        "catalog": "LPCLOUD",
-        "state_date": "2018-07-09",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076116385-LPCLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076116385-LPCLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L1B_RAD.v002",
-        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data over the conterminous United States (CONUS) as well as key biomes and agricultural zones around the world and selected  FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).    The ECOSTRESS Swath Top of Atmosphere Calibrated Radiance Instantaneous L1B Global 70 m (ECO_L1B_RAD) Version 2 data product provides at-sensor calibrated radiance values retrieved for five thermal infrared (TIR) bands operating between 8 and 12.5 \u00b5m. Additionally, the digital numbers (DN) for the shortwave infrared (SWIR) band are provided. The TIR bands are spatially co-registered to produce a variable spatial resolution between 70 meters (m) and 90 m at the edge of the swath. The ECO_L1B_RAD data product is provided as swath data and does not contain geolocation information. The corresponding ECO_L1B_GEO (https://doi.org/10.5067/ECOSTRESS/ECO_L1B_GEO.002) data product is required to georeference the ECO_L1B_RAD data product. The geographic coverage of acquisitions for the ECO_L1B_RAD Version 2 data product extends to areas outside of those indicated on the coverage map.     The ECO_L1B_RAD Version 2 data product contains layers of radiance values for the five TIR bands, DN values for the SWIR band, associated data quality indicators, and ancillary data distributed in HDF5 format. For acquisitions after May 15, 2019, data products contain data values for the 8.785 \u03bcm, 10.522 \u03bcm, and 12.001 \u03bcm (TIR) bands only. The 1.6 \u03bcm (SWIR), 8.285 \u03bcm (TIR), and 9.060 \u03bcm (TIR) bands contain fill values to accommodate direct streaming of data from the ISS.  ",
-        "license": "not-provided"
-    },
-    {
         "id": "ECO_L2G_CLOUD.v002",
         "title": "ECOSTRESS Gridded Cloud Mask Instantaneous L2 Global 70 m V002",
         "catalog": "LPCLOUD",
@@ -4248,6 +4235,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2497398128-CSDA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/CSDA/collections/WV02_Pan_L1B.v1",
         "description": "The WorldView-2 Level 1B Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the DigitalGlobe WorldView-2 satellite using the WorldView-110 camera across the global land surface from October 2009 to the present. This data product includes panchromatic imagery with a spatial resolution of 0.46m and a temporal resolution of approximately 1.1 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+        "license": "not-provided"
+    },
+    {
+        "id": "WaterBalance_Daily_Historical_GRIDMET.v1.5",
+        "title": "Daily Historical Water Balance Products for the CONUS",
+        "catalog": "LPCLOUD",
+        "state_date": "1980-01-01",
+        "end_date": "2021-12-31",
+        "bbox": "-131.70607, 21.115301, -60.530453, 55.457306",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2674694066-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2674694066-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/WaterBalance_Daily_Historical_GRIDMET.v1.5",
+        "description": "This dataset provides daily historical Water Balance Model outputs from a Thornthwaite-type, single bucket model.  Climate inputs to the model are from GridMet daily temperature and precipitation for the Continental United States (CONUS). The Water Balance Model output variables include the following: Potential Evapotranspiration (PET, mm), Actual Evapotranspiration (AET, mm), Moisture Deficit (Deficit, mm), Soil Water (soilwater, mm), Runoff (mm), Rain (mm), and Accumulated Snow Water Equivalent (accumswe, mm). The dataset covers the period from January 1 to December 31 for years 1980 through 2021 for the CONUS. Water Balance Model variables are provided as individual files, by variable and year, at a 1 km x 1 km spatial resolution and a daily temporal resolution. Data are in a North America Lambert Conformal Conic projection and are distributed in a standardized Climate and Forecast (CF)-compliant NetCDF file format.",
         "license": "not-provided"
     },
     {
