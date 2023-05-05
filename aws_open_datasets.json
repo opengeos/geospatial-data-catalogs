@@ -1854,7 +1854,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -1872,7 +1872,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -4791,8 +4791,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
+        "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
@@ -4809,8 +4809,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
-        "Region": "us-east-2",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
@@ -9347,7 +9347,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -9383,7 +9383,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -9401,7 +9401,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -15364,6 +15364,26 @@
         "AccountRequired": null
     },
     {
+        "Name": "VirtualFlow Ligand Libraries",
+        "Description": "VirtualFlow Version of the Enamine REAL Space Molecule Library (version 2022q12)",
+        "ARN": "arn:aws:s3:::vf-libraries",
+        "Region": "us-east-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://vf-libraries.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://virtual-flow.org/real-space-2022q12",
+        "Contact": "c.gorgulla@gmail.com",
+        "ManagedBy": "[VirtualFlow Project](https://virtual-flow.org/)",
+        "UpdateFrequency": "Every ~3 years",
+        "License": "There are no restrictions on the use of this data. Redistribution is not allowed",
+        "Tags": "aws-pds, structural biology, pharmaceutical, medicine, bioinformatics, life sciences",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Visual Anomaly (VisA)",
         "Description": "The tar file for the Visual Anomaly (VisA) dataset",
         "ARN": "arn:aws:s3:::amazon-visual-anomaly/VisA_20220922.tar",
@@ -15686,7 +15706,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -15704,7 +15724,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
