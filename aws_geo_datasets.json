@@ -350,6 +350,23 @@
         "AccountRequired": null
     },
     {
+        "Name": "Astrophysics Division Galaxy Morphology Benchmark Dataset",
+        "Description": "NASA APD Galaxy Morphology dataset",
+        "ARN": "arn:aws:s3:::nasa-apd-galaxymorph",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/erinleeryan/nasa_astro_aiml/tree/main/galaxymorphology",
+        "Contact": "Roopesh.Ojha@nasa.gov",
+        "ManagedBy": "[NASA](https://osdr.nasa.gov/)",
+        "UpdateFrequency": "No updates",
+        "License": "There are no restrictions on the use of this data.",
+        "Tags": "aws-pds, astronomy, machine learning, satellite imagery, NASA SMD AI",
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Atmospheric Models from M\u00e9t\u00e9o-France",
         "Description": "Atmospheric Models from M\u00e9t\u00e9o-France",
         "ARN": "arn:aws:s3:::mf-nwp-models",
@@ -789,7 +806,9 @@
         "ARN": "arn:aws:s3:::copernicus-dem-30m",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
-        "Explore": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://copernicus-dem-30m-stac.s3.amazonaws.com/)"
+        ],
         "Documentation": "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
         "Contact": "https://forum.sentinel-hub.com/c/aws-copdem/28",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
@@ -806,41 +825,9 @@
         "ARN": "arn:aws:s3:::copernicus-dem-90m",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
-        "Explore": null,
-        "Documentation": "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
-        "Contact": "https://forum.sentinel-hub.com/c/aws-copdem/28",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
-        "UpdateFrequency": "None, except GLO-30 Public can be updated if the public tile list changes.",
-        "License": "GLO-30 Public and GLO-90 are available on a free basis for the general public un",
-        "Tags": "aws-pds, agriculture, elevation, earth observation, satellite imagery, geospatial, disaster response, cog",
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Copernicus Digital Elevation Model (DEM) - STAC for GLO-30 Public in S3 bucket",
-        "Description": "STAC for GLO-30 Public in S3 bucket",
-        "ARN": "arn:aws:s3:::copernicus-dem-30m-stac",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Explore": null,
-        "Documentation": "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
-        "Contact": "https://forum.sentinel-hub.com/c/aws-copdem/28",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
-        "UpdateFrequency": "None, except GLO-30 Public can be updated if the public tile list changes.",
-        "License": "GLO-30 Public and GLO-90 are available on a free basis for the general public un",
-        "Tags": "aws-pds, agriculture, elevation, earth observation, satellite imagery, geospatial, disaster response, cog",
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Copernicus Digital Elevation Model (DEM) - STAC for GLO-90 in S3 bucket",
-        "Description": "STAC for GLO-90 in S3 bucket",
-        "ARN": "arn:aws:s3:::copernicus-dem-90m-stac",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Explore": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://copernicus-dem-90m-stac.s3.amazonaws.com/)"
+        ],
         "Documentation": "https://copernicus-dem-30m.s3.amazonaws.com/readme.html",
         "Contact": "https://forum.sentinel-hub.com/c/aws-copdem/28",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
@@ -2685,10 +2672,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2702,12 +2691,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2829,10 +2816,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2846,12 +2835,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5179,7 +5166,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -5213,7 +5200,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -5290,7 +5277,7 @@
             "[Browse Bucket](https://noaa-ocs-nationalbathymetry-pds.s3.amazonaws.com/index.html)"
         ],
         "Documentation": "https://nauticalcharts.noaa.gov/data/bluetopo.html",
-        "Contact": "For general questions or feedback about the data, please submit inquiries throug",
+        "Contact": "For general questions or feedback about the data, please submit inquiriesthrough",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Monthly where new data is available.",
         "License": "Creative Commons licenses are attached to each file and, where available, are at",
@@ -5307,7 +5294,7 @@
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "https://nauticalcharts.noaa.gov/data/bluetopo.html",
-        "Contact": "For general questions or feedback about the data, please submit inquiries throug",
+        "Contact": "For general questions or feedback about the data, please submit inquiriesthrough",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Monthly where new data is available.",
         "License": "Creative Commons licenses are attached to each file and, where available, are at",
@@ -6017,7 +6004,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -6034,7 +6021,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
