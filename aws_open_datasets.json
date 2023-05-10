@@ -4795,8 +4795,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
-        "Region": "us-east-2",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
@@ -4813,8 +4813,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
+        "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Explore": null,
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
@@ -5191,7 +5191,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5209,7 +5209,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5627,10 +5627,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
         "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5645,12 +5647,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
         "Region": "ap-southeast-2",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5703,10 +5703,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5721,12 +5723,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
         "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9351,7 +9351,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -9369,7 +9369,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -9405,7 +9405,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -10311,7 +10311,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -10329,7 +10329,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -14431,6 +14431,66 @@
         "AccountRequired": null
     },
     {
+        "Name": "Sup3rCC - Sup3rCC",
+        "Description": "Sup3rCC",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc)"
+        ],
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (gran.buster@nrel.gov)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": "aws-pds, energy, solar, air temperature, climate model",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Sup3rCC - Sup3rCC - CONUS - MRI ESM 20 - SSP585 - r1i1p1f1",
+        "Description": "Sup3rCC - CONUS - MRI ESM 20 - SSP585 - r1i1p1f1",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/conus_mriesm20_ssp585_r1i1p1f1/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_mriesm20_ssp585_r1i1p1f1%2F)"
+        ],
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (gran.buster@nrel.gov)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": "aws-pds, energy, solar, air temperature, climate model",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Sup3rCC - Sup3rCC Generative Models",
+        "Description": "Sup3rCC Generative Models",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/models/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=models%2F)"
+        ],
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (gran.buster@nrel.gov)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": "aws-pds, energy, solar, air temperature, climate model",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Swiss Public Transport Stops",
         "Description": "data files ESRI FGDB, CSV , MapInfo, Interlis",
         "ARN": "arn:aws:s3:::data.geo.admin.ch/ch.bav.haltestellen-oev/data.zip",
@@ -15710,7 +15770,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -15728,7 +15788,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
