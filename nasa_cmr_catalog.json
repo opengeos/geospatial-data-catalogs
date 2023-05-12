@@ -1560,6 +1560,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ATL02.v006",
+        "title": "ATLAS/ICESat-2 L1B Converted Telemetry Data V006",
+        "catalog": "NSIDC_CPRD",
+        "state_date": "2018-10-13",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2547589158-NSIDC_CPRD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2547589158-NSIDC_CPRD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL02.v006",
+        "description": "This data set (ATL02) contains science-unit-converted time-ordered telemetry data, calibrated for instrument effects, downlinked from the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory. The data are used by the ATLAS/ICESat-2 Science Investigator-led Processing System (SIPS) for system-level, quality control analysis and as source data for ATLAS/ICESat-2 Level-2 products and Precision Orbit Determination (POD) and Precision Pointing Determination (PPD) computations.",
+        "license": "not-provided"
+    },
+    {
         "id": "ATL03.v005",
         "title": "ATLAS/ICESat-2 L2A Global Geolocated Photon Data V005",
         "catalog": "NSIDC_CPRD",
@@ -1569,6 +1582,19 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2153572325-NSIDC_CPRD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153572325-NSIDC_CPRD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL03.v005",
+        "description": "This data set (ATL03) contains height above the WGS 84 ellipsoid (ITRF2014 reference frame), latitude, longitude, and time for all photons downlinked by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory. The ATL03 product was designed to be a single source for all photon data and ancillary information needed by higher-level ATLAS/ICESat-2 products. As such, it also includes spacecraft and instrument parameters and ancillary data not explicitly required for ATL03.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ATL03.v006",
+        "title": "ATLAS/ICESat-2 L2A Global Geolocated Photon Data V006",
+        "catalog": "NSIDC_CPRD",
+        "state_date": "2018-10-13",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2596864127-NSIDC_CPRD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2596864127-NSIDC_CPRD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL03.v006",
         "description": "This data set (ATL03) contains height above the WGS 84 ellipsoid (ITRF2014 reference frame), latitude, longitude, and time for all photons downlinked by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory. The ATL03 product was designed to be a single source for all photon data and ancillary information needed by higher-level ATLAS/ICESat-2 products. As such, it also includes spacecraft and instrument parameters and ancillary data not explicitly required for ATL03.",
         "license": "not-provided"
     },
@@ -1586,6 +1612,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ATL04.v006",
+        "title": "ATLAS/ICESat-2 L2A Normalized Relative Backscatter Profiles V006",
+        "catalog": "NSIDC_CPRD",
+        "state_date": "2018-10-13",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2613553327-NSIDC_CPRD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2613553327-NSIDC_CPRD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL04.v006",
+        "description": "ATL04 contains along-track normalized relative backscatter profiles of the atmosphere. The product includes full 532 nm (14 km) uncalibrated attenuated backscatter profiles at 25 times per second for vertical bins of approximately 30 meters. Calibration coefficient values derived from data within the polar regions are also included. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
+        "license": "not-provided"
+    },
+    {
         "id": "ATL06.v005",
         "title": "ATLAS/ICESat-2 L3A Land Ice Height V005",
         "catalog": "NSIDC_CPRD",
@@ -1596,19 +1635,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153572614-NSIDC_CPRD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL06.v005",
         "description": "This data set (ATL06) provides geolocated, land-ice surface heights (above the WGS 84 ellipsoid, ITRF2014 reference frame), plus ancillary parameters that can be used to interpret and assess the quality of the height estimates. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ATL07.v005",
-        "title": "ATLAS/ICESat-2 L3A Sea Ice Height V005",
-        "catalog": "NSIDC_CPRD",
-        "state_date": "2018-10-14",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574585-NSIDC_CPRD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574585-NSIDC_CPRD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL07.v005",
-        "description": "The data set (ATL07) contains along-track heights for sea ice and open water leads (at varying length scales) relative to the WGS84 ellipsoid (ITRF2014 reference frame) after adjustment for geoidal and tidal variations, and inverted barometer effects. Height statistics and apparent reflectance are also provided. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
         "license": "not-provided"
     },
     {
@@ -1635,32 +1661,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574732-NSIDC_CPRD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL09.v005",
         "description": "This data set (ATL09) contains calibrated, attenuated backscatter profiles, layer integrated attenuated backscatter, and other parameters including cloud layer height and atmospheric characteristics obtained from the data. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ATL10.v005",
-        "title": "ATLAS/ICESat-2 L3A Sea Ice Freeboard V005",
-        "catalog": "NSIDC_CPRD",
-        "state_date": "2018-10-14",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574813-NSIDC_CPRD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574813-NSIDC_CPRD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL10.v005",
-        "description": "This data set (ATL10) contains estimates of sea ice freeboard, calculated using three different approaches. Sea ice leads used to establish the reference sea surface and descriptive statistics used in the height estimates are also provided. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ATL12.v005",
-        "title": "ATLAS/ICESat-2 L3A Ocean Surface Height V005",
-        "catalog": "NSIDC_CPRD",
-        "state_date": "2018-10-13",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574991-NSIDC_CPRD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574991-NSIDC_CPRD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL12.v005",
-        "description": "This data set (ATL12) contains along-track sea surface heights at variable length scales over cloud-free regions. Estimates of height distributions, surface roughness, surface slope, and apparent reflectance are also provided. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
         "license": "not-provided"
     },
     {
