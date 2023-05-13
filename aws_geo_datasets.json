@@ -496,7 +496,7 @@
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://2016v3plaform.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
         ],
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
         "Contact": "cmas@unc.edu",
@@ -2780,10 +2780,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2797,12 +2799,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
         "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5183,7 +5183,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -5200,7 +5200,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
