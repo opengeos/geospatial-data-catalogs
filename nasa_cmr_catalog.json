@@ -1625,19 +1625,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ATL06.v005",
-        "title": "ATLAS/ICESat-2 L3A Land Ice Height V005",
-        "catalog": "NSIDC_CPRD",
-        "state_date": "2018-10-14",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2153572614-NSIDC_CPRD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153572614-NSIDC_CPRD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL06.v005",
-        "description": "This data set (ATL06) provides geolocated, land-ice surface heights (above the WGS 84 ellipsoid, ITRF2014 reference frame), plus ancillary parameters that can be used to interpret and assess the quality of the height estimates. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
-        "license": "not-provided"
-    },
-    {
         "id": "ATL08.v005",
         "title": "ATLAS/ICESat-2 L3A Land and Vegetation Height V005",
         "catalog": "NSIDC_CPRD",
@@ -1660,6 +1647,19 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574732-NSIDC_CPRD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574732-NSIDC_CPRD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL09.v005",
+        "description": "This data set (ATL09) contains calibrated, attenuated backscatter profiles, layer integrated attenuated backscatter, and other parameters including cloud layer height and atmospheric characteristics obtained from the data. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ATL09.v006",
+        "title": "ATLAS/ICESat-2 L3A Calibrated Backscatter Profiles and Atmospheric Layer Characteristics V006",
+        "catalog": "NSIDC_CPRD",
+        "state_date": "2018-10-13",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2649212495-NSIDC_CPRD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2649212495-NSIDC_CPRD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL09.v006",
         "description": "This data set (ATL09) contains calibrated, attenuated backscatter profiles, layer integrated attenuated backscatter, and other parameters including cloud layer height and atmospheric characteristics obtained from the data. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
         "license": "not-provided"
     },
@@ -2314,6 +2314,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ECO_L1CG_RAD.v002",
+        "title": "ECOSTRESS Gridded Top of Atmosphere Calibrated Radiance Instantaneous L1C Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2595678497-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2595678497-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L1CG_RAD.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found on the [ECOSTRESS website](https://ecostress.jpl.nasa.gov/science).    The ECOSTRESS Gridded Top of Atmosphere Calibrated Radiance Instantaneous Level 1C Global 70 m (ECO_L1CG_RAD) Version 2 data product provides at-sensor calibrated radiance values retrieved for five thermal infrared (TIR) bands operating between 8 and 12.5 \u00b5m. This product is a gridded version of the [ECO_L1B_RAD](https://doi.org/10.5067/ECOSTRESS/ECO_L1B_RAD.002) Version 2 data product that has been resampled by nearest neighbor, projected to a globally snapped 0.0006\u00b0 grid, and repackaged as the ECO_L1CG_RAD data product.    The ECO_L1CG_RAD Version 2 data product contains 12 layers distributed in an HDF5 format file containing radiance values for the five TIR bands, associated data quality indicators, and cloud and water masks. For acquisitions between May 15, 2019, and April 28, 2023, data products contain data values for TIR bands 2, 4, and 5 only. TIR bands 1 and 3 contain fill values to accommodate direct streaming of data from the ISS, as mentioned in the Known Issues section.",
+        "license": "not-provided"
+    },
+    {
         "id": "ECO_L2G_CLOUD.v002",
         "title": "ECOSTRESS Gridded Cloud Mask Instantaneous L2 Global 70 m V002",
         "catalog": "LPCLOUD",
@@ -2350,19 +2363,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076115306-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L2_CLOUD.v002",
         "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).    The ECOSTRESS Swath Cloud Mask Instantaneous L2 Global 70 m (ECO_L2_CLOUD) Version 2 data product is derived using a single-channel Bayesian cloud threshold with a look-up-table (LUT) approach. The ECOSTRESS Level 2 cloud product provides a cloud mask that can be used to determine cloud cover for accurate land surface temperature and evapotranspiration estimation. The corresponding ECO_L1B_GEO (https://doi.org/10.5067/ECOSTRESS/ECO_L1B_GEO.002) data product is required to georeference the ECO_L2_CLOUD data product.     The ECO_L2_CLOUD Version 2 data product contains two cloud mask layers: Brightness temperature LUT test and Final cloud mask. Information on how to interpret the bit fields in the cloud mask is provided in Table 7 of the User Guide (https://lpdaac.usgs.gov/documents/1574/ECOL2_User_Guide_V2.pdf).",
-        "license": "not-provided"
-    },
-    {
-        "id": "ECO_L2_LSTE.v002",
-        "title": "ECOSTRESS Swath Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V002",
-        "catalog": "LPCLOUD",
-        "state_date": "2018-07-09",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076114664-LPCLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076114664-LPCLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L2_LSTE.v002",
-        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Swath Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m (ECO_L2_LSTE) Version 2 data product provides atmospherically corrected land surface temperature and emissivity (LST&E) values derived from five thermal infrared (TIR) bands. The ECO_L2_LSTE data product was derived using a physics-based Temperature and Emissivity Separation (TES) algorithm. The ECO_L2_LSTE is provided as swath data and has a spatial resolution of 70 meters (m). The corresponding  ECO_L1B_GEO (https://doi.org/10.5067/ECOSTRESS/ECO_L1B_GEO.002) data product is required to georeference the ECO_L2_LSTE data product.    The ECO_L2_LSTE Version 2 data product contains layers of LST, emissivity for bands 1 through 5, quality control for LST&E, LST error, emissivity error for bands 1 through 5, wideband emissivity, Precipitable Water Vapor (PWV), cloud mask, and water mask. For acquisitions after May 15, 2019, data products contain data values for TIR bands 2, 4 and 5 only. TIR bands 1 and 3 contain fill values to accommodate direct streaming of data from the ISS as mentioned in the Known Issues section.",
         "license": "not-provided"
     },
     {

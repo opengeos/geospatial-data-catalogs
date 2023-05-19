@@ -1088,11 +1088,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
+        "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1108,11 +1108,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
+        "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -5191,7 +5191,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5209,7 +5209,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5589,24 +5589,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Explore": null,
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -5625,10 +5607,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
@@ -5651,6 +5633,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5741,12 +5741,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5761,10 +5759,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9351,24 +9351,6 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": "aws-pds, agriculture, climate, meteorological, weather",
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -9387,7 +9369,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -9405,7 +9387,25 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": "aws-pds, agriculture, climate, meteorological, weather",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -10311,7 +10311,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -10329,7 +10329,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -14338,6 +14338,24 @@
         "AccountRequired": null
     },
     {
+        "Name": "Solar Dynamics Observatory (SDO) Machine Learning Dataset",
+        "Description": "The v1 dataset includes AIA observations 2010-2018 and v2 includes AIA observati",
+        "ARN": "arn:aws:s3:::gov-nasa-hdrl-data1/contrib/fdl-sdoml/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/SDOML/sdoml.github.io",
+        "Contact": "Meng Jin (jinmeng@lmsal.com) and Paul Wright (paul@pauljwright.co.uk)",
+        "ManagedBy": "[NASA](http://www.nasa.gov/)",
+        "UpdateFrequency": "N/A (The IDL/Python scripts for generating the datasets are published online, wh",
+        "License": "There are no restrictions on the use of this data.",
+        "Tags": "aws-pds, machine learning, NASA SMD AI",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "SondeHub Radiosonde Telemetry",
         "Description": "Radiosonde Telemetry as JSON blobs of Universal Telemetry format",
         "ARN": "arn:aws:s3:::sondehub-history",
@@ -15375,6 +15393,24 @@
         "Name": "UniProt - UniProt 2023_01",
         "Description": "UniProt 2023_01",
         "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2023-01/",
+        "Region": "eu-west-3",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://www.uniprot.org/help/about",
+        "Contact": "https://www.uniprot.org/contact",
+        "ManagedBy": "[SIB Swiss Institute of Bioinformatics](https://sp.sib.swiss/) on behalf of the ",
+        "UpdateFrequency": "Under 1 months after a new UniProt release.",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": "aws-pds, chemistry, protein, enzyme, molecule, life sciences, bioinformatics, biology, RDF, graph, SPARQL",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "UniProt - UniProt 2023_02",
+        "Description": "UniProt 2023_02",
+        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2023-02/",
         "Region": "eu-west-3",
         "Type": "S3 Bucket",
         "Explore": null,
