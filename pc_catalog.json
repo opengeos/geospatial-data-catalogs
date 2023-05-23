@@ -920,24 +920,6 @@
         "assets": "metadata, landcover"
     },
     {
-        "title": "Landsat 8 Collection 2 Level-2",
-        "id": "landsat-8-c2-l2",
-        "description": "Landsat 8 has captured 30m-resolution imagery of the Earth since 2013.  This dataset contains global, atmospherically-corrected imagery from Landsat Collection 2.",
-        "bbox": "-180, -90, 180, 90",
-        "start_date": "2013-04-11",
-        "end_date": "",
-        "group_id": "landsat",
-        "container": "landsat-c2",
-        "storage_account": "landsateuwest",
-        "keywords": "Landsat, USGS, NASA, Satellite, Global, Imagery, Reflectance",
-        "providers": "NASA, USGS, Microsoft",
-        "license": "proprietary",
-        "link": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/landsat-8-c2-l2",
-        "variables": "",
-        "dimensions": "",
-        "assets": "ANG, SR_B1, SR_B2, SR_B3, SR_B4, SR_B5, SR_B6, SR_B7, ST_QA, ST_B10, MTL.txt, MTL.xml, ST_DRAD, ST_EMIS, ST_EMSD, ST_TRAD, ST_URAD, MTL.json, QA_PIXEL, ST_ATRAN, ST_CDIST, QA_RADSAT, thumbnail, SR_QA_AEROSOL, reduced_resolution_browse"
-    },
-    {
         "title": "Landsat Collection 2 Level-1",
         "id": "landsat-c2-l1",
         "description": "Landsat Collection 2 Level-1 data from the Multispectral Scanner System (MSS) onboard Landsat 1 through Landsat 5.",
