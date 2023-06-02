@@ -1106,11 +1106,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
+        "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1126,11 +1126,11 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
+        "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
         "Contact": "soles.wildlife-genomics@sydney.edu.au",
@@ -1908,7 +1908,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -1926,7 +1926,7 @@
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer - Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantificat",
-        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
+        "ARN": "arn:aws:s3:::gdc-cgci-blgsp-phs000235-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Explore": null,
@@ -5569,6 +5569,24 @@
         "AccountRequired": null
     },
     {
+        "Name": "Genomic Characterization of Metastatic Castration Resistant Prostate Cancer",
+        "Description": "Whole Genome Sequencing, RNA Sequencing",
+        "ARN": "arn:aws:s3:::gdc-wcdt-mcrpc-phs001648-2-open",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/WCDT_ab",
+        "Contact": "support@nci-gdc.datacommons.io",
+        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctd",
+        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers month",
+        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-",
+        "Tags": "aws-pds, life sciences, cancer, genomic, whole genome sequencing, STRIDES",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "GeoNet Aotearoa New Zealand Data",
         "Description": "Data files",
         "ARN": "arn:aws:s3:::geonet-open-data",
@@ -5645,6 +5663,26 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
+        ],
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
         "Region": "ap-southeast-2",
         "Type": "SNS Topic",
@@ -5661,14 +5699,12 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
-        "Region": "ap-southeast-2",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
-        ],
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5689,24 +5725,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
         ],
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5759,12 +5777,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5779,10 +5795,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9369,7 +9387,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -9387,7 +9405,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -10329,7 +10347,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -10347,7 +10365,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -11563,6 +11581,24 @@
         "Tags": "aws-pds, life sciences, health, imaging, biology, image processing, neurobiology, neuroimaging, magnetic resonance imaging",
         "RequesterPays": null,
         "ControlledAccess": "https://fastmri.med.nyu.edu/",
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NYUMets Brain Dataset",
+        "Description": "NIFTI files for brain MRIs and segmentations, CSV files with metadata",
+        "ARN": "arn:aws:s3:us-east-1:230249121367:accesspoint/external-users-read-only-ap",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://nyumets.org/",
+        "Contact": "[NYUMets Discussion](https://github.com/nyumets/nyumets.github.io/discussions)",
+        "ManagedBy": "[NYUMets](https://nyumets.org/)",
+        "UpdateFrequency": "This dataset will be updated as new data is added.",
+        "License": "[Custom Non-Commercial License](https://signup.nyumets.org/#agreement)",
+        "Tags": "aws-pds, life sciences, health, imaging, biology, image processing, neurobiology, neuroimaging, magnetic resonance imaging, cancer, segmentation, medicine, medical imaging, machine learning, computer vision",
+        "RequesterPays": null,
+        "ControlledAccess": "https://nyumets.org/",
         "Host": null,
         "AccountRequired": null
     },
@@ -15109,6 +15145,24 @@
         "Tags": "aws-pds, genomic, transcriptomics, life sciences, long read sequencing, short read sequencing, bioinformatics, fast5, fasta, fastq, bam",
         "RequesterPays": null,
         "ControlledAccess": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "The University of California San Francisco Brain Metastases Stereotactic Radiosurgery (UCSF-BMSR) MRI Dataset",
+        "Description": "Zip archive containing NifTI files",
+        "ARN": "arn:aws:s3:::ucsf-dmi/UCSF_BrainMetastases_v1.zip",
+        "Region": "us-west-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://imagingdatasets.ucsf.edu/dataset/1",
+        "Contact": "dmi-support@ucsf.edu",
+        "ManagedBy": "[UCSF Center for Intelligent Imaging](https://intelligentimaging.ucsf.edu/)",
+        "UpdateFrequency": "ad hoc",
+        "License": "Custom, non-commerical, attribution, no redistribution, no re-identification.  F",
+        "Tags": "aws-pds, cancer, life sciences, magnetic resonance imaging, medicine, medical imaging, radiology",
+        "RequesterPays": null,
+        "ControlledAccess": "https://imagingdatasets.ucsf.edu/dataset/1",
         "Host": null,
         "AccountRequired": null
     },
