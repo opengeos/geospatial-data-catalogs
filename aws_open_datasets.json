@@ -38,8 +38,8 @@
     {
         "Name": "1000 Genomes Phase 3 Reanalysis with DRAGEN 3.5 and 3.7 - BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
         "Description": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
-        "ARN": "arn:aws:s3:::1000genomes-dragen-v3.7.6",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::1000genomes-dragen-3.7.6",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "[DRAGEN Support Resources](https://support.illumina.com/sequencing/sequencing_so",
         "Contact": "[Illumina, Inc.](mailto:support@illumina.com)",
@@ -56,8 +56,8 @@
     {
         "Name": "1000 Genomes Phase 3 Reanalysis with DRAGEN 3.5 and 3.7 - BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
         "Description": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
-        "ARN": "arn:aws:s3:::1000genomes-dragen-3.7.6",
-        "Region": "us-west-2",
+        "ARN": "arn:aws:s3:::1000genomes-dragen-v3.7.6",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "[DRAGEN Support Resources](https://support.illumina.com/sequencing/sequencing_so",
         "Contact": "[Illumina, Inc.](mailto:support@illumina.com)",
@@ -4851,8 +4851,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
+        "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
         "Contact": "awsdata@loka.com",
@@ -4869,8 +4869,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
-        "Region": "us-east-2",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
         "Contact": "awsdata@loka.com",
@@ -5663,24 +5663,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "Explore": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -5694,6 +5676,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
         ],
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "Explore": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -5777,24 +5777,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "Explore": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -5813,10 +5795,10 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
@@ -5846,6 +5828,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "Explore": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -7424,6 +7424,26 @@
         "Tags": "aws-pds, agriculture, earth observation, aerial imagery, geospatial, natural resource, regulatory, cog",
         "RequesterPays": true,
         "Explore": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA / USGS Controlled Europa DTMs",
+        "Description": "Scenes and metadata",
+        "ARN": "arn:aws:s3:::astrogeo-ard/jupiter/europa/galileo_voyager/usgs_controlled_dtms/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://stac.astrogeology.usgs.gov/docs/data/jupiter/europa/europa_controlled_us",
+        "Contact": "https://answers.usgs.gov/",
+        "ManagedBy": "[NASA](https://www.nasa.gov)",
+        "UpdateFrequency": "HiRISE data will be updated as new releases are made to the Planetary Data Syste",
+        "License": "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)",
+        "Tags": "aws-pds, planetary, satellite imagery, stac, cog",
+        "RequesterPays": null,
+        "Explore": [
+            "[STAC Catalog](https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/galileo_usgs_photogrammetrically_controlled_dtms?.language=en)"
+        ],
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -9443,7 +9463,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9461,7 +9481,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
