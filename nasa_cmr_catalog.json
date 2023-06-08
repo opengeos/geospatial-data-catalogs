@@ -2834,19 +2834,6 @@
         "license": "not-provided"
     },
     {
-        "id": "HALO_LiDAR_AOP_ML_Heights_1833.v1",
-        "title": "ACT-America: HALO Lidar Measurements of AOP and ML Heights, 2019",
-        "catalog": "ORNL_DAAC",
-        "state_date": "2019-06-17",
-        "end_date": "2019-07-28",
-        "bbox": "-102, 28, -73, 50",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2575353759-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2575353759-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/HALO_LiDAR_AOP_ML_Heights_1833.v1",
-        "description": "This dataset provides measurements from the High Altitude Lidar Observatory (HALO) instrument, an airborne multi-function Differential Absorption Lidar (DIAL) and High Spectral Resolution Lidar (HSRL), operating at 532 nm and 1064 nm wavelengths onboard a C-130 aircraft during the June and July 2019 ACT-America campaign. The flights took place over eastern and central North America based from Shreveport, Louisiana; Lincoln, Nebraska; and NASA Wallops Flight Facility located on the eastern shore of Virginia. HALO data were sampled at 0.5 s temporal and 1.25 m vertical resolutions. The data include profiles of aerosol optical properties (AOP), distributions of mixed layer heights (MLH), columns of tropospheric methane, and navigation parameters. The data are provided in HDF5 format along with PNG images and a companion files in Portable Document (*.pdf) format.",
-        "license": "not-provided"
-    },
-    {
         "id": "IKONOS_MSI_L1B.v1",
         "title": "IKONOS Level 1B Multispectral 4-Band Satellite Imagery",
         "catalog": "CSDA",
@@ -2909,6 +2896,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000301-LARC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/IXBMIGEO.v2",
         "description": "This file contains the Geometric Parameters which measure the sun and view angles at the reference ellipsoid for the INTEXB_2006 theme.",
+        "license": "not-provided"
+    },
+    {
+        "id": "Insitu_Tower_Greenhouse_Gas_1798.v1",
+        "title": "ACT-America: L1 Raw, Uncalibrated In-Situ CO2, CO, and CH4 Mole Fractions from Towers",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2015-01-01",
+        "end_date": "2019-12-31",
+        "bbox": "-98.59, 30.2, -76.42, 44.05",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1961636927-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1961636927-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/Insitu_Tower_Greenhouse_Gas_1798.v1",
+        "description": "This dataset provides Level 1 (L1) in situ atmospheric carbon dioxide (CO2), carbon monoxide (CO), and methane (CH4) concentrations as measured on a network of instrumented communications towers across the central and eastern USA operated by the Atmospheric Carbon and Transport-America (ACT-America) project. There were 11 towers instrumented with cavity ring-down spectrometers (CRDS; Picarro Inc.) with measurements beginning in January 2015 and continuing to October 2019. The measurement period varied by tower site. The Picarro analyzers continuously measured total CH4, isotopic ratio of CH4, CO2, CO, and other greenhouse gas concentrations. Not all species were measured at all sites. Complete tower location, elevation, instrument height, and date/time information are also provided. Determination of greenhouse gas fluxes and uncertainty bounds is essential for the evaluation of the effectiveness of mitigation strategies. These L1 data are raw instrument outputs from the Picarro instruments. A Level 2 (L2) product derived from this L1 data is available and generally would be the preferred data for most use cases.",
         "license": "not-provided"
     },
     {
@@ -4036,8 +4036,8 @@
         "state_date": "2018-07-15",
         "end_date": "2022-06-30",
         "bbox": "-180, -90, 180, -60",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2532075096-AMD_USAPDC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2532075096-AMD_USAPDC.html",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2705787178-AMD_USAPDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2705787178-AMD_USAPDC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AMD_USAPDC/collections/USAP-1744989.v1",
         "description": "This project on emperor penguin populations will quantify penguin presence/absence, and colony size and trajectory, across the entire Antarctic continent using high-resolution satellite imagery. For a subset of the colonies, population estimates derived from high-resolution satellite images will be compared with those determined by aerial surveys - these results have been uploaded to MAPPPD (penguinmap.com) and are freely available for use. This validated information will be used to determine population estimates for all emperor penguin colonies through iterations of supervised classification and maximum likelihood calculations on the high-resolution imagery. The effect of spatial, geophysical, and environmental variables on population size and decadal-scale trends will be assessed using generalized linear models. This research will result in a first ever empirical result for emperor penguin population trends and habitat suitability, and will leverage currently-funded NSF infrastructure and hosting sites to publish results in near-real time to the public.",
         "license": "not-provided"
