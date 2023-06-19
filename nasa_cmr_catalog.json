@@ -1417,6 +1417,45 @@
         "license": "not-provided"
     },
     {
+        "id": "ASTGTM.v003",
+        "title": "ASTER Global Digital Elevation Model V003",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-03-01",
+        "end_date": "2013-11-30",
+        "bbox": "-180, -83, 180, 82",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1711961296-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1711961296-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ASTGTM.v003",
+        "description": "The ASTER Global Digital Elevation Model (GDEM) Version 3 (ASTGTM) provides a global digital elevation model (DEM) of land areas on Earth at a spatial resolution of 1 arc second (approximately 30 meter horizontal posting at the equator).    The development of the ASTER GDEM data products is a collaborative effort between National Aeronautics and Space Administration (NASA) and Japan\u2019s Ministry of Economy, Trade, and Industry (METI). The ASTER GDEM data products are created by the Sensor Information Laboratory Corporation (SILC) in Tokyo.     The ASTER GDEM Version 3 data product was created from the automated processing of the entire ASTER Level 1A (https://doi.org/10.5067/ASTER/AST_L1A.003) archive of scenes acquired between March 1, 2000, and November 30, 2013. Stereo correlation was used to produce over one million individual scene based ASTER DEMs, to which cloud masking was applied. All cloud screened DEMs and non-cloud screened DEMs were stacked. Residual bad values and outliers were removed. In areas with limited data stacking, several existing reference DEMs were used to supplement ASTER data to correct for residual anomalies. Selected data were averaged to create final pixel values before partitioning the data into 1 degree latitude by 1 degree longitude tiles with a one pixel overlap. To correct elevation values of water body surfaces, the ASTER Global Water Bodies Database (ASTWBD) (https://doi.org/10.5067/ASTER/ASTWBD.001) Version 1 data product was also generated.     The geographic coverage of the ASTER GDEM extends from 83\u00b0 North to 83\u00b0 South. Each tile is distributed in GeoTIFF format and projected on the 1984 World Geodetic System (WGS84)/1996 Earth Gravitational Model (EGM96) geoid. Each of the 22,912 tiles in the collection contain at least 0.01% land area.     Provided in the ASTER GDEM product are layers for DEM and number of scenes (NUM). The NUM layer indicates the number of scenes that were processed for each pixel and the source of the data.    While the ASTER GDEM Version 3 data products offer substantial improvements over Version 2, users are advised that the products still may contain anomalies and artifacts that will reduce its usability for certain applications.     Improvements/Changes from Previous Versions   \u2022 Expansion of acquisition coverage to increase the amount of cloud-free input scenes from about 1.5 million in Version 2 to about 1.88 million scenes in Version 3.  \u2022 Separation of rivers from lakes in the water body processing.   \u2022 Minimum water body detection size decreased from 1 km2 to 0.2 km2. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ASTGTM_NC.v003",
+        "title": "ASTER Global Digital Elevation Model NetCDF V003",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-03-01",
+        "end_date": "2013-11-30",
+        "bbox": "-180, -83, 180, 82",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2439422590-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2439422590-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ASTGTM_NC.v003",
+        "description": "The ASTER Global Digital Elevation Model (GDEM) Version 3 (ASTGTM) provides a global digital elevation model (DEM) of land areas on Earth at a spatial resolution of 1 arc second (approximately 30 meter horizontal posting at the equator).  The development of the ASTER GDEM data products is a collaborative effort between National Aeronautics and Space Administration (NASA) and Japan\u2019s Ministry of Economy, Trade, and Industry (METI). The ASTER GDEM data products are created by the Sensor Information Laboratory Corporation (SILC) in Tokyo.   The ASTER GDEM Version 3 data product was created from the automated processing of the entire ASTER Level 1A (https://doi.org/10.5067/ASTER/AST_L1A.003) archive of scenes acquired between March 1, 2000, and November 30, 2013. Stereo correlation was used to produce over one million individual scene based ASTER DEMs, to which cloud masking was applied. All cloud screened DEMs and non-cloud screened DEMs were stacked. Residual bad values and outliers were removed. In areas with limited data stacking, several existing reference DEMs were used to supplement ASTER data to correct for residual anomalies. Selected data were averaged to create final pixel values before partitioning the data into 1 degree latitude by 1 degree longitude tiles with a one pixel overlap. To correct elevation values of water body surfaces, the ASTER Global Water Bodies Database (ASTWBD) (https://doi.org/10.5067/ASTER/ASTWBD.001) Version 1 data product was also generated.   The geographic coverage of the ASTER GDEM extends from 83\u00b0 North to 83\u00b0 South. Each tile is distributed in NetCDF format and projected on the 1984 World Geodetic System (WGS84)/1996 Earth Gravitational Model (EGM96) geoid. Each of the 22,912 tiles in the collection contain at least 0.01% land area.   Each ASTGTM_NC data product contains a DEM file, which provides elevation information. The corresponding ASTGTM_NUMNC file indicates the number of scenes that were processed for each pixel and the source of the data.  While the ASTER GDEM Version 3 data products offer substantial improvements over Version 2, users are advised that the products still may contain anomalies and artifacts that will reduce its usability for certain applications.   Improvements/Changes from Previous Versions  \u2022 Expansion of acquisition coverage to increase the amount of cloud-free input scenes from about 1.5 million in Version 2 to about 1.88 million scenes in Version 3. \u2022 Separation of rivers from lakes in the water body processing.  \u2022 Minimum water body detection size decreased from 1 km2 to 0.2 km2.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ASTGTM_NUMNC.v003",
+        "title": "ASTER Global Digital Elevation Model Attributes NetCDF V003",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-03-01",
+        "end_date": "2013-11-30",
+        "bbox": "-180, -83, 180, 82",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2439429778-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2439429778-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ASTGTM_NUMNC.v003",
+        "description": "The ASTER Global Digital Elevation Model (GDEM) Version 3 (ASTGTM) provides a global digital elevation model (DEM) of land areas on Earth at a spatial resolution of 1 arc second (approximately 30 meter horizontal posting at the equator).    The development of the ASTER GDEM data products is a collaborative effort between National Aeronautics and Space Administration (NASA) and Japan\u2019s Ministry of Economy, Trade, and Industry (METI). The ASTER GDEM data products are created by the Sensor Information Laboratory Corporation (SILC) in Tokyo.     The ASTER GDEM Version 3 data product was created from the automated processing of the entire ASTER Level 1A (https://doi.org/10.5067/ASTER/AST_L1A.003) archive of scenes acquired between March 1, 2000, and November 30, 2013. Stereo correlation was used to produce over one million individual scene based ASTER DEMs, to which cloud masking was applied. All cloud screened DEMs and non-cloud screened DEMs were stacked. Residual bad values and outliers were removed. In areas with limited data stacking, several existing reference DEMs were used to supplement ASTER data to correct for residual anomalies. Selected data were averaged to create final pixel values before partitioning the data into 1 degree latitude by 1 degree longitude tiles with a one pixel overlap. To correct elevation values of water body surfaces, the ASTER Global Water Bodies Database (ASTWBD) (https://doi.org/10.5067/ASTER/ASTWBD.001) Version 1 data product was also generated.     The geographic coverage of the ASTER GDEM extends from 83\u00b0 North to 83\u00b0 South. Each tile is distributed in NetCDF format and projected on the 1984 World Geodetic System (WGS84)/1996 Earth Gravitational Model (EGM96) geoid. Each of the 22,912 tiles in the collection contain at least 0.01% land area.     Each ASTGTM_NUMNC file indicates the number of scenes that were processed for each pixel and the source of the data.. The corresponding ASTGTM_NC data product contains a DEM file, which provides elevation information.     While the ASTER GDEM Version 3 data products offer substantial improvements over Version 2, users are advised that the products still may contain anomalies and artifacts that will reduce its usability for certain applications.     Improvements/Changes from Previous Versions   \u2022 Expansion of acquisition coverage to increase the amount of cloud-free input scenes from about 1.5 million in Version 2 to about 1.88 million scenes in Version 3.  \u2022 Separation of rivers from lakes in the water body processing.   \u2022 Minimum water body detection size decreased from 1 km2 to 0.2 km2. ",
+        "license": "not-provided"
+    },
+    {
         "id": "ASTWBD.v001",
         "title": "ASTER Global Water Bodies Database V001",
         "catalog": "LPDAAC_ECS",
@@ -1791,6 +1830,45 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360093-OB_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/Active_Fluorescence_2001.v0",
         "description": "Measurements in the Gulf Stream off the East Coast of the US in 2001",
+        "license": "not-provided"
+    },
+    {
+        "id": "AfriSAR_AGB_Maps_1681.v1",
+        "title": "AfriSAR: Aboveground Biomass for Lope, Mabounie, Mondah, and Rabi Sites, Gabon",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2016-02-01",
+        "end_date": "2016-03-31",
+        "bbox": "9.3, -1.95, 11.64, 0.61",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1612508242-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1612508242-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/AfriSAR_AGB_Maps_1681.v1",
+        "description": "This dataset provides gridded estimates of aboveground biomass (AGB) for four sites in Gabon at 0.25 ha (50 m) resolution derived with field measurements and airborne LiDAR data collected from 2010 to 2016. The sites represent a mix of forested, savannah, and some agricultural and disturbed landcover types: Lope site, within Lope National Park; Mabounie, mostly forested site; Mondah Forest, protected area; and the Rabi forest site, part of the Smithsonian Institution of Global Earth Observatories world-wide network of forest plots. Plot-level biophysical measurements of tree diameter and tree height (or estimated by allometry) were performed at 1 ha and 0.25 ha scales on multiple plots at each site and used to derive AGB for each tree and then summed for each plot. Aerial LiDAR scans were used to construct digital elevation models (DEM) and digital surface models (DSM), and then the DEM and DSM were used to construct a canopy height model (CHM) at 1 m resolution. After checking site-plot locations against the CHM, mean canopy height (MCH) was computed over each 0.25 ha. A single regression model relating MCH and AGB estimates, incorporating local height based on the trunk DBH (HD) relationships, was produced for all sites and combined with the CHM layer to construct biomass maps at 0.25 ha resolution.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AfriSAR_LVIS_Footprint_Cover_1591.v1",
+        "title": "AfriSAR: Canopy Cover and Vertical Profile Metrics Derived from LVIS, Gabon, 2016",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2016-02-20",
+        "end_date": "2016-03-08",
+        "bbox": "8.73, -2.29, 12.01, 0.7",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1566984064-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1566984064-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/AfriSAR_LVIS_Footprint_Cover_1591.v1",
+        "description": "This dataset includes footprint-level canopy structure products derived from data collected using NASA's Land, Vegetation, and Ice Sensor (LVIS) during flights over five forested sites in Gabon during February and March 2016. Three types of canopy structure information are included for each flight: 1) vertical profiles of canopy cover fraction in 1-meter bins, 2) vertical profiles of plant area index (PAI) in 1-meter bins, and 3) footprint summary data of total recorded energy, leaf area index, canopy cover fraction, and vertical foliage profiles in 10-meter bins. Canopy structure metrics are provided for each waveform (20-m footprint) collected by the LVIS instrument. These data were collected by NASA as part of the AfriSAR project. AfriSAR is a NASA collaboration with the European Space Agency (ESA), German Aerospace Center (DLR), and the Gabonese Space Agency (AGEOS) that is collecting data useful for deriving forest canopy structure and will help prepare for and calibrate current and upcoming spaceborne missions that aim to gauge the role of forests in Earth's carbon cycle.",
+        "license": "not-provided"
+    },
+    {
+        "id": "Afrisar_LVIS_Biomass_VProfiles_1775.v1",
+        "title": "AfriSAR: Gridded Forest Biomass and Canopy Metrics Derived from LVIS, Gabon, 2016",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2016-02-20",
+        "end_date": "2016-03-08",
+        "bbox": "9.18, -2.29, 12.02, 0.63",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1943616875-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1943616875-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/Afrisar_LVIS_Biomass_VProfiles_1775.v1",
+        "description": "This dataset contains gridded forest characterization products derived from full-waveform lidar data acquired by NASA's airborne Land, Vegetation, and Ice Sensor (LVIS) instrument for five forested sites in Gabon, Africa, during the 2016 NASA-ESA AfriSAR campaign. The LVIS lidar instrument was flown over study sites in Lope, Mondah/Akanda, Pongara, Rabi, and Mabouni from February to March 2016. Derived canopy cover, canopy heights, bare ground elevation, plant area index (PAI), and foliage height diversity (FHD), and respective uncertainties are provided at a 25 m resolution for each of the five study sites. Aboveground biomass density (AGBD) and uncertainty were modeled at 50 m and 100 m resolutions for the Lope, Mondah, and Mabounie sites using field inventory data and waveform height and cover metrics. Lidar grid cell data collection statistics (i.e., number of shots and flight lines) and a data mask are also included. This research leverages high-quality forest inventory datasets collected during the AfriSAR campaign for one of the least studied and most unique forest ecosystems in the world.",
         "license": "not-provided"
     },
     {
@@ -2236,6 +2314,84 @@
         "license": "not-provided"
     },
     {
+        "id": "ECO_L1B_ATT.v002",
+        "title": "ECOSTRESS Swath Attitude and Ephemeris Instantaneous L1B Global V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076117996-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076117996-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L1B_ATT.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Swath Attitude and Ephemeris Instantaneous Level 1B Global (ECO_L1B_ATT) Version 2 data product provides both corrected and uncorrected attitude quaternions and spacecraft ephemeris data obtained from the ISS. The data are provided in 1 second intervals, and each product file contains vectors from the duration of the orbit.   The ECO_L1B_ATT Version 2 data product contains layers of attitude and ephemeris data generated by the ISS, which are used to start the geolocation process. These layers also include Earth-centered inertial (ECI) position and velocity, and associated time elements distributed in HDF5 format.    Known Issues: *Cannot perform spatial query on ECO_L1B_ATT in NASA Earthdata Search: ECO_L1B_ATT does not contain spatial attributes, so granules cannot be searched by geographic location. Users should search for ECO_L1B_ATT data products by orbit number instead.  *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed.  *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ECO_L1B_GEO.v002",
+        "title": "ECOSTRESS Swath Geolocation Instantaneous L1B Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076087338-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076087338-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L1B_GEO.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Swath Geolocation Instantaneous Level 1B Global (ECO_L1B_GEO) Version 2 data product provides the geolocation information for the radiance values retrieved in the ECO_L1B_RAD (https://doi.org/10.5067/ecostress/eco_l1b_rad.002) Version 2 data product. The geolocation product gives geo-tagging to each of the radiance pixels. The geolocation processing corrects the ISS-reported ephemeris and attitude data by image matching with a global ortho-base derived from Landsat data, and then assigns latitude and longitude values to each of the Level 1 radiance pixels. When image matching is successful, the data are geolocated to better than 50 meter (m) accuracy. The ECO_L1B_GEO data product is provided as swath data.  The ECO_L1B_GEO data product contains data layers for latitude and longitude values, solar and view geometry information, surface height, and the fraction of pixel on land versus water distributed in HDF5 format.    Known Issues: *Geolocation accuracy: In cases where scenes were not successfully matched with the ortho-base, the geolocation error is significantly larger; the worst-case geolocation error for uncorrected data is 7 kilometers (km). Within the metadata of the ECO_L1B_GEO file, if the field \"L1GEOMetadata/OrbitCorrectionPerformed\" is \"True\", the data was corrected, and geolocation accuracy should be better than 50 m. If this field is \"False\", then the data was processed without correcting the geolocation and will have up to 7 km geolocation error.  *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed.  *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.  *Data acquisition: EECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ECO_L1CG_RAD.v002",
+        "title": "ECOSTRESS Gridded Top of Atmosphere Calibrated Radiance Instantaneous L1C Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2595678497-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2595678497-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L1CG_RAD.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Gridded Top of Atmosphere Calibrated Radiance Instantaneous Level 1C Global 70 m (ECO_L1CG_RAD) Version 2 data product provides at-sensor calibrated radiance values retrieved for five thermal infrared (TIR) bands operating between 8 and 12.5 \u00b5m. This product is a gridded version of the ECO_L1B_RAD (https://doi.org/10.5067/ECOSTRESS/ECO_L1B_RAD.002) Version 2 data product that has been resampled by nearest neighbor, projected to a globally snapped 0.0006\u00b0 grid, and repackaged as the ECO_L1CG_RAD data product.  The ECO_L1CG_RAD Version 2 data product contains 12 layers distributed in an HDF5 format file containing radiance values for the five TIR bands, associated data quality indicators, and cloud and water masks.     Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach TIR bands 2, 4, and 5 are being downloaded. The data products are as previously, except the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.  *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.  *Missing scan data/striping features: During testing, an instrument artifact was encountered in ECOSTRESS bands 1 and 5, resulting in missing values. A machine learning algorithm has been applied to interpolate missing values. For more information on the missing scan filling techniques and outcomes, see Section 3.3.2 of the ECO_L1B_RAD User Guide.  *Scan overlap: An overlap between ECOSTRESS scans results in a clear line overlap and repeating data. Additional information is available in Section 3.2 of the ECO_L1B_RAD User Guide.  *Scan flipping: Improvements to the visualization of the data to compensate for instrument orientation are discussed in Section 3.4 of the ECO_L1B_RAD User Guide.  *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ECO_L2G_CLOUD.v002",
+        "title": "ECOSTRESS Gridded Cloud Mask Instantaneous L2 Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076113561-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076113561-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L2G_CLOUD.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Gridded Cloud Mask Instantaneous L2 Global 70 m (ECO_L2G_CLOUD) Version 2 data product is derived using a single-channel Bayesian cloud threshold with a look-up-table (LUT) approach. The ECO_L2G_CLOUD product provides a cloud mask that can be used to determine cloud cover for accurate land surface temperature and evapotranspiration estimation. This data product is a gridded version of the ECO_L2_CLOUD Version 2 product that was resampled using nearest neighbor, projected to a globally snapped 0.0006\u00b0 grid, and repackaged as the ECO_L2G_CLOUD Version 2 data product.  The ECO_L2G_CLOUD Version 2 data product contains two cloud mask layers: cloud confidence and final cloud mask. Information on how to interpret the cloud confidence and cloud mask layers is provided in Table 7 of the ECO_L2_CLOUD Version 2 User Guide.     Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach TIR bands 2, 4, and 5 are being downloaded. The data products are as previously, except the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.  *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.  *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ECO_L2G_LSTE.v002",
+        "title": "ECOSTRESS Gridded Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076113037-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076113037-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L2G_LSTE.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science). The ECOSTRESS Gridded Land Surface Temperature and Emissivity Instantaneous Level 2 Global 70 m (ECO_L2G_LSTE) Version 2 data product provides atmospherically corrected land surface temperature and emissivity (LST&E) values derived from five thermal infrared (TIR) bands. The ECO_L2G_LSTE data product was derived using a physics-based Temperature and Emissivity Separation (TES) algorithm. This data product is a gridded version of the ECO_L2_LSTE (https://doi.org/10.5067/ECOSTRESS/ECO_L2_LSTE.002) Version 2 data product that was resampled using nearest neighbor, projected to a globally snapped 0.0006\u00b0 grid, and repackaged as the ECO_L2G_LSTE data product. The ECO_L2G_LSTE product is provided as gridded data and has a spatial resolution of 70 meters (m). The ECO_L2G_LSTE Version 2 data product contains 8 layers distributed in an HDF5 format file including LST, LST error, wideband emissivity, height, view zenith angle, quality flags, and cloud and water masks. For acquisitions after May 15, 2019, data products contain data values for TIR bands 2, 4, and 5 only. TIR bands 1 and 3 contain fill values to accommodate direct streaming of data from the ISS, as mentioned in the Known Issues section. LST data generated after May 15, 2019, will use only the three available bands; accuracy may be affected when compared to the LST data that utilized all five bands.    Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach TIR bands 2, 4, and 5 are being downloaded. The data products are as previously, except the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.  *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.  *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ECO_L2_CLOUD.v002",
+        "title": "ECOSTRESS Swath Cloud Mask Instantaneous L2 Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076115306-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076115306-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L2_CLOUD.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).    The ECOSTRESS Swath Cloud Mask Instantaneous L2 Global 70 m (ECO_L2_CLOUD) Version 2 data product is derived using a single-channel Bayesian cloud threshold with a look-up-table (LUT) approach. The ECOSTRESS Level 2 cloud product provides a cloud mask that can be used to determine cloud cover for accurate land surface temperature and evapotranspiration estimation. The corresponding ECO_L1B_GEO (https://doi.org/10.5067/ECOSTRESS/ECO_L1B_GEO.002) data product is required to georeference the ECO_L2_CLOUD data product.     The ECO_L2_CLOUD Version 2 data product contains two cloud mask layers: Brightness temperature LUT test and Final cloud mask. Information on how to interpret the bit fields in the cloud mask is provided in Table 7 of the User Guide.    Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach TIR bands 2, 4 and 5 are being downloaded. The data products are as previously, except the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.  *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.  *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.  ",
+        "license": "not-provided"
+    },
+    {
         "id": "EN1_MDSI_MER_FRS_1P.v4",
         "title": "Full Resolution Full Swath Geolocated and Calibrated TOA Radiance",
         "catalog": "LAADS",
@@ -2389,6 +2545,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1588901374-EUMETSAT.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/EUMETSAT/collections/EO:EUM:DAT:METOP:SOMO25.v2010-06-21",
         "description": "The Surface Soil Moisture L2 product is derived from the Advanced SCATterometer (ASCAT) data and given in swath geometry. This product provides an estimate of the water saturation of the 5 cm topsoil layer, in relative units between 0 and 100 [%]. The algorithm used to derive this parameter is based on a linear relationship of soil moisture and scatterometer backscatter and uses change detection techniques to eliminate the contributions of vegetation, land cover and surface topography, considered invariant from year to year. Seasonal vegetation effects are modelled by exploiting the multiple viewing capabilities of ASCAT. The processor has been developed by the Institute of Photogrammetry and Remote Sensing of the Vienna University of Technology. Note that some of the data are reprocessed. Please refer to the associated product validation reports or product release notes for further information.",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_RAIN_30M_2.v1",
+        "title": "30 Minute Rainfall Data (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-05-29",
+        "end_date": "1987-10-26",
+        "bbox": "-96.6, 39.08, -96.55, 39.11",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179002914-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179002914-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_RAIN_30M_2.v1",
+        "description": "30 minute rainfall data for the Konza Prairie",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_STRM_15M_1.v1",
+        "title": "15 Minute Stream Flow Data: USGS (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1984-12-25",
+        "end_date": "1988-03-04",
+        "bbox": "-96.6, 39.1, -96.6, 39.1",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003030-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003030-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_STRM_15M_1.v1",
+        "description": "USGS 15 minute stream flow data for Kings Creek on the Konza Prairie",
         "license": "not-provided"
     },
     {
@@ -2558,6 +2740,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1542315069-NCCS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/GISS-CMIP5.v1",
         "description": "We present a description of the ModelE2 version of the Goddard Institute for Space Studies (GISS) General Circulation Model (GCM) and the configurations used in the simulations performed for the Coupled Model Intercomparison Project Phase 5 (CMIP5). We use six variations related to the treatment of the atmospheric composition, the calculation of aerosol indirect effects, and ocean model component. Specifically, we test the difference between atmospheric models that have noninteractive composition, where radiatively important aerosols and ozone are prescribed from precomputed decadal averages, and interactive versions where atmospheric chemistry and aerosols are calculated given decadally varying emissions. The impact of the first aerosol indirect effect on clouds is either specified using a simple tuning, or parameterized using a cloud microphysics scheme. We also use two dynamic ocean components: the Russell and HYbrid Coordinate Ocean Model (HYCOM) which differ significantly in their basic formulations and grid. Results are presented for the climatological means over the satellite era (1980-2004) taken from transient simulations starting from the preindustrial (1850) driven by estimates of appropriate forcings over the 20th Century. Differences in base climate and variability related to the choice of ocean model are large, indicating an important structural uncertainty. The impact of interactive atmospheric composition on the climatology is relatively small except in regions such as the lower stratosphere, where ozone plays an important role, and the tropics, where aerosol changes affect the hydrological cycle and cloud cover. While key improvements over previous versions of the model are evident, these are not uniform across all metrics.",
+        "license": "not-provided"
+    },
+    {
+        "id": "GLOBAL_LITTER_CARBON_NUTRIENTS_1244.v1",
+        "title": "A Global Database of Litterfall Mass and Litter Pool Carbon and Nutrients",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1827-01-01",
+        "end_date": "1997-12-31",
+        "bbox": "-156.7, -54.5, 176.2, 72.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1227811476-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1227811476-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/GLOBAL_LITTER_CARBON_NUTRIENTS_1244.v1",
+        "description": "Measurement data of aboveground litterfall and littermass and litter carbon, nitrogen, and nutrient concentrations were extracted from 685 original literature sources and compiled into a comprehensive database to support the analysis of global patterns of carbon and nutrients in litterfall and litter pools. Data are included from sources dating from 1827 to 1997. The reported data include the literature reference, general site information (description, latitude, longitude, and elevation), site climate data (mean annual temperature and precipitation), site vegetation characteristics (management, stand age, ecosystem and vegetation-type codes), annual quantities of litterfall (by class, kg m-2 yr-1), litter pool mass (by class and litter layer, kg m-2), and concentrations of nitrogen (N), phosphorus (P), and base cations for the litterfall (g m-2 yr-1) and litter pool components (g m-2).  The investigators intent was to compile a comprehensive data set of individual direct field measurements as reported by researchers. While the primary emphasis was on acquiring C data, measurements of N, P, and base cations were also obtained, although the database is sparse for elements other than C and N. Each of the 1,497 records in the database represents a measurement site. Replicate measurements were averaged according to conventions described in Section 5 and recorded for each site in the database. The sites were at 575 different locations. ",
         "license": "not-provided"
     },
     {
@@ -2886,6 +3081,45 @@
         "license": "not-provided"
     },
     {
+        "id": "LAI_WOODY_PLANTS_1231.v1",
+        "title": "A Global Database of Field-observed Leaf Area Index in Woody Plant Species, 1932-2011",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1932-01-01",
+        "end_date": "2011-12-31",
+        "bbox": "-164.78, -54.2, 175.62, 78.42",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179130805-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179130805-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/LAI_WOODY_PLANTS_1231.v1",
+        "description": "This data set provides global leaf area index (LAI) values for woody species. The data are a compilation of field-observed data from 1,216 locations obtained from 554 literature sources published between 1932 and 2011. Only site-specific maximum LAI values were included from the sources; values affected by significant artificial treatments (e.g. continuous fertilization and/or irrigation) and LAI values that were low due to drought or disturbance (e.g. intensive thinning, wildfire, or disease), or because vegetation was immature or old/declining, were excluded (Lio et al., 2014). To maximize the generic applicability of the data, original LAI values from source literature and values standardized using the definition of half of total surface area (HSA) are included. Supporting information, such as geographical coordinates of plot, altitude, stand age, name of dominant species, plant functional types, and climate data are also provided in the data file. There is one data file in comma-separated (.csv) format with this data set and one companion file which provides the data sources.",
+        "license": "not-provided"
+    },
+    {
+        "id": "LEAF_CARBON_NUTRIENTS_1106.v1",
+        "title": "A Global Database of Carbon and Nutrient Concentrations of Green and Senesced Leaves",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1970-01-01",
+        "end_date": "2009-12-31",
+        "bbox": "-159.7, -50, 176.9, 68.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003380-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003380-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/LEAF_CARBON_NUTRIENTS_1106.v1",
+        "description": "This data set provides carbon (C), nitrogen (N), phosphorus (P), potassium (K), calcium (Ca), and magnesium (Mg) concentrations in green and senesced leaves. Vegetation characteristics reported include species growth habit, leaf area, mass, and mass loss with senescence. The data were compiled from 86 selected studies in 31 countries, and resulted in approximately 1,000 data points for both green and senesced leaves from woody and non-woody vegetation as described in Vergutz et al (2012). The studies were conducted from 1970-2009. There are two comma-delimited data files with this data set.",
+        "license": "not-provided"
+    },
+    {
+        "id": "LEAF_PHOTOSYNTHESIS_TRAITS_1224.v1",
+        "title": "A Global Data Set of Leaf Photosynthetic Rates, Leaf N and P, and Specific Leaf Area",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1993-01-01",
+        "end_date": "2010-12-31",
+        "bbox": "-122.4, -43.2, 176.13, 58.42",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179126725-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179126725-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/LEAF_PHOTOSYNTHESIS_TRAITS_1224.v1",
+        "description": "This global data set of photosynthetic rates and leaf nutrient traits was compiled from a comprehensive literature review. It includes estimates of Vcmax (maximum rate of carboxylation), Jmax (maximum rate of electron transport), leaf nitrogen content (N), leaf phosphorus content (P), and specific leaf area (SLA) data from both experimental and ambient field conditions, for a total of 325 species and treatment combinations. Both the original published Vcmax and Jmax values as well as estimates at standard temperature are reported. The maximum rate of carboxylation (Vcmax) and the maximum rate of electron transport (Jmax) are primary determinants of photosynthetic rates in plants, and modeled carbon fluxes are highly sensitive to these parameters. Previous studies have shown that Vcmax and Jmax correlate with leaf nitrogen across species and regions, and locally across species with leaf phosphorus and specific leaf area, yet no universal relationship suitable for global-scale models is currently available. These data are suitable for exploring the general relationships of Vcmax and Jmax with each other and with leaf N, P and SLA. This data set contains one *.csv file.",
+        "license": "not-provided"
+    },
+    {
         "id": "LGB_10m_traverse.v1",
         "title": "10 m firn temperature data: LGB traverses 1990-95",
         "catalog": "AU_AADC",
@@ -2935,19 +3169,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1888024429-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MCD06COSP_M3_MODIS.v6.1",
         "description": "The combined MODIS (Aqua/Terra) Cloud Properties Level 3 monthly, 1x1 degree grid product represents a new addition that is especially geared to facilitate climate scientists who deal with both models and observations. MCD06COSP_D3_MODIS represents the daily product\u2019s short-name.  The \u201cCOSP\u201d acronym in its short-name stands for  Cloud Feedback Model Intercomparison Project (CFMIP) Observation Simulator Package. The L3 monthly product is derived by aggregating the daily-produced Aqua+Terra/MODIS D3 Cloud Properties product (MCD06COSP_D3_MODIS).  Provided in netCDF4 format, it contains 23 aggregated science data sets (SDS/parameters).",
-        "license": "not-provided"
-    },
-    {
-        "id": "MCD14DL_C5_NRT.v005",
-        "title": "MODIS/Aqua+Terra Thermal Anomalies/Fire locations 1km FIRMS V005 NRT",
-        "catalog": "LM_FIRMS",
-        "state_date": "2014-01-28",
-        "end_date": "",
-        "bbox": "-180, -80, 180, 80",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LM_FIRMS/collections/MCD14DL_C5_NRT.v005",
-        "description": "Near Real-Time (NRT) MODIS Thermal Anomalies / Fire locations processed by FIRMS (Fire Information for Resource Management System) - Land Atmosphere Near real time Capability for EOS (LANCE), using swath products (MOD14/MYD14) rather than the tiled MOD14A1 and MYD14A1 products. The thermal anomalies / active fire represent the center of a 1km pixel that is flagged by the MODIS MOD14/MYD14 Fire and Thermal Anomalies algorithm (Giglio 2003) as containing one or more fires within the pixel. This is the most basic fire product in which active fires and other thermal anomalies, such as volcanoes, are identified.MCD14DL are available in the following formats: TXT, SHP, KML, WMS. These data are also provided through the FIRMS Fire Email Alerts. Please note only the TXT and SHP files contain all the attributes.",
         "license": "not-provided"
     },
     {
@@ -3653,6 +3874,19 @@
         "license": "not-provided"
     },
     {
+        "id": "Polarimetric_CT_1601.v1",
+        "title": "AfriSAR: Canopy Structure Derived from PolInSAR and Coherence TomoSAR NISAR tools",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2016-02-25",
+        "end_date": "2016-03-08",
+        "bbox": "9.17, -2.08, 11.86, 0.61",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1538765745-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1538765745-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/Polarimetric_CT_1601.v1",
+        "description": "This dataset contains forest vertical structure and associated uncertainty products derived by applying multi-baseline Polarimetric Interferometric Synthetic Aperture Radar (PolInSAR) and Polarimetric Coherence Tomographic SAR (PCT or PC-TomoSAR) techniques. The data were collected from multiple repeat-pass flights over Gabonese forests using the Uninhabited Aerial Vehicle Synthetic Aperture Radar (UAVSAR) instrument in February-March 2016. In addition, supplementary data products based on various intermediate parameters of the UAVSAR data are provided and include radar backscatter, coherence, and viewing and terrain geometry. These data were collected by NASA as part of the joint NASA/ESA AfriSAR campaign.",
+        "license": "not-provided"
+    },
+    {
         "id": "QB02_MSI_L1B.v1",
         "title": "QuickBird Level 1B Multispectral 4-Band Satellite Imagery",
         "catalog": "CSDA",
@@ -3988,6 +4222,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2497398128-CSDA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/CSDA/collections/WV02_Pan_L1B.v1",
         "description": "The WorldView-2 Level 1B Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the DigitalGlobe WorldView-2 satellite using the WorldView-110 camera across the global land surface from October 2009 to the present. This data product includes panchromatic imagery with a spatial resolution of 0.46m and a temporal resolution of approximately 1.1 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
+        "license": "not-provided"
+    },
+    {
+        "id": "WaterBalance_Daily_Historical_GRIDMET.v1.5",
+        "title": "Daily Historical Water Balance Products for the CONUS",
+        "catalog": "LPCLOUD",
+        "state_date": "1980-01-01",
+        "end_date": "2021-12-31",
+        "bbox": "-131.70607, 21.115301, -60.530453, 55.457306",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2674694066-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2674694066-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/WaterBalance_Daily_Historical_GRIDMET.v1.5",
+        "description": "This dataset provides daily historical Water Balance Model outputs from a Thornthwaite-type, single bucket model.  Climate inputs to the model are from GridMet daily temperature and precipitation for the Continental United States (CONUS). The Water Balance Model output variables include the following: Potential Evapotranspiration (PET, mm), Actual Evapotranspiration (AET, mm), Moisture Deficit (Deficit, mm), Soil Water (soilwater, mm), Runoff (mm), Rain (mm), and Accumulated Snow Water Equivalent (accumswe, mm). The dataset covers the period from January 1 to December 31 for years 1980 through 2021 for the CONUS. Water Balance Model variables are provided as individual files, by variable and year, at a 1 km x 1 km spatial resolution and a daily temporal resolution. Data are in a North America Lambert Conformal Conic projection and are distributed in a standardized Climate and Forecast (CF)-compliant NetCDF file format.",
         "license": "not-provided"
     },
     {
