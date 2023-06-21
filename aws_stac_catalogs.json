@@ -225,6 +225,24 @@
         "RequesterPays": false
     },
     {
+        "Name": "ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites - ESA WorldCover S1 composites. The bucket contains 1 Sentinel-1 annual composite for the years 2020 and 2021. A 3 bands GAMMA0 yearly median composite (VV, VH, VH-VV), power scaled.",
+        "Endpoint": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/esa_worldcover_grid_composites.fgb",
+        "Description": "ESA WorldCover S1 composites. The bucket contains 1 Sentinel-1 annual composite for the years 2020 and 2021. A 3 bands GAMMA0 yearly median composite (VV, VH, VH/VV), power scaled.",
+        "ARN": "arn:aws:s3:::esa-worldcover-s1",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites - ESA WorldCover S2 composites. The bucket contains the 3 Sentinel-2 L2A annual composites for the years 2020 and 2021. A 4 bands RGBNIR yearly median composite (B02, B03, B04, B08), a 2 bands SWIR yearly median composite (B11, B12) and a 3 bands NDVI yearly percentiles composite (NDVI p90, NDVI p50, NDVI p10).",
+        "Endpoint": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/esa_worldcover_grid_composites.fgb",
+        "Description": "ESA WorldCover S2 composites. The bucket contains the 3 Sentinel-2 L2A annual composites for the years 2020 and 2021. A 4 bands RGBNIR yearly median composite (B02, B03, B04, B08), a 2 bands SWIR yearly median composite (B11, B12) and a 3 bands NDVI yearly percentiles composite (NDVI p90, NDVI p50, NDVI p10).",
+        "ARN": "arn:aws:s3:::esa-worldcover-s2",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
         "Name": "Earth Observation Data Cubes for Brazil - CBERS 4",
         "Endpoint": "https://bdc-cbers.s3.us-west-2.amazonaws.com/catalog.json",
         "Description": "Earth Observation Data Cubes for Brazil - CBERS 4",
