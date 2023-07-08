@@ -92,7 +92,7 @@
     {
         "Name": "10m Annual Land Use Land Cover (9-class)",
         "Description": "10m Annual Land Use Land Cover (9-class)",
-        "ARN": "arn:aws:s3:::io-10m-annual-lulc",
+        "ARN": "arn:aws:s3:::io-10m-annual-lulc-v1.2",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.impactobservatory.com/global_maps",
@@ -102,7 +102,7 @@
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": "aws-pds, earth observation, environmental, geospatial, satellite imagery, sustainability, stac, cog, land cover, land use, machine learning, mapping, planetary",
         "Explore": [
-            "[STAC 1.0.0 endpoint](https://api.impactobservatory.com/stac-aws/)"
+            "[STAC 1.0.0 endpoint](https://api.impactobservatory.com/stac-aws/collections/io-annual-lulc-v1.2)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
