@@ -8,7 +8,7 @@
         "Documentation": "https://www.impactobservatory.com/global_maps",
         "Contact": "hello@impactobservatory.com",
         "ManagedBy": "[Impact Observatory](https://www.impactobservatory.com/)",
-        "UpdateFrequency": "Annually, each January",
+        "UpdateFrequency": "A new year is made available annually, each January. A new time series was provi",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": "aws-pds, earth observation, environmental, geospatial, satellite imagery, sustainability, stac, cog, land cover, land use, machine learning, mapping, planetary",
         "RequesterPays": null,
@@ -5748,6 +5748,42 @@
         "Host": null
     },
     {
+        "Name": "NOAA Office of Coast Survey - Hydrographic Survey Data - NOAA Office of Coast Survey Hydrographic Survey Data",
+        "Description": "NOAA Office of Coast Survey Hydrographic Survey Data",
+        "ARN": "arn:aws:s3:::noaa-ocs-hydrodata-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nauticalcharts.noaa.gov/",
+        "Contact": "For general questions or feedback about the data, please submit inquiriesthrough",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "This bucket is updated as new data source become available",
+        "License": "Creative Commons licenses are attached to each file and, where available, are at",
+        "Tags": "aws-pds, earth observation, model, oceans, bathymetry, marine navigation, oceans",
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-ocs-hydrodata-pds.s3.amazonaws.com/index.html)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Office of Coast Survey - Hydrographic Survey Data - NOAA Office of Coast Survey Hydrographic Survey Data New Object Notification",
+        "Description": "NOAA Office of Coast Survey Hydrographic Survey Data New Object Notification",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewOCSHYDROObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://nauticalcharts.noaa.gov/",
+        "Contact": "For general questions or feedback about the data, please submit inquiriesthrough",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "This bucket is updated as new data source become available",
+        "License": "Creative Commons licenses are attached to each file and, where available, are at",
+        "Tags": "aws-pds, earth observation, model, oceans, bathymetry, marine navigation, oceans",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "NOAA Operational Forecast System (OFS) - CO-OPS Operational OFS Data (Historical Retention)",
         "Description": "CO-OPS Operational OFS Data (Historical Retention)",
         "ARN": "arn:aws:s3:::noaa-nos-ofs-pds",
@@ -6116,7 +6152,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
@@ -6133,7 +6169,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
