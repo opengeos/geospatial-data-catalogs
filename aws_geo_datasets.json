@@ -526,6 +526,44 @@
         "Host": null
     },
     {
+        "Name": "CMAS Data Warehouse - 2019 Modeling Platform",
+        "Description": "2019 Modeling Platform",
+        "ARN": "arn:aws:s3:::2019platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://paste",
+        "Tags": "aws-pds, air quality, meteorological, geospatial, environmental, climate",
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse - AMET Data",
+        "Description": "AMET Data",
+        "ARN": "arn:aws:s3:::cmas-amet",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://paste",
+        "Tags": "aws-pds, air quality, meteorological, geospatial, environmental, climate",
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://cmas-amet.s3.amazonaws.com/index.html)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "CMAS Data Warehouse - CMAQ 2018 Modeling Platform",
         "Description": "CMAQ 2018 Modeling Platform",
         "ARN": "arn:aws:s3:::cmas-cmaq-modeling-platform-2018",
@@ -545,6 +583,25 @@
         "Host": null
     },
     {
+        "Name": "CMAS Data Warehouse - CMAQ Benchmark Data",
+        "Description": "CMAQ Benchmark Data",
+        "ARN": "arn:aws:s3:::cmas-cmaq",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://paste",
+        "Tags": "aws-pds, air quality, meteorological, geospatial, environmental, climate",
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://cmas-cmaq.s3.amazonaws.com/index.html)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "CMAS Data Warehouse - CMAQ CONUS-2 Benchmark Data",
         "Description": "CMAQ CONUS-2 Benchmark Data",
         "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
@@ -559,25 +616,6 @@
         "RequesterPays": null,
         "Explore": [
             "[Browse Bucket](https://cmas-cmaq-conus2-benchmark.s3.amazonaws.com/index.html)"
-        ],
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse - CMAQ Data",
-        "Description": "CMAQ Data",
-        "ARN": "arn:aws:s3:::cmas-cmaq",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://paste",
-        "Tags": "aws-pds, air quality, meteorological, geospatial, environmental, climate",
-        "RequesterPays": null,
-        "Explore": [
-            "[Browse Bucket](https://cmas-cmaq.s3.amazonaws.com/index.html)"
         ],
         "AccountRequired": null,
         "Host": null
