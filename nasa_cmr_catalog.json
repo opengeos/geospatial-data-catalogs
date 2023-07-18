@@ -1833,45 +1833,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AfriSAR_AGB_Maps_1681.v1",
-        "title": "AfriSAR: Aboveground Biomass for Lope, Mabounie, Mondah, and Rabi Sites, Gabon",
-        "catalog": "ORNL_DAAC",
-        "state_date": "2016-02-01",
-        "end_date": "2016-03-31",
-        "bbox": "9.3, -1.95, 11.64, 0.61",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1612508242-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1612508242-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/AfriSAR_AGB_Maps_1681.v1",
-        "description": "This dataset provides gridded estimates of aboveground biomass (AGB) for four sites in Gabon at 0.25 ha (50 m) resolution derived with field measurements and airborne LiDAR data collected from 2010 to 2016. The sites represent a mix of forested, savannah, and some agricultural and disturbed landcover types: Lope site, within Lope National Park; Mabounie, mostly forested site; Mondah Forest, protected area; and the Rabi forest site, part of the Smithsonian Institution of Global Earth Observatories world-wide network of forest plots. Plot-level biophysical measurements of tree diameter and tree height (or estimated by allometry) were performed at 1 ha and 0.25 ha scales on multiple plots at each site and used to derive AGB for each tree and then summed for each plot. Aerial LiDAR scans were used to construct digital elevation models (DEM) and digital surface models (DSM), and then the DEM and DSM were used to construct a canopy height model (CHM) at 1 m resolution. After checking site-plot locations against the CHM, mean canopy height (MCH) was computed over each 0.25 ha. A single regression model relating MCH and AGB estimates, incorporating local height based on the trunk DBH (HD) relationships, was produced for all sites and combined with the CHM layer to construct biomass maps at 0.25 ha resolution.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AfriSAR_LVIS_Footprint_Cover_1591.v1",
-        "title": "AfriSAR: Canopy Cover and Vertical Profile Metrics Derived from LVIS, Gabon, 2016",
-        "catalog": "ORNL_DAAC",
-        "state_date": "2016-02-20",
-        "end_date": "2016-03-08",
-        "bbox": "8.73, -2.29, 12.01, 0.7",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1566984064-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1566984064-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/AfriSAR_LVIS_Footprint_Cover_1591.v1",
-        "description": "This dataset includes footprint-level canopy structure products derived from data collected using NASA's Land, Vegetation, and Ice Sensor (LVIS) during flights over five forested sites in Gabon during February and March 2016. Three types of canopy structure information are included for each flight: 1) vertical profiles of canopy cover fraction in 1-meter bins, 2) vertical profiles of plant area index (PAI) in 1-meter bins, and 3) footprint summary data of total recorded energy, leaf area index, canopy cover fraction, and vertical foliage profiles in 10-meter bins. Canopy structure metrics are provided for each waveform (20-m footprint) collected by the LVIS instrument. These data were collected by NASA as part of the AfriSAR project. AfriSAR is a NASA collaboration with the European Space Agency (ESA), German Aerospace Center (DLR), and the Gabonese Space Agency (AGEOS) that is collecting data useful for deriving forest canopy structure and will help prepare for and calibrate current and upcoming spaceborne missions that aim to gauge the role of forests in Earth's carbon cycle.",
-        "license": "not-provided"
-    },
-    {
-        "id": "Afrisar_LVIS_Biomass_VProfiles_1775.v1",
-        "title": "AfriSAR: Gridded Forest Biomass and Canopy Metrics Derived from LVIS, Gabon, 2016",
-        "catalog": "ORNL_DAAC",
-        "state_date": "2016-02-20",
-        "end_date": "2016-03-08",
-        "bbox": "9.18, -2.29, 12.02, 0.63",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1943616875-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1943616875-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/Afrisar_LVIS_Biomass_VProfiles_1775.v1",
-        "description": "This dataset contains gridded forest characterization products derived from full-waveform lidar data acquired by NASA's airborne Land, Vegetation, and Ice Sensor (LVIS) instrument for five forested sites in Gabon, Africa, during the 2016 NASA-ESA AfriSAR campaign. The LVIS lidar instrument was flown over study sites in Lope, Mondah/Akanda, Pongara, Rabi, and Mabouni from February to March 2016. Derived canopy cover, canopy heights, bare ground elevation, plant area index (PAI), and foliage height diversity (FHD), and respective uncertainties are provided at a 25 m resolution for each of the five study sites. Aboveground biomass density (AGBD) and uncertainty were modeled at 50 m and 100 m resolutions for the Lope, Mondah, and Mabounie sites using field inventory data and waveform height and cover metrics. Lidar grid cell data collection statistics (i.e., number of shots and flight lines) and a data mask are also included. This research leverages high-quality forest inventory datasets collected during the AfriSAR campaign for one of the least studied and most unique forest ecosystems in the world.",
-        "license": "not-provided"
-    },
-    {
         "id": "C1_PANA_STUC00GTD.v1",
         "title": "Cartosat-1 PANA Standard Products",
         "catalog": "ISRO",
@@ -2545,6 +2506,58 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1588901374-EUMETSAT.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/EUMETSAT/collections/EO:EUM:DAT:METOP:SOMO25.v2010-06-21",
         "description": "The Surface Soil Moisture L2 product is derived from the Advanced SCATterometer (ASCAT) data and given in swath geometry. This product provides an estimate of the water saturation of the 5 cm topsoil layer, in relative units between 0 and 100 [%]. The algorithm used to derive this parameter is based on a linear relationship of soil moisture and scatterometer backscatter and uses change detection techniques to eliminate the contributions of vegetation, land cover and surface topography, considered invariant from year to year. Seasonal vegetation effects are modelled by exploiting the multiple viewing capabilities of ASCAT. The processor has been developed by the Institute of Photogrammetry and Remote Sensing of the Vienna University of Technology. Note that some of the data are reprocessed. Please refer to the associated product validation reports or product release notes for further information.",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_AF_DET_G_5.v1",
+        "title": "Aircraft Flux-Detrended: Univ. Col. (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-05-26",
+        "end_date": "1989-10-31",
+        "bbox": "-102, 37, -95, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003494-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003494-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_DET_G_5.v1",
+        "description": "Detrended boundary layer fluxes recorded on aircraft flights over the Konza",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_AF_DET_K_4.v1",
+        "title": "Aircraft Flux-Detrended: U of Wy. (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-08-11",
+        "end_date": "1989-10-31",
+        "bbox": "-102, 37, -95, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003698-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003698-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_DET_K_4.v1",
+        "description": "Detrended boundary layer fluxes recorded on aircraft flights over the Konza",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_AF_DET_M_3.v1",
+        "title": "Aircraft Flux-Detrended: NRCC (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-06-26",
+        "end_date": "1989-10-31",
+        "bbox": "-102, 37, -95, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003112-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003112-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_DET_M_3.v1",
+        "description": "Detrended boundary layer fluxes recorded on aircraft flights over the Konza",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_AF_FLT_M_6.v1",
+        "title": "Aircraft Flux-Filtered: NRCC (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-06-26",
+        "end_date": "1989-10-31",
+        "bbox": "-102, 37, -95, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179002951-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179002951-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_FLT_M_6.v1",
+        "description": "Filtered boundary layer fluxes recorded on aircraft flights over the Konza",
         "license": "not-provided"
     },
     {
@@ -3884,19 +3897,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2143402217-ORNL_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Permafrost_ActiveLayer_NSlope_1759.v1",
         "description": "This dataset provides in situ soil measurements including soil dielectric properties, temperature, and moisture profiles, active layer thickness (ALT), and measurements of soil organic matter, bulk density, porosity, texture, and coarse root biomass. Samples were collected from the surface to permafrost table in soil pits at selected sites along the Dalton Highway in Northern Alaska. From North to South, the study sites include Franklin Bluffs, Sagwon, Happy Valley, Ice Cut, and Imnavait Creek. Measurements were made from August 22 to August 26, 2018. The purpose of the field campaign was to characterize the dielectric properties of permafrost active layer soils in support of the NASA Arctic and Boreal Vulnerability Experiment (ABoVE) Airborne Campaign.",
-        "license": "not-provided"
-    },
-    {
-        "id": "Polarimetric_CT_1601.v1",
-        "title": "AfriSAR: Canopy Structure Derived from PolInSAR and Coherence TomoSAR NISAR tools",
-        "catalog": "ORNL_DAAC",
-        "state_date": "2016-02-25",
-        "end_date": "2016-03-08",
-        "bbox": "9.17, -2.08, 11.86, 0.61",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1538765745-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1538765745-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/Polarimetric_CT_1601.v1",
-        "description": "This dataset contains forest vertical structure and associated uncertainty products derived by applying multi-baseline Polarimetric Interferometric Synthetic Aperture Radar (PolInSAR) and Polarimetric Coherence Tomographic SAR (PCT or PC-TomoSAR) techniques. The data were collected from multiple repeat-pass flights over Gabonese forests using the Uninhabited Aerial Vehicle Synthetic Aperture Radar (UAVSAR) instrument in February-March 2016. In addition, supplementary data products based on various intermediate parameters of the UAVSAR data are provided and include radar backscatter, coherence, and viewing and terrain geometry. These data were collected by NASA as part of the joint NASA/ESA AfriSAR campaign.",
         "license": "not-provided"
     },
     {
