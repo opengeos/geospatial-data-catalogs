@@ -280,7 +280,7 @@
     },
     {
         "Name": "NASA - USGS Controlled THEMIS Mosaics",
-        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/collections/mo_themis_controlled_mosaics",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/mo_themis_controlled_mosaics",
         "Description": "Scenes and metadata",
         "ARN": "arn:aws:s3:::astrogeo-ard/mars/mo/themis/controlled_mosaics/",
         "Region": "us-west-2",
@@ -289,7 +289,7 @@
     },
     {
         "Name": "NASA - USGS Europa Controlled Observation Mosaics",
-        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/collections/galileo_usgs_photogrammetrically_controlled_mosaics",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/galileo_usgs_photogrammetrically_controlled_mosaics",
         "Description": "Scenes and metadata",
         "ARN": "arn:aws:s3:::astrogeo-ard/jupiter/europa/galileo_voyager/usgs_controlled_mosaics/",
         "Region": "us-west-2",
@@ -298,7 +298,7 @@
     },
     {
         "Name": "NASA - USGS Europa Controlled Observations",
-        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/collections/galileo_usgs_photogrammetrically_controlled_observations",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/galileo_usgs_photogrammetrically_controlled_observations",
         "Description": "Scenes and metadata",
         "ARN": "arn:aws:s3:::astrogeo-ard/jupiter/europa/galileo_voyager/usgs_controlled_observations/",
         "Region": "us-west-2",
