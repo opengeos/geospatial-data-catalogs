@@ -315,6 +315,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "NASA - USGS Released HiRISE Digital Terrain Models",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/mro_hirise_socet_dtms",
+        "Description": "Scenes and metadata",
+        "ARN": "arn:aws:s3:::astrogeo-ard/mars/mro/hirise/controlled/dtm",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "NASA - USGS Uncontrolled HiRISE RDRs",
         "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/collections/mro_hirise_uncontrolled_observations",
         "Description": "Scenes and metadata",
