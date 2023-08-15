@@ -1,5 +1,31 @@
 [
     {
+        "id": "0f4324af-fa0a-4aaf-9b97-89a4f3325ce1",
+        "title": "DESIS - Hyperspectral Images - Global",
+        "catalog": "FEDEO",
+        "state_date": "2018-08-30",
+        "end_date": "",
+        "bbox": "-180, -52, 180, 52",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458058-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458058-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/0f4324af-fa0a-4aaf-9b97-89a4f3325ce1",
+        "description": "The hyperspectral instrument DESIS (DLR Earth Sensing Imaging Spectrometer) is one of four possible payloads of MUSES (Multi-User System for Earth Sensing), which is mounted on the International Space Station (ISS). DLR developed and delivered a Visual/Near-Infrared Imaging Spectrometer to Teledyne Brown Engineering, which was responsible for integrating the instrument. Teledyne Brown designed and constructed, integrated and tested the platform before delivered to NASA. Teledyne Brown collaborates with DLR in several areas, including basic and applied research for use of data. DESIS is operated in the wavelength range from visible through the near infrared and enables precise data acquisition from Earth's surface for applications including fire-detection, change detection, maritime domain awareness, and atmospheric research. Three product types can be ordered, which are Level 1B (systematic and radiometric corrected), Level 1C (geometrically corrected) and Level 2A (atmospherically corrected). The spatial resolution is about 30m on ground. DESIS is sensitive between 400nm and 1000nm with a spectral resolution of about 3.3nm. DESIS data are delivered in tiles of about 30x30km. For more information concerning DESIS the reader is referred to https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-13614/",
+        "license": "not-provided"
+    },
+    {
+        "id": "11c5f6df1abc41968d0b28fe36393c9d",
+        "title": "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol products from MERIS (ALAMO algorithm), Version 2.2",
+        "catalog": "FEDEO",
+        "state_date": "2008-01-01",
+        "end_date": "2008-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2548143004-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2548143004-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/11c5f6df1abc41968d0b28fe36393c9d",
+        "description": "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. This dataset comprises the Level 3 aerosol daily and monthly gridded products from MERIS for 2008, using the ALAMO algorithm, version 2.2.   The data have been provided by Hygeos.For further details about these data products please see the linked documentation.",
+        "license": "not-provided"
+    },
+    {
         "id": "12-hourly_interpolated_surface_position_from_buoys",
         "title": "12-Hourly Interpolated Surface Position from Buoys",
         "catalog": "SCIOPS",
@@ -260,6 +286,19 @@
         "license": "not-provided"
     },
     {
+        "id": "7ae5a791-b667-4838-9733-a44e4cf2d715",
+        "title": "Cartosat-1 (IRS-P5) - Panchromatic Images (PAN) - Europe, Stereographic",
+        "catalog": "FEDEO",
+        "state_date": "2007-01-05",
+        "end_date": "",
+        "bbox": "-25, 30, 45, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458042-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458042-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/7ae5a791-b667-4838-9733-a44e4cf2d715",
+        "description": "Indian Remote Sensing satellites (IRS) are a series of Earth Observation satellites, built, launched and maintained by Indian Space Research Organisation. The IRS series provides many remote sensing services to India and international ground stations. The satellite has two panchromatic cameras that were especially designed for in flight stereo viewing.",
+        "license": "not-provided"
+    },
+    {
         "id": "802569b8-fb56-4d78-a2e8-3e4549ff475b",
         "title": "AVHRR - Sea Surface Temperature (SST) - Europe",
         "catalog": "FEDEO",
@@ -426,6 +465,136 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/ABoVE_PBand_SAR_1657.v1",
         "description": "This dataset provides estimates of soil geophysical properties derived from Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) P-band polarimetric synthetic aperture radar (PolSAR) data collected in August and October of 2014, 2015, and 2017 over 12 study sites (with some exceptions) across Northern Alaska. Soil properties reported include the active layer thickness (ALT), dielectric constant, soil moisture profile, surface roughness, and their respective uncertainty estimates at 30-m spatial resolution over the 12 flight transects. Most of the study sites are located within the continuous permafrost zone and where the aboveground vegetation consisting mainly of dwarf shrub and tussock/sedge/moss tundra has a minimal impact on P-band radar backscatter.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACCLIP_AerosolCloud_AircraftRemoteSensing_WB57_Data.v1",
+        "title": "ACCLIP WB-57 Aerosol and Cloud Remotely Sensed Data",
+        "catalog": "LARC_ASDC",
+        "state_date": "2022-07-14",
+        "end_date": "2022-09-14",
+        "bbox": "-180, 16.6, 180, 61.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2655162569-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2655162569-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACCLIP_AerosolCloud_AircraftRemoteSensing_WB57_Data.v1",
+        "description": "ACCLIP_AerosolCloud_AircraftRemoteSensing_WB57_Data is the cloud and aerosol remote sensing data from the Roscoe lidar collected during the Asian Summer Monsoon Chemical & Climate Impact Project (ACCLIP). Data collection for this product is complete.    ACCLIP is an international, multi-organizational suborbital campaign that aims to study aerosols and chemical transport that is associated with the Asian Summer Monsoon (ASM) in the Western Pacific region from 15 July 2022 to 31 August 2022. The ASM is the largest meteorological pattern in the Northern Hemisphere (NH) during the summer and is associated with persistent convection and large anticyclonic flow patterns in the upper troposphere and lower stratosphere (UTLS). This leads to significant enhancements in the UTLS of trace species that originate from pollution or biomass burning. Convection connected to the ASM occurs over South, Southeast, and East Asia, a region with complex and rapidly changing emissions due to its high population density and economic growth. Pollution that reaches the UTLS from this region can have significant effects on the climate and chemistry of the atmosphere, making it important to have an accurate representation and understanding of ASM transport, chemical, and microphysical processes for chemistry-climate models to characterize these interactions and for predicting future impacts on climate. The ACCLIP campaign is conducted by the National Aeronautics and Space Administration (NASA) and the National Center for Atmospheric Research (NCAR) with the primary goal of investigating the impacts of Asian gas and aerosol emissions on global chemistry and climate. The NASA WB-57 and NCAR G-V aircraft are outfitted with state-of-the-art sensors to accomplish this. ACCLIP seeks to address four scientific objectives related to its main goal. The first is to investigate the transport pathways of ASM uplifted air from inside of the anticyclone to the global UTLS. Another objective is to sample the chemical content of air processed in the ASM in order to quantify the role of the ASM in transporting chemically active species and short-lived climate forcing agents to the UTLS to determine their impact on stratospheric ozone chemistry and global climate. Third, information is obtained on aerosol size, mass, and chemical composition that is necessary for determining the radiative effects of the ASM to constrain models of aerosol formation and for contrasting the organic-rich ASM UTLS aerosol population with that of the background aerosols. Last, ACCLIP seeks to measure the water vapor distribution associated with the monsoon dynamical structure to evaluate transport across the tropopause and determine the role of the ASM in water vapor transport in the stratosphere.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACCLIP_Aerosol_AircraftInSitu_WB57_Data.v1",
+        "title": "ACCLIP WB-57 Aircraft In-Situ Aerosol Data",
+        "catalog": "LARC_ASDC",
+        "state_date": "2022-07-14",
+        "end_date": "2022-09-14",
+        "bbox": "-180, 16.6, 180, 61.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2609962127-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2609962127-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACCLIP_Aerosol_AircraftInSitu_WB57_Data.v1",
+        "description": "ACCLIP_Aerosol_AircraftInSitu_WB57_Data is the in-situ aerosol data collected during the Asian Summer Monsoon Chemical & Climate Impact Project (ACCLIP). Data from the Particle Analysis by Laser Mass Spectrometry - Next Generation (PALMS-NG), Single Particle Soot Photometer (SP2), Nucleation-Mode Aerosol Size Spectrometer (N-MASS), Printed Optical Particle Spectrometer (POPS), and the Ultra-High Sensitivity Aerosol Spectrometer (UHSAS) is featured in this collection. Data collection for this product is complete.    ACCLIP is an international, multi-organizational suborbital campaign that aims to study aerosols and chemical transport that is associated with the Asian Summer Monsoon (ASM) in the Western Pacific region from 15 July 2022 to 31 August 2022. The ASM is the largest meteorological pattern in the Northern Hemisphere (NH) during the summer and is associated with persistent convection and large anticyclonic flow patterns in the upper troposphere and lower stratosphere (UTLS). This leads to significant enhancements in the UTLS of trace species that originate from pollution or biomass burning. Convection connected to the ASM occurs over South, Southeast, and East Asia, a region with complex and rapidly changing emissions due to its high population density and economic growth. Pollution that reaches the UTLS from this region can have significant effects on the climate and chemistry of the atmosphere, making it important to have an accurate representation and understanding of ASM transport, chemical, and microphysical processes for chemistry-climate models to characterize these interactions and for predicting future impacts on climate.    The ACCLIP campaign is conducted by the National Aeronautics and Space Administration (NASA) and the National Center for Atmospheric Research (NCAR) with the primary goal of investigating the impacts of Asian gas and aerosol emissions on global chemistry and climate. The NASA WB-57 and NCAR G-V aircraft are outfitted with state-of-the-art sensors to accomplish this. ACCLIP seeks to address four scientific objectives related to its main goal. The first is to investigate the transport pathways of ASM uplifted air from inside of the anticyclone to the global UTLS. Another objective is to sample the chemical content of air processed in the ASM in order to quantify the role of the ASM in transporting chemically active species and short-lived climate forcing agents to the UTLS to determine their impact on stratospheric ozone chemistry and global climate. Third, information is obtained on aerosol size, mass, and chemical composition that is necessary for determining the radiative effects of the ASM to constrain models of aerosol formation and for contrasting the organic-rich ASM UTLS aerosol population with that of the background aerosols. Last, ACCLIP seeks to measure the water vapor distribution associated with the monsoon dynamical structure to evaluate transport across the tropopause and determine the role of the ASM in water vapor transport in the stratosphere.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACCLIP_MetNav_AircraftInSitu_WB57_Data.v1",
+        "title": "ACCLIP WB-57 Meteorological and Navigational Data",
+        "catalog": "LARC_ASDC",
+        "state_date": "2022-07-14",
+        "end_date": "2022-09-14",
+        "bbox": "-180, 16.6, 180, 61.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2566338281-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2566338281-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACCLIP_MetNav_AircraftInSitu_WB57_Data.v1",
+        "description": "ACCLIP_MetNav_AircraftInSitu_WB57_Data is the in-situ meteorology and navigational data collection during the Asian Summer Monsoon Chemical & Climate Impact Project (ACCLIP). Data from the Meteorological Measurement System (MMS) and Diode Laser Hygrometer (DLH) is featured in this collection. Data collection for this product is complete.    ACCLIP is an international, multi-organizational suborbital campaign that aims to study aerosols and chemical transport that is associated with the Asian Summer Monsoon (ASM) in the Western Pacific region from 15 July 2022 to 31 August 2022. The ASM is the largest meteorological pattern in the Northern Hemisphere (NH) during the summer and is associated with persistent convection and large anticyclonic flow patterns in the upper troposphere and lower stratosphere (UTLS). This leads to significant enhancements in the UTLS of trace species that originate from pollution or biomass burning. Convection connected to the ASM occurs over South, Southeast, and East Asia, a region with complex and rapidly changing emissions due to its high population density and economic growth. Pollution that reaches the UTLS from this region can have significant effects on the climate and chemistry of the atmosphere, making it important to have an accurate representation and understanding of ASM transport, chemical, and microphysical processes for chemistry-climate models to characterize these interactions and for predicting future impacts on climate.    The ACCLIP campaign is conducted by the National Aeronautics and Space Administration (NASA) and the National Center for Atmospheric Research (NCAR) with the primary goal of investigating the impacts of Asian gas and aerosol emissions on global chemistry and climate. The NASA WB-57 and NCAR G-V aircraft are outfitted with state-of-the-art sensors to accomplish this. ACCLIP seeks to address four scientific objectives related to its main goal. The first is to investigate the transport pathways of ASM uplifted air from inside of the anticyclone to the global UTLS. Another objective is to sample the chemical content of air processed in the ASM in order to quantify the role of the ASM in transporting chemically active species and short-lived climate forcing agents to the UTLS to determine their impact on stratospheric ozone chemistry and global climate. Third, information is obtained on aerosol size, mass, and chemical composition that is necessary for determining the radiative effects of the ASM to constrain models of aerosol formation and for contrasting the organic-rich ASM UTLS aerosol population with that of the background aerosols. Last, ACCLIP seeks to measure the water vapor distribution associated with the monsoon dynamical structure to evaluate transport across the tropopause and determine the role of the ASM in water vapor transport in the stratosphere.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACCLIP_Model_WB57_Data.v1",
+        "title": "ACCLIP WB-57 Aircraft Model Data",
+        "catalog": "LARC_ASDC",
+        "state_date": "2022-07-14",
+        "end_date": "2022-09-14",
+        "bbox": "-180, 16.6, 180, 61.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2609869612-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2609869612-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACCLIP_Model_WB57_Data.v1",
+        "description": "ACCLIP_Model_WB57_Data contains modeled meteorological, chemical, and aerosol data along the flight tracks of the WB-57 aircraft during the Asian Summer Monsoon Chemical & Climate Impact Project (ACCLIP). Data collection for this product is complete.    ACCLIP is an international, multi-organizational suborbital campaign that aims to study aerosols and chemical transport that is associated with the Asian Summer Monsoon (ASM) in the Western Pacific region from 15 July 2022 to 31 August 2022. The ASM is the largest meteorological pattern in the Northern Hemisphere (NH) during the summer and is associated with persistent convection and large anticyclonic flow patterns in the upper troposphere and lower stratosphere (UTLS). This leads to significant enhancements in the UTLS of trace species that originate from pollution or biomass burning. Convection connected to the ASM occurs over South, Southeast, and East Asia, a region with complex and rapidly changing emissions due to its high population density and economic growth. Pollution that reaches the UTLS from this region can have significant effects on the climate and chemistry of the atmosphere, making it important to have an accurate representation and understanding of ASM transport, chemical, and microphysical processes for chemistry-climate models to characterize these interactions and for predicting future impacts on climate.    The ACCLIP campaign is conducted by the National Aeronautics and Space Administration (NASA) and the National Center for Atmospheric Research (NCAR) with the primary goal of investigating the impacts of Asian gas and aerosol emissions on global chemistry and climate. The NASA WB-57 and NCAR G-V aircraft are outfitted with state-of-the-art sensors to accomplish this. ACCLIP seeks to address four scientific objectives related to its main goal. The first is to investigate the transport pathways of ASM uplifted air from inside of the anticyclone to the global UTLS. Another objective is to sample the chemical content of air processed in the ASM in order to quantify the role of the ASM in transporting chemically active species and short-lived climate forcing agents to the UTLS to determine their impact on stratospheric ozone chemistry and global climate. Third, information is obtained on aerosol size, mass, and chemical composition that is necessary for determining the radiative effects of the ASM to constrain models of aerosol formation and for contrasting the organic-rich ASM UTLS aerosol population with that of the background aerosols. Last, ACCLIP seeks to measure the water vapor distribution associated with the monsoon dynamical structure to evaluate transport across the tropopause and determine the role of the ASM in water vapor transport in the stratosphere.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACCLIP_TraceGas_AircraftInSitu_WB57_Data.v1",
+        "title": "ACCLIP WB-57 Aircraft In-situ Trace Gas Data",
+        "catalog": "LARC_ASDC",
+        "state_date": "2022-07-14",
+        "end_date": "2022-09-14",
+        "bbox": "-180, 16.6, 180, 61.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2566342407-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2566342407-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACCLIP_TraceGas_AircraftInSitu_WB57_Data.v1",
+        "description": "ACCLIP_TraceGas_AircraftInSitu_WB57_Data is the in-situ trace gas data collection during the Asian Summer Monsoon Chemical & Climate Impact Project (ACCLIP). Data from the Airborne Carbon Oxide Sulfide Spectrometer (ACOS), Carbon monOxide Measurement from Ames (COMA), Laser Induced Fluorescence - Nitrogen Oxide (LIF-NO), In Situ Airborne Formaldehyde (ISAF), Carbon Oxide Laser Detector 2 (COLD 2), and the NOAA UAS O3 Photometer (UASO3) is featured in this collection. Data collection for this product is complete.    ACCLIP is an international, multi-organizational suborbital campaign that aims to study aerosols and chemical transport that is associated with the Asian Summer Monsoon (ASM) in the Western Pacific region from 15 July 2022 to 31 August 2022. The ASM is the largest meteorological pattern in the Northern Hemisphere (NH) during the summer and is associated with persistent convection and large anticyclonic flow patterns in the upper troposphere and lower stratosphere (UTLS). This leads to significant enhancements in the UTLS of trace species that originate from pollution or biomass burning. Convection connected to the ASM occurs over South, Southeast, and East Asia, a region with complex and rapidly changing emissions due to its high population density and economic growth. Pollution that reaches the UTLS from this region can have significant effects on the climate and chemistry of the atmosphere, making it important to have an accurate representation and understanding of ASM transport, chemical, and microphysical processes for chemistry-climate models to characterize these interactions and for predicting future impacts on climate.    The ACCLIP campaign is conducted by the National Aeronautics and Space Administration (NASA) and the National Center for Atmospheric Research (NCAR) with the primary goal of investigating the impacts of Asian gas and aerosol emissions on global chemistry and climate. The NASA WB-57 and NCAR G-V aircraft are outfitted with state-of-the-art sensors to accomplish this. ACCLIP seeks to address four scientific objectives related to its main goal. The first is to investigate the transport pathways of ASM uplifted air from inside of the anticyclone to the global UTLS. Another objective is to sample the chemical content of air processed in the ASM in order to quantify the role of the ASM in transporting chemically active species and short-lived climate forcing agents to the UTLS to determine their impact on stratospheric ozone chemistry and global climate. Third, information is obtained on aerosol size, mass, and chemical composition that is necessary for determining the radiative effects of the ASM to constrain models of aerosol formation and for contrasting the organic-rich ASM UTLS aerosol population with that of the background aerosols. Last, ACCLIP seeks to measure the water vapor distribution associated with the monsoon dynamical structure to evaluate transport across the tropopause and determine the role of the ASM in water vapor transport in the stratosphere.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACEPOL_AircraftRemoteSensing_AirHARP_Data.v1",
+        "title": "ACEPOL Airborne Hyper Angular Rainbow Polarimeter (AirHARP) Remotely Sensed Data Version 1",
+        "catalog": "LARC_ASDC",
+        "state_date": "2017-10-18",
+        "end_date": "2020-11-20",
+        "bbox": "-130, 25, -100, 45",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588261-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588261-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACEPOL_AircraftRemoteSensing_AirHARP_Data.v1",
+        "description": "ACEPOL Airborne Hyper Angular Rainbow Polarimeter (AirHARP) Remotely Sensed Data (ACEPOL_AircraftRemoteSensing_AirHARP_Data) are remotely sensed measurements collected by the Airborne Hyper Angular Rainbow Polarimeter (AirHARP) onboard the ER-2 during ACEPOL. In order to improve our understanding of the effect of aerosols on climate and air quality, measurements of aerosol chemical composition, size distribution, height profile, and optical properties are of crucial importance. In terms of remotely sensed instrumentation, the most extensive set of aerosol properties can be obtained by combining passive multi-angle, multi-spectral measurements of intensity and polarization with active measurements performed by a High Spectral Resolution Lidar. During Fall 2017, the Aerosol Characterization from Polarimeter and Lidar (ACEPOL) campaign, jointly sponsored by NASA and the Netherlands Institute for Space Research (SRON), performed aerosol and cloud measurements over the United States from the NASA high altitude ER-2 aircraft. Six instruments were deployed on the aircraft. Four of these instruments were multi-angle polarimeters: the Airborne Hyper Angular Rainbow Polarimeter (AirHARP), the Airborne Multiangle SpectroPolarimetric Imager (AirMSPI), the Airborne Spectrometer for Planetary Exploration (SPEX Airborne) and the Research Scanning Polarimeter (RSP). The other two instruments were lidars: the High Spectral Resolution Lidar 2 (HSRL-2) and the Cloud Physics Lidar (CPL). The ACEPOL operation was based at NASA\u2019s Armstrong Flight Research Center in Palmdale California, which enabled observations of a wide variety of scene types, including urban, desert, forest, coastal ocean and agricultural areas, with clear, cloudy, polluted and pristine atmospheric conditions. The primary goal of ACEPOL was to assess the capabilities of the different polarimeters for retrieval of aerosol and cloud microphysical and optical parameters, as well as their capabilities to derive aerosol layer height (near-UV polarimetry, O2 A-band). ACEPOL also focused on the development and evaluation of aerosol retrieval algorithms that combine data from both active (lidar) and passive (polarimeter) instruments. ACEPOL data are appropriate for algorithm development and testing, instrument intercomparison, and investigations of active and passive instrument data fusion, which is a valuable resource for remote sensing communities as they prepare for the next generation of spaceborne MAP and lidar missions.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACEPOL_AircraftRemoteSensing_AirSPEX_Data.v1",
+        "title": "ACEPOL Airborne Spectrometer for Planetary Exploration (AirSPEX) Remotely Sensed Data Version 1",
+        "catalog": "LARC_ASDC",
+        "state_date": "2017-10-19",
+        "end_date": "2017-11-09",
+        "bbox": "-130, 25, -100, 45",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588281-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588281-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACEPOL_AircraftRemoteSensing_AirSPEX_Data.v1",
+        "description": "ACEPOL_AircraftRemoteSensing_AirSPEX_Data are remotely sensed measurements collected by the Airborne Spectrometer for Planetary Exploration (SPEX Airborne) onboard the ER-2 during ACEPOL. In order to improve our understanding of the effect of aerosols on climate and air quality, measurements of aerosol chemical composition, size distribution, height profile, and optical properties are of crucial importance. In terms of remotely sensed instrumentation, the most extensive set of aerosol properties can be obtained by combining passive multi-angle, multi-spectral measurements of intensity and polarization with active measurements performed by a High Spectral Resolution Lidar. During Fall 2017, the Aerosol Characterization from Polarimeter and Lidar (ACEPOL) campaign, jointly sponsored by NASA and the Netherlands Institute for Space Research (SRON), performed aerosol and cloud measurements over the United States from the NASA high altitude ER-2 aircraft. Six instruments were deployed on the aircraft. Four of these instruments were multi-angle polarimeters: the Airborne Hyper Angular Rainbow Polarimeter (AirHARP), the Airborne Multiangle SpectroPolarimetric Imager (AirMSPI), the Airborne Spectrometer for Planetary Exploration (SPEX Airborne) and the Research Scanning Polarimeter (RSP). The other two instruments were lidars: the High Spectral Resolution Lidar 2 (HSRL-2) and the Cloud Physics Lidar (CPL). The ACEPOL operation was based at NASA\u2019s Armstrong Flight Research Center in Palmdale California, which enabled observations of a wide variety of scene types, including urban, desert, forest, coastal ocean and agricultural areas, with clear, cloudy, polluted and pristine atmospheric conditions. The primary goal of ACEPOL was to assess the capabilities of the different polarimeters for retrieval of aerosol and cloud microphysical and optical parameters, as well as their capabilities to derive aerosol layer height (near-UV polarimetry, O2 A-band). ACEPOL also focused on the development and evaluation of aerosol retrieval algorithms that combine data from both active (lidar) and passive (polarimeter) instruments. ACEPOL data are appropriate for algorithm development and testing, instrument intercomparison, and investigations of active and passive instrument data fusion, which make them valuable resources for remote sensing communities as they prepare for the next generation of spaceborne MAP and lidar missions.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACEPOL_AircraftRemoteSensing_CPL_Data.v1",
+        "title": "ACEPOL Cloud Physics Lidar (CPL) Remotely Sensed Data Version 1",
+        "catalog": "LARC_ASDC",
+        "state_date": "2017-10-19",
+        "end_date": "2017-11-09",
+        "bbox": "-130, 25, -100, 45",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588308-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588308-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACEPOL_AircraftRemoteSensing_CPL_Data.v1",
+        "description": "ACEPOL Cloud Physics Lidar (CPL) Remotely Sensed Data (ACEPOL_AircraftRemoteSensing_CPL_Data) are remotely sensed measurements collected by the Cloud Physics Lidar (CPL) onboard the ER-2 during ACEPOL. In order to improve our understanding of the effect of aerosols on climate and air quality, measurements of aerosol chemical composition, size distribution, height profile, and optical properties are of crucial importance. In terms of remotely sensed instrumentation, the most extensive set of aerosol properties can be obtained by combining passive multi-angle, multi-spectral measurements of intensity and polarization with active measurements performed by a High Spectral Resolution Lidar. During Fall 2017, the Aerosol Characterization from Polarimeter and Lidar (ACEPOL) campaign, jointly sponsored by NASA and the Netherlands Institute for Space Research (SRON), performed aerosol and cloud measurements over the United States from the NASA high altitude ER-2 aircraft. Six instruments were deployed on the aircraft. Four of these instruments were multi-angle polarimeters: the Airborne Hyper Angular Rainbow Polarimeter (AirHARP), the Airborne Multiangle SpectroPolarimetric Imager (AirMSPI), the Airborne Spectrometer for Planetary Exploration (SPEX Airborne) and the Research Scanning Polarimeter (RSP). The other two instruments were lidars: the High Spectral Resolution Lidar 2 (HSRL-2) and the Cloud Physics Lidar (CPL). The ACEPOL operation was based at NASA\u2019s Armstrong Flight Research Center in Palmdale California, which enabled observations of a wide variety of scene types, including urban, desert, forest, coastal ocean and agricultural areas, with clear, cloudy, polluted and pristine atmospheric conditions. The primary goal of ACEPOL was to assess the capabilities of the different polarimeters for retrieval of aerosol and cloud microphysical and optical parameters, as well as their capabilities to derive aerosol layer height (near-UV polarimetry, O2 A-band). ACEPOL also focused on the development and evaluation of aerosol retrieval algorithms that combine data from both active (lidar) and passive (polarimeter) instruments. ACEPOL data are appropriate for algorithm development and testing, instrument intercomparison, and investigations of active and passive instrument data fusion, which make them valuable resources for remote sensing communities as they prepare for the next generation of spaceborne MAP and lidar missions.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACEPOL_AircraftRemoteSensing_HSRL2_Data.v1",
+        "title": "ACEPOL High Spectral Resolution Lidar 2 (HSRL-2) Remotely Sensed Data",
+        "catalog": "LARC_ASDC",
+        "state_date": "2017-10-23",
+        "end_date": "2017-11-09",
+        "bbox": "-130, 25, -100, 45",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588330-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588330-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACEPOL_AircraftRemoteSensing_HSRL2_Data.v1",
+        "description": "ACEPOL High Spectral Resolution Lidar 2 (HSRL-2) Remotely Sensed Data (ACEPOL_AircraftRemoteSensing_HSRL2_Data) are remotely sensed measurements collected by the High-Spectral Resolution Lidar (HSRL-2) onboard the ER-2 during ACEPOL. In order to improve our understanding of the effect of aerosols on climate and air quality, measurements of aerosol chemical composition, size distribution, height profile, and optical properties are of crucial importance. In terms of remotely sensed instrumentation, the most extensive set of aerosol properties can be obtained by combining passive multi-angle, multi-spectral measurements of intensity and polarization with active measurements performed by a High Spectral Resolution Lidar. During Fall 2017, the Aerosol Characterization from Polarimeter and Lidar (ACEPOL) campaign, jointly sponsored by NASA and the Netherlands Institute for Space Research (SRON), performed aerosol and cloud measurements over the United States from the NASA high altitude ER-2 aircraft. Six instruments were deployed on the aircraft. Four of these instruments were multi-angle polarimeters: the Airborne Hyper Angular Rainbow Polarimeter (AirHARP), the Airborne Multiangle SpectroPolarimetric Imager (AirMSPI), the Airborne Spectrometer for Planetary Exploration (SPEX Airborne) and the Research Scanning Polarimeter (RSP). The other two instruments were lidars: the High Spectral Resolution Lidar 2 (HSRL-2) and the Cloud Physics Lidar (CPL). The ACEPOL operation was based at NASA\u2019s Armstrong Flight Research Center in Palmdale California, which enabled observations of a wide variety of scene types, including urban, desert, forest, coastal ocean and agricultural areas, with clear, cloudy, polluted and pristine atmospheric conditions. The primary goal of ACEPOL was to assess the capabilities of the different polarimeters for retrieval of aerosol and cloud microphysical and optical parameters, as well as their capabilities to derive aerosol layer height (near-UV polarimetry, O2 A-band). ACEPOL also focused on the development and evaluation of aerosol retrieval algorithms that combine data from both active (lidar) and passive (polarimeter) instruments. ACEPOL data are appropriate for algorithm development and testing, instrument intercomparison, and investigations of active and passive instrument data fusion, which make them valuable resources for remote sensing communities as they prepare for the next generation of spaceborne MAP and lidar missions.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ACEPOL_MetNav_AircraftInSitu_Data.v1",
+        "title": "ACEPOL ER-2 Meteorological and Navigational Data Version 1",
+        "catalog": "LARC_ASDC",
+        "state_date": "2017-10-19",
+        "end_date": "2017-11-09",
+        "bbox": "-130, 25, -100, 45",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588825-LARC_ASDC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1758588825-LARC_ASDC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_ASDC/collections/ACEPOL_MetNav_AircraftInSitu_Data.v1",
+        "description": "ACEPOL_MetNav_AircraftInSitu_Data are in situ meteorological and navigational measurements collected onboard the ER-2 during ACEPOL. In order to improve our understanding of the effect of aerosols on climate and air quality, measurements of aerosol chemical composition, size distribution, height profile, and optical properties are of crucial importance. In terms of remotely sensed instrumentation, the most extensive set of aerosol properties can be obtained by combining passive multi-angle, multi-spectral measurements of intensity and polarization with active measurements performed by a High Spectral Resolution Lidar. During Fall 2017, the Aerosol Characterization from Polarimeter and Lidar (ACEPOL) campaign, jointly sponsored by NASA and the Netherlands Institute for Space Research (SRON), performed aerosol and cloud measurements over the United States from the NASA high altitude ER-2 aircraft. Six instruments were deployed on the aircraft. Four of these instruments were multi-angle polarimeters: the Airborne Hyper Angular Rainbow Polarimeter (AirHARP), the Airborne Multiangle SpectroPolarimetric Imager (AirMSPI), the Airborne Spectrometer for Planetary Exploration (SPEX Airborne) and the Research Scanning Polarimeter (RSP). The other two instruments were lidars: the High Spectral Resolution Lidar 2 (HSRL-2) and the Cloud Physics Lidar (CPL). The ACEPOL operation was based at NASA\u2019s Armstrong Flight Research Center in Palmdale California, which enabled observations of a wide variety of scene types, including urban, desert, forest, coastal ocean and agricultural areas, with clear, cloudy, polluted and pristine atmospheric conditions. The primary goal of ACEPOL was to assess the capabilities of the different polarimeters for retrieval of aerosol and cloud microphysical and optical parameters, as well as their capabilities to derive aerosol layer height (near-UV polarimetry, O2 A-band). ACEPOL also focused on the development and evaluation of aerosol retrieval algorithms that combine data from both active (lidar) and passive (polarimeter) instruments. ACEPOL data are appropriate for algorithm development and testing, instrument intercomparison, and investigations of active and passive instrument data fusion, which make them valuable resources for remote sensing communities as they prepare for the next generation of spaceborne MAP and lidar missions.",
         "license": "not-provided"
     },
     {
@@ -2041,6 +2210,19 @@
         "license": "not-provided"
     },
     {
+        "id": "COARE_cm_er2.mas.v1",
+        "title": "MODIS Airborne Simulator (MAS) Measurements Taken Onboard the NASA ER-2 During the TOGA COARE Intensive Observing Period.",
+        "catalog": "LAADS",
+        "state_date": "1993-01-03",
+        "end_date": "1993-03-04",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1625703857-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1625703857-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/COARE_cm_er2.mas.v1",
+        "description": "The MODIS Airborne Simulator (MAS) Measurements, taken onboard the NASA ER-2 during the TOGA COARE Intensive Observing Period, are available upon request from NASA LAADS. Browse products are available at https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/mas/. The ER-2 navigation data are available from the same site in sub directory nasa_er2/nav. Browse imagery of the data may be viewed from the MAS Homepage at: https://mas.arc.nasa.gov/data/deploy_html/toga_home.html. MAS Level 1B data are available on 8500 density 8mm tape from TOGA COARE User Services at the Goddard DAAC.  Each tape contains all the flight lines for one MAS flight (one day). The number of flight lines varies, but is generally between 10 and 20. The volume of data varies, but is generally 1 to 3 gigabytes per flight.  Detailed instructions for reading MAS tapes is contained in MAS_Usr_Guide.ps. To obtain the data on tape, contact the DAAC User Services Office.  For help with NASA TOGA COARE data residing at the GSFC DAAC, contact Pat Hrubiak at hrubiak@daac.gsfc.nasa.gov.   BACK GROUND: TOGA COARE was a multidisciplinary, international research effort that investigated the scientific phenomena associated with the interaction between the atmosphere and the ocean in the warm pool region of the western Pacific. The field experiment phase of the program took place from 1 November 1992 through 28 February 1993 and involved the deployment of oceanographic ships and buoys, several ship and land based Doppler radars, multiple low and high level aircraft equipped with Doppler radar and other airborne sensors, as well as a variety of surface based instruments for in situ observations. The NASA component of TOGA COARE, while contributing directly to over all COARE objectives, emphasized scientific objectives associated with the Tropical Rainfall Measuring Mission (TRMM) and NASA's cloud and radiation program.  AIRCRAFT INFORMATION: The NASA ER-2 is a high altitude, single pilot aircraft based at Ames Research Center, Moffett Field, CA, and deployed globally in support of a variety of atmospheric research projects. It has a maximum altitude of 70,000 feet (21 km), a range of 3000 nautical miles, a maximum flight duration of 8 hours (nominal 6.5 hours) and a top speed of 410 knots true air speed. The aircraft accommodates about 2700 pounds (1200 kg) of payload.  For the TOGA COARE campaign, the ER-2 payload consisted of a variety of radiometers, a lidar, a conductivity probe and a camera.   FLIGHT INFORMATION: The following table relates MAS data files to ER-2 and DC-8 flight numbers and to the UTC dates for the 13 mission flights of the NASA/TOGA COARE campaign and 2 additional flights of the ER-2 on which MAS data was acquired. The objectives (Obj) column is included for the convenience of the user; the mission objective defaulted to radiation (Rad) unless convection (Con) was forecast in the target area. Date (UTC) ER-2 Flight DC-8 Flight MAS TapeID Obj-Jan 11-12  93-053  93-01-06 93-053 RadJan 17-18 93-054 93-01-07 93-054 Con Jan 18-19 93-055 93-01-08 93-055 Con Jan 25-26 93-056 93-01-09 93-056 RadJan 28-29 93-057 93-057 Jan 31-Feb 1 93-058 93-01-10 93-058 Rad Feb 2 93-059 93-059 Feb 4 93-060 93-01-11 93-060 Con Feb 6 93-01-12 Con Feb 7 93-061 93-061 Feb 8-9 93-062 93-01-13 93-062 Con Feb 10-11 93-063 93-01-14 93-063 Con Feb 17-18 93-01-15 93-064 Con Feb 19-20 93-064 93-064 Feb 20-21 93-065 93-01-16 93-065 Con Feb 22-23 93-066 93-01-17 Con Feb 23-24 93-067 93-01-18 Rad.   INSTRUMENT INFORMATION: The MODIS Airborne Simulator is a visible/infrared imaging radiometer that was mounted, for this campaign, in the right aft wing pod of the ER-2 aircraft. Through cross track scanning to the aircraft direction of flight, the MAS instrument builds a continuous sequence image of the atmosphere surface features under the aircraft. Wavelength channels of the instrument are selected for specific cloud and surface remote sensing applications. Also the channels are those which will be incorporated in measurements by the space borne MODIS instrument. The MAS instrument acquires eleven simultaneous wavelengths with 100 meters or better resolution at the surface.   Principles of Operation: The MAS Spectrometer acquires high spatial resolution imagery in the wavelength range 0.55 to 14.3 microns. A total of 50 spectral bands are available in this range, and currently the digitize is configured before each mission to record in any 12 of these bands during flight. For all pre-1994 MAS missions, the 12-channel digitize was configured with four 10-bit channels and seven 8-bit channels. The MAS spectrometer is mated to a scanner sub-assembly which collects image data with an IFOV of 2.5 mrad, giving a ground resolution of 50 meters from 20,000 meters altitude,and a cross track scan width of 85.92 degrees. A 50 channel digitizer which records all 50 spectral bands at 12 bit resolution became operational in January 1995.   DATA ORGANIZATION Data Format: The archive tapes are created by writing each output data file (1 straight-line flight track) to tape in fixed-length blocks of 16384 bytes, in time ascending order. One end-of-file (EOF) mark is written at the end of the data blocks for each file, and an extra EOF is written at the end of the data on the tape.  The last block of each file has good data at the start of the block and unused bytes (filled with null characters) at the end. Information on the length of the file is encoded in the header when the file is created. No file name,protection, or ownership information is written onto the archive tape. All information necessary to identify the file is stored in the file itself.  Documentation:  In addition to this document, please obtain Volume 3, MODIS Airborne Simulator Level 1B Data Users Guide, resident in this directory in postscript file MAS_Usr_Guide.ps.   Browse Products: There are 2 GIF image files per flight line, named 93ddd??v.gif and 93ddd??i.gif, where 93 is the year, ddd the Julian day of the flight, ?? the flight line number, and v or i, indicating respectively visible (VIS) or Infrared (IR) imagery. Images from each flight, accompanied by a flight statistics summary file, reside in a sub directory named with the date of the flight (02feb93) under mas/images.",
+        "license": "not-provided"
+    },
+    {
         "id": "CWIC_REG.v1.0",
         "title": "Radarsat-2 Scenes, Natural Resources Canada",
         "catalog": "CCMEO",
@@ -2194,6 +2376,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076115306-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L2_CLOUD.v002",
         "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET (http://fluxnet.fluxdata.org/about/) validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).    The ECOSTRESS Swath Cloud Mask Instantaneous L2 Global 70 m (ECO_L2_CLOUD) Version 2 data product is derived using a single-channel Bayesian cloud threshold with a look-up-table (LUT) approach. The ECOSTRESS Level 2 cloud product provides a cloud mask that can be used to determine cloud cover for accurate land surface temperature and evapotranspiration estimation. The corresponding ECO_L1B_GEO (https://doi.org/10.5067/ECOSTRESS/ECO_L1B_GEO.002) data product is required to georeference the ECO_L2_CLOUD data product.     The ECO_L2_CLOUD Version 2 data product contains two cloud mask layers: Brightness temperature LUT test and Final cloud mask. Information on how to interpret the bit fields in the cloud mask is provided in Table 7 of the User Guide.    Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach TIR bands 2, 4 and 5 are being downloaded. The data products are as previously, except the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.  *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.  *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "EN1_MDSI_MER_FRS_1P.v4",
+        "title": "Full Resolution Full Swath Geolocated and Calibrated TOA Radiance",
+        "catalog": "LAADS",
+        "state_date": "2002-05-17",
+        "end_date": "2012-04-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2151211533-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2151211533-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/EN1_MDSI_MER_FRS_1P.v4",
+        "description": "The Medium Resolution Imaging Spectrometer (MERIS) is one of 10 sensors deployed in March of 2002 on board the polar-orbiting Envisat-1 environmental research satellite by the European Space Agency (ESA). The MERIS instrument is a moderate-resolution wide field-of-view push-broom imaging spectroradiometer capable of sensing in the 390 nm to 1040 nm spectral range. Being a programmable instrument, it had the unique capability of selectively adjusting the width and location of its 15 bands through ground command. The instrument has a 68.5-degree field of view and a swath width of 1150 meters, providing a global coverage every 3 days at 300 m resolution.  Communication with the Envisat-1 satellite was lost suddenly on the 8th of April, 2012, just weeks after celebrating its 10th year in orbit. All attempts to re-establish contact were unsuccessful, and the end of the mission was declared on May 9th, 2012.    The 4th reprocessing cycle, in 2020, has produced both the full-resolution and reduced-resolution L1 and L2 MERIS products. EN1_MDSI_MER_FRS_1P is the short-name for the MERIS Level-1 full resolution, full swath, geolocated and calibrated top-of-atmosphere (TOA) radiance product. This product contains the TOA upwelling spectral radiance measurements. The in-band reference irradiances for the 15 MERIS bands are computed by averaging the in-band solar irradiance for each pixel. Each pixel\u2019s in-band solar irradiance is computed by integrating the reference solar spectrum with the band-pass of each pixel. The Level-1 product contains 22 data files: 15 files contain radiances for each band (one band per file) along with associated error estimates, and 7 annotation data files. It also includes a Manifest file that provides metadata information describing the product.",
+        "license": "not-provided"
+    },
+    {
+        "id": "EN1_MDSI_MER_FRS_2P.v4",
+        "title": "Full Resolution Full Swath Geophysical Product for Ocean, Land and Atmosphere",
+        "catalog": "LAADS",
+        "state_date": "2003-01-01",
+        "end_date": "2012-04-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2151219110-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2151219110-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/EN1_MDSI_MER_FRS_2P.v4",
+        "description": "The Medium Resolution Imaging Spectrometer (MERIS) is one of 10 sensors deployed in March of 2002 on board the polar-orbiting Envisat-1 environmental research satellite by the European Space Agency (ESA). The MERIS instrument is a moderate-resolution wide field-of-view push-broom imaging spectroradiometer capable of sensing in the 390 nm to 1040 nm spectral range. Being a programmable instrument, it had the unique capability of selectively adjusting the width and location of its 15 bands through ground command. The instrument has a 68.5-degree field of view and a swath width of 1150 meters, providing a global coverage every 3 days at 300 m resolution.  Communication with the Envisat-1 satellite was lost suddenly on the 8th of April, 2012, just weeks after celebrating its 10th year in orbit. All attempts to re-establish contact were unsuccessful, and the end of the mission was declared on May 9th, 2012.    The 4th reprocessing cycle, in 2020, has produced both the full-resolution and reduced-resolution L1 and L2 MERIS products. EN1_MDSI_MER_FRS_2P is the short-name for the MERIS Level-2 full resolution, geophysical product for ocean, land, and atmosphere. This Level-2 product comes in a netCDF4 package that contains both instrument and science measurements, and a Manifest file that provides metadata information describing the product. Each Level-2 product contains 64 measurement files that break down thus: 13 files containing water-leaving reflectance, 13 files containing land surface reflectance and 13 files containing the TOA reflectance (for all bands except those dedicated to measuring atmospheric gas - M11 and M15), and several files containing additional measurements on ocean, land, and atmosphere parameters.",
         "license": "not-provided"
     },
     {
@@ -2977,6 +3185,32 @@
         "license": "not-provided"
     },
     {
+        "id": "MCD06COSP_D3_MODIS.v6.1",
+        "title": "MODIS (Aqua/Terra) Cloud Properties Level 3 daily, 1x1 degree grid",
+        "catalog": "LAADS",
+        "state_date": "2002-07-04",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1887589686-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1887589686-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MCD06COSP_D3_MODIS.v6.1",
+        "description": "The combined MODIS (Aqua/Terra) Cloud Properties Level 3 daily, 1x1 degree grid product represents a new addition that is especially geared to facilitate climate scientists who deal with both models and observations. MCD06COSP_D3_MODIS represents the daily product\u2019s short-name.  The \u201cCOSP\u201d acronym in its short-name stands for  Cloud Feedback Model Intercomparison Project (CFMIP) Observation Simulator Package. This product is an aggregation of combined MODIS Level-2 inputs from both the Terra and Aqua incarnations (MOD35/MOD06 and MYD35/MYD06, respectively), and employs an aggregation methodology consistent with the MOD08 and MYD08 products.  Provided in netCDF4 format, it contains 23 aggregated science data sets (SDS/parameters).",
+        "license": "not-provided"
+    },
+    {
+        "id": "MCD06COSP_M3_MODIS.v6.1",
+        "title": "MODIS (Aqua/Terra) Cloud Properties Level 3 monthly, 1x1 degree grid",
+        "catalog": "LAADS",
+        "state_date": "2002-07-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1888024429-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1888024429-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MCD06COSP_M3_MODIS.v6.1",
+        "description": "The combined MODIS (Aqua/Terra) Cloud Properties Level 3 monthly, 1x1 degree grid product represents a new addition that is especially geared to facilitate climate scientists who deal with both models and observations. MCD06COSP_D3_MODIS represents the daily product\u2019s short-name.  The \u201cCOSP\u201d acronym in its short-name stands for  Cloud Feedback Model Intercomparison Project (CFMIP) Observation Simulator Package. The L3 monthly product is derived by aggregating the daily-produced Aqua+Terra/MODIS D3 Cloud Properties product (MCD06COSP_D3_MODIS).  Provided in netCDF4 format, it contains 23 aggregated science data sets (SDS/parameters).",
+        "license": "not-provided"
+    },
+    {
         "id": "MCD14DL_C5_NRT.v005",
         "title": "MODIS/Aqua+Terra Thermal Anomalies/Fire locations 1km FIRMS V005 NRT",
         "catalog": "LM_FIRMS",
@@ -3120,6 +3354,19 @@
         "license": "not-provided"
     },
     {
+        "id": "MYD04_3K.v6.1",
+        "title": "MODIS/Aqua Aerosol 5-Min L2 Swath 3km",
+        "catalog": "LAADS",
+        "state_date": "2002-07-04",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1443528505-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1443528505-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD04_3K.v6.1",
+        "description": "The new Collection 6.1 (C61) MODIS/Aqua Aerosol 5 Min L2 Swath 3km (MYD04_3K) product is an improved version based on algorithm changes in Dark Target (DT) Aerosol retrieval over urban areas and uncertainty estimates for Deep Blue (DB) Aerosol retrievals.    The MODIS level-2 atmospheric aerosol product provides retrieved ambient aerosol optical properties, quality assurance, and other parameters, globally over ocean and land. In Collection 5, and earlier collections, there was only one aerosol product (MYD04_L2) at 10km (at nadir) spatial resolution. Starting from C6, the Dark Target (DT) Aerosol algorithm team provided a new 3 km spatial resolution product (MYD04_3k) intended for the air quality community.    The MYD04_3K product is based on the same algorithm and Look up Tables as the standard Dark Target aerosol product. Because of finer resolution, subtle differences are made in selecting pixels for retrieval and in determining QA. The only differences between the existing 10km algorithm and the new 3km algorithm are: 1) the size of the pixel-arrays defining each retrieval box ( 6x6 retrieval boxes of 36 pixels at 0.5km resolution for 3km algorithm as oppose to 20x20 retrieval boxes of 400 pixels at 0.5km resolution for 10km product); 2) the minimum percentage of \"good\" pixels required for a retrieval (a minimum of 5 pixels over ocean and 6 pixels over land instead of a minimum of 10 pixels over ocean or 12 pixels over land for 10km product retrieval); 3) the 10km algorithm attempts a \"poor quality\" retrieval while 3km algorithm does not. Everything else is the same between two products.    For more information on C6.1 changes and updates, visit the MODIS Atmosphere website at:  https://modis-atmosphere.gsfc.nasa.gov/documentation/collection-61",
+        "license": "not-provided"
+    },
+    {
         "id": "MYD04_3K.v6.1NRT",
         "title": "MODIS/Aqua Aerosol 5-Min L2 Swath 3km - NRT",
         "catalog": "LANCEMODIS",
@@ -3133,6 +3380,19 @@
         "license": "not-provided"
     },
     {
+        "id": "MYD04_L2.v6.1",
+        "title": "MODIS/Aqua Aerosol 5-Min L2 Swath 10km",
+        "catalog": "LAADS",
+        "state_date": "2002-07-04",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1443533683-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1443533683-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD04_L2.v6.1",
+        "description": "The MODIS/Aqua Aerosol 5-Min L2 Swath 10km product (MYD04_L2) provides full global coverage of aerosol properties from the Dark Target (DT) and Deep Blue (DB) algorithms. The DT algorithm is applied over ocean and dark land (e.g., vegetation), while the DB algorithm now covers the entire land areas including both dark and bright surfaces. Both results are provided on a 10x10 pixel scale (10 km at nadir). Each MYD04_L2 product file covers a five-minute time interval. The output grid is 135 pixels in width by 203 pixels in length. Every tenth file has an output grid size of 135 by 204 pixels. MYD04_L2 product files are stored in Hierarchical Data Format (HDF-EOS).    The new Collection 6.1 (C61) MYD04_L2 product is an improved version based on algorithm changes in Dark Target (DT) Aerosol retrieval over urban areas and uncertainty estimates for Deep Blue (DB) Aerosol retrievals.    The MODIS level-2 atmospheric aerosol product provides retrieved ambient aerosol optical properties, quality assurance, and other parameters, globally over ocean and land. In Collection 5 and in earlier collections, there was only one aerosol product (MYD04_L2) at 10km (at nadir) spatial resolution. Starting from C6, the Dark Target (DT) Aerosol algorithm team provided a new 3 km spatial resolution product (MYD04_3k) intended for the air quality community.      For more information visit the MODIS Atmosphere website at:  https://modis-atmos.gsfc.nasa.gov/products/aerosol    And, for C6.1 changes and updates, visit:  https://modis-atmosphere.gsfc.nasa.gov/documentation/collection-61",
+        "license": "not-provided"
+    },
+    {
         "id": "MYD04_L2.v6.1NRT",
         "title": "MODIS/Aqua Aerosol 5-Min L2 Swath 10km - NRT",
         "catalog": "LANCEMODIS",
@@ -3143,6 +3403,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1426751946-LANCEMODIS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LANCEMODIS/collections/MYD04_L2.v6.1NRT",
         "description": "The new Collection 6.1 (C61) MYD04_L2 product is an improved version based on algorithm changes in Dark Target (DT) Aerosol retrieval over urban areas and uncertainty estimates for Deep Blue (DB) Aerosol retrievals.  The MODIS level-2 atmospheric aerosol product provides retrieved ambient aerosol optical properties, quality assurance, and other parameters, globally over ocean and land. In Collection 5, and earlier collections, there was only one aerosol product (MYD04_L2) at 10km (at nadir) spatial resolution. Starting from C6, the Dark Target (DT) Aerosol algorithm team provided a new 3 km spatial resolution product (MYD04_3k) intended for the air quality community.  For more information visit the MODIS Atmosphere website at: https://modis-atmos.gsfc.nasa.gov/products/aerosol  And, for C6.1 changes and updates, visit: https://modis-atmosphere.gsfc.nasa.gov/documentation/collection-61",
+        "license": "not-provided"
+    },
+    {
+        "id": "MYD08_D3.v6.1",
+        "title": "MODIS/Aqua Aerosol Cloud Water Vapor Ozone Daily L3 Global 1Deg CMG",
+        "catalog": "LAADS",
+        "state_date": "2002-07-04",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1443729298-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1443729298-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD08_D3.v6.1",
+        "description": "The MODIS/Aqua Aerosol Cloud Water Vapor Ozone Daily L3 Global 1Deg CMG product (MYD08_D3) contains daily 1 x 1 degree grid average values of atmospheric parameters related to atmospheric aerosol particle properties, total ozone burden, atmospheric water vapor, cloud optical and physical properties, and atmospheric stability indices. This product also provides standard deviations, quality assurance weighted means and other statistically derived quantities for each parameter.     The MYD08_D3 contains roughly 600 statistical datasets that are derived from approximately 80 scientific parameters from four Level-2 MODIS Atmosphere Products: MOD04_L2, MOD05_L2, MOD06_L2, and MOD07_L2. Statistics are computed over a 1 degree equal-angle lat-lon grid that spans a 24-hour (0000 to 2400 Greenwich Mean Time) interval. Since the grid cells are 1 degree by 1 degree, the output grid is always 360 pixels in width and 180 pixels in length.    MYD08_D3 product files are stored in Hierarchical Data Format (HDF-EOS). Each gridded global parameter is stored as Scientific Data Sets (SDS) within the file.     The MODIS Daily Product will be used in the simultaneously study of clouds, water vapor, aerosol , trace gases, land surface and oceanic properties, as well as the interaction between them and their effect on the Earth's energy budget and climate. This product will also be used to investigate seasonal and inter-annual changes in cirrus (semi-transparent) global cloud cover and cloud phase with multispectral observations at high spatial resolution.    For more information about the MYD08_D3 product, please visit the MODIS-Atmosphere site at:  https://modis-atmos.gsfc.nasa.gov/products/daily",
+        "license": "not-provided"
+    },
+    {
+        "id": "MYD08_E3.v6.1",
+        "title": "MODIS/Aqua Aerosol Cloud Water Vapor Ozone 8-Day L3 Global 1Deg CMG",
+        "catalog": "LAADS",
+        "state_date": "2002-07-04",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1443743314-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1443743314-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD08_E3.v6.1",
+        "description": "The MODIS/Aqua Aerosol Cloud Water Vapor Ozone 8-Day L3 Global 1Deg CMG product (MYD08_E3) contains 8-Day 1 degree x 1 degree grid average values of atmospheric parameters related to atmospheric aerosol particle properties, total ozone burden, atmospheric water vapor, cloud optical and physical properties, and atmospheric stability indices. This product also provides standard deviations, quality assurance weighted means and other statistically derived quantities for each parameter.     The MYD08_E3 contains nearly 1000 statistical datasets (SDS's) that are derived from the Level-3 MODIS Atmosphere Daily Global Product. Statistics are computed over a 1 degree equal-angle lat-lon grid that spans an 8-Day interval. Since the grid cells are 1 degree by 1 degree, the output grid is always 360 pixels in width and 180 pixels in length.    MYD08_E3 product files are stored in Hierarchical Data Format (HDF-EOS). Each gridded global parameter is stored as Scientific Data Sets (SDS) within the file.     The MODIS 8-Day Product will be used in the simultaneously study of clouds, water vapor, aerosol , trace gases, land surface and oceanic properties, as well as the interaction between them and their effect on the Earth's energy budget and climate. This product will also be used to investigate seasonal and inter-annual changes in cirrus (semi-transparent) global cloud cover and cloud phase with multispectral observations at high spatial resolution.    For more information about the MYD08_E3 product, please visit the MODIS-Atmosphere site at:  https://modis-atmos.gsfc.nasa.gov/products/eight-day",
         "license": "not-provided"
     },
     {
@@ -3172,6 +3458,19 @@
         "license": "not-provided"
     },
     {
+        "id": "MYDCSR_B.v6.1",
+        "title": "MODIS/Aqua 8-Day Clear Sky Radiance Bias Daily L3 Global 1Deg Zonal Bands",
+        "catalog": "LAADS",
+        "state_date": "2002-07-04",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1444160046-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1444160046-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYDCSR_B.v6.1",
+        "description": "The MODIS/Aqua 8-Day Clear Sky Radiance Bias Daily L3 Global 1Deg Zonal Bands (MYDCSR_B) product consists of 1-degree zonal mean clear-sky biases (observed minus calculated radiance differences) and associated statistics for bands 31 and 33-36 for each day from the previous eight-day period. Zonal means (5-zone moving averages) are created from the eight-day, 25-km radiance differences for daytime land, nighttime land, and ocean data separately. Day and night land data are combined south of -60 degrees latitude due to poor clear-sky sampling and the difficulty of discriminating between clear and cloudy conditions in this region. The zonal mean biases are utilized to correct clear-sky radiance calculations in the cloud top pressure (CO2 slicing) algorithm. The files are in Hierarchical Data Format (HDF).",
+        "license": "not-provided"
+    },
+    {
         "id": "MYDGB0.v6.1NRT",
         "title": "MODIS/Aqua 5-minute GBAD data in L0 format - NRT",
         "catalog": "LANCEMODIS",
@@ -3182,6 +3481,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1427015288-LANCEMODIS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LANCEMODIS/collections/MYDGB0.v6.1NRT",
         "description": "MODIS/Aqua Near Real Time (NRT) 5-minute GBAD data in L0 format.",
+        "license": "not-provided"
+    },
+    {
+        "id": "Marine Debris Dataset for Object Detection in Planetscope Imagery.v1",
+        "title": "Marine Debris Dataset for Object Detection in Planetscope Imagery",
+        "catalog": "MLHUB",
+        "state_date": "2016-09-28",
+        "end_date": "2019-04-18",
+        "bbox": "-88.2971191, 5.4683637, 34.5300293, 39.1087514",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2196591903-MLHUB.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2196591903-MLHUB.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/MLHUB/collections/Marine Debris Dataset for Object Detection in Planetscope Imagery.v1",
+        "description": "Floating marine debris is a global pollution problem which leads to the loss of marine and terrestrial biodiversity. Large swaths of marine debris are also navigational hazards to ocean vessels. The use of Earth observation data and artificial intelligence techniques can revolutionize the detection of floating marine debris on satellite imagery and pave the way to a global monitoring system for controlling and preventing the accumulation of marine debris in oceans. This dataset consists of images of marine debris which are 256 by 256 pixels in size and labels which are bounding boxes with geographical coordinates. The images were obtained from PlanetScope optical imagery which has a spatial resolution of approximately 3 meters. In this dataset, marine debris consists of floating objects on the ocean surface which can belong to one or more classes namely plastics, algae, sargassum, wood, and other artificial items. Several studies were used for data collection and validation. While a small percentage of the dataset represents the coastlines of Ghana and Greece, most of the observations surround the Bay Islands in Honduras. The marine debris detection models created and the relevant code for using this dataset can be found here. https://github.com/NASA-IMPACT/marine_debris_ML",
         "license": "not-provided"
     },
     {
@@ -3692,6 +4004,19 @@
         "license": "not-provided"
     },
     {
+        "id": "Tropical Cyclone Wind Estimation Model.v1",
+        "title": "Tropical Cyclone Wind Estimation Model",
+        "catalog": "MLHUB",
+        "state_date": "2000-01-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2260133500-MLHUB.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2260133500-MLHUB.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/MLHUB/collections/Tropical Cyclone Wind Estimation Model.v1",
+        "description": "This is a PyTorch model trained on the Tropical Cyclone Wind Estimation Competition dataset with v0.1 of the TorchGeo package. The model is a resnet18 model pretrained on ImageNet then trained with a MSE loss. The data were randomly split 80/20 by storm ID and an early stop was used based on performance.",
+        "license": "not-provided"
+    },
+    {
         "id": "Turbid9.v0",
         "title": "2004 Measurements made in the Chesapeake Bay",
         "catalog": "OB_DAAC",
@@ -3952,6 +4277,19 @@
         "license": "not-provided"
     },
     {
+        "id": "a6efcb0868664248b9cb212aba44313d",
+        "title": "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 2 aerosol products from MERIS (ALAMO algorithm), Version 2.2",
+        "catalog": "FEDEO",
+        "state_date": "2008-01-01",
+        "end_date": "2008-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2548142742-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2548142742-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/a6efcb0868664248b9cb212aba44313d",
+        "description": "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. This dataset comprises the Level 2 aerosol products from MERIS for 2008, using the ALAMO algorithm, version 2.2.   The data have been provided by Hygeos.For further details about these data products please see the linked documentation.",
+        "license": "not-provided"
+    },
+    {
         "id": "aamhcpex.v1",
         "title": "AAMH CPEX V1",
         "catalog": "GHRC_DAAC",
@@ -4144,6 +4482,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360188-OB_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/chesapeake_val_2013.v0",
         "description": "2013 Chesapeake Bay measurements.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ef6a9266-a210-4431-a4af-06cec4274726",
+        "title": "Cartosat-1 (IRS-P5) - Panchromatic Images (PAN) - Europe, Monographic",
+        "catalog": "FEDEO",
+        "state_date": "2015-02-10",
+        "end_date": "",
+        "bbox": "-25, 30, 45, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207457985-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207457985-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/ef6a9266-a210-4431-a4af-06cec4274726",
+        "description": "Indian Remote Sensing satellites (IRS) are a series of Earth Observation satellites, built, launched and maintained by Indian Space Research Organisation. The IRS series provides many remote sensing services to India and international ground stations. The satellite has two panchromatic cameras that were especially designed for in flight stereo viewing. However, this collection contains the monoscopic data.",
         "license": "not-provided"
     },
     {
