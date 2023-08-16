@@ -26,58 +26,6 @@
         "license": "not-provided"
     },
     {
-        "id": "12-hourly_interpolated_surface_position_from_buoys",
-        "title": "12-Hourly Interpolated Surface Position from Buoys",
-        "catalog": "SCIOPS",
-        "state_date": "1979-01-01",
-        "end_date": "2009-12-01",
-        "bbox": "-180, 60, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600619-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600619-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12-hourly_interpolated_surface_position_from_buoys",
-        "description": "This data set contains Arctic Ocean daily buoy positions interpolated to hours 0Z and 12Z.",
-        "license": "not-provided"
-    },
-    {
-        "id": "12-hourly_interpolated_surface_velocity_from_buoys",
-        "title": "12-Hourly Interpolated Surface Velocity from Buoys",
-        "catalog": "SCIOPS",
-        "state_date": "1979-01-01",
-        "end_date": "2009-12-02",
-        "bbox": "-180, 74, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600621-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600621-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12-hourly_interpolated_surface_velocity_from_buoys",
-        "description": "This data set contains 12-hourly interpolated surface velocity data from buoys. Point grid: Latitude 74N to 90N - 4 degree increment Longitude 0E to 320E - 20 and 40 degree increment.",
-        "license": "not-provided"
-    },
-    {
-        "id": "12_hourly_interpolated_surface_air_pressure_from_buoys",
-        "title": "12 Hourly Interpolated Surface Air Pressure from Buoys",
-        "catalog": "SCIOPS",
-        "state_date": "1979-01-01",
-        "end_date": "2007-11-30",
-        "bbox": "-180, 70, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600618-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600618-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12_hourly_interpolated_surface_air_pressure_from_buoys",
-        "description": "Optimally interpolated atmospheric surface pressure over the Arctic Ocean Basin. Temporal format - twice daily (0Z and 12Z) Spatial format - 2 degree latitude x 10 degree longitude - latitude: 70 N - 90 N - longitude: 0 E - 350 E",
-        "license": "not-provided"
-    },
-    {
-        "id": "14c_of_soil_co2_from_ipy_itex_cross_site_comparison",
-        "title": "14C of soil CO2 from IPY ITEX Cross Site Comparison",
-        "catalog": "SCIOPS",
-        "state_date": "2008-01-16",
-        "end_date": "2008-01-21",
-        "bbox": "-157.4, -36.9, 147.29, 71.3",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214602443-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214602443-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/14c_of_soil_co2_from_ipy_itex_cross_site_comparison",
-        "description": "Study sites: Toolik Lake Field Station Alaska, USA 68.63 N, 149.57 W; Atqasuk, Alaska USA 70.45 N, 157.40 W; Barrow, Alaska, USA 71.30 N, 156.67 W; Latnjajaure, Sweden 68.35 N, 18.50 E; Falls Creek, Australia: Site 2-unburned 36.90 S 147.29 E; Site 3-burned 36.89 S 147.28 E. Additional sites will be added summer 2008, but the exact sites are not finalized. Purpose: Collect soil CO2 for analysis of radiocarbon to evaluate the age of the carbon respired in controls and warmed plots from across the ITEX network.  Treatments: control and ITEX OTC warming experiment (1994-2007). Design: 5 replicates of each treatment at dry site and moist site. Sampling frequency: Once per peak season.",
-        "license": "not-provided"
-    },
-    {
         "id": "200708_CEAMARC_CASO_TRACE_ELEMENT_SAMPLES.v1",
         "title": "2007-08 CEAMARC-CASO VOYAGE TRACE ELEMENT SAMPLING AROUND AN ICEBERG",
         "catalog": "AU_AADC",
@@ -660,32 +608,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1720416694-GES_DISC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/GES_DISC/collections/ACOS_L2_Lite_FP.v9r",
         "description": "Version 9r is the current version of the data set. Older versions will no longer be available and are superseded by Version 9r. The ACOS Lite files contain bias-corrected XCO2 along with other select fields aggregated as daily files. Orbital granules of the ACOS Level 2 standard product (ACOS_L2S) are used as input.   The \"ACOS\" data set contains Carbon Dioxide (CO2) column averaged dry air mole fraction for all soundings for which retrieval was attempted. These are the highest-level products made available by the OCO Project, using TANSO-FTS spectral radiances.  The GOSAT team at JAXA produces GOSAT TANSO-FTS Level 1B (L1B) data products for internal use and for distribution to collaborative partners, such as ESA and NASA. These calibrated products are augmented by the OCO Project with additional geolocation information and further corrections. Thus produced Level 1B products (with calibrated radiances and geolocation) are the input to the \"ACOS\" Level 2 production process.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ACR3L2DM.v1",
-        "title": "ACRIM III Level 2 Daily Mean Data V001",
-        "catalog": "LARC",
-        "state_date": "2000-04-05",
-        "end_date": "2013-11-09",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179031504-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179031504-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/ACR3L2DM.v1",
-        "description": "ACR3L2DM_1 is the Active Cavity Radiometer Irradiance Monitor (ACRIM) III Level 2 Daily Mean Data version 1 product consists of Level 2 total solar irradiance in the form of daily means gathered by the ACRIM III instrument on the ACRIMSAT satellite. The daily means are constructed from the shutter cycle results for each day.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ACR3L2SC.v1",
-        "title": "ACRIM III Level 2 Shutter Cycle Data V001",
-        "catalog": "LARC",
-        "state_date": "2000-04-05",
-        "end_date": "2013-11-09",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C61787524-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C61787524-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/ACR3L2SC.v1",
-        "description": "ACR3L2SC_1 is the Active Cavity Radiometer Irradiance Monitor (ACRIM) III Level 2 Shutter Cycle Data version 1 product contains Level 2 total solar irradiance in the form of shutter cycles gathered by the ACRIM instrument on the ACRIMSAT satellite.",
         "license": "not-provided"
     },
     {
@@ -1690,19 +1612,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ATSMIGEO.v002",
-        "title": "MISR Geometric Parameters subset for the ARCTAS region V002",
-        "catalog": "LARC",
-        "state_date": "2008-04-02",
-        "end_date": "2008-07-24",
-        "bbox": "-157, 54, -110, 71",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000541-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000541-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/ATSMIGEO.v002",
-        "description": "This file contains the Geometric Parameters subset for the ARCTAS region which measures the sun and view angles at the reference ellipsoid",
-        "license": "not-provided"
-    },
-    {
         "id": "AU_DySno_NRT_R02.v2",
         "title": "NRT AMSR2 Unified L3 Global Daily 25 km EASE-Grid Snow Water Equivalent V2",
         "catalog": "LANCEAMSR2",
@@ -2038,19 +1947,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567099-USGS_LTA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/CEOS_CalVal_Test_Sites-Algeria3",
         "description": "On the background of these requirements for sensor calibration, intercalibration and product validation, the subgroup on Calibration and Validation of the Committee on Earth Observing System (CEOS) formulated the following recommendation during the plenary session held in China at the end of 2004, with the goal of setting-up and operating an internet based system to provide sensor data, protocols and guidelines for these purposes:  Background:  Reference Datasets are required to support the understanding of climate change and quality assure operational services by Earth Observing satellites. The data from different sensors and the resulting synergistic data products require a high level of accuracy that can only be obtained through continuous traceable calibration and validation activities. Requirement:  Initiate an activity to document a reference methodology to predict Top of Atmosphere (TOA) radiance for which currently flying and planned wide swath sensors can be intercompared, i.e. define a standard for traceability. Also create and maintain a fully accessible web page containing, on an instrument basis, links to all instrument characteristics needed for intercomparisons as specified above, ideally in a common format. In addition, create and maintain a database (e.g. SADE) of instrument data for specific vicarious calibration sites, including site characteristics, in a common format. Each agency is responsible for providing data for their instruments in this common format. Recommendation : The required activities described above should be supported for an implementation period of two years and a maintenance period over two subsequent years. The CEOS should encourage a member agency to accept the lead role in supporting this activity. CEOS should request all member agencies to support this activity by providing appropriate information and data in a timely manner.  Pseudo-Invariant Calibration Sites (PICS): Algeria 3 is one of six CEOS reference Pseudo-Invariant Calibration Sites (PICS) that are CEOS Reference Test Sites. Besides the nominally good site characteristics (temporal stability, uniformity, homogeneity, etc.), these six PICS were selected by also taking into account their heritage and the large number of datasets from multiple instruments that already existed in the EO archives and the long history of characterization performed over these sites. The PICS have high reflectance and are usually made up of sand dunes with climatologically low aerosol loading and practically no vegetation. Consequently, these PICS can be used to evaluate the long-term stability of instrument and facilitate inter-comparison of multiple instruments.",
-        "license": "not-provided"
-    },
-    {
-        "id": "CH-OG-1-GPS-10S.v0.0",
-        "title": "10 sec GPS ground tracking data",
-        "catalog": "SCIOPS",
-        "state_date": "2001-05-28",
-        "end_date": "",
-        "bbox": "-63.51, -45.69, 170.42, 78.87",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/CH-OG-1-GPS-10S.v0.0",
-        "description": "This data set comprises GPS ground data of a sample rate of 10 sec, generated       by decoding and sampling GPS high  rate ground data. This raw data passed no       quality control. The data are given in the Rinex 2.1 format.",
         "license": "not-provided"
     },
     {
@@ -2808,19 +2704,6 @@
         "license": "not-provided"
     },
     {
-        "id": "GOMIGEO.v002",
-        "title": "MISR Geometric Parameters subset for the GoMACCS region V002",
-        "catalog": "LARC",
-        "state_date": "2006-07-30",
-        "end_date": "2006-10-17",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1625796320-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1625796320-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/GOMIGEO.v002",
-        "description": "Multi-angle Imaging SpectroRadiometer (MISR) is an instrument designed to view Earth with cameras pointed in 9 different directions. As the instrument flies overhead, each piece of Earth's surface below is successively imaged by all 9 cameras, in each of 4 wavelengths (blue, green, red, and near-infrared). The goal of MISR is to improve our understanding of the fate of sunlight in Earth environment, as well as distinguish different types of clouds, particles and surfaces. Specifically, MISR monitors the monthly, seasonal, and long-term trends in three areas: 1) amount and type of atmospheric particles (aerosols), including those formed by natural sources and by human activities; 2) amounts, types, and heights of clouds, and 3) distribution of land surface cover, including vegetation canopy structure. MISR Geometric Parameters subset for the GoMACCS region V002 contains the Geometric Parameters which measure the sun and view angles at the reference ellipsoid.",
-        "license": "not-provided"
-    },
-    {
         "id": "Global_Microbial_Biomass_C_N_P_1264.v1",
         "title": "A Compilation of Global Soil Microbial Biomass Carbon, Nitrogen, and Phosphorus Data",
         "catalog": "ORNL_CLOUD",
@@ -2909,32 +2792,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214622602-ISRO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ISRO/collections/IMS1_HYSI_GEO.v1.0",
         "description": "The data received from IMS1, HySI which operates in 64 spectral bands in VNIR bands(400-900nm) with 500 meter spatial resolution and swath of 128 kms.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ISERV.v1",
-        "title": "International Space Station SERVIR Environmental Research and Visualization System V1",
-        "catalog": "USGS_EROS",
-        "state_date": "2013-03-27",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/ISERV.v1",
-        "description": "Abstract: The ISS SERVIR Environmental Research and Visualization System (ISERV) acquired images of the Earth's surface from the International Space Station (ISS). The goal was to improve automatic image capturing and data transfer. ISERV's main component was the optical assembly which consisted of a 9.25 inch Schmidt-Cassegrain telescope, a focal reducer (field of view enlarger), a digital single lens reflex camera, and a high precision focusing mechanism. A motorized 2-axis pointing mount allowed pointing at targets approximately 23 degrees from nadir in both along- and across-track directions.",
-        "license": "not-provided"
-    },
-    {
-        "id": "IXBMIGEO.v2",
-        "title": "MISR Geometric Parameters subset for the INTEX-B region V002",
-        "catalog": "LARC",
-        "state_date": "2006-02-28",
-        "end_date": "2006-04-03",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000301-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000301-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/IXBMIGEO.v2",
-        "description": "This file contains the Geometric Parameters which measure the sun and view angles at the reference ellipsoid for the INTEXB_2006 theme.",
         "license": "not-provided"
     },
     {
@@ -3065,19 +2922,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2244294165-AMD_KOPRI.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AMD_KOPRI/collections/KOPRI-KPDC-00000055.v1",
         "description": "Korean Antarctic survey was conducted in the continental margin (II region) of the northwestern Antarctic Peninsula. We took on lease Russian R/V \"Yuzhmorgeologiya\" (5500 ton, ice strengthed vessel) and 10 researchers participated in the cruise, including acquisition of multichannel seismic, gravity, and magnetometer as well as a detailed samplings (box cores, gravity cores, and grab samples). 1. Geophysical researches (Multichannel seismic and SBP surveys)  2. Paleoceanographic researches",
-        "license": "not-provided"
-    },
-    {
-        "id": "KUKRI_He",
-        "title": "(U-Th)/He ages from the Kukri Hills of southern Victoria Land",
-        "catalog": "SCIOPS",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "162.7, -77.7, 162.7, -77.7",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214587974-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214587974-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/KUKRI_He",
-        "description": "The data set consists of (U-Th)/He ages collected from three vertical profiles       from the the Kukri Hills (north side of the Ferrar Glacier) of Southern       Victoria Land.  The data set provides information on the cooling history and       hence the denduation history of the Transantarctic Mountains in this area.       Analyses were all carried out at the (U-Th)/He lab of Ken Farley at the       Californai Institute of Technology.",
         "license": "not-provided"
     },
     {
@@ -3221,71 +3065,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LM_FIRMS/collections/MCD14DL_C5_NRT.v005",
         "description": "Near Real-Time (NRT) MODIS Thermal Anomalies / Fire locations processed by FIRMS (Fire Information for Resource Management System) - Land Atmosphere Near real time Capability for EOS (LANCE), using swath products (MOD14/MYD14) rather than the tiled MOD14A1 and MYD14A1 products. The thermal anomalies / active fire represent the center of a 1km pixel that is flagged by the MODIS MOD14/MYD14 Fire and Thermal Anomalies algorithm (Giglio 2003) as containing one or more fires within the pixel. This is the most basic fire product in which active fires and other thermal anomalies, such as volcanoes, are identified.MCD14DL are available in the following formats: TXT, SHP, KML, WMS. These data are also provided through the FIRMS Fire Email Alerts. Please note only the TXT and SHP files contain all the attributes.",
-        "license": "not-provided"
-    },
-    {
-        "id": "MIANACP.v1",
-        "title": "MISR Aerosol Climatology Product V001",
-        "catalog": "LARC",
-        "state_date": "1999-11-22",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C185127378-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C185127378-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/MIANACP.v1",
-        "description": "MIANACP_1 is the Multi-angle Imaging SpectroRadiometer (MISR) Aerosol Climatology Product version 1. It is 1) the microphysical and scattering characteristics of pure aerosol upon which routine retrievals are based; 2) mixtures of pure aerosol to be compared with MISR observations; and 3) likelihood value assigned to each mode geographically. The ACP describes mixtures of up to three component aerosol types from a list of eight components, in varying proportions. ACP component aerosol particle data quality depends on the ACP input data, which are based on aerosol particles described in the literature, and consider MISR-specific sensitivity to particle size, single-scattering albedo, and shape, and shape - roughly: small, medium and large; dirty and clean; spherical and nonspherical [Kahn et al. , 1998; 2001]. Also reported in the ACP are the mixtures of these components used by the retrieval algorithm. The MISR instrument consists of nine pushbroom cameras which measure radiance in four spectral bands. Global coverage is achieved in nine days. The cameras are arranged with one camera pointing toward the nadir, four cameras pointing forward, and four cameras pointing aftward. It takes seven minutes for all nine cameras to view the same surface location. The view angles relative to the surface reference ellipsoid, are 0, 26.1, 45.6, 60.0, and 70.5 degrees. The spectral band shapes are nominally Gaussian, centered at 443, 555, 670, and 865 nm.",
-        "license": "not-provided"
-    },
-    {
-        "id": "MIANCAGP.v1",
-        "title": "MISR Ancillary Geographic Product V001",
-        "catalog": "LARC",
-        "state_date": "1999-11-07",
-        "end_date": "2005-06-30",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C183897339-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C183897339-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/MIANCAGP.v1",
-        "description": "MIANCAGP_1 is the Multi-angle Imaging SpectroRadiometer (MISR) Ancillary Geographic Product version 1. It is a set of 233 pre-computed files. Each AGP file pertains to a single Terra orbital path. MISR production software relies on information in the AGP, such as digital terrain elevation, as input to the algorithms which generate MISR products. The AGP contains eleven fields of geographical data. This product consists primarily of geolocation data on a Space Oblique Mercator (SOM) Grid. It has 233 parts, corresponding to the 233 repeat orbits of the EOS-AM1 Spacecraft. The MISR instrument consists of nine pushbroom cameras which measure radiance in four spectral bands. Global coverage is achieved in nine days. The cameras are arranged with one camera pointing toward the nadir, four cameras pointing forward, and four cameras pointing aftward. It takes seven minutes for all nine cameras to view the same surface location. The view angles relative to the surface reference ellipsoid, are 0, 26.1, 45.6, 60.0, and 70.5 degrees. The spectral band shapes are nominally Gaussian, centered at 443, 555, 670, and 865 nm.",
-        "license": "not-provided"
-    },
-    {
-        "id": "MIANCARP.v2",
-        "title": "MISR Ancillary Radiometric Product V002",
-        "catalog": "LARC",
-        "state_date": "1999-12-28",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179031521-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179031521-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/MIANCARP.v2",
-        "description": "MIANCARP_2 is the Multi-angle Imaging SpectroRadiometer (MISR) Ancillary Radiometric Product version 2. It is composed of 4 files covering instrument characterization data, pre-flight calibration data, in-flight calibration data, and configuration parameters. The MISR instrument consists of nine pushbroom cameras which measure radiance in four spectral bands. Global coverage is achieved in nine days. The cameras are arranged with one camera pointing toward the nadir, four cameras pointing forward, and four cameras pointing aftward. It takes seven minutes for all nine cameras to view the same surface location. The view angles relative to the surface reference ellipsoid, are 0, 26.1, 45.6, 60.0, and 70.5 degrees. The spectral band shapes are nominally Gaussian, centered at 443, 555, 670, and 865 nm.",
-        "license": "not-provided"
-    },
-    {
-        "id": "MIRCCMF.v001",
-        "title": "MISR FIRSTLOOK radiometric camera-by-camera Cloud Mask V001",
-        "catalog": "LARC",
-        "state_date": "2000-12-13",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C135857530-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C135857530-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/MIRCCMF.v001",
-        "description": "Multi-angle Imaging SpectroRadiometer (MISR) is an instrument designed to view Earth with cameras pointed in 9 different directions. As the instrument flies overhead, each piece of Earth's surface below is successively imaged by all 9 cameras, in each of 4 wavelengths (blue, green, red, and near-infrared). The goal of MISR is to improve our understanding of the fate of sunlight in Earth environment, as well as distinguish different types of clouds, particles and surfaces. Specifically, MISR monitors the monthly, seasonal, and long-term trends in three areas: 1) amount and type of atmospheric particles (aerosols), including those formed by natural sources and by human activities; 2) amounts, types, and heights of clouds, and 3) distribution of land surface cover, including vegetation canopy structure. MISR FIRSTLOOK radiometric camera-by-camera Cloud Mask V001 contains the FIRSTLOOK Radiometric camera-by-camera Cloud Mask (RCCM) dataset produced using ancillary inputs  Radiometric Camera-by-camera Cloud mask Threshold (RCCT) from the previous time period. It is used to determine whether a scene is clear, cloudy or dusty (over ocean).",
-        "license": "not-provided"
-    },
-    {
-        "id": "MISBR.v005",
-        "title": "MISR Browse data V005",
-        "catalog": "LARC",
-        "state_date": "1999-12-18",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C43677744-LARC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C43677744-LARC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/MISBR.v005",
-        "description": "This is the browse data associated with a particular granule.",
         "license": "not-provided"
     },
     {
@@ -3523,19 +3302,6 @@
         "license": "not-provided"
     },
     {
-        "id": "NIPR_UAP_ELF_SYO",
-        "title": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
-        "catalog": "SCIOPS",
-        "state_date": "2000-01-01",
-        "end_date": "",
-        "bbox": "39.6, -69, 39.6, -69",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NIPR_UAP_ELF_SYO",
-        "description": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
-        "license": "not-provided"
-    },
-    {
         "id": "NMMIEAI-L2-NRT.v2",
         "title": "OMPS-NPP L2 NM Aerosol Index swath orbital NRT",
         "catalog": "OMINRT",
@@ -3728,32 +3494,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2532069799-AMD_USAPDC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AMD_USAPDC/collections/NSF-ANT05-37371",
         "description": "This award supports a seismological study of the Gamburtsev Subglacial Mountains (GSM), a Texas-sized mountain range buried beneath the ice sheets of East Antarctica. The project will perform a passive seismic experiment deploying twenty-three seismic stations over the GSM to characterize the structure of the crust and upper mantle, and determine the processes driving uplift. The outcomes will also offer constraints on the terrestrial heat flux, a key variable in modeling ice sheet formation and behavior. Virtually unexplored, the GSM represents the largest unstudied area of crustal uplift on earth. As well, the region is the starting point for growth of the Antarctic ice sheets.  Because of these outstanding questions, the GSM has been identified by the international Antarctic science community as a research focus for the International Polar Year (2007-2009). In addition to this seismic experiment, NSF is also supporting an aerogeophysical survey of the GSM under award number 0632292. Major international partners in the project include Germany, China, Australia, and the United Kingdom. For more information see IPY Project #67 at IPY.org. In terms of broader impacts, this project also supports postdoctoral and graduate student research, and various forms of outreach.",
-        "license": "not-provided"
-    },
-    {
-        "id": "NSF-ANT10-43485.v1",
-        "title": "A New Reconstruction of the Last West Antarctic Ice Sheet Deglaciation in the Ross Sea",
-        "catalog": "AMD_USAPDC",
-        "state_date": "2011-07-01",
-        "end_date": "2015-06-30",
-        "bbox": "-160, -78, -150, -68",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2532069944-AMD_USAPDC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2532069944-AMD_USAPDC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/AMD_USAPDC/collections/NSF-ANT10-43485.v1",
-        "description": "This award supports a project to develop a better understanding of the response of the WAIS to climate change. The timing of the last deglaciation of the western Ross Sea will be improved using in situ terrestrial cosmogenic nuclides (3He, 10Be, 14C, 26Al, 36Cl) to date glacial erratics at key areas and elevations along the western Ross Sea coast. A state-of-the art ice sheet-shelf model will be used to identify mechanisms of deglaciation of the Ross Sea sector of WAIS. The model results and forcing will be compared with observations including the new cosmogenic data proposed here, with the aim of better determining and understanding the history and causes of WAIS deglaciation in the Ross Sea. There is considerable uncertainty, however, in the history of grounding line retreat from its last glacial maximum position, and virtually nothing is known about the timing of ice- surface lowering prior to ~10,000 years ago. Given these uncertainties, we are currently unable to assess one of the most important questions regarding the last deglaciation of the global ice sheets, namely as to whether the Ross Sea sector of WAIS contributed significantly to meltwater pulse 1A (MWP-1A), an extraordinarily rapid (~500-year duration) episode of ~20 m sea-level rise that occurred ~14,500 years ago. The intellectual merit of this project is that recent observations of startling changes at the margins of the Greenland and Antarctic ice sheets indicate that dynamic responses to warming may play a much greater role in the future mass balance of ice sheets than considered in current numerical projections of sea level rise. The broader impacts of this work are that it has direct societal relevance to developing an improved understanding of the response of the West Antarctic ice sheet to current and possible future environmental changes including the sea-level response to glacier and ice sheet melting due to global warming. The PI will communicate results from this project to a variety of audiences through the publication of peer-reviewed papers and by giving talks to public audiences. Finally the project will support a graduate student and undergraduate students in all phases of field-work, laboratory work and data interpretation. ",
-        "license": "not-provided"
-    },
-    {
-        "id": "NSF-ANT10-43517",
-        "title": "A new reconstruction of the last West Antarctic Ice Sheet deglaciation in the Ross Sea",
-        "catalog": "AMD_USAPDC",
-        "state_date": "2011-07-01",
-        "end_date": "2015-06-30",
-        "bbox": "163.5, -78.32, 165.35, -77.57",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2532070432-AMD_USAPDC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2532070432-AMD_USAPDC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/AMD_USAPDC/collections/NSF-ANT10-43517",
-        "description": "This award supports a project to develop a better understanding of the response of the WAIS to climate change. The timing of the last deglaciation of the western Ross Sea will be improved using in situ terrestrial cosmogenic nuclides (3He, 10Be, 14C, 26Al, 36Cl) to date glacial erratics at key areas and elevations along the western Ross Sea coast. A state-of-the art ice sheet-shelf model will be used to identify mechanisms of deglaciation of the Ross Sea sector of WAIS. The model results and forcing will be compared with observations including the new cosmogenic data proposed here, with the aim of better determining and understanding the history and causes of WAIS deglaciation in the Ross Sea. There is considerable uncertainty, however, in the history of grounding line retreat from its last glacial maximum position, and virtually nothing is known about the timing of ice- surface lowering prior to ~10,000 years ago. Given these uncertainties, we are currently unable to assess one of the most important questions regarding the last deglaciation of the global ice sheets, namely as to whether the Ross Sea sector of WAIS contributed significantly to meltwater pulse 1A (MWP-1A), an extraordinarily rapid (~500-year duration) episode of ~20 m sea-level rise that occurred ~14,500 years ago. The intellectual merit of this project is that recent observations of startling changes at the margins of the Greenland and Antarctic ice sheets indicate that dynamic responses to warming may play a much greater role in the future mass balance of ice sheets than considered in current numerical projections of sea level rise. The broader impacts of this work are that it has direct societal relevance to developing an improved understanding of the response of the West Antarctic ice sheet to current and possible future environmental changes including the sea-level response to glacier and ice sheet melting due to global warming. The PI will communicate results from this project to a variety of audiences through the publication of peer-reviewed papers and by giving talks to public audiences. Finally the project will support a graduate student and undergraduate students in all phases of field-work, laboratory work and data interpretation.",
         "license": "not-provided"
     },
     {
@@ -4066,19 +3806,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2545372297-AMD_USAPDC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AMD_USAPDC/collections/USAP-1744755.v1",
         "description": "Current generation of coupled climate models, that are used to make climate projections, lack the resolution to adequately resolve ocean mesoscale (10 - 100km) processes, exhibiting significant biases in the ocean carbon uptake. Mesoscale processes include many features including jets, fronts and eddies that are crucial for bio-physical interactions, air-sea CO2 exchange and the supply of iron to the surface ocean. This modeling project will support the eddy resolving regional simulations to understand the mechanisms that drives bio-physical interaction and air-sea exchange of carbon dioxide. ",
-        "license": "not-provided"
-    },
-    {
-        "id": "USAP-1744989.v1",
-        "title": "A Multi-scale Approach to Understanding Spatial and Population Variability in Emperor Penguins",
-        "catalog": "AMD_USAPDC",
-        "state_date": "2018-07-15",
-        "end_date": "2022-06-30",
-        "bbox": "-180, -90, 180, -60",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2705787178-AMD_USAPDC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2705787178-AMD_USAPDC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/AMD_USAPDC/collections/USAP-1744989.v1",
-        "description": "This project on emperor penguin populations will quantify penguin presence/absence, and colony size and trajectory, across the entire Antarctic continent using high-resolution satellite imagery. For a subset of the colonies, population estimates derived from high-resolution satellite images will be compared with those determined by aerial surveys - these results have been uploaded to MAPPPD (penguinmap.com) and are freely available for use. This validated information will be used to determine population estimates for all emperor penguin colonies through iterations of supervised classification and maximum likelihood calculations on the high-resolution imagery. The effect of spatial, geophysical, and environmental variables on population size and decadal-scale trends will be assessed using generalized linear models. This research will result in a first ever empirical result for emperor penguin population trends and habitat suitability, and will leverage currently-funded NSF infrastructure and hosting sites to publish results in near-real time to the public.",
         "license": "not-provided"
     },
     {
@@ -4459,19 +4186,6 @@
         "license": "not-provided"
     },
     {
-        "id": "blue_ice_core_DML2004_AS",
-        "title": "101.1 m long horizontal blue ice core collected from Scharffenbergbotnen, DML, Antarctica, in 2003/2004",
-        "catalog": "SCIOPS",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, -62.83",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/blue_ice_core_DML2004_AS",
-        "description": "Horizontal blue ice core collected from the surface of a blue ice area in       Scharffenbergbotnen, Heimefrontfjella, DML. Samples were collected in austral       summer 2003/2004 and transported to Finland for chemical analyses. The blue ice       core is estimated to represent a 1000-year period of climate history 20 - 40       kyr B.P.. The results of the analyses will be available in 2005.",
-        "license": "not-provided"
-    },
-    {
         "id": "chesapeake_val_2013.v0",
         "title": "2013 Chesapeake Bay measurements",
         "catalog": "OB_DAAC",
@@ -4495,19 +4209,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207457985-FEDEO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/ef6a9266-a210-4431-a4af-06cec4274726",
         "description": "Indian Remote Sensing satellites (IRS) are a series of Earth Observation satellites, built, launched and maintained by Indian Space Research Organisation. The IRS series provides many remote sensing services to India and international ground stations. The satellite has two panchromatic cameras that were especially designed for in flight stereo viewing. However, this collection contains the monoscopic data.",
-        "license": "not-provided"
-    },
-    {
-        "id": "envidat-lwf-34.v2019-03-06",
-        "title": "10-HS Pfynwald",
-        "catalog": "SCIOPS",
-        "state_date": "2019-01-01",
-        "end_date": "2019-01-01",
-        "bbox": "7.61211, 46.30279, 7.61211, 46.30279",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1647993129-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1647993129-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/envidat-lwf-34.v2019-03-06",
-        "description": "Continuous measurement of soil water content at 10 and 80 cm depth (3 replications) with 10-HS soil moisture probes (Decagon Incorporation, Pullman, WA, USA).    ### Purpose: ###    Monitoring of the soil water matrix potential        ### Paper Citation: ###     * Dobbertin, M.; Eilmann, B.; Bleuler, P.; Giuggiola, A.; Graf Pannatier, E.; Landolt, W.; Schleppi, P.; Rigling, A., 2010: Effect of irrigation on needle morphology, shoot and stem growth in a drought-exposed Pinus sylvestris forest. Tree Physiology, 30, 3: 346-360. [doi: 10.1093/treephys/tpp123](http://doi.org/10.1093/treephys/tpp123)    ",
         "license": "not-provided"
     },
     {
@@ -4690,19 +4391,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360418-OB_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/lake_erie_aug_2014.v0",
         "description": "2014 Lake Erie measurements.",
-        "license": "not-provided"
-    },
-    {
-        "id": "latent-reserves-in-the-swiss-nfi.v1.0",
-        "title": "'Latent reserves' within the Swiss NFI",
-        "catalog": "SCIOPS",
-        "state_date": "2020-01-01",
-        "end_date": "2020-01-01",
-        "bbox": "5.95587, 45.81802, 10.49203, 47.80838",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1931110427-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1931110427-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/latent-reserves-in-the-swiss-nfi.v1.0",
-        "description": "The files refer to the data used in Portier et al. \"\u2018Latent reserves\u2019: a hidden treasure in National Forest Inventories\" (2020) *Journal of Ecology*.           **'Latent reserves'** are defined as plots in National Forest Inventories (NFI) that have been free of human influence for >40 to >70 years. They can be used to investigate and acquire a deeper understanding of attributes and processes of near-natural forests using existing long-term data. To determine which NFI sample plots could be considered \u2018latent reserves\u2019, criteria were defined based on the information available in the Swiss NFI database:           * Shrub forests were excluded.  * Plots must have been free of any kind of management, including salvage logging or sanitary cuts, for a minimum amount of time. Thresholds of 40, 50, 60 and 70 years without intervention were tested.  * To ensure that species composition was not influenced by past management, plots where potential vegetation was classified as deciduous by Ellenberg & Kl\u00f6tzli (1972) had to have an observed proportion of deciduous trees matching the theoretical proportion expected in a natural deciduous forest, as defined by Kienast, Brzeziecki, & Wildi (1994).  * Plots had to originate from natural regeneration.   * Intensive livestock grazing must never have occurred on the plots.          The tables stored here were derived from the first, second and third campaigns of the Swiss NFI. The raw data from the Swiss NFI can be provided free of charge within the scope of a contractual agreement (http://www.lfi.ch/dienstleist/daten-en.php).    ****    The files 'Data figure 2' to 'Data figure 8' are publicly available and contain the data used to produce the figures published in the paper.     The files 'Plot-level data for characterisation of 'latent reserves' and 'Tree-level data for characterisation of 'latent reserves' contain all the data required to reproduce the section of the article concerning the characterisation of 'latent reserves' and the comparison to managed forests. The file 'Data for mortality analyses' contains the data required to reproduce the section of the article concerning tree mortality in 'latent reserves'. The access to these three files is restricted as they contain some raw data from the Swiss NFI, submitted to the Swiss law and only accessible upon contractual agreement.   ",
         "license": "not-provided"
     },
     {
