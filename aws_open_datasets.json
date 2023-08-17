@@ -15051,7 +15051,25 @@
         "Host": null
     },
     {
-        "Name": "Sudachi Language Resources",
+        "Name": "Sudachi Language Resources - Cloudfront CDN mirror",
+        "Description": "Cloudfront CDN mirror",
+        "ARN": null,
+        "Region": "ap-northeast-1",
+        "Type": "CloudFront Distribution",
+        "Documentation": "https://worksapplications.github.io/Sudachi/",
+        "Contact": "sudachi@worksap.co.jp",
+        "ManagedBy": "[Works Applications](https://www.worksap.co.jp/about/csr/nlp/)",
+        "UpdateFrequency": "The dictionaries are updated every few months to include neologism and fixes for",
+        "License": "Apache-2.0",
+        "Tags": "aws-pds, natural language processing",
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": "d2ej7fkh96fzlu.cloudfront.net"
+    },
+    {
+        "Name": "Sudachi Language Resources - SudachiDict: Binary format of the mophological analysis dictionarieschiVe: Pret",
         "Description": "SudachiDict: Binary format of the mophological analysis dictionarieschiVe: Pret",
         "ARN": "arn:aws:s3:::sudachi",
         "Region": "ap-northeast-1",
