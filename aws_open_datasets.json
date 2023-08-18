@@ -1030,6 +1030,26 @@
         "Host": null
     },
     {
+        "Name": "Argo marine float data and metadata from Global Data Assembly Centre (Argo GDAC)",
+        "Description": "Argo GDAC data and metadata",
+        "ARN": "arn:aws:s3:::argo-gdac-sandbox",
+        "Region": "eu-west-3",
+        "Type": "S3 Bucket",
+        "Documentation": "http://www.argodatamgt.org/Documentation",
+        "Contact": "codac@ifremer.fr",
+        "ManagedBy": "[Euro-Argo](https://www.euro-argo.eu/)",
+        "UpdateFrequency": "Data is updated daily",
+        "License": "Open Data. There are no restrictions on the use of this data. https://creativeco",
+        "Tags": "aws-pds, climate, oceans, chemical biology, chemistry, datacenter, digital assets, geochemistry, geophysics, geoscience, marine, netcdf",
+        "Explore": [
+            "[Browse Bucket](https://argo-gdac-sandbox.s3.eu-west-3.amazonaws.com/pub/index.html#pub/)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Argoverse",
         "Description": "Argoverse",
         "ARN": "arn:aws:s3:::argoverse",
@@ -5401,7 +5421,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://kidsfirstdrc.org/",
@@ -5419,7 +5439,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://kidsfirstdrc.org/",
@@ -5895,6 +5915,24 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
@@ -5907,24 +5945,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -5971,24 +5991,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -6001,6 +6003,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
