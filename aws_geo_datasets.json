@@ -1583,6 +1583,25 @@
         "Host": null
     },
     {
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - Wind and Loads on Parabolic Troughs",
+        "Description": "Wind and Loads on Parabolic Troughs",
+        "ARN": "arn:aws:s3:::oedi-data-lake/NSO/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": "aws-pds, energy, environmental, geospatial, model, solar, lidar",
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=NSO%2F)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Digital Earth Africa ALOS PALSAR, ALOS-2 PALSAR-2 and JERS-1 - ALOS PALSAR ALOS-2 PALSAR-2 data",
         "Description": "ALOS PALSAR ALOS-2 PALSAR-2 data",
         "ARN": "arn:aws:s3:::deafrica-input-datasets/alos_palsar_mosaic",
@@ -2803,6 +2822,25 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
         "Type": "SNS Topic",
@@ -2818,11 +2856,11 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -2830,9 +2868,7 @@
         "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
         "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
         "RequesterPays": null,
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "AccountRequired": null,
         "Host": null
     },
@@ -2852,23 +2888,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "Explore": null,
         "AccountRequired": null,
         "Host": null
     },
@@ -2947,6 +2966,23 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -2960,23 +2996,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "RequesterPays": null,
-        "Explore": null,
         "AccountRequired": null,
         "Host": null
     },
@@ -3970,6 +3989,57 @@
         "Host": null
     },
     {
+        "Name": "NASA High Energy Astrophysics Mission Data - Chandra Mission Data Archive supported by the Chandra X-ray Observatory",
+        "Description": "Chandra Mission Data Archive supported by the Chandra X-ray Observatory",
+        "ARN": "arn:aws:s3:::nasa-heasarc/chandra/data/byobsid",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "The [HEASARC Website](https://heasarc.gsfc.nasa.gov/)",
+        "Contact": "The [HEASARC Feedback](https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback)",
+        "ManagedBy": "The [HEASARC](https://heasarc.gsfc.nasa.gov/)",
+        "UpdateFrequency": "Various.",
+        "License": "See [the HEASARC data policy web site](https://heasarc.gsfc.nasa.gov/docs/heasar",
+        "Tags": "astronomy, archives, datacenter, imaging, satellite imagery, x-ray",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA High Energy Astrophysics Mission Data - Fermi LAT weekly Data Products as well as GBM bursts and triggers  (The full mi",
+        "Description": "Fermi LAT weekly Data Products as well as GBM bursts and triggers  (The full mi",
+        "ARN": "arn:aws:s3:::heasarc-public/fermi/data/",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "The [HEASARC Website](https://heasarc.gsfc.nasa.gov/)",
+        "Contact": "The [HEASARC Feedback](https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback)",
+        "ManagedBy": "The [HEASARC](https://heasarc.gsfc.nasa.gov/)",
+        "UpdateFrequency": "Various.",
+        "License": "See [the HEASARC data policy web site](https://heasarc.gsfc.nasa.gov/docs/heasar",
+        "Tags": "astronomy, archives, datacenter, imaging, satellite imagery, x-ray",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA High Energy Astrophysics Mission Data - Swift Mission Data Archive For more information, see the website of the Swift",
+        "Description": "Swift Mission Data Archive For more information, see the website of the Swift",
+        "ARN": "arn:aws:s3:::nasa-heasarc/swift/data/obs/",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "The [HEASARC Website](https://heasarc.gsfc.nasa.gov/)",
+        "Contact": "The [HEASARC Feedback](https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback)",
+        "ManagedBy": "The [HEASARC](https://heasarc.gsfc.nasa.gov/)",
+        "UpdateFrequency": "Various.",
+        "License": "See [the HEASARC data policy web site](https://heasarc.gsfc.nasa.gov/docs/heasar",
+        "Tags": "astronomy, archives, datacenter, imaging, satellite imagery, x-ray",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "NASA High Energy Astrophysics Mission Data - The ASCA Mission Data Archive More information available at the mission suppor",
         "Description": "The ASCA Mission Data Archive More information available at the mission suppor",
         "ARN": "arn:aws:s3:::nasa-heasarc/asca/data/rev2",
@@ -4106,8 +4176,8 @@
         "Host": null
     },
     {
-        "Name": "NASA High Energy Astrophysics Mission Data - The Ginga Mission Data Archive Total size 18 GB",
-        "Description": "The Ginga Mission Data Archive Total size 18 GB",
+        "Name": "NASA High Energy Astrophysics Mission Data - The Ginga Mission Data Archive Total size 19 GB",
+        "Description": "The Ginga Mission Data Archive Total size 19 GB",
         "ARN": "arn:aws:s3:::nasa-heasarc/ginga/data/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -4123,8 +4193,8 @@
         "Host": null
     },
     {
-        "Name": "NASA High Energy Astrophysics Mission Data - The HEAO-1 Mission Data Archive Total size 7 GB",
-        "Description": "The HEAO-1 Mission Data Archive Total size 7 GB",
+        "Name": "NASA High Energy Astrophysics Mission Data - The HEAO-1 Mission Data Archive Total size 84 GB",
+        "Description": "The HEAO-1 Mission Data Archive Total size 84 GB",
         "ARN": "arn:aws:s3:::nasa-heasarc/heao1/data/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -4140,8 +4210,8 @@
         "Host": null
     },
     {
-        "Name": "NASA High Energy Astrophysics Mission Data - The HETE-2 Mission Data Archive Total size 39 GB",
-        "Description": "The HETE-2 Mission Data Archive Total size 39 GB",
+        "Name": "NASA High Energy Astrophysics Mission Data - The HETE-2 Mission Data Archive Total size 287 GB",
+        "Description": "The HETE-2 Mission Data Archive Total size 287 GB",
         "ARN": "arn:aws:s3:::nasa-heasarc/hete2/data/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -4174,9 +4244,43 @@
         "Host": null
     },
     {
-        "Name": "NASA High Energy Astrophysics Mission Data - The Hitomi Mission Data Archive Total size 50 GB",
-        "Description": "The Hitomi Mission Data Archive Total size 50 GB",
+        "Name": "NASA High Energy Astrophysics Mission Data - The Hitomi Mission Data Archive Total size 115 GB",
+        "Description": "The Hitomi Mission Data Archive Total size 115 GB",
         "ARN": "arn:aws:s3:::nasa-heasarc/hitomi/data/",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "The [HEASARC Website](https://heasarc.gsfc.nasa.gov/)",
+        "Contact": "The [HEASARC Feedback](https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback)",
+        "ManagedBy": "The [HEASARC](https://heasarc.gsfc.nasa.gov/)",
+        "UpdateFrequency": "Various.",
+        "License": "See [the HEASARC data policy web site](https://heasarc.gsfc.nasa.gov/docs/heasar",
+        "Tags": "astronomy, archives, datacenter, imaging, satellite imagery, x-ray",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA High Energy Astrophysics Mission Data - The NICER Mission Data Archive  For more information, see the NICER Science Ce",
+        "Description": "The NICER Mission Data Archive  For more information, see the NICER Science Ce",
+        "ARN": "arn:aws:s3:::heasarc-public/nicer/data/obs/",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "The [HEASARC Website](https://heasarc.gsfc.nasa.gov/)",
+        "Contact": "The [HEASARC Feedback](https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback)",
+        "ManagedBy": "The [HEASARC](https://heasarc.gsfc.nasa.gov/)",
+        "UpdateFrequency": "Various.",
+        "License": "See [the HEASARC data policy web site](https://heasarc.gsfc.nasa.gov/docs/heasar",
+        "Tags": "astronomy, archives, datacenter, imaging, satellite imagery, x-ray",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA High Energy Astrophysics Mission Data - The NuSTAR Mission Data Archive  For more information, see the NuSTAR pages at",
+        "Description": "The NuSTAR Mission Data Archive  For more information, see the NuSTAR pages at",
+        "ARN": "arn:aws:s3:::heasarc-public/nustar/data/obs/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "The [HEASARC Website](https://heasarc.gsfc.nasa.gov/)",
@@ -4225,8 +4329,8 @@
         "Host": null
     },
     {
-        "Name": "NASA High Energy Astrophysics Mission Data - The Rossi XTE Mission Data Archive For more information, see the website of th",
-        "Description": "The Rossi XTE Mission Data Archive For more information, see the website of th",
+        "Name": "NASA High Energy Astrophysics Mission Data - The RXTE Mission Data Archive For more information, see the website of the RXT",
+        "Description": "The RXTE Mission Data Archive For more information, see the website of the RXT",
         "ARN": "arn:aws:s3:::nasa-heasarc/xte/data/archive/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -4276,8 +4380,8 @@
         "Host": null
     },
     {
-        "Name": "NASA High Energy Astrophysics Mission Data - The The EXOSAT Observatory Data Archive Total size 3 GB",
-        "Description": "The The EXOSAT Observatory Data Archive Total size 3 GB",
+        "Name": "NASA High Energy Astrophysics Mission Data - The The EXOSAT Observatory Data Archive Total size 80 GB",
+        "Description": "The The EXOSAT Observatory Data Archive Total size 80 GB",
         "ARN": "arn:aws:s3:::nasa-heasarc/exosat/data/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -4310,8 +4414,8 @@
         "Host": null
     },
     {
-        "Name": "NASA High Energy Astrophysics Mission Data - The VELA 5B Mission Data Archive  Total size 5 GB",
-        "Description": "The VELA 5B Mission Data Archive  Total size 5 GB",
+        "Name": "NASA High Energy Astrophysics Mission Data - The VELA 5B Mission Data Archive  Total size < 1 GB",
+        "Description": "The VELA 5B Mission Data Archive  Total size < 1 GB",
         "ARN": "arn:aws:s3:::nasa-heasarc/vela5b/data/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -4347,6 +4451,23 @@
         "Name": "NASA High Energy Astrophysics Mission Data - The XQC Mission Data Archive  Total size < 1 GB",
         "Description": "The XQC Mission Data Archive  Total size < 1 GB",
         "ARN": "arn:aws:s3:::nasa-heasarc/xqc/data/spectra/",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "The [HEASARC Website](https://heasarc.gsfc.nasa.gov/)",
+        "Contact": "The [HEASARC Feedback](https://heasarc.gsfc.nasa.gov/cgi-bin/Feedback)",
+        "ManagedBy": "The [HEASARC](https://heasarc.gsfc.nasa.gov/)",
+        "UpdateFrequency": "Various.",
+        "License": "See [the HEASARC data policy web site](https://heasarc.gsfc.nasa.gov/docs/heasar",
+        "Tags": "astronomy, archives, datacenter, imaging, satellite imagery, x-ray",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NASA High Energy Astrophysics Mission Data - XMM-Newton  Mission Data Archive  For more information, see the website of the",
+        "Description": "XMM-Newton  Mission Data Archive  For more information, see the website of the",
+        "ARN": "arn:aws:s3:::nasa-heasarc/xmm/data/rev0/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "The [HEASARC Website](https://heasarc.gsfc.nasa.gov/)",
@@ -5947,7 +6068,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -5981,7 +6102,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -8042,6 +8163,23 @@
         "RequesterPays": null,
         "Explore": null,
         "AccountRequired": true,
+        "Host": null
+    },
+    {
+        "Name": "New Zealand Imagery",
+        "Description": "New Zealand Imagery with accompanying metadata",
+        "ARN": "arn:aws:s3:::nz-imagery",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/linz/imagery",
+        "Contact": "imagery@linz.govt.nz",
+        "ManagedBy": "[Toit\u016b Te Whenua Land Information New Zealand](https://www.linz.govt.nz)",
+        "UpdateFrequency": "New imagery will regularly be added, as part of being published to the LINZ Data",
+        "License": "Toit\u016b Te Whenua Land Information New Zealand does not own the copyright for all ",
+        "Tags": "aerial imagery, satellite imagery, earth observation, stac, cog, geospatial",
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
         "Host": null
     },
     {
