@@ -38,8 +38,8 @@
     {
         "Name": "1000 Genomes Phase 3 Reanalysis with DRAGEN 3.5 and 3.7 - BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
         "Description": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
-        "ARN": "arn:aws:s3:::1000genomes-dragen-3.7.6",
-        "Region": "us-west-2",
+        "ARN": "arn:aws:s3:::1000genomes-dragen-v3.7.6",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "[DRAGEN Support Resources](https://support.illumina.com/sequencing/sequencing_so",
         "Contact": "[Illumina, Inc.](mailto:support@illumina.com)",
@@ -56,8 +56,8 @@
     {
         "Name": "1000 Genomes Phase 3 Reanalysis with DRAGEN 3.5 and 3.7 - BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
         "Description": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2",
-        "ARN": "arn:aws:s3:::1000genomes-dragen-v3.7.6",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::1000genomes-dragen-3.7.6",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "[DRAGEN Support Resources](https://support.illumina.com/sequencing/sequencing_so",
         "Contact": "[Illumina, Inc.](mailto:support@illumina.com)",
@@ -1180,26 +1180,6 @@
     {
         "Name": "Australasian Genomes - Data files",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::koalagenomes",
-        "Region": "ap-southeast-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
-        "Contact": "soles.wildlife-genomics@sydney.edu.au",
-        "ManagedBy": "[Australasian Wildlife Genomics Group at The University of Sydney](https://www.s",
-        "UpdateFrequency": "As new genomes are produced",
-        "License": "https://threatenedspeciesinitiative.com/threatened-species-initiative-data-polic",
-        "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
-        "Explore": [
-            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Australasian Genomes - Data files",
-        "Description": "Data files",
         "ARN": "arn:aws:s3:::threatenedspecies",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
@@ -1211,6 +1191,26 @@
         "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
         "Explore": [
             "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Australasian Genomes - Data files",
+        "Description": "Data files",
+        "ARN": "arn:aws:s3:::koalagenomes",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
+        "Contact": "soles.wildlife-genomics@sydney.edu.au",
+        "ManagedBy": "[Australasian Wildlife Genomics Group at The University of Sydney](https://www.s",
+        "UpdateFrequency": "As new genomes are produced",
+        "License": "https://threatenedspeciesinitiative.com/threatened-species-initiative-data-polic",
+        "Tags": "aws-pds, biology, biodiversity, conservation, genetic, genomic, life sciences, transcriptomics, wildlife",
+        "Explore": [
+            "[Browse Bucket](https://koalagenomes.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -5063,8 +5063,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
+        "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
         "Contact": "awsdata@loka.com",
@@ -5081,8 +5081,8 @@
     {
         "Name": "GATK Structural Variation (SV) Data - This dataset contains, among others, the following data: <ul> * Illumina short",
         "Description": "This dataset contains, among others, the following data: <ul> * Illumina short",
-        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-2",
-        "Region": "us-east-2",
+        "ARN": "arn:aws:s3:::gatk-sv-data-us-east-1",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/LokaHQ/aws-open-data/blob/main/gatk-sv/documentation.md",
         "Contact": "awsdata@loka.com",
@@ -5459,7 +5459,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://kidsfirstdrc.org/",
@@ -5477,7 +5477,7 @@
     {
         "Name": "Gabriella Miller Kids First Pediatric Research Program (Kids First) - Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
         "Description": "Kids First Pediatric Research Study in Familial Predisposition to Hematopoietic",
-        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-vttshwv4",
+        "ARN": "arn:aws:s3:::kf-study-us-east-1-prd-sd-w0v965xz",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://kidsfirstdrc.org/",
@@ -5877,24 +5877,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -5913,10 +5895,10 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
@@ -5951,20 +5933,18 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
         "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
         "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
         "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -5989,18 +5969,20 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
         "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
         "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
         "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -6021,6 +6003,24 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -10533,7 +10533,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10551,7 +10551,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10587,7 +10587,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13081,8 +13081,8 @@
         "Host": null
     },
     {
-        "Name": "ONS Open Data Portal - Basic network transformation capacity",
-        "Description": "Basic network transformation capacity",
+        "Name": "ONS Open Data Portal - Basic network transformation capacity (PT-BR Capacidade de transforma\u00e7\u00e3o da rede",
+        "Description": "Basic network transformation capacity (PT-BR Capacidade de transforma\u00e7\u00e3o da rede",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -13101,8 +13101,388 @@
         "Host": null
     },
     {
-        "Name": "ONS Open Data Portal - Installed generation capacity",
-        "Description": "Installed generation capacity",
+        "Name": "ONS Open Data Portal - DESSEM energy balance (PT-BR Balan\u00e7o de energia DESSEM)",
+        "Description": "DESSEM energy balance (PT-BR Balan\u00e7o de energia DESSEM)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/balanco-energia-dessem)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily affluent natural energy per basin (PT-BR Energia Natural Afluente (ENA) di",
+        "Description": "Daily affluent natural energy per basin (PT-BR Energia Natural Afluente (ENA) di",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-bacia)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily affluent natural energy per equivalent energy reservoir (PT-BR Energia Nat",
+        "Description": "Daily affluent natural energy per equivalent energy reservoir (PT-BR Energia Nat",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-ree-reservatorio-equivalente-de-energia)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily affluent natural energy per reservoir (PT-BR Energia Natural Afluente (ENA",
+        "Description": "Daily affluent natural energy per reservoir (PT-BR Energia Natural Afluente (ENA",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-reservatorio)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily affluent natural energy per subsystem (PT-BR Energia Natural Afluente (ENA",
+        "Description": "Daily affluent natural energy per subsystem (PT-BR Energia Natural Afluente (ENA",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-subsistema)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily energy charge (PT-BR Carga de Energia Di\u00e1ria)",
+        "Description": "Daily energy charge (PT-BR Carga de Energia Di\u00e1ria)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily schedule energetic balance (PT-BR Balan\u00e7o energ\u00e9tico da programa\u00e7\u00e3o di\u00e1ria",
+        "Description": "Daily schedule energetic balance (PT-BR Balan\u00e7o energ\u00e9tico da programa\u00e7\u00e3o di\u00e1ria",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/balanco-programacao-diaria)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily stored energy per basin (PT-BR Energia Armazenada (EAR) di\u00e1rio por bacia)",
+        "Description": "Daily stored energy per basin (PT-BR Energia Armazenada (EAR) di\u00e1rio por bacia)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ear-diario-por-bacia)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily stored energy per equivalent energy reservoir (PT-BR Energia Armazenada (E",
+        "Description": "Daily stored energy per equivalent energy reservoir (PT-BR Energia Armazenada (E",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ear-diario-por-ree-reservatorio-equivalente-de-energia)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily stored energy per reservoir (PT-BR Energia Armazenada (EAR) di\u00e1rio por res",
+        "Description": "Daily stored energy per reservoir (PT-BR Energia Armazenada (EAR) di\u00e1rio por res",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ear-diario-por-reservatorio)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Daily stored energy per subsystem (PT-BR Energia Armazenada (EAR) di\u00e1rio por sub",
+        "Description": "Daily stored energy per subsystem (PT-BR Energia Armazenada (EAR) di\u00e1rio por sub",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ear-diario-por-subsistema)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Data of the relationship between power plant and group (PT-BR Dados do relaciona",
+        "Description": "Data of the relationship between power plant and group (PT-BR Dados do relaciona",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/usina_conjunto)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Data of the relationship between power plant and groups of small power plants (P",
+        "Description": "Data of the relationship between power plant and groups of small power plants (P",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/usina_pqu)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Exchange between subsystems (PT-BR Interc\u00e2mbio entre subsistemas)",
+        "Description": "Exchange between subsystems (PT-BR Interc\u00e2mbio entre subsistemas)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/intercambio-nacional)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Fluviometric data (PT-BR Dados de grandezas fluviom\u00e9tricas)",
+        "Description": "Fluviometric data (PT-BR Dados de grandezas fluviom\u00e9tricas)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/grandezas_fluviometricas)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Generation function availability indicators for the National Interconnected Syst",
+        "Description": "Generation function availability indicators for the National Interconnected Syst",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind-disponibilidade-geracao)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Generation per power plant on an hourly basis (PT-BR Gera\u00e7\u00e3o por usina em base h",
+        "Description": "Generation per power plant on an hourly basis (PT-BR Gera\u00e7\u00e3o por usina em base h",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/geracao-usina-2)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Hourly charge curve (PT-BR Curva de carga hor\u00e1ria)",
+        "Description": "Hourly charge curve (PT-BR Curva de carga hor\u00e1ria)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/curva-carga)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Import of energy in commercial mode per block (PT-BR Importa\u00e7\u00e3o de energia na mo",
+        "Description": "Import of energy in commercial mode per block (PT-BR Importa\u00e7\u00e3o de energia na mo",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/importacaoenergia-comercial-2)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Installed generation capacity (PT-BR Capacidade instalada de gera\u00e7\u00e3o)",
+        "Description": "Installed generation capacity (PT-BR Capacidade instalada de gera\u00e7\u00e3o)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -13114,6 +13494,466 @@
         "Tags": "electricity, hydrography, energy",
         "Explore": [
             "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-geracao)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Monthly energy charge (PT-BR Carga de energia mensal)",
+        "Description": "Monthly energy charge (PT-BR Carga de energia mensal)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-mensal)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - National Interconnected System exchange with other countries (PT-BR Interc\u00e2mbio",
+        "Description": "National Interconnected System exchange with other countries (PT-BR Interc\u00e2mbio",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/intercambio-internacional)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Operation network transmission lines (PT-BR Linhas de transmiss\u00e3o da rede de ope",
+        "Description": "Operation network transmission lines (PT-BR Linhas de transmiss\u00e3o da rede de ope",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/linha-transmissao)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Operation restriction data due to constrained-off of wind farms (PT-BR Dados de",
+        "Description": "Operation restriction data due to constrained-off of wind farms (PT-BR Dados de",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/restricao_coff_eolica_usi)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Operation restriction data due to constrained-off of wind farms - breakdown by p",
+        "Description": "Operation restriction data due to constrained-off of wind farms - breakdown by p",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/restricao_coff_eolica_detail)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Performance indicator of generation functions per generating unit on an monthly",
+        "Description": "Performance indicator of generation functions per generating unit on an monthly",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_disponibilidade_fgeracao_uge_mensal)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Performance indicator of generation functions per generating unit on an yearly b",
+        "Description": "Performance indicator of generation functions per generating unit on an yearly b",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_disponibilidade_fgeracao_uge_anual)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Price offers for import (PT-BR Ofertas de pre\u00e7o para importa\u00e7\u00e3o)",
+        "Description": "Price offers for import (PT-BR Ofertas de pre\u00e7o para importa\u00e7\u00e3o)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ofertapreco-importacao)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Reagents control equipment (PT-BR Equipamentos de controle de reativos)",
+        "Description": "Reagents control equipment (PT-BR Equipamentos de controle de reativos)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/equipamento-controle-reativo)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Reservoir hydrological data (PT-BR Dados hidrol\u00f3gicos de reservat\u00f3rio)",
+        "Description": "Reservoir hydrological data (PT-BR Dados hidrol\u00f3gicos de reservat\u00f3rio)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/dados-hidrologicos-res)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Reservoirs (PT-BR Reservat\u00f3rios)",
+        "Description": "Reservoirs (PT-BR Reservat\u00f3rios)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/reservatorio)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Scheduled energy charge (PT-BR Carga de energia programda)",
+        "Description": "Scheduled energy charge (PT-BR Carga de energia programda)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia-programada)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Semi-hourly marginal cost of operation (PT-BR Custo Marginal de Opera\u00e7\u00e3o (CMO) S",
+        "Description": "Semi-hourly marginal cost of operation (PT-BR Custo Marginal de Opera\u00e7\u00e3o (CMO) S",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/cmo-semi-horario)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Subsystems energy balance (PT-BR Balan\u00e7o de energia nos subsistemas)",
+        "Description": "Subsystems energy balance (PT-BR Balan\u00e7o de energia nos subsistemas)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/balanco-energia-subsistema)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Thermal generation due to dispatch (PT-BR Gera\u00e7\u00e3o t\u00e9rmica por motivo de despacho",
+        "Description": "Thermal generation due to dispatch (PT-BR Gera\u00e7\u00e3o t\u00e9rmica por motivo de despacho",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/geracao-termica-despacho-2)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Transmission function availability indicator - converters (PT-BR Indicador de di",
+        "Description": "Transmission function availability indicator - converters (PT-BR Indicador de di",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_disponibilidade_ft_conversor)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Transmission function availability indicator - reagents control equipment (PT-BR",
+        "Description": "Transmission function availability indicator - reagents control equipment (PT-BR",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_disponibilidade_ft_reativo)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Transmission function availability indicator - transmission lines and transforme",
+        "Description": "Transmission function availability indicator - transmission lines and transforme",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_disponibilidade_ft_trlt)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Turbinable spilled energy (PT-BR Energia vertida turbin\u00e1vel)",
+        "Description": "Turbinable spilled energy (PT-BR Energia vertida turbin\u00e1vel)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/energia-vertida-turbinavel)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Unit Variable Cost of thermal power plants (PT-BR Custo Vari\u00e1vel Unit\u00e1rio (CVU)",
+        "Description": "Unit Variable Cost of thermal power plants (PT-BR Custo Vari\u00e1vel Unit\u00e1rio (CVU)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/cvu-usitermica)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Verfied energy charge (PT-BR Carga de energia verificada)",
+        "Description": "Verfied energy charge (PT-BR Carga de energia verificada)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia-verificada)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Weekly marginal cost of operation (PT-BR Custo Marginal de Opera\u00e7\u00e3o (CMO) semana",
+        "Description": "Weekly marginal cost of operation (PT-BR Custo Marginal de Opera\u00e7\u00e3o (CMO) semana",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/cmo-semanal)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal - Wind and solar generation capacity factor (PT-BR Fator de capacidade de gera\u00e7\u00e3o",
+        "Description": "Wind and solar generation capacity factor (PT-BR Fator de capacidade de gera\u00e7\u00e3o",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": "electricity, hydrography, energy",
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/fator-capacidade-2)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
