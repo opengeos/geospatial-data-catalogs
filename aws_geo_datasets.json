@@ -3314,20 +3314,58 @@
         "Host": null
     },
     {
-        "Name": "JAXA / USGS / NASA Kaguya/SELENE Terrain Camera Monoscopic Observations",
-        "Description": "Scenes and metadata",
+        "Name": "JAXA / USGS / NASA Kaguya/SELENE Terrain Camera Observations - Scenes and metadata for monoscopic observing mode",
+        "Description": "Scenes and metadata for monoscopic observing mode",
         "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/monoscopic/uncontrolled/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://stac.astrogeology.usgs.gov/docs/data/moon/kaguyatc/",
         "Contact": "https://answers.usgs.gov/",
         "ManagedBy": "[NASA](https://www.nasa.gov)",
-        "UpdateFrequency": "The Kaguya/SELENE has completed. No updates to this dataset are planned.",
+        "UpdateFrequency": "The Kaguya/SELENE mission has completed. No updates to this dataset are planned.",
         "License": "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)",
         "Tags": "aws-pds, planetary, satellite imagery, stac, cog",
         "RequesterPays": null,
         "Explore": [
             "[STAC Catalog](https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_monoscopic_uncontrolled_observations)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "JAXA / USGS / NASA Kaguya/SELENE Terrain Camera Observations - Scenes and metadata for spectral profiler (spsupport) observing mode",
+        "Description": "Scenes and metadata for spectral profiler (spsupport) observing mode",
+        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/spsupport/uncontrolled/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://stac.astrogeology.usgs.gov/docs/data/moon/kaguyatc/",
+        "Contact": "https://answers.usgs.gov/",
+        "ManagedBy": "[NASA](https://www.nasa.gov)",
+        "UpdateFrequency": "The Kaguya/SELENE mission has completed. No updates to this dataset are planned.",
+        "License": "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)",
+        "Tags": "aws-pds, planetary, satellite imagery, stac, cog",
+        "RequesterPays": null,
+        "Explore": [
+            "[STAC Catalog](https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_spsupport_uncontrolled_observations)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "JAXA / USGS / NASA Kaguya/SELENE Terrain Camera Observations - Scenes and metadata for stereoscopic observing mode",
+        "Description": "Scenes and metadata for stereoscopic observing mode",
+        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/stereoscopic/uncontrolled/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://stac.astrogeology.usgs.gov/docs/data/moon/kaguyatc/",
+        "Contact": "https://answers.usgs.gov/",
+        "ManagedBy": "[NASA](https://www.nasa.gov)",
+        "UpdateFrequency": "The Kaguya/SELENE mission has completed. No updates to this dataset are planned.",
+        "License": "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)",
+        "Tags": "aws-pds, planetary, satellite imagery, stac, cog",
+        "RequesterPays": null,
+        "Explore": [
+            "[STAC Catalog](https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_stereoscopic_uncontrolled_observations)"
         ],
         "AccountRequired": null,
         "Host": null
@@ -6104,7 +6142,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -6138,7 +6176,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -6155,7 +6193,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
