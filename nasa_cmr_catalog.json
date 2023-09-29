@@ -4589,6 +4589,32 @@
         "license": "not-provided"
     },
     {
+        "id": "gov.noaa.nodc:GHRSST-EUR-L2P-AVHRR17_L.v1.0",
+        "title": "GHRSST Level 2P Atlantic Regional Bulk Sea Surface Temperature from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-17 satellite (GDS version 1)",
+        "catalog": "GHRSSTCWIC",
+        "state_date": "2004-12-30",
+        "end_date": "2007-02-26",
+        "bbox": "-45, 20, 45, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2213638171-GHRSSTCWIC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2213638171-GHRSSTCWIC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/GHRSSTCWIC/collections/gov.noaa.nodc:GHRSST-EUR-L2P-AVHRR17_L.v1.0",
+        "description": "A regional Level 2P Group for High Resolution Sea Surface Temperature (GHRSST) dataset for the Atlantic Ocean and nearby regions based on multi-channel sea surface temperature (SST) retrievals from the Advanced Very High Resolution Radiometer (AVHRR) on the NOAA-17 platform (launched on 24 June 2002). The AVHRR is a space-borne scanning sensor on the National Oceanic and Atmospheric Administration (NOAA) family of Polar Orbiting Environmental Satellites (POES) having a operational legacy that traces back to the Television Infrared Observation Satellite-N (TIROS-N) launched in 1978. AVHRR instruments measure the radiance of the Earth in 5 (or 6) relatively wide spectral bands. The first two are centered around the red (0.6 micrometer) and near-infrared (0.9 micrometer) regions, the third one is located around 3.5 micrometer, and the last two sample the emitted thermal radiation, around 11 and 12 micrometers, respectively. The legacy 5 band instrument is known as AVHRR/2 while the more recent version, the AVHRR/3 (first carried on the NOAA-15 platform), acquires data in a 6th channel located at 1.6 micrometer. Typically the 11 and 12 micron channels are used to derive sea surface temperature (SST) sometimes in combination with the 3.5 micron channel. The highest ground resolution that can be obtained from the current AVHRR instruments is 1.1 km at nadir. The NOAA platforms are sun synchronous generally viewing the same earth location twice a day (latitude dependent) due to the relatively large AVHRR swath of approximately 2400 km. This particular dataset is derived from Local Area Coverage (LAC) binary AVHRR SST binary data originally produced by the US Naval Oceanographic Office (NAVO) and downloaded from the NASA Physical Oceanography Distributed Active Archive Center (PO.DAAC). LAC are full resolution AVHRR data whose acquisition is prescheduled and recorded with an on-board tape recorder for subsequent transmission during a station overpass. Finally, L2P data products are derived following the GHRSST-PP Data Processing Specification (GDS) version 1.5 including Single Sensor Error Statistics (SSES).",
+        "license": "not-provided"
+    },
+    {
+        "id": "gov.noaa.nodc:GHRSST-EUR-L2P-SEVIRI_SST.v4.0",
+        "title": "GHRSST Level 2P Atlantic Regional Skin Sea Surface Temperature from the Spinning Enhanced Visible and InfraRed Imager (SEVIRI) on the Meteosat Second Generation (MSG-1) satellite (GDS version 1)",
+        "catalog": "GHRSSTCWIC",
+        "state_date": "2004-12-30",
+        "end_date": "2012-03-15",
+        "bbox": "-100, -60, 45, 60",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2213639968-GHRSSTCWIC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2213639968-GHRSSTCWIC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/GHRSSTCWIC/collections/gov.noaa.nodc:GHRSST-EUR-L2P-SEVIRI_SST.v4.0",
+        "description": "The Meteosat Second Generation (MSG) satellites are spin stabilized geostationary satellites operated by the European Organization for the Exploitation of Meteorological Satellites (EUMETSAT) to provide accurate weather monitoring data through its primary instrument the Spinning Enhanced Visible and InfraRed Imager (SEVIRI), which has the capacity to observe the Earth in 12 spectral channels.  Eight of these channels are in the thermal infrared, providing among other information, observations of the temperatures of clouds, land and sea surfaces at approximately 5 km resolution with a 15 minute duty cycle. This Group for High Resolution Sea Surface Temperature (GHRSST) dataset produced by Meteo France/ Centre de Meteorologie Spatiale (CMS), is derived from the SEVIRI instrument on the first MSG satellite (also known as Meteosat-8) that was launched on 28 August 2002. Skin sea surface temperature (SST) data are calculated from the infrared channels of SEVIRI at full resolution on a hourly basis. Remapping of original pixel size to 11.6 km resolution is made by spatial averaging, and a 3-hourly temporal resolution SST is created by averaging the hourly SSTs having the best confidence level. Data from different MSG satellites are not averaged together. L2P data products with Single Sensor Error Statistics (SSES) are then derived following the GHRSST-PP Data Processing Specification (GDS) version 1.5.",
+        "license": "not-provided"
+    },
+    {
         "id": "gov.noaa.nodc:GHRSST-GOES16-OSISAF-L3C.v1",
         "title": "GHRSST L3C OSISAF SSTskin dataset v1.0 from GOES16 ABI in East position (GDS version 2)",
         "catalog": "GHRSSTCWIC",
