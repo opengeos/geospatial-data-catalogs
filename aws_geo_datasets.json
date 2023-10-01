@@ -6252,7 +6252,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -6269,7 +6269,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -6303,7 +6303,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10089,6 +10089,25 @@
         "Tags": "biology, bioinformatics, genetic, genomic, life sciences, environmental, epigenomics, aws-pds",
         "RequesterPays": null,
         "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Tropical Cyclone Precipitation, Infrared, Microwave, and Environmental Dataset (TC PRIMED)",
+        "Description": "The Tropical Cyclone Precipitation, Infrared, Microwave and Environmental Datase",
+        "ARN": "arn:aws:s3:::noaa-nesdis-tcprimed-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://rammb-data.cira.colostate.edu/tcprimed/TCPRIMED_v01r00_documentation.pdf",
+        "Contact": "CIRA_tcprimed [at] colostate [dot] edu",
+        "ManagedBy": "[CIRA](https://www.cira.colostate.edu/)",
+        "UpdateFrequency": "Annually, several months after the conclusion of the Northern Hemisphere tropica",
+        "License": "No constraints on data access or use",
+        "Tags": "atmosphere, aws-pds, earth observation, environmental, geophysics, geoscience, global, meteorological, model, netcdf, precipitation, satellite imagery, weather",
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-nesdis-tcprimed-pds.s3.amazonaws.com/index.html)"
+        ],
         "AccountRequired": null,
         "Host": null
     },
