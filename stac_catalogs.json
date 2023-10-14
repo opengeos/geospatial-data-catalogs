@@ -351,6 +351,19 @@
         "accessInfo": null
     },
     {
+        "title": "GeoPlatform STAC Catalog",
+        "id": 85,
+        "url": "https://stac.geoplatform.gov/catalog.json",
+        "slug": "geoplatform-stac-catalog",
+        "summary": "GeoPlatform.gov provides official list of National STAC Sources.",
+        "access": "public",
+        "created": "2023-10-13T23:46:58.015Z",
+        "updated": "2023-10-13T23:46:58.015Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Geoportal Server",
         "id": 75,
         "url": "https://gpt.geocloud.com/sentinel/stac",
@@ -778,6 +791,19 @@
         "isPrivate": true,
         "isApi": true,
         "accessInfo": "You need to register yourself a Terrascope account at <https://portal.terrascope.be/home> and subscribe to a paid plan."
+    },
+    {
+        "title": "The National Map",
+        "id": 86,
+        "url": "https://gp-sit-us-east-1-public-configs.s3.amazonaws.com/stac/national_map/catalog.json",
+        "slug": "the-national-map",
+        "summary": "The National Map is a suite of products and services that provide access to base geospatial information to describe the landscape of the United States and its territories. The National Map embodies 11 primary products and services and numerous applications and ancillary services.",
+        "access": "public",
+        "created": "2023-10-13T23:47:48.036Z",
+        "updated": "2023-10-13T23:47:48.036Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
     },
     {
         "title": "UK NCEO Analysis Ready Data (ARD)",
