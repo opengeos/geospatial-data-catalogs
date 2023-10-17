@@ -455,32 +455,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ABoVE_ASCENDS_Backscatter_2051.v1",
-        "title": "ABoVE/ASCENDS: Atmospheric Backscattering Coefficient Profiles from CO2 Sounder, 2017",
-        "catalog": "ORNL_CLOUD",
-        "state_date": "2017-07-20",
-        "end_date": "2017-08-08",
-        "bbox": "-165.68, 34.59, -98.15, 71.27",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2264344759-ORNL_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2264344759-ORNL_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/ABoVE_ASCENDS_Backscatter_2051.v1",
-        "description": "This dataset provides atmospheric backscattering coefficient profiles collected during Active Sensing of CO2 Emissions over Nights, Days, and Seasons (ASCENDS) deployments from 2017-07-20 to 2017-08-08 over Alaska, U.S., and the Yukon and Northwest Territories of Canada. These profiles were measured by the CO2 Sounder Lidar instrument carried on a DC-8 aircraft. The airborne CO2 Sounder is a pulsed, multi-wavelength Integrated Path Differential Absorption lidar that estimates column-averaged dry-air CO2 mixing ratio (XCO2) in the nadir path from the aircraft to the scattering surface. In addition to XCO2, the lidar receiver recorded the time-resolved atmospheric backscatter signal strength as the laser pulses propagated through the atmosphere. Raw lidar data were converted to the atmospheric backscatter cross-section product and the two-way atmosphere transmission, also known as attenuated backscatter profiles. These ASCENDS flights were coordinated with the 2017 Arctic-Boreal Vulnerability Experiment (ABoVE) campaign and are provided in ICARTT format.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ABoVE_ASCENDS_Merge_2114.v1",
-        "title": "ABoVE/ASCENDS: Merged Atmospheric CO2, CH4, and Meteorological Data, 2017",
-        "catalog": "ORNL_CLOUD",
-        "state_date": "2017-07-20",
-        "end_date": "2017-08-09",
-        "bbox": "-165.68, 34.59, -98.15, 71.27",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2575399701-ORNL_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2575399701-ORNL_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/ABoVE_ASCENDS_Merge_2114.v1",
-        "description": "This dataset provides in situ airborne measurements of atmospheric carbon dioxide (CO2), methane (CH4), water vapor concentrations, air temperature, pressure, and wind speed and direction as well as airborne remote sensing measurements of column average CO2 collected during Active Sensing of CO2 Emissions over Nights, Days, and Seasons (ASCENDS) deployments from 2017-07-20 to 2017-08-08 over Alaska, US, and the Yukon and Northwest Territories of Canada. CO2 and CH4 were measured with NASA's Atmospheric Vertical Observations of CO2 in the Earth's Troposphere (AVOCET) instrument. Water vapor and relative humidity were measured with Diode Laser Hydrometer. Measurements were taken onboard a DC-8 aircraft. The ASCENDS flights were coordinated with the 2017 Arctic-Boreal Vulnerability Experiment (ABoVE) campaign. The data are provided in ICARTT format along with an archive of flight videos.",
-        "license": "not-provided"
-    },
-    {
         "id": "ABoVE_ASCENDS_XCO2_2050.v1",
         "title": "ABoVE/ASCENDS: Active Sensing of CO2, CH4, and Water Vapor, Alaska and Canada, 2017",
         "catalog": "ORNL_CLOUD",
@@ -504,19 +478,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2162145735-ORNL_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/ABoVE_Concise_Experiment_Plan_1617.v1.1",
         "description": "This document presents the Concise Experiment Plan for NASA's Arctic-Boreal Vulnerability Experiment (ABoVE) to serve as a guide to the Program as it identifies the research to be conducted under this study. Research for ABoVE will link field-based, process-level studies with geospatial data products derived from airborne and satellite remote sensing, providing a foundation for improving the analysis and modeling capabilities needed to understand and predict ecosystem responses and societal implications. The ABoVE Concise Experiment Plan (ACEP) outlines the conceptual basis for the Field Campaign and expresses the compelling rationale explaining the scientific and societal importance of the study. It presents both the science questions driving ABoVE research as well as the top-level requirements for a study design to address them.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ABoVE_PBand_SAR_1657.v1",
-        "title": "ABoVE: Active Layer and Soil Moisture Properties from AirMOSS P-band SAR in Alaska",
-        "catalog": "ORNL_CLOUD",
-        "state_date": "2014-08-16",
-        "end_date": "2017-10-10",
-        "bbox": "-167.94, 64.71, -150.25, 70.88",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2170972048-ORNL_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/ABoVE_PBand_SAR_1657.v1",
-        "description": "This dataset provides estimates of soil geophysical properties derived from Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS) P-band polarimetric synthetic aperture radar (PolSAR) data collected in August and October of 2014, 2015, and 2017 over 12 study sites (with some exceptions) across Northern Alaska. Soil properties reported include the active layer thickness (ALT), dielectric constant, soil moisture profile, surface roughness, and their respective uncertainty estimates at 30-m spatial resolution over the 12 flight transects. Most of the study sites are located within the continuous permafrost zone and where the aboveground vegetation consisting mainly of dwarf shrub and tussock/sedge/moss tundra has a minimal impact on P-band radar backscatter.",
         "license": "not-provided"
     },
     {
@@ -2704,6 +2665,32 @@
         "license": "not-provided"
     },
     {
+        "id": "FIFE_AF_FLT_G_8.v1",
+        "title": "Aircraft Flux-Filtered: Univ. Col. (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-05-26",
+        "end_date": "1989-10-31",
+        "bbox": "-102, 37, -95, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003697-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003697-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_FLT_G_8.v1",
+        "description": "Filtered boundary layer fluxes recorded on aircraft flights over the Konza",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_AF_FLT_K_7.v1",
+        "title": "Aircraft Flux-Filtered: U of Wy. (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-08-11",
+        "end_date": "1989-10-31",
+        "bbox": "-102, 37, -95, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003237-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003237-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_FLT_K_7.v1",
+        "description": "Filtered boundary layer fluxes recorded on aircraft flights over the Konza",
+        "license": "not-provided"
+    },
+    {
         "id": "FIFE_AF_FLT_M_6.v1",
         "title": "Aircraft Flux-Filtered: NRCC (FIFE)",
         "catalog": "ORNL_DAAC",
@@ -2714,6 +2701,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179002951-ORNL_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_FLT_M_6.v1",
         "description": "Filtered boundary layer fluxes recorded on aircraft flights over the Konza",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_AF_RAW_K_10.v1",
+        "title": "Aircraft Flux-Raw: U of Wy. (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-08-11",
+        "end_date": "1989-10-31",
+        "bbox": "-102, 37, -95, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179002883-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179002883-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_RAW_K_10.v1",
+        "description": "Raw (unmodified) boundary layer fluxes recorded on aircraft flights over Konza",
+        "license": "not-provided"
+    },
+    {
+        "id": "FIFE_AF_RAW_M_9.v1",
+        "title": "Aircraft Flux-Raw: NRCC (FIFE)",
+        "catalog": "ORNL_DAAC",
+        "state_date": "1987-06-26",
+        "end_date": "1989-10-31",
+        "bbox": "-102, 37, -95, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003273-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003273-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/FIFE_AF_RAW_M_9.v1",
+        "description": "Raw (unmodified) boundary layer fluxes recorded on aircraft flights over Konza",
         "license": "not-provided"
     },
     {
@@ -2912,19 +2925,6 @@
         "license": "not-provided"
     },
     {
-        "id": "GLOBAL_LITTER_CARBON_NUTRIENTS_1244.v1",
-        "title": "A Global Database of Litterfall Mass and Litter Pool Carbon and Nutrients",
-        "catalog": "ORNL_DAAC",
-        "state_date": "1827-01-01",
-        "end_date": "1997-12-31",
-        "bbox": "-156.7, -54.5, 176.2, 72.5",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1227811476-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1227811476-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/GLOBAL_LITTER_CARBON_NUTRIENTS_1244.v1",
-        "description": "Measurement data of aboveground litterfall and littermass and litter carbon, nitrogen, and nutrient concentrations were extracted from 685 original literature sources and compiled into a comprehensive database to support the analysis of global patterns of carbon and nutrients in litterfall and litter pools. Data are included from sources dating from 1827 to 1997. The reported data include the literature reference, general site information (description, latitude, longitude, and elevation), site climate data (mean annual temperature and precipitation), site vegetation characteristics (management, stand age, ecosystem and vegetation-type codes), annual quantities of litterfall (by class, kg m-2 yr-1), litter pool mass (by class and litter layer, kg m-2), and concentrations of nitrogen (N), phosphorus (P), and base cations for the litterfall (g m-2 yr-1) and litter pool components (g m-2).  The investigators intent was to compile a comprehensive data set of individual direct field measurements as reported by researchers. While the primary emphasis was on acquiring C data, measurements of N, P, and base cations were also obtained, although the database is sparse for elements other than C and N. Each of the 1,497 records in the database represents a measurement site. Replicate measurements were averaged according to conventions described in Section 5 and recorded for each site in the database. The sites were at 575 different locations. ",
-        "license": "not-provided"
-    },
-    {
         "id": "GMAO-CMIP5.v1",
         "title": "GMAO Decadal Analysis & Prediction for CMIP5",
         "catalog": "NCCS",
@@ -2948,6 +2948,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1625796320-LARC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LARC/collections/GOMIGEO.v002",
         "description": "Multi-angle Imaging SpectroRadiometer (MISR) is an instrument designed to view Earth with cameras pointed in 9 different directions. As the instrument flies overhead, each piece of Earth's surface below is successively imaged by all 9 cameras, in each of 4 wavelengths (blue, green, red, and near-infrared). The goal of MISR is to improve our understanding of the fate of sunlight in Earth environment, as well as distinguish different types of clouds, particles and surfaces. Specifically, MISR monitors the monthly, seasonal, and long-term trends in three areas: 1) amount and type of atmospheric particles (aerosols), including those formed by natural sources and by human activities; 2) amounts, types, and heights of clouds, and 3) distribution of land surface cover, including vegetation canopy structure. MISR Geometric Parameters subset for the GoMACCS region V002 contains the Geometric Parameters which measure the sun and view angles at the reference ellipsoid.",
+        "license": "not-provided"
+    },
+    {
+        "id": "Global_Litter_Carbon_Nutrients_1244.v1",
+        "title": "A Global Database of Litterfall Mass and Litter Pool Carbon and Nutrients",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1827-01-01",
+        "end_date": "1997-12-31",
+        "bbox": "-156.7, -54.5, 176.2, 72.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2784385713-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2784385713-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Global_Litter_Carbon_Nutrients_1244.v1",
+        "description": "Measurement data of aboveground litterfall and littermass and litter carbon, nitrogen, and nutrient concentrations were extracted from 685 original literature sources and compiled into a comprehensive database to support the analysis of global patterns of carbon and nutrients in litterfall and litter pools. Data are included from sources dating from 1827 to 1997. The reported data include the literature reference, general site information (description, latitude, longitude, and elevation), site climate data (mean annual temperature and precipitation), site vegetation characteristics (management, stand age, ecosystem and vegetation-type codes), annual quantities of litterfall (by class, kg m-2 yr-1), litter pool mass (by class and litter layer, kg m-2), and concentrations of nitrogen (N), phosphorus (P), and base cations for the litterfall (g m-2 yr-1) and litter pool components (g m-2).  The investigators intent was to compile a comprehensive data set of individual direct field measurements as reported by researchers. While the primary emphasis was on acquiring C data, measurements of N, P, and base cations were also obtained, although the database is sparse for elements other than C and N. Each of the 1,497 records in the database represents a measurement site. Replicate measurements were averaged according to conventions described in Section 5 and recorded for each site in the database. The sites were at 575 different locations. ",
         "license": "not-provided"
     },
     {
@@ -3250,42 +3263,16 @@
         "license": "not-provided"
     },
     {
-        "id": "LAI_WOODY_PLANTS_1231.v1",
+        "id": "LAI_Woody_Plants_1231.v1",
         "title": "A Global Database of Field-observed Leaf Area Index in Woody Plant Species, 1932-2011",
-        "catalog": "ORNL_DAAC",
+        "catalog": "ORNL_CLOUD",
         "state_date": "1932-01-01",
         "end_date": "2011-12-31",
         "bbox": "-164.78, -54.2, 175.62, 78.42",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179130805-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179130805-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/LAI_WOODY_PLANTS_1231.v1",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2784385653-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2784385653-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/LAI_Woody_Plants_1231.v1",
         "description": "This data set provides global leaf area index (LAI) values for woody species. The data are a compilation of field-observed data from 1,216 locations obtained from 554 literature sources published between 1932 and 2011. Only site-specific maximum LAI values were included from the sources; values affected by significant artificial treatments (e.g. continuous fertilization and/or irrigation) and LAI values that were low due to drought or disturbance (e.g. intensive thinning, wildfire, or disease), or because vegetation was immature or old/declining, were excluded (Lio et al., 2014). To maximize the generic applicability of the data, original LAI values from source literature and values standardized using the definition of half of total surface area (HSA) are included. Supporting information, such as geographical coordinates of plot, altitude, stand age, name of dominant species, plant functional types, and climate data are also provided in the data file. There is one data file in comma-separated (.csv) format with this data set and one companion file which provides the data sources.",
-        "license": "not-provided"
-    },
-    {
-        "id": "LEAF_CARBON_NUTRIENTS_1106.v1",
-        "title": "A Global Database of Carbon and Nutrient Concentrations of Green and Senesced Leaves",
-        "catalog": "ORNL_DAAC",
-        "state_date": "1970-01-01",
-        "end_date": "2009-12-31",
-        "bbox": "-159.7, -50, 176.9, 68.5",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179003380-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179003380-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/LEAF_CARBON_NUTRIENTS_1106.v1",
-        "description": "This data set provides carbon (C), nitrogen (N), phosphorus (P), potassium (K), calcium (Ca), and magnesium (Mg) concentrations in green and senesced leaves. Vegetation characteristics reported include species growth habit, leaf area, mass, and mass loss with senescence. The data were compiled from 86 selected studies in 31 countries, and resulted in approximately 1,000 data points for both green and senesced leaves from woody and non-woody vegetation as described in Vergutz et al (2012). The studies were conducted from 1970-2009. There are two comma-delimited data files with this data set.",
-        "license": "not-provided"
-    },
-    {
-        "id": "LEAF_PHOTOSYNTHESIS_TRAITS_1224.v1",
-        "title": "A Global Data Set of Leaf Photosynthetic Rates, Leaf N and P, and Specific Leaf Area",
-        "catalog": "ORNL_DAAC",
-        "state_date": "1993-01-01",
-        "end_date": "2010-12-31",
-        "bbox": "-122.4, -43.2, 176.13, 58.42",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C179126725-ORNL_DAAC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179126725-ORNL_DAAC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/LEAF_PHOTOSYNTHESIS_TRAITS_1224.v1",
-        "description": "This global data set of photosynthetic rates and leaf nutrient traits was compiled from a comprehensive literature review. It includes estimates of Vcmax (maximum rate of carboxylation), Jmax (maximum rate of electron transport), leaf nitrogen content (N), leaf phosphorus content (P), and specific leaf area (SLA) data from both experimental and ambient field conditions, for a total of 325 species and treatment combinations. Both the original published Vcmax and Jmax values as well as estimates at standard temperature are reported. The maximum rate of carboxylation (Vcmax) and the maximum rate of electron transport (Jmax) are primary determinants of photosynthetic rates in plants, and modeled carbon fluxes are highly sensitive to these parameters. Previous studies have shown that Vcmax and Jmax correlate with leaf nitrogen across species and regions, and locally across species with leaf phosphorus and specific leaf area, yet no universal relationship suitable for global-scale models is currently available. These data are suitable for exploring the general relationships of Vcmax and Jmax with each other and with leaf N, P and SLA. This data set contains one *.csv file.",
         "license": "not-provided"
     },
     {
@@ -3299,6 +3286,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214313574-AU_AADC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/LGB_10m_traverse.v1",
         "description": "The Lambert Glacier Basin (LGB) series of five oversnow traverses were conducted from 1989-95. Ten metre depth (10 m) firn temperatures, as a proxy indicator of annual mean surface temperature at a site, were recorded approximately every 30 km along the 2014 km main traverse route from LGB00 (68.6543 S, 61.1201 E) near Mawson Station, to LGB72 (69.9209 S, 76.4933 E) near Davis Station.  10 m depth firn temperatures were recorded manually in field notebooks and the data transferred to spreadsheet files (MS Excel).  Summary data (30 km spatial resolution) can be obtained from CRC Research Note No.09 'Surface Mass Balance and Snow Surface Properties from the Lambert Glacier Basin Traverses 1990-94'.  This work was completed as part of ASAC projects 3 and 2216.  Some of this data have been stored in a very old format.  The majority of files have been updated to current formats, but some files (kaleidograph files in particular) were not able to be modified due to a lack of appropriate software.  However, these files are simply figures, and can be regenerated from the raw data (also provided).  The fields in this dataset are:  Latitutde Longitude Height Cane Distance Elevation Density Mass Accumulation Year Delta Oxygen-18 Grain Size Ice Crusts Depth Hoar",
+        "license": "not-provided"
+    },
+    {
+        "id": "Leaf_Carbon_Nutrients_1106.v1",
+        "title": "A Global Database of Carbon and Nutrient Concentrations of Green and Senesced Leaves",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1970-01-01",
+        "end_date": "2009-12-31",
+        "bbox": "-159.7, -50, 176.9, 68.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2784383820-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2784383820-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Leaf_Carbon_Nutrients_1106.v1",
+        "description": "This data set provides carbon (C), nitrogen (N), phosphorus (P), potassium (K), calcium (Ca), and magnesium (Mg) concentrations in green and senesced leaves. Vegetation characteristics reported include species growth habit, leaf area, mass, and mass loss with senescence. The data were compiled from 86 selected studies in 31 countries, and resulted in approximately 1,000 data points for both green and senesced leaves from woody and non-woody vegetation as described in Vergutz et al (2012). The studies were conducted from 1970-2009. There are two comma-delimited data files with this data set.",
+        "license": "not-provided"
+    },
+    {
+        "id": "Leaf_Photosynthesis_Traits_1224.v1",
+        "title": "A Global Data Set of Leaf Photosynthetic Rates, Leaf N and P, and Specific Leaf Area",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1993-01-01",
+        "end_date": "2010-12-31",
+        "bbox": "-122.4, -43.2, 176.13, 58.42",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2784384781-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2784384781-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Leaf_Photosynthesis_Traits_1224.v1",
+        "description": "This global data set of photosynthetic rates and leaf nutrient traits was compiled from a comprehensive literature review. It includes estimates of Vcmax (maximum rate of carboxylation), Jmax (maximum rate of electron transport), leaf nitrogen content (N), leaf phosphorus content (P), and specific leaf area (SLA) data from both experimental and ambient field conditions, for a total of 325 species and treatment combinations. Both the original published Vcmax and Jmax values as well as estimates at standard temperature are reported. The maximum rate of carboxylation (Vcmax) and the maximum rate of electron transport (Jmax) are primary determinants of photosynthetic rates in plants, and modeled carbon fluxes are highly sensitive to these parameters. Previous studies have shown that Vcmax and Jmax correlate with leaf nitrogen across species and regions, and locally across species with leaf phosphorus and specific leaf area, yet no universal relationship suitable for global-scale models is currently available. These data are suitable for exploring the general relationships of Vcmax and Jmax with each other and with leaf N, P and SLA. This data set contains one *.csv file.",
         "license": "not-provided"
     },
     {
@@ -4040,19 +4053,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2112982481-CSDA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/CSDA/collections/PSScene3Band.v1",
         "description": "The Planet Scope 3 band collection contains satellite imagery obtained from Planet Labs, Inc by the Commercial Smallsat Data Acquisition (CSDA) Program. This satellite imagery is in the visible waveband range with data in the red, green, and blue wavelengths. These data are collected by Planets Dove, Super Dove, and Blue Super Dove instruments collected from across the global land surface from June 2014 to present. Data have a spatial resolution of 3.7 meters at nadir and provided in GeoTIFF format. Data access are restricted to US Government funded investigators approved by the CSDA Program.",
-        "license": "not-provided"
-    },
-    {
-        "id": "Permafrost_ActiveLayer_NSlope_1759.v1",
-        "title": "ABoVE: Active Layer Soil Characterization of Permafrost Sites, Northern Alaska, 2018",
-        "catalog": "ORNL_CLOUD",
-        "state_date": "2018-08-22",
-        "end_date": "2018-08-26",
-        "bbox": "-149.31, 68.61, -148.56, 69.81",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2143402217-ORNL_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2143402217-ORNL_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Permafrost_ActiveLayer_NSlope_1759.v1",
-        "description": "This dataset provides in situ soil measurements including soil dielectric properties, temperature, and moisture profiles, active layer thickness (ALT), and measurements of soil organic matter, bulk density, porosity, texture, and coarse root biomass. Samples were collected from the surface to permafrost table in soil pits at selected sites along the Dalton Highway in Northern Alaska. From North to South, the study sites include Franklin Bluffs, Sagwon, Happy Valley, Ice Cut, and Imnavait Creek. Measurements were made from August 22 to August 26, 2018. The purpose of the field campaign was to characterize the dielectric properties of permafrost active layer soils in support of the NASA Arctic and Boreal Vulnerability Experiment (ABoVE) Airborne Campaign.",
         "license": "not-provided"
     },
     {
