@@ -301,14 +301,14 @@
     {
         "title": "FedEO Clearinghouse",
         "id": 15,
-        "url": "https://eovoc.spacebel.be/",
+        "url": "https://emc.spacebel.be/",
         "slug": "fedeo-clearinghouse",
         "summary": "FedEO Clearinghouse provides interoperable access, following ISO/OGC interface guidelines, to Earth Observation metadata",
         "access": "public",
         "created": "2020-09-02T03:08:35.077Z",
-        "updated": "2022-01-21T19:08:35.077Z",
+        "updated": "2023-10-17T13:08:35.077Z",
         "isPrivate": false,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
@@ -346,19 +346,6 @@
         "access": "public",
         "created": "2023-09-04T10:08:50.182Z",
         "updated": "2023-09-04T10:08:50.182Z",
-        "isPrivate": false,
-        "isApi": false,
-        "accessInfo": null
-    },
-    {
-        "title": "GeoPlatform STAC Catalog",
-        "id": 85,
-        "url": "https://stac.geoplatform.gov/catalog.json",
-        "slug": "geoplatform-stac-catalog",
-        "summary": "GeoPlatform.gov provides official list of National STAC Sources.",
-        "access": "public",
-        "created": "2023-10-13T23:46:58.015Z",
-        "updated": "2023-10-13T23:46:58.015Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -814,6 +801,19 @@
         "access": "public",
         "created": "2022-08-18T12:23:01.252Z",
         "updated": "2022-08-18T12:23:01.252Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "US GeoPlatform",
+        "id": 85,
+        "url": "https://stac.geoplatform.gov/catalog.json",
+        "slug": "geoplatform-stac-catalog",
+        "summary": "GeoPlatform.gov provides official list of National STAC Sources.",
+        "access": "public",
+        "created": "2023-10-13T23:46:58.015Z",
+        "updated": "2023-10-17T12:46:58.015Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
