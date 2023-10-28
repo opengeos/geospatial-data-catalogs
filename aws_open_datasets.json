@@ -14761,6 +14761,24 @@
         "Host": null
     },
     {
+        "Name": "Opioid Industry Documents Archive (OIDA) Data on AWS",
+        "Description": "Raw data from the Opioid Industry Documents Archive (OIDA), including documents",
+        "ARN": "arn:aws:s3:::opioid-industry-documents-archive-dataset-bucket",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://opioid-industry-documents-archive-dataset-bucket.s3.amazonaws.com/index.",
+        "Contact": "opioidarchive@jh.edu",
+        "ManagedBy": "Johns Hopkins University",
+        "UpdateFrequency": "monthly",
+        "License": "https://www.industrydocuments.ucsf.edu/opioids/help/copyright/",
+        "Tags": "archives, text analysis, txt, pharmaceutical",
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Orcasound - bioacoustic data for marine conservation - Archived lossless orca audio data (FLAC)",
         "Description": "Archived lossless orca audio data (FLAC)",
         "ARN": "arn:aws:s3:::archive-orcasound-net",
