@@ -13,7 +13,7 @@
         "Tags": "aws-pds, earth observation, environmental, geospatial, satellite imagery, sustainability, stac, cog, land cover, land use, machine learning, mapping, planetary",
         "RequesterPays": null,
         "Explore": [
-            "[STAC 1.0.0 endpoint](https://api.impactobservatory.com/stac-aws/collections/io-annual-lulc)"
+            "[STAC 1.0.0 endpoint](https://api.impactobservatory.com/stac-aws/collections/io-10m-annual-lulc/items)"
         ],
         "AccountRequired": null,
         "Host": null
@@ -889,7 +889,9 @@
         "License": "https://www.ucar.edu/terms-of-use/data",
         "Tags": "climate, model, climate model, atmosphere, oceans, land, ice, geospatial, aws-pds, sustainability",
         "RequesterPays": null,
-        "Explore": null,
+        "Explore": [
+            "[Browse Bucket](https://ncar-cesm2-arise.s3.amazonaws.com/index.html)"
+        ],
         "AccountRequired": null,
         "Host": null
     },
@@ -9992,7 +9994,7 @@
     },
     {
         "Name": "Spitzer Enhanced Imaging Products (SEIP) Super Mosaics",
-        "Description": "36, 45, 58, 8, and 24 micron mean and median mosaics with corresponding uncer",
+        "Description": "SEIP Super Mosaics: 36, 45, 58, 8, and 24 micron mean and median mosaics with",
         "ARN": "arn:aws:s3:::nasa-irsa-spitzer/spitzer/seip",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
