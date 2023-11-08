@@ -102,7 +102,7 @@
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": "aws-pds, earth observation, environmental, geospatial, satellite imagery, sustainability, stac, cog, land cover, land use, machine learning, mapping, planetary",
         "Explore": [
-            "[STAC 1.0.0 endpoint](https://api.impactobservatory.com/stac-aws/collections/io-annual-lulc)"
+            "[STAC 1.0.0 endpoint](https://api.impactobservatory.com/stac-aws/collections/io-10m-annual-lulc/items)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -2712,7 +2712,9 @@
         "UpdateFrequency": "Rare once complete (August 2022)",
         "License": "https://www.ucar.edu/terms-of-use/data",
         "Tags": "climate, model, climate model, atmosphere, oceans, land, ice, geospatial, aws-pds, sustainability",
-        "Explore": null,
+        "Explore": [
+            "[Browse Bucket](https://ncar-cesm2-arise.s3.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -5279,6 +5281,26 @@
         "Host": null
     },
     {
+        "Name": "GEOGloWS Hydrologic Model Version 2",
+        "Description": "GEOGloWS Hydrologic Model Version 2",
+        "ARN": "arn:aws:s3:::geoglows-v2",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://data.geoglows.org",
+        "Contact": "https://groups.google.com/g/geoglows",
+        "ManagedBy": "Riley Hales",
+        "UpdateFrequency": "Monthly",
+        "License": "[Creative Commons BY 4 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/",
+        "Tags": "aws-pds, hydrology, hydrologic model, simulations, zarr, hydrography, geopackage",
+        "Explore": [
+            "[Browse Bucket](http://geoglows-v2.s3-website-us-west-2.amazonaws.com)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "GEOS-Chem Input Data",
         "Description": "Top-level directory for all GEOS-Chem data",
         "ARN": "arn:aws:s3:::gcgrid",
@@ -6193,6 +6215,24 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
+        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -6205,24 +6245,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [term",
-        "Tags": "aws-pds, earth observation, biodiversity, bioinformatics, conservation, life sciences",
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -9243,6 +9265,26 @@
         "Host": null
     },
     {
+        "Name": "NIFS Large Helical Device (LHD) Experiment",
+        "Description": "LHD Diagnostic data",
+        "ARN": "arn:aws:s3:::nifs-lhd-diag",
+        "Region": "ap-northeast-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www-lhd.nifs.ac.jp/pub/Repository_en.html",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the",
+        "ManagedBy": "[NIFS](https://www.nifs.ac.jp/)",
+        "UpdateFrequency": "Archived data files are updated nightly when new or revised data are generated i",
+        "License": "This data is available for anyone to use under the \"[Rights and Rules](https://w",
+        "Tags": "analytics, anomaly detection, archives, aws-pds, computed tomography, datacenter, digital assets, electricity, energy, fluid dynamics, image processing, physics, post-processing, radiation, signal processing, source code, turbulence, video, x-ray, x-ray tomography",
+        "Explore": [
+            "[Browse Bucket](https://nifs-lhd-diag.s3.amazonaws.com/)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "NIH NCBI PubMed Central (PMC) Article Datasets - Full-Text Biomedical and Life Sciences Journal Articles on AWS",
         "Description": "xml and txt files with the full-text of articles; txt and csv file lists for",
         "ARN": "arn:aws:s3:::pmc-oa-opendata",
@@ -10893,6 +10935,24 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": "aws-pds, agriculture, climate, meteorological, weather",
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -10912,24 +10972,6 @@
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": "aws-pds, agriculture, climate, meteorological, weather",
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11891,7 +11933,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
@@ -11909,7 +11951,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowe",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:",
@@ -17144,7 +17186,7 @@
     },
     {
         "Name": "Spitzer Enhanced Imaging Products (SEIP) Super Mosaics",
-        "Description": "36, 45, 58, 8, and 24 micron mean and median mosaics with corresponding uncer",
+        "Description": "SEIP Super Mosaics: 36, 45, 58, 8, and 24 micron mean and median mosaics with",
         "ARN": "arn:aws:s3:::nasa-irsa-spitzer/spitzer/seip",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
@@ -18668,7 +18710,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
@@ -18686,7 +18728,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set - gVCF and VCF files from The iHART whole genome sequencing study, control data se",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data se",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
