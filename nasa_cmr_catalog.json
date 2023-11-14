@@ -1573,19 +1573,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ATL02.v005",
-        "title": "ATLAS/ICESat-2 L1B Converted Telemetry Data V005",
-        "catalog": "NSIDC_CPRD",
-        "state_date": "2018-10-13",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2153572246-NSIDC_CPRD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153572246-NSIDC_CPRD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL02.v005",
-        "description": "This data set (ATL02) contains science unit-converted, time-ordered telemetry data, calibrated for instrument effects, downlinked from the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory. The data are used by the ATLAS/ICESat-2 Science Investigator-led Processing System (SIPS) for system\u2013level, quality control analysis and as source data for ATLAS/ICESat-2 Level-2 products and the Precision Orbit Determination (POD) and Precision Pointing Determination (PPD) computations.",
-        "license": "not-provided"
-    },
-    {
         "id": "ATL02.v006",
         "title": "ATLAS/ICESat-2 L1B Converted Telemetry Data V006",
         "catalog": "NSIDC_CPRD",
@@ -1648,6 +1635,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2613553327-NSIDC_CPRD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL04.v006",
         "description": "ATL04 contains along-track normalized relative backscatter profiles of the atmosphere. The product includes full 532 nm (14 km) uncalibrated attenuated backscatter profiles at 25 times per second for vertical bins of approximately 30 meters. Calibration coefficient values derived from data within the polar regions are also included. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ATL08.v005",
+        "title": "ATLAS/ICESat-2 L3A Land and Vegetation Height V005",
+        "catalog": "NSIDC_CPRD",
+        "state_date": "2018-10-14",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574670-NSIDC_CPRD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2153574670-NSIDC_CPRD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL08.v005",
+        "description": "This data set (ATL08) contains along-track heights above the WGS84 ellipsoid (ITRF2014 reference frame) for the ground and canopy surfaces. The canopy and ground surfaces are processed in fixed 100 m data segments, which typically contain more than 100 signal photons. The data were acquired by the Advanced Topographic Laser Altimeter System (ATLAS) instrument on board the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) observatory.",
         "license": "not-provided"
     },
     {
@@ -4095,16 +4095,16 @@
         "license": "not-provided"
     },
     {
-        "id": "PACE_OCI_L0.v1",
-        "title": "PACE OCI Level-0 Data, version 1",
+        "id": "PACE_OCI_L0_SCI.v1",
+        "title": "PACE OCI Level-0 Science Data, version 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2023-07-01",
+        "state_date": "2022-03-20",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789773781-OB_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789773781-OB_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_OCI_L0.v1",
-        "description": "PACE's primary sensor is the Ocean Color Instrument (OCI). It is a highly advanced optical spectrometer that will be used to measure properties of light over portions of the electromagnetic spectrum. It will enable continuous measurement of light at finer wavelength resolution than previous NASA satellite sensors, extending key system ocean color data records for climate studies.",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2801269322-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2801269322-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_OCI_L0_SCI.v1",
+        "description": "PACE's primary sensor is the Ocean Color Instrument (OCI). It is a highly advanced optical  spectrometer that will be used to measure properties of light over portions of the  electromagnetic spectrum. It will enable continuous measurement of light at finer wavelength  resolution than previous NASA satellite sensors, extending key system ocean color data  records for climate studies.",
         "license": "not-provided"
     },
     {
