@@ -289,10 +289,10 @@
     },
     {
         "Name": "Maxar Open Data Program",
-        "Endpoint": "https://radiantearth.github.io/stac-browser/#/external/maxar-opendata.s3.amazonaws.com/events/catalog.json",
+        "Endpoint": "https://radiantearth.github.io/stac-browser/#/external/maxar-opendata.s3.dualstack.us-west-2.amazonaws.com/events/catalog.json",
         "Description": "Imagery and metadata",
         "ARN": "arn:aws:s3:::maxar-opendata",
-        "Region": "us-east-1",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "RequesterPays": null
     },
