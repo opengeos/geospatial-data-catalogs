@@ -5955,7 +5955,7 @@
         "Name": "Maxar Open Data Program",
         "Description": "Imagery and metadata",
         "ARN": "arn:aws:s3:::maxar-opendata",
-        "Region": "us-east-1",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.maxar.com/open-data",
         "Contact": "https://www.maxar.com/open-data",
@@ -5972,7 +5972,7 @@
         ],
         "RequesterPays": null,
         "Explore": [
-            "[STAC Browser](https://radiantearth.github.io/stac-browser/#/external/maxar-opendata.s3.amazonaws.com/events/catalog.json)",
+            "[STAC Browser](https://radiantearth.github.io/stac-browser/#/external/maxar-opendata.s3.dualstack.us-west-2.amazonaws.com/events/catalog.json)",
             "[STAC Catalog](https://stacindex.org/catalogs/maxar-open-data-catalog-ard-format#/)"
         ],
         "AccountRequired": null,

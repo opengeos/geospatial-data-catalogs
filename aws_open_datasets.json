@@ -1333,7 +1333,7 @@
         "ARN": "arn:aws:s3:::aind-open-data",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://aind-data-schema.readthedocs.io/en/latest/opendata.html",
+        "Documentation": "https://allenneuraldynamics.github.io/data.html#aind-open-data",
         "Contact": "aindopendata@alleninstitute.org",
         "ManagedBy": "[Allen Institute](http://neuraldynamics.alleninstitute.org/)",
         "UpdateFrequency": "Weekly",
@@ -11721,7 +11721,7 @@
         "Name": "Maxar Open Data Program",
         "Description": "Imagery and metadata",
         "ARN": "arn:aws:s3:::maxar-opendata",
-        "Region": "us-east-1",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.maxar.com/open-data",
         "Contact": "https://www.maxar.com/open-data",
@@ -11737,7 +11737,7 @@
             "stac"
         ],
         "Explore": [
-            "[STAC Browser](https://radiantearth.github.io/stac-browser/#/external/maxar-opendata.s3.amazonaws.com/events/catalog.json)",
+            "[STAC Browser](https://radiantearth.github.io/stac-browser/#/external/maxar-opendata.s3.dualstack.us-west-2.amazonaws.com/events/catalog.json)",
             "[STAC Catalog](https://stacindex.org/catalogs/maxar-open-data-catalog-ard-format#/)"
         ],
         "RequesterPays": null,
