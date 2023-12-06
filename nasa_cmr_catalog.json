@@ -884,6 +884,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AERDT_L2_VIIRS_NOAA20_NRT.v2",
+        "title": "VIIRS/NOAA-20 Dark Target Aerosol L2 6-Min Swath (v2.0)",
+        "catalog": "ASIPS",
+        "state_date": "2023-11-15",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2812413911-ASIPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2812413911-ASIPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ASIPS/collections/AERDT_L2_VIIRS_NOAA20_NRT.v2",
+        "description": "The NOAA-20 - formerly the Joint Polar Satellite System-1 (JPSS-1) - Visible Infrared Imaging Radiometer Suite (VIIRS) NASA standard Level-2 (L2) dark target (DT) aerosol product provides satellite-derived measurements of Aerosol Optical Thickness (AOT) and their properties over land and ocean, and spectral AOT and their size parameters over oceans every 6 minutes, globally. The VIIRS incarnation of the DT aerosol product is based on the same DT algorithm that was developed and used to derive products from the Terra and Aqua missions' Moderate Imaging Spectroradiometer (MODIS) instruments. Two separate and distinct DT algorithms exist. One helps retrieve aerosol information over ocean (dark in visible and longer wavelengths), while the second aids retrievals over vegetated/dark-soiled land (dark in the visible wavelengths).    This orbit-level product (Short-name: AERDT_L2_VIIRS_NOAA20_NRT) has an at-nadir resolution of 6 km x 6 km, and progressively increases away from nadir given the sensor's scanning geometry and Earth's curvature. Viewed differently, this product's resolution accommodates 8 x 8 native VIIRS moderate-resolution (M-band) pixels that nominally have ~750 m horizontal pixel size. Hence, the Level-2 Dark Target Aerosol Optical Thickness data product incorporates 64 (750 m) pixels over a 6-minute acquisition. This Version-2 set of products is the first collection of the Level-2 Dark Target Aerosol derived from the NOAA-20 VIIRS source. Hence, it bears outlining the differences between the products derived from NOAA-20 VIIRS as against the Suomi National Polar-orbiting Partnership (NOAA20) VIIRS.",
+        "license": "not-provided"
+    },
+    {
         "id": "AERDT_L2_VIIRS_SNPP_NRT.v1.1",
         "title": "VIIRS/SNPP Dark Target Aerosol L2 6-Min Swath",
         "catalog": "ASIPS",
@@ -894,6 +907,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1976333380-ASIPS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ASIPS/collections/AERDT_L2_VIIRS_SNPP_NRT.v1.1",
         "description": "The Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS) NASA standard Level-2 (L2) dark target (DT) aerosol product provides satellite-derived measurements of Aerosol Optical Thickness (AOT) and their properties over land and ocean, and spectral AOT and their size parameters over oceans every 6 minutes, globally. The VIIRS incarnation of the DT aerosol product is based on the same DT algorithm that was developed and used to derive products from the Terra and Aqua mission\u2019s MODIS instruments. Two separate and distinct DT algorithms exist. One helps retrieve aerosol information over ocean (dark in visible and longer wavelengths), while the second aids retrievals over vegetated/dark-soiled land (dark in the visible).",
+        "license": "not-provided"
+    },
+    {
+        "id": "AERDT_L2_VIIRS_SNPP_NRT.v2",
+        "title": "VIIRS/SNPP Dark Target Aerosol L2 6-Min Swath (v2.0)",
+        "catalog": "ASIPS",
+        "state_date": "2023-11-15",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2812412751-ASIPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2812412751-ASIPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ASIPS/collections/AERDT_L2_VIIRS_SNPP_NRT.v2",
+        "description": "The Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS) NASA standard Level-2 (L2) dark target (DT) aerosol product provides satellite-derived measurements of Aerosol Optical Thickness (AOT) and their properties over land and ocean, and spectral AOT and their size parameters over oceans every 6 minutes, globally. The VIIRS incarnation of the DT aerosol product is based on the same DT algorithm that was developed and used to derive products from the Terra and Aqua mission\u2019s MODIS instruments. Two separate and distinct DT algorithms exist. One helps retrieve aerosol information over ocean (dark in visible and longer wavelengths), while the second aids retrievals over vegetated/dark-soiled land (dark in the visible).    This orbit-level product (Short-name: AERDT_L2_VIIRS_SNPP_NRT) has an at-nadir resolution of 6 km x 6 km, and progressively increases away from nadir given the sensor's scanning geometry and Earth's curvature. Viewed differently, this product's resolution accommodates 8 x 8 native VIIRS moderate-resolution (M-band) pixels that nominally have ~750 m horizontal pixel size. Hence, the Level-2 Dark Target Aerosol Optical Thickness data product incorporates 64 (750 m) pixels over a 6-minute acquisition. Version 2.0 constitutes the latest collection of the L2 Dark Target Aerosol product and contains improvements over its previous collection (v1.1).",
         "license": "not-provided"
     },
     {
@@ -3380,6 +3406,19 @@
         "license": "not-provided"
     },
     {
+        "id": "MCD14DL_C5_NRT.v005",
+        "title": "MODIS/Aqua+Terra Thermal Anomalies/Fire locations 1km FIRMS V005 NRT",
+        "catalog": "LM_FIRMS",
+        "state_date": "2014-01-28",
+        "end_date": "",
+        "bbox": "-180, -80, 180, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LM_FIRMS/collections/MCD14DL_C5_NRT.v005",
+        "description": "Near Real-Time (NRT) MODIS Thermal Anomalies / Fire locations processed by FIRMS (Fire Information for Resource Management System) - Land Atmosphere Near real time Capability for EOS (LANCE), using swath products (MOD14/MYD14) rather than the tiled MOD14A1 and MYD14A1 products. The thermal anomalies / active fire represent the center of a 1km pixel that is flagged by the MODIS MOD14/MYD14 Fire and Thermal Anomalies algorithm (Giglio 2003) as containing one or more fires within the pixel. This is the most basic fire product in which active fires and other thermal anomalies, such as volcanoes, are identified.MCD14DL are available in the following formats: TXT, SHP, KML, WMS. These data are also provided through the FIRMS Fire Email Alerts. Please note only the TXT and SHP files contain all the attributes.",
+        "license": "not-provided"
+    },
+    {
         "id": "MIANACP.v1",
         "title": "MISR Aerosol Climatology Product V001",
         "catalog": "LARC",
@@ -4017,6 +4056,123 @@
         "license": "not-provided"
     },
     {
+        "id": "PACE_HARP2_L0.v1",
+        "title": "PACE HARP2 Level-0 Instrument Telemetry/Multi-Detector Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798249-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798249-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
+        "id": "PACE_HARP2_L0_D1.v1",
+        "title": "PACE HARP2 Level-0 Detector 1 (D1) Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798238-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798238-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_D1.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
+        "id": "PACE_HARP2_L0_D2.v1",
+        "title": "PACE HARP2 Level-0 Detector 2 (D2) Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798239-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798239-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_D2.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle  imaging polarimeter designed to measure aerosol particles and clouds, as well  as properties of land and water surfaces. HARP2 will combine data from multiple  along-track viewing angles (up to 60), four spectral bands in the visible and  near infrared ranges, and three angles of linear polarization to measure the  microphysical properties of the atmospheric particles including their size  distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
+        "id": "PACE_HARP2_L0_D3.v1",
+        "title": "PACE HARP2 Level-0 Detector 3 (D3) Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798240-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798240-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_D3.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
+        "id": "PACE_HARP2_L0_REAL.v1",
+        "title": "PACE HARP2 Level-0 Real-time Direct Transfer Mode Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798243-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798243-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_REAL.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
+        "id": "PACE_HARP2_L0_SCI.v1",
+        "title": "PACE HARP2 Level-0 Science Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798245-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798245-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_SCI.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle  imaging polarimeter designed to measure aerosol particles and clouds, as well  as properties of land and water surfaces. HARP2 will combine data from multiple  along-track viewing angles (up to 60), four spectral bands in the visible and  near infrared ranges, and three angles of linear polarization to measure the  microphysical properties of the atmospheric particles including their size  distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
+        "id": "PACE_HARP2_L1A_AST0.v1",
+        "title": "PACE HARP2 Level-1A Acquisition Scheme Type 0 - Full-Resolution Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798253-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798253-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L1A_AST0.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle  imaging polarimeter designed to measure aerosol particles and clouds, as well  as properties of land and water surfaces. HARP2 will combine data from multiple  along-track viewing angles (up to 60), four spectral bands in the visible and  near infrared ranges, and three angles of linear polarization to measure the  microphysical properties of the atmospheric particles including their size  distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
+        "id": "PACE_HARP2_L1A_AST1.v1",
+        "title": "PACE HARP2 Level-1A Acquisition Scheme Type 1 - Half-Resolution Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798256-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798256-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L1A_AST1.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
+        "id": "PACE_HARP2_L1A_AST2.v1",
+        "title": "PACE HARP2 Level-1A Acquisition Scheme Type 2 - Science Mode (no MTDI) Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2022-03-20",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798261-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798261-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L1A_AST2.v1",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument is a wide angle  imaging polarimeter designed to measure aerosol particles and clouds, as well  as properties of land and water surfaces. HARP2 will combine data from multiple  along-track viewing angles (up to 60), four spectral bands in the visible and  near infrared ranges, and three angles of linear polarization to measure the  microphysical properties of the atmospheric particles including their size  distribution, amount, refractive indices and particle shape.",
+        "license": "not-provided"
+    },
+    {
         "id": "PM1EPHND_NRT.v6.1NRT",
         "title": "MODIS/Aqua 24-hour Spacecraft ephemeris/orbit data files to be read via SDP Toolkit Binary Format - NRT",
         "catalog": "LANCEMODIS",
@@ -4092,6 +4248,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2216864433-ORNL_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/SRDB_V5_1827.v5",
         "description": "The Soil Respiration Database (SRDB) is a near-universal compendium of published soil respiration (Rs) data. The database encompasses published studies that report at least one of the following data measured in the field (not laboratory): annual soil respiration, mean seasonal soil respiration, a seasonal or annual partitioning of soil respiration into its source fluxes, soil respiration temperature response (Q10), or soil respiration at 10 degrees C. The SRDB's orientation is to seasonal and annual fluxes, not shorter-term or chamber-specific measurements, and the database is dominated by temperate, well-drained forest measurement locations. Version 5 (V5) is the compilation of 2,266 published studies with measurements taken between 1961-2017. V5 features more soil respiration data published in Russian and Chinese scientific literature for better global spatio-temporal coverage and improved global climate-space representation. The database is also restructured to have better interoperability with other datasets related to carbon-cycle science.",
+        "license": "not-provided"
+    },
+    {
+        "id": "SeaWiFS_L2_GAC_OC.vR2022.0",
+        "title": "OrbView-2 SeaWiFS Regional Global Area Coverage (GAC) Ocean Color (OC) Data, version R2022.0",
+        "catalog": "OB_CLOUD",
+        "state_date": "1997-09-04",
+        "end_date": "2010-12-11",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789774382-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789774382-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/SeaWiFS_L2_GAC_OC.vR2022.0",
+        "description": "The SeaWiFS instrument was launched by Orbital Sciences Corporation on the OrbView-2 (a.k.a. SeaStar) satellite in August 1997, and collected data from September 1997 until the end of mission in December 2010. SeaWiFS had 8 spectral bands from 412 to 865 nm. It collected global data at 4 km resolution, and local data (limited onboard storage and direct broadcast) at 1 km. The mission and sensor were optimized for ocean color measurements, with a local noon (descending) equator crossing time orbit, fore-and-aft tilt capability, full dynamic range, and low polarization sensitivity.",
         "license": "not-provided"
     },
     {
@@ -4381,6 +4550,19 @@
         "license": "not-provided"
     },
     {
+        "id": "a-numerical-solver-for-heat-and-mass-transport-in-snow-based-on-fenics.v1.0",
+        "title": "A numerical solver for heat and mass transport in snow based on FEniCS",
+        "catalog": "ENVIDAT",
+        "state_date": "2022-01-01",
+        "end_date": "2022-01-01",
+        "bbox": "9.8472494, 46.812044, 9.8472494, 46.812044",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814662-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814662-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/a-numerical-solver-for-heat-and-mass-transport-in-snow-based-on-fenics.v1.0",
+        "description": "This python code uses the Finite Element library FEniCS (via docker) to solve the one dimensional partial differential equations for heat and mass transfer in snow. The results are written in vtk format.     The dataset contains the code and the output data to reproduce the key Figure 5 from the related publication:    _Sch\u00fcrholt, K., Kowalski, J., L\u00f6we, H.; Elements of future snowpack modeling - Part 1: A physical  instability arising from the non-linear coupling of transport and phase changes, The Cryosphere, 2022_    The code and potential updates can be accessed directly through git via:    https://gitlabext.wsl.ch/snow-physics/snowmodel_fenics",
+        "license": "not-provided"
+    },
+    {
         "id": "a6efcb0868664248b9cb212aba44313d",
         "title": "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 2 aerosol products from MERIS (ALAMO algorithm), Version 2.2",
         "catalog": "FEDEO",
@@ -4404,6 +4586,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2645106424-GHRC_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/GHRC_DAAC/collections/aamhcpex.v1",
         "description": "The AAMH CPEX dataset contains products obtained from the MetOp-A, MetOp-B, NOAA-18, and NOAA-19 satellites. These data were collected in support of the NASA Convective Processes Experiment (CPEX) field campaign. The CPEX field campaign took place in the North Atlantic-Gulf of Mexico-Caribbean Sea region from 25 May-25 June 2017. CPEX conducted a total of sixteen DC-8 missions from 27 May-24 June. The CPEX campaign collected data to help explain convective storm initiation, organization, growth, and dissipation in the North Atlantic-Gulf of Mexico-Caribbean Oceanic region during the early summer of 2017. These data are available from May 26, 2017 through July 15, 2017 and are available in netCDF-4 format.",
+        "license": "not-provided"
+    },
+    {
+        "id": "above-and-below-ground-herbivore-communities-along-elevation.v1.0",
+        "title": "Above- and below-ground herbivore communities along elevation",
+        "catalog": "ENVIDAT",
+        "state_date": "2020-01-01",
+        "end_date": "2020-01-01",
+        "bbox": "5.95587, 45.81802, 10.49203, 47.80838",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814648-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814648-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/above-and-below-ground-herbivore-communities-along-elevation.v1.0",
+        "description": "Despite the common role of above- and below-ground herbivore communities in mediating ecosystem functioning, our understanding of the variation of species communities along natural gradient is largely strongly biased toward aboveground organisms. This dataset enables to study the variations in assemblages of two dominant groups of herbivores, namely, aboveground orthoptera and belowground nematodes together with their food plants. Herbivores and plant surveys were conducted in 48 natural grasslands along six elevation gradients, selected to span the major macro-climatic and environmental conditions of the Swiss Alps. It compiles herbivores and plant surveys, information on the study sites as well as plant and herbivores functional traits sought to be involved in trophic interactions and to respond to climatic variation along the elevation. Plant functional traits considered are the SLA, the LDMC, the C/N content, the punch strength (i.e. force required to pierce the leave lamina), the mandibular strength for Orthoptera insect. Data were collected during the summer 2016 and 2017. ",
         "license": "not-provided"
     },
     {
@@ -4482,6 +4677,58 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1977858342-GHRC_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/GHRC_DAAC/collections/aces1trig.v1",
         "description": "The ALTUS Cloud Electrification Study (ACES) was based at the Naval Air Facility Key West in Florida. During August 2002, ACES researchers conducted overflights of thunderstorms over the southwestern corner of Florida. For the first time in NASA research, an uninhabited aerial vehicle (UAV) named ALTUS was used to collect cloud electrification data. Carrying field mills, optical sensors, electric field sensors and other instruments, ALTUS allowed scientists to collect cloud electrification data for the first time from above the storm, from its birth through dissipation. This experiment allowed scientists to achieve the dual goals of gathering weather data safely and testing new aircraft technology. This dataset consists of data collected from the following instruments: Slow/Fast antenna, Electric Field Mill, Optical Pulse Sensors, Searchcoil Magnetometer, Accelerometer, and Gerdien Conductivity Probe. These data were collected at 200KHz from the first 16 telemetry items collected on the aircraft, were initiated by an operator selected trigger (e.g. DOPS), and continued collecting for as long as the trigger continued.",
+        "license": "not-provided"
+    },
+    {
+        "id": "aerosol-data-davos-wolfgang.v1.0",
+        "title": "Aerosol Data Davos Wolfgang",
+        "catalog": "ENVIDAT",
+        "state_date": "2020-01-01",
+        "end_date": "2020-01-01",
+        "bbox": "9.853594, 46.835577, 9.853594, 46.835577",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814678-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814678-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/aerosol-data-davos-wolfgang.v1.0",
+        "description": "Aerosol properties were measured between February 8 and March 31 2019  at the measurement site Davos Wolfgang (LON: 9.853594, LAT: 46.835577). Optical and aerodynamic particle counters, as well as a scanning mobility particle size spectrometer and an ice nuclei counter were deployed to report particle concentrations and size distributions in fine (10-1000 nm) and coarse mode (> 1000 nm), cloud condensation nuclei concentrations (CCNCs) and ice nuclei particle concentrations (ICNCs). The ambient particles were transported via a heated inlet to be distributed to the particle detecting devices inside the setup room.    Optical Particle Counter (OPC): Light scattering of a diode laser beam caused by travelling particles is used in the both, the OPC-N3 (0.41 - 38.5 &#956;m) and GT-526S (0.3 \u2013 5 &#956;m), to determine their size and number concentration. For the OPC-N3, particle size spectra and concentration data are used afterwards to calculate PM&#8321;, PM&#8322;,&#8325; and PM&#8321;&#8320; (assumptions: particle density: 1.65 g cm&#713;&#179;, refractive index: 1.5+i0).    Aerodynamic Particle Sizer (APS): The APS (3321, TSI Inc.) measured the particle size distribution for aerodynamic diameters between 0.5 &#956;m and ~20 &#956;m by the particle\u2019s time-of-flight and light-scattering intensity (assumptions: particle density 1 g cm&#713;&#179;).    Scanning Mobility Particle Size Spectrometer (SMPS): Particle number concentrations in a size range between 12 and 460 nm (electrical mobility diameter) were measured at Davos Wolfgang, using a Scanning Mobility Particle Sizer Spectrometer (3938, TSI Inc.). The classifier (3082, TSI Inc.) was equipped with a neutralizer (3088, TSI Inc.) and a differential mobility analyzer working with negative polarity (3081, TSI Inc.). The size selected particles were counted by a water-based condensation particle counter (3788 , TSI Inc.). The TSI AIM software was used to provide particle size distributions by applying multiple charge and diffusion loss corrections (assumptions: particle density 1 g cm&#713;&#179;).     Coriolis &#956; and DRINCZ: A microbial air sampler (Coriolis &#956;, bertin Instruments) was used to collect airborne particles for investigating their ice nucleating ability with a droplet freezing device. Particles larger than 0.5 &#956;m were drawn with an air flow rate of up to 300 l min&#713;&#185; into the cone and centrifuged into the wall of the cone due to the forming vortex. The liquid sample was transferred into the DRoplet Ice Nuclei Counter Zurich (DRINCZ, ETH Zurich) to study heterogeneous ice formation (immersion freezing mode) of ambient airborne particles. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "aerosol-data-weissfluhjoch.v1.0",
+        "title": "Aerosol Data Weissfluhjoch",
+        "catalog": "ENVIDAT",
+        "state_date": "2020-01-01",
+        "end_date": "2020-01-01",
+        "bbox": "9.806475, 46.832964, 9.806475, 46.832964",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814736-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814736-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/aerosol-data-weissfluhjoch.v1.0",
+        "description": "Aerosol properties were measured between February 8 and March 31 2019  at the measurement site Weissfluhjoch (LON: 9.806475, LAT: 46.832964). Optical and aerodynamic particle counters, as well as a scanning mobility particle size spectrometer and an ice nuclei counter were deployed to report particle concentrations and size distributions in fine (10-1000 nm) and coarse mode (> 1000 nm), cloud condensation nuclei concentrations (CCNCs), and ice nuclei particle concentrations (ICNCs). The ambient particles were transported via a heated inlet to be distributed to the particle detecting devices inside the setup room.     Optical Particle Counter (OPC): Light scattering of a diode laser beam caused by travelling particles is used in the both, the OPC-N3 (0.41 - 38.5 &#956;m) and GT-526S (0.3 \u2013 5 &#956;m), to determine their size and number concentration. For the OPC-N3, particle size spectra and concentration data are used afterwards to calculate PM&#8321;, PM&#8322;,&#8325; and PM&#8321;&#8320; (assumptions: particle density: 1.65 g cm&#713;&#179;, refractive index: 1.5+i0).     Aerodynamic Particle Sizer (APS): The APS (3321, TSI Inc.) measured the particle size distribution for aerodynamic diameters between 0.5 &#956;m and ~20 &#956;m by the particle\u2019s time-of-flight and light-scattering intensity (assumptions: particle density 1 g cm&#713;&#179;).     Scanning Mobility Particle Size Spectrometer (SMPS): Particle number concentrations in a size range between 12 and 460 nm (electrical mobility diameter) were measured at Davos Wolfgang, using a Scanning Mobility Particle Sizer Spectrometer (SMPS 3938, TSI Inc.). The classifier (3082, TSI Inc.) was equipped with a neutralizer (3088, TSI Inc.) and a differential mobility analyzer working with negative polarity (3081, TSI Inc.). The size selected particles were counted by a water-based condensation particle counter (3787 TSI Inc.). The TSI AIM software was used to provide particle size distributions by applying multiple charge and diffusion loss corrections (assumptions: particle density 1 g cm&#713;&#179;).     Coriolis &#956; and LINDA: A microbial air sampler (Coriolis &#956;, bertin Instruments) was used to collect airborne particles for investigating their ice nucleating ability with a droplet freezing device. Particles larger than 0.5 &#956;m were drawn with an air flow rate of up to 300 l min&#8254;&#185; into the cone and centrifuged into the wall of the cone due to the forming vortex. The liquid sample was transferred into the LED based Ice Nucleation Detection Apparatus (LINDA, University of Basel) to study heterogeneous ice formation (immersion freezing mode) of ambient airborne particles.   ",
+        "license": "not-provided"
+    },
+    {
+        "id": "alnus-glutinosa-orientus-ishidae-flavescence-doree.v1.0",
+        "title": "Alnus glutinosa (L.) Gaertn. and Orientus ishidae (Matsumura, 1902) share phytoplasma genotypes linked to the \u201cFlavescence dor\u00e9e\u201d epidemics",
+        "catalog": "ENVIDAT",
+        "state_date": "2021-01-01",
+        "end_date": "2021-01-01",
+        "bbox": "8.4484863, 45.8115721, 9.4372559, 46.4586735",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814963-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814963-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/alnus-glutinosa-orientus-ishidae-flavescence-doree.v1.0",
+        "description": "Flavescence dor\u00e9e (FD) is a grapevine disease caused by associated phytoplasmas (FDp), which are epidemically spread by their main vector Scaphoideus titanus. The possible roles of alternative and secondary FDp plant hosts and vectors have gained interest to better understand the FDp ecology and epidemiology. A survey conducted in the surroundings of a vineyard in the Swiss Southern Alps aimed at studying the possible epidemiological role of the FDp secondary vector Orientus ishidae and the FDp host plant Alnus glutinosa is reported.     Data used for the publication.  Insects were captured by using a sweeping net (on common alder trees) and yellow sticky traps (Rebell Giallo, Andermatt Biocontrol AG, Switzerland) placed in the vineyard canopy. Insects were later determined and selected for molecular analyses.  Grapevines and common alder samples were collected using the standard techniques. The molecular analyses were conducted in order to identify samples infected by the Flavescence dor\u00e9e phytoplasma (16SrV-p) and the Bois Noir phytoplasma (16SrXII-p). A selection of the infected sampled were further characterized by map genotype and sequenced in order to compare the genotypes in insects, grapevines and common alder trees.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "alpine3d-simulations-of-future-climate-scenarios-for-graubunden.v1.0",
+        "title": "Alpine3D simulations of future climate scenarios for Graubunden",
+        "catalog": "ENVIDAT",
+        "state_date": "2019-01-01",
+        "end_date": "2019-01-01",
+        "bbox": "8.6737061, 46.2216525, 10.6347656, 47.1075228",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814545-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814545-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/alpine3d-simulations-of-future-climate-scenarios-for-graubunden.v1.0",
+        "description": "This is the simulation dataset from _\"Response of snow cover and runoff to climate change in high Alpine catchments of Eastern Switzerland\"_, M. Bavay, T. Gr\u00fcnewald, M. Lehning, Advances in Water Resources __55__, 4-16, 2013    A model study on the impact of climate change on snow cover and runoff has been conducted for the Swiss Canton of Graub\u00fcnden. The model Alpine3D has been forced with the data from 35 Automatic Weather Stations in order to investigate snow and runoff dynamics for the current climate. The data set has then been modified to reflect climate change as predicted for the 2021-2050 and 2070-2095 periods from an ensemble of regional climate models.    The predicted changes in snow cover will be moderate for 2021-2050 and become drastic in the second half of the century. Towards the end of the century the snow cover changes will roughly be equivalent to an elevation shift of 800 m. Seasonal snow water equivalents will decrease by one to two thirds and snow seasons will be shortened by five to nine weeks in 2095.    Small, higher elevation catchments will show more winter runoff, earlier spring melt peaks and reduced summer runoff. Where glacierized areas exist, the transitional increase in glacier melt will initially offset losses from snow melt. Larger catchments, which reach lower elevations will show much smaller changes since they are already dominated by summer precipitation.",
         "license": "not-provided"
     },
     {
@@ -4576,6 +4823,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ch2014.v1",
+        "title": "Alpine3D simulations of future climate scenarios CH2014",
+        "catalog": "ENVIDAT",
+        "state_date": "2014-01-01",
+        "end_date": "2014-01-01",
+        "bbox": "8.227, 46.79959, 8.227, 46.79959",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814657-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814657-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/ch2014.v1",
+        "description": "# Overview    The CH2014-Impacts initiative is a concerted national effort to describe impacts of climate change in Switzerland quantitatively, drawing on the scientific resources available in Switzerland today. The initiative links the recently developed Swiss Climate Change Scenarios CH2011 with an evolving base of quantitative impact models. The use of a common climate data set across disciplines and research groups sets a high standard of consistency and comparability of results. Impact studies explore the wide range of climatic changes in temperature and precipitation projected in CH2011 for the 21st century, which vary with the assumed global level of greenhouse gases, the time horizon, the underlying climate model, and the geographical region within Switzerland. The differences among climate projections are considered using three greenhouse gas scenarios, three future time periods in the 21st century, and three climate uncertainty levels (Figure 1). Impacts are shown with respect to the reference period 1980-2009 of CH2011, and add to any impacts that have already emerged as a result of earlier climate change.    # Experimental Setup    Future snow cover changes are simulated with the physics-based model Alpine3D (Lehning et al., 2006). It is applied to two regions: The canton of Graub\u00fcnden and the Aare catchment. These domains are modeled with a Digital Elevation Model (DEM) with a resolution of 200 m \u00d7 200 m. This defines the simulation grid that has to be filled with land cover data and downscaled meteorological input data for each cell for the time period of interest at hourly resolution. The reference data set consists of automatic weather station data. All meteorological input parameters are spatially interpolated to the simulation grid. The reference period comprises only thirteen years (1999\u20132012), because the number of available high elevation weather stations for earlier times is not sufficient to achieve unbiased distribution of the observations with elevation. The model uses projected temperature and precipitation changes for all greenhouse gas scenarios (A1B, A2, and RCP3PD) and CH2011 time periods (2035, 2060, and 2085).    # Data    Snow cover changes are projected to be relatively small in the near term (2035) (Figure 5.1 top), in particular at higher elevations above 2000 m asl. As shown by Bavay et al. (2013) the spread in projected snow cover for this period is greater between different climate model chains (Chapter 3) than between the reference period and the model chain exhibiting the most moderate change. In the 2085 period much larger changes with the potential to fundamentally transform the snow dominated alpine area become apparent (Figure 5.1 bottom). These changes include a shortening of the snow season by 5\u20139 weeks for the A1B scenario. This is roughly equivalent to an elevation shift of 400\u2013800 m. The slight increase of winter precipitation and therefore snow fall projected in the CH2011 scenarios (with high associated uncertainty) can no longer compensate for the effect of increasing winter temperatures even at high elevations. In terms of Snow Water Equivalents (SWE), the projected reduction is up to two thirds toward the end of the century (2085). A continuous snow cover will be restricted to a shorter time period and/or to regions at increasingly high elevation. In Bern, for example, the number of days per year with at least 5 cm snow depth will decrease by 90% from now 20 days to only 2 days on average.  ",
+        "license": "not-provided"
+    },
+    {
         "id": "chesapeake_val_2013.v0",
         "title": "2013 Chesapeake Bay measurements",
         "catalog": "OB_DAAC",
@@ -4612,6 +4872,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207457985-FEDEO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/ef6a9266-a210-4431-a4af-06cec4274726",
         "description": "Indian Remote Sensing satellites (IRS) are a series of Earth Observation satellites, built, launched and maintained by Indian Space Research Organisation. The IRS series provides many remote sensing services to India and international ground stations. The satellite has two panchromatic cameras that were especially designed for in flight stereo viewing. However, this collection contains the monoscopic data.",
+        "license": "not-provided"
+    },
+    {
+        "id": "envidat-lwf-34.v2019-03-06",
+        "title": "10-HS Pfynwald",
+        "catalog": "ENVIDAT",
+        "state_date": "2019-01-01",
+        "end_date": "2019-01-01",
+        "bbox": "7.61211, 46.30279, 7.61211, 46.30279",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815241-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815241-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/envidat-lwf-34.v2019-03-06",
+        "description": "Continuous measurement of soil water content at 10 and 80 cm depth (3 replications) with 10-HS soil moisture probes (Decagon Incorporation, Pullman, WA, USA).    ### Purpose: ###    Monitoring of the soil water matrix potential        ### Paper Citation: ###     * Dobbertin, M.; Eilmann, B.; Bleuler, P.; Giuggiola, A.; Graf Pannatier, E.; Landolt, W.; Schleppi, P.; Rigling, A., 2010: Effect of irrigation on needle morphology, shoot and stem growth in a drought-exposed Pinus sylvestris forest. Tree Physiology, 30, 3: 346-360. [doi: 10.1093/treephys/tpp123](http://doi.org/10.1093/treephys/tpp123)    ",
         "license": "not-provided"
     },
     {
@@ -4797,6 +5070,19 @@
         "license": "not-provided"
     },
     {
+        "id": "latent-reserves-in-the-swiss-nfi.v1.0",
+        "title": "'Latent reserves' within the Swiss NFI",
+        "catalog": "ENVIDAT",
+        "state_date": "2020-01-01",
+        "end_date": "2020-01-01",
+        "bbox": "5.95587, 45.81802, 10.49203, 47.80838",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815280-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815280-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/latent-reserves-in-the-swiss-nfi.v1.0",
+        "description": "The files refer to the data used in Portier et al. \"\u2018Latent reserves\u2019: a hidden treasure in National Forest Inventories\" (2020) *Journal of Ecology*.           **'Latent reserves'** are defined as plots in National Forest Inventories (NFI) that have been free of human influence for >40 to >70 years. They can be used to investigate and acquire a deeper understanding of attributes and processes of near-natural forests using existing long-term data. To determine which NFI sample plots could be considered \u2018latent reserves\u2019, criteria were defined based on the information available in the Swiss NFI database:           * Shrub forests were excluded.  * Plots must have been free of any kind of management, including salvage logging or sanitary cuts, for a minimum amount of time. Thresholds of 40, 50, 60 and 70 years without intervention were tested.  * To ensure that species composition was not influenced by past management, plots where potential vegetation was classified as deciduous by Ellenberg & Kl\u00f6tzli (1972) had to have an observed proportion of deciduous trees matching the theoretical proportion expected in a natural deciduous forest, as defined by Kienast, Brzeziecki, & Wildi (1994).  * Plots had to originate from natural regeneration.   * Intensive livestock grazing must never have occurred on the plots.          The tables stored here were derived from the first, second and third campaigns of the Swiss NFI. The raw data from the Swiss NFI can be provided free of charge within the scope of a contractual agreement (http://www.lfi.ch/dienstleist/daten-en.php).    ****    The files 'Data figure 2' to 'Data figure 8' are publicly available and contain the data used to produce the figures published in the paper.     The files 'Plot-level data for characterisation of 'latent reserves' and 'Tree-level data for characterisation of 'latent reserves' contain all the data required to reproduce the section of the article concerning the characterisation of 'latent reserves' and the comparison to managed forests. The file 'Data for mortality analyses' contains the data required to reproduce the section of the article concerning tree mortality in 'latent reserves'. The access to these three files is restricted as they contain some raw data from the Swiss NFI, submitted to the Swiss law and only accessible upon contractual agreement.   ",
+        "license": "not-provided"
+    },
+    {
         "id": "law_dome_annual_msa.v1",
         "title": "150 year MSA sea ice proxy record from Law Dome, Antarctica",
         "catalog": "AU_AADC",
@@ -4820,6 +5106,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214313640-AU_AADC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/mbs_wilhelm_msa_hooh.v1",
         "description": "This work presents results from a short firn core spanning 15 years collected from near Mount Brown, Wilhelm II Land, East Antarctica. Variations of methanesulphonic acid (MSA) at Mount Brown were positively correlated with sea-ice extent from the coastal region surrounding Mount Brown (60-1208 E) and from around the entire Antarctic coast (0-3608 E). Previous results from Law Dome identified this MSA-sea-ice relationship and proposed it as an Antarctic sea-ice proxy (Curran and others, 2003), with the strongest results found for the local Law Dome region. Our data provide supporting evidence for the Law Dome proxy (at another site in East Antarctica), but a deeper Mount Brown ice core is required to confirm the sea-ice decline suggested by Curran and others (2003). Results also indicate that this deeper record may also provide a more circum-Antarctic sea-ice proxy.  This work was completed as part of ASAC project 757 (ASAC_757).",
+        "license": "not-provided"
+    },
+    {
+        "id": "pfynwaldgasexchange.v1.0",
+        "title": "2013-2020 gas exchange at Pfynwald",
+        "catalog": "ENVIDAT",
+        "state_date": "2021-01-01",
+        "end_date": "2021-01-01",
+        "bbox": "7.6105556, 46.3001905, 7.6163921, 46.3047564",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789816347-ENVIDAT.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789816347-ENVIDAT.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/pfynwaldgasexchange.v1.0",
+        "description": "Gas exchange was measured on control, irrigated and irrigation-stop trees at the irrigation experiment Pfynwald, during the years 2013, 2014, 2016-2020. The measurement campaigns served different purposes, resulting in a large dataset containing survey data, CO2 response curves of photosynthesis, light response curves of photosynthesis, and fluorescence measurements. Measurements were done with LiCor 6400 and LiCor 6800 instruments. Until 2016, measurements were done on excised branches or branches lower in the canopy. From 2016 onwards, measurements were done in the top of the canopy using fixed installed scaffolds.   All metadata can be found in the attached documents.",
         "license": "not-provided"
     },
     {
