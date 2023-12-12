@@ -1303,6 +1303,31 @@
         "Host": null
     },
     {
+        "Name": "CitrusFarm Dataset",
+        "Description": "CitrusFarm Dataset sequences",
+        "ARN": "arn:aws:s3:::ucr-robotics/citrus-farm-dataset",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://ucr-robotics.github.io/Citrus-Farm-Dataset/",
+        "Contact": "Hanzhe Teng (hteng007@ucr.edu), Konstantinos Karydis (kkarydis@ece.ucr.edu)",
+        "ManagedBy": "[Autonomous Robots and Control Systems Lab](https://sites.google.com/view/arcs-lab)",
+        "UpdateFrequency": "NA",
+        "License": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+        "Tags": [
+            "robotics",
+            "computer vision",
+            "agriculture",
+            "localization",
+            "mapping",
+            "lidar",
+            "IMU"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Cloud Indexes for Bowtie, Kraken, HISAT, and Centrifuge",
         "Description": "This bucket contains genomic indexes for Bowtie, Kraken, HISAT, and Centrifuge",
         "ARN": "arn:aws:s3:::genome-idx",
