@@ -7063,7 +7063,7 @@
         "Host": null
     },
     {
-        "Name": "Downscaled Climate Data for Alaska",
+        "Name": "Downscaled Climate Data for Alaska (v1.1, August 2023)",
         "Description": "Dynamically downscaled climate data for Alaska and surrounding regions",
         "ARN": "arn:aws:s3:::wrf-ak-ar5",
         "Region": "us-east-1",
@@ -14390,8 +14390,8 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Cloud Properties ISCCP",
-        "ARN": "arn:aws:s3:::noaa-cdr-cloud-properties-isccp-pds",
+        "Description": "Cloud Properties Polar Orbiter",
+        "ARN": "arn:aws:s3:::noaa-cdr-cloud-properties-polar-orbiter-nasa-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
@@ -14408,7 +14408,7 @@
             "weather"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-cdr-cloud-properties-isccp-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-cdr-cloud-properties-polar-orbiter-nasa-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -14714,8 +14714,8 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Cloud Properties Polar Orbiter",
-        "ARN": "arn:aws:s3:::noaa-cdr-cloud-properties-polar-orbiter-nasa-pds",
+        "Description": "Cloud Properties ISCCP",
+        "ARN": "arn:aws:s3:::noaa-cdr-cloud-properties-isccp-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
@@ -14732,7 +14732,7 @@
             "weather"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-cdr-cloud-properties-polar-orbiter-nasa-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-cdr-cloud-properties-isccp-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22467,32 +22467,6 @@
     },
     {
         "Name": "Pancreatic Cancer Organoid Profiling",
-        "Description": "WGS/WXS/RNA-Seq Aligned Reads, WXS Annotated Somatic Mutation, WXS Raw Somatic Mutation,RNA-Seq Splice Junction Quantification",
-        "ARN": "arn:aws:s3:::gdc-organoid-pancreatic-phs001611-2-controlled",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001611.v1.p1",
-        "Contact": "dcf-support@datacommons.io",
-        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
-        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
-        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
-        "Tags": [
-            "aws-pds",
-            "cancer",
-            "genetic",
-            "genomic",
-            "transcriptomics",
-            "whole genome sequencing",
-            "STRIDES"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001611.v1.p1",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Pancreatic Cancer Organoid Profiling",
         "Description": "RNA-Seq Gene Expression Quantification",
         "ARN": "arn:aws:s3:::gdc-organoid-pancreatic-phs001611-2-open",
         "Region": "us-east-1",
@@ -22514,6 +22488,32 @@
         "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Pancreatic Cancer Organoid Profiling",
+        "Description": "WGS/WXS/RNA-Seq Aligned Reads, WXS Annotated Somatic Mutation, WXS Raw Somatic Mutation,RNA-Seq Splice Junction Quantification",
+        "ARN": "arn:aws:s3:::gdc-organoid-pancreatic-phs001611-2-controlled",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001611.v1.p1",
+        "Contact": "dcf-support@datacommons.io",
+        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
+        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
+        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
+        "Tags": [
+            "aws-pds",
+            "cancer",
+            "genetic",
+            "genomic",
+            "transcriptomics",
+            "whole genome sequencing",
+            "STRIDES"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001611.v1.p1",
         "AccountRequired": null,
         "Host": null
     },
@@ -22610,136 +22610,6 @@
     },
     {
         "Name": "PoroTomo",
-        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data in SEG-Y format",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/SEG-Y/DASH/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
-        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "geothermal",
-            "seismology",
-            "image processing",
-            "geospatial"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FSEG-Y%2FDASH%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "PoroTomo",
-        "Description": "PoroTomo Datasets",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
-        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "geothermal",
-            "seismology",
-            "image processing",
-            "geospatial"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "PoroTomo",
-        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/H5/DASH/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
-        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "geothermal",
-            "seismology",
-            "image processing",
-            "geospatial"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FH5%2FDASH%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "PoroTomo",
-        "Description": "PoroTomo Vertical Distributed Acoustic Sensing (DASV) Data in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/H5/DASV/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
-        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "geothermal",
-            "seismology",
-            "image processing",
-            "geospatial"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FH5%2FDASV%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "PoroTomo",
-        "Description": "HSDS PoroTomo domains",
-        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/porotomo/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
-        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "geothermal",
-            "seismology",
-            "image processing",
-            "geospatial"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fporotomo%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "PoroTomo",
         "Description": "PoroTomo Vertical Distributed Acoustic Sensing (DASV) Data in SEG-Y format",
         "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/SEG-Y/DASV/",
         "Region": "us-west-2",
@@ -22792,8 +22662,8 @@
     },
     {
         "Name": "PoroTomo",
-        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data Resampled in Time MATLAB Files",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/SEG-Y/DASH/Resampled/",
+        "Description": "PoroTomo Nodal Seismometer Field Notes and Metadata",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/Nodal/nodal_metadata/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
@@ -22809,7 +22679,7 @@
             "geospatial"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FSEG-Y%2FDASH%2FResampled%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=Nodal%2Fnodal_metadata%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22844,8 +22714,8 @@
     },
     {
         "Name": "PoroTomo",
-        "Description": "PoroTomo Nodal Seismometer Field Notes and Metadata",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/Nodal/nodal_metadata/",
+        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/H5/DASH/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
@@ -22861,7 +22731,137 @@
             "geospatial"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=Nodal%2Fnodal_metadata%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FH5%2FDASH%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "PoroTomo",
+        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data Resampled in Time MATLAB Files",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/SEG-Y/DASH/Resampled/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
+        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "geothermal",
+            "seismology",
+            "image processing",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FSEG-Y%2FDASH%2FResampled%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "PoroTomo",
+        "Description": "HSDS PoroTomo domains",
+        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/porotomo/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
+        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "geothermal",
+            "seismology",
+            "image processing",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fporotomo%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "PoroTomo",
+        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data in SEG-Y format",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/SEG-Y/DASH/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
+        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "geothermal",
+            "seismology",
+            "image processing",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FSEG-Y%2FDASH%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "PoroTomo",
+        "Description": "PoroTomo Datasets",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
+        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "geothermal",
+            "seismology",
+            "image processing",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "PoroTomo",
+        "Description": "PoroTomo Vertical Distributed Acoustic Sensing (DASV) Data in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/H5/DASV/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
+        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "geothermal",
+            "seismology",
+            "image processing",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FH5%2FDASV%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22894,8 +22894,8 @@
     },
     {
         "Name": "Prefeitura Municipal de S\u00e3o Paulo (PMSP) LiDAR Point Cloud",
-        "Description": "S\u00e3o Paulo city's 3D LiDAR - Entwine Point Tiles",
-        "ARN": "arn:aws:s3:::ept-m3dc-pmsp",
+        "Description": "S\u00e3o Paulo city's 3D LiDAR - LAZ Files",
+        "ARN": "arn:aws:s3:::laz-m3dc-pmsp",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/geoinfo-smdu/M3DC",
@@ -22921,8 +22921,8 @@
     },
     {
         "Name": "Prefeitura Municipal de S\u00e3o Paulo (PMSP) LiDAR Point Cloud",
-        "Description": "S\u00e3o Paulo city's 3D LiDAR - LAZ Files",
-        "ARN": "arn:aws:s3:::laz-m3dc-pmsp",
+        "Description": "S\u00e3o Paulo city's 3D LiDAR - Entwine Point Tiles",
+        "ARN": "arn:aws:s3:::ept-m3dc-pmsp",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/geoinfo-smdu/M3DC",
@@ -23402,8 +23402,8 @@
     },
     {
         "Name": "REDASA COVID-19 Open Data",
-        "Description": "An S3 bucket that contains the final curation data in GroundTruth format",
-        "ARN": "arn:aws:s3:::pansurg-curation-final-curations-open-data",
+        "Description": "This is the raw data repository containing a common crawl of CORD-19 papers and other sources identified by the REDASA Project",
+        "ARN": "arn:aws:s3:::pansurg-curation-raw-open-data",
         "Region": "eu-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/PanSurg/redasa-sample-data/blob/master/open-data.md",
@@ -23428,8 +23428,8 @@
     },
     {
         "Name": "REDASA COVID-19 Open Data",
-        "Description": "This is the raw data repository containing a common crawl of CORD-19 papers and other sources identified by the REDASA Project",
-        "ARN": "arn:aws:s3:::pansurg-curation-raw-open-data",
+        "Description": "An S3 bucket that contains the final curation data in GroundTruth format",
+        "ARN": "arn:aws:s3:::pansurg-curation-final-curations-open-data",
         "Region": "eu-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/PanSurg/redasa-sample-data/blob/master/open-data.md",
@@ -23532,36 +23532,6 @@
     },
     {
         "Name": "Reference Elevation Model of Antarctica (REMA)",
-        "Description": "REMA DEM Strips",
-        "ARN": "arn:aws:s3:::pgc-opendata-dems/rema/strips/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.pgc.umn.edu/data/rema/",
-        "Contact": "pgc-support@umn.edu",
-        "ManagedBy": "[Polar Geospatial Center](http://www.pgc.umn.edu/)",
-        "UpdateFrequency": "New DEM strips are added twice yearly.  Mosaic products are added as soon as they are available.",
-        "License": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "elevation",
-            "earth observation",
-            "geospatial",
-            "mapping",
-            "open source software",
-            "satellite imagery",
-            "cog",
-            "stac"
-        ],
-        "Explore": [
-            "[Browse STAC Catalog](https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/rema/strips.json)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Reference Elevation Model of Antarctica (REMA)",
         "Description": "REMA DEM Mosaics",
         "ARN": "arn:aws:s3:::pgc-opendata-dems/rema/mosaics/",
         "Region": "us-west-2",
@@ -23584,6 +23554,36 @@
         ],
         "Explore": [
             "[Browse STAC Catalog](https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/rema/mosaics.json)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Reference Elevation Model of Antarctica (REMA)",
+        "Description": "REMA DEM Strips",
+        "ARN": "arn:aws:s3:::pgc-opendata-dems/rema/strips/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.pgc.umn.edu/data/rema/",
+        "Contact": "pgc-support@umn.edu",
+        "ManagedBy": "[Polar Geospatial Center](http://www.pgc.umn.edu/)",
+        "UpdateFrequency": "New DEM strips are added twice yearly.  Mosaic products are added as soon as they are available.",
+        "License": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "elevation",
+            "earth observation",
+            "geospatial",
+            "mapping",
+            "open source software",
+            "satellite imagery",
+            "cog",
+            "stac"
+        ],
+        "Explore": [
+            "[Browse STAC Catalog](https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/rema/strips.json)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -23663,10 +23663,10 @@
     },
     {
         "Name": "SILAM Air Quality",
-        "Description": "Surface Zarr files",
-        "ARN": "arn:aws:s3:::fmi-opendata-silam-surface-zarr",
+        "Description": "Notifications for new zarr surface data",
+        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-silam-surface-zarr",
         "Region": "eu-west-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
         "Contact": "avoin-data@fmi.fi",
         "ManagedBy": "[Finnish Meteorological Institute](https://www.ilmatieteenlaitos.fi/)",
@@ -23680,9 +23680,7 @@
             "air quality",
             "meteorological"
         ],
-        "Explore": [
-            "[Browse Bucket](https://fmi-opendata-silam-surface-zarr.s3.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -23742,10 +23740,10 @@
     },
     {
         "Name": "SILAM Air Quality",
-        "Description": "Notifications for new zarr surface data",
-        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-silam-surface-zarr",
+        "Description": "Surface Zarr files",
+        "ARN": "arn:aws:s3:::fmi-opendata-silam-surface-zarr",
         "Region": "eu-west-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
         "Contact": "avoin-data@fmi.fi",
         "ManagedBy": "[Finnish Meteorological Institute](https://www.ilmatieteenlaitos.fi/)",
@@ -23759,7 +23757,9 @@
             "air quality",
             "meteorological"
         ],
-        "Explore": null,
+        "Explore": [
+            "[Browse Bucket](https://fmi-opendata-silam-surface-zarr.s3.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -23900,31 +23900,6 @@
     },
     {
         "Name": "Safecast",
-        "Description": "New air and radiation measurement payloads",
-        "ARN": "arn:aws:sns:us-west-2:985752656544:ingest-measurements-prd",
-        "Region": "us-west-2",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/Safecast/safecastapi/wiki/Data-Sets",
-        "Contact": "https://groups.google.com/forum/#!forum/safecast-devices",
-        "ManagedBy": "[Safecast](https://safecast.org/)",
-        "UpdateFrequency": "Continuous",
-        "License": "Safecast data is published under a [CC0 designation](https://creativecommons.org/publicdomain/zero/1.0/). This is a public domain designation and means the data is free and open for anyone to use under any circumstance.",
-        "Tags": [
-            "air quality",
-            "aws-pds",
-            "climate",
-            "environmental",
-            "geospatial",
-            "radiation"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Safecast",
         "Description": "Bulk exports of air and radiation measurements",
         "ARN": "arn:aws:s3:::safecast-opendata-public-us-east-1",
         "Region": "us-east-1",
@@ -23945,6 +23920,31 @@
         "Explore": [
             "[Browse Bucket](https://safecast-opendata-public-us-east-1.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Safecast",
+        "Description": "New air and radiation measurement payloads",
+        "ARN": "arn:aws:sns:us-west-2:985752656544:ingest-measurements-prd",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/Safecast/safecastapi/wiki/Data-Sets",
+        "Contact": "https://groups.google.com/forum/#!forum/safecast-devices",
+        "ManagedBy": "[Safecast](https://safecast.org/)",
+        "UpdateFrequency": "Continuous",
+        "License": "Safecast data is published under a [CC0 designation](https://creativecommons.org/publicdomain/zero/1.0/). This is a public domain designation and means the data is free and open for anyone to use under any circumstance.",
+        "Tags": [
+            "air quality",
+            "aws-pds",
+            "climate",
+            "environmental",
+            "geospatial",
+            "radiation"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -24029,6 +24029,41 @@
     },
     {
         "Name": "Seattle Alzheimer\u2019s Disease Brain Cell Atlas (SEA-AD)",
+        "Description": "Single cell profiling (transcriptomics and epigenomics) data files in a public bucket",
+        "ARN": "arn:aws:s3:::sea-ad-single-cell-profiling",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://portal.brain-map.org/explore/seattle-alzheimers-disease/seattle-alzheimers-disease-brain-cell-atlas-download?edit&language=en",
+        "Contact": "awspublicdataset@alleninstitute.org",
+        "ManagedBy": "[Allen Institute](http://www.alleninstitute.org/)",
+        "UpdateFrequency": "Annually",
+        "License": "https://alleninstitute.org/legal/terms-use/",
+        "Tags": [
+            "biology",
+            "cell biology",
+            "cell imaging",
+            "epigenomics",
+            "gene expression",
+            "histopathology",
+            "Homo sapiens",
+            "imaging",
+            "medicine",
+            "microscopy",
+            "neurobiology",
+            "neuroscience",
+            "single-cell transcriptomics",
+            "transcriptomics"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://sea-ad-single-cell-profiling.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Seattle Alzheimer\u2019s Disease Brain Cell Atlas (SEA-AD)",
         "Description": "Quantitative neuropathology (full resolution images, processed images, and quantifications) in a public bucket",
         "ARN": "arn:aws:s3:::sea-ad-quantitative-neuropathology",
         "Region": "us-west-2",
@@ -24098,41 +24133,6 @@
         "Host": null
     },
     {
-        "Name": "Seattle Alzheimer\u2019s Disease Brain Cell Atlas (SEA-AD)",
-        "Description": "Single cell profiling (transcriptomics and epigenomics) data files in a public bucket",
-        "ARN": "arn:aws:s3:::sea-ad-single-cell-profiling",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://portal.brain-map.org/explore/seattle-alzheimers-disease/seattle-alzheimers-disease-brain-cell-atlas-download?edit&language=en",
-        "Contact": "awspublicdataset@alleninstitute.org",
-        "ManagedBy": "[Allen Institute](http://www.alleninstitute.org/)",
-        "UpdateFrequency": "Annually",
-        "License": "https://alleninstitute.org/legal/terms-use/",
-        "Tags": [
-            "biology",
-            "cell biology",
-            "cell imaging",
-            "epigenomics",
-            "gene expression",
-            "histopathology",
-            "Homo sapiens",
-            "imaging",
-            "medicine",
-            "microscopy",
-            "neurobiology",
-            "neuroscience",
-            "single-cell transcriptomics",
-            "transcriptomics"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://sea-ad-single-cell-profiling.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "Sentinel Near Real-time Canada Mirror",
         "Description": "NRT Sentinel data in an S3 bucket broken down by sensor, product type and date",
         "ARN": "arn:aws:s3:::sentinel-products-ca-mirror",
@@ -24164,10 +24164,10 @@
     },
     {
         "Name": "Sentinel-1",
-        "Description": "S3 Inventory files for L1C  and CSV",
-        "ARN": "arn:aws:s3:::sentinel-inventory/",
+        "Description": "SNS topic for notification of new scenes, can subscribe with Lambda",
+        "ARN": "arn:aws:sns:eu-central-1:214830741341:SentinelS1L1C",
         "Region": "eu-central-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "https://roda.sentinel-hub.com/sentinel-s1-l1c/GRD/readme.html",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
@@ -24191,10 +24191,10 @@
     },
     {
         "Name": "Sentinel-1",
-        "Description": "SNS topic for notification of new scenes, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:eu-central-1:214830741341:SentinelS1L1C",
+        "Description": "S3 Inventory files for L1C  and CSV",
+        "ARN": "arn:aws:s3:::sentinel-inventory/",
         "Region": "eu-central-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "https://roda.sentinel-hub.com/sentinel-s1-l1c/GRD/readme.html",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
@@ -24327,35 +24327,8 @@
     },
     {
         "Name": "Sentinel-2",
-        "Description": "New scene notifications for L1C, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:eu-west-1:214830741341:NewSentinel2Product",
-        "Region": "eu-west-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
-        "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
-        "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
-        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "natural resource",
-            "disaster response",
-            "stac"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sentinel-2",
-        "Description": "Zipped archives for each L1C product with 3 day retention period, in Requester Pays bucket",
-        "ARN": "arn:aws:s3:::sentinel-s2-l1c-zips",
+        "Description": "Zipped archives for each L2A product with 3 day retention period, in Requester Pays bucket",
+        "ARN": "arn:aws:s3:::sentinel-s2-l2a-zips",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
@@ -24408,8 +24381,8 @@
     },
     {
         "Name": "Sentinel-2",
-        "Description": "Zipped archives for each L2A product with 3 day retention period, in Requester Pays bucket",
-        "ARN": "arn:aws:s3:::sentinel-s2-l2a-zips",
+        "Description": "Level 2A scenes and metadata, in Requester Pays S3 bucket",
+        "ARN": "arn:aws:s3:::sentinel-s2-l2a",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
@@ -24427,7 +24400,9 @@
             "disaster response",
             "stac"
         ],
-        "Explore": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://sentinel-s2-l2a-stac.s3.amazonaws.com/)"
+        ],
         "RequesterPays": true,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -24435,10 +24410,10 @@
     },
     {
         "Name": "Sentinel-2",
-        "Description": "S3 Inventory files for L1C  and CSV",
-        "ARN": "arn:aws:s3:::sentinel-inventory/sentinel-s2-l1c",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
+        "Description": "New scene notifications for L1C, can subscribe with Lambda",
+        "ARN": "arn:aws:sns:eu-west-1:214830741341:NewSentinel2Product",
+        "Region": "eu-west-1",
+        "Type": "SNS Topic",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
@@ -24493,8 +24468,8 @@
     },
     {
         "Name": "Sentinel-2",
-        "Description": "Level 2A scenes and metadata, in Requester Pays S3 bucket",
-        "ARN": "arn:aws:s3:::sentinel-s2-l2a",
+        "Description": "S3 Inventory files for L1C  and CSV",
+        "ARN": "arn:aws:s3:::sentinel-inventory/sentinel-s2-l1c",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
@@ -24512,9 +24487,34 @@
             "disaster response",
             "stac"
         ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://sentinel-s2-l2a-stac.s3.amazonaws.com/)"
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sentinel-2",
+        "Description": "Zipped archives for each L1C product with 3 day retention period, in Requester Pays bucket",
+        "ARN": "arn:aws:s3:::sentinel-s2-l1c-zips",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
+        "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
+        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
+        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "natural resource",
+            "disaster response",
+            "stac"
         ],
+        "Explore": null,
         "RequesterPays": true,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -24692,6 +24692,34 @@
     },
     {
         "Name": "Sentinel-3",
+        "Description": "Sentinel-3 Short Time Critical (STC) format",
+        "ARN": "arn:aws:s3:::meeo-s3/STC/",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
+        "Contact": "sentinel3@meeo.it",
+        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "Tags": [
+            "aws-pds",
+            "oceans",
+            "earth observation",
+            "environmental",
+            "geospatial",
+            "land",
+            "satellite imagery",
+            "cog",
+            "stac"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sentinel-3",
         "Description": "Sentinel-3 Cloud Optimized GeoTIFF (COG) format",
         "ARN": "arn:aws:s3:::meeo-s3-cog/",
         "Region": "eu-central-1",
@@ -24721,37 +24749,9 @@
         "Host": null
     },
     {
-        "Name": "Sentinel-3",
-        "Description": "Sentinel-3 Short Time Critical (STC) format",
-        "ARN": "arn:aws:s3:::meeo-s3/STC/",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
-        "Contact": "sentinel3@meeo.it",
-        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
-        "Tags": [
-            "aws-pds",
-            "oceans",
-            "earth observation",
-            "environmental",
-            "geospatial",
-            "land",
-            "satellite imagery",
-            "cog",
-            "stac"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "Sentinel-5P Level 2",
-        "Description": "Sentinel-5p Cloud Optimised GeoTIFF (COGT) TIFF format",
-        "ARN": "arn:aws:s3:::meeo-s5p/COGT/",
+        "Description": "Sentinel-5p Near Real Time Data (NRTI) NetCDF format",
+        "ARN": "arn:aws:s3:::meeo-s5p/NRTI/",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel5P_Description.md",
@@ -24770,9 +24770,7 @@
             "cog",
             "stac"
         ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://meeo-s5p.s3.amazonaws.com/index.html?t=catalogs)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -24836,8 +24834,8 @@
     },
     {
         "Name": "Sentinel-5P Level 2",
-        "Description": "Sentinel-5p Near Real Time Data (NRTI) NetCDF format",
-        "ARN": "arn:aws:s3:::meeo-s5p/NRTI/",
+        "Description": "Sentinel-5p Cloud Optimised GeoTIFF (COGT) TIFF format",
+        "ARN": "arn:aws:s3:::meeo-s5p/COGT/",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel5P_Description.md",
@@ -24856,7 +24854,9 @@
             "cog",
             "stac"
         ],
-        "Explore": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://meeo-s5p.s3.amazonaws.com/index.html?t=catalogs)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -26046,27 +26046,6 @@
     },
     {
         "Name": "Transiting Exoplanet Survey Satellite (TESS)",
-        "Description": "TESS Mission data files",
-        "ARN": "arn:aws:s3:::stpubdata/tess",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://archive.stsci.edu/missions-and-data/tess",
-        "Contact": "archive@stsci.edu",
-        "ManagedBy": "[Space Telescope Science Institute](http://www.stsci.edu/)",
-        "UpdateFrequency": "Monthly",
-        "License": "STScI hereby grants the non-exclusive, royalty free, non-transferable, worldwide right and license to use, reproduce, and publicly display in all media public data from the TESS mission.",
-        "Tags": [
-            "astronomy",
-            "aws-pds"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Transiting Exoplanet Survey Satellite (TESS)",
         "Description": "Notifications for new data",
         "ARN": "arn:aws:sns:us-east-1:879230861493:stpubdata",
         "Region": "us-east-1",
@@ -26082,6 +26061,27 @@
         ],
         "Explore": null,
         "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Transiting Exoplanet Survey Satellite (TESS)",
+        "Description": "TESS Mission data files",
+        "ARN": "arn:aws:s3:::stpubdata/tess",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://archive.stsci.edu/missions-and-data/tess",
+        "Contact": "archive@stsci.edu",
+        "ManagedBy": "[Space Telescope Science Institute](http://www.stsci.edu/)",
+        "UpdateFrequency": "Monthly",
+        "License": "STScI hereby grants the non-exclusive, royalty free, non-transferable, worldwide right and license to use, reproduce, and publicly display in all media public data from the TESS mission.",
+        "Tags": [
+            "astronomy",
+            "aws-pds"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -26219,6 +26219,27 @@
         "Host": null
     },
     {
+        "Name": "UK Biobank Pharma Proteomics Project (UKB-PPP)",
+        "Description": "Population-specific GWAS summary statistics per protein measurement, as well as meta-data for annotating protein measurements and genetic variants",
+        "ARN": "arn:aws:s3:::ukbiobank.opendata.sagebase.org",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.synapse.org/#!Synapse:syn51364943/",
+        "Contact": "matthias.arnold@helmholtz-munich.de",
+        "ManagedBy": "Sage Bionetworks",
+        "UpdateFrequency": "Never",
+        "License": "[CC BY]",
+        "Tags": [
+            "genome wide association study",
+            "population genetics"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": "https://doi.org/10.7303/syn51364943",
+        "AccountRequired": false,
+        "Host": null
+    },
+    {
         "Name": "UK Earth System Model (UKESM1) ARISE-SAI geoengineering experiment data",
         "Description": "CMIP6 standards-compliant netCDF data",
         "ARN": "arn:aws:s3:::met-office-ukesm1-arise",
@@ -26252,32 +26273,6 @@
     },
     {
         "Name": "USGS 3DEP LiDAR Point Clouds",
-        "Description": "A Requester Pays Bucket of Raw LAZ 14 3DEP data Data in this bucket is more complete in coverage than the EPT bucket, but it is not a complete 3DEP mirror Some resources in this bucket also have incomplete and missing coordinate system information, which is why they might not be mirrored into the EPT bucket",
-        "ARN": "arn:aws:s3:::usgs-lidar",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/hobu/usgs-lidar/",
-        "Contact": "https://github.com/hobu/usgs-lidar",
-        "ManagedBy": "[Hobu, Inc.](https://hobu.co)",
-        "UpdateFrequency": "Periodically",
-        "License": "US Government Public Domain https://www.usgs.gov/faqs/what-are-terms-uselicensing-map-services-and-data-national-map",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "elevation",
-            "disaster response",
-            "geospatial",
-            "lidar",
-            "stac"
-        ],
-        "Explore": null,
-        "RequesterPays": true,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "USGS 3DEP LiDAR Point Clouds",
         "Description": "Public access Entwine Point Tiles of most resources from the ``arn:aws:s3:::usgs-lidar`` bucket",
         "ARN": "arn:aws:s3:::usgs-lidar-public",
         "Region": "us-west-2",
@@ -26305,6 +26300,32 @@
         "Host": null
     },
     {
+        "Name": "USGS 3DEP LiDAR Point Clouds",
+        "Description": "A Requester Pays Bucket of Raw LAZ 14 3DEP data Data in this bucket is more complete in coverage than the EPT bucket, but it is not a complete 3DEP mirror Some resources in this bucket also have incomplete and missing coordinate system information, which is why they might not be mirrored into the EPT bucket",
+        "ARN": "arn:aws:s3:::usgs-lidar",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/hobu/usgs-lidar/",
+        "Contact": "https://github.com/hobu/usgs-lidar",
+        "ManagedBy": "[Hobu, Inc.](https://hobu.co)",
+        "UpdateFrequency": "Periodically",
+        "License": "US Government Public Domain https://www.usgs.gov/faqs/what-are-terms-uselicensing-map-services-and-data-national-map",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "elevation",
+            "disaster response",
+            "geospatial",
+            "lidar",
+            "stac"
+        ],
+        "Explore": null,
+        "RequesterPays": true,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "USGS COAWST (Coupled Ocean Atmosphere Wave and Sediment Transport) Forecast Model Archive, US East and Gulf Coasts",
         "Description": "A collection of NetCDF4 files, kerchunk generated JSON files, and an Intake catalog",
         "ARN": "arn:aws:s3:::usgs-coawst-archive",
@@ -26327,8 +26348,37 @@
     },
     {
         "Name": "USGS Landsat",
-        "Description": "New scene notifications, US ARD Tiles",
-        "ARN": "arn:aws:sns:us-west-2:673253540267:public-c2-ard-tile-notify-v2",
+        "Description": "Scenes and metadata",
+        "ARN": "arn:aws:s3:::usgs-landsat/collection02/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.usgs.gov/core-science-systems/nli/landsat/landsat-commercial-cloud-data-access",
+        "Contact": "https://answers.usgs.gov/",
+        "ManagedBy": "[United States Geological Survey](https://www.usgs.gov)",
+        "UpdateFrequency": "New scenes are added daily.",
+        "License": "There are no restrictions on Landsat data downloaded from the USGS; it can be used or redistributed as desired. We do request that you include a [statement of the data source](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con) when citing, copying, or reprinting USGS Landsat data or images.",
+        "Tags": [
+            "agriculture",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "natural resource",
+            "disaster response",
+            "stac",
+            "cog"
+        ],
+        "Explore": [
+            "[STAC Catalog](https://landsatlook.usgs.gov/stac-server/collections)"
+        ],
+        "RequesterPays": true,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "USGS Landsat",
+        "Description": "New scene notifications, Level 3 Science Products",
+        "ARN": "arn:aws:sns:us-west-2:673253540267:public-c2-level-3-tile-notify-v2",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://www.usgs.gov/core-science-systems/nli/landsat/landsat-commercial-cloud-data-access",
@@ -26354,8 +26404,8 @@
     },
     {
         "Name": "USGS Landsat",
-        "Description": "New scene notifications, Level 3 Science Products",
-        "ARN": "arn:aws:sns:us-west-2:673253540267:public-c2-level-3-tile-notify-v2",
+        "Description": "New scene notifications, US ARD Tiles",
+        "ARN": "arn:aws:sns:us-west-2:673253540267:public-c2-ard-tile-notify-v2",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://www.usgs.gov/core-science-systems/nli/landsat/landsat-commercial-cloud-data-access",
@@ -26402,35 +26452,6 @@
         ],
         "Explore": null,
         "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "USGS Landsat",
-        "Description": "Scenes and metadata",
-        "ARN": "arn:aws:s3:::usgs-landsat/collection02/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.usgs.gov/core-science-systems/nli/landsat/landsat-commercial-cloud-data-access",
-        "Contact": "https://answers.usgs.gov/",
-        "ManagedBy": "[United States Geological Survey](https://www.usgs.gov)",
-        "UpdateFrequency": "New scenes are added daily.",
-        "License": "There are no restrictions on Landsat data downloaded from the USGS; it can be used or redistributed as desired. We do request that you include a [statement of the data source](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con) when citing, copying, or reprinting USGS Landsat data or images.",
-        "Tags": [
-            "agriculture",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "natural resource",
-            "disaster response",
-            "stac",
-            "cog"
-        ],
-        "Explore": [
-            "[STAC Catalog](https://landsatlook.usgs.gov/stac-server/collections)"
-        ],
-        "RequesterPays": true,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -26490,36 +26511,6 @@
     },
     {
         "Name": "UniProt",
-        "Description": "UniProt 2021_01",
-        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2021-01/",
-        "Region": "eu-west-3",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.uniprot.org/help/about",
-        "Contact": "https://www.uniprot.org/contact",
-        "ManagedBy": "[SIB Swiss Institute of Bioinformatics](https://sp.sib.swiss/) on behalf of the UniProt Consortium",
-        "UpdateFrequency": "Under 1 months after a new UniProt release.",
-        "License": "http://creativecommons.org/licenses/by/4.0/",
-        "Tags": [
-            "aws-pds",
-            "chemistry",
-            "protein",
-            "enzyme",
-            "molecule",
-            "life sciences",
-            "bioinformatics",
-            "biology",
-            "RDF",
-            "graph",
-            "SPARQL"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "UniProt",
         "Description": "UniProt 2021_02",
         "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2021-02/",
         "Region": "eu-west-3",
@@ -26550,8 +26541,8 @@
     },
     {
         "Name": "UniProt",
-        "Description": "UniProt 2021_03",
-        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2021-03/",
+        "Description": "UniProt 2021_01",
+        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2021-01/",
         "Region": "eu-west-3",
         "Type": "S3 Bucket",
         "Documentation": "https://www.uniprot.org/help/about",
@@ -26792,6 +26783,36 @@
         "Name": "UniProt",
         "Description": "UniProt 2023_02",
         "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2023-02/",
+        "Region": "eu-west-3",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.uniprot.org/help/about",
+        "Contact": "https://www.uniprot.org/contact",
+        "ManagedBy": "[SIB Swiss Institute of Bioinformatics](https://sp.sib.swiss/) on behalf of the UniProt Consortium",
+        "UpdateFrequency": "Under 1 months after a new UniProt release.",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "aws-pds",
+            "chemistry",
+            "protein",
+            "enzyme",
+            "molecule",
+            "life sciences",
+            "bioinformatics",
+            "biology",
+            "RDF",
+            "graph",
+            "SPARQL"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "UniProt",
+        "Description": "UniProt 2021_03",
+        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2021-03/",
         "Region": "eu-west-3",
         "Type": "S3 Bucket",
         "Documentation": "https://www.uniprot.org/help/about",
@@ -27141,31 +27162,6 @@
     },
     {
         "Name": "Wind AI Bench",
-        "Description": "Wind AI Bench Flow Redirection and Induction in Steady State (FLORIS) Wind Plant Power Production Data Sets] (https://dataopeneiorg/submissions/5884)",
-        "ARN": "arn:aws:s3:::nrel-pds-windai/wind_plant_power/floris/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/windAI_bench",
-        "Contact": "Ryan King (ryan.king@nrel.gov)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "benchmark",
-            "machine learning"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-windai&prefix=wind_plant_power%2Ffloris%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Wind AI Bench",
         "Description": "Wind AI Bench Airfoil Computational Fluid Dynamics (CFD) - 2k Shapes Data Sets",
         "ARN": "arn:aws:s3:::nrel-pds-windai/aerodynamic_shapes/2D/2K_airfoils/",
         "Region": "us-west-2",
@@ -27183,6 +27179,31 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-windai&prefix=aerodynamic_shapes%2F2D%2F2k_airfoils%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Wind AI Bench",
+        "Description": "Wind AI Bench Flow Redirection and Induction in Steady State (FLORIS) Wind Plant Power Production Data Sets] (https://dataopeneiorg/submissions/5884)",
+        "ARN": "arn:aws:s3:::nrel-pds-windai/wind_plant_power/floris/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NREL/windAI_bench",
+        "Contact": "Ryan King (ryan.king@nrel.gov)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "benchmark",
+            "machine learning"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-windai&prefix=wind_plant_power%2Ffloris%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -27295,8 +27316,8 @@
     },
     {
         "Name": "YouTube 8 Million - Data Lakehouse Ready",
-        "Description": "Lakehouse ready YT8M as Glue Parquet files Install instructions here",
-        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m_ods/",
+        "Description": "Original YT8M *tfrecords File structure info can be found here",
+        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda-ml/docs/roda_install.md",
@@ -27319,8 +27340,8 @@
     },
     {
         "Name": "YouTube 8 Million - Data Lakehouse Ready",
-        "Description": "Original YT8M *tfrecords File structure info can be found here",
-        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m/",
+        "Description": "Lakehouse ready YT8M as Glue Parquet files Install instructions here",
+        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m_ods/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda-ml/docs/roda_install.md",
@@ -27442,8 +27463,8 @@
     },
     {
         "Name": "iHART Whole Genome Sequencing Data Set",
-        "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data sets",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "Description": "BAM, gVCF, and VCF files from The iHART whole genome sequencing study, Phase II",
+        "ARN": "arn:aws:s3:::ihart-main",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
@@ -27496,8 +27517,8 @@
     },
     {
         "Name": "iHART Whole Genome Sequencing Data Set",
-        "Description": "BAM, gVCF, and VCF files from The iHART whole genome sequencing study, Phase II",
-        "ARN": "arn:aws:s3:::ihart-main",
+        "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data sets",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
