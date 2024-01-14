@@ -13933,6 +13933,34 @@
         "Host": null
     },
     {
+        "Name": "SISSA daily forecast retrospective database",
+        "Description": "CRC-SAS/SISSA Retrospective Daily forecast database",
+        "ARN": "arn:aws:s3:::sissa-forecast-database",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "General information, tutorials and examples, contact us atl sissa-aws@smn.gob.ar",
+        "Contact": "For any questions regarding the data set or any general questions, you can contact us atl sissa-aws@smn.gob.ar. We also would like to know how this data is being used.",
+        "ManagedBy": "[SISSA](https://sissa.crc-sas.org/)",
+        "UpdateFrequency": "Static database from 2000-2019 without correction and 2010-2019 with correction.",
+        "License": "[Creative Commons Attribution 2.5 Argentina License](https://creativecommons.org/licenses/by/2.5/ar)",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "natural resource",
+            "weather",
+            "forecast",
+            "meteorological",
+            "agriculture",
+            "hydrology"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://sissa-forecast-database.s3.amazonaws.com/index.html)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "SMN Hi-Res Weather Forecast over Argentina",
         "Description": "WRF SMN data",
         "ARN": "arn:aws:s3:::smn-ar-wrf",
