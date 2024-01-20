@@ -270,6 +270,15 @@
         "RequesterPays": false
     },
     {
+        "Name": "Global 30m Height Above Nearest Drainage (HAND)",
+        "Endpoint": "https://stac.asf.alaska.edu/collections/glo-30-hand",
+        "Description": "GLO-30 HAND S3 bucket",
+        "ARN": "arn:aws:s3:::glo-30-hand",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "JAXA - USGS - NASA Kaguya-SELENE Terrain Camera Observations - Scenes and metadata for monoscopic observing mode",
         "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_monoscopic_uncontrolled_observations",
         "Description": "Scenes and metadata for monoscopic observing mode",

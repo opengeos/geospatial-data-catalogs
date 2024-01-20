@@ -4453,6 +4453,61 @@
         "Host": null
     },
     {
+        "Name": "Global 30m Height Above Nearest Drainage (HAND) - GLO-30 HAND S3 bucket",
+        "Description": "GLO-30 HAND S3 bucket",
+        "ARN": "arn:aws:s3:::glo-30-hand",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://glo-30-hand.s3.us-west-2.amazonaws.com/readme.html",
+        "Contact": "https://asf.alaska.edu/asf/contact-us/",
+        "ManagedBy": "[The Alaska Satellite Facility (ASF)](https://asf.alaska.edu/)",
+        "UpdateFrequency": "None, except HAND may be updated if the[ Copernicus GLO-30 Public](https://registry.opendata.aws/copernicus-dem/) dataset is updated.\n",
+        "License": "Copyright 2022 Alaska Satellite Facility (ASF). Produced using the Copernicus WorldDEM\u2122-30 \u00a9 DLR e.V. 2010-2014 and \u00a9 Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. The use of the HAND data falls under the terms and conditions of the  [Creative Commons Zero (CC0) 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "Tags": [
+            "elevation",
+            "hydrology",
+            "agriculture",
+            "disaster response",
+            "satellite imagery",
+            "geospatial",
+            "cog",
+            "stac"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://stac.asf.alaska.edu/collections/glo-30-hand)",
+            "[Via STAC Browser](https://radiantearth.github.io/stac-browser/#/external/stac.asf.alaska.edu/collections/glo-30-hand)"
+        ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global 30m Height Above Nearest Drainage (HAND) - Notifications for new data",
+        "Description": "Notifications for new data",
+        "ARN": "arn:aws:sns:us-west-2:879002409890:glo-30-hand-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://glo-30-hand.s3.us-west-2.amazonaws.com/readme.html",
+        "Contact": "https://asf.alaska.edu/asf/contact-us/",
+        "ManagedBy": "[The Alaska Satellite Facility (ASF)](https://asf.alaska.edu/)",
+        "UpdateFrequency": "None, except HAND may be updated if the[ Copernicus GLO-30 Public](https://registry.opendata.aws/copernicus-dem/) dataset is updated.\n",
+        "License": "Copyright 2022 Alaska Satellite Facility (ASF). Produced using the Copernicus WorldDEM\u2122-30 \u00a9 DLR e.V. 2010-2014 and \u00a9 Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved. The use of the HAND data falls under the terms and conditions of the  [Creative Commons Zero (CC0) 1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "Tags": [
+            "elevation",
+            "hydrology",
+            "agriculture",
+            "disaster response",
+            "satellite imagery",
+            "geospatial",
+            "cog",
+            "stac"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
@@ -4555,6 +4610,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
@@ -4579,10 +4658,10 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -4629,11 +4708,11 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -4648,7 +4727,9 @@
             "life sciences"
         ],
         "RequesterPays": null,
-        "Explore": null,
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "AccountRequired": null,
         "Host": null
     },
@@ -4673,32 +4754,6 @@
         ],
         "RequesterPays": null,
         "Explore": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
         "AccountRequired": null,
         "Host": null
     },
@@ -15429,6 +15484,30 @@
         "Explore": [
             "[STAC 1.0.0-beta.2 endpoint](https://stacindex.org/catalogs/world-bank-light-every-night#/)"
         ],
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "World Bank Climate Change Knowledge Portal (CCKP)",
+        "Description": "World Bank Climate Change Knowledge Portal observed and projected climate datasets",
+        "ARN": "arn:aws:s3:::wbg-cckp",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://worldbank.github.io/climateknowledgeportal",
+        "Contact": "C. MacKenzie Dove cdove@worldbank.org; askclimate@worldbank.org",
+        "ManagedBy": "[World Bank Group](https://www.worldbank.org/en/home)",
+        "UpdateFrequency": "Semi-annually",
+        "License": "[World Bank Open Database License (ODbL)](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "climate",
+            "climate model",
+            "earth observation",
+            "climate projections",
+            "CMIP6",
+            "netcdf"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
         "AccountRequired": null,
         "Host": null
     },
