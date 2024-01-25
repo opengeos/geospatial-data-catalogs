@@ -10802,7 +10802,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -10825,7 +10825,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -12497,6 +12497,28 @@
         "Host": null
     },
     {
+        "Name": "Northern California Earthquake Data",
+        "Description": "Seismic waveform data (miniSEED format), metadata (FDSNStationXML format) and earthquake catalog (CSV & Hypoinverse formats)",
+        "ARN": "arn:aws:s3:::ncedc-pds",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://ncedc.org/db/cloud.html",
+        "Contact": "stephane@berkeley.edu",
+        "ManagedBy": "[Northern California Earthquake Data Center](https://ncedc.org)",
+        "UpdateFrequency": "Daily",
+        "License": "NCEDC hereby grants the non-exclusive, royalty free, non-transferable, worldwide right and license to use, reproduce and publicly display in all media public data from the Northern California Seismic Network. Please cite the \"NCEDC (2014), Northern California Earthquake Data Center. UC BerkeleySeismological Laboratory. Dataset. doi:10.7932/NCEDC.\" for any researchpublications using this data.",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "earthquakes",
+            "seismology"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Open City Model (OCM)",
         "Description": "Project data files",
         "ARN": "arn:aws:s3:::opencitymodel",
@@ -12515,6 +12537,32 @@
         ],
         "RequesterPays": null,
         "Explore": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Open-Meteo Weather API Database",
+        "Description": "Open-Meteo Weather API Database",
+        "ARN": "arn:aws:s3:::openmeteo",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/open-meteo/open-data",
+        "Contact": "info@open-meteo.com",
+        "ManagedBy": "[Open-Meteo](https://www.open-meteo.com/)",
+        "UpdateFrequency": "Hourly",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "earth observation",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://openmeteo.s3.amazonaws.com/index.html#data/)"
+        ],
         "AccountRequired": null,
         "Host": null
     },

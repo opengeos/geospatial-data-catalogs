@@ -279,6 +279,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "Inter-mission Time Series of Land Ice Velocity and Elevation (ITS_LIVE)",
+        "Endpoint": "https://its-live-data.s3.amazonaws.com/index.html",
+        "Description": "ITS_LIVE Data S3 Bucket",
+        "ARN": "arn:aws:s3:::its-live-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "JAXA - USGS - NASA Kaguya-SELENE Terrain Camera Observations - Scenes and metadata for monoscopic observing mode",
         "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_monoscopic_uncontrolled_observations",
         "Description": "Scenes and metadata for monoscopic observing mode",
