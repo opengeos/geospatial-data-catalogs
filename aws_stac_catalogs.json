@@ -20,9 +20,9 @@
     {
         "Name": "Amazonia EO satellite on AWS",
         "Endpoint": "https://stac.amskepler.com/v100",
-        "Description": "Amazonia 1 imagery (COG files)",
-        "ARN": "arn:aws:s3:::amazonia-pds",
-        "Region": "us-east-1",
+        "Description": "Amazonia 1 imagery (COG files, quicklooks, metadata)",
+        "ARN": "arn:aws:s3:::brazil-eosats",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "RequesterPays": false
     },
@@ -56,11 +56,11 @@
     {
         "Name": "CBERS on AWS",
         "Endpoint": "https://stac.amskepler.com/v100",
-        "Description": "CBERS imagery (COG files, Requester Pays Bucket)",
-        "ARN": "arn:aws:s3:::cbers-pds",
-        "Region": "us-east-1",
+        "Description": "CBERS imagery (COG files, quicklooks, metadata)",
+        "ARN": "arn:aws:s3:::brazil-eosats",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "RequesterPays": true
+        "RequesterPays": false
     },
     {
         "Name": "Capella Space Synthetic Aperture Radar (SAR) Open Dataset",

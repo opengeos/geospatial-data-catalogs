@@ -1,11 +1,11 @@
 Name	Endpoint	Description	ARN	Region	Type	RequesterPays
 10m Annual Land Use Land Cover (9-class)	https://api.impactobservatory.com/stac-aws/collections/io-10m-annual-lulc/items	10m Annual Land Use Land Cover (9-class)	arn:aws:s3:::io-10m-annual-lulc	us-west-2	S3 Bucket	
 ASF SAR Data Products for Disaster Events	https://asf-event-data.s3.amazonaws.com/index.html	ASF Event data S3 bucket	arn:aws:s3:::asf-event-data	us-west-2	S3 Bucket	
-Amazonia EO satellite on AWS	https://stac.amskepler.com/v100	Amazonia 1 imagery (COG files)	arn:aws:s3:::amazonia-pds	us-east-1	S3 Bucket	False
+Amazonia EO satellite on AWS	https://stac.amskepler.com/v100	Amazonia 1 imagery (COG files, quicklooks, metadata)	arn:aws:s3:::brazil-eosats	us-west-2	S3 Bucket	False
 Analysis Ready Sentinel-1 Backscatter Imagery	https://scottyhq.github.io/sentinel1-rtc-stac/#/	Sentinel-1 RTC tiled data and metadata in a S3 bucket	arn:aws:s3:::sentinel-s1-rtc-indigo	us-west-2	S3 Bucket	
 ArcticDEM -  DEM Mosaics	https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/arcticdem/mosaics.json	ArcticDEM DEM Mosaics	arn:aws:s3:::pgc-opendata-dems/arcticdem/mosaics/	us-west-2	S3 Bucket	
 ArcticDEM -  DEM Strips	https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/arcticdem/strips.json	ArcticDEM DEM Strips	arn:aws:s3:::pgc-opendata-dems/arcticdem/strips/	us-west-2	S3 Bucket	
-CBERS on AWS	https://stac.amskepler.com/v100	CBERS imagery (COG files, Requester Pays Bucket)	arn:aws:s3:::cbers-pds	us-east-1	S3 Bucket	True
+CBERS on AWS	https://stac.amskepler.com/v100	CBERS imagery (COG files, quicklooks, metadata)	arn:aws:s3:::brazil-eosats	us-west-2	S3 Bucket	False
 Capella Space Synthetic Aperture Radar (SAR) Open Dataset	https://capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json	Capella Space Open Data in COG format	arn:aws:s3:::capella-open-data/data/	us-west-2	S3 Bucket	False
 Digital Earth Africa ALOS PALSAR, ALOS-2 PALSAR-2 and JERS-1	https://explorer.digitalearth.africa/stac/collections/alos_palsar_mosaic	ALOS PALSAR ALOS-2 PALSAR-2 data	arn:aws:s3:::deafrica-input-datasets/alos_palsar_mosaic	af-south-1	S3 Bucket	False
 Digital Earth Africa CHIRPS Rainfall - CHIRPS daily rainfall	https://explorer.digitalearth.africa/stac/collections/rainfall_chirps_daily	CHIRPS daily rainfall	arn:aws:s3:::deafrica-input-datasets/rainfall_chirps_daily	af-south-1	S3 Bucket	False
