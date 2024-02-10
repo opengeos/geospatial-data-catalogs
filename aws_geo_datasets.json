@@ -402,10 +402,10 @@
         "AccountRequired": false
     },
     {
-        "Name": "Amazonia EO satellite on AWS - Amazonia 1 imagery (COG files)",
-        "Description": "Amazonia 1 imagery (COG files)",
-        "ARN": "arn:aws:s3:::amazonia-pds",
-        "Region": "us-east-1",
+        "Name": "Amazonia EO satellite on AWS - Amazonia 1 imagery (COG files, quicklooks, metadata)",
+        "Description": "Amazonia 1 imagery (COG files, quicklooks, metadata)",
+        "ARN": "arn:aws:s3:::brazil-eosats",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "http://www.inpe.br/amazonia1",
         "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
@@ -426,44 +426,17 @@
         ],
         "RequesterPays": false,
         "Explore": [
-            "[STAC V1.0.0 endpoint](https://stac.amskepler.com/v100)"
+            "[STAC V1.0.0 endpoint](https://stac.amskepler.com/v100)",
+            "[stacindex](https://stacindex.org/catalogs/cbers)"
         ],
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Amazonia EO satellite on AWS - Amazonia 1 metadata (Quicklooks, metadata)",
-        "Description": "Amazonia 1 metadata (Quicklooks, metadata)",
-        "ARN": "arn:aws:s3:::amazonia-meta-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "http://www.inpe.br/amazonia1",
-        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
-        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "geospatial",
-            "imaging",
-            "satellite imagery",
-            "sustainability",
-            "disaster response",
-            "stac",
-            "cog"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
     {
         "Name": "Amazonia EO satellite on AWS - Notifications for new quicklooks",
         "Description": "Notifications for new quicklooks",
-        "ARN": "arn:aws:sns:us-east-1:599544552497:NewAMQuicklook",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:sns:us-west-2:599544552497:NewAM1Quicklook",
+        "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "http://www.inpe.br/amazonia1",
         "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
@@ -488,10 +461,38 @@
         "AccountRequired": null
     },
     {
+        "Name": "Amazonia EO satellite on AWS - STAC static catalog",
+        "Description": "STAC static catalog",
+        "ARN": "arn:aws:s3:::br-eo-stac-1-0-0",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "http://www.inpe.br/amazonia1",
+        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
+        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "geospatial",
+            "imaging",
+            "satellite imagery",
+            "sustainability",
+            "disaster response",
+            "stac",
+            "cog"
+        ],
+        "RequesterPays": false,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Amazonia EO satellite on AWS - Topic that receives STAC V100 items as new scenes are ingested",
         "Description": "Topic that receives STAC V100 items as new scenes are ingested",
-        "ARN": "arn:aws:sns:us-east-1:769537946825:cbers2stac-prod-stacitemtopic4BCE3141-VI09VRB6LBEK",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:sns:us-west-2:769537946825:br-eo-stac-prod-stacitemtopic4BCE3141-Z8he7LYjqXFe",
+        "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "http://www.inpe.br/amazonia1",
         "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
@@ -739,6 +740,29 @@
         "AccountRequired": null
     },
     {
+        "Name": "Blended TROPOMI+GOSAT Satellite Data Product for Atmospheric Methane",
+        "Description": "Blended TROPOMI+GOSAT netCDF files",
+        "ARN": "arn:aws:s3:::blended-tropomi-gosat-methane",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/nicholasbalasus/write_blended_files/blob/main/PUM.md",
+        "Contact": "nicholasbalasus@g.harvard.edu",
+        "ManagedBy": "Nicholas Balasus",
+        "UpdateFrequency": "Monthly",
+        "License": "There are no restrictions on the use of this data, but please contact nicholasbalasus@g.harvard.edu before its use in a publication.",
+        "Tags": [
+            "climate",
+            "environmental",
+            "satellite imagery"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://s3-us-west-2.amazonaws.com/blended-tropomi-gosat-methane/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "CAM6 Data Assimilation Research Testbed (DART) Reanalysis: Cloud-Optimized Dataset",
         "Description": "Project data files",
         "ARN": "arn:aws:s3:::ncar-dart-cam6",
@@ -769,10 +793,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "CBERS on AWS - CBERS imagery (COG files, Requester Pays Bucket)",
-        "Description": "CBERS imagery (COG files, Requester Pays Bucket)",
-        "ARN": "arn:aws:s3:::cbers-pds",
-        "Region": "us-east-1",
+        "Name": "CBERS on AWS - CBERS imagery (COG files, quicklooks, metadata)",
+        "Description": "CBERS imagery (COG files, quicklooks, metadata)",
+        "ARN": "arn:aws:s3:::brazil-eosats",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/fredliporace/cbers-on-aws",
         "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
@@ -790,45 +814,19 @@
             "stac",
             "cog"
         ],
-        "RequesterPays": true,
+        "RequesterPays": false,
         "Explore": [
-            "[STAC V1.0.0 endpoint](https://stac.amskepler.com/v100)"
+            "[STAC V1.0.0 endpoint](https://stac.amskepler.com/v100)",
+            "[stacindex](https://stacindex.org/catalogs/cbers)"
         ],
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "CBERS on AWS - CBERS metadata (Quicklooks, metadata)",
-        "Description": "CBERS metadata (Quicklooks, metadata)",
-        "ARN": "arn:aws:s3:::cbers-meta-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/fredliporace/cbers-on-aws",
-        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
-        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "geospatial",
-            "imaging",
-            "satellite imagery",
-            "disaster response",
-            "stac",
-            "cog"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
     {
         "Name": "CBERS on AWS - Notifications for new CBERS 4 quicklooks, all sensors",
         "Description": "Notifications for new CBERS 4 quicklooks, all sensors",
-        "ARN": "arn:aws:sns:us-east-1:599544552497:NewCB4Quicklook",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:sns:us-west-2:599544552497:NewCB4Quicklook",
+        "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/fredliporace/cbers-on-aws",
         "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
@@ -854,8 +852,8 @@
     {
         "Name": "CBERS on AWS - Notifications for new CBERS 4A quicklooks, all sensors",
         "Description": "Notifications for new CBERS 4A quicklooks, all sensors",
-        "ARN": "arn:aws:sns:us-east-1:599544552497:NewCB4AQuicklook",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:sns:us-west-2:599544552497:NewCB4AQuicklook",
+        "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/fredliporace/cbers-on-aws",
         "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
@@ -879,10 +877,37 @@
         "AccountRequired": null
     },
     {
+        "Name": "CBERS on AWS - STAC static catalog",
+        "Description": "STAC static catalog",
+        "ARN": "arn:aws:s3:::br-eo-stac-1-0-0",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/fredliporace/cbers-on-aws",
+        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
+        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "geospatial",
+            "imaging",
+            "satellite imagery",
+            "disaster response",
+            "stac",
+            "cog"
+        ],
+        "RequesterPays": false,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "CBERS on AWS - Topic that receives STAC V100 items as new scenes are ingested",
         "Description": "Topic that receives STAC V100 items as new scenes are ingested",
-        "ARN": "arn:aws:sns:us-east-1:769537946825:cbers2stac-prod-stacitemtopic4BCE3141-VI09VRB6LBEK",
-        "Region": "us-east-1",
+        "ARN": "arn:aws:sns:us-west-2:769537946825:br-eo-stac-prod-stacitemtopic4BCE3141-Z8he7LYjqXFe",
+        "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/fredliporace/cbers-on-aws",
         "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
@@ -9619,6 +9644,29 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -9643,29 +9691,6 @@
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10862,7 +10887,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -10885,7 +10910,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
