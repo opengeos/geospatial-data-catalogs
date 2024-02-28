@@ -27739,6 +27739,36 @@
         "Host": null
     },
     {
+        "Name": "Whiffle WINS50 Open Data on AWS",
+        "Description": "Whiffle WINS50 LES Data",
+        "ARN": "arn:aws:s3:::whiffle-wins50-data",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://gitlab.com/whiffle-public/whiffle-open-data",
+        "Contact": "support@whiffle.nl",
+        "ManagedBy": "[Whiffle](http://www.whiffle.nl/)",
+        "UpdateFrequency": "No updates planned.",
+        "License": "CC BY-SA 4.0",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "sustainability",
+            "atmosphere",
+            "electricity",
+            "meteorological",
+            "model",
+            "zarr",
+            "turbulence"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://whiffle-wins50-data.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "WikiSum: Coherent Summarization Dataset for Efficient Human-Evaluation",
         "Description": "WikiSum Dataset",
         "ARN": "arn:aws:s3:::wikisum",
@@ -27969,8 +27999,8 @@
     },
     {
         "Name": "YouTube 8 Million - Data Lakehouse Ready",
-        "Description": "Lakehouse ready YT8M as Glue Parquet files Install instructions here",
-        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m_ods/",
+        "Description": "Original YT8M *tfrecords File structure info can be found here",
+        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda-ml/docs/roda_install.md",
@@ -27993,8 +28023,8 @@
     },
     {
         "Name": "YouTube 8 Million - Data Lakehouse Ready",
-        "Description": "Original YT8M *tfrecords File structure info can be found here",
-        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m/",
+        "Description": "Lakehouse ready YT8M as Glue Parquet files Install instructions here",
+        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m_ods/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda-ml/docs/roda_install.md",
@@ -28116,8 +28146,8 @@
     },
     {
         "Name": "iHART Whole Genome Sequencing Data Set",
-        "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data sets",
-        "ARN": "arn:aws:s3:::ihart-brain",
+        "Description": "Cram, gVCF, and VCF files from The iHART whole genome sequencing study, Phase I+II, GRCh38",
+        "ARN": "arn:aws:s3:::ihart-hg38",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
@@ -28170,8 +28200,8 @@
     },
     {
         "Name": "iHART Whole Genome Sequencing Data Set",
-        "Description": "Cram, gVCF, and VCF files from The iHART whole genome sequencing study, Phase I+II, GRCh38",
-        "ARN": "arn:aws:s3:::ihart-hg38",
+        "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data sets",
+        "ARN": "arn:aws:s3:::ihart-psp",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
@@ -28198,7 +28228,7 @@
     {
         "Name": "iHART Whole Genome Sequencing Data Set",
         "Description": "gVCF and VCF files from The iHART whole genome sequencing study, control data sets",
-        "ARN": "arn:aws:s3:::ihart-psp",
+        "ARN": "arn:aws:s3:::ihart-brain",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "http://www.ihart.org/data",
@@ -28280,31 +28310,6 @@
     },
     {
         "Name": "nuPlan",
-        "Description": "Globally cached distribution of the nuPlan Dataset Web frontend is available to browse the dataset",
-        "ARN": null,
-        "Region": "ap-northeast-1",
-        "Type": "CloudFront Distribution",
-        "Documentation": "https://nuplan.org",
-        "Contact": "https://nuplan.org",
-        "ManagedBy": "[Motional, Inc.](https://motional.com)",
-        "UpdateFrequency": "Finalized",
-        "License": "[Commercial](https://www.nuscenes.org/terms-of-use)",
-        "Tags": [
-            "aws-pds",
-            "autonomous vehicles",
-            "lidar",
-            "robotics",
-            "transportation",
-            "urban"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": "https://d1qinkmu0ju04f.cloudfront.net"
-    },
-    {
-        "Name": "nuPlan",
         "Description": "nuPlan Dataset",
         "ARN": "arn:aws:s3:::motional-nuplan",
         "Region": "ap-northeast-1",
@@ -28329,6 +28334,57 @@
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
+    },
+    {
+        "Name": "nuPlan",
+        "Description": "Globally cached distribution of the nuPlan Dataset Web frontend is available to browse the dataset",
+        "ARN": null,
+        "Region": "ap-northeast-1",
+        "Type": "CloudFront Distribution",
+        "Documentation": "https://nuplan.org",
+        "Contact": "https://nuplan.org",
+        "ManagedBy": "[Motional, Inc.](https://motional.com)",
+        "UpdateFrequency": "Finalized",
+        "License": "[Commercial](https://www.nuscenes.org/terms-of-use)",
+        "Tags": [
+            "aws-pds",
+            "autonomous vehicles",
+            "lidar",
+            "robotics",
+            "transportation",
+            "urban"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": "https://d1qinkmu0ju04f.cloudfront.net"
+    },
+    {
+        "Name": "nuScenes",
+        "Description": "Globally cached distribution of the nuScenes Dataset Web frontend is available to browse the dataset",
+        "ARN": null,
+        "Region": "ap-northeast-1",
+        "Type": "CloudFront Distribution",
+        "Documentation": "https://www.nuscenes.org",
+        "Contact": "https://www.nuscenes.org",
+        "ManagedBy": "[Motional, Inc.](https://motional.com)",
+        "UpdateFrequency": "Finalized",
+        "License": "[Commercial](https://www.nuscenes.org/terms-of-use)",
+        "Tags": [
+            "aws-pds",
+            "autonomous vehicles",
+            "computer vision",
+            "lidar",
+            "robotics",
+            "transportation",
+            "urban"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": "https://d36yt3mvayqw5m.cloudfront.net"
     },
     {
         "Name": "nuScenes",
@@ -28357,32 +28413,6 @@
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
-    },
-    {
-        "Name": "nuScenes",
-        "Description": "Globally cached distribution of the nuScenes Dataset Web frontend is available to browse the dataset",
-        "ARN": null,
-        "Region": "ap-northeast-1",
-        "Type": "CloudFront Distribution",
-        "Documentation": "https://www.nuscenes.org",
-        "Contact": "https://www.nuscenes.org",
-        "ManagedBy": "[Motional, Inc.](https://motional.com)",
-        "UpdateFrequency": "Finalized",
-        "License": "[Commercial](https://www.nuscenes.org/terms-of-use)",
-        "Tags": [
-            "aws-pds",
-            "autonomous vehicles",
-            "computer vision",
-            "lidar",
-            "robotics",
-            "transportation",
-            "urban"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": "https://d36yt3mvayqw5m.cloudfront.net"
     },
     {
         "Name": "real-changesets",
