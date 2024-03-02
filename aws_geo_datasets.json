@@ -9376,6 +9376,58 @@
         "AccountRequired": null
     },
     {
+        "Name": "NOAA GraphCast Global Forecast System (GFS) - GraphCast GFS data",
+        "Description": "GraphCast GFS data",
+        "ARN": "arn:aws:s3:::noaa-nws-graphcastgfs-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "For the NOAA Product, https://graphcastgfs.readthedocs.io/en/latest/index.html and for background graphcast information, https://github.com/google-deepmind/graphcast/tree/main/graphcast",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA EMC Github site](https://github.com/noaa-emc/graphcast/issues). For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "4 times a day at 00Z, 06Z, 12Z and 18Z",
+        "License": "NOAA's GraphCast GFS products are released under CC0 license. The underlying GraphCast code package created by DeepMind is released by Google under a separate license. The products in this bucket only contain NOAA produced products and not GrahCast code or training data. For information on GraphCast, please visit the \"[Google DeepMind GraphCast Gitub License page](https://github.com/google-deepmind/graphcast?tab=readme-ov-file#license-and-attribution)\".",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-nws-graphcastgfs-pds.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA GraphCast Global Forecast System (GFS) - New data notifications for GraphCast GFS, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for GraphCast GFS, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNWSGRAPHCASTGFSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "For the NOAA Product, https://graphcastgfs.readthedocs.io/en/latest/index.html and for background graphcast information, https://github.com/google-deepmind/graphcast/tree/main/graphcast",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA EMC Github site](https://github.com/noaa-emc/graphcast/issues). For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "4 times a day at 00Z, 06Z, 12Z and 18Z",
+        "License": "NOAA's GraphCast GFS products are released under CC0 license. The underlying GraphCast code package created by DeepMind is released by Google under a separate license. The products in this bucket only contain NOAA produced products and not GrahCast code or training data. For information on GraphCast, please visit the \"[Google DeepMind GraphCast Gitub License page](https://github.com/google-deepmind/graphcast?tab=readme-ov-file#license-and-attribution)\".",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "NOAA High-Resolution Rapid Refresh (HRRR) Model - Archive of HRRR data since 2014",
         "Description": "Archive of HRRR data since 2014",
         "ARN": "arn:aws:s3:::noaa-hrrr-bdp-pds",
@@ -9678,7 +9730,30 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9724,30 +9799,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",

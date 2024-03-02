@@ -14764,8 +14764,8 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Ocean Heat Content",
-        "ARN": "arn:aws:s3:::noaa-cdr-ocean-heat-content-pds",
+        "Description": "Ocean Heatflux",
+        "ARN": "arn:aws:s3:::noaa-cdr-ocean-heatflux-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
@@ -14782,7 +14782,7 @@
             "weather"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-cdr-ocean-heat-content-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-cdr-ocean-heatflux-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -14899,8 +14899,8 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Ocean Heatflux",
-        "ARN": "arn:aws:s3:::noaa-cdr-ocean-heatflux-pds",
+        "Description": "Ocean Heat Content",
+        "ARN": "arn:aws:s3:::noaa-cdr-ocean-heat-content-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
@@ -14917,7 +14917,7 @@
             "weather"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-cdr-ocean-heatflux-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-cdr-ocean-heat-content-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -16212,6 +16212,35 @@
     },
     {
         "Name": "NOAA Global Real-Time Ocean Forecast System (Global RTOFS)",
+        "Description": "NOAA Global Real Time Ocean Forecasting System New Dataset Notification",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewRTOFSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://noaa-nws-rtofs-pds.s3.amazonaws.com/README.html",
+        "Contact": "For questions regarding data content or quality, visit the RTOFS site (https://polar.ncep.noaa.gov/global/). <br /> For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Once a day. The products are available at the following times each day <br /> 00z - Analysis and analysis post-processing <br /> 06z - forecast days 1-4, post-processing for most of these days <br /> 12z - forecast days 5-8, post-processing for these days and some of forecast days 1-4. <br />",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "global",
+            "coastal",
+            "disaster response",
+            "weather",
+            "water",
+            "environmental",
+            "meteorological",
+            "oceans",
+            "climate"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Global Real-Time Ocean Forecast System (Global RTOFS)",
         "Description": "NOAA Global Real Time Ocean Forecasting System Data",
         "ARN": "arn:aws:s3:::noaa-nws-rtofs-pds",
         "Region": "us-east-1",
@@ -16242,35 +16271,6 @@
         "Host": null
     },
     {
-        "Name": "NOAA Global Real-Time Ocean Forecast System (Global RTOFS)",
-        "Description": "NOAA Global Real Time Ocean Forecasting System New Dataset Notification",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewRTOFSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://noaa-nws-rtofs-pds.s3.amazonaws.com/README.html",
-        "Contact": "For questions regarding data content or quality, visit the RTOFS site (https://polar.ncep.noaa.gov/global/). <br /> For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Once a day. The products are available at the following times each day <br /> 00z - Analysis and analysis post-processing <br /> 06z - forecast days 1-4, post-processing for most of these days <br /> 12z - forecast days 5-8, post-processing for these days and some of forecast days 1-4. <br />",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "global",
-            "coastal",
-            "disaster response",
-            "weather",
-            "water",
-            "environmental",
-            "meteorological",
-            "oceans",
-            "climate"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "NOAA Global Surface Summary of Day",
         "Description": "Measurements and metadata",
         "ARN": "arn:aws:s3:::noaa-gsod-pds",
@@ -16291,6 +16291,37 @@
             "regulatory"
         ],
         "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Global Surge and Tide Operational Forecast System 2-D (STOFS-2D-Global)",
+        "Description": "NOAA STOFS-2D-Global Water Level Forecast Guidance",
+        "ARN": "arn:aws:s3:::noaa-gestofs-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://noaa-gestofs-pds.s3.amazonaws.com/README.html",
+        "Contact": "For questions regarding data content or quality, visit the ESTOFS site (https://polar.ncep.noaa.gov/estofs/). <br /> For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Four times per day, every 6 hours starting at midnight UTC",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "global",
+            "coastal",
+            "disaster response",
+            "weather",
+            "water",
+            "environmental",
+            "meteorological",
+            "oceans",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-gestofs-pds.s3.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -16326,30 +16357,53 @@
         "Host": null
     },
     {
-        "Name": "NOAA Global Surge and Tide Operational Forecast System 2-D (STOFS-2D-Global)",
-        "Description": "NOAA STOFS-2D-Global Water Level Forecast Guidance",
-        "ARN": "arn:aws:s3:::noaa-gestofs-pds",
+        "Name": "NOAA GraphCast Global Forecast System (GFS)",
+        "Description": "New data notifications for GraphCast GFS, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNWSGRAPHCASTGFSObject",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://noaa-gestofs-pds.s3.amazonaws.com/README.html",
-        "Contact": "For questions regarding data content or quality, visit the ESTOFS site (https://polar.ncep.noaa.gov/estofs/). <br /> For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "Type": "SNS Topic",
+        "Documentation": "For the NOAA Product, https://graphcastgfs.readthedocs.io/en/latest/index.html and for background graphcast information, https://github.com/google-deepmind/graphcast/tree/main/graphcast",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA EMC Github site](https://github.com/noaa-emc/graphcast/issues). For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Four times per day, every 6 hours starting at midnight UTC",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "UpdateFrequency": "4 times a day at 00Z, 06Z, 12Z and 18Z",
+        "License": "NOAA's GraphCast GFS products are released under CC0 license. The underlying GraphCast code package created by DeepMind is released by Google under a separate license. The products in this bucket only contain NOAA produced products and not GrahCast code or training data. For information on GraphCast, please visit the \"[Google DeepMind GraphCast Gitub License page](https://github.com/google-deepmind/graphcast?tab=readme-ov-file#license-and-attribution)\".",
         "Tags": [
             "aws-pds",
-            "global",
-            "coastal",
+            "agriculture",
+            "climate",
             "disaster response",
-            "weather",
-            "water",
             "environmental",
             "meteorological",
-            "oceans",
-            "climate"
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA GraphCast Global Forecast System (GFS)",
+        "Description": "GraphCast GFS data",
+        "ARN": "arn:aws:s3:::noaa-nws-graphcastgfs-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "For the NOAA Product, https://graphcastgfs.readthedocs.io/en/latest/index.html and for background graphcast information, https://github.com/google-deepmind/graphcast/tree/main/graphcast",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA EMC Github site](https://github.com/noaa-emc/graphcast/issues). For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "4 times a day at 00Z, 06Z, 12Z and 18Z",
+        "License": "NOAA's GraphCast GFS products are released under CC0 license. The underlying GraphCast code package created by DeepMind is released by Google under a separate license. The products in this bucket only contain NOAA produced products and not GrahCast code or training data. For information on GraphCast, please visit the \"[Google DeepMind GraphCast Gitub License page](https://github.com/google-deepmind/graphcast?tab=readme-ov-file#license-and-attribution)\".",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-gestofs-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-nws-graphcastgfs-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -16464,6 +16518,30 @@
     },
     {
         "Name": "NOAA Hurricane Analysis and Forecast System (HAFS)",
+        "Description": "New data notifications for HAFS, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewHAFSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://wpo.noaa.gov/the-hurricane-analysis-and-forecast-system-hafs/",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Event Driven",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Hurricane Analysis and Forecast System (HAFS)",
         "Description": "Hurricane Analysis Forecast System (HAFS) Data",
         "ARN": "arn:aws:s3:::noaa-nws-hafs-pds",
         "Region": "us-east-1",
@@ -16483,30 +16561,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-nws-hafs-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Hurricane Analysis and Forecast System (HAFS)",
-        "Description": "New data notifications for HAFS, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewHAFSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://wpo.noaa.gov/the-hurricane-analysis-and-forecast-system-hafs/",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Event Driven",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -16590,8 +16644,34 @@
     },
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS)",
+        "Description": "NOAA JPSS Development Data",
+        "ARN": "arn:aws:s3:::noaa-jpss",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-jpss.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS)",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -16640,10 +16720,10 @@
     },
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS)",
-        "Description": "NOAA JPSS Development Data",
-        "ARN": "arn:aws:s3:::noaa-jpss",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
@@ -16656,9 +16736,7 @@
             "meteorological",
             "weather"
         ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-jpss.s3.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -16693,7 +16771,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS)",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -16735,30 +16813,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-nesdis-n20-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS)",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -16925,31 +16979,6 @@
     },
     {
         "Name": "NOAA National Blend of Models (NBM)",
-        "Description": "New data notifications for NBM-Grib2 Format, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNBMGRIBObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://vlab.noaa.gov/web/mdl/nbm",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Once per hour",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "cog",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA National Blend of Models (NBM)",
         "Description": "New data notifications for NBM-COG Format, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:123901341784:NewNBMCOGObject",
         "Region": "us-east-1",
@@ -17001,20 +17030,21 @@
         "Host": null
     },
     {
-        "Name": "NOAA National Digital Forecast Database (NDFD)",
-        "Description": "New data notifications for NDFD, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNDFDObject",
+        "Name": "NOAA National Blend of Models (NBM)",
+        "Description": "New data notifications for NBM-Grib2 Format, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNBMGRIBObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
-        "Documentation": "https://vlab.noaa.gov/web/mdl/ndfd (For NDFD Product information, instructions, and lookup tables)",
+        "Documentation": "https://vlab.noaa.gov/web/mdl/nbm",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "As often as once every half hour (varies by forecast element, forecast projection, and domain)",
+        "UpdateFrequency": "Once per hour",
         "License": "Open Data. There are no restrictions on the use of this data.",
         "Tags": [
             "aws-pds",
             "agriculture",
             "climate",
+            "cog",
             "meteorological",
             "weather"
         ],
@@ -17045,6 +17075,30 @@
         "Explore": [
             "[Browse Bucket](https://noaa-ndfd-pds.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA National Digital Forecast Database (NDFD)",
+        "Description": "New data notifications for NDFD, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNDFDObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://vlab.noaa.gov/web/mdl/ndfd (For NDFD Product information, instructions, and lookup tables)",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "As often as once every half hour (varies by forecast element, forecast projection, and domain)",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -17197,33 +17251,6 @@
     },
     {
         "Name": "NOAA National Water Model Short-Range Forecast",
-        "Description": "New data notifications for NWM, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNWMObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nwm-pds",
-        "Contact": "For questions regarding data content or quality, go [here](http://water.noaa.gov/about/nwm).<br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Daily",
-        "License": "Open Data. There are no restrictions on the use of this data",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "weather",
-            "climate",
-            "environmental",
-            "disaster response",
-            "agriculture",
-            "transportation"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA National Water Model Short-Range Forecast",
         "Description": "A rolling four week archive of NWM data",
         "ARN": "arn:aws:s3:::noaa-nwm-pds",
         "Region": "us-east-1",
@@ -17252,26 +17279,27 @@
         "Host": null
     },
     {
-        "Name": "NOAA North American Mesoscale Forecast System (NAM)",
-        "Description": "North American Mesoscale Forecast System (NAM) Data",
-        "ARN": "arn:aws:s3:::noaa-nam-pds",
+        "Name": "NOAA National Water Model Short-Range Forecast",
+        "Description": "New data notifications for NWM, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNWMObject",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/nam.php, https://www.ncei.noaa.gov/products/weather-climate-models/north-american-mesoscale",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nwm-pds",
+        "Contact": "For questions regarding data content or quality, go [here](http://water.noaa.gov/about/nwm).<br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Four times daily (0000, 0600, 1200, and 1800 UTC)",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "UpdateFrequency": "Daily",
+        "License": "Open Data. There are no restrictions on the use of this data",
         "Tags": [
             "aws-pds",
             "agriculture",
+            "weather",
             "climate",
-            "meteorological",
-            "weather"
+            "environmental",
+            "disaster response",
+            "agriculture",
+            "transportation"
         ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-nam-pds.s3.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -17296,6 +17324,32 @@
             "weather"
         ],
         "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA North American Mesoscale Forecast System (NAM)",
+        "Description": "North American Mesoscale Forecast System (NAM) Data",
+        "ARN": "arn:aws:s3:::noaa-nam-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/nam.php, https://www.ncei.noaa.gov/products/weather-climate-models/north-american-mesoscale",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Four times daily (0000, 0600, 1200, and 1800 UTC)",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-nam-pds.s3.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -17331,34 +17385,6 @@
     },
     {
         "Name": "NOAA Oceanic Climate Data Records",
-        "Description": "Sea Ice Concentration",
-        "ARN": "arn:aws:s3:::noaa-cdr-sea-ice-concentration-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncdc.noaa.gov/cdr",
-        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team here by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "oceans",
-            "sustainability",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-cdr-sea-ice-concentration-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Oceanic Climate Data Records",
         "Description": "Sea Surface Temperature - WHOI",
         "ARN": "arn:aws:s3:::noaa-cdr-sea-surface-temp-whoi-pds",
         "Region": "us-east-1",
@@ -17379,6 +17405,34 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-cdr-sea-surface-temp-whoi-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Oceanic Climate Data Records",
+        "Description": "Sea Ice Concentration",
+        "ARN": "arn:aws:s3:::noaa-cdr-sea-ice-concentration-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncdc.noaa.gov/cdr",
+        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team here by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "oceans",
+            "sustainability",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-cdr-sea-ice-concentration-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -17557,6 +17611,32 @@
     },
     {
         "Name": "NOAA Rapid Refresh (RAP)",
+        "Description": "Rapid Refresh (RAP) Data",
+        "ARN": "arn:aws:s3:::noaa-rap-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rap/",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Hourly",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-rap-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Rapid Refresh (RAP)",
         "Description": "New data notifications for RAP, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:123901341784:NewRAPObject",
         "Region": "us-east-1",
@@ -17580,15 +17660,15 @@
         "Host": null
     },
     {
-        "Name": "NOAA Rapid Refresh (RAP)",
-        "Description": "Rapid Refresh (RAP) Data",
-        "ARN": "arn:aws:s3:::noaa-rap-pds",
+        "Name": "NOAA Rapid Refresh Forecast System (RRFS) [Prototype]",
+        "Description": "New data notifications for RRFS, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewRRFSObject",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rap/",
+        "Type": "SNS Topic",
+        "Documentation": "https://vlab.noaa.gov/web/ufs-r2o",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Hourly",
+        "UpdateFrequency": "Daily",
         "License": "Open Data. There are no restrictions on the use of this data.",
         "Tags": [
             "aws-pds",
@@ -17597,9 +17677,7 @@
             "meteorological",
             "weather"
         ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-rap-pds.s3.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -17632,15 +17710,41 @@
         "Host": null
     },
     {
-        "Name": "NOAA Rapid Refresh Forecast System (RRFS) [Prototype]",
-        "Description": "New data notifications for RRFS, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewRRFSObject",
+        "Name": "NOAA Real-Time Mesoscale Analysis (RTMA) / Unrestricted Mesoscale Analysis (URMA)",
+        "Description": "Unrestricted Mesoscale Analysis (URMA) Data",
+        "ARN": "arn:aws:s3:::noaa-urma-pds",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://vlab.noaa.gov/web/ufs-r2o",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rtma/",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Daily",
+        "UpdateFrequency": "Hourly",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-urma-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Real-Time Mesoscale Analysis (RTMA) / Unrestricted Mesoscale Analysis (URMA)",
+        "Description": "New data notifications for RTMA data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNCEPRTMAObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rtma/",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Hourly",
         "License": "Open Data. There are no restrictions on the use of this data.",
         "Tags": [
             "aws-pds",
@@ -17700,56 +17804,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-rtma-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Real-Time Mesoscale Analysis (RTMA) / Unrestricted Mesoscale Analysis (URMA)",
-        "Description": "Unrestricted Mesoscale Analysis (URMA) Data",
-        "ARN": "arn:aws:s3:::noaa-urma-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rtma/",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Hourly",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-urma-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Real-Time Mesoscale Analysis (RTMA) / Unrestricted Mesoscale Analysis (URMA)",
-        "Description": "New data notifications for RTMA data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNCEPRTMAObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rtma/",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Hourly",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -17957,33 +18011,6 @@
     },
     {
         "Name": "NOAA Terrestrial Climate Data Records",
-        "Description": "NDVI",
-        "ARN": "arn:aws:s3:::noaa-cdr-ndvi-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncdc.noaa.gov/cdr",
-        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "sustainability",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-cdr-ndvi-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Terrestrial Climate Data Records",
         "Description": "Leaf Area Index",
         "ARN": "arn:aws:s3:::noaa-cdr-leaf-area-index-fapar-pds",
         "Region": "us-east-1",
@@ -18030,6 +18057,33 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-cdr-snow-cover-ext-north-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Terrestrial Climate Data Records",
+        "Description": "NDVI",
+        "ARN": "arn:aws:s3:::noaa-cdr-ndvi-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncdc.noaa.gov/cdr",
+        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "sustainability",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-cdr-ndvi-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -18165,6 +18219,30 @@
     },
     {
         "Name": "NOAA Unified Forecast System (UFS) Land Data Assimilation (DA) System",
+        "Description": "New data notifications for UFS Land Data Assimilation (DA) System, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSLANDDAObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://land-da.readthedocs.io/en/latest/",
+        "Contact": "For questions regarding data content or quality, visit https://github.com/NOAA-EPIC/land-offline_workflow/discussionsFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "These are stable datasets for use with the Land DA System. They will not be updated frequently. Additional data may be added with each subsequent Land DA release.",
+        "License": "The Land DA license page can be found at: https://github.com/NOAA-EPIC/land-offline_workflow/blob/develop/LICENSE",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System (UFS) Land Data Assimilation (DA) System",
         "Description": "Unified Forecast System (UFS) Land Data Assimilation (DA) System",
         "ARN": "arn:aws:s3:::noaa-ufs-land-da-pds",
         "Region": "us-east-1",
@@ -18184,30 +18262,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-ufs-land-da-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Unified Forecast System (UFS) Land Data Assimilation (DA) System",
-        "Description": "New data notifications for UFS Land Data Assimilation (DA) System, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSLANDDAObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://land-da.readthedocs.io/en/latest/",
-        "Contact": "For questions regarding data content or quality, visit https://github.com/NOAA-EPIC/land-offline_workflow/discussionsFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "These are stable datasets for use with the Land DA System. They will not be updated frequently. Additional data may be added with each subsequent Land DA release.",
-        "License": "The Land DA license page can be found at: https://github.com/NOAA-EPIC/land-offline_workflow/blob/develop/LICENSE",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -18320,30 +18374,6 @@
     },
     {
         "Name": "NOAA Unified Forecast System Weather Model (UFS-WM) Regression Tests",
-        "Description": "New data notifications for UFS Weather Model Regression data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://ufs-weather-model.readthedocs.io/en/ufs-v1.0.0/index.html",
-        "Contact": "For questions regarding data content or quality, visit  https://github.com/ufs-community/ufs-weather-model/issuesFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "The input and baseline datasets are updated for the latest two-months of development code commits/revisions made to the UFS-WM\u2019s development branch.",
-        "License": "The UFS-WM has license page at: https://github.com/ufs-community/ufs-weather-model/blob/develop/LICENSE.md",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Unified Forecast System Weather Model (UFS-WM) Regression Tests",
         "Description": "Unified Forecast System Weather Model (UFS-WM) Regression Tests data",
         "ARN": "arn:aws:s3:::noaa-ufs-regtests-pds",
         "Region": "us-east-1",
@@ -18363,6 +18393,30 @@
         "Explore": [
             "[Browse Bucket](https://noaa-ufs-regtests-pds.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System Weather Model (UFS-WM) Regression Tests",
+        "Description": "New data notifications for UFS Weather Model Regression data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://ufs-weather-model.readthedocs.io/en/ufs-v1.0.0/index.html",
+        "Contact": "For questions regarding data content or quality, visit  https://github.com/ufs-community/ufs-weather-model/issuesFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "The input and baseline datasets are updated for the latest two-months of development code commits/revisions made to the UFS-WM\u2019s development branch.",
+        "License": "The UFS-WM has license page at: https://github.com/ufs-community/ufs-weather-model/blob/develop/LICENSE.md",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -18449,6 +18503,30 @@
     },
     {
         "Name": "NOAA Wave Ensemble Reforecast",
+        "Description": "New data notifications for NOAA Wave Ensemble Reforecast, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewWERObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/ricampos/gefswaves_reforecast/wiki  https://github.com/ricampos/gefswaves_reforecast",
+        "Contact": "For questions related to wave modeling and the ensemble reforecast available, please contact Ricardo Martins Campos, email ricardo.campos@noaa.gov.For any questions regarding data delivery not associated with this platform or any general questionsregarding the NOAA Open Data Dissemination Program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring thosestories in joint publications and in upcoming events. If you are interested in seeing your storyhighlighted, please share it with the NOAA NODD team at nodd@noaa.gov.",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Quarterly",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Wave Ensemble Reforecast",
         "Description": "NOAA Wave Ensemble Reforecast Data",
         "ARN": "arn:aws:s3:::noaa-nws-gefswaves-reforecast-pds",
         "Region": "us-east-1",
@@ -18474,21 +18552,21 @@
         "Host": null
     },
     {
-        "Name": "NOAA Wave Ensemble Reforecast",
-        "Description": "New data notifications for NOAA Wave Ensemble Reforecast, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewWERObject",
+        "Name": "NOAA Whole Atmosphere Model-Ionosphere Plasmasphere Electrodynamics (WAM-IPE) Forecast System (WFS)",
+        "Description": "New data notifications for NOAA WAM-IPE Products, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewWIFSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
-        "Documentation": "https://github.com/ricampos/gefswaves_reforecast/wiki  https://github.com/ricampos/gefswaves_reforecast",
-        "Contact": "For questions related to wave modeling and the ensemble reforecast available, please contact Ricardo Martins Campos, email ricardo.campos@noaa.gov.For any questions regarding data delivery not associated with this platform or any general questionsregarding the NOAA Open Data Dissemination Program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring thosestories in joint publications and in upcoming events. If you are interested in seeing your storyhighlighted, please share it with the NOAA NODD team at nodd@noaa.gov.",
+        "Documentation": "https://www.swpc.noaa.gov/products/wam-ipe",
+        "Contact": "For any questions regarding WAM-IPE data, please contact Adam Kubaryk (adam.kubaryk@noaa.gov) For data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Quarterly",
+        "UpdateFrequency": "The update frequencies of the WAM-IPE dataset range from 5 minutes to 6 hours depending on the CONOPS.",
         "License": "Open Data. There are no restrictions on the use of this data.",
         "Tags": [
             "aws-pds",
-            "agriculture",
             "climate",
             "meteorological",
+            "solar",
             "weather"
         ],
         "Explore": null,
@@ -18524,30 +18602,6 @@
         "Host": null
     },
     {
-        "Name": "NOAA Whole Atmosphere Model-Ionosphere Plasmasphere Electrodynamics (WAM-IPE) Forecast System (WFS)",
-        "Description": "New data notifications for NOAA WAM-IPE Products, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewWIFSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.swpc.noaa.gov/products/wam-ipe",
-        "Contact": "For any questions regarding WAM-IPE data, please contact Adam Kubaryk (adam.kubaryk@noaa.gov) For data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "The update frequencies of the WAM-IPE dataset range from 5 minutes to 6 hours depending on the CONOPS.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "meteorological",
-            "solar",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "NOAA World Ocean Database (WOD)",
         "Description": "World Ocean Database (WOD) NetCDF Format",
         "ARN": "arn:aws:s3:::noaa-wod-pds",
@@ -18566,6 +18620,30 @@
         "Explore": [
             "[Browse Bucket](https://noaa-wod-pds.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA/PMEL Ocean Climate Stations Moorings",
+        "Description": "New data notifications for OCS moored buoy data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewKeoPapaObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.pmel.noaa.gov/ocs/ http://www.oceansites.org https://dods.ndbc.noaa.gov/oceansites/",
+        "Contact": "For questions regarding data content or quality, users are directed to the OCS webpage (https://www.pmel.noaa.gov/ocs/). For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "KEO and Papa data on BDP are synchronized with the OceanSITES Global Data Assembly Center periodically.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "environmental",
+            "oceans",
+            "weather"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -18598,30 +18676,6 @@
         "Host": null
     },
     {
-        "Name": "NOAA/PMEL Ocean Climate Stations Moorings",
-        "Description": "New data notifications for OCS moored buoy data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewKeoPapaObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.pmel.noaa.gov/ocs/ http://www.oceansites.org https://dods.ndbc.noaa.gov/oceansites/",
-        "Contact": "For questions regarding data content or quality, users are directed to the OCS webpage (https://www.pmel.noaa.gov/ocs/). For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "KEO and Papa data on BDP are synchronized with the OceanSITES Global Data Assembly Center periodically.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "environmental",
-            "oceans",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "NREL National Solar Radiation Database",
         "Description": "HSDS NSRDB domains",
         "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/nsrdb/",
@@ -18642,6 +18696,33 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fnsrdb%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL National Solar Radiation Database",
+        "Description": "NSRDB 2km-10min data for the all of the Western Hemisphere (GOES full-disc",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/full_disc/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=full_disc%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -18758,33 +18839,6 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB 2km-10min data for the all of the Western Hemisphere (GOES full-disc",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/full_disc/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=full_disc%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL National Solar Radiation Database",
         "Description": "Meteorological Statistical Model 2 (MTS2) data (1991-2005) in HDF5 format",
         "ARN": "arn:aws:s3:::nrel-pds-nsrdb/mts2",
         "Region": "us-west-2",
@@ -18839,8 +18893,8 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB v3 typical direct years (TDY",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tdy/",
+        "Description": "NSRDB v3 typical meteorological years (TMY",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tmy/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsrdb.nrel.gov/",
@@ -18857,7 +18911,7 @@
             "solar"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftdy%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftmy%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -18893,8 +18947,8 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB v3 typical meteorological years (TMY",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tmy/",
+        "Description": "NSRDB v3 typical direct years (TDY",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tdy/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsrdb.nrel.gov/",
@@ -18911,7 +18965,7 @@
             "solar"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftmy%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftdy%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -20306,30 +20360,6 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Reservoirs (PT-BR Reservat\u00f3rios)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/reservatorio)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
         "Description": "Daily affluent natural energy per equivalent energy reservoir (PT-BR Energia Natural Afluente (ENA) di\u00e1rio por REE - reservatorio equivalente de energia)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
@@ -20474,7 +20504,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Data of the relationship between power plant and group (PT-BR Dados do relacionamento entre conjuntos e usinas)",
+        "Description": "Data of the relationship between power plant and groups of small power plants (PT-BR Dados do relacionamento entre conjuntos de pequenas usinas e usinas)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -20489,7 +20519,31 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/usina_conjunto)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/usina_pqu)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Reservoirs (PT-BR Reservat\u00f3rios)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/reservatorio)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -21218,7 +21272,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Data of the relationship between power plant and groups of small power plants (PT-BR Dados do relacionamento entre conjuntos de pequenas usinas e usinas)",
+        "Description": "Data of the relationship between power plant and group (PT-BR Dados do relacionamento entre conjuntos e usinas)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -21233,7 +21287,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/usina_pqu)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/usina_conjunto)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
