@@ -2028,6 +2028,19 @@
         "license": "not-provided"
     },
     {
+        "id": "CH-OG-1-GPS-10S.v0.0",
+        "title": "10 sec GPS ground tracking data",
+        "catalog": "SCIOPS",
+        "state_date": "2001-05-28",
+        "end_date": "",
+        "bbox": "-63.51, -45.69, 170.42, 78.87",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/CH-OG-1-GPS-10S.v0.0",
+        "description": "This data set comprises GPS ground data of a sample rate of 10 sec, generated       by decoding and sampling GPS high  rate ground data. This raw data passed no       quality control. The data are given in the Rinex 2.1 format.",
+        "license": "not-provided"
+    },
+    {
         "id": "CIESIN_SEDAC_EPI_2008.v2008.00",
         "title": "2008 Environmental Performance Index (EPI)",
         "catalog": "SEDAC",
@@ -3159,6 +3172,19 @@
         "license": "not-provided"
     },
     {
+        "id": "KUKRI_He",
+        "title": "(U-Th)/He ages from the Kukri Hills of southern Victoria Land",
+        "catalog": "SCIOPS",
+        "state_date": "1970-01-01",
+        "end_date": "",
+        "bbox": "162.7, -77.7, 162.7, -77.7",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214587974-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214587974-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/KUKRI_He",
+        "description": "The data set consists of (U-Th)/He ages collected from three vertical profiles       from the the Kukri Hills (north side of the Ferrar Glacier) of Southern       Victoria Land.  The data set provides information on the cooling history and       hence the denduation history of the Transantarctic Mountains in this area.       Analyses were all carried out at the (U-Th)/He lab of Ken Farley at the       Californai Institute of Technology.",
+        "license": "not-provided"
+    },
+    {
         "id": "L1B_Wind_Products",
         "title": "Aeolus preliminary HLOS (horizontal line-of-sight) wind observations for Rayleigh and Mie receivers",
         "catalog": "ESA",
@@ -3585,6 +3611,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1374483929-NCCS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/NEX-GDDP.v1",
         "description": "The NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP) dataset is comprised of downscaled climate scenarios for the globe that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 5 (CMIP5) and across two of the four greenhouse gas emissions scenarios known as Representative Concentration Pathways (RCPs). The CMIP5 GCM runs were developed in support of the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR5). The NEX-GDDP dataset includes downscaled projections for RCP 4.5 and RCP 8.5 from the 21 models and scenarios for which daily scenarios were produced and distributed under CMIP5. Each of the climate projections includes daily maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2100. The spatial resolution of the dataset is 0.25 degrees (~25 km x 25 km). The NEX-GDDP dataset is provided to assist the science community in conducting studies of climate change impacts at local to regional scales, and to enhance public understanding of possible future global climate patterns at the spatial scale of individual towns, cities, and watersheds.    Each of the climate projections includes monthly averaged maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2005 (Retrospective Run) and from 2006 to 2099 (Prospective Run). ",
+        "license": "not-provided"
+    },
+    {
+        "id": "NIPR_UAP_ELF_SYO",
+        "title": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
+        "catalog": "SCIOPS",
+        "state_date": "2000-01-01",
+        "end_date": "",
+        "bbox": "39.6, -69, 39.6, -69",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NIPR_UAP_ELF_SYO",
+        "description": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
         "license": "not-provided"
     },
     {
@@ -4664,6 +4703,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458008-FEDEO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/b673f41b-d934-49e4-af6b-44bbdf164367",
         "description": "The \"Land Surface Temperature derived from NOAA-AVHRR data (LST_AVHRR)\" is a fixed grid map (in stereographic projection ) with a spatial resolution of 1.1 km. The total size covering Europe is 4100 samples by 4300 lines. Within 24 hours of acquiring data from the satellite, day-time and night-time LSTs are calculated. In general, the products utilise data from all six of the passes that the satellite makes over Europe in each 24 hour period. For the daily day-time LST maps, the compositing criterion for the three day-time passes is maximum NDVI value and for daily night-time LST maps, the criterion is the maximum night-time LST value of the three night-time passes. Weekly and monthly day-time or night-time LST composite products are also produced by averaging daily day-time or daily night-time LST values, respectively. The range of LST values is scaled between \u201339.5\u00b0C and +87\u00b0C with a radiometric resolution of 0.5\u00b0C. A value of \u201340\u00b0C is used for water. Clouds are masked out as bad values. For additional information, please see: https://wdc.dlr.de/sensors/avhrr/",
+        "license": "not-provided"
+    },
+    {
+        "id": "blue_ice_core_DML2004_AS",
+        "title": "101.1 m long horizontal blue ice core collected from Scharffenbergbotnen, DML, Antarctica, in 2003/2004",
+        "catalog": "SCIOPS",
+        "state_date": "1970-01-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, -62.83",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/blue_ice_core_DML2004_AS",
+        "description": "Horizontal blue ice core collected from the surface of a blue ice area in       Scharffenbergbotnen, Heimefrontfjella, DML. Samples were collected in austral       summer 2003/2004 and transported to Finland for chemical analyses. The blue ice       core is estimated to represent a 1000-year period of climate history 20 - 40       kyr B.P.. The results of the analyses will be available in 2005.",
         "license": "not-provided"
     },
     {
