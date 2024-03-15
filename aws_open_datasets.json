@@ -19501,8 +19501,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Puerto Rico wind resource data (2001-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/pr100/",
+        "Description": "Great Lakes wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/Great_Lakes/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -19517,7 +19517,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=pr100%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Great_Lakes%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -19751,8 +19751,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Great Lakes wind resource data (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/Great_Lakes/",
+        "Description": "Puerto Rico wind resource data (2001-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/pr100/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -19767,7 +19767,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Great_Lakes%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=pr100%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -20114,8 +20114,8 @@
     },
     {
         "Name": "National Cancer Institute Imaging Data Commons (IDC) Collections",
-        "Description": "De-identified imaging data files in DICOM format distributed under CC-NC license Files in this bucket are covered by This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
-        "ARN": "arn:aws:s3:::idc-open-data-cr",
+        "Description": "De-identified imaging data files in DICOM format distributed under CC-BY license This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
+        "ARN": "arn:aws:s3:::idc-open-data",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://learn.canceridc.dev/",
@@ -20170,8 +20170,8 @@
     },
     {
         "Name": "National Cancer Institute Imaging Data Commons (IDC) Collections",
-        "Description": "De-identified imaging data files in DICOM format distributed under CC-BY license This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
-        "ARN": "arn:aws:s3:::idc-open-data",
+        "Description": "De-identified imaging data files in DICOM format distributed under CC-NC license Files in this bucket are covered by This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
+        "ARN": "arn:aws:s3:::idc-open-data-cr",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://learn.canceridc.dev/",
@@ -20354,6 +20354,31 @@
         "Host": null
     },
     {
+        "Name": "New Zealand Elevation",
+        "Description": "New Zealand Elevation with accompanying metadata",
+        "ARN": "arn:aws:s3:::nz-elevation",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/linz/elevation",
+        "Contact": "elevation@linz.govt.nz",
+        "ManagedBy": "[Toit\u016b Te Whenua Land Information New Zealand](https://www.linz.govt.nz)",
+        "UpdateFrequency": "New elevation data will regularly be added, as part of being published to the LINZ Data Service and LINZ Basemaps.",
+        "License": "Toit\u016b Te Whenua Land Information New Zealand does not own the copyright for all of the elevation data that is available in this bucket. Licensors are contained in the STAC Collection file accompanying each elevation data survey. Licensed for re-use under \"[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)\".",
+        "Tags": [
+            "aws-pds",
+            "elevation",
+            "earth observation",
+            "stac",
+            "cog",
+            "geospatial"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "New Zealand Imagery",
         "Description": "New Zealand Imagery with accompanying metadata",
         "ARN": "arn:aws:s3:::nz-imagery",
@@ -20365,6 +20390,7 @@
         "UpdateFrequency": "New imagery will regularly be added, as part of being published to the LINZ Data Service and LINZ Basemaps.",
         "License": "Toit\u016b Te Whenua Land Information New Zealand does not own the copyright for all of the imagery that is available in this bucket. Licensors are contained in the STAC Collection file accompanying each imagery survey. Licensed for re-use under \"[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)\".",
         "Tags": [
+            "aws-pds",
             "aerial imagery",
             "satellite imagery",
             "earth observation",
@@ -20624,7 +20650,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Reservoirs (PT-BR Reservat\u00f3rios)",
+        "Description": "Price offers for import (PT-BR Ofertas de pre\u00e7o para importa\u00e7\u00e3o)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -20639,7 +20665,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/reservatorio)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ofertapreco-importacao)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -20912,7 +20938,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Price offers for import (PT-BR Ofertas de pre\u00e7o para importa\u00e7\u00e3o)",
+        "Description": "Reservoirs (PT-BR Reservat\u00f3rios)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -20927,7 +20953,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ofertapreco-importacao)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/reservatorio)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -21008,30 +21034,6 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Generation function availability indicators for the National Interconnected System - monthly basis (PT-BR Indicadores de disponibilidade de fun\u00e7\u00e3o gera\u00e7\u00e3o para o Sistema Interligado Nacional (SIN) - base mensal)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ind-disponibilidade-geracao)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
         "Description": "Monthly energy charge (PT-BR Carga de energia mensal)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
@@ -21048,6 +21050,30 @@
         ],
         "Explore": [
             "[Browse Dataset](https://dados.ons.org.br/dataset/carga-mensal)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Generation function availability indicators for the National Interconnected System - monthly basis (PT-BR Indicadores de disponibilidade de fun\u00e7\u00e3o gera\u00e7\u00e3o para o Sistema Interligado Nacional (SIN) - base mensal)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind-disponibilidade-geracao)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
