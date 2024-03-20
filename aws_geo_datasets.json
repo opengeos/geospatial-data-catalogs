@@ -1432,13 +1432,13 @@
     {
         "Name": "Chalmers Cloud Ice Climatology",
         "Description": "CCIC total ice water path and 2D cloud probability in Zarr format",
-        "ARN": "arn:aws:s3:::ccic",
+        "ARN": "arn:aws:s3:::chalmerscloudiceclimatology",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://ccic.readthedocs.io",
         "Contact": "https://github.com/see-geo/ccic",
         "ManagedBy": "[Geoscience and Remote Sensing at Chalmers University of Technology](https://www.chalmers.se/en/departments/see/research/geo)",
-        "UpdateFrequency": "Daily or quarterly, depending on the product",
+        "UpdateFrequency": "Quarterly",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "atmosphere",
@@ -1458,7 +1458,7 @@
         ],
         "RequesterPays": null,
         "Explore": [
-            "[Browse Bucket](https://ccic.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://chalmerscloudiceclimatology.s3.amazonaws.com/index.html)"
         ],
         "Host": null,
         "AccountRequired": null
@@ -5653,7 +5653,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5677,7 +5676,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5701,7 +5699,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5725,7 +5722,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5749,7 +5745,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5773,7 +5768,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5797,7 +5791,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5821,7 +5814,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5845,7 +5837,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
@@ -5869,7 +5860,6 @@
         "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
-            "aws-pds",
             "earth observation",
             "aerial imagery",
             "geospatial",
