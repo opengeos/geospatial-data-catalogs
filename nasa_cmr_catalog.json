@@ -390,6 +390,45 @@
         "license": "not-provided"
     },
     {
+        "id": "ABLVIS1B.v1",
+        "title": "ABoVE LVIS L1B Geolocated Return Energy Waveforms V001",
+        "catalog": "NSIDC_ECS",
+        "state_date": "2017-06-29",
+        "end_date": "2017-07-17",
+        "bbox": "-158, 48, -104, 72",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1513105920-NSIDC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1513105920-NSIDC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/ABLVIS1B.v1",
+        "description": "This data set contains return energy waveform data over Alaska and Western Canada measured by the NASA Land, Vegetation, and Ice Sensor (LVIS), an airborne lidar scanning laser altimeter. The data were collected as part of NASA's Terrestrial Ecology Program campaign, the Arctic-Boreal Vulnerability Experiment (ABoVE).",
+        "license": "not-provided"
+    },
+    {
+        "id": "ABLVIS2.v1",
+        "title": "ABoVE LVIS L2 Geolocated Surface Elevation Product V001",
+        "catalog": "NSIDC_ECS",
+        "state_date": "2017-06-29",
+        "end_date": "2017-07-17",
+        "bbox": "-158, 48, -104, 72",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1513105984-NSIDC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1513105984-NSIDC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/ABLVIS2.v1",
+        "description": "This data set contains surface elevation data over Alaska and Western Canada measured by the NASA Land, Vegetation, and Ice Sensor (LVIS), an airborne lidar scanning laser altimeter. The data were collected as part of NASA's Terrestrial Ecology Program campaign, the Arctic-Boreal Vulnerability Experiment (ABoVE).",
+        "license": "not-provided"
+    },
+    {
+        "id": "ABOLVIS1A.v1",
+        "title": "ABoVE LVIS L1A Geotagged Images V001",
+        "catalog": "NSIDC_ECS",
+        "state_date": "2017-06-29",
+        "end_date": "2017-07-17",
+        "bbox": "-158, 48, -104, 72",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1673546369-NSIDC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1673546369-NSIDC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/ABOLVIS1A.v1",
+        "description": "This data set contains geotagged images collected over Alaska and Western Canada. The images were taken by the NASA Digital Mapping Camera, paired with the Land, Vegetation, and Ice Sensor (LVIS), an airborne lidar scanning laser altimeter. The data were collected as part of NASA's Terrestrial Ecology Program campaign, the Arctic-Boreal Vulnerability Experiment (ABoVE).",
+        "license": "not-provided"
+    },
+    {
         "id": "ABoVE_ASCENDS_XCO2_2050.v1",
         "title": "ABoVE/ASCENDS: Active Sensing of CO2, CH4, and Water Vapor, Alaska and Canada, 2017",
         "catalog": "ORNL_CLOUD",
@@ -868,6 +907,45 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566211-USGS_LTA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AERIALDIGI",
         "description": "The National Aeronautics and Space Administration (NASA) Aircraft        Scanners data set contains digital imagery acquired from several        multispectral scanners, including Daedalus thematic mapper simulator       scanners and  the thermal infrared multispectral scanner.  Data are       collected from  selected areas over the conterminous United States,       Alaska, and Hawaii by  NASA ER-2 and NASA C-130B aircraft, operating       from the NASA Ames Research  Center in Moffett Field, California, and by       NASA Learjet aircraft, operating  from Stennis Space Center in Bay St.       Louis, Mississippi.  Limited  international acquisitions also are       available.              In cooperation with the Jet Propulsion Laboratory and Daedalus        Enterprises,Inc., NASA developed several multispectral sensors.  The       data  acquired from these sensors supports NASA's Airborne Science and       Applications  Program and have been identified as precursors to the       instruments scheduled to  fly on Earth Observing System platforms.              THEMATIC MAPPER SIMULATOR              The Thematic Mapper Simulator (TMS) sensor is a line scanning device          designed for a variety of Earth science applications.  Flown aboard              NASA ER-2 aircraft, the TMS sensor has a nominal Instantaneous Field  of              View of 1.25 milliradians with a ground resolution of 81 feet (25  meters)              at 65,000 feet. The TMS sensor scans at a rate of 12.5 scans per  second              with 716 pixels per scan line.  Swath width is 8.3 nautical miles              (15.4 kilometers) at 65,000 feet while the scanner's Field of View  is              42.5 degrees.                NS-001 MULTISPECTRAL SCANNER               The NS-001multispectral scanner is a line scanning device designed  to              simulate Landsat thematic mapper (TM) sensor performance, including  a              near infrared/short-wave infrared band used in applications similar  to those         of the TM sensor (e.g., Earth resources mapping, vegetation/land  cover          mapping, geologic studies).  Flown aboard NASA C-130B aircraft, the  NS-001       sensor has a nominal Instantaneous Field of View of 2.5 milliradians     with a       ground resolution of 25 feet (7.6 meters) at 10,000 feet.  The sensor has a       variable scan rate (10 to 100 scans per second) with 699  pixels per scan line,       but the available motor drive supply restricts the  maximum stable scan speed       to approximately 85 revolutions per second. A scan rate  of 100 revolutions per       second is possible, but not probable, for short  scan lines; therefore, a       combination of factors, including aircraft  flight requirements and maximum       scan speed, prevent scanner operation below 1,500 feet.  Swath width is 3.9       nautical miles (7.26 kilometers) at 10,000 feet, and the total scan angle or       field of regard for the sensor is 100 degrees, plus or minus 15 degrees for       roll compensation.       THERMAL INFRARED MULTISPECTRAL SCANNER       The Thermal Infrared Multispectral Scanner (TIMS) sensor is a line  scanning         device originally designed for geologic applications.  Flown aboard NASA       C-130B, NASA ER-2, and NASA Learjet aircraft, the TIMS sensor  has a              nominal Instantaneous Field of View of 2.5 milliradians with a  ground              resolution of 25 feet (7.6 meters) at 10,000 feet.  The sensor has a              selectable scan rate (7.3, 8.7, 12, or 25 scans per second) with 698  pixels          per scan line.  Swath width is 2.6 nautical miles (4.8 kilometers)  at            10,000 feet while the scanner's Field of View is 76.56 degrees.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AFLVIS1B.v1",
+        "title": "AfriSAR LVIS L1B Geolocated Return Energy Waveforms V001",
+        "catalog": "NSIDC_ECS",
+        "state_date": "2016-02-20",
+        "end_date": "2016-03-08",
+        "bbox": "8, -2, 12, 1",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1549378019-NSIDC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1549378019-NSIDC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/AFLVIS1B.v1",
+        "description": "This data set contains return energy waveform data over Gabon, Africa. The measurements were taken by the NASA Land, Vegetation, and Ice Sensor (LVIS), an airborne lidar scanning laser altimeter. The data were collected as part of a NASA campaign, in collaboration with the European Space Agency (ESA) mission AfriSAR.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AFLVIS2.v1",
+        "title": "AfriSAR LVIS L2 Geolocated Surface Elevation Product V001",
+        "catalog": "NSIDC_ECS",
+        "state_date": "2016-02-20",
+        "end_date": "2016-03-08",
+        "bbox": "8, -2, 12, 1",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1549378743-NSIDC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1549378743-NSIDC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/AFLVIS2.v1",
+        "description": "This data set contains surface elevation data over Gabon, Africa. The measurements were taken by the NASA Land, Vegetation, and Ice Sensor (LVIS), an airborne lidar scanning laser altimeter. The data were collected as part of a NASA campaign, in collaboration with the European Space Agency (ESA) mission AfriSAR.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AFOLVIS1A.v1",
+        "title": "AfriSAR LVIS L1A Geotagged Images V001",
+        "catalog": "NSIDC_ECS",
+        "state_date": "2016-02-20",
+        "end_date": "2016-03-08",
+        "bbox": "8, -2, 12, 1",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1932134853-NSIDC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1932134853-NSIDC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/AFOLVIS1A.v1",
+        "description": "This data set contains geotagged images collected over Gabon, Africa. The images were taken by the NASA Digital Mapping Camera paired with the Land, Vegetation, and Ice Sensor (LVIS), an airborne lidar scanning laser altimeter. The data were collected as part of a NASA campaign, in collaboration with the European Space Agency (ESA) mission AfriSAR.",
         "license": "not-provided"
     },
     {
@@ -1664,6 +1742,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AU_Ocean.v1",
+        "title": "AMSR-E/AMSR2 Unified L2B Global Swath Ocean Products V001",
+        "catalog": "NSIDC_ECS",
+        "state_date": "2002-06-01",
+        "end_date": "",
+        "bbox": "-180, -89.24, 180, 89.24",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2176472016-NSIDC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2176472016-NSIDC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/AU_Ocean.v1",
+        "description": "This AMSR Unified global ocean data set reports integrated water vapor and cloud liquid water content in the atmospheric column, plus 10-meter sea surface wind speeds. The data are derived from AMSR-E  and AMSR2  brightness temperature observations that have been resampled by the Japan Aerospace Exploration Agency (JAXA) to facilitate an intercalibrated (i.e., \u201cunified\u201d) AMSR-E/AMSR2 data record. Ancillary files, including product history, quality assessment (QA), and file-specific metadata are also available.",
+        "license": "not-provided"
+    },
+    {
         "id": "AU_Ocean_NRT_R01.v1",
         "title": "NRT AMSR2 Unified L2B Global Swath Ocean Products V1",
         "catalog": "LANCEAMSR2",
@@ -1674,6 +1765,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1841273046-LANCEAMSR2.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LANCEAMSR2/collections/AU_Ocean_NRT_R01.v1",
         "description": "The Advanced Microwave Scanning Radiometer 2 (AMSR2) instrument on the Global Change Observation Mission - Water 1 (GCOM-W1) provides global passive microwave measurements of terrestrial, oceanic, and atmospheric parameters for the investigation of global water and energy cycles.  Near real-time (NRT) products are generated within 3 hours of the last observations in the file, by the Land Atmosphere Near real-time Capability for EOS (LANCE) at the AMSR Science Investigator-led Processing System (AMSR SIPS), which is collocated with the Global Hydrology Resource Center (GHRC) DAAC.  The GCOM-W1 NRT AMSR2 Unified L2B Global Swath Ocean Products is a swath product containing global sea surface temperature over ocean, wind speed over ocean, water vapor over ocean and cloud liquid water over ocean, using resampled NRT Level-1R data provided by JAXA.  This is the same algorithm that generates the corresponding standard science products in the AMSR SIPS. The NRT products are generated in HDF-EOS-5 augmented with netCDF-4/CF metadata and are available via HTTPS from the EOSDIS LANCE system at https://lance.nsstc.nasa.gov/amsr2-science/data/level2/ocean/.  If data latency is not a primary concern, please consider using science quality products.  Science products are created using the best available ancillary, calibration and ephemeris information.  Science quality products are an internally consistent, well-calibrated record of the Earth's geophysical properties to support science.  The AMSR SIPS produces AMSR2 standard science quality data products, and they are available at the NSIDC DAAC.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AU_Rain.v1",
+        "title": "AMSR-E/AMSR2 Unified L2B Global Swath Surface Precipitation V001",
+        "catalog": "NSIDC_ECS",
+        "state_date": "2002-06-01",
+        "end_date": "",
+        "bbox": "-180, -89.24, 180, 89.24",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1708620364-NSIDC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1708620364-NSIDC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/AU_Rain.v1",
+        "description": "This AMSR-E/AMSR2 Unified Level-2B data set reports instantaneous surface precipitation rates and types (over land and ocean) and precipitation profiles (over ocean). The data are derived by applying the AMSR-E/AMSR2 unified algorithm to L1R data obtained by the Advanced Microwave Scanning Radiometer (AMSR) for EOS (AMSR-E) and AMSR2 instruments.",
         "license": "not-provided"
     },
     {
@@ -2665,6 +2769,19 @@
         "license": "not-provided"
     },
     {
+        "id": "G02191.v1",
+        "title": "AIDJEX Beaufort Sea Upward Looking Sonar April 1976, Version 1",
+        "catalog": "NSIDCV0",
+        "state_date": "1976-04-07",
+        "end_date": "1976-04-10",
+        "bbox": "-155, 70, -137, 76",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1386206523-NSIDCV0.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1386206523-NSIDCV0.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDCV0/collections/G02191.v1",
+        "description": "This data contains Upward Looking Sonar (ULS) profiles of the underside of the Arctic pack ice along three transects whose total length is 777 nautical miles. The data were obtained by the USS Gurnard (SSN-662), a U.S. Navy submarine, on a traverse of the AIDJEX Main Experiment area in the Beaufort Sea from 07 April 1976 to 10 April 1976. The sea ice thickness derived from the ULS is given in feet.  The data are in a single ASCII text file: Aidjex_04_1976_uls.txt. The data in this text file are not formatted into columns; all data are presented in one long row separated by spaces. Little is known about the format of the file, so caution should be used when working with the data. NSIDC is providing this data as part of our effort to preserve historical data.  The data file begins with nine values that appear to be header information. These nine values include latitude and longitude values along with other unknown values. After the header, there are approximately 2100 measurements of what NSIDC believes is sea ice thickness in feet, however it is unclear how often these measurements were taken. After these 2100 values, another header of nine values occurs followed again by 2100 measurements. The file continues in this pattern through the remainder of the file. Users with information about the contents of the file are encouraged to contact <a href=\"mailto:nsidc.org\">NSIDC User Services</a>.  Two supporting documents that provide some background have been scanned and included as PDF files. These are AIDJEX_ULS_background.pdf and AIDJEX_ULS_format.pdf.   These data are available via FTP.   <strong>Note:</strong> These data are in a raw format with unknown fields and are being provided as is for preservation purposes. A processed version of the data are available in the <a href=\"/data/g01360.html\">Submarine Upward Looking Sonar Ice Draft Profile Data and Statistics</a> data set.",
+        "license": "not-provided"
+    },
+    {
         "id": "G5NR.v1",
         "title": "GEOS-5 Nature Run data",
         "catalog": "NCCS",
@@ -2792,6 +2909,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1386206842-NSIDCV0.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDCV0/collections/GGD353.v6",
         "description": "This project involves measuring regional and site variability in maximum annual active layer development and vertical surface movement over permafrost, and monitoring sites over time in order to observe trends. The project records maximum thaw penetration, maximum heave and subsidence, late season snow depths, current depth of thaw, elevation, and soil properties. Some sites are twinned with soil- and air-temperature recording equipment.  The project includes about 60 monitoring stations extending from Fort Simpson, Canada, in the upper Mackenzie River valley to the Beaufort Sea coast at North Head, Richards Island, Canada. Ten of the sites are part of the IPA's Circumpolar Active Layer Monitoring (CALM) Program. CALM site numbers are in parentheses after the site names: North Head (C3), Taglu (C4), Lousy Point (C5), Reindeer Depot (C7), Rengleng River (C8), Mountain River (C9), Norman Wells (C11), Ochre River (C13), Willowlake River (C14), and Fort Simpson (C15). See the CALM Program Web page for geographic coordinates and site history for all CALM sites.  These data are the property of the people of Canada and the responsibility of the Geological Survey of Canada. If published, adequate acknowledgment is expected. Please contact F. M. Nixon regarding use of the data set or access to the extended data.",
+        "license": "not-provided"
+    },
+    {
+        "id": "GGD611.v1",
+        "title": "Air Temperatures at High Altitude, Kanchanjunga Himal, Eastern Nepal, Version 1",
+        "catalog": "NSIDCV0",
+        "state_date": "1998-11-04",
+        "end_date": "1999-11-17",
+        "bbox": "87.933, 27.65, 88.067, 27.8",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1386206883-NSIDCV0.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1386206883-NSIDCV0.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDCV0/collections/GGD611.v1",
+        "description": "This data set provides air temperature (1.5 m above ground surface) data from the Kanchanjunga Himal, eastern Nepal. Air temperature was monitored from November 1998 to November 1999 at three locations (Tengkoma, Lhonak, and Ghunsa) at altitudes of 3410, 4750 and 6012 m ASL. Although temperature was measured at one-hour intervals, only daily mean values are provided.",
+        "license": "not-provided"
+    },
+    {
+        "id": "GGD622.v1",
+        "title": "Active-Layer Depth of a Finnish Palsa Bog, Version 1",
+        "catalog": "NSIDCV0",
+        "state_date": "1993-09-08",
+        "end_date": "2002-10-14",
+        "bbox": "27.17, 69.82, 27.17, 69.82",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1386206889-NSIDCV0.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1386206889-NSIDCV0.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDCV0/collections/GGD622.v1",
+        "description": "This data set contains 76 active-layer depth measurements (cm) of the Vaisje\u00e4ggi palsa bog, Finland, from 08 September 1993 to 14 October 2002. Data were collected from a single location at 69 deg 49'16.6' N, 27 deg 10'17.1' E. Data also contain snow depth (cm) when snow cover was present. Data are in tab-delimited ASCII text format, and are available via ftp.",
         "license": "not-provided"
     },
     {
@@ -3806,6 +3949,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2532070231-AMD_USAPDC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AMD_USAPDC/collections/NSF-ANT13-55533.v1",
         "description": "Antarctic benthic communities are characterized by many species of sponges (Phylum Porifera), long thought to exhibit extremely slow demographic patterns of settlement, growth and reproduction. This project will analyze many hundreds of diver and remotely operated underwater vehicle photographs documenting a unique, episodic settlement event that occurred between 2000 and 2010 in McMurdo Sound that challenges this paradigm of slow growth. Artificial structures were placed on the seafloor between 1967 and 1974 at several sites, but no sponges were observed to settle on these structures until 2004. By 2010 some 40 species of sponges had settled and grown to be surprisingly large. Given the paradigm of slow settlement and growth supported by the long observation period (37 years, 1967-2004), this extraordinary large-scale settlement and rapid growth over just a 6-year time span is astonishing. This project utilizes image processing software (ImageJ) to obtain metrics (linear dimensions to estimate size, frequency, percent cover) for sponges and other fauna visible in the photographs. It uses R to conduct multidimensional scaling to ordinate community data and ANOSIM to test for differences of community data among sites and times and structures. It will also use SIMPER and ranked species abundances to discriminate species responsible for any differences. This work focuses on Antarctic sponges, but the observations of massive episodic recruitment and growth are important to understanding seafloor communities worldwide. Ecosystems are composed of populations, and populations are ecologically described by their distribution and abundance. A little appreciated fact is that sponges often dominate marine communities, but because sponges are so hard to study, most workers focus on other groups such as corals, kelps, or bivalves. Because most sponges settle and grow slowly their life history is virtually unstudied. The assumption of relative stasis of the Antarctic seafloor community is common, and this project will shatter this paradigm by documenting a dramatic episodic event. Finally, the project takes advantage of old transects from the 1960s and 1970s and compares them with extensive 2010 surveys of the same habitats and sometimes the same intact transect lines, offering a long-term perspective of community change. The investigators will publish these results in peer-reviewed journals, give presentations to the general public and will involve students from local outreach programs, high schools, and undergraduates at UCSD to help with the analysis.",
+        "license": "not-provided"
+    },
+    {
+        "id": "NSIDC-0212.v1",
+        "title": "Airborne Cloud Radar (ACR) Reflectivity, Wakasa Bay, Japan, Version 1",
+        "catalog": "NSIDCV0",
+        "state_date": "2003-01-14",
+        "end_date": "2003-02-03",
+        "bbox": "130, 30, 150, 40",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1386204153-NSIDCV0.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1386204153-NSIDCV0.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDCV0/collections/NSIDC-0212.v1",
+        "description": "This data set includes 94 GHz co- and cross-polarized radar reflectivity. The Airborne Cloud Radar (ACR) sensor was mounted to a NASA P-3 aircraft flown over the Sea of Japan, the Western Pacific Ocean, and the Japanese Islands.",
         "license": "not-provided"
     },
     {
