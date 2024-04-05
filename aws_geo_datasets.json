@@ -9836,7 +9836,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9882,7 +9882,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9905,7 +9905,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -14452,6 +14452,34 @@
         "Explore": [
             "[Browse STAC Catalog](https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/rema/strips.json)"
         ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Reference data for HiFi human WGS",
+        "Description": "HiFi Human WGS Reference data",
+        "ARN": "arn:aws:s3:::pacbio-hifi-human-wgs-reference",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://zenodo.org/records/8415406",
+        "Contact": "dl_it-awsopendata@pacificbiosciences.com",
+        "ManagedBy": "[Pacific Biosciences of California, Inc](https://www.pacb.com/)",
+        "UpdateFrequency": "Files are updated to reflect the support for the lastest version of\n[PacBio WGS Variant Pipeline]\n(https://github.com/PacificBiosciences/HiFi-human-WGS-WDL)\n",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "health",
+            "life sciences",
+            "Homo sapiens",
+            "long read sequencing",
+            "genetic",
+            "mapping",
+            "whole genome sequencing",
+            "vcf",
+            "variant annotation"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
