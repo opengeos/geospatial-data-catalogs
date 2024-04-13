@@ -7804,13 +7804,22 @@
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/buildings/end-use-load-profiles.html",
-        "Contact": "Load.Profiles@nrel.gov",
+        "Contact": "ComStock@nrel.gov and ResStock@nrel.gov",
         "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
+        "UpdateFrequency": "Twice per year",
         "License": "[ComStock License](https://github.com/NREL/ComStock/blob/main/LICENSE.txt) and [ResStock License](https://github.com/NREL/resstock/blob/main/LICENSE.md)",
         "Tags": [
             "aws-pds",
-            "energy"
+            "climate",
+            "cities",
+            "energy",
+            "energy modeling",
+            "geospatial",
+            "metadata",
+            "model",
+            "open source software",
+            "sustainability",
+            "utilities"
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=nrel-pds-building-stock%2Fend-use-load-profiles-for-us-building-stock%2F)"
