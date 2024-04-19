@@ -897,19 +897,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AERIALDIGI",
-        "title": "Aircraft Scanners",
-        "catalog": "USGS_LTA",
-        "state_date": "1987-10-06",
-        "end_date": "",
-        "bbox": "-180, 24, -60, 72",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566211-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566211-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AERIALDIGI",
-        "description": "The National Aeronautics and Space Administration (NASA) Aircraft        Scanners data set contains digital imagery acquired from several        multispectral scanners, including Daedalus thematic mapper simulator       scanners and  the thermal infrared multispectral scanner.  Data are       collected from  selected areas over the conterminous United States,       Alaska, and Hawaii by  NASA ER-2 and NASA C-130B aircraft, operating       from the NASA Ames Research  Center in Moffett Field, California, and by       NASA Learjet aircraft, operating  from Stennis Space Center in Bay St.       Louis, Mississippi.  Limited  international acquisitions also are       available.              In cooperation with the Jet Propulsion Laboratory and Daedalus        Enterprises,Inc., NASA developed several multispectral sensors.  The       data  acquired from these sensors supports NASA's Airborne Science and       Applications  Program and have been identified as precursors to the       instruments scheduled to  fly on Earth Observing System platforms.              THEMATIC MAPPER SIMULATOR              The Thematic Mapper Simulator (TMS) sensor is a line scanning device          designed for a variety of Earth science applications.  Flown aboard              NASA ER-2 aircraft, the TMS sensor has a nominal Instantaneous Field  of              View of 1.25 milliradians with a ground resolution of 81 feet (25  meters)              at 65,000 feet. The TMS sensor scans at a rate of 12.5 scans per  second              with 716 pixels per scan line.  Swath width is 8.3 nautical miles              (15.4 kilometers) at 65,000 feet while the scanner's Field of View  is              42.5 degrees.                NS-001 MULTISPECTRAL SCANNER               The NS-001multispectral scanner is a line scanning device designed  to              simulate Landsat thematic mapper (TM) sensor performance, including  a              near infrared/short-wave infrared band used in applications similar  to those         of the TM sensor (e.g., Earth resources mapping, vegetation/land  cover          mapping, geologic studies).  Flown aboard NASA C-130B aircraft, the  NS-001       sensor has a nominal Instantaneous Field of View of 2.5 milliradians     with a       ground resolution of 25 feet (7.6 meters) at 10,000 feet.  The sensor has a       variable scan rate (10 to 100 scans per second) with 699  pixels per scan line,       but the available motor drive supply restricts the  maximum stable scan speed       to approximately 85 revolutions per second. A scan rate  of 100 revolutions per       second is possible, but not probable, for short  scan lines; therefore, a       combination of factors, including aircraft  flight requirements and maximum       scan speed, prevent scanner operation below 1,500 feet.  Swath width is 3.9       nautical miles (7.26 kilometers) at 10,000 feet, and the total scan angle or       field of regard for the sensor is 100 degrees, plus or minus 15 degrees for       roll compensation.       THERMAL INFRARED MULTISPECTRAL SCANNER       The Thermal Infrared Multispectral Scanner (TIMS) sensor is a line  scanning         device originally designed for geologic applications.  Flown aboard NASA       C-130B, NASA ER-2, and NASA Learjet aircraft, the TIMS sensor  has a              nominal Instantaneous Field of View of 2.5 milliradians with a  ground              resolution of 25 feet (7.6 meters) at 10,000 feet.  The sensor has a              selectable scan rate (7.3, 8.7, 12, or 25 scans per second) with 698  pixels          per scan line.  Swath width is 2.6 nautical miles (4.8 kilometers)  at            10,000 feet while the scanner's Field of View is 76.56 degrees.",
-        "license": "not-provided"
-    },
-    {
         "id": "AFLVIS1B.v1",
         "title": "AfriSAR LVIS L1B Geolocated Return Energy Waveforms V001",
         "catalog": "NSIDC_ECS",
@@ -1196,19 +1183,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AK_AVHRR",
-        "title": "Alaska AVHRR Twice-Monthly Composites",
-        "catalog": "USGS_LTA",
-        "state_date": "1990-06-16",
-        "end_date": "",
-        "bbox": "-179, 51, -116, 70",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220565954-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220565954-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AK_AVHRR",
-        "description": "The goal of the Alaska Advanced Very High Resolution Radiometer  (AVHRR) project is to compile a time series data set of calibrated,  georegistered  daily observations and twice-monthly maximum normalized difference  vegetation index (NDVI) composites for Alaska's annual growing  season (April-October). This data set has applications for environmental monitoring and for assessing impacts of global climate change.  An Alaska AVHRR data set is comprised of twice-monthly maximum NDVI composites of daily satellite observations.  The NDVI composites  contain 10 bands of information, including AVHRR channels 1-5, maximum NDVI, satellite zenith, solar zenith, and relative azimuth.  The daily   observations, bands 1-9, have been calibrated to reflectance, scaled  to   byte data, and geometrically registered to the Albers Equal-Area  Conic map projection. The 10th band is a pointer to identify the date and  scene ID of  the source daily observation (scene) for each pixel.  The compositing process required each daily overpass to be  registered to a common map projection to ensure that from day to day each 1-km pixel represented the exact same ground location.  The Albers Equal-Area Conic map projection provides for equal area representation, which enables  easy measurement of area throughout the data.  Each daily observation for  the growing season was registered to a base image using image-to-image correlation.  The NDVI data are calculated from the calibrated, geometrically  registered daily observations. The NDVI value is the difference between  near-infrared (AVHRR Channel 2) and visible (AVHRR Channel 1) reflectance values  divided by total measured reflectance.  A maximum NDVI compositing process  was used on the daily observations.  The NDVI is examined pixel by pixel for  each observation during the compositing period to determine and retain  the maximum value.  Often when displaying data covering large areas, such as AVHRR data,  it is beneficial to include an overlay of either familiar linework for  reflectance or polygon data sets to derive statistical summaries of regions.  All of the linework images represent lines in raster format as 1-km cells and  the strata are represented as polygons registered to the AVHRR data.  The  linework and polygon data sets include international boundaries, Alaskan roads  with the Trans-Alaska Pipeline, and a raster polygon mask of the State. ",
-        "license": "not-provided"
-    },
-    {
         "id": "ALOS",
         "title": "Alos African Coverage ESA archive",
         "catalog": "ESA",
@@ -1284,19 +1258,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1426293893-LANCEMODIS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LANCEMODIS/collections/AM1EPHNE.v6.1NRT",
         "description": "AM1EPHNE is the Terra Near Real Time (NRT) 2-hour spacecraft Extrapolated ephemeris data file in native format. The file name format is the following: AM1EPHNE.Ayyyyddd.hhmm.vvv.yyyydddhhmmss where from left to right:  E = Extrapolated; N = Native format; A = AM1 (Terra); yyyy = data year, ddd = Julian data day, hh = data hour, mm = data minute; vvv = Version ID; yyyy = production year, ddd = Julian production day, hh = production hour, mm = production minute, and ss = production second. Data set information: http://modis.gsfc.nasa.gov/sci_team/",
-        "license": "not-provided"
-    },
-    {
-        "id": "APSF",
-        "title": "Aerial Photo Single Frames",
-        "catalog": "USGS_LTA",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567654-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567654-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/APSF",
-        "description": "The Aerial Photography Single Frame Records collection is a large and diverse group of imagery acquired by Federal organizations from 1937 to the present. Over 6.4 million frames of photographic images are available for download as medium and high resolution digital products. The high resolution data provide access to photogrammetric quality scans of aerial photographs with sufficient resolution to reveal landscape detail and to facilitate the interpretability of landscape features. Coverage is predominantly over the United States and includes portions of Central America and Puerto Rico. Individual photographs vary in scale, size, film type, quality, and coverage.",
         "license": "not-provided"
     },
     {
@@ -1833,32 +1794,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AVHRR_GLOBAL_10-DAY_COMPOSITES",
-        "title": "AVHRR 1-km Global Land 10-Day Composites",
-        "catalog": "USGS_LTA",
-        "state_date": "1992-04-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566288-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566288-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AVHRR_GLOBAL_10-DAY_COMPOSITES",
-        "description": "The Advanced Very High Resolution Radiometer (AVHRR) 1-km Global  Land  10-Day Composites data set project is a component of the National Aeronautics and Space Administration (NASA) AVHRR Pathfinder  Program. The project is a collaborative effort between the National Oceanic  and Atmospheric Administration (NOAA), NASA, the U.S. Geological Survey  (USGS), the European Space Agency (ESA), Australia's Commonwealth Scientific and Industrial Research Organization (CSIRO), and 30 international ground receiving stations.  The project represents an international effort to archive and distribute the 1-km AVHRR composites of the entire global land surface to scientific  researchers and to the general public.  The data set is comprised of a time series of global 10-day normalized difference vegetation index composites.  The composites are generated from radiometrically calibrated, atmospherically corrected, and geometrically corrected daily AVHRR observations. The time series begins in April 1992 and continues for specific time periods.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AVHRR_ORBITAL_SEGMENTS",
-        "title": "AVHRR 1-km Orbital Segments",
-        "catalog": "USGS_LTA",
-        "state_date": "1992-04-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566340-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566340-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AVHRR_ORBITAL_SEGMENTS",
-        "description": "       The Advanced Very High Resolution Radiometer (AVHRR) 1-km Orbital        Segments data set is a component of the National Aeronautics and        Space Administration (NASA) AVHRR Pathfinder Program and contains        global coverage of land masses at 1-kilometer resolution.         The data set is the result of an international effort to acquire,        process, and distribute AVHRR data of the entire global land surface        to meet the needs of the international science community.  The         orbital segments are comprised of raw AVHRR scenes consisting of        5-channel, 10-bit, AVHRR data at 1.1-km resolution at nadir.  The raw        data are used to produce vegetation index composites; to support fire         detection and cloud screening activities; to support research in        atmospheric correction; to develop algorithms; and to support a host of        research activities that may require the inclusion of raw AVHRR data. ",
-        "license": "not-provided"
-    },
-    {
         "id": "Active_Fluorescence_2001.v0",
         "title": "Active fluorescence measurements in the Gulf Stream in 2001",
         "catalog": "OB_DAAC",
@@ -2064,19 +1999,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214308504-AU_AADC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/CEAMARC_CASO_200708030_EVENT_BATHYMETRY_PLOTS.v1",
         "description": "A routine was developed in R ('bathy_plots.R') to plot bathymetry data over time during individual CEAMARC events.  This is so we can analyse benthic data in relation to habitat, ie. did we trawl over a slope or was the sea floor relatively flat.  Note that the depth range in the plots is autoscaled to the data, so a small range in depths appears as a scatetring of points.  As long as you look at the depth scale though interpretation will be ok.  The R files need a file of bathymetry data in '200708V3_one_minute.csv' which is a file containing a data export from the underway PostgreSQL ship database and 'events.csv' which is a stripped down version of the events export from the ship board events database export.  If you wish to run the code again you may need to change the pathnames in the R script to relevant locations.  If you have opened the csv files in excel at any stage and the R script gets an error you may need to format the date/time columns as yyyy-mm-dd hh;mm:ss, save and close the file as csv without opening it again and then run the R script.  However, all output files are here for every CEAMARC event.  Filenames contain a reference to CEAMARC event id.  Files are in eps format and can be viewed using Ghostview which is available as a free download on the internet.",
-        "license": "not-provided"
-    },
-    {
-        "id": "CEOS_CalVal_Test_Sites-Algeria3",
-        "title": "CEOS Cal Val Test Site - Algeria 3 - Pseudo-Invariant Calibration Site (PICS)",
-        "catalog": "USGS_LTA",
-        "state_date": "1972-08-11",
-        "end_date": "",
-        "bbox": "5.22, 29.09, 10.01, 31.36",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567099-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567099-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/CEOS_CalVal_Test_Sites-Algeria3",
-        "description": "On the background of these requirements for sensor calibration, intercalibration and product validation, the subgroup on Calibration and Validation of the Committee on Earth Observing System (CEOS) formulated the following recommendation during the plenary session held in China at the end of 2004, with the goal of setting-up and operating an internet based system to provide sensor data, protocols and guidelines for these purposes:  Background:  Reference Datasets are required to support the understanding of climate change and quality assure operational services by Earth Observing satellites. The data from different sensors and the resulting synergistic data products require a high level of accuracy that can only be obtained through continuous traceable calibration and validation activities. Requirement:  Initiate an activity to document a reference methodology to predict Top of Atmosphere (TOA) radiance for which currently flying and planned wide swath sensors can be intercompared, i.e. define a standard for traceability. Also create and maintain a fully accessible web page containing, on an instrument basis, links to all instrument characteristics needed for intercomparisons as specified above, ideally in a common format. In addition, create and maintain a database (e.g. SADE) of instrument data for specific vicarious calibration sites, including site characteristics, in a common format. Each agency is responsible for providing data for their instruments in this common format. Recommendation : The required activities described above should be supported for an implementation period of two years and a maintenance period over two subsequent years. The CEOS should encourage a member agency to accept the lead role in supporting this activity. CEOS should request all member agencies to support this activity by providing appropriate information and data in a timely manner.  Pseudo-Invariant Calibration Sites (PICS): Algeria 3 is one of six CEOS reference Pseudo-Invariant Calibration Sites (PICS) that are CEOS Reference Test Sites. Besides the nominally good site characteristics (temporal stability, uniformity, homogeneity, etc.), these six PICS were selected by also taking into account their heritage and the large number of datasets from multiple instruments that already existed in the EO archives and the long history of characterization performed over these sites. The PICS have high reflectance and are usually made up of sand dunes with climatologically low aerosol loading and practically no vegetation. Consequently, these PICS can be used to evaluate the long-term stability of instrument and facilitate inter-comparison of multiple instruments.",
         "license": "not-provided"
     },
     {
@@ -2389,19 +2311,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2866790547-ISRO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ISRO/collections/E06_OCM_LAC_STGO00GND.v1.0",
         "description": "The main objectives of E06 are to study surface winds and ocean surface strata, observation of chlorophyll concentrations, monitoring of phytoplankton blooms, study of atmospheric aerosols and suspended sediments in the water. ",
-        "license": "not-provided"
-    },
-    {
-        "id": "EARTH_LAND_USGS_AMES_AIR_PHOTOS",
-        "title": "Aerial Photographs (from AMES Pilot Land Data System); USGS EDC, Sioux Falls",
-        "catalog": "USGS_LTA",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, 20, -60, 50",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566371-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566371-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/EARTH_LAND_USGS_AMES_AIR_PHOTOS",
-        "description": "The aerial photography inventoried by the Pilot Land Data System  (PLDS) at NASA AMES Research Center has been transferred to the USGS EROS  Data Center.  The photos were obtained from cameras mounted on high and  medium altitude aircraft based at the NASA Ames Research Center.  Several  cameras with varying focal lengths, lenses and film formats are used, but  the Wild RC-10 camera with a focal length of 152 millimeters and a 9 by 9  inch film format is most common.  The positive transparencies are typically  used for ancillary ground checks in conjunctions with digital processing for  the same sites.  The aircraft flights, specifically requested by scientists  performing approved research, often simultaneously collect data using other  sensors on        board (e.g. Thematic Mapper Simulators (TMS) and Thermal Infrared  Multispectral Scanners).  High altitude color infrared photography is used  regularly by government agencies for such applications as crop yield forecasting,  timber inventory and defoliation assessment, water resource management,  land use surveys, water pollution monitoring, and natural disaster  assessment.  To order, specify the latitude and longitude of interest.  You will  then be given a list of photos available for that location.  In some cases,  \"flight books\" are available at EDC that describe the nature of the mission  during which the photos were taken and other attribute information.  The  customer service personnel have access to these books for those photo sets  for which the books exist.",
         "license": "not-provided"
     },
     {
@@ -3107,6 +3016,45 @@
         "license": "not-provided"
     },
     {
+        "id": "KOPRI-KPDC-00000008.v1",
+        "title": "1998 Seismic Data, Antarctica",
+        "catalog": "AMD_KOPRI",
+        "state_date": "1998-12-07",
+        "end_date": "1998-12-11",
+        "bbox": "-66.266667, -64.616667, -64.416667, -62.995",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2244292774-AMD_KOPRI.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2244292774-AMD_KOPRI.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/AMD_KOPRI/collections/KOPRI-KPDC-00000008.v1",
+        "description": "Korean Antarctic survey carried out as part of step 2 project in year 2 of 'the Antarctic Undersea Geological Survey' was conducted in the \u2161 region around the northwestern continent of the Antarctic Peninsula. This area is northwest of Anvers Island, including areas around the pericontinent from the continental shelf to the continental rise zone. The investigation period for this project took a total of 8 days for moving navigation, the survey of the side lines and drilling investigation. After seismic investigation, a surface drilling investigation was conducted in coring point was decided from the reference seismic section.  10 researcher from \u2018Korea Ocean Research and Development Institute\u2019 participated in the field survey. We took on lease Russian icebreaker \"Yuzhmorgeologiya\".",
+        "license": "not-provided"
+    },
+    {
+        "id": "KOPRI-KPDC-00000009.v1",
+        "title": "1997 Seismic Data, Antarctica",
+        "catalog": "AMD_KOPRI",
+        "state_date": "1997-12-23",
+        "end_date": "1997-12-28",
+        "bbox": "-64.699722, -63.525, -62.157778, -62.041389",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2244293126-AMD_KOPRI.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2244293126-AMD_KOPRI.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/AMD_KOPRI/collections/KOPRI-KPDC-00000009.v1",
+        "description": "Korean Antarctic survey carried out as part of step 2 project in year 1 of \u2018The Antarctic Undersea Geological Survey\u2019 in 1997 was conducted in a continental shelf in the northwestern part of the Antarctic Peninsula. The research period took a total of 8 days, including 6 days for the seismic survey and 2 days for the drilling investigation.  We took on lease Norway R/V 'Polar Duke' and 10 researchers from \u2018Korea Ocean Research and Development Institute\u2019 participated as field investigation personnel. The Teac single-channel recorder, EPC Recorder, Q/C MicroMax system etc. was used mainly by Sleeve gun used as a sound source, compressor for creating compressed air, DFS-V Recorder for multi-channel Seismic record, 12 \u2013channel geophone of seismic streamers. Additional Gravity Core was used for sediment research through drilling.",
+        "license": "not-provided"
+    },
+    {
+        "id": "KOPRI-KPDC-00000011.v1",
+        "title": "1996 Seismic Data, Antarctica",
+        "catalog": "AMD_KOPRI",
+        "state_date": "1996-12-17",
+        "end_date": "1996-12-26",
+        "bbox": "-62.766667, -63.583333, -60.233333, -62.733333",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2244293499-AMD_KOPRI.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2244293499-AMD_KOPRI.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/AMD_KOPRI/collections/KOPRI-KPDC-00000011.v1",
+        "description": "Korean Antarctic survey carried out as in year 3 project of 'the Antarctic Undersea Geological Survey' was conducted in the basin region of western part of the Bransfeed Strait between the Antarctic Peninsula and the South Shetland Islands . During the field investigation, the seismic investigation and the drilling investigation was conducted at the same time. The investigation period took 9 days. 10 researchers from \u2018Korea Ocean Research and Development Institute\u2019 and 3 academic personnel participated in the cruise as field investigation personnel. We took on lease Russian R/V \"Yuzhmorgeologiya\" which is marine geology, geophysical survey vessel and Icebreaker.",
+        "license": "not-provided"
+    },
+    {
         "id": "KOPRI-KPDC-00000012.v1",
         "title": "1995 Seismic Data, Antarctica",
         "catalog": "AMD_KOPRI",
@@ -3169,6 +3117,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2244291950-AMD_KOPRI.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AMD_KOPRI/collections/KOPRI-KPDC-00000053.v1",
         "description": "Korean Antarctic survey was conducted in west of the Bransfeed Strait, a basin between the Antarctic Peninsula and the south Shetland Islands. It tooks 9 days. seismic investigation and drilling investigation were conducted at the same time during the field survey. We took on lease Russian R/V \"Yuzhmorgeologiya\" which is marine geology, geophysical survey vessel and Icebreaker and 10 researchers from \u2018Korea Ocean Research and Development Institute\u2019 and 3 academic personnel participated in the cruise as field investigation personnel.",
+        "license": "not-provided"
+    },
+    {
+        "id": "KOPRI-KPDC-00000054.v1",
+        "title": "1997 Sediment Core, Antarctica",
+        "catalog": "AMD_KOPRI",
+        "state_date": "1997-12-28",
+        "end_date": "1997-12-29",
+        "bbox": "-63.396667, -63.886111, -62.700833, -62.536389",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2244292254-AMD_KOPRI.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2244292254-AMD_KOPRI.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/AMD_KOPRI/collections/KOPRI-KPDC-00000054.v1",
+        "description": "Korean Antarctic survey was conducted in 1997 carried out in a continental shelf in the northwestern part of the Antarctic Peninsula. It took 2 days. We took on lease Norway R/V 'Polar Duke' and 11 researchers from \u2018Korea Ocean Research and Development Institute\u2019 participated as field investigation personnel. The Teac single-channel recorder, EPC Recorder, Q/C MicroMax system etc. was used mainly by Sleeve gun used as a sound source, compressor for creating compressed air, DFS-V Recorder for multi-channel Seismic record, 12-channel geophone of seismic streamers. Additional Gravity Core was used for sediment research through drilling.",
+        "license": "not-provided"
+    },
+    {
+        "id": "KOPRI-KPDC-00000055.v1",
+        "title": "1998 Sediment Core, Antarctica",
+        "catalog": "AMD_KOPRI",
+        "state_date": "1998-12-11",
+        "end_date": "1998-12-12",
+        "bbox": "-66.32, -63.95, -63.47, -62.943333",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2244294165-AMD_KOPRI.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2244294165-AMD_KOPRI.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/AMD_KOPRI/collections/KOPRI-KPDC-00000055.v1",
+        "description": "Korean Antarctic survey was conducted in the continental margin (II region) of the northwestern Antarctic Peninsula. We took on lease Russian R/V \"Yuzhmorgeologiya\" (5500 ton, ice strengthed vessel) and 10 researchers participated in the cruise, including acquisition of multichannel seismic, gravity, and magnetometer as well as a detailed samplings (box cores, gravity cores, and grab samples). 1. Geophysical researches (Multichannel seismic and SBP surveys)  2. Paleoceanographic researches",
         "license": "not-provided"
     },
     {
@@ -4407,6 +4381,58 @@
         "license": "not-provided"
     },
     {
+        "id": "USGS_DDS_P14_cells",
+        "title": "1995 National Oil and Gas Assessment 1/4-Mile Cells within the Los Angeles Basin Province",
+        "catalog": "CEOS_EXTRA",
+        "state_date": "1990-12-01",
+        "end_date": "1990-12-01",
+        "bbox": "-119.63631, 32.7535, -117.52315, 34.17464",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2231552049-CEOS_EXTRA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2231552049-CEOS_EXTRA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CEOS_EXTRA/collections/USGS_DDS_P14_cells",
+        "description": "The purpose of the cell map is to display the exploration maturity, type of production, and distribution of production in quarter-mile cells in each of the oil and gas plays and each of the provinces defined for the 1995 U.S. National Oil and Gas Assessment.  Cell maps for each oil and gas play were created by the USGS as a method for illustrating the degree of exploration, type of production, and distribution of production in a play or province. Each cell represents a quarter-mile square of the land surface, and the cells are coded to represent whether the wells included within the cell are predominantly oil-producing, gas-producing, both oil and gas-producing, or dry. The well information was initially retrieved from the Petroleum Information (PI) Well History Control System (WHCS), which is a proprietary, commercial database containing information for most oil and gas wells in the U.S.  Cells were developed as a graphic solution to overcome the problem of displaying proprietary WHCS data. No proprietary data are displayed or included in the cell maps. The data from WHCS were current as of December 1990 when the cell maps were created in 1994.  Oil and gas plays within province 14 (Los Angeles Basin) are listed here by play number, type, and name:      Number  Type           Name     1401  conventional   Santa Monica Fault System and Las Cienegas          Fault and Block     1402  conventional   Southwestern Shelf and Adjacent Offshore          State Lands     1403  conventional   Newport-Inglewood Deformation Zone and          Southwestern Flank of Central Syncline     1404  conventional   Whittier Fault Zone and Fullerton Embayment     1405  conventional   Northern Shelf and Northern Flank of          Central Syncline     1406  conventional   Anaheim Nose     1407  conventional   Chino Marginal Basin, Puente and San Jose          Hills, and San Gabriel Valley Marginal Basin",
+        "license": "not-provided"
+    },
+    {
+        "id": "USGS_DDS_P16_cells",
+        "title": "1995 National Oil and Gas Assessment 1/4-Mile Cells within the Salton Trough Province",
+        "catalog": "CEOS_EXTRA",
+        "state_date": "1990-12-01",
+        "end_date": "1990-12-01",
+        "bbox": "-116.66911, 32.634293, -114.74501, 34.02059",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2231548651-CEOS_EXTRA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2231548651-CEOS_EXTRA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CEOS_EXTRA/collections/USGS_DDS_P16_cells",
+        "description": "The purpose of the cell map is to display the exploration maturity, type of production, and distribution of production in quarter-mile cells in each of the oil and gas plays and each of the provinces defined for the 1995 U.S. National Oil and Gas Assessment.  Cell maps for each oil and gas play were created by the USGS as a method for illustrating the degree of exploration, type of production, and distribution of production in a play or province. Each cell represents a quarter-mile square of the land surface, and the cells are coded to represent whether the wells included within the cell are predominantly oil-producing, gas-producing, both oil and gas-producing, or dry. The well information was initially retrieved from the Petroleum Information (PI) Well History Control System (WHCS), which is a proprietary, commercial database containing information for most oil and gas wells in the U.S.  Cells were developed as a graphic solution to overcome the problem of displaying proprietary WHCS data. No proprietary data are displayed or included in the cell maps. The data from WHCS were current as of December 1990 when the cell maps were created in 1994.   Oil and gas plays within province 16 (Salton Trough) are listed here by play number, type, and name.",
+        "license": "not-provided"
+    },
+    {
+        "id": "USGS_DDS_P17_cells",
+        "title": "1995 National Oil and Gas Assessment 1/4-Mile Cells within the Idaho - Snake River Downwarp Province",
+        "catalog": "CEOS_EXTRA",
+        "state_date": "1990-12-01",
+        "end_date": "1990-12-01",
+        "bbox": "-117.24303, 41.99332, -111.04548, 49.00115",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2231550494-CEOS_EXTRA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2231550494-CEOS_EXTRA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CEOS_EXTRA/collections/USGS_DDS_P17_cells",
+        "description": "The purpose of the cell map is to display the exploration maturity, type of production, and distribution of production in quarter-mile cells in each of the oil and gas plays and each of the provinces defined for the 1995 U.S. National Oil and Gas Assessment.  Cell maps for each oil and gas play were created by the USGS as a method for illustrating the degree of exploration, type of production, and distribution of production in a play or province. Each cell represents a quarter-mile square of the land surface, and the cells are coded to represent whether the wells included within the cell are predominantly oil-producing, gas-producing, both oil and gas-producing, or dry. The well information was initially retrieved from the Petroleum Information (PI) Well History Control System (WHCS), which is a proprietary, commercial database containing information for most oil and gas wells in the U.S.  Cells were developed as a graphic solution to overcome the problem of displaying proprietary WHCS data. No proprietary data are displayed or included in the cell maps. The data from WHCS were current as of December 1990 when the cell maps were created in 1994.  Oil and gas plays within province 17 (Idaho - Snake River Downwarp) are listed here by play number, type, and name:     Number    Type           Name     1701  conventional   Miocene Lacustrine (Lake Bruneau)     1702  conventional   Pliocene Lacustrine (Lake Idaho)     1703  conventional   Pre-Miocene     1704  conventional   Older Tertiary",
+        "license": "not-provided"
+    },
+    {
+        "id": "USGS_DDS_P19_cells",
+        "title": "1995 National Oil and Gas Assessment 1/4-Mile Cells within the Eastern Great Basin Province",
+        "catalog": "CEOS_EXTRA",
+        "state_date": "1990-12-01",
+        "end_date": "1990-12-01",
+        "bbox": "-117.02622, 35.002083, -111.170425, 43.022377",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2231552402-CEOS_EXTRA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2231552402-CEOS_EXTRA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CEOS_EXTRA/collections/USGS_DDS_P19_cells",
+        "description": "The purpose of the cell map is to display the exploration maturity, type of production, and distribution of production in quarter-mile cells in each of the oil and gas plays and each of the provinces defined for the 1995 U.S. National Oil and Gas Assessment.  Cell maps for each oil and gas play were created by the USGS as a method for illustrating the degree of exploration, type of production, and distribution of production in a play or province. Each cell represents a quarter-mile square of the land surface, and the cells are coded to represent whether the wells included within the cell are predominantly oil-producing, gas-producing, both oil and gas-producing, or dry. The well information was initially retrieved from the Petroleum Information (PI) Well History Control System (WHCS), which is a proprietary, commercial database containing information for most oil and gas wells in the U.S.  Cells were developed as a graphic solution to overcome the problem of displaying proprietary WHCS data. No proprietary data are displayed or included in the cell maps. The data from WHCS were current as of December 1990 when the cell maps were created in 1994.  Oil and gas plays within province 19 (Eastern Great Basin) are listed here by play number, type, and name:    Number      Type           Name    1901  conventional   Unconformity \"A\"    1902  conventional   Late Paleozoic    1903  conventional   Early Tertiary - Late Cretaceous Sheep Pass         and Equivalents    1905  conventional   Younger Tertiary Basins    1906  conventional   Late Paleozoic - Mesozoic (Central Nevada) Thrust Belt    1907  conventional   Sevier Frontal Zone",
+        "license": "not-provided"
+    },
+    {
         "id": "USGS_DDS_P2_cells",
         "title": "1995 National Oil and Gas Assessment 1/4-Mile Cells within the Central Alaska Province",
         "catalog": "CEOS_EXTRA",
@@ -4417,6 +4443,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2231550471-CEOS_EXTRA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/CEOS_EXTRA/collections/USGS_DDS_P2_cells",
         "description": "The purpose of the cell map is to display the exploration maturity, type of production, and distribution of production in quarter-mile cells in each of the oil and gas plays and each of the provinces defined for the 1995 U.S. National Oil and Gas Assessment.   Cell maps for each oil and gas play were created by the USGS as a method for illustrating the degree of exploration, type of production, and distribution of production in a play or province. Each cell represents a quarter-mile square of the land surface, and the cells are coded to represent whether the wells included within the cell are predominantly oil-producing, gas-producing, both oil and gas-producing, or dry. The well information was initially retrieved from the Petroleum Information (PI) Well History Control System (WHCS), which is a proprietary, commercial database containing information for most oil and gas wells in the U.S.  Cells were developed as a graphic solution to overcome the problem of displaying proprietary WHCS data. No proprietary data are displayed or included in the cell maps. The data from WHCS were current as of December 1990 when the cell maps were created in 1994.   Oil and gas plays within province 2 (Central Alaska) are listed here by play number, type, and name:     Number   Type           Name      201  conventional   Central Alaska Cenozoic Gas      202  conventional   Central Alaska Mesozoic Gas      203  conventional   Central Alaska Paleozoic Oil      204  conventional   Kandik Pre-Mid-Cretaceous Strata      205  conventional   Kandik Upper Cretaceous and Tertiary Non-Marine Stata",
+        "license": "not-provided"
+    },
+    {
+        "id": "USGS_P-11_cells",
+        "title": "1995 National Oil and Gas Assessment 1/4-Mile Cells within the Central Coastal Province",
+        "catalog": "CEOS_EXTRA",
+        "state_date": "1990-12-01",
+        "end_date": "1990-12-01",
+        "bbox": "-123.80987, 34.66294, -118.997696, 39.082233",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2231552077-CEOS_EXTRA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2231552077-CEOS_EXTRA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CEOS_EXTRA/collections/USGS_P-11_cells",
+        "description": "The purpose of the cell map is to display the exploration maturity, type of production, and distribution of production in quarter-mile cells in each of the oil and gas plays and each of the provinces defined for the 1995 U.S. National Oil and Gas Assessment.  Cell maps for each oil and gas play were created by the USGS as a method for illustrating the degree of exploration, type of production, and distribution of production in a play or province. Each cell represents a quarter-mile square of the land surface, and the cells are coded to represent whether the wells included within the cell are predominantly oil-producing, gas-producing, both oil and gas-producing, or dry. The well information was initially retrieved from the Petroleum Information (PI) Well History Control System (WHCS), which is a proprietary, commercial database containing information for most oil and gas wells in the U.S.  Cells were developed as a graphic solution to overcome the problem of displaying proprietary WHCS data. No proprietary data are displayed or included in the cell maps. The data from WHCS were current as of December 1990 when the cell maps were created in 1994.  Oil and gas plays within province 11 (Central Coastal) are listed here by play number, type, and name:     Number    Type             Name     1101  conventional   Point Arena Oil     1102  conventional   Point Reyes Oil     1103  conventional   Pescadero Oil     1104  conventional   La Honda Oil     1105  conventional   Bitterwater Oil     1106  conventional   Salinas Oil     1107  conventional   Western Cuyama Basin     1109  conventional   Cox Graben",
         "license": "not-provided"
     },
     {
@@ -4742,32 +4781,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1979956366-GHRC_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/GHRC_DAAC/collections/amsua16sp.v1",
         "description": "AMSU-A, the Advanced Microwave Sounding Unit, is a 15-channel passive microwave radiometer used to profile atmospheric temperature and moisture from the earth's surface to ~45 km (3 millibars). All orbits beginning in the day (00:00:00 - 23:59:59 UTC) are stored in one daily HDF-EOS file. Each file contains 15 (channel) arrays, as well as corresponding latitude, longitude, and time. AMSU flies on the National Oceanic and Atmospheric Administration (NOAA) polar orbiting spacecraft as part of the National Polar-orbiting Operational Environmental Satellite System (NPOESS). Launched on 21 September 2000, NOAA-16 is in a sun synchronous near polar orbit.",
-        "license": "not-provided"
-    },
-    {
-        "id": "asas",
-        "title": "Advanced Solid-state Array Spectroradiometer (ASAS)",
-        "catalog": "USGS_LTA",
-        "state_date": "1988-06-26",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566261-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566261-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/asas",
-        "description": "The Advanced Solid-state Array Spectroradiometer (ASAS) data collection contains data collected by the ASAS sensor flown aboard NASA aircraft. A fundamental use of ASAS data is to characterize and understand the directional variability in solar energy scattered by various land surface cover types (e.g.,crops, forests, prairie grass, snow, or bare soil). The sensor's Bidirectional Reflectance Distribution Function determines the variation in the reflectance of a surface as a function of both the view zenith angle and solar illumination angle.  The ASAS sensor is a hyperspectral, multiangle, airborne remote sensing instrument maintained and operated by the Laboratory for Terrestrial Physics at NASA's Goddard Space Flight Center in Greenbelt, Maryland. The ASAS instrument is mounted on the underside of either NASA C-130 or NASA P-3 aircraft and is capable of off-nadir pointing from approximately 70 degrees forward to 55 degrees aft along the direction of flight. The aircraft is flown at an altitude of 5000 - 6000 meters (approximately 16,000 - 20,000 ft.).  Data in the ASAS collection primarily cover areas over the continental United States, but some ASAS data are also available over areas in Canada and western Africa. The ASAS data were collected between 1988 and 1994.",
-        "license": "not-provided"
-    },
-    {
-        "id": "aster_global_dem",
-        "title": "ASTER Global DEM",
-        "catalog": "USGS_LTA",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567908-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567908-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/aster_global_dem",
-        "description": "ASTER is capable of collecting in-track stereo using nadir- and aft-looking near infrared cameras.  Since 2001, these stereo pairs have been used to produce single-scene (60- x 60-kilomenter (km)) digital elevation models (DEM) having vertical (root-mean-squared-error) accuracies generally between 10- and 25-meters (m).   The methodology used by Japan's Sensor Information Laboratory Corporation (SILC) to produce the ASTER GDEM involves automated processing of the entire ASTER Level-1A archive.  Stereo-correlation is used to produce over one million individual scene-based ASTER DEMs, to which cloud masking is applied to remove cloudy pixels.  All cloud-screened DEMS are stacked and residual bad values and outliers are removed.  Selected data are averaged to create final pixel values, and residual anomalies are corrected before partitioning the data into 1 degree (\u00b0) x 1\u00b0 tiles.  The ASTER GDEM covers land surfaces between 83\u00b0N and 83\u00b0S and is comprised of 22,702 tiles.  Tiles that contain at least 0.01% land area are included.  The ASTER GDEM is distributed as Geographic Tagged Image File Format (GeoTIFF) files with geographic coordinates (latitude, longitude).  The data are posted on a  1 arc-second (approximately 30\u2013m at the equator) grid and referenced to the 1984 World Geodetic System (WGS84)/ 1996 Earth Gravitational Model (EGM96) geoid.",
         "license": "not-provided"
     },
     {
