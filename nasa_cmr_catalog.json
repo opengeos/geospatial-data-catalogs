@@ -897,6 +897,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AERIALDIGI",
+        "title": "Aircraft Scanners",
+        "catalog": "USGS_LTA",
+        "state_date": "1987-10-06",
+        "end_date": "",
+        "bbox": "-180, 24, -60, 72",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566211-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566211-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AERIALDIGI",
+        "description": "The National Aeronautics and Space Administration (NASA) Aircraft        Scanners data set contains digital imagery acquired from several        multispectral scanners, including Daedalus thematic mapper simulator       scanners and  the thermal infrared multispectral scanner.  Data are       collected from  selected areas over the conterminous United States,       Alaska, and Hawaii by  NASA ER-2 and NASA C-130B aircraft, operating       from the NASA Ames Research  Center in Moffett Field, California, and by       NASA Learjet aircraft, operating  from Stennis Space Center in Bay St.       Louis, Mississippi.  Limited  international acquisitions also are       available.              In cooperation with the Jet Propulsion Laboratory and Daedalus        Enterprises,Inc., NASA developed several multispectral sensors.  The       data  acquired from these sensors supports NASA's Airborne Science and       Applications  Program and have been identified as precursors to the       instruments scheduled to  fly on Earth Observing System platforms.              THEMATIC MAPPER SIMULATOR              The Thematic Mapper Simulator (TMS) sensor is a line scanning device          designed for a variety of Earth science applications.  Flown aboard              NASA ER-2 aircraft, the TMS sensor has a nominal Instantaneous Field  of              View of 1.25 milliradians with a ground resolution of 81 feet (25  meters)              at 65,000 feet. The TMS sensor scans at a rate of 12.5 scans per  second              with 716 pixels per scan line.  Swath width is 8.3 nautical miles              (15.4 kilometers) at 65,000 feet while the scanner's Field of View  is              42.5 degrees.                NS-001 MULTISPECTRAL SCANNER               The NS-001multispectral scanner is a line scanning device designed  to              simulate Landsat thematic mapper (TM) sensor performance, including  a              near infrared/short-wave infrared band used in applications similar  to those         of the TM sensor (e.g., Earth resources mapping, vegetation/land  cover          mapping, geologic studies).  Flown aboard NASA C-130B aircraft, the  NS-001       sensor has a nominal Instantaneous Field of View of 2.5 milliradians     with a       ground resolution of 25 feet (7.6 meters) at 10,000 feet.  The sensor has a       variable scan rate (10 to 100 scans per second) with 699  pixels per scan line,       but the available motor drive supply restricts the  maximum stable scan speed       to approximately 85 revolutions per second. A scan rate  of 100 revolutions per       second is possible, but not probable, for short  scan lines; therefore, a       combination of factors, including aircraft  flight requirements and maximum       scan speed, prevent scanner operation below 1,500 feet.  Swath width is 3.9       nautical miles (7.26 kilometers) at 10,000 feet, and the total scan angle or       field of regard for the sensor is 100 degrees, plus or minus 15 degrees for       roll compensation.       THERMAL INFRARED MULTISPECTRAL SCANNER       The Thermal Infrared Multispectral Scanner (TIMS) sensor is a line  scanning         device originally designed for geologic applications.  Flown aboard NASA       C-130B, NASA ER-2, and NASA Learjet aircraft, the TIMS sensor  has a              nominal Instantaneous Field of View of 2.5 milliradians with a  ground              resolution of 25 feet (7.6 meters) at 10,000 feet.  The sensor has a              selectable scan rate (7.3, 8.7, 12, or 25 scans per second) with 698  pixels          per scan line.  Swath width is 2.6 nautical miles (4.8 kilometers)  at            10,000 feet while the scanner's Field of View is 76.56 degrees.",
+        "license": "not-provided"
+    },
+    {
         "id": "AFLVIS1B.v1",
         "title": "AfriSAR LVIS L1B Geolocated Return Energy Waveforms V001",
         "catalog": "NSIDC_ECS",
@@ -1183,6 +1196,19 @@
         "license": "not-provided"
     },
     {
+        "id": "AK_AVHRR",
+        "title": "Alaska AVHRR Twice-Monthly Composites",
+        "catalog": "USGS_LTA",
+        "state_date": "1990-06-16",
+        "end_date": "",
+        "bbox": "-179, 51, -116, 70",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220565954-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220565954-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AK_AVHRR",
+        "description": "The goal of the Alaska Advanced Very High Resolution Radiometer  (AVHRR) project is to compile a time series data set of calibrated,  georegistered  daily observations and twice-monthly maximum normalized difference  vegetation index (NDVI) composites for Alaska's annual growing  season (April-October). This data set has applications for environmental monitoring and for assessing impacts of global climate change.  An Alaska AVHRR data set is comprised of twice-monthly maximum NDVI composites of daily satellite observations.  The NDVI composites  contain 10 bands of information, including AVHRR channels 1-5, maximum NDVI, satellite zenith, solar zenith, and relative azimuth.  The daily   observations, bands 1-9, have been calibrated to reflectance, scaled  to   byte data, and geometrically registered to the Albers Equal-Area  Conic map projection. The 10th band is a pointer to identify the date and  scene ID of  the source daily observation (scene) for each pixel.  The compositing process required each daily overpass to be  registered to a common map projection to ensure that from day to day each 1-km pixel represented the exact same ground location.  The Albers Equal-Area Conic map projection provides for equal area representation, which enables  easy measurement of area throughout the data.  Each daily observation for  the growing season was registered to a base image using image-to-image correlation.  The NDVI data are calculated from the calibrated, geometrically  registered daily observations. The NDVI value is the difference between  near-infrared (AVHRR Channel 2) and visible (AVHRR Channel 1) reflectance values  divided by total measured reflectance.  A maximum NDVI compositing process  was used on the daily observations.  The NDVI is examined pixel by pixel for  each observation during the compositing period to determine and retain  the maximum value.  Often when displaying data covering large areas, such as AVHRR data,  it is beneficial to include an overlay of either familiar linework for  reflectance or polygon data sets to derive statistical summaries of regions.  All of the linework images represent lines in raster format as 1-km cells and  the strata are represented as polygons registered to the AVHRR data.  The  linework and polygon data sets include international boundaries, Alaskan roads  with the Trans-Alaska Pipeline, and a raster polygon mask of the State. ",
+        "license": "not-provided"
+    },
+    {
         "id": "ALOS",
         "title": "Alos African Coverage ESA archive",
         "catalog": "ESA",
@@ -1258,6 +1284,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1426293893-LANCEMODIS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LANCEMODIS/collections/AM1EPHNE.v6.1NRT",
         "description": "AM1EPHNE is the Terra Near Real Time (NRT) 2-hour spacecraft Extrapolated ephemeris data file in native format. The file name format is the following: AM1EPHNE.Ayyyyddd.hhmm.vvv.yyyydddhhmmss where from left to right:  E = Extrapolated; N = Native format; A = AM1 (Terra); yyyy = data year, ddd = Julian data day, hh = data hour, mm = data minute; vvv = Version ID; yyyy = production year, ddd = Julian production day, hh = production hour, mm = production minute, and ss = production second. Data set information: http://modis.gsfc.nasa.gov/sci_team/",
+        "license": "not-provided"
+    },
+    {
+        "id": "APSF",
+        "title": "Aerial Photo Single Frames",
+        "catalog": "USGS_LTA",
+        "state_date": "1970-01-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567654-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567654-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/APSF",
+        "description": "The Aerial Photography Single Frame Records collection is a large and diverse group of imagery acquired by Federal organizations from 1937 to the present. Over 6.4 million frames of photographic images are available for download as medium and high resolution digital products. The high resolution data provide access to photogrammetric quality scans of aerial photographs with sufficient resolution to reveal landscape detail and to facilitate the interpretability of landscape features. Coverage is predominantly over the United States and includes portions of Central America and Puerto Rico. Individual photographs vary in scale, size, film type, quality, and coverage.",
         "license": "not-provided"
     },
     {
@@ -1794,6 +1833,32 @@
         "license": "not-provided"
     },
     {
+        "id": "AVHRR_GLOBAL_10-DAY_COMPOSITES",
+        "title": "AVHRR 1-km Global Land 10-Day Composites",
+        "catalog": "USGS_LTA",
+        "state_date": "1992-04-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566288-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566288-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AVHRR_GLOBAL_10-DAY_COMPOSITES",
+        "description": "The Advanced Very High Resolution Radiometer (AVHRR) 1-km Global  Land  10-Day Composites data set project is a component of the National Aeronautics and Space Administration (NASA) AVHRR Pathfinder  Program. The project is a collaborative effort between the National Oceanic  and Atmospheric Administration (NOAA), NASA, the U.S. Geological Survey  (USGS), the European Space Agency (ESA), Australia's Commonwealth Scientific and Industrial Research Organization (CSIRO), and 30 international ground receiving stations.  The project represents an international effort to archive and distribute the 1-km AVHRR composites of the entire global land surface to scientific  researchers and to the general public.  The data set is comprised of a time series of global 10-day normalized difference vegetation index composites.  The composites are generated from radiometrically calibrated, atmospherically corrected, and geometrically corrected daily AVHRR observations. The time series begins in April 1992 and continues for specific time periods.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AVHRR_ORBITAL_SEGMENTS",
+        "title": "AVHRR 1-km Orbital Segments",
+        "catalog": "USGS_LTA",
+        "state_date": "1992-04-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566340-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566340-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AVHRR_ORBITAL_SEGMENTS",
+        "description": "       The Advanced Very High Resolution Radiometer (AVHRR) 1-km Orbital        Segments data set is a component of the National Aeronautics and        Space Administration (NASA) AVHRR Pathfinder Program and contains        global coverage of land masses at 1-kilometer resolution.         The data set is the result of an international effort to acquire,        process, and distribute AVHRR data of the entire global land surface        to meet the needs of the international science community.  The         orbital segments are comprised of raw AVHRR scenes consisting of        5-channel, 10-bit, AVHRR data at 1.1-km resolution at nadir.  The raw        data are used to produce vegetation index composites; to support fire         detection and cloud screening activities; to support research in        atmospheric correction; to develop algorithms; and to support a host of        research activities that may require the inclusion of raw AVHRR data. ",
+        "license": "not-provided"
+    },
+    {
         "id": "Active_Fluorescence_2001.v0",
         "title": "Active fluorescence measurements in the Gulf Stream in 2001",
         "catalog": "OB_DAAC",
@@ -1999,6 +2064,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214308504-AU_AADC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/CEAMARC_CASO_200708030_EVENT_BATHYMETRY_PLOTS.v1",
         "description": "A routine was developed in R ('bathy_plots.R') to plot bathymetry data over time during individual CEAMARC events.  This is so we can analyse benthic data in relation to habitat, ie. did we trawl over a slope or was the sea floor relatively flat.  Note that the depth range in the plots is autoscaled to the data, so a small range in depths appears as a scatetring of points.  As long as you look at the depth scale though interpretation will be ok.  The R files need a file of bathymetry data in '200708V3_one_minute.csv' which is a file containing a data export from the underway PostgreSQL ship database and 'events.csv' which is a stripped down version of the events export from the ship board events database export.  If you wish to run the code again you may need to change the pathnames in the R script to relevant locations.  If you have opened the csv files in excel at any stage and the R script gets an error you may need to format the date/time columns as yyyy-mm-dd hh;mm:ss, save and close the file as csv without opening it again and then run the R script.  However, all output files are here for every CEAMARC event.  Filenames contain a reference to CEAMARC event id.  Files are in eps format and can be viewed using Ghostview which is available as a free download on the internet.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CEOS_CalVal_Test_Sites-Algeria3",
+        "title": "CEOS Cal Val Test Site - Algeria 3 - Pseudo-Invariant Calibration Site (PICS)",
+        "catalog": "USGS_LTA",
+        "state_date": "1972-08-11",
+        "end_date": "",
+        "bbox": "5.22, 29.09, 10.01, 31.36",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567099-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567099-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/CEOS_CalVal_Test_Sites-Algeria3",
+        "description": "On the background of these requirements for sensor calibration, intercalibration and product validation, the subgroup on Calibration and Validation of the Committee on Earth Observing System (CEOS) formulated the following recommendation during the plenary session held in China at the end of 2004, with the goal of setting-up and operating an internet based system to provide sensor data, protocols and guidelines for these purposes:  Background:  Reference Datasets are required to support the understanding of climate change and quality assure operational services by Earth Observing satellites. The data from different sensors and the resulting synergistic data products require a high level of accuracy that can only be obtained through continuous traceable calibration and validation activities. Requirement:  Initiate an activity to document a reference methodology to predict Top of Atmosphere (TOA) radiance for which currently flying and planned wide swath sensors can be intercompared, i.e. define a standard for traceability. Also create and maintain a fully accessible web page containing, on an instrument basis, links to all instrument characteristics needed for intercomparisons as specified above, ideally in a common format. In addition, create and maintain a database (e.g. SADE) of instrument data for specific vicarious calibration sites, including site characteristics, in a common format. Each agency is responsible for providing data for their instruments in this common format. Recommendation : The required activities described above should be supported for an implementation period of two years and a maintenance period over two subsequent years. The CEOS should encourage a member agency to accept the lead role in supporting this activity. CEOS should request all member agencies to support this activity by providing appropriate information and data in a timely manner.  Pseudo-Invariant Calibration Sites (PICS): Algeria 3 is one of six CEOS reference Pseudo-Invariant Calibration Sites (PICS) that are CEOS Reference Test Sites. Besides the nominally good site characteristics (temporal stability, uniformity, homogeneity, etc.), these six PICS were selected by also taking into account their heritage and the large number of datasets from multiple instruments that already existed in the EO archives and the long history of characterization performed over these sites. The PICS have high reflectance and are usually made up of sand dunes with climatologically low aerosol loading and practically no vegetation. Consequently, these PICS can be used to evaluate the long-term stability of instrument and facilitate inter-comparison of multiple instruments.",
         "license": "not-provided"
     },
     {
@@ -2311,6 +2389,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2866790547-ISRO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ISRO/collections/E06_OCM_LAC_STGO00GND.v1.0",
         "description": "The main objectives of E06 are to study surface winds and ocean surface strata, observation of chlorophyll concentrations, monitoring of phytoplankton blooms, study of atmospheric aerosols and suspended sediments in the water. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "EARTH_LAND_USGS_AMES_AIR_PHOTOS",
+        "title": "Aerial Photographs (from AMES Pilot Land Data System); USGS EDC, Sioux Falls",
+        "catalog": "USGS_LTA",
+        "state_date": "1970-01-01",
+        "end_date": "",
+        "bbox": "-180, 20, -60, 50",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566371-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566371-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/EARTH_LAND_USGS_AMES_AIR_PHOTOS",
+        "description": "The aerial photography inventoried by the Pilot Land Data System  (PLDS) at NASA AMES Research Center has been transferred to the USGS EROS  Data Center.  The photos were obtained from cameras mounted on high and  medium altitude aircraft based at the NASA Ames Research Center.  Several  cameras with varying focal lengths, lenses and film formats are used, but  the Wild RC-10 camera with a focal length of 152 millimeters and a 9 by 9  inch film format is most common.  The positive transparencies are typically  used for ancillary ground checks in conjunctions with digital processing for  the same sites.  The aircraft flights, specifically requested by scientists  performing approved research, often simultaneously collect data using other  sensors on        board (e.g. Thematic Mapper Simulators (TMS) and Thermal Infrared  Multispectral Scanners).  High altitude color infrared photography is used  regularly by government agencies for such applications as crop yield forecasting,  timber inventory and defoliation assessment, water resource management,  land use surveys, water pollution monitoring, and natural disaster  assessment.  To order, specify the latitude and longitude of interest.  You will  then be given a list of photos available for that location.  In some cases,  \"flight books\" are available at EDC that describe the nature of the mission  during which the photos were taken and other attribute information.  The  customer service personnel have access to these books for those photo sets  for which the books exist.",
         "license": "not-provided"
     },
     {
@@ -3953,9 +4044,9 @@
     },
     {
         "id": "PACE_HARP2_L0.v1",
-        "title": "PACE HARP2 Level-0 Instrument Telemetry/Multi-Detector Data, version 1",
+        "title": "PACE HARP2 Level-0 Instrument Telemetry/Multi-Detector Data, 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798249-OB_CLOUD.json",
@@ -3966,35 +4057,35 @@
     },
     {
         "id": "PACE_HARP2_L0_D1.v1",
-        "title": "PACE HARP2 Level-0 Detector 1 (D1) Data, version 1",
+        "title": "PACE HARP2 Level-0 Detector 1 (D1) Data, 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798238-OB_CLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798238-OB_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_D1.v1",
-        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE  spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles  and clouds, as well as properties of land and water surfaces. HARP2 will combine  data from multiple along-track viewing angles (up to 60), four spectral bands in the  visible and near infrared ranges, and three angles of linear polarization to measure  the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
         "license": "not-provided"
     },
     {
         "id": "PACE_HARP2_L0_D2.v1",
-        "title": "PACE HARP2 Level-0 Detector 2 (D2) Data, version 1",
+        "title": "PACE HARP2 Level-0 Detector 2 (D2) Data, 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798239-OB_CLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798239-OB_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_D2.v1",
-        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE  spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles  and clouds, as well as properties of land and water surfaces. HARP2 will combine  data from multiple along-track viewing angles (up to 60), four spectral bands in the  visible and near infrared ranges, and three angles of linear polarization to measure  the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
         "license": "not-provided"
     },
     {
         "id": "PACE_HARP2_L0_D3.v1",
-        "title": "PACE HARP2 Level-0 Detector 3 (D3) Data, version 1",
+        "title": "PACE HARP2 Level-0 Detector 3 (D3) Data, 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798240-OB_CLOUD.json",
@@ -4005,9 +4096,9 @@
     },
     {
         "id": "PACE_HARP2_L0_REAL.v1",
-        "title": "PACE HARP2 Level-0 Real-time Direct Transfer Mode Data, version 1",
+        "title": "PACE HARP2 Level-0 Real-time Direct Transfer Mode Data, 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798243-OB_CLOUD.json",
@@ -4018,9 +4109,9 @@
     },
     {
         "id": "PACE_HARP2_L0_SCI.v1",
-        "title": "PACE HARP2 Level-0 Science Data, version 1",
+        "title": "PACE HARP2 Level-0 Science Data, 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798245-OB_CLOUD.json",
@@ -4033,7 +4124,7 @@
         "id": "PACE_HARP2_L1A_AST0.v1",
         "title": "PACE HARP2 Level-1A Acquisition Scheme Type 0 - Full-Resolution Data, version 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2841266759-OB_CLOUD.json",
@@ -4046,7 +4137,7 @@
         "id": "PACE_HARP2_L1A_AST1.v1",
         "title": "PACE HARP2 Level-1A Acquisition Scheme Type 1 - Half-Resolution Data, version 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2841266768-OB_CLOUD.json",
@@ -4059,7 +4150,7 @@
         "id": "PACE_HARP2_L1A_AST2.v1",
         "title": "PACE HARP2 Level-1A Acquisition Scheme Type 2 - Science Mode (no MTDI) Data, version 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2841266778-OB_CLOUD.json",
@@ -4072,13 +4163,13 @@
         "id": "PACE_HARP2_L1A_AST3.v1",
         "title": "PACE HARP2 Level-1A Acquisition Scheme Type 3 Data, version 1",
         "catalog": "OB_CLOUD",
-        "state_date": "2024-02-08",
+        "state_date": "2024-03-08",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2841266786-OB_CLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2841266786-OB_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L1A_AST3.v1",
-        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE  spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles  and clouds, as well as properties of land and water surfaces. HARP2 will combine  data from multiple along-track viewing angles (up to 60), four spectral bands in the  visible and near infrared ranges, and three angles of linear polarization to measure  the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
         "license": "not-provided"
     },
     {
@@ -4781,6 +4872,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1979956366-GHRC_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/GHRC_DAAC/collections/amsua16sp.v1",
         "description": "AMSU-A, the Advanced Microwave Sounding Unit, is a 15-channel passive microwave radiometer used to profile atmospheric temperature and moisture from the earth's surface to ~45 km (3 millibars). All orbits beginning in the day (00:00:00 - 23:59:59 UTC) are stored in one daily HDF-EOS file. Each file contains 15 (channel) arrays, as well as corresponding latitude, longitude, and time. AMSU flies on the National Oceanic and Atmospheric Administration (NOAA) polar orbiting spacecraft as part of the National Polar-orbiting Operational Environmental Satellite System (NPOESS). Launched on 21 September 2000, NOAA-16 is in a sun synchronous near polar orbit.",
+        "license": "not-provided"
+    },
+    {
+        "id": "asas",
+        "title": "Advanced Solid-state Array Spectroradiometer (ASAS)",
+        "catalog": "USGS_LTA",
+        "state_date": "1988-06-26",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566261-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566261-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/asas",
+        "description": "The Advanced Solid-state Array Spectroradiometer (ASAS) data collection contains data collected by the ASAS sensor flown aboard NASA aircraft. A fundamental use of ASAS data is to characterize and understand the directional variability in solar energy scattered by various land surface cover types (e.g.,crops, forests, prairie grass, snow, or bare soil). The sensor's Bidirectional Reflectance Distribution Function determines the variation in the reflectance of a surface as a function of both the view zenith angle and solar illumination angle.  The ASAS sensor is a hyperspectral, multiangle, airborne remote sensing instrument maintained and operated by the Laboratory for Terrestrial Physics at NASA's Goddard Space Flight Center in Greenbelt, Maryland. The ASAS instrument is mounted on the underside of either NASA C-130 or NASA P-3 aircraft and is capable of off-nadir pointing from approximately 70 degrees forward to 55 degrees aft along the direction of flight. The aircraft is flown at an altitude of 5000 - 6000 meters (approximately 16,000 - 20,000 ft.).  Data in the ASAS collection primarily cover areas over the continental United States, but some ASAS data are also available over areas in Canada and western Africa. The ASAS data were collected between 1988 and 1994.",
+        "license": "not-provided"
+    },
+    {
+        "id": "aster_global_dem",
+        "title": "ASTER Global DEM",
+        "catalog": "USGS_LTA",
+        "state_date": "1970-01-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567908-USGS_LTA.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567908-USGS_LTA.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/aster_global_dem",
+        "description": "ASTER is capable of collecting in-track stereo using nadir- and aft-looking near infrared cameras.  Since 2001, these stereo pairs have been used to produce single-scene (60- x 60-kilomenter (km)) digital elevation models (DEM) having vertical (root-mean-squared-error) accuracies generally between 10- and 25-meters (m).   The methodology used by Japan's Sensor Information Laboratory Corporation (SILC) to produce the ASTER GDEM involves automated processing of the entire ASTER Level-1A archive.  Stereo-correlation is used to produce over one million individual scene-based ASTER DEMs, to which cloud masking is applied to remove cloudy pixels.  All cloud-screened DEMS are stacked and residual bad values and outliers are removed.  Selected data are averaged to create final pixel values, and residual anomalies are corrected before partitioning the data into 1 degree (\u00b0) x 1\u00b0 tiles.  The ASTER GDEM covers land surfaces between 83\u00b0N and 83\u00b0S and is comprised of 22,702 tiles.  Tiles that contain at least 0.01% land area are included.  The ASTER GDEM is distributed as Geographic Tagged Image File Format (GeoTIFF) files with geographic coordinates (latitude, longitude).  The data are posted on a  1 arc-second (approximately 30\u2013m at the equator) grid and referenced to the 1984 World Geodetic System (WGS84)/ 1996 Earth Gravitational Model (EGM96) geoid.",
         "license": "not-provided"
     },
     {

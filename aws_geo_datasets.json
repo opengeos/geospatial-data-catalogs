@@ -4688,30 +4688,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -4732,6 +4708,30 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
         ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
@@ -4788,6 +4788,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
@@ -4812,10 +4836,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -4862,11 +4886,11 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -4881,7 +4905,9 @@
             "life sciences"
         ],
         "RequesterPays": null,
-        "Explore": null,
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "Host": null,
         "AccountRequired": null
     },
@@ -4906,32 +4932,6 @@
         ],
         "RequesterPays": null,
         "Explore": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
         "Host": null,
         "AccountRequired": null
     },
@@ -9893,7 +9893,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9916,7 +9916,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9962,7 +9962,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11191,7 +11191,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -11214,7 +11214,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -11674,6 +11674,62 @@
         "Explore": [
             "[Browse Bucket](https://noaa-oar-keo-papa-pds.s3.amazonaws.com/index.html)"
         ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset - NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset NetCDF",
+        "Description": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset NetCDF",
+        "ARN": "arn:aws:s3:::noaa-nos-cora-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://tidesandcurrents.noaa.gov/",
+        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at NODD@NOAA.GOV.",
+        "ManagedBy": "[NOAA\u2019s National Ocean Service, The Center for Operational Oceanographic Products and Services (CO-OPS)](https://tidesandcurrents.noaa.gov/about_us.html)",
+        "UpdateFrequency": "Monthly, quarterly, and annually, depending on the dataset.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "weather",
+            "climate",
+            "environmental",
+            "disaster response",
+            "agriculture",
+            "transportation",
+            "oceans"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-nos-cora-pds.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset - NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset Notifications",
+        "Description": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset Notifications",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOSCORAObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://tidesandcurrents.noaa.gov/",
+        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at NODD@NOAA.GOV.",
+        "ManagedBy": "[NOAA\u2019s National Ocean Service, The Center for Operational Oceanographic Products and Services (CO-OPS)](https://tidesandcurrents.noaa.gov/about_us.html)",
+        "UpdateFrequency": "Monthly, quarterly, and annually, depending on the dataset.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "weather",
+            "climate",
+            "environmental",
+            "disaster response",
+            "agriculture",
+            "transportation",
+            "oceans"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
@@ -13049,6 +13105,54 @@
         ],
         "RequesterPays": null,
         "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "OAQPS Modeling Platform Meteorological Modeling - Notification for the 2022 Modeling Platform bucket",
+        "Description": "Notification for the 2022 Modeling Platform bucket",
+        "ARN": "arn:aws:sns:us-east-1:127085394039:epa-2022-modeling-platform-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "2022 WRF Modeling TSD:  https://www.epa.gov/system/files/documents/2024-03/wrf_2022_tsd.pdf. ",
+        "Contact": "Misenis.Chris@epa.gov",
+        "ManagedBy": "U.S. Environmental Protection Agency, Office of Air Quality Planning and Standards, Air Quality Assessment Division, Air Quality Modeling Group",
+        "UpdateFrequency": "As needed",
+        "License": "These datasets are products of the U.S. Government and are intended for public access and use. Unless otherwise specified, all data produced by the U.S EPA is, by default, in the public domain and are not subject to domestic copyright protection under 17 U.S.C. \u00a7 105. More details on the U.S. Public Domain license are available here: http://www.usa.gov/publicdomain/label/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "regulatory",
+            "weather",
+            "meteorological"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "OAQPS Modeling Platform Meteorological Modeling - The 2022 WRF output are stored as uncompressed netcdf/hdf5 formatted files in  the /WRF directory The 2022 MCIP output are stored as uncompressed netcdf/hdf5  formatted files in IOAPI format in the /MCIP directory Information on the model  projection and grid structure is contained in the header information of the  netcdf file The netcdf files can be opened and manipulated using software programs  that can read and write netcdf formatted files (eg Fortran, R, Python) The WRF files are daily files containing hourly data beginning at 00UTC through 23UTC for each modeled day For more information: https://www2mmmucaredu/wrf/users/ The MCIP files are daily files with multiple files for each day For more information about what each MCIP file contains, please see the following GitHub entry: https://githubcom/USEPA/CMAQ/blob/main/PREP/mcip/READMEmd",
+        "Description": "The 2022 WRF output are stored as uncompressed netcdf/hdf5 formatted files in  the /WRF directory The 2022 MCIP output are stored as uncompressed netcdf/hdf5  formatted files in IOAPI format in the /MCIP directory Information on the model  projection and grid structure is contained in the header information of the  netcdf file The netcdf files can be opened and manipulated using software programs  that can read and write netcdf formatted files (eg Fortran, R, Python) The WRF files are daily files containing hourly data beginning at 00UTC through 23UTC for each modeled day For more information: https://www2mmmucaredu/wrf/users/ The MCIP files are daily files with multiple files for each day For more information about what each MCIP file contains, please see the following GitHub entry: https://githubcom/USEPA/CMAQ/blob/main/PREP/mcip/READMEmd",
+        "ARN": "arn:aws:s3:::epa-2022-modeling-platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "2022 WRF Modeling TSD:  https://www.epa.gov/system/files/documents/2024-03/wrf_2022_tsd.pdf. ",
+        "Contact": "Misenis.Chris@epa.gov",
+        "ManagedBy": "U.S. Environmental Protection Agency, Office of Air Quality Planning and Standards, Air Quality Assessment Division, Air Quality Modeling Group",
+        "UpdateFrequency": "As needed",
+        "License": "These datasets are products of the U.S. Government and are intended for public access and use. Unless otherwise specified, all data produced by the U.S EPA is, by default, in the public domain and are not subject to domestic copyright protection under 17 U.S.C. \u00a7 105. More details on the U.S. Public Domain license are available here: http://www.usa.gov/publicdomain/label/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "regulatory",
+            "weather",
+            "meteorological"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://epa-2022-modeling-platform.s3.amazonaws.com/index.html)"
+        ],
         "Host": null,
         "AccountRequired": null
     },
@@ -15740,9 +15844,9 @@
         "ARN": "arn:aws:s3:::ctrees-tree-level-ca-product/v1/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "[Project overview](https://ctrees.org/)",
+        "Documentation": "[Project overview](https://ctrees.org/products/tree-level)",
         "Contact": "info@ctrees.org",
-        "ManagedBy": "[CTrees.org](https://ctrees.org/)",
+        "ManagedBy": "[CTrees](https://ctrees.org/)",
         "UpdateFrequency": "TBD",
         "License": "https://creativecommons.org/licenses/by/4.0/",
         "Tags": [
