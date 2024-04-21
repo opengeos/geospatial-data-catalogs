@@ -897,19 +897,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AERIALDIGI",
-        "title": "Aircraft Scanners",
-        "catalog": "USGS_LTA",
-        "state_date": "1987-10-06",
-        "end_date": "",
-        "bbox": "-180, 24, -60, 72",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566211-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566211-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AERIALDIGI",
-        "description": "The National Aeronautics and Space Administration (NASA) Aircraft        Scanners data set contains digital imagery acquired from several        multispectral scanners, including Daedalus thematic mapper simulator       scanners and  the thermal infrared multispectral scanner.  Data are       collected from  selected areas over the conterminous United States,       Alaska, and Hawaii by  NASA ER-2 and NASA C-130B aircraft, operating       from the NASA Ames Research  Center in Moffett Field, California, and by       NASA Learjet aircraft, operating  from Stennis Space Center in Bay St.       Louis, Mississippi.  Limited  international acquisitions also are       available.              In cooperation with the Jet Propulsion Laboratory and Daedalus        Enterprises,Inc., NASA developed several multispectral sensors.  The       data  acquired from these sensors supports NASA's Airborne Science and       Applications  Program and have been identified as precursors to the       instruments scheduled to  fly on Earth Observing System platforms.              THEMATIC MAPPER SIMULATOR              The Thematic Mapper Simulator (TMS) sensor is a line scanning device          designed for a variety of Earth science applications.  Flown aboard              NASA ER-2 aircraft, the TMS sensor has a nominal Instantaneous Field  of              View of 1.25 milliradians with a ground resolution of 81 feet (25  meters)              at 65,000 feet. The TMS sensor scans at a rate of 12.5 scans per  second              with 716 pixels per scan line.  Swath width is 8.3 nautical miles              (15.4 kilometers) at 65,000 feet while the scanner's Field of View  is              42.5 degrees.                NS-001 MULTISPECTRAL SCANNER               The NS-001multispectral scanner is a line scanning device designed  to              simulate Landsat thematic mapper (TM) sensor performance, including  a              near infrared/short-wave infrared band used in applications similar  to those         of the TM sensor (e.g., Earth resources mapping, vegetation/land  cover          mapping, geologic studies).  Flown aboard NASA C-130B aircraft, the  NS-001       sensor has a nominal Instantaneous Field of View of 2.5 milliradians     with a       ground resolution of 25 feet (7.6 meters) at 10,000 feet.  The sensor has a       variable scan rate (10 to 100 scans per second) with 699  pixels per scan line,       but the available motor drive supply restricts the  maximum stable scan speed       to approximately 85 revolutions per second. A scan rate  of 100 revolutions per       second is possible, but not probable, for short  scan lines; therefore, a       combination of factors, including aircraft  flight requirements and maximum       scan speed, prevent scanner operation below 1,500 feet.  Swath width is 3.9       nautical miles (7.26 kilometers) at 10,000 feet, and the total scan angle or       field of regard for the sensor is 100 degrees, plus or minus 15 degrees for       roll compensation.       THERMAL INFRARED MULTISPECTRAL SCANNER       The Thermal Infrared Multispectral Scanner (TIMS) sensor is a line  scanning         device originally designed for geologic applications.  Flown aboard NASA       C-130B, NASA ER-2, and NASA Learjet aircraft, the TIMS sensor  has a              nominal Instantaneous Field of View of 2.5 milliradians with a  ground              resolution of 25 feet (7.6 meters) at 10,000 feet.  The sensor has a              selectable scan rate (7.3, 8.7, 12, or 25 scans per second) with 698  pixels          per scan line.  Swath width is 2.6 nautical miles (4.8 kilometers)  at            10,000 feet while the scanner's Field of View is 76.56 degrees.",
-        "license": "not-provided"
-    },
-    {
         "id": "AFLVIS1B.v1",
         "title": "AfriSAR LVIS L1B Geolocated Return Energy Waveforms V001",
         "catalog": "NSIDC_ECS",
@@ -1196,19 +1183,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AK_AVHRR",
-        "title": "Alaska AVHRR Twice-Monthly Composites",
-        "catalog": "USGS_LTA",
-        "state_date": "1990-06-16",
-        "end_date": "",
-        "bbox": "-179, 51, -116, 70",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220565954-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220565954-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AK_AVHRR",
-        "description": "The goal of the Alaska Advanced Very High Resolution Radiometer  (AVHRR) project is to compile a time series data set of calibrated,  georegistered  daily observations and twice-monthly maximum normalized difference  vegetation index (NDVI) composites for Alaska's annual growing  season (April-October). This data set has applications for environmental monitoring and for assessing impacts of global climate change.  An Alaska AVHRR data set is comprised of twice-monthly maximum NDVI composites of daily satellite observations.  The NDVI composites  contain 10 bands of information, including AVHRR channels 1-5, maximum NDVI, satellite zenith, solar zenith, and relative azimuth.  The daily   observations, bands 1-9, have been calibrated to reflectance, scaled  to   byte data, and geometrically registered to the Albers Equal-Area  Conic map projection. The 10th band is a pointer to identify the date and  scene ID of  the source daily observation (scene) for each pixel.  The compositing process required each daily overpass to be  registered to a common map projection to ensure that from day to day each 1-km pixel represented the exact same ground location.  The Albers Equal-Area Conic map projection provides for equal area representation, which enables  easy measurement of area throughout the data.  Each daily observation for  the growing season was registered to a base image using image-to-image correlation.  The NDVI data are calculated from the calibrated, geometrically  registered daily observations. The NDVI value is the difference between  near-infrared (AVHRR Channel 2) and visible (AVHRR Channel 1) reflectance values  divided by total measured reflectance.  A maximum NDVI compositing process  was used on the daily observations.  The NDVI is examined pixel by pixel for  each observation during the compositing period to determine and retain  the maximum value.  Often when displaying data covering large areas, such as AVHRR data,  it is beneficial to include an overlay of either familiar linework for  reflectance or polygon data sets to derive statistical summaries of regions.  All of the linework images represent lines in raster format as 1-km cells and  the strata are represented as polygons registered to the AVHRR data.  The  linework and polygon data sets include international boundaries, Alaskan roads  with the Trans-Alaska Pipeline, and a raster polygon mask of the State. ",
-        "license": "not-provided"
-    },
-    {
         "id": "ALOS",
         "title": "Alos African Coverage ESA archive",
         "catalog": "ESA",
@@ -1284,19 +1258,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1426293893-LANCEMODIS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LANCEMODIS/collections/AM1EPHNE.v6.1NRT",
         "description": "AM1EPHNE is the Terra Near Real Time (NRT) 2-hour spacecraft Extrapolated ephemeris data file in native format. The file name format is the following: AM1EPHNE.Ayyyyddd.hhmm.vvv.yyyydddhhmmss where from left to right:  E = Extrapolated; N = Native format; A = AM1 (Terra); yyyy = data year, ddd = Julian data day, hh = data hour, mm = data minute; vvv = Version ID; yyyy = production year, ddd = Julian production day, hh = production hour, mm = production minute, and ss = production second. Data set information: http://modis.gsfc.nasa.gov/sci_team/",
-        "license": "not-provided"
-    },
-    {
-        "id": "APSF",
-        "title": "Aerial Photo Single Frames",
-        "catalog": "USGS_LTA",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567654-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567654-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/APSF",
-        "description": "The Aerial Photography Single Frame Records collection is a large and diverse group of imagery acquired by Federal organizations from 1937 to the present. Over 6.4 million frames of photographic images are available for download as medium and high resolution digital products. The high resolution data provide access to photogrammetric quality scans of aerial photographs with sufficient resolution to reveal landscape detail and to facilitate the interpretability of landscape features. Coverage is predominantly over the United States and includes portions of Central America and Puerto Rico. Individual photographs vary in scale, size, film type, quality, and coverage.",
         "license": "not-provided"
     },
     {
@@ -1833,32 +1794,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AVHRR_GLOBAL_10-DAY_COMPOSITES",
-        "title": "AVHRR 1-km Global Land 10-Day Composites",
-        "catalog": "USGS_LTA",
-        "state_date": "1992-04-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566288-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566288-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AVHRR_GLOBAL_10-DAY_COMPOSITES",
-        "description": "The Advanced Very High Resolution Radiometer (AVHRR) 1-km Global  Land  10-Day Composites data set project is a component of the National Aeronautics and Space Administration (NASA) AVHRR Pathfinder  Program. The project is a collaborative effort between the National Oceanic  and Atmospheric Administration (NOAA), NASA, the U.S. Geological Survey  (USGS), the European Space Agency (ESA), Australia's Commonwealth Scientific and Industrial Research Organization (CSIRO), and 30 international ground receiving stations.  The project represents an international effort to archive and distribute the 1-km AVHRR composites of the entire global land surface to scientific  researchers and to the general public.  The data set is comprised of a time series of global 10-day normalized difference vegetation index composites.  The composites are generated from radiometrically calibrated, atmospherically corrected, and geometrically corrected daily AVHRR observations. The time series begins in April 1992 and continues for specific time periods.",
-        "license": "not-provided"
-    },
-    {
-        "id": "AVHRR_ORBITAL_SEGMENTS",
-        "title": "AVHRR 1-km Orbital Segments",
-        "catalog": "USGS_LTA",
-        "state_date": "1992-04-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566340-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566340-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/AVHRR_ORBITAL_SEGMENTS",
-        "description": "       The Advanced Very High Resolution Radiometer (AVHRR) 1-km Orbital        Segments data set is a component of the National Aeronautics and        Space Administration (NASA) AVHRR Pathfinder Program and contains        global coverage of land masses at 1-kilometer resolution.         The data set is the result of an international effort to acquire,        process, and distribute AVHRR data of the entire global land surface        to meet the needs of the international science community.  The         orbital segments are comprised of raw AVHRR scenes consisting of        5-channel, 10-bit, AVHRR data at 1.1-km resolution at nadir.  The raw        data are used to produce vegetation index composites; to support fire         detection and cloud screening activities; to support research in        atmospheric correction; to develop algorithms; and to support a host of        research activities that may require the inclusion of raw AVHRR data. ",
-        "license": "not-provided"
-    },
-    {
         "id": "Active_Fluorescence_2001.v0",
         "title": "Active fluorescence measurements in the Gulf Stream in 2001",
         "catalog": "OB_DAAC",
@@ -2064,19 +1999,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214308504-AU_AADC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/CEAMARC_CASO_200708030_EVENT_BATHYMETRY_PLOTS.v1",
         "description": "A routine was developed in R ('bathy_plots.R') to plot bathymetry data over time during individual CEAMARC events.  This is so we can analyse benthic data in relation to habitat, ie. did we trawl over a slope or was the sea floor relatively flat.  Note that the depth range in the plots is autoscaled to the data, so a small range in depths appears as a scatetring of points.  As long as you look at the depth scale though interpretation will be ok.  The R files need a file of bathymetry data in '200708V3_one_minute.csv' which is a file containing a data export from the underway PostgreSQL ship database and 'events.csv' which is a stripped down version of the events export from the ship board events database export.  If you wish to run the code again you may need to change the pathnames in the R script to relevant locations.  If you have opened the csv files in excel at any stage and the R script gets an error you may need to format the date/time columns as yyyy-mm-dd hh;mm:ss, save and close the file as csv without opening it again and then run the R script.  However, all output files are here for every CEAMARC event.  Filenames contain a reference to CEAMARC event id.  Files are in eps format and can be viewed using Ghostview which is available as a free download on the internet.",
-        "license": "not-provided"
-    },
-    {
-        "id": "CEOS_CalVal_Test_Sites-Algeria3",
-        "title": "CEOS Cal Val Test Site - Algeria 3 - Pseudo-Invariant Calibration Site (PICS)",
-        "catalog": "USGS_LTA",
-        "state_date": "1972-08-11",
-        "end_date": "",
-        "bbox": "5.22, 29.09, 10.01, 31.36",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567099-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567099-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/CEOS_CalVal_Test_Sites-Algeria3",
-        "description": "On the background of these requirements for sensor calibration, intercalibration and product validation, the subgroup on Calibration and Validation of the Committee on Earth Observing System (CEOS) formulated the following recommendation during the plenary session held in China at the end of 2004, with the goal of setting-up and operating an internet based system to provide sensor data, protocols and guidelines for these purposes:  Background:  Reference Datasets are required to support the understanding of climate change and quality assure operational services by Earth Observing satellites. The data from different sensors and the resulting synergistic data products require a high level of accuracy that can only be obtained through continuous traceable calibration and validation activities. Requirement:  Initiate an activity to document a reference methodology to predict Top of Atmosphere (TOA) radiance for which currently flying and planned wide swath sensors can be intercompared, i.e. define a standard for traceability. Also create and maintain a fully accessible web page containing, on an instrument basis, links to all instrument characteristics needed for intercomparisons as specified above, ideally in a common format. In addition, create and maintain a database (e.g. SADE) of instrument data for specific vicarious calibration sites, including site characteristics, in a common format. Each agency is responsible for providing data for their instruments in this common format. Recommendation : The required activities described above should be supported for an implementation period of two years and a maintenance period over two subsequent years. The CEOS should encourage a member agency to accept the lead role in supporting this activity. CEOS should request all member agencies to support this activity by providing appropriate information and data in a timely manner.  Pseudo-Invariant Calibration Sites (PICS): Algeria 3 is one of six CEOS reference Pseudo-Invariant Calibration Sites (PICS) that are CEOS Reference Test Sites. Besides the nominally good site characteristics (temporal stability, uniformity, homogeneity, etc.), these six PICS were selected by also taking into account their heritage and the large number of datasets from multiple instruments that already existed in the EO archives and the long history of characterization performed over these sites. The PICS have high reflectance and are usually made up of sand dunes with climatologically low aerosol loading and practically no vegetation. Consequently, these PICS can be used to evaluate the long-term stability of instrument and facilitate inter-comparison of multiple instruments.",
         "license": "not-provided"
     },
     {
@@ -2353,19 +2275,6 @@
         "license": "not-provided"
     },
     {
-        "id": "DLG100K",
-        "title": "1:100,000-scale Digital Line Graphs (DLG) from the U.S. Geological Survey",
-        "catalog": "USGS_LTA",
-        "state_date": "1987-06-19",
-        "end_date": "",
-        "bbox": "-126, 24, -66, 49",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566434-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566434-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/DLG100K",
-        "description": "Digital line graph (DLG) data are digital representations of cartographic information. DLG's of map features are converted to digital form from maps and related sources. Intermediate-scale DLG data are derived from USGS 1:100,000-scale 30- by 60-minute  quadrangle maps. If these maps are not available, Bureau of Land Management planimetric maps at a scale of 1: 100,000 are used. Intermediate-scale DLG's are sold in five categories: (1)  Public Land Survey System; (2) boundaries (3) transportation; (4)  hydrography; and (5) hypsography.  All DLG data distributed by the USGS are DLG - Level 3 (DLG-3), which means the data contain a full range of attribute codes, have full topological structuring, and have passed certain quality-control checks. ",
-        "license": "not-provided"
-    },
-    {
         "id": "E06_OCM_GAC_STGO00GND.v1.0",
         "title": "EOS-06 OCM Global Area Coverage (GAC) - 1080m resolution Standard Products - Oceansat Series",
         "catalog": "ISRO",
@@ -2389,19 +2298,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2866790547-ISRO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ISRO/collections/E06_OCM_LAC_STGO00GND.v1.0",
         "description": "The main objectives of E06 are to study surface winds and ocean surface strata, observation of chlorophyll concentrations, monitoring of phytoplankton blooms, study of atmospheric aerosols and suspended sediments in the water. ",
-        "license": "not-provided"
-    },
-    {
-        "id": "EARTH_LAND_USGS_AMES_AIR_PHOTOS",
-        "title": "Aerial Photographs (from AMES Pilot Land Data System); USGS EDC, Sioux Falls",
-        "catalog": "USGS_LTA",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, 20, -60, 50",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566371-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566371-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/EARTH_LAND_USGS_AMES_AIR_PHOTOS",
-        "description": "The aerial photography inventoried by the Pilot Land Data System  (PLDS) at NASA AMES Research Center has been transferred to the USGS EROS  Data Center.  The photos were obtained from cameras mounted on high and  medium altitude aircraft based at the NASA Ames Research Center.  Several  cameras with varying focal lengths, lenses and film formats are used, but  the Wild RC-10 camera with a focal length of 152 millimeters and a 9 by 9  inch film format is most common.  The positive transparencies are typically  used for ancillary ground checks in conjunctions with digital processing for  the same sites.  The aircraft flights, specifically requested by scientists  performing approved research, often simultaneously collect data using other  sensors on        board (e.g. Thematic Mapper Simulators (TMS) and Thermal Infrared  Multispectral Scanners).  High altitude color infrared photography is used  regularly by government agencies for such applications as crop yield forecasting,  timber inventory and defoliation assessment, water resource management,  land use surveys, water pollution monitoring, and natural disaster  assessment.  To order, specify the latitude and longitude of interest.  You will  then be given a list of photos available for that location.  In some cases,  \"flight books\" are available at EDC that describe the nature of the mission  during which the photos were taken and other attribute information.  The  customer service personnel have access to these books for those photo sets  for which the books exist.",
         "license": "not-provided"
     },
     {
@@ -2782,19 +2678,6 @@
         "license": "not-provided"
     },
     {
-        "id": "G5NR.v1",
-        "title": "GEOS-5 Nature Run data",
-        "catalog": "NCCS",
-        "state_date": "2005-05-15",
-        "end_date": "2007-06-16",
-        "bbox": "-180, 90, 179.9375, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1634215803-NCCS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1634215803-NCCS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/G5NR.v1",
-        "description": "This specific GEOS-5 model configuration used to perform a two-year global,  non-hydrostatic mesoscale simulation for the period 2005-2007 at 7-km (3.5-km in the future) horizontal resolution.  Because this simulation is intended to serve as a reference Nature Run for Observing System  Simulation Experiments (OSSEs, e.g., Errico et al., 2012) it will be referred to as the 7-km GEOS-5  Nature Run or 7-km G5NR. This simulation has been performed with the Ganymed version of GEOS-  5, more specifically with CVS Tag wmp-Ganymed-4_0_BETA8.  In addition to standard meteorological parameters (wind, temperature, moisture, surface pressure),  this simulation includes 15 aerosol tracers (dust, sea-salt, sulfate, black and organic carbon), O3, CO  and CO2. This model simulation is driven by prescribed sea-surface temperature and sea-ice, as well  as surface emissions and uptake of aerosols and trace gases, including daily volcanic and biomass  burning emissions, biogenic sources and sinks of CO2, and high-resolution inventories of  anthropogenic sources.The simulation is performed at a horizontal resolution of 7 km using a cubed-sphere horizontal  grid with 72 vertical levels, extending up to to 0.01 hPa (~ 80 km). For user convenience, all data  products are generated on two logically rectangular longitude-latitude grids: a full-resolution  0.0625o grid that approximately matches the native cubed-sphere resolution, and another 0.5o  reduced-resolution grid. The majority of the full-resolution data products are instantaneous with  some fields being time-averaged. The reduced-resolution datasets are mostly time-averaged, with  some fields being instantaneous. Hourly data intervals are used for the reduced-resolution datasets,  while 30-minute intervals are used for the full-resolution products. All full-resolution output is on  the model\u2019s native 72-layer hybrid sigma-pressure vertical grid, while the reduced-resolution  output is given on native vertical levels and on 48 pressure surfaces extending up to 0.02 hPa.  Section 4 presents additional details on horizontal and vertical grids. ",
-        "license": "not-provided"
-    },
-    {
         "id": "GE01_MSI_L1B.v1",
         "title": "GeoEye-1 Level 1B Multispectral 4-Band Satellite Imagery",
         "catalog": "CSDA",
@@ -2818,32 +2701,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2497510652-CSDA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/CSDA/collections/GE01_Pan_L1B.v1",
         "description": "The GeoEye-1 Level 1B Panchromatic Imagery collection contains satellite imagery acquired from Maxar Technologies (formerly known as DigitalGlobe) by the Commercial Smallsat Data Acquisition (CSDA) Program. Imagery is collected by the GeoEye-1 satellite using the GeoEye-1 Imaging System across the global land surface from September 2008 to the present. This data product includes panchromatic imagery with a spatial resolution of 0.46m at nadir (0.41m before summer 2013) and a temporal resolution of approximately 3 days. The data are provided in National Imagery Transmission Format (NITF) and GeoTIFF formats. This level 1B data is sensor corrected and is an un-projected (raw) product. The data potentially serve a wide variety of applications that require high resolution imagery. Data access is restricted based on a National Geospatial-Intelligence Agency (NGA) license, and investigators must be approved by the CSDA Program.",
-        "license": "not-provided"
-    },
-    {
-        "id": "GEOS FP.v1",
-        "title": "GEOS Forward Processing",
-        "catalog": "NCCS",
-        "state_date": "2014-02-20",
-        "end_date": "",
-        "bbox": "-180, 90, 179.6875, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1634094157-NCCS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1634094157-NCCS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/GEOS FP.v1",
-        "description": "The GEOS FP Atmospheric Data Assimilation System (GEOS ADAS) uses an analysis  developed jointly with NOAA\u2019s National Centers for Environmental Prediction (NCEP), which  allows the Global Modeling and Assimilation Office (GMAO) to take advantage of the  developments at NCEP and the Joint Center for Satellite Data Assimilation (JCSDA). The  GEOS AGCM uses the finite-volume dynamics (Lin, 2004) integrated with various physics  packages (e.g, Bacmeister et al., 2006), under the Earth System Modeling Framework (ESMF)  including the Catchment Land Surface Model (CLSM) (e.g., Koster et al., 2000). The GSI  analysis is a three-dimensional variational (3DVar) analysis applied in grid-point space to  facilitate the implementation of anisotropic, inhomogeneous covariances (e.g., Wu et al., 2002;  Derber et al., 2003). The GSI implementation for GEOS FP incorporates a set of recursive filters  that produce approximately Gaussian smoothing kernels and isotropic correlation functions.  The GEOS ADAS is documented in Rienecker et al. (2008). More recent updates to the model  are presented in Molod et al. (2011). The GEOS system actively assimilates roughly 2 \u00b4 106  observations for each analysis, including about 7.5 \u00b4 105 AIRS radiance data. The input stream  is roughly twice this volume, but because of the large volume, the data are thinned  commensurate with the analysis grid to reduce the computational burden. Data are also rejected  from the analysis through quality control procedures designed to detect, for example, the  presence of cloud.  To minimize the spurious periodic perturbations of the analysis, GEOS FP uses the Incremental  Analysis Update (IAU) technique developed by Bloom et al. (1996).",
-        "license": "not-provided"
-    },
-    {
-        "id": "GEOS-CF Products.v1",
-        "title": "GEOS CF (Composition Forecast)",
-        "catalog": "NCCS",
-        "state_date": "2018-01-01",
-        "end_date": "",
-        "bbox": "-180, 90, 179.5, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1633930911-NCCS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633930911-NCCS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/ GEOS-CF Products.v1",
-        "description": "The NASA Global Earth Observing System (GEOS) model has been expanded to provide global nearreal-  time forecasts of atmospheric composition at a horizontal resolution of 0.25 degrees (about 25  km). This GEOS Composition Forecast (GEOS-CF) system combines the GEOS weather analysis and  forecasting system with the state-of-the-science GEOS-Chem chemistry module (Bey et al., 2001;  Keller et al., 2014; Long et al., 2015) to provide detailed chemical analysis of a wide range of air  pollutants including ozone, carbon monoxide, nitrogen oxides, and fine particulate matter (PM2.5).",
         "license": "not-provided"
     },
     {
@@ -2948,32 +2805,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1386206903-NSIDCV0.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDCV0/collections/GGD632.v1",
         "description": "This data set contains active-layer and permafrost temperatures from two stations in Soendre Stroemfjord, Greenland. Snow depth and snow extent were also recorded. Thermometers at Station A (67 deg N, 50.8 deg W, 50 m asl) recorded temperatures once a day from September 1967 to February 1976. Thermometers at Station B (67 deg N, 50.8 deg W, 38 m asl) recorded temperatures once a day from September 1967 to August 1970; however, only bi-weekly averages are given for Station B. Data are in tab-delimited ASCII text format and are available via FTP.",
-        "license": "not-provided"
-    },
-    {
-        "id": "GISS-CMIP5.v1",
-        "title": "GISS ModelE2 contributions to the CMIP5 archive",
-        "catalog": "NCCS",
-        "state_date": "0850-01-01",
-        "end_date": "2100-12-31",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1542315069-NCCS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1542315069-NCCS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/GISS-CMIP5.v1",
-        "description": "We present a description of the ModelE2 version of the Goddard Institute for Space Studies (GISS) General Circulation Model (GCM) and the configurations used in the simulations performed for the Coupled Model Intercomparison Project Phase 5 (CMIP5). We use six variations related to the treatment of the atmospheric composition, the calculation of aerosol indirect effects, and ocean model component. Specifically, we test the difference between atmospheric models that have noninteractive composition, where radiatively important aerosols and ozone are prescribed from precomputed decadal averages, and interactive versions where atmospheric chemistry and aerosols are calculated given decadally varying emissions. The impact of the first aerosol indirect effect on clouds is either specified using a simple tuning, or parameterized using a cloud microphysics scheme. We also use two dynamic ocean components: the Russell and HYbrid Coordinate Ocean Model (HYCOM) which differ significantly in their basic formulations and grid. Results are presented for the climatological means over the satellite era (1980-2004) taken from transient simulations starting from the preindustrial (1850) driven by estimates of appropriate forcings over the 20th Century. Differences in base climate and variability related to the choice of ocean model are large, indicating an important structural uncertainty. The impact of interactive atmospheric composition on the climatology is relatively small except in regions such as the lower stratosphere, where ozone plays an important role, and the tropics, where aerosol changes affect the hydrological cycle and cloud cover. While key improvements over previous versions of the model are evident, these are not uniform across all metrics.",
-        "license": "not-provided"
-    },
-    {
-        "id": "GMAO-CMIP5.v1",
-        "title": "GMAO Decadal Analysis & Prediction for CMIP5",
-        "catalog": "NCCS",
-        "state_date": "1961-01-01",
-        "end_date": "2019-12-31",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1542704969-NCCS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1542704969-NCCS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/GMAO-CMIP5.v1",
-        "description": "Studies of change and variations on decadal timescales are essential for planning satellite missions that seek to improve our understanding of linkages among various components of the Earth System. Decadal predictions using a version of the GEOS-5 AOGCM were contributed to the CMIP5 project. The dataset include a three-member ensemble initialized on December 1 of each year from 1960 to 2010. These data are available, with the designation NASA GMAO, from the CMIP5 Archive at NASA NCCS.",
         "license": "not-provided"
     },
     {
@@ -3666,32 +3497,6 @@
         "license": "not-provided"
     },
     {
-        "id": "NEX-DCP30.v1",
-        "title": "Downscaled 30 Arc-Second CMIP5 Climate Projections for Studies of Climate Change Impacts in the United States",
-        "catalog": "NCCS",
-        "state_date": "1950-01-01",
-        "end_date": "2099-12-31",
-        "bbox": "-125.0208333, 24.0625, -66.4791667, 49.9375",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1542175061-NCCS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1542175061-NCCS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/NEX-DCP30.v1",
-        "description": "This NASA dataset is provided to assist the science community in conducting studies of climate  change impacts at local to regional scales, and to enhance public understanding of possible future  climate patterns and climate impacts at the scale of individual neighborhoods and communities.  This dataset is intended for use in scientific research only, and use of this dataset for other  purposes, such as commercial applications, and engineering or design studies is not  recommended without consultation with a qualified expert. Community feedback to improve and  validate the dataset for modeling usage is appreciated. Email comments to  bridget@climateanalyticsgroup.org.  Dataset File Name: NASA Earth Exchange (NEX) Downscaled Climate Projections (NEXDCP30),  https://portal.nccs.nasa.gov/portal_home/published/NEX.html",
-        "license": "not-provided"
-    },
-    {
-        "id": "NEX-GDDP.v1",
-        "title": "NASA Earth Exchange Global Daily Downscaled Projections",
-        "catalog": "NCCS",
-        "state_date": "1950-01-01",
-        "end_date": "2100-12-31",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1374483929-NCCS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1374483929-NCCS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/NEX-GDDP.v1",
-        "description": "The NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP) dataset is comprised of downscaled climate scenarios for the globe that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 5 (CMIP5) and across two of the four greenhouse gas emissions scenarios known as Representative Concentration Pathways (RCPs). The CMIP5 GCM runs were developed in support of the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR5). The NEX-GDDP dataset includes downscaled projections for RCP 4.5 and RCP 8.5 from the 21 models and scenarios for which daily scenarios were produced and distributed under CMIP5. Each of the climate projections includes daily maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2100. The spatial resolution of the dataset is 0.25 degrees (~25 km x 25 km). The NEX-GDDP dataset is provided to assist the science community in conducting studies of climate change impacts at local to regional scales, and to enhance public understanding of possible future global climate patterns at the spatial scale of individual towns, cities, and watersheds.    Each of the climate projections includes monthly averaged maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2005 (Retrospective Run) and from 2006 to 2099 (Prospective Run). ",
-        "license": "not-provided"
-    },
-    {
         "id": "NIPR_UAP_ELF_SYO",
         "title": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
         "catalog": "SCIOPS",
@@ -3702,58 +3507,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NIPR_UAP_ELF_SYO",
         "description": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
-        "license": "not-provided"
-    },
-    {
-        "id": "NMMIEAI-L2-NRT.v2",
-        "title": "OMPS-NPP L2 NM Aerosol Index swath orbital NRT",
-        "catalog": "OMINRT",
-        "state_date": "2011-11-07",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1657477341-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1657477341-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/NMMIEAI-L2-NRT.v2",
-        "description": "The OMPS-NPP L2 NM Aerosol Index swath orbital V2 for Near Real Time. For the standard product see the OMPS_NPP_NMMIEAI_L2  product in CMR .The aerosol index is derived from normalized radiances using 2 wavelength pairs at 340 and 378.5 nm. Additionally, this data product contains measurements of normalized radiances, reflectivity, cloud fraction, reflectivity, and other ancillary variables.   ",
-        "license": "not-provided"
-    },
-    {
-        "id": "NMSO2-PCA-L2-NRT.v2",
-        "title": "OMPS/NPP PCA SO2 Total Column 1-Orbit L2 Swath 50x50km NRT",
-        "catalog": "OMINRT",
-        "state_date": "2011-10-28",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1439293808-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1439293808-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/NMSO2-PCA-L2-NRT.v2",
-        "description": "The OMPS-NPP L2 NM Sulfur Dioxide (SO2) Total and Tropospheric Column swath orbital collection 2 version 2.0 product contains the retrieved sulfur dioxide (SO2) measured by the Ozone Mapping and Profiling Suite (OMPS) Nadir-Mapper (NM) sensor on the Suomi-NPP satellite. A Principle Component Analysis (PCA) algorithm is used to retrieve the SO2 total column amount and column amounts in the lower (centered at 2.5 km), middle (centered at 7.5 km) and upper (centered at 11 km) troposphere, as well as the lower stratosphere (centered at 16 km). Each granule contains data from the daylight portion for a single orbit or about 50 minutes. Spatial coverage is global (-90 to 90 degrees latitude), and there are about 14 orbits per day each with a swath width of 2600 km. There are 35 pixels in the cross-track direction, with a pixel resolution of about 50 km x 50 km at nadir. The files are written using the Hierarchical Data Format Version 5 or HDF5.",
-        "license": "not-provided"
-    },
-    {
-        "id": "NMTO3NRT.v2",
-        "title": "OMPS-NPP L2 NM Ozone (O3) Total Column swath orbital NRT",
-        "catalog": "OMINRT",
-        "state_date": "2011-10-28",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1439272084-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1439272084-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/NMTO3NRT.v2",
-        "description": "The OMPS-NPP L2 NM Ozone (O3) Total Column swath orbital product provides  total ozone measurements from the Ozone Mapping and Profiling Suite (OMPS)  Nadir-Mapper (NM) instrument on the Suomi-NPP satellite.The total column  ozone amount is derived from normalized radiances using 2 wavelength pairs  317.5 and 331.2 nm under most conditions, and 331.2 and 360 nm for high  ozone and high solar zenith angle conditions. Additionally, this data  product contains measurements of UV aerosol index and reflectivity at  331 nm.Each granule contains data from the daylight portion of each orbit  measured for a full day. Spatial coverage is global (-90 to  90 degrees  latitude), and there are about 14.5 orbits per day, each has typically 400  swaths. The swath width of the NM is about 2800 km with 36 scenes, or  pixels, with a footprint size of 50 km x 50 km at nadir. The L2 NM Ozone  data are written using the Hierarchical Data Format Version 5 or HDF5.",
-        "license": "not-provided"
-    },
-    {
-        "id": "NPBUVO3-L2-NRT.v2",
-        "title": "OMPS-NPP L2 NP Ozone (O3) Vertical Profile swath orbital NRT",
-        "catalog": "OMINRT",
-        "state_date": "2011-10-28",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1439296101-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1439296101-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/NPBUVO3-L2-NRT.v2",
-        "description": "The OMPS-NPP L2 NP Ozone (O3) Total Column swath orbital product provides ozone profile retrievals from the Ozone Mapping and Profiling Suite (OMPS) Nadir-Profiler (NP) instrument on the Suomi-NPP satellite in Near Real Time. The V8 ozone profile algorithm relies on nadir profiler measurements made in the 250 to 310 nm range, as well as from measurements from the nadir mapper in the 300 to 380 nm range. Ozone mixing ratios are reported at 15 pressure levels between 50 and 0.5 hPa. Additionally, this data product contains measurements of total ozone, UV aerosol index and reflectivities at 331 and 380 nm. Each granule contains data from the daylight portion of each orbit measured for a full day. Spatial coverage is global (-82 to +82 degrees latitude), and there are about 14.5 orbits per day, each has typically 80 profiles. The NP footprint size is 250 km x 250 km. The L2 NP Ozone data are written using the Hierarchical Data Format Version 5 or HDF5.",
         "license": "not-provided"
     },
     {
@@ -3962,84 +3715,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1386204153-NSIDCV0.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDCV0/collections/NSIDC-0212.v1",
         "description": "This data set includes 94 GHz co- and cross-polarized radar reflectivity. The Airborne Cloud Radar (ACR) sensor was mounted to a NASA P-3 aircraft flown over the Sea of Japan, the Western Pacific Ocean, and the Japanese Islands.",
-        "license": "not-provided"
-    },
-    {
-        "id": "OMAERUV.v003",
-        "title": "OMI/Aura Near UV Aerosol Optical Depth and Single Scattering Albedo 1-orbit L2 Swath 13x24 km V003 NRT",
-        "catalog": "OMINRT",
-        "state_date": "2004-07-15",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000120-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000120-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/OMAERUV.v003",
-        "description": "The OMI/Aura level-2 near UV Aerosol data product 'OMAERUV', recently re-processed using an enhanced algorithm, is now released (April 2012) to the public. The data is available from the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC), http://disc.gsfc.nasa.gov/Aura/OMI/omaeruv_v003.shtml NASA Aura satellite sensors are tracking important atmospheric pollutants from space since its launch in July, 2004. The Ozone Monitoring Instrument(OMI), one of the four Aura satellite sensors with its 2600 km viewing swath width provides daily global measurements of four important US Environmental Protection Agency criteria pollutants (Tropospheric ozone, Nitrogen dioxide,Sulfur dioxide and Aerosols from biomass burning and industrial emissions, HCHO, BrO, OClO and surface UV irradiance. OMI is a contribution of the Netherlands Agency for Aerospace Programs (NIVR)in collaboration with Finish Meterological Institute (FMI), to the US EOS-Aura Mission. The principal investigator (Dr. Pieternel Levelt) institute is the KNMI (Royal Netherlands Meteorological Institute). The Level-2 OMI Aerosol Product OMAERUV from the Aura-OMI is now available from NASAs GSFC Earth Sciences (GES) Data and Information Services Center (DISC) for public access. OMAERUV retrieval algorithm is developed by the US OMI Team Scientists. Dr. Omar Torres (GSFC/NASA) is the principal investigator of this product. The OMAERUV product contains Aerosol Absorption and Aerosol Extinction Optical Depths, and Single Scattering Albedo at three different wavelengths (354, 388 and 500 nm), Aerosol Index, and other ancillary and geolocation parameters, in the OMI field of view (13x24 km). Another standard OMI aerosol product is OMAERO, that is based on the KNMI multi-wavelength spectral fitting algorithm. OMAERUV files are stored in EOS Hierarchical Data Format (HDF-EOS5). Each file contains data from the day lit portion of an orbit (~53 minutes). There are approximately 14 orbits per day. The maximum file size for the OMAERUV data product is about 6 Mbytes. A list of tools for browsing and extracting data from these files can be found at: http://disc.gsfc.nasa.gov/Aura/tools.shtml A short OMAERUV Readme Document that includes brief algorithm description and currently known data quality issues is provided by the OMAERUV Algorithm lead (see http://disc.gsfc.nasa.gov/Aura/OMI/omaeruv_v003.shtml) For more information on Ozone Monitoring Instrument and atmospheric data products, please visit the OMI-Aura sites: http://aura.gsfc.nasa.gov/ http://www.knmi.nl/omi/research/documents/ . OMAERUV Data Groups and Parameters: The OMAERUV data file contains a swath which consists of two groups: Data fields: Total Aerosol Optical Depth (extinction optical depth) and Aerosol Absorption Optical Depths (at 354, 388 and 500 nm), Single Scattering Albedo, UV Aerosol Index, Visible Aerosol Index, and other intermediate and ancillary parameters (e.g. Estimates of Aerosol Total Extinction and Absorption Optical Depths and Single Scattering Albedo at five atmospheric levels, Aerosol Type, Aerosol Layer Height, Normalized Radiance, Lambert equivalent Reflectivity, Surface Albedo, Imaginary Component of Refractive Index) and Data Quality Flags. Geolocation Fields: Latitude, Longitude, Time(TAI93), Seconds, Solar Zenith Angles, Viewing Zenith Angles, Relative Azimuth Angle, Terrain Pressure, Ground Pixel Quality Flags. For the full set of Aura products available from the GES DISC, please see the link below. http://disc.sci.gsfc.nasa.gov/Aura/ Atmospheric Composition data from Aura and other satellite sensors can be ordered from the following sites: http://disc.sci.gsfc.nasa.gov/acdisc/ ",
-        "license": "not-provided"
-    },
-    {
-        "id": "OMCLDRR.v003",
-        "title": "OMI/Aura Cloud Pressure and Fraction (Raman Scattering) 1-Orbit L2 Swath 13x24 km V003 NRT",
-        "catalog": "OMINRT",
-        "state_date": "2004-07-15",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000100-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000100-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/OMCLDRR.v003",
-        "description": "The reprocessed Aura OMI Version 003 Level 2 Cloud Data Product OMCLDRR is made available (in April 2012) to the public from the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC). http://disc.gsfc.nasa.gov/Aura/OMI/omcldrr_v003.shtml ) Aura OMI provides two Level-2 Cloud products (OMCLDRR and OMCLDO2) at pixel resolution (13 x 24 km at nadir) that are based on two different algorithms, the Rotational Raman Scattering method and the O2-O2 absorption method. This level-2 global cloud product (OMCLDRR) provides effective cloud pressure and effective cloud fraction that is based on the least square fitting of the Ring spectrum (filling-in of Fraunhofer lines in the range 392 to 398 nm due to rotational Raman scattering). This product also contains many ancillary and derived parameters, terrain and geolocation information, solar and satellite viewing angles, and quality flags. The shortname for this Level-2 OMI Cloud Pressure and Fraction product is OMCLDRR and the algorithm lead for this product is NASA OMI scientist Dr. Joanna Joinner. OMCLDRR files are stored in EOS Hierarchical Data Format (HDF-EOS5). Each file contains data from the day lit portion of an orbit (53 minutes). There are approximately 14 orbits per day. The maximum file size for the OMCLDRR data product is about 9 Mbytes. A list of tools for browsing and extracting data from these files can be found at: http://disc.gsfc.nasa.gov/Aura/tools.shtml . A short OMCLDRR Readme Document that includes brief algorithm description and data quality is also provided by the OMCLDRR Algorithm lead. The Ozone Monitoring Instrument (OMI) was launched aboard the EOS-Aura satellite on July 15, 2004(1:38 pm equator crossing time, ascending mode). OMI with its 2600 km viewing swath width provides almost daily global coverage. OMI is a contribution of the Netherlands Agency for Aerospace Programs (NIVR)in collaboration with Finish Meterological Institute (FMI), to the US EOS-Aura Mission. OMI is designed to monitor stratospheric and tropospheric ozone, clouds, aerosols and smoke from biomass burning, SO2 from volcanic eruptions, and key tropospheric pollutants (HCHO, NO2) and ozone depleting gases (OClO and BrO). OMI sensor counts, calibrated and geolocated radiances, and all derived geophysical atmospheric products are archived at the NASA GES DISC. For more information on Ozone Monitoring Instrument and atmospheric data products, please visit the OMI-Aura sites: http://aura.gsfc.nasa.gov/instruments/omi/ http://www.knmi.nl/omi/research/documents/ . Data Category Parameters: The OMCLDRR data file contains one swath which consists of two groups: Data fields: Two Effective Cloud Fraction and two Cloud Top Pressures that are based on two different clear and cloudy scene reflectivity criteria, Chlorophyll Amount, Effective Reflectivity (394.1 micron), UV Aerosol Index (based on 360 and 388 nm), and many Auxiliary Algorithm Parameter and Quality Flags. Geolocation Fields: Latitude, Longitude, Time, Solar Zenith Angle, Viewing Zenith Angle, Relative Azimuth Angle, Terrain Height, and Ground Pixel Quality Flags. OMI Atmospheric data and documents are available from the following sites: http://disc.gsfc.nasa.gov/Aura/OMI/ http://mirador.gsfc.nasa.gov/",
-        "license": "not-provided"
-    },
-    {
-        "id": "OMICOL3NRT.v3",
-        "title": "Ozone Monitoring Instrument Near Real Time Data for v3",
-        "catalog": "OMINRT",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000040-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000040-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/OMICOL3NRT.v3",
-        "description": "This collection contains Near Real Time Data from the Ozone Monitoring Instrument(OMI).The OMI instrument employs hyperspectral imaging in a push-broom mode to observe solar backscatter radiation in the visible and ultraviolet.",
-        "license": "not-provided"
-    },
-    {
-        "id": "OMSO2.v003",
-        "title": "OMI/Aura Sulphur Dioxide (SO2) Total Column 1-orbit L2 Swath 13x24 km V003 NRT",
-        "catalog": "OMINRT",
-        "state_date": "2004-07-15",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000121-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000121-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/OMSO2.v003",
-        "description": "The Ozone Monitoring Instrument (OMI) was launched aboard the EOS-Aura  satellite on July 15, 2004 (1:38 pm equator crossing time, ascending  mode). OMI with its 2600 km viewing swath width provides almost daily global coverage. OMI is a contribution of the Netherlands Space Office (NSO) in collaboration with Finish Meterological Institute (FMI), to the US EOS-Aura Mission. The principal  investigator (Dr. Pieternel Levelt) institute is the KNMI (Royal  Netherlands Meteorological Institute). OMI is designed to monitor  stratospheric and tropospheric ozone, clouds, aerosols and smoke from  biomass burning, SO2 from volcanic eruptions, and key tropospheric  pollutants (HCHO,NO2) and ozone depleting gases (OClO and BrO). OMI  sensor counts, calibrated and geolocated radiances, and all derived  geophysical atmospheric products will be archived at the NASA Goddard  DAAC. The Sulfer Dioxide Product 'OMSO2' from the Aura-OMI is now publicly  available from NASA GSFC Earth Sciences (GES) Data and Information  Services Center (DISC) for public access.  OMSO2 product contains three values of SO2 Vertical column corresponding to three a-priori vertical profiles used in the  retrieval algorithm. It also contains quality flags, geolocation and other ancillary information.        The shortname for this Level-2 OMI total column SO2 product is OMSO2 and the algorithm leads for this product are NASA/UMBC OMI scientists Drs. Nikolay Krotkov (nickolay.a.krotkov@nasa.gov),Kai Yang(kai.yang@nasa.gov) and Arlin J. Krueger(krueger@umbc.edu).       OMSO2 files are stored in EOS Hierarchical Data Format (HDF-EOS5). Each file contains data from the day lit portion of an orbit (~53 minutes). There are approximately 14 orbits per day. The maximum file size for the OMSO2 data product is about 21 Mbytes. On-line spatial and parameter subset options are available during data download A list of tools for browsing and extracting data from these files can be found at: http://disc.gsfc.nasa.gov/Aura/tools.shtml A short OMSO2 Readme Document that includes brief algorithm description and   documents that provides known data quality related issues are available from the UMBC OMI site ( http://so2.gsfc.nasa.gov/docs.php )             For more information on Ozone Monitoring Instrument and atmospheric data products, please visit the OMI-Aura sites: http://aura.gsfc.nasa.gov/ http://so2.gsfc.nasa.gov/ http://www.knmi.nl/omi/research/documents/.       For the full set of Aura products and other atmospheric composition data available from the GES DISC, please see the links below.       http://disc.sci.gsfc.nasa.gov/Aura/       http://disc.gsfc.nasa.gov/acdisc/",
-        "license": "not-provided"
-    },
-    {
-        "id": "OMTO3.v003",
-        "title": "OMI/Aura Ozone (O3) Total Column 1-Orbit L2 Swath 13x24 km V003 NRT",
-        "catalog": "OMINRT",
-        "state_date": "2004-07-15",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000140-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000140-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/OMTO3.v003",
-        "description": "The OMI/Aura Level-2 Total Column Ozone Data Product OMTO3 Near Real Time data is made available from the OMI SIPS NASA  for the public access.  The Ozone Monitoring Instrument (OMI)was launched aboard the EOS-Aura satellite on July 15, 2004(1:38 pm equator crossing time, ascending mode). OMI with its 2600 km viewing swath width provides almost daily global coverage. OMI is a contribution of the Netherlands Agency for Aerospace Programs (NIVR)in collaboration with Finish Meterological Institute (FMI), to the US EOS-Aura Mission. The principal investigator's (Dr. Pieternel Levelt) institute is the KNMI (Royal Netherlands Meteorological Institute). OMI is designed to monitor stratospheric and tropospheric ozone, clouds, aerosols and smoke from biomass burning, SO2 from volcanic eruptions, and key tropospheric pollutants (HCHO, NO2) and ozone depleting gases (OClO and BrO). OMI sensor counts, calibrated and geolocated radiances, and all derived geophysical atmospheric products will be archived at the NASA Goddard DAAC. This level-2 global total column ozone product (OMTO3)is based on the enhanced TOMS version-8 algorithm that  essentially uses the ultraviolet radiance data at 317.5 and 331.2 nm. OMI additional hyper-spectral measurements help in the corrections for the factors that induce uncertainty in ozone retrieval (e.g., cloud and aerosol, sea-glint effects, profile shape sensitivity, SO2 and other trace gas contamination). In addition to the total ozone values this product also contains some auxiliary derived and ancillary input parameters including N-values, effective Lambertian scene-reflectivity, UV aerosol index, SO2 index, cloud fraction, cloud pressure, ozone below clouds, terrain height, geolocation, solar and satellite viewing angles, and extensive quality flags. The shortname for this Level-2 OMI total column ozone product is OMTO3 and the algorithm lead for this product is NASA OMI scientist  Dr. Pawan K. Bhartia ( Pawan.K.Bhartia@nasa.gov). OMTO3 files are stored in EOS Hierarchical Data Format (HDF-EOS5). Each file contains data from the day lit portion of an orbit (~53 minutes). There are approximately 14 orbits per day. The maximum file size for the OMTO3 data product is about 35 Mbytes. A list of tools for browsing and extracting data from these files can be found at: http://disc.gsfc.nasa.gov/Aura/tools.shtml For more information on Ozone Monitoring Instrument and atmospheric data products, please visit the OMI-Aura sites: http://aura.gsfc.nasa.gov/  http://www.knmi.nl/omi/research/documents/ .        Data Category Parameters: The OMTO3 data file contains one swath which consists of two groups: Data fields: OMI Total Ozone,Effective Reflectivity (331 - 360 nm), N-value, Cloud Fraction, Cloud Top Pressure, O3 below Cloud, UV Aerosol Index, SO2 index, Wavelength used in the algorithm, many Auxiliary Algorithm Parameter and Quality Flags Geolocation Fields: Latitude, Longitude, Time, Relative Azimuth, Solar Zenith and Azimuth, Viewing Zenith and Azimuth angles, Spacecraft Altitude, Latitude, Longitude, Terrain Height, Ground Pixel Quality Flags.For the full set of Aura data products available from the GES DISC, please see the link http://disc.sci.gsfc.nasa.gov/Aura/ .",
-        "license": "not-provided"
-    },
-    {
-        "id": "OMTO3e.v003",
-        "title": "OMI/Aura Ozone (O3) Total Column Daily L3 Global 0.25deg Lat/Lon Grid NRT",
-        "catalog": "OMINRT",
-        "state_date": "2004-07-15",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1428966163-OMINRT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1428966163-OMINRT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OMINRT/collections/OMTO3e.v003",
-        "description": "The OMI science team produces this Level-3 Aura/OMI Global TOMS-Like Total Column Ozone gridded product OMTO3e (0.25deg Lat/Lon grids). The OMTO3e product selects the best pixel (shortest path length) data from the good quality filtered level-2 total column ozone data (OMTO3) that fall in the 0.25 x 0.25 degree global grids. Each file contains total column ozone, radiative cloud fraction and solar and viewing zenith angles. OMTO3e files are stored in EOS Hierarchical Data Format (HDF-EOS5). Each file contains daily data from approximately 15 orbits. The maximum file size for the OMTO3e data product is about 2.8 Mbytes. (The shortname for this Level-3 TOMS-Like Total Column Ozone gridded product is OMTO3e) .",
         "license": "not-provided"
     },
     {
@@ -4872,32 +4547,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1979956366-GHRC_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/GHRC_DAAC/collections/amsua16sp.v1",
         "description": "AMSU-A, the Advanced Microwave Sounding Unit, is a 15-channel passive microwave radiometer used to profile atmospheric temperature and moisture from the earth's surface to ~45 km (3 millibars). All orbits beginning in the day (00:00:00 - 23:59:59 UTC) are stored in one daily HDF-EOS file. Each file contains 15 (channel) arrays, as well as corresponding latitude, longitude, and time. AMSU flies on the National Oceanic and Atmospheric Administration (NOAA) polar orbiting spacecraft as part of the National Polar-orbiting Operational Environmental Satellite System (NPOESS). Launched on 21 September 2000, NOAA-16 is in a sun synchronous near polar orbit.",
-        "license": "not-provided"
-    },
-    {
-        "id": "asas",
-        "title": "Advanced Solid-state Array Spectroradiometer (ASAS)",
-        "catalog": "USGS_LTA",
-        "state_date": "1988-06-26",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566261-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566261-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/asas",
-        "description": "The Advanced Solid-state Array Spectroradiometer (ASAS) data collection contains data collected by the ASAS sensor flown aboard NASA aircraft. A fundamental use of ASAS data is to characterize and understand the directional variability in solar energy scattered by various land surface cover types (e.g.,crops, forests, prairie grass, snow, or bare soil). The sensor's Bidirectional Reflectance Distribution Function determines the variation in the reflectance of a surface as a function of both the view zenith angle and solar illumination angle.  The ASAS sensor is a hyperspectral, multiangle, airborne remote sensing instrument maintained and operated by the Laboratory for Terrestrial Physics at NASA's Goddard Space Flight Center in Greenbelt, Maryland. The ASAS instrument is mounted on the underside of either NASA C-130 or NASA P-3 aircraft and is capable of off-nadir pointing from approximately 70 degrees forward to 55 degrees aft along the direction of flight. The aircraft is flown at an altitude of 5000 - 6000 meters (approximately 16,000 - 20,000 ft.).  Data in the ASAS collection primarily cover areas over the continental United States, but some ASAS data are also available over areas in Canada and western Africa. The ASAS data were collected between 1988 and 1994.",
-        "license": "not-provided"
-    },
-    {
-        "id": "aster_global_dem",
-        "title": "ASTER Global DEM",
-        "catalog": "USGS_LTA",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567908-USGS_LTA.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567908-USGS_LTA.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/aster_global_dem",
-        "description": "ASTER is capable of collecting in-track stereo using nadir- and aft-looking near infrared cameras.  Since 2001, these stereo pairs have been used to produce single-scene (60- x 60-kilomenter (km)) digital elevation models (DEM) having vertical (root-mean-squared-error) accuracies generally between 10- and 25-meters (m).   The methodology used by Japan's Sensor Information Laboratory Corporation (SILC) to produce the ASTER GDEM involves automated processing of the entire ASTER Level-1A archive.  Stereo-correlation is used to produce over one million individual scene-based ASTER DEMs, to which cloud masking is applied to remove cloudy pixels.  All cloud-screened DEMS are stacked and residual bad values and outliers are removed.  Selected data are averaged to create final pixel values, and residual anomalies are corrected before partitioning the data into 1 degree (\u00b0) x 1\u00b0 tiles.  The ASTER GDEM covers land surfaces between 83\u00b0N and 83\u00b0S and is comprised of 22,702 tiles.  Tiles that contain at least 0.01% land area are included.  The ASTER GDEM is distributed as Geographic Tagged Image File Format (GeoTIFF) files with geographic coordinates (latitude, longitude).  The data are posted on a  1 arc-second (approximately 30\u2013m at the equator) grid and referenced to the 1984 World Geodetic System (WGS84)/ 1996 Earth Gravitational Model (EGM96) geoid.",
         "license": "not-provided"
     },
     {
