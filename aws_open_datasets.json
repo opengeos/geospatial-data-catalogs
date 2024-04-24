@@ -19039,6 +19039,64 @@
         "Host": null
     },
     {
+        "Name": "NOAA's Coastal Ocean Reanalysis (CORA) Dataset",
+        "Description": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset Notifications",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOSCORAObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://tidesandcurrents.noaa.gov/",
+        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at NODD@NOAA.GOV.",
+        "ManagedBy": "[NOAA\u2019s National Ocean Service, The Center for Operational Oceanographic Products and Services (CO-OPS)](https://tidesandcurrents.noaa.gov/about_us.html)",
+        "UpdateFrequency": "Monthly, quarterly, and annually, depending on the dataset.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "weather",
+            "climate",
+            "environmental",
+            "disaster response",
+            "agriculture",
+            "transportation",
+            "oceans"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA's Coastal Ocean Reanalysis (CORA) Dataset",
+        "Description": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset NetCDF",
+        "ARN": "arn:aws:s3:::noaa-nos-cora-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://tidesandcurrents.noaa.gov/",
+        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at NODD@NOAA.GOV.",
+        "ManagedBy": "[NOAA\u2019s National Ocean Service, The Center for Operational Oceanographic Products and Services (CO-OPS)](https://tidesandcurrents.noaa.gov/about_us.html)",
+        "UpdateFrequency": "Monthly, quarterly, and annually, depending on the dataset.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "weather",
+            "climate",
+            "environmental",
+            "disaster response",
+            "agriculture",
+            "transportation",
+            "oceans"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-nos-cora-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "NOAA/PMEL Ocean Climate Stations Moorings",
         "Description": "New data notifications for OCS moored buoy data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewKeoPapaObject",
@@ -19082,64 +19140,6 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-oar-keo-papa-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset",
-        "Description": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset Notifications",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOSCORAObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://tidesandcurrents.noaa.gov/",
-        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at NODD@NOAA.GOV.",
-        "ManagedBy": "[NOAA\u2019s National Ocean Service, The Center for Operational Oceanographic Products and Services (CO-OPS)](https://tidesandcurrents.noaa.gov/about_us.html)",
-        "UpdateFrequency": "Monthly, quarterly, and annually, depending on the dataset.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "weather",
-            "climate",
-            "environmental",
-            "disaster response",
-            "agriculture",
-            "transportation",
-            "oceans"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset",
-        "Description": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset NetCDF",
-        "ARN": "arn:aws:s3:::noaa-nos-cora-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://tidesandcurrents.noaa.gov/",
-        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at NODD@NOAA.GOV.",
-        "ManagedBy": "[NOAA\u2019s National Ocean Service, The Center for Operational Oceanographic Products and Services (CO-OPS)](https://tidesandcurrents.noaa.gov/about_us.html)",
-        "UpdateFrequency": "Monthly, quarterly, and annually, depending on the dataset.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "weather",
-            "climate",
-            "environmental",
-            "disaster response",
-            "agriculture",
-            "transportation",
-            "oceans"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-nos-cora-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -20856,7 +20856,7 @@
         "Host": null
     },
     {
-        "Name": "OAQPS Modeling Platform Meteorological Modeling",
+        "Name": "OAQPS 2022 Modeling Platform ",
         "Description": "The 2022 WRF output are stored as uncompressed netcdf/hdf5 formatted files in  the /WRF directory The 2022 MCIP output are stored as uncompressed netcdf/hdf5  formatted files in IOAPI format in the /MCIP directory Information on the model  projection and grid structure is contained in the header information of the  netcdf file The netcdf files can be opened and manipulated using software programs  that can read and write netcdf formatted files (eg Fortran, R, Python) The WRF files are daily files containing hourly data beginning at 00UTC through 23UTC for each modeled day For more information: https://www2mmmucaredu/wrf/users/ The MCIP files are daily files with multiple files for each day For more information about what each MCIP file contains, please see the following GitHub entry: https://githubcom/USEPA/CMAQ/blob/main/PREP/mcip/READMEmd",
         "ARN": "arn:aws:s3:::epa-2022-modeling-platform",
         "Region": "us-east-1",
@@ -20882,7 +20882,7 @@
         "Host": null
     },
     {
-        "Name": "OAQPS Modeling Platform Meteorological Modeling",
+        "Name": "OAQPS 2022 Modeling Platform ",
         "Description": "Notification for the 2022 Modeling Platform bucket",
         "ARN": "arn:aws:sns:us-east-1:127085394039:epa-2022-modeling-platform-object_created",
         "Region": "us-east-1",
@@ -25336,7 +25336,7 @@
         "Host": null
     },
     {
-        "Name": "Seattle Alzheimer\u2019s Disease Brain Cell Atlas (SEA-AD)",
+        "Name": "Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)",
         "Description": "Spatial transcriptomics data files in a public bucket",
         "ARN": "arn:aws:s3:::sea-ad-spatial-transcriptomics",
         "Region": "us-west-2",
@@ -25372,7 +25372,7 @@
         "Host": null
     },
     {
-        "Name": "Seattle Alzheimer\u2019s Disease Brain Cell Atlas (SEA-AD)",
+        "Name": "Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)",
         "Description": "Single cell profiling (transcriptomics and epigenomics) data files in a public bucket",
         "ARN": "arn:aws:s3:::sea-ad-single-cell-profiling",
         "Region": "us-west-2",
@@ -25408,7 +25408,7 @@
         "Host": null
     },
     {
-        "Name": "Seattle Alzheimer\u2019s Disease Brain Cell Atlas (SEA-AD)",
+        "Name": "Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)",
         "Description": "Quantitative neuropathology (full resolution images, processed images, and quantifications) in a public bucket",
         "ARN": "arn:aws:s3:::sea-ad-quantitative-neuropathology",
         "Region": "us-west-2",
@@ -26612,7 +26612,7 @@
     {
         "Name": "Sub-Meter Canopy Tree Height of California in 2020 by CTrees.org",
         "Description": "Cloud-optimized GeoTIFF files with names corresponding to image of California for the year 2020 from the National Agriculture Imagery Program (NAIP) - United States Department of Agriculture (USDA) NAIP",
-        "ARN": "arn:aws:s3:::ctrees-tree-level-ca-product/v1/",
+        "ARN": "arn:aws:s3:::ctrees-tree-height-ca-2020/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "[Project overview](https://ctrees.org/products/tree-level)",
