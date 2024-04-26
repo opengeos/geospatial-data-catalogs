@@ -21232,6 +21232,31 @@
     },
     {
         "Name": "ONS Open Data Portal",
+        "Description": "Power plant availability data (PT-BR Dados de Disponibilidade de Usinas)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/disponibilidade_usina)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
         "Description": "Hourly charge curve (PT-BR Curva de carga hor\u00e1ria)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
@@ -21282,31 +21307,6 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Scheduled energy charge (PT-BR Carga de energia programda)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia-programada)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
         "Description": "Thermal generation due to dispatch (PT-BR Gera\u00e7\u00e3o t\u00e9rmica por motivo de despacho)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
@@ -21332,7 +21332,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Monthly energy charge (PT-BR Carga de energia mensal)",
+        "Description": "Scheduled energy charge (PT-BR Carga de energia programda)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -21348,7 +21348,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-mensal)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia-programada)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -21832,7 +21832,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Daily energy charge (PT-BR Carga de Energia Di\u00e1ria)",
+        "Description": "Monthly energy charge (PT-BR Carga de energia mensal)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -21848,7 +21848,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-mensal)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -21874,6 +21874,31 @@
         ],
         "Explore": [
             "[Browse Dataset](https://dados.ons.org.br/dataset/restricao_coff_eolica_usi)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Basic network transformation capacity (PT-BR Capacidade de transforma\u00e7\u00e3o da rede b\u00e1sica)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-transformacao)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22057,7 +22082,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Basic network transformation capacity (PT-BR Capacidade de transforma\u00e7\u00e3o da rede b\u00e1sica)",
+        "Description": "Daily energy charge (PT-BR Carga de Energia Di\u00e1ria)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -22073,7 +22098,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-transformacao)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/carga-energia)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22250,8 +22275,8 @@
     },
     {
         "Name": "Open Targets - Data Lakehouse Ready",
-        "Description": "Open Targets v2006 Does not update",
-        "ARN": "arn:aws:s3:::aws-roda-hcls-datalake/opentargets_20_06/",
+        "Description": "Latest Open Targets release Updates within two weeks of new Open Targets version Information on Open Targets releases can be found here",
+        "ARN": "arn:aws:s3:::aws-roda-hcls-datalake/opentargets_latest/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda/docs/roda_install.md",
@@ -22302,8 +22327,8 @@
     },
     {
         "Name": "Open Targets - Data Lakehouse Ready",
-        "Description": "Latest Open Targets release Updates within two weeks of new Open Targets version Information on Open Targets releases can be found here",
-        "ARN": "arn:aws:s3:::aws-roda-hcls-datalake/opentargets_latest/",
+        "Description": "Open Targets v2006 Does not update",
+        "ARN": "arn:aws:s3:::aws-roda-hcls-datalake/opentargets_20_06/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda/docs/roda_install.md",
@@ -22453,32 +22478,6 @@
     },
     {
         "Name": "OpenAlex dataset",
-        "Description": "OpenAlex Entities in JSON Lines format",
-        "ARN": "arn:aws:s3:::openalex",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.openalex.org",
-        "Contact": "team@ourresearch.org",
-        "ManagedBy": "[OurResearch](https://ourresearch.org/)",
-        "UpdateFrequency": "Approximately monthly",
-        "License": "[CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
-        "Tags": [
-            "graph",
-            "json",
-            "metadata",
-            "scholarly communication",
-            "aws-pds"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://openalex.s3.amazonaws.com/browse.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "OpenAlex dataset",
         "Description": "Openalex Entities decomposed to tab-separated columnar files for backward compatibility with Microsoft Academic Graph",
         "ARN": "arn:aws:s3:::openalex-mag-format",
         "Region": "us-east-1",
@@ -22504,10 +22503,36 @@
         "Host": null
     },
     {
-        "Name": "OpenCRAVAT",
-        "Description": "OpenCRAVAT Store US",
-        "ARN": "arn:aws:s3:::opencravat-store-aws",
+        "Name": "OpenAlex dataset",
+        "Description": "OpenAlex Entities in JSON Lines format",
+        "ARN": "arn:aws:s3:::openalex",
         "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.openalex.org",
+        "Contact": "team@ourresearch.org",
+        "ManagedBy": "[OurResearch](https://ourresearch.org/)",
+        "UpdateFrequency": "Approximately monthly",
+        "License": "[CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+        "Tags": [
+            "graph",
+            "json",
+            "metadata",
+            "scholarly communication",
+            "aws-pds"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://openalex.s3.amazonaws.com/browse.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "OpenCRAVAT",
+        "Description": "OpenCRAVAT Store EU",
+        "ARN": "arn:aws:s3:::opencravat-store-eu-west-2",
+        "Region": "eu-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://open-cravat.readthedocs.io",
         "Contact": "support@opencravat.org",
@@ -22531,9 +22556,9 @@
     },
     {
         "Name": "OpenCRAVAT",
-        "Description": "OpenCRAVAT Store EU",
-        "ARN": "arn:aws:s3:::opencravat-store-eu-west-2",
-        "Region": "eu-west-2",
+        "Description": "OpenCRAVAT Store US",
+        "ARN": "arn:aws:s3:::opencravat-store-aws",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://open-cravat.readthedocs.io",
         "Contact": "support@opencravat.org",
@@ -22759,6 +22784,40 @@
     },
     {
         "Name": "Orcasound - bioacoustic data for marine conservation",
+        "Description": "Archived lossless orca audio data (FLAC)",
+        "ARN": "arn:aws:s3:::archive-orcasound-net",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/orcasound/orcadata/wiki",
+        "Contact": "info@orcasound.net",
+        "ManagedBy": "Orcasound",
+        "UpdateFrequency": "Typical latency is 10-120 seconds",
+        "License": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "Tags": [
+            "aws-pds",
+            "biodiversity",
+            "biology",
+            "coastal",
+            "conservation",
+            "deep learning",
+            "ecosystems",
+            "environmental",
+            "geospatial",
+            "labeled",
+            "machine learning",
+            "mapping",
+            "oceans",
+            "open source software",
+            "signal processing"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Orcasound - bioacoustic data for marine conservation",
         "Description": "Live-streamed orca audio data (HLS)",
         "ARN": "arn:aws:s3:::streaming-orcasound-net",
         "Region": "us-west-2",
@@ -22826,40 +22885,6 @@
         "Host": null
     },
     {
-        "Name": "Orcasound - bioacoustic data for marine conservation",
-        "Description": "Archived lossless orca audio data (FLAC)",
-        "ARN": "arn:aws:s3:::archive-orcasound-net",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/orcasound/orcadata/wiki",
-        "Contact": "info@orcasound.net",
-        "ManagedBy": "Orcasound",
-        "UpdateFrequency": "Typical latency is 10-120 seconds",
-        "License": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-        "Tags": [
-            "aws-pds",
-            "biodiversity",
-            "biology",
-            "coastal",
-            "conservation",
-            "deep learning",
-            "ecosystems",
-            "environmental",
-            "geospatial",
-            "labeled",
-            "machine learning",
-            "mapping",
-            "oceans",
-            "open source software",
-            "signal processing"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "Oregon Health & Science University Chronic Neutrophilic Leukemia Dataset",
         "Description": "RNA-Seq Gene Expression Quantification",
         "ARN": "arn:aws:s3:::gdc-ohsu-cnl-phs001799-2-open",
@@ -22875,32 +22900,6 @@
             "cancer",
             "genomic",
             "life sciences"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Overture Maps Foundation Open Map Data",
-        "Description": "Overture Maps Foundation Data (GeoParquet)",
-        "ARN": "arn:aws:s3:::overturemaps-us-west-2/release/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "Documentation is available at [docs.overturemaps.org](https://docs.overturemaps.org/)",
-        "Contact": "info@overturemaps.org",
-        "ManagedBy": "[Overture Maps Foundation](https://overturemaps.org)",
-        "UpdateFrequency": "Monthly",
-        "License": "Overture data is licensed under the Community Database License Agreement Permissive v2 (CDLA) unless derived from a source that requires publishing under a different license, such as data derived from OpenStreetMap, that constitutes a 'Derivative Database' (as defined under ODbL v1.0), which will be licensed under ODbL v1.0.",
-        "Tags": [
-            "aws-pds",
-            "geospatial",
-            "global",
-            "mapping",
-            "osm",
-            "parquet",
-            "transportation"
         ],
         "Explore": null,
         "RequesterPays": null,
@@ -22935,9 +22934,63 @@
         "Host": null
     },
     {
+        "Name": "Overture Maps Foundation Open Map Data",
+        "Description": "Overture Maps Foundation Data (GeoParquet)",
+        "ARN": "arn:aws:s3:::overturemaps-us-west-2/release/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation is available at [docs.overturemaps.org](https://docs.overturemaps.org/)",
+        "Contact": "info@overturemaps.org",
+        "ManagedBy": "[Overture Maps Foundation](https://overturemaps.org)",
+        "UpdateFrequency": "Monthly",
+        "License": "Overture data is licensed under the Community Database License Agreement Permissive v2 (CDLA) unless derived from a source that requires publishing under a different license, such as data derived from OpenStreetMap, that constitutes a 'Derivative Database' (as defined under ODbL v1.0), which will be licensed under ODbL v1.0.",
+        "Tags": [
+            "aws-pds",
+            "geospatial",
+            "global",
+            "mapping",
+            "osm",
+            "parquet",
+            "transportation"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Oxford Nanopore Technologies Benchmark Datasets",
         "Description": "Oxford Nanopore Open Datasets",
         "ARN": "arn:aws:s3:::ont-open-data",
+        "Region": "eu-west-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://labs.epi2me.io/dataindex/",
+        "Contact": "support@nanoporetech.com",
+        "ManagedBy": "Oxford Nanopore Technologies",
+        "UpdateFrequency": "Additional datasets will be added periodically. Updates and amendents will be made to existing entries when algorithmic advancements are made (e.g. improvements to basecalling algorithms).",
+        "License": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) https://creativecommons.org/licenses/by-nc/4.0/The following cell lines/DNA samples were obtained from the NIGMS Human Genetic Cell Repository at the Coriell Institute for Medical Research: GM24385.",
+        "Tags": [
+            "aws-pds",
+            "bioinformatics",
+            "biology",
+            "fastq",
+            "fast5",
+            "genomic",
+            "life sciences",
+            "Homo sapiens",
+            "whole genome sequencing"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Oxford Nanopore Technologies Benchmark Datasets",
+        "Description": "CpG dinucleotides frequently occur in high-density clusters called CpG islands (CGI) and >60% of human genes have their promoters embedded within CGIs Determining the methylation status of cytosines within CpGs is of substantial biological interest: alterations in methylation patterns within promoters is associated with changes in gene expression and disease states such as cancer Exploring methylation differences between tumour samples and normal samples can help to elucidate mechanisms associated with tumour formation and development Nanopore sequencing enables direct detection of methylated cytosines (eg at CpG sites), without the need for bisulfite conversionOxford Nanopore\u2019s Adaptive Sampling offers a flexible method to enrich regions of interest (eg CGIs) by depleting off-target regions during the sequencing run itself with no upfront sample manipulation Here we introduce Reduced Representation Methylation Sequencing (RRMS) to target 310 Mb of the human genome including regions which are highly enriched for CpGs including ~28,000 CpG islands, ~50,600 shores and ~42,700 shelves as well as ~21,600 promoter regions",
+        "ARN": "arn:aws:s3:::ont-open-data/rrms_2022.07",
         "Region": "eu-west-1",
         "Type": "S3 Bucket",
         "Documentation": "https://labs.epi2me.io/dataindex/",
@@ -22994,34 +23047,6 @@
         "Name": "Oxford Nanopore Technologies Benchmark Datasets",
         "Description": "Using nanopore sequencing, researchers have directly identified DNA and RNA base modifications at nucleotide resolution, including 5-methylycytosine, 5-hydroxymethylcytosine, N6-methyladenosine, 5-bromodeoxyuridine in DAN; and N6-methyladenosine in RNA, with detection of other natural or synthetic epigenetic modifications possible through training basecalling algorithms One of the most widespread genomic modifications is 5-methylcytosine (5mC), which most frequently occurs at  dinucleotides Compared to whole-genome bisulfite sequencing, the traditional method of 5mC detection, nanopore technology can offer many advantagesThe following cell lines/DNA samples were obtained from the NIGMS Human Genetic Cell Repository at the Coriell Institute for Medical Research: GM24385",
         "ARN": "arn:aws:s3:::ont-open-data/gm24385_mod_2021.09/extra_analysis/bonito_remora",
-        "Region": "eu-west-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://labs.epi2me.io/dataindex/",
-        "Contact": "support@nanoporetech.com",
-        "ManagedBy": "Oxford Nanopore Technologies",
-        "UpdateFrequency": "Additional datasets will be added periodically. Updates and amendents will be made to existing entries when algorithmic advancements are made (e.g. improvements to basecalling algorithms).",
-        "License": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) https://creativecommons.org/licenses/by-nc/4.0/The following cell lines/DNA samples were obtained from the NIGMS Human Genetic Cell Repository at the Coriell Institute for Medical Research: GM24385.",
-        "Tags": [
-            "aws-pds",
-            "bioinformatics",
-            "biology",
-            "fastq",
-            "fast5",
-            "genomic",
-            "life sciences",
-            "Homo sapiens",
-            "whole genome sequencing"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Oxford Nanopore Technologies Benchmark Datasets",
-        "Description": "CpG dinucleotides frequently occur in high-density clusters called CpG islands (CGI) and >60% of human genes have their promoters embedded within CGIs Determining the methylation status of cytosines within CpGs is of substantial biological interest: alterations in methylation patterns within promoters is associated with changes in gene expression and disease states such as cancer Exploring methylation differences between tumour samples and normal samples can help to elucidate mechanisms associated with tumour formation and development Nanopore sequencing enables direct detection of methylated cytosines (eg at CpG sites), without the need for bisulfite conversionOxford Nanopore\u2019s Adaptive Sampling offers a flexible method to enrich regions of interest (eg CGIs) by depleting off-target regions during the sequencing run itself with no upfront sample manipulation Here we introduce Reduced Representation Methylation Sequencing (RRMS) to target 310 Mb of the human genome including regions which are highly enriched for CpGs including ~28,000 CpG islands, ~50,600 shores and ~42,700 shelves as well as ~21,600 promoter regions",
-        "ARN": "arn:aws:s3:::ont-open-data/rrms_2022.07",
         "Region": "eu-west-1",
         "Type": "S3 Bucket",
         "Documentation": "https://labs.epi2me.io/dataindex/",
@@ -23243,38 +23268,6 @@
     },
     {
         "Name": "Pacific Ocean Sound Recordings",
-        "Description": "original 256 kHz audio recordings year 2023",
-        "ARN": "arn:aws:s3:::pacific-sound-256khz-2023",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.mbari.org/pacific-sound/",
-        "Contact": "dcline@mbari.org",
-        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
-        "UpdateFrequency": "daily",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "acoustics",
-            "biodiversity",
-            "ecosystems",
-            "biology",
-            "marine mammals",
-            "oceans",
-            "climate",
-            "coastal",
-            "deep learning",
-            "machine learning",
-            "environmental",
-            "open source software"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Pacific Ocean Sound Recordings",
         "Description": "original 256 kHz audio recordings year 2022",
         "ARN": "arn:aws:s3:::pacific-sound-256khz-2022",
         "Region": "us-west-2",
@@ -23307,136 +23300,8 @@
     },
     {
         "Name": "Pacific Ocean Sound Recordings",
-        "Description": "original 256 kHz audio recordings year 2021",
-        "ARN": "arn:aws:s3:::pacific-sound-256khz-2021",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.mbari.org/pacific-sound/",
-        "Contact": "dcline@mbari.org",
-        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
-        "UpdateFrequency": "daily",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "acoustics",
-            "biodiversity",
-            "ecosystems",
-            "biology",
-            "marine mammals",
-            "oceans",
-            "climate",
-            "coastal",
-            "deep learning",
-            "machine learning",
-            "environmental",
-            "open source software"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Pacific Ocean Sound Recordings",
-        "Description": "original 256 kHz audio recordings year 2020",
-        "ARN": "arn:aws:s3:::pacific-sound-256khz-2020",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.mbari.org/pacific-sound/",
-        "Contact": "dcline@mbari.org",
-        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
-        "UpdateFrequency": "daily",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "acoustics",
-            "biodiversity",
-            "ecosystems",
-            "biology",
-            "marine mammals",
-            "oceans",
-            "climate",
-            "coastal",
-            "deep learning",
-            "machine learning",
-            "environmental",
-            "open source software"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Pacific Ocean Sound Recordings",
-        "Description": "original 256 kHz audio recordings year 2019",
-        "ARN": "arn:aws:s3:::pacific-sound-256khz-2019",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.mbari.org/pacific-sound/",
-        "Contact": "dcline@mbari.org",
-        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
-        "UpdateFrequency": "daily",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "acoustics",
-            "biodiversity",
-            "ecosystems",
-            "biology",
-            "marine mammals",
-            "oceans",
-            "climate",
-            "coastal",
-            "deep learning",
-            "machine learning",
-            "environmental",
-            "open source software"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Pacific Ocean Sound Recordings",
-        "Description": "original 256 kHz audio recordings year 2018",
-        "ARN": "arn:aws:s3:::pacific-sound-256khz-2018",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.mbari.org/pacific-sound/",
-        "Contact": "dcline@mbari.org",
-        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
-        "UpdateFrequency": "daily",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "acoustics",
-            "biodiversity",
-            "ecosystems",
-            "biology",
-            "marine mammals",
-            "oceans",
-            "climate",
-            "coastal",
-            "deep learning",
-            "machine learning",
-            "environmental",
-            "open source software"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Pacific Ocean Sound Recordings",
-        "Description": "original 256 kHz audio recordings year 2017",
-        "ARN": "arn:aws:s3:::pacific-sound-256khz-2017",
+        "Description": "machine learning models",
+        "ARN": "arn:aws:s3:::pacific-sound-models",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.mbari.org/pacific-sound/",
@@ -23499,8 +23364,40 @@
     },
     {
         "Name": "Pacific Ocean Sound Recordings",
-        "Description": "original 256 kHz audio recordings year 2015",
-        "ARN": "arn:aws:s3:::pacific-sound-256khz-2015",
+        "Description": "decimated 16 kHz audio recordings",
+        "ARN": "arn:aws:s3:::pacific-sound-16khz",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.mbari.org/pacific-sound/",
+        "Contact": "dcline@mbari.org",
+        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
+        "UpdateFrequency": "daily",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "acoustics",
+            "biodiversity",
+            "ecosystems",
+            "biology",
+            "marine mammals",
+            "oceans",
+            "climate",
+            "coastal",
+            "deep learning",
+            "machine learning",
+            "environmental",
+            "open source software"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Pacific Ocean Sound Recordings",
+        "Description": "original 256 kHz audio recordings year 2023",
+        "ARN": "arn:aws:s3:::pacific-sound-256khz-2023",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.mbari.org/pacific-sound/",
@@ -23595,8 +23492,8 @@
     },
     {
         "Name": "Pacific Ocean Sound Recordings",
-        "Description": "machine learning models",
-        "ARN": "arn:aws:s3:::pacific-sound-models",
+        "Description": "original 256 kHz audio recordings year 2015",
+        "ARN": "arn:aws:s3:::pacific-sound-256khz-2015",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.mbari.org/pacific-sound/",
@@ -23627,8 +23524,40 @@
     },
     {
         "Name": "Pacific Ocean Sound Recordings",
-        "Description": "decimated 16 kHz audio recordings",
-        "ARN": "arn:aws:s3:::pacific-sound-16khz",
+        "Description": "original 256 kHz audio recordings year 2017",
+        "ARN": "arn:aws:s3:::pacific-sound-256khz-2017",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.mbari.org/pacific-sound/",
+        "Contact": "dcline@mbari.org",
+        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
+        "UpdateFrequency": "daily",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "acoustics",
+            "biodiversity",
+            "ecosystems",
+            "biology",
+            "marine mammals",
+            "oceans",
+            "climate",
+            "coastal",
+            "deep learning",
+            "machine learning",
+            "environmental",
+            "open source software"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Pacific Ocean Sound Recordings",
+        "Description": "original 256 kHz audio recordings year 2018",
+        "ARN": "arn:aws:s3:::pacific-sound-256khz-2018",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.mbari.org/pacific-sound/",
@@ -23661,6 +23590,102 @@
         "Name": "Pacific Ocean Sound Recordings",
         "Description": "original 256 kHz audio recordings year 2024",
         "ARN": "arn:aws:s3:::pacific-sound-256khz-2024",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.mbari.org/pacific-sound/",
+        "Contact": "dcline@mbari.org",
+        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
+        "UpdateFrequency": "daily",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "acoustics",
+            "biodiversity",
+            "ecosystems",
+            "biology",
+            "marine mammals",
+            "oceans",
+            "climate",
+            "coastal",
+            "deep learning",
+            "machine learning",
+            "environmental",
+            "open source software"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Pacific Ocean Sound Recordings",
+        "Description": "original 256 kHz audio recordings year 2019",
+        "ARN": "arn:aws:s3:::pacific-sound-256khz-2019",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.mbari.org/pacific-sound/",
+        "Contact": "dcline@mbari.org",
+        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
+        "UpdateFrequency": "daily",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "acoustics",
+            "biodiversity",
+            "ecosystems",
+            "biology",
+            "marine mammals",
+            "oceans",
+            "climate",
+            "coastal",
+            "deep learning",
+            "machine learning",
+            "environmental",
+            "open source software"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Pacific Ocean Sound Recordings",
+        "Description": "original 256 kHz audio recordings year 2020",
+        "ARN": "arn:aws:s3:::pacific-sound-256khz-2020",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.mbari.org/pacific-sound/",
+        "Contact": "dcline@mbari.org",
+        "ManagedBy": "[Monterey Bay Aquarium Research Institute](https://www.mbari.org/)",
+        "UpdateFrequency": "daily",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "acoustics",
+            "biodiversity",
+            "ecosystems",
+            "biology",
+            "marine mammals",
+            "oceans",
+            "climate",
+            "coastal",
+            "deep learning",
+            "machine learning",
+            "environmental",
+            "open source software"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Pacific Ocean Sound Recordings",
+        "Description": "original 256 kHz audio recordings year 2021",
+        "ARN": "arn:aws:s3:::pacific-sound-256khz-2021",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.mbari.org/pacific-sound/",
@@ -23856,8 +23881,8 @@
     },
     {
         "Name": "PoroTomo",
-        "Description": "PoroTomo Nodal Seismometer Continuous Data",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/Nodal/nodal_sac/",
+        "Description": "PoroTomo Nodal Seismometer Field Notes and Metadata",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/Nodal/nodal_metadata/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
@@ -23873,7 +23898,7 @@
             "geospatial"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=Nodal%2Fnodal_sac%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=Nodal%2Fnodal_metadata%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -23882,8 +23907,8 @@
     },
     {
         "Name": "PoroTomo",
-        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data in SEG-Y format",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/SEG-Y/DASH/",
+        "Description": "PoroTomo Nodal Seismometer Sweep Data",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/Nodal/nodal_sac_sweep/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
@@ -23899,7 +23924,33 @@
             "geospatial"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FSEG-Y%2FDASH%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=Nodal%2Fnodal_sac_sweep%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "PoroTomo",
+        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/H5/DASH/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
+        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "geothermal",
+            "seismology",
+            "image processing",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FH5%2FDASH%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -23960,6 +24011,32 @@
     },
     {
         "Name": "PoroTomo",
+        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data in SEG-Y format",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/SEG-Y/DASH/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
+        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "geothermal",
+            "seismology",
+            "image processing",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FSEG-Y%2FDASH%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "PoroTomo",
         "Description": "HSDS PoroTomo domains",
         "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/porotomo/",
         "Region": "us-west-2",
@@ -23978,58 +24055,6 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fporotomo%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "PoroTomo",
-        "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/H5/DASH/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
-        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "geothermal",
-            "seismology",
-            "image processing",
-            "geospatial"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FH5%2FDASH%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "PoroTomo",
-        "Description": "PoroTomo Nodal Seismometer Sweep Data",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/Nodal/nodal_sac_sweep/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
-        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "geothermal",
-            "seismology",
-            "image processing",
-            "geospatial"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=Nodal%2Fnodal_sac_sweep%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -24090,8 +24115,8 @@
     },
     {
         "Name": "PoroTomo",
-        "Description": "PoroTomo Nodal Seismometer Field Notes and Metadata",
-        "ARN": "arn:aws:s3:::nrel-pds-porotomo/Nodal/nodal_metadata/",
+        "Description": "PoroTomo Nodal Seismometer Continuous Data",
+        "ARN": "arn:aws:s3:::nrel-pds-porotomo/Nodal/nodal_sac/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
@@ -24107,7 +24132,7 @@
             "geospatial"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=Nodal%2Fnodal_metadata%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=Nodal%2Fnodal_sac%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -24140,8 +24165,8 @@
     },
     {
         "Name": "Prefeitura Municipal de S\u00e3o Paulo (PMSP) LiDAR Point Cloud",
-        "Description": "S\u00e3o Paulo city's 3D LiDAR - LAZ Files",
-        "ARN": "arn:aws:s3:::laz-m3dc-pmsp",
+        "Description": "S\u00e3o Paulo city's 3D LiDAR - Entwine Point Tiles",
+        "ARN": "arn:aws:s3:::ept-m3dc-pmsp",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/geoinfo-smdu/M3DC",
@@ -24167,8 +24192,8 @@
     },
     {
         "Name": "Prefeitura Municipal de S\u00e3o Paulo (PMSP) LiDAR Point Cloud",
-        "Description": "S\u00e3o Paulo city's 3D LiDAR - Entwine Point Tiles",
-        "ARN": "arn:aws:s3:::ept-m3dc-pmsp",
+        "Description": "S\u00e3o Paulo city's 3D LiDAR - LAZ Files",
+        "ARN": "arn:aws:s3:::laz-m3dc-pmsp",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/geoinfo-smdu/M3DC",
@@ -24442,8 +24467,8 @@
     },
     {
         "Name": "PyEnvs and CallArgs",
-        "Description": "PyEnvs",
-        "ARN": "arn:aws:s3:::pyenvs-and-callargs/pyenvs/",
+        "Description": "CallArgs",
+        "ARN": "arn:aws:s3:::pyenvs-and-callargs/callargs/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/amazon-research/function-call-argument-completion",
@@ -24463,8 +24488,8 @@
     },
     {
         "Name": "PyEnvs and CallArgs",
-        "Description": "CallArgs",
-        "ARN": "arn:aws:s3:::pyenvs-and-callargs/callargs/",
+        "Description": "PyEnvs",
+        "ARN": "arn:aws:s3:::pyenvs-and-callargs/pyenvs/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/amazon-research/function-call-argument-completion",
@@ -24650,8 +24675,8 @@
     },
     {
         "Name": "REDASA COVID-19 Open Data",
-        "Description": "For all the questions curated during the REDASA project, we created a Kendra index The documents available in this S3 bucket were surfaced by the Kendra index as being relevant to the research medical question",
-        "ARN": "arn:aws:s3:::pansurg-curation-workflo-kendraqueryresults50d0eb-open-data",
+        "Description": "An S3 bucket that contains the final curation data in GroundTruth format",
+        "ARN": "arn:aws:s3:::pansurg-curation-final-curations-open-data",
         "Region": "eu-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/PanSurg/redasa-sample-data/blob/master/open-data.md",
@@ -24676,8 +24701,8 @@
     },
     {
         "Name": "REDASA COVID-19 Open Data",
-        "Description": "An S3 bucket that contains the final curation data in GroundTruth format",
-        "ARN": "arn:aws:s3:::pansurg-curation-final-curations-open-data",
+        "Description": "For all the questions curated during the REDASA project, we created a Kendra index The documents available in this S3 bucket were surfaced by the Kendra index as being relevant to the research medical question",
+        "ARN": "arn:aws:s3:::pansurg-curation-workflo-kendraqueryresults50d0eb-open-data",
         "Region": "eu-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/PanSurg/redasa-sample-data/blob/master/open-data.md",
@@ -24942,10 +24967,10 @@
     },
     {
         "Name": "SILAM Air Quality",
-        "Description": "Surface NetCDF files",
-        "ARN": "arn:aws:s3:::fmi-opendata-silam-surface-netcdf",
+        "Description": "Notifications for new zarr surface data",
+        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-silam-surface-zarr",
         "Region": "eu-west-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
         "Contact": "avoin-data@fmi.fi",
         "ManagedBy": "[Finnish Meteorological Institute](https://www.ilmatieteenlaitos.fi/)",
@@ -24959,9 +24984,7 @@
             "air quality",
             "meteorological"
         ],
-        "Explore": [
-            "[Browse Bucket](https://fmi-opendata-silam-surface-netcdf.s3.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -24996,10 +25019,10 @@
     },
     {
         "Name": "SILAM Air Quality",
-        "Description": "Notifications for new netcdf surface data",
-        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-silam-surface-netcdf",
+        "Description": "Surface NetCDF files",
+        "ARN": "arn:aws:s3:::fmi-opendata-silam-surface-netcdf",
         "Region": "eu-west-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
         "Contact": "avoin-data@fmi.fi",
         "ManagedBy": "[Finnish Meteorological Institute](https://www.ilmatieteenlaitos.fi/)",
@@ -25013,7 +25036,9 @@
             "air quality",
             "meteorological"
         ],
-        "Explore": null,
+        "Explore": [
+            "[Browse Bucket](https://fmi-opendata-silam-surface-netcdf.s3.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -25021,8 +25046,8 @@
     },
     {
         "Name": "SILAM Air Quality",
-        "Description": "Notifications for new zarr surface data",
-        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-silam-surface-zarr",
+        "Description": "Notifications for new netcdf surface data",
+        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-silam-surface-netcdf",
         "Region": "eu-west-1",
         "Type": "SNS Topic",
         "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
@@ -25337,8 +25362,8 @@
     },
     {
         "Name": "Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)",
-        "Description": "Spatial transcriptomics data files in a public bucket",
-        "ARN": "arn:aws:s3:::sea-ad-spatial-transcriptomics",
+        "Description": "Quantitative neuropathology (full resolution images, processed images, and quantifications) in a public bucket",
+        "ARN": "arn:aws:s3:::sea-ad-quantitative-neuropathology",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://portal.brain-map.org/explore/seattle-alzheimers-disease/seattle-alzheimers-disease-brain-cell-atlas-download?edit&language=en",
@@ -25364,7 +25389,7 @@
             "transcriptomics"
         ],
         "Explore": [
-            "[Browse Bucket](https://sea-ad-spatial-transcriptomics.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://sea-ad-quantitative-neuropathology.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -25409,8 +25434,8 @@
     },
     {
         "Name": "Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD)",
-        "Description": "Quantitative neuropathology (full resolution images, processed images, and quantifications) in a public bucket",
-        "ARN": "arn:aws:s3:::sea-ad-quantitative-neuropathology",
+        "Description": "Spatial transcriptomics data files in a public bucket",
+        "ARN": "arn:aws:s3:::sea-ad-spatial-transcriptomics",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://portal.brain-map.org/explore/seattle-alzheimers-disease/seattle-alzheimers-disease-brain-cell-atlas-download?edit&language=en",
@@ -25436,7 +25461,7 @@
             "transcriptomics"
         ],
         "Explore": [
-            "[Browse Bucket](https://sea-ad-quantitative-neuropathology.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://sea-ad-spatial-transcriptomics.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -25475,6 +25500,33 @@
     },
     {
         "Name": "Sentinel-1",
+        "Description": "S3 Inventory files for L1C  and CSV",
+        "ARN": "arn:aws:s3:::sentinel-inventory/",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://roda.sentinel-hub.com/sentinel-s1-l1c/GRD/readme.html",
+        "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
+        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
+        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "disaster response",
+            "cog",
+            "synthetic aperture radar"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sentinel-1",
         "Description": "GRD in a Requester Pays S3 bucket",
         "ARN": "arn:aws:s3:::sentinel-s1-l1c",
         "Region": "eu-central-1",
@@ -25498,33 +25550,6 @@
             "[STAC V1.0.0 endpoint](https://sentinel-s1-l1c-stac.s3.amazonaws.com/)"
         ],
         "RequesterPays": true,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sentinel-1",
-        "Description": "S3 Inventory files for L1C  and CSV",
-        "ARN": "arn:aws:s3:::sentinel-inventory/",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://roda.sentinel-hub.com/sentinel-s1-l1c/GRD/readme.html",
-        "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
-        "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
-        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "disaster response",
-            "cog",
-            "synthetic aperture radar"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -25611,10 +25636,10 @@
     },
     {
         "Name": "Sentinel-2",
-        "Description": "Level 2A scenes and metadata, in Requester Pays S3 bucket",
-        "ARN": "arn:aws:s3:::sentinel-s2-l2a",
+        "Description": "New scene notifications for L2A, can subscribe with Lambda",
+        "ARN": "arn:aws:sns:eu-central-1:214830741341:SentinelS2L2A",
         "Region": "eu-central-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
@@ -25630,10 +25655,8 @@
             "disaster response",
             "stac"
         ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://sentinel-s2-l2a-stac.s3.amazonaws.com/)"
-        ],
-        "RequesterPays": true,
+        "Explore": null,
+        "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -25748,35 +25771,8 @@
     },
     {
         "Name": "Sentinel-2",
-        "Description": "New scene notifications for L2A, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:eu-central-1:214830741341:SentinelS2L2A",
-        "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
-        "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
-        "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
-        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "natural resource",
-            "disaster response",
-            "stac"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sentinel-2",
-        "Description": "S3 Inventory files for L1C  and CSV",
-        "ARN": "arn:aws:s3:::sentinel-inventory/sentinel-s2-l1c",
+        "Description": "Level 2A scenes and metadata, in Requester Pays S3 bucket",
+        "ARN": "arn:aws:s3:::sentinel-s2-l2a",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
@@ -25794,8 +25790,10 @@
             "disaster response",
             "stac"
         ],
-        "Explore": null,
-        "RequesterPays": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://sentinel-s2-l2a-stac.s3.amazonaws.com/)"
+        ],
+        "RequesterPays": true,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -25832,14 +25830,14 @@
         "Host": null
     },
     {
-        "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs",
-        "Description": "Level 2A scenes and metadata",
-        "ARN": "arn:aws:s3:::sentinel-cogs",
-        "Region": "us-west-2",
+        "Name": "Sentinel-2",
+        "Description": "S3 Inventory files for L1C  and CSV",
+        "ARN": "arn:aws:s3:::sentinel-inventory/sentinel-s2-l1c",
+        "Region": "eu-central-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://github.com/cirrus-geo/cirrus-earth-search",
-        "Contact": "opendata@element84.com",
-        "ManagedBy": "[Element 84](https://www.element84.com/)",
+        "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
+        "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
+        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -25850,14 +25848,10 @@
             "geospatial",
             "natural resource",
             "disaster response",
-            "cog",
             "stac"
         ],
-        "Explore": [
-            "[Earth Search STAC L2A Collection](https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a)",
-            "[STAC Browser L2A Collection](https://radiantearth.github.io/stac-browser/#/external/earth-search.aws.element84.com/v1/collections/sentinel-2-l2a)"
-        ],
-        "RequesterPays": false,
+        "Explore": null,
+        "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -25886,6 +25880,37 @@
         ],
         "Explore": null,
         "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs",
+        "Description": "Level 2A scenes and metadata",
+        "ARN": "arn:aws:s3:::sentinel-cogs",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/cirrus-geo/cirrus-earth-search",
+        "Contact": "opendata@element84.com",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
+        "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
+        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "natural resource",
+            "disaster response",
+            "cog",
+            "stac"
+        ],
+        "Explore": [
+            "[Earth Search STAC L2A Collection](https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a)",
+            "[STAC Browser L2A Collection](https://radiantearth.github.io/stac-browser/#/external/earth-search.aws.element84.com/v1/collections/sentinel-2-l2a)"
+        ],
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -25947,62 +25972,6 @@
     },
     {
         "Name": "Sentinel-3",
-        "Description": "Sentinel-3 Not Time Critical (NTC) format",
-        "ARN": "arn:aws:s3:::meeo-s3/NTC/",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
-        "Contact": "sentinel3@meeo.it",
-        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
-        "Tags": [
-            "aws-pds",
-            "oceans",
-            "earth observation",
-            "environmental",
-            "geospatial",
-            "land",
-            "satellite imagery",
-            "cog",
-            "stac"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sentinel-3",
-        "Description": "Sentinel-3 Short Time Critical (STC) format",
-        "ARN": "arn:aws:s3:::meeo-s3/STC/",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
-        "Contact": "sentinel3@meeo.it",
-        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
-        "Tags": [
-            "aws-pds",
-            "oceans",
-            "earth observation",
-            "environmental",
-            "geospatial",
-            "land",
-            "satellite imagery",
-            "cog",
-            "stac"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sentinel-3",
         "Description": "Sentinel-3 Cloud Optimized GeoTIFF (COG) format",
         "ARN": "arn:aws:s3:::meeo-s3-cog/",
         "Region": "eu-central-1",
@@ -26035,6 +26004,62 @@
         "Name": "Sentinel-3",
         "Description": "Sentinel-3 Near Real Time Data (NRT) format",
         "ARN": "arn:aws:s3:::meeo-s3/NRT/",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
+        "Contact": "sentinel3@meeo.it",
+        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "Tags": [
+            "aws-pds",
+            "oceans",
+            "earth observation",
+            "environmental",
+            "geospatial",
+            "land",
+            "satellite imagery",
+            "cog",
+            "stac"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sentinel-3",
+        "Description": "Sentinel-3 Not Time Critical (NTC) format",
+        "ARN": "arn:aws:s3:::meeo-s3/NTC/",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
+        "Contact": "sentinel3@meeo.it",
+        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "Tags": [
+            "aws-pds",
+            "oceans",
+            "earth observation",
+            "environmental",
+            "geospatial",
+            "land",
+            "satellite imagery",
+            "cog",
+            "stac"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sentinel-3",
+        "Description": "Sentinel-3 Short Time Critical (STC) format",
+        "ARN": "arn:aws:s3:::meeo-s3/STC/",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel3Description.md",
@@ -26117,6 +26142,34 @@
     },
     {
         "Name": "Sentinel-5P Level 2",
+        "Description": "Sentinel-5p Off Line Data (OFFL) NetCDF format",
+        "ARN": "arn:aws:s3:::meeo-s5p/OFFL/",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel5P_Description.md",
+        "Contact": "sentinel5p@meeo.it",
+        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "atmosphere",
+            "earth observation",
+            "environmental",
+            "geospatial",
+            "satellite imagery",
+            "cog",
+            "stac"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sentinel-5P Level 2",
         "Description": "Sentinel-5p Cloud Optimised GeoTIFF (COGT) TIFF format",
         "ARN": "arn:aws:s3:::meeo-s5p/COGT/",
         "Region": "eu-central-1",
@@ -26140,34 +26193,6 @@
         "Explore": [
             "[STAC V1.0.0 endpoint](https://meeo-s5p.s3.amazonaws.com/index.html?t=catalogs)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sentinel-5P Level 2",
-        "Description": "Sentinel-5p Off Line Data (OFFL) NetCDF format",
-        "ARN": "arn:aws:s3:::meeo-s5p/OFFL/",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/Sentinel-5P/data-on-s3/blob/master/DocsForAws/Sentinel5P_Description.md",
-        "Contact": "sentinel5p@meeo.it",
-        "ManagedBy": "[Meteorological Environmental Earth Observation](http://www.meeo.it/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "atmosphere",
-            "earth observation",
-            "environmental",
-            "geospatial",
-            "satellite imagery",
-            "cog",
-            "stac"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -26640,6 +26665,27 @@
     },
     {
         "Name": "Sudachi Language Resources",
+        "Description": "SudachiDict: Binary format of the mophological analysis dictionarieschiVe: Pretrained word embedding in various formats",
+        "ARN": "arn:aws:s3:::sudachi",
+        "Region": "ap-northeast-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://worksapplications.github.io/Sudachi/",
+        "Contact": "sudachi@worksap.co.jp",
+        "ManagedBy": "[Works Applications](https://www.worksap.co.jp/about/csr/nlp/)",
+        "UpdateFrequency": "The dictionaries are updated every few months to include neologism and fixes for the existing words.",
+        "License": "Apache-2.0",
+        "Tags": [
+            "aws-pds",
+            "natural language processing"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sudachi Language Resources",
         "Description": "Cloudfront CDN mirror",
         "ARN": null,
         "Region": "ap-northeast-1",
@@ -26660,21 +26706,26 @@
         "Host": "d2ej7fkh96fzlu.cloudfront.net"
     },
     {
-        "Name": "Sudachi Language Resources",
-        "Description": "SudachiDict: Binary format of the mophological analysis dictionarieschiVe: Pretrained word embedding in various formats",
-        "ARN": "arn:aws:s3:::sudachi",
-        "Region": "ap-northeast-1",
+        "Name": "Sup3rCC",
+        "Description": "Sup3rCC Generative Models",
+        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/models/",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://worksapplications.github.io/Sudachi/",
-        "Contact": "sudachi@worksap.co.jp",
-        "ManagedBy": "[Works Applications](https://www.worksap.co.jp/about/csr/nlp/)",
-        "UpdateFrequency": "The dictionaries are updated every few months to include neologism and fixes for the existing words.",
-        "License": "Apache-2.0",
+        "Documentation": "https://github.com/NREL/sup3r",
+        "Contact": "Grant Buster (grant.buster@nrel.gov)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annual",
+        "License": "Creative Commons Attribution 4.0 United States License",
         "Tags": [
             "aws-pds",
-            "natural language processing"
+            "energy",
+            "solar",
+            "air temperature",
+            "climate model"
         ],
-        "Explore": null,
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=models%2F)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -26726,32 +26777,6 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=conus_mriesm20_ssp585_r1i1p1f1%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Sup3rCC",
-        "Description": "Sup3rCC Generative Models",
-        "ARN": "arn:aws:s3:::nrel-pds-sup3rcc/models/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NREL/sup3r",
-        "Contact": "Grant Buster (grant.buster@nrel.gov)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annual",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "solar",
-            "air temperature",
-            "climate model"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-sup3rcc&prefix=models%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -27068,31 +27093,6 @@
     },
     {
         "Name": "The Cancer Genome Atlas",
-        "Description": "WXS/RNA-Seq/miRNA-Seq/ATAC-Seq Aligned Reads, WXS Annotated Somatic Mutation, WXS Raw SomaticMutation, WXS Aggregated Somatic Mutation",
-        "ARN": "arn:aws:s3:::tcga-2-controlled",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga",
-        "Contact": "dcf-support@datacommons.io",
-        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
-        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
-        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
-        "Tags": [
-            "aws-pds",
-            "life sciences",
-            "cancer",
-            "genomic",
-            "whole genome sequencing",
-            "STRIDES"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000178.v1.p1",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "The Cancer Genome Atlas",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantification, miRNA-SeqIsoform Expression Quantification, miRNA Expression Quantification, Genotyping Array CopyNumber Segment, Genotyping Array Masked Copy Number Segment, Genotyping Array Gene Level CopyNumber Scores, WXS Masked Somatic Mutation",
         "ARN": "arn:aws:s3:::tcga-2-open",
         "Region": "us-east-1",
@@ -27113,6 +27113,31 @@
         "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "The Cancer Genome Atlas",
+        "Description": "WXS/RNA-Seq/miRNA-Seq/ATAC-Seq Aligned Reads, WXS Annotated Somatic Mutation, WXS Raw SomaticMutation, WXS Aggregated Somatic Mutation",
+        "ARN": "arn:aws:s3:::tcga-2-controlled",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga",
+        "Contact": "dcf-support@datacommons.io",
+        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
+        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
+        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
+        "Tags": [
+            "aws-pds",
+            "life sciences",
+            "cancer",
+            "genomic",
+            "whole genome sequencing",
+            "STRIDES"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000178.v1.p1",
         "AccountRequired": null,
         "Host": null
     },
@@ -27776,34 +27801,6 @@
     },
     {
         "Name": "USGS Landsat",
-        "Description": "New scene notifications, US ARD Tiles",
-        "ARN": "arn:aws:sns:us-west-2:673253540267:public-c2-ard-tile-notify-v2",
-        "Region": "us-west-2",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.usgs.gov/core-science-systems/nli/landsat/landsat-commercial-cloud-data-access",
-        "Contact": "https://answers.usgs.gov/",
-        "ManagedBy": "[United States Geological Survey](https://www.usgs.gov)",
-        "UpdateFrequency": "New scenes are added daily.",
-        "License": "There are no restrictions on Landsat data downloaded from the USGS; it can be used or redistributed as desired. We do request that you include a [statement of the data source](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con) when citing, copying, or reprinting USGS Landsat data or images.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "natural resource",
-            "disaster response",
-            "stac",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "USGS Landsat",
         "Description": "New scene notifications, Level 3 Science Products",
         "ARN": "arn:aws:sns:us-west-2:673253540267:public-c2-level-3-tile-notify-v2",
         "Region": "us-west-2",
@@ -27834,6 +27831,34 @@
         "Name": "USGS Landsat",
         "Description": "New scene notifications, Level-1 and Level-2 Scenes",
         "ARN": "arn:aws:sns:us-west-2:673253540267:public-c2-notify-v2",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.usgs.gov/core-science-systems/nli/landsat/landsat-commercial-cloud-data-access",
+        "Contact": "https://answers.usgs.gov/",
+        "ManagedBy": "[United States Geological Survey](https://www.usgs.gov)",
+        "UpdateFrequency": "New scenes are added daily.",
+        "License": "There are no restrictions on Landsat data downloaded from the USGS; it can be used or redistributed as desired. We do request that you include a [statement of the data source](https://www.usgs.gov/centers/eros/data-citation?qt-science_support_page_related_con=0#qt-science_support_page_related_con) when citing, copying, or reprinting USGS Landsat data or images.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "natural resource",
+            "disaster response",
+            "stac",
+            "cog"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "USGS Landsat",
+        "Description": "New scene notifications, US ARD Tiles",
+        "ARN": "arn:aws:sns:us-west-2:673253540267:public-c2-ard-tile-notify-v2",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://www.usgs.gov/core-science-systems/nli/landsat/landsat-commercial-cloud-data-access",
@@ -28183,8 +28208,8 @@
     },
     {
         "Name": "UniProt",
-        "Description": "UniProt 2023_01",
-        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2023-01/",
+        "Description": "UniProt 2023_02",
+        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2023-02/",
         "Region": "eu-west-3",
         "Type": "S3 Bucket",
         "Documentation": "https://www.uniprot.org/help/about",
@@ -28213,8 +28238,8 @@
     },
     {
         "Name": "UniProt",
-        "Description": "UniProt 2023_02",
-        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2023-02/",
+        "Description": "UniProt 2023_01",
+        "ARN": "arn:aws:s3:::aws-open-data-uniprot-rdf/2023-01/",
         "Region": "eu-west-3",
         "Type": "S3 Bucket",
         "Documentation": "https://www.uniprot.org/help/about",
