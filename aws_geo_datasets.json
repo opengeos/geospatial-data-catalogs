@@ -5655,7 +5655,7 @@
         "AccountRequired": null
     },
     {
-        "Name": "Korean Meteorological Administration (KMA) GK-2A Satellite Data - GK2A Imagery",
+        "Name": "Korea Meteorological Administration (KMA) GK-2A Satellite Data - GK2A Imagery",
         "Description": "GK2A Imagery",
         "ARN": "arn:aws:s3:::noaa-gk2a-pds",
         "Region": "us-east-1",
@@ -5683,7 +5683,7 @@
         "AccountRequired": null
     },
     {
-        "Name": "Korean Meteorological Administration (KMA) GK-2A Satellite Data - New data notifications for GK2A, only Lambda and SQS protocols allowed",
+        "Name": "Korea Meteorological Administration (KMA) GK-2A Satellite Data - New data notifications for GK2A, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GK2A, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewGK2AObject",
         "Region": "us-east-1",
@@ -16223,7 +16223,7 @@
         "ARN": "arn:aws:s3:::umbra-open-data-catalog",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://help.umbra.space/kb/en",
+        "Documentation": "https://help.umbra.space/product-guide",
         "Contact": "help@umbra.space",
         "ManagedBy": "[Umbra](http://umbra.space/)",
         "UpdateFrequency": "New data is added frequently. The frequent updates enable users to analyze the time-series data to detect changes in each location. Umbra's goal is to provide the user with a deep understanding on what's possible with our data.",
