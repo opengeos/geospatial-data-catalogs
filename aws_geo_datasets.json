@@ -9893,29 +9893,6 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -9939,7 +9916,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -9962,7 +9939,30 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11261,6 +11261,60 @@
         "AccountRequired": null
     },
     {
+        "Name": "NOAA Unified Forecast System (UFS) Hierarchical Testing Framework (HTF) - NOAA Unified Forecast System (UFS) Hierarchical Testing Framework (HTF) Data",
+        "Description": "NOAA Unified Forecast System (UFS) Hierarchical Testing Framework (HTF) Data",
+        "ARN": "arn:aws:s3:::noaa-ufs-htf-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://epic-ufs-htf.readthedocs.io/en/develop/",
+        "Contact": "For questions regarding data content or quality, visit https://github.com/NOAA-EPIC/ufs-htf/issues <br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team here: nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "The UFS HTF is in its prototype phase and will be updated as new case studies are added.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather",
+            "oceans"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-ufs-htf-pds.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System (UFS) Hierarchical Testing Framework (HTF) - New data notifications for UFS HTF, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for UFS HTF, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNWSUFSHTFObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://epic-ufs-htf.readthedocs.io/en/develop/",
+        "Contact": "For questions regarding data content or quality, visit https://github.com/NOAA-EPIC/ufs-htf/issues <br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team here: nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "The UFS HTF is in its prototype phase and will be updated as new case studies are added.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather",
+            "oceans"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "NOAA Unified Forecast System (UFS) Land Data Assimilation (DA) System - New data notifications for UFS Land Data Assimilation (DA) System, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for UFS Land Data Assimilation (DA) System, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSLANDDAObject",
@@ -11382,7 +11436,33 @@
         "AccountRequired": null
     },
     {
-        "Name": "NOAA Unified Forecast System Subseasonal to Seasonal Prototypes",
+        "Name": "NOAA Unified Forecast System Subseasonal to Seasonal Prototypes - New data notifications for UFS Prototype, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for UFS Prototype, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewUfsPrototypesObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://vlab.noaa.gov/web/ufs-r2o/dataproducts NWS Disclaimer https://www.weather.gov/disclaimer",
+        "Contact": "For questions regarding data content or quality, visit https://vlab.noaa.gov/web/ufs-r2o/coupled-model-prototype5. <br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Big Data Program, email noaa.bdp@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA BDP team here: noaa.bdp@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "A Prototype is a retrospective run for the period from 2011 to 2018. The runs are initialized twice per month (1st and 15th) and the length of the forecast is 35 days with an output frequency of 6 hours.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather",
+            "oceans"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System Subseasonal to Seasonal Prototypes - UFS prototype files (5, 6, 7, & 8)",
         "Description": "UFS prototype files (5, 6, 7, & 8)",
         "ARN": "arn:aws:s3:::noaa-ufs-prototypes-pds",
         "Region": "us-east-1",
