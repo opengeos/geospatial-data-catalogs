@@ -2697,6 +2697,65 @@
     },
     {
         "Name": "CBERS on AWS",
+        "Description": "CBERS imagery (COG files, quicklooks, metadata)",
+        "ARN": "arn:aws:s3:::brazil-eosats",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/fredliporace/cbers-on-aws",
+        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
+        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "geospatial",
+            "imaging",
+            "satellite imagery",
+            "disaster response",
+            "stac",
+            "cog"
+        ],
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://stac.amskepler.com/v100)",
+            "[stacindex](https://stacindex.org/catalogs/cbers)"
+        ],
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CBERS on AWS",
+        "Description": "STAC static catalog",
+        "ARN": "arn:aws:s3:::br-eo-stac-1-0-0",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/fredliporace/cbers-on-aws",
+        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
+        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "geospatial",
+            "imaging",
+            "satellite imagery",
+            "disaster response",
+            "stac",
+            "cog"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CBERS on AWS",
         "Description": "Notifications for new CBERS 4A quicklooks, all sensors",
         "ARN": "arn:aws:sns:us-west-2:599544552497:NewCB4AQuicklook",
         "Region": "us-west-2",
@@ -2780,65 +2839,6 @@
         "Host": null
     },
     {
-        "Name": "CBERS on AWS",
-        "Description": "CBERS imagery (COG files, quicklooks, metadata)",
-        "ARN": "arn:aws:s3:::brazil-eosats",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/fredliporace/cbers-on-aws",
-        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
-        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "geospatial",
-            "imaging",
-            "satellite imagery",
-            "disaster response",
-            "stac",
-            "cog"
-        ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://stac.amskepler.com/v100)",
-            "[stacindex](https://stacindex.org/catalogs/cbers)"
-        ],
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CBERS on AWS",
-        "Description": "STAC static catalog",
-        "ARN": "arn:aws:s3:::br-eo-stac-1-0-0",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/fredliporace/cbers-on-aws",
-        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
-        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "geospatial",
-            "imaging",
-            "satellite imagery",
-            "disaster response",
-            "stac",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "CCAFS-Climate Data",
         "Description": "ARC GRID, and ARC ASCII format compressed",
         "ARN": "arn:aws:s3:::cgiardata",
@@ -2863,6 +2863,37 @@
         "Host": null
     },
     {
+        "Name": "CESM-HR",
+        "Description": "CESM-HR PI-CTRL data",
+        "ARN": "arn:aws:s3:::cesm-hr-pi-ctrl",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/MESACLIP/cesm-hr-pi-ctrl-aws",
+        "Contact": "ping@tamu.edu",
+        "ManagedBy": "[TAMU](https://www.tamu.com/)",
+        "UpdateFrequency": "Rare. The CESM-HR PI-CTRL experiment is complete. Updates are expected only if any issues with the copy of the data on the AWS is reported in the future. Other experiments will be shared in the future according to the availability of resources.",
+        "License": "This dataset is created in collaboration with NCAR and the NCAR\u2019s \u201cCreative Commons Attribution 4.0 International license\u201d used for their CESM2 LENS data product on AWS (https://www.ucar.edu/terms-of-use/data) will be applicable for the CESM-HR PI-CTRL datasets too.",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "climate model",
+            "climate projections",
+            "CMIP6",
+            "ocean circulation",
+            "ocean currents",
+            "ocean velocity",
+            "ocean sea surface height",
+            "ocean simulation"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cesm-hr-pi-ctrl.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "CIViC (Clinical Interpretation of Variants in Cancer)",
         "Description": "Monthly CIViC data dumps including gene, variant, assertion, and evidence tables",
         "ARN": "arn:aws:s3:::civic-aws-opendata",
@@ -2881,6 +2912,33 @@
             "vcf"
         ],
         "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "SMOKE Test Case",
+        "ARN": "arn:aws:s3:::cmas-smoke-testcase",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-smoke-testcase.s3.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -2942,6 +3000,114 @@
     },
     {
         "Name": "CMAS Data Warehouse",
+        "Description": "2016v3 Modeling Platform",
+        "ARN": "arn:aws:s3:::2016v3platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "CMAQ Release Benchmark Data for Easy Download",
+        "ARN": "arn:aws:s3:::cmaq-release-benchmark-data-for-easy-download",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmaq-release-benchmark-data-for-easy-download.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "CMAQ 2018 Modeling Platform",
+        "ARN": "arn:aws:s3:::cmas-cmaq-modeling-platform-2018",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-cmaq-modeling-platform-2018.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "EQUATES EPA\u2019s Air QUAlity TimE Series Project Data",
+        "ARN": "arn:aws:s3:::cmas-equates",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-equates.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
         "Description": "SMOKE 2016 Modeling Platform",
         "ARN": "arn:aws:s3:::cmas-smoke-modeling-platform-2016",
         "Region": "us-east-1",
@@ -2961,6 +3127,33 @@
         ],
         "Explore": [
             "[Browse Bucket](https://cmas-smoke-modeling-platform-2016.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "CMAQ CONUS-2 Benchmark Data",
+        "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-cmaq-conus2-benchmark.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3042,168 +3235,6 @@
         ],
         "Explore": [
             "[Browse Bucket](https://cmas-wwlln-lightning.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ Release Benchmark Data for Easy Download",
-        "ARN": "arn:aws:s3:::cmaq-release-benchmark-data-for-easy-download",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmaq-release-benchmark-data-for-easy-download.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ CONUS-2 Benchmark Data",
-        "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-cmaq-conus2-benchmark.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ 2018 Modeling Platform",
-        "ARN": "arn:aws:s3:::cmas-cmaq-modeling-platform-2018",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-cmaq-modeling-platform-2018.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "SMOKE Test Case",
-        "ARN": "arn:aws:s3:::cmas-smoke-testcase",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-smoke-testcase.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "EQUATES EPA\u2019s Air QUAlity TimE Series Project Data",
-        "ARN": "arn:aws:s3:::cmas-equates",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-equates.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2016v3 Modeling Platform",
-        "ARN": "arn:aws:s3:::2016v3platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3348,8 +3379,8 @@
     },
     {
         "Name": "COVID-19 Genome Sequence Dataset",
-        "Description": "Genomic sequence reads of SARS-CoV-2 and related coronaviridae, organized by NCBI accession Files in the `sra-src` folder are in FASTQ, BAM, or CRAM format (original submission); files in the  `run` folder are in sra format and require the SRA Toolkit",
-        "ARN": "arn:aws:s3:::sra-pub-sars-cov2",
+        "Description": "Metadata for sra-pub-sars-cov2 in an Athena-queryable format",
+        "ARN": "arn:aws:s3:::sra-pub-sars-cov2-metadata-us-east-1",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-aws-download/",
@@ -3385,8 +3416,8 @@
     },
     {
         "Name": "COVID-19 Genome Sequence Dataset",
-        "Description": "Metadata for sra-pub-sars-cov2 in an Athena-queryable format",
-        "ARN": "arn:aws:s3:::sra-pub-sars-cov2-metadata-us-east-1",
+        "Description": "Genomic sequence reads of SARS-CoV-2 and related coronaviridae, organized by NCBI accession Files in the `sra-src` folder are in FASTQ, BAM, or CRAM format (original submission); files in the  `run` folder are in sra format and require the SRA Toolkit",
+        "ARN": "arn:aws:s3:::sra-pub-sars-cov2",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-aws-download/",
@@ -3884,8 +3915,8 @@
     },
     {
         "Name": "ChEMBL - Data Lakehouse Ready",
-        "Description": "ChEMBL 25",
-        "ARN": "arn:aws:s3:::aws-roda-hcls-datalake/chembl_25/",
+        "Description": "ChEMBL 27",
+        "ARN": "arn:aws:s3:::aws-roda-hcls-datalake/chembl_27/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda/docs/roda_install.md",
@@ -3934,8 +3965,8 @@
     },
     {
         "Name": "ChEMBL - Data Lakehouse Ready",
-        "Description": "ChEMBL 27",
-        "ARN": "arn:aws:s3:::aws-roda-hcls-datalake/chembl_27/",
+        "Description": "ChEMBL 25",
+        "ARN": "arn:aws:s3:::aws-roda-hcls-datalake/chembl_25/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda/docs/roda_install.md",
@@ -10156,10 +10187,10 @@
     },
     {
         "Name": "Global Database of Events, Language and Tone (GDELT)",
-        "Description": "Notifications for new data",
-        "ARN": "arn:aws:sns:us-east-1:928094251383:gdelt-csv",
+        "Description": "Project data files",
+        "ARN": "arn:aws:s3:::gdelt-open-data",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "http://www.gdeltproject.org/",
         "Contact": "http://www.gdeltproject.org/about.html#contact",
         "ManagedBy": "Unmanaged",
@@ -10178,10 +10209,10 @@
     },
     {
         "Name": "Global Database of Events, Language and Tone (GDELT)",
-        "Description": "Project data files",
-        "ARN": "arn:aws:s3:::gdelt-open-data",
+        "Description": "Notifications for new data",
+        "ARN": "arn:aws:sns:us-east-1:928094251383:gdelt-csv",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "http://www.gdeltproject.org/",
         "Contact": "http://www.gdeltproject.org/about.html#contact",
         "ManagedBy": "Unmanaged",
@@ -10428,8 +10459,8 @@
     },
     {
         "Name": "HIRLAM Weather Model",
-        "Description": "Notifications for new pressure data",
-        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-rcrhirlam-pressure-grib",
+        "Description": "Notifications for new surface data",
+        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-rcrhirlam-surface-grib",
         "Region": "eu-west-1",
         "Type": "SNS Topic",
         "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
@@ -10453,8 +10484,8 @@
     },
     {
         "Name": "HIRLAM Weather Model",
-        "Description": "Notifications for new surface data",
-        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-rcrhirlam-surface-grib",
+        "Description": "Notifications for new pressure data",
+        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-rcrhirlam-pressure-grib",
         "Region": "eu-west-1",
         "Type": "SNS Topic",
         "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
@@ -10861,27 +10892,6 @@
     },
     {
         "Name": "Hubble Space Telescope",
-        "Description": "HST Mission data files",
-        "ARN": "arn:aws:s3:::stpubdata/hst",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://archive.stsci.edu/missions-and-data/hst",
-        "Contact": "archive@stsci.edu",
-        "ManagedBy": "[Space Telescope Science Institute](http://www.stsci.edu/)",
-        "UpdateFrequency": "Hourly",
-        "License": "STScI hereby grants the non-exclusive, royalty-free, non-transferable, worldwide right and license to use, reproduce, and publicly display in all media public data from the Hubble Space Telescope.",
-        "Tags": [
-            "astronomy",
-            "aws-pds"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Hubble Space Telescope",
         "Description": "Notifications for new data",
         "ARN": "arn:aws:sns:us-east-1:879230861493:stpubdata",
         "Region": "us-east-1",
@@ -10897,6 +10907,27 @@
         ],
         "Explore": null,
         "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Hubble Space Telescope",
+        "Description": "HST Mission data files",
+        "ARN": "arn:aws:s3:::stpubdata/hst",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://archive.stsci.edu/missions-and-data/hst",
+        "Contact": "archive@stsci.edu",
+        "ManagedBy": "[Space Telescope Science Institute](http://www.stsci.edu/)",
+        "UpdateFrequency": "Hourly",
+        "License": "STScI hereby grants the non-exclusive, royalty-free, non-transferable, worldwide right and license to use, reproduce, and publicly display in all media public data from the Hubble Space Telescope.",
+        "Tags": [
+            "astronomy",
+            "aws-pds"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -11502,32 +11533,6 @@
     },
     {
         "Name": "JAXA / USGS / NASA Kaguya/SELENE Terrain Camera Observations",
-        "Description": "Scenes and metadata for monoscopic observing mode",
-        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/monoscopic/uncontrolled/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://stac.astrogeology.usgs.gov/docs/data/moon/kaguyatc/",
-        "Contact": "https://answers.usgs.gov/",
-        "ManagedBy": "[NASA](https://www.nasa.gov)",
-        "UpdateFrequency": "The Kaguya/SELENE mission has completed. No updates to this dataset are planned.",
-        "License": "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)",
-        "Tags": [
-            "aws-pds",
-            "planetary",
-            "satellite imagery",
-            "stac",
-            "cog"
-        ],
-        "Explore": [
-            "[STAC Catalog](https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_monoscopic_uncontrolled_observations)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "JAXA / USGS / NASA Kaguya/SELENE Terrain Camera Observations",
         "Description": "Scenes and metadata for spectral profiler (spsupport) observing mode",
         "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/spsupport/uncontrolled/",
         "Region": "us-west-2",
@@ -11579,28 +11584,25 @@
         "Host": null
     },
     {
-        "Name": "JMA Himawari-8/9",
-        "Description": "Himawari-8 Imagery",
-        "ARN": "arn:aws:s3:::noaa-himawari8",
-        "Region": "us-east-1",
+        "Name": "JAXA / USGS / NASA Kaguya/SELENE Terrain Camera Observations",
+        "Description": "Scenes and metadata for monoscopic observing mode",
+        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/monoscopic/uncontrolled/",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://www.data.jma.go.jp/mscweb/en/himawari89/cloud_service/cloud_service.html https://www.data.jma.go.jp/mscweb/en/himawari89/space_segment/spsg_ahi.html",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "10 minutes for Full Disk, 2.5 minutes for Regions 1, 2, and 3, and .5 minutes for Regions 4 and 5.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Documentation": "https://stac.astrogeology.usgs.gov/docs/data/moon/kaguyatc/",
+        "Contact": "https://answers.usgs.gov/",
+        "ManagedBy": "[NASA](https://www.nasa.gov)",
+        "UpdateFrequency": "The Kaguya/SELENE mission has completed. No updates to this dataset are planned.",
+        "License": "[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)",
         "Tags": [
             "aws-pds",
-            "agriculture",
-            "geospatial",
-            "weather",
-            "earth observation",
-            "meteorological",
-            "disaster response",
-            "satellite imagery"
+            "planetary",
+            "satellite imagery",
+            "stac",
+            "cog"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-himawari8.s3.amazonaws.com/index.html)"
+            "[STAC Catalog](https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_monoscopic_uncontrolled_observations)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -11609,8 +11611,8 @@
     },
     {
         "Name": "JMA Himawari-8/9",
-        "Description": "New data notifications for Himawari-8, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewHimawari8Object",
+        "Description": "New data notifications for Himawari-9, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewHimawariNineObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.data.jma.go.jp/mscweb/en/himawari89/cloud_service/cloud_service.html https://www.data.jma.go.jp/mscweb/en/himawari89/space_segment/spsg_ahi.html",
@@ -11665,8 +11667,37 @@
     },
     {
         "Name": "JMA Himawari-8/9",
-        "Description": "New data notifications for Himawari-9, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewHimawariNineObject",
+        "Description": "Himawari-8 Imagery",
+        "ARN": "arn:aws:s3:::noaa-himawari8",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.data.jma.go.jp/mscweb/en/himawari89/cloud_service/cloud_service.html https://www.data.jma.go.jp/mscweb/en/himawari89/space_segment/spsg_ahi.html",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "10 minutes for Full Disk, 2.5 minutes for Regions 1, 2, and 3, and .5 minutes for Regions 4 and 5.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "geospatial",
+            "weather",
+            "earth observation",
+            "meteorological",
+            "disaster response",
+            "satellite imagery"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-himawari8.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "JMA Himawari-8/9",
+        "Description": "New data notifications for Himawari-8, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewHimawari8Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.data.jma.go.jp/mscweb/en/himawari89/cloud_service/cloud_service.html https://www.data.jma.go.jp/mscweb/en/himawari89/space_segment/spsg_ahi.html",
@@ -11782,6 +11813,33 @@
     },
     {
         "Name": "Korea Meteorological Administration (KMA) GK-2A Satellite Data",
+        "Description": "New data notifications for GK2A, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewGK2AObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://nmsc.kma.go.kr/enhome/html/base/cmm/selectPage.do?page=satellite.gk2a.fact",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "10 minutes for Full Disk, 2 minutes for  4 visible channels and 12 infrared channels.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "geospatial",
+            "weather",
+            "earth observation",
+            "meteorological",
+            "disaster response",
+            "satellite imagery"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Korea Meteorological Administration (KMA) GK-2A Satellite Data",
         "Description": "GK2A Imagery",
         "ARN": "arn:aws:s3:::noaa-gk2a-pds",
         "Region": "us-east-1",
@@ -11804,33 +11862,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-gk2a-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Korea Meteorological Administration (KMA) GK-2A Satellite Data",
-        "Description": "New data notifications for GK2A, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewGK2AObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://nmsc.kma.go.kr/enhome/html/base/cmm/selectPage.do?page=satellite.gk2a.fact",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "10 minutes for Full Disk, 2 minutes for  4 visible channels and 12 infrared channels.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "geospatial",
-            "weather",
-            "earth observation",
-            "meteorological",
-            "disaster response",
-            "satellite imagery"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -11864,133 +11895,8 @@
     },
     {
         "Name": "KyFromAbove on AWS",
-        "Description": "KyFromAbove Topographic Contours, digital elevation models, point cloud, spot elevations and the KyTopo Map Series quadrangles can be found in this bucket",
-        "ARN": "arn:aws:s3:::kyfromabove/elevation/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
-        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
-        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
-        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
-        "License": "Public Domain with Attribution",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "aerial imagery",
-            "geospatial",
-            "lidar",
-            "elevation"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "KyFromAbove on AWS",
-        "Description": "Topographic contours created from the KyFromAbove Phase 1 LiDAR-derived digital elevation model (DEM) in a geopackage and Esri file geodatabase format There are four data resources in this folder - 1) KyTopo contours at a 10-foot interval primarily for Western and Central Kentucky, 2) KyTopo contours at a 20-foot interval primarily for Central and Eastern Kentucky, 3) KyTopo contours at a 40-foot interval for Eastern Kentucky, and 4) KyTopo contours at a 5-foot interval for the entire Commonwealth",
-        "ARN": "arn:aws:s3:::kyfromabove/elevation/Contours/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
-        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
-        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
-        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
-        "License": "Public Domain with Attribution",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "aerial imagery",
-            "geospatial",
-            "lidar",
-            "elevation"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "KyFromAbove on AWS",
         "Description": "Elevation and imagery data resources for the Commonwealth of Kentucky are organized in this bucket Elevation data is available in Cloud Optimized GeoTIFF (COG) and Geopackage formats depending on the data type Imagery data is also available in Cloud Optimized GeoTIFF (COG)format A Cloud Optimized GeoTIFF (COG) is a GeoTIFF file optimized for hosting on a HTTP file server COG has an internal organization that enables more efficient workflows on the cloud by supporting HTTP GET range requests, where just parts of a file are requested and returned",
         "ARN": "arn:aws:s3:::kyfromabove",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
-        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
-        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
-        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
-        "License": "Public Domain with Attribution",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "aerial imagery",
-            "geospatial",
-            "lidar",
-            "elevation"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "KyFromAbove on AWS",
-        "Description": "There are three data resources in this folder - 1) KyTopo Map Series quadrangles in a Cloud Optimized GeoTIFF (COG) format, 2) KyTopo Map Series quadrangles with all collar information in a non-georeferenced PNG format for printing on a standard ARCH-D sized sheet, and 3) the KyTopo Map Series quadrangles tile grid in a geopackage format The COGs were created using GDAL with JPEG compression at a 90% quality setting and the default 512x512 tile setting",
-        "ARN": "arn:aws:s3:::kyfromabove/elevation/KyTopoMapSeries/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
-        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
-        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
-        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
-        "License": "Public Domain with Attribution",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "aerial imagery",
-            "geospatial",
-            "lidar",
-            "elevation"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "KyFromAbove on AWS",
-        "Description": "LiDAR-derived digital elevation models (DEM) for the Commonwealth of Kentucky organized in a 5000x5000 foot grid There are currently three data resources in this folder - 1) Phase 1 LiDAR-derived DEMs at a 5 foot resolution, 2) Phase 2 LiDAR-derived DEMs at a 2 foot resolution, and 3) Phase 3 LiDAR-derived DEMs at a 2 foot resolution All data has been converted to a Cloud Optimized GeoTIFF (COG) format Phase 2 and Phase 3 efforts have not achieved Statewide coverage to date",
-        "ARN": "arn:aws:s3:::kyfromabove/elevation/DEM/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
-        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
-        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
-        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
-        "License": "Public Domain with Attribution",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "aerial imagery",
-            "geospatial",
-            "lidar",
-            "elevation"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "KyFromAbove on AWS",
-        "Description": "LiDAR-derived Point Cloud tiles for the Commonwealth of Kentucky organized in a 5000x5000 foot grid There is currently one data resource in this folder -  1) Phase 1 LiDAR-derived point clouds in LAZ format Phase 2 and Phase 3 efforts have not achieved Statewide coverage to date It is our aim to provide Phase 2 and Phase 3 data in a COPC (LAZ format)",
-        "ARN": "arn:aws:s3:::kyfromabove/elevation/PointCloud/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
@@ -12091,6 +11997,131 @@
         "Name": "KyFromAbove on AWS",
         "Description": "KyFromAbove oblique imagery can be found in this folder The four oblique views associated with each ortho image are provided in a 3-band (RGB) Cloud Optimized GeoTiff format using the default 512x512 tile setting There are no oblique images available for Phase 1 and 2 Phase 3 data is being provided upon completion of each acquisition area of interest It is organized by year and season (where Season1 = Spring and Season2 = Fall) as imagery is being acquired during the fall and spring leaf-off seasons as sun angle and weather conditions permit",
         "ARN": "arn:aws:s3:::kyfromabove/imagery/obliques/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
+        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
+        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
+        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
+        "License": "Public Domain with Attribution",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "aerial imagery",
+            "geospatial",
+            "lidar",
+            "elevation"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "KyFromAbove on AWS",
+        "Description": "LiDAR-derived digital elevation models (DEM) for the Commonwealth of Kentucky organized in a 5000x5000 foot grid There are currently three data resources in this folder - 1) Phase 1 LiDAR-derived DEMs at a 5 foot resolution, 2) Phase 2 LiDAR-derived DEMs at a 2 foot resolution, and 3) Phase 3 LiDAR-derived DEMs at a 2 foot resolution All data has been converted to a Cloud Optimized GeoTIFF (COG) format Phase 2 and Phase 3 efforts have not achieved Statewide coverage to date",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/DEM/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
+        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
+        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
+        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
+        "License": "Public Domain with Attribution",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "aerial imagery",
+            "geospatial",
+            "lidar",
+            "elevation"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "KyFromAbove on AWS",
+        "Description": "Topographic contours created from the KyFromAbove Phase 1 LiDAR-derived digital elevation model (DEM) in a geopackage and Esri file geodatabase format There are four data resources in this folder - 1) KyTopo contours at a 10-foot interval primarily for Western and Central Kentucky, 2) KyTopo contours at a 20-foot interval primarily for Central and Eastern Kentucky, 3) KyTopo contours at a 40-foot interval for Eastern Kentucky, and 4) KyTopo contours at a 5-foot interval for the entire Commonwealth",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/Contours/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
+        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
+        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
+        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
+        "License": "Public Domain with Attribution",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "aerial imagery",
+            "geospatial",
+            "lidar",
+            "elevation"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "KyFromAbove on AWS",
+        "Description": "KyFromAbove Topographic Contours, digital elevation models, point cloud, spot elevations and the KyTopo Map Series quadrangles can be found in this bucket",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
+        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
+        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
+        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
+        "License": "Public Domain with Attribution",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "aerial imagery",
+            "geospatial",
+            "lidar",
+            "elevation"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "KyFromAbove on AWS",
+        "Description": "There are three data resources in this folder - 1) KyTopo Map Series quadrangles in a Cloud Optimized GeoTIFF (COG) format, 2) KyTopo Map Series quadrangles with all collar information in a non-georeferenced PNG format for printing on a standard ARCH-D sized sheet, and 3) the KyTopo Map Series quadrangles tile grid in a geopackage format The COGs were created using GDAL with JPEG compression at a 90% quality setting and the default 512x512 tile setting",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/KyTopoMapSeries/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
+        "Contact": "More information regarding the KyFromAbove program can be found at https://kyfromabove.ky.gov. If you have specific questions please contact - kyfromabove@ky.gov.",
+        "ManagedBy": "[Kentucky Division of Geographic Information](https://kygeonet.ky.gov)",
+        "UpdateFrequency": "KyFromAbove data is typically updated on an annual basis. Each year, a portion of the state is acquired with an overall update cycle of every three to four years. This update cadance is determined by both funding and the length of leaf-off conditions in a given year. This catalog currently includes imagery and LiDAR data from 2010 through 2022 for most products.",
+        "License": "Public Domain with Attribution",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "aerial imagery",
+            "geospatial",
+            "lidar",
+            "elevation"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "KyFromAbove on AWS",
+        "Description": "LiDAR-derived Point Cloud tiles for the Commonwealth of Kentucky organized in a 5000x5000 foot grid There is currently one data resource in this folder -  1) Phase 1 LiDAR-derived point clouds in LAZ format Phase 2 and Phase 3 efforts have not achieved Statewide coverage to date It is our aim to provide Phase 2 and Phase 3 data in a COPC (LAZ format)",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/PointCloud/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/kyfromabove",
@@ -13090,8 +13121,8 @@
     },
     {
         "Name": "NAIP on AWS",
-        "Description": "The data in this bucket is 4-band (RGB + NIR) in MRF format and Cloud Optimized GeoTIFF (COG) processed by Esri The MRF format is a cloud-optimized open data format that provides fast access to data on S3 MRF can be accessed using GDAL and most applications build using GDAL, but also directly by web applications Data is provided as 512x512 tiles, with reduced-resolution pyramids created using 2x sampling by averaging Finally, data compression is efficient and lossless (meaning the data values here are the same as the source) A Cloud Optimized GeoTIFF (COG) is a GeoTIFF file optimized for hosting on a HTTP file server COG has an internal organization that enables more efficient workflows on the cloud by supporting HTTP GET range requests, where just parts of a file are requested and returned The bucket is set as a Requester Pays bucket",
-        "ARN": "arn:aws:s3:::naip-analytic",
+        "Description": "The data in this bucket is Original Imagery in Geotiff format 4-band (RGB + NIR) uncompressed no overviews and metadata in a Requester Pays bucket",
+        "ARN": "arn:aws:s3:::naip-source",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/naip",
@@ -13117,8 +13148,8 @@
     },
     {
         "Name": "NAIP on AWS",
-        "Description": "The data in this bucket is Original Imagery in Geotiff format 4-band (RGB + NIR) uncompressed no overviews and metadata in a Requester Pays bucket",
-        "ARN": "arn:aws:s3:::naip-source",
+        "Description": "The data in this bucket is 4-band (RGB + NIR) in MRF format and Cloud Optimized GeoTIFF (COG) processed by Esri The MRF format is a cloud-optimized open data format that provides fast access to data on S3 MRF can be accessed using GDAL and most applications build using GDAL, but also directly by web applications Data is provided as 512x512 tiles, with reduced-resolution pyramids created using 2x sampling by averaging Finally, data compression is efficient and lossless (meaning the data values here are the same as the source) A Cloud Optimized GeoTIFF (COG) is a GeoTIFF file optimized for hosting on a HTTP file server COG has an internal organization that enables more efficient workflows on the cloud by supporting HTTP GET range requests, where just parts of a file are requested and returned The bucket is set as a Requester Pays bucket",
+        "ARN": "arn:aws:s3:::naip-analytic",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/naip",
