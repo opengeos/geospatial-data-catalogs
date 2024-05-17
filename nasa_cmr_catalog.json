@@ -3250,19 +3250,6 @@
         "license": "not-provided"
     },
     {
-        "id": "M1_AVH02C1.v6",
-        "title": "METOP-B AVHRR Top-of-Atmosphere Reflectance Daily L3 Global 0.05 Deg. CMG",
-        "catalog": "LAADS",
-        "state_date": "2013-01-16",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2751091676-LAADS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2751091676-LAADS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/M1_AVH02C1.v6",
-        "description": "The Long-Term Data Record (LTDR) produces, validates, and distributes a global land surface climate data record (CDR) that uses both mature and well-tested algorithms in concert with the best-available polar-orbiting satellite data from past to the present.   The CDR is critically important to studying global climate change.  The LTDR project is unique in that it serves as a bridge that connects data derived from the NOAA Advanced Very High Resolution Radiometer (AVHRR), the EOS Moderate resolution Imaging Spectroradiometer (MODIS), the Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS), and Joint Polar Satellite System (JPSS) VIIRS missions.  The LTDR draws from the following eight AVHRR missions:   NOAA-7, NOAA-9, NOAA-11, NOAA-14, NOAA-16, NOAA-18, NOAA-19, and MetOp-B.  Currently, the project generates a daily surface reflectance product as the fundamental climate data record (FCDR) and derives daily Normalized Differential Vegetation Index (NDVI) and Leaf-Area Index/fraction of absorbed Photosynthetically Active Radiation (LAI/fPAR) as two thematic CDRs (TCDR).  LAI/fPAR was developed as an experimental product.  The METOP-B AVHRR Top-of-Atmosphere Reflectance Daily L3 Global 0.05 Deg CMG, short-name M1_AVH02C1 is generated from GIMMS Advanced Processing System (GAPS) BRDF-corrected Surface Reflectance product (AVH01C1). The M1_AVH02C1 consist of Top-of-atmosphere reflectance for bands 1 and 2, data Quality flags, angles (solar zenith, view zenith, and relative azimuth), thermal data (thermal bands 3, 4 and 5), and additional data (scan time).  ",
-        "license": "not-provided"
-    },
-    {
         "id": "M1_AVH09C1.v6",
         "title": "METOP-B AVHRR Atmospherically Corrected Surface Reflectance Daily L3 Global 0.05 Deg CMG",
         "catalog": "LAADS",
@@ -3286,45 +3273,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2751635237-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/M1_AVH13C1.v6",
         "description": "The Long-Term Data Record (LTDR) produces, validates, and distributes a global land surface climate data record (CDR) that uses both mature and well-tested algorithms in concert with the best-available polar-orbiting satellite data from past to the present.   The CDR is critically important to studying global climate change.  The LTDR project is unique in that it serves as a bridge that connects data derived from the NOAA Advanced Very High Resolution Radiometer (AVHRR), the EOS Moderate resolution Imaging Spectroradiometer (MODIS), the Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS), and Joint Polar Satellite System (JPSS) VIIRS missions.  The LTDR draws from the following eight AVHRR missions:   NOAA-7, NOAA-9, NOAA-11, NOAA-14, NOAA-16, NOAA-18, NOAA-19, and MetOp-B.  Currently, the project generates a daily surface reflectance product as the fundamental climate data record (FCDR) and derives daily Normalized Differential Vegetation Index (NDVI) and Leaf-Area Index/fraction of absorbed Photosynthetically Active Radiation (LAI/fPAR) as two thematic CDRs (TCDR).  LAI/fPAR was developed as an experimental product.    The METOP-B AVHRR Atmospherically Corrected Normalized Difference Vegetation Index (NDVI) Daily L3 Global 0.05 Deg CMG, short-name M1_AVH13C1 is generated from GIMMS Advanced Processing System (GAPS) BRDF-corrected Surface Reflectance product (M1_AVH01C1). The M1_AVH13C1 product is available in HDF4 file format.  ",
-        "license": "not-provided"
-    },
-    {
-        "id": "MASL1B.v1",
-        "title": "MODIS Airborne Simulator (MAS) Calibrated, Geolocated Radiances L1B 50m Data",
-        "catalog": "LAADS",
-        "state_date": "1993-01-11",
-        "end_date": "2007-08-10",
-        "bbox": "-180, -35, 180, 80",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799350215-LAADS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799350215-LAADS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MASL1B.v1",
-        "description": "The Moderate Resolution Imaging Spectroradiometer (MODIS) Airborne Simulator (MAS) sensor was developed for NASA's high-altitude ER-2 research aircraft by Daedalus Enterprises, Inc., in support of the MODIS remote sensing algorithm development. The overall goal was to modify the spectral coverage and gains of the MAS to emulate as many of the MODIS spectral channels as possible. With its much higher spatial resolution (50 m vs. 250-1000 m for MODIS), MAS is able to provide unique information on the small-scale distribution of various geophysical parameters. The MAS instrument has been deployed on multiple platforms for many field campaigns since its first mission in 1991, as the prototype Wildfire Spectrometer.    For more information and for a list of MAS campaign flights  visit ladsweb at:    https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/mas/",
-        "license": "not-provided"
-    },
-    {
-        "id": "MCD06COSP_D3_MODIS.v6.2",
-        "title": "MODIS (Aqua/Terra) Cloud Properties Level 3 daily, 1x1 degree grid",
-        "catalog": "LAADS",
-        "state_date": "2002-07-04",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2263893831-LAADS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2263893831-LAADS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MCD06COSP_D3_MODIS.v6.2",
-        "description": "The combined MODIS (Aqua/Terra) Cloud Properties Level 3 daily, 1x1 degree grid product represents a new addition that is especially geared to facilitate climate scientists who deal with both models and observations. MCD06COSP_D3_MODIS represents the daily product\u2019s short-name.  The \u201cCOSP\u201d acronym in its short-name stands for  Cloud Feedback Model Intercomparison Project (CFMIP) Observation Simulator Package. This product is an aggregation of combined MODIS Level-2 inputs from both the Terra and Aqua incarnations (MOD35/MOD06 and MYD35/MYD06, respectively), and employs an aggregation methodology consistent with the MOD08 and MYD08 products.  Provided in netCDF4 format, it contains 23 aggregated science data sets (SDS/parameters).    The Collection 6.2 (C6.2) is an improved version from the previous version (C6.1) because a number of bugs detected in Collection 6.1 are fixed. ",
-        "license": "not-provided"
-    },
-    {
-        "id": "MCD06COSP_M3_MODIS.v6.2",
-        "title": "MODIS (Aqua/Terra) Cloud Properties Level 3 monthly, 1x1 degree grid",
-        "catalog": "LAADS",
-        "state_date": "2002-07-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2263894888-LAADS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2263894888-LAADS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MCD06COSP_M3_MODIS.v6.2",
-        "description": "The combined MODIS (Aqua/Terra) Cloud Properties Level 3 monthly, 1x1 degree grid product represents a new addition that is especially geared to facilitate climate scientists who deal with both models and observations. MCD06COSP_D3_MODIS represents the daily product\u2019s short-name.  The \u201cCOSP\u201d acronym in its short-name stands for  Cloud Feedback Model Intercomparison Project (CFMIP) Observation Simulator Package. The L3 monthly product is derived by aggregating the daily-produced Aqua+Terra/MODIS D3 Cloud Properties product (MCD06COSP_D3_MODIS).  Provided in netCDF4 format, it contains 23 aggregated science data sets (SDS/parameters).     The Collection 6.2 (C6.2) is an improved version from the previous version (C6.1) because a number of bugs detected in Collection 6.1 are fixed.",
         "license": "not-provided"
     },
     {
@@ -4534,6 +4482,58 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2674694066-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/WaterBalance_Daily_Historical_GRIDMET.v1.5",
         "description": "This dataset provides daily historical Water Balance Model outputs from a Thornthwaite-type, single bucket model.  Climate inputs to the model are from GridMet daily temperature and precipitation for the Continental United States (CONUS). The Water Balance Model output variables include the following: Potential Evapotranspiration (PET, mm), Actual Evapotranspiration (AET, mm), Moisture Deficit (Deficit, mm), Soil Water (soilwater, mm), Runoff (mm), Rain (mm), and Accumulated Snow Water Equivalent (accumswe, mm). The dataset covers the period from January 1 to December 31 for years 1980 through 2021 for the CONUS. Water Balance Model variables are provided as individual files, by variable and year, at a 1 km x 1 km spatial resolution and a daily temporal resolution. Data are in a North America Lambert Conformal Conic projection and are distributed in a standardized Climate and Forecast (CF)-compliant NetCDF file format.",
+        "license": "not-provided"
+    },
+    {
+        "id": "XAERDT_L2_ABI_G16.v1",
+        "title": "ABI/GOES-16 Dark Target Aerosol 10-Min L2 Full Disk 10 km",
+        "catalog": "LAADS",
+        "state_date": "2019-01-01",
+        "end_date": "2022-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2859273114-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2859273114-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/XAERDT_L2_ABI_G16.v1",
+        "description": "The ABI/GOES-16 Dark Target Aerosol 10-Min L2 Full Disk 10 km product, short-name XAERDT_L2_ABI_G16 is provided at 10-km spatial resolution (at-nadir) and a 10-minute full-disk cadence that typically yields about 144 granules over the daylit hours of a 24-hour period.  The Geostationary Operational Environmental Satellite \u2013 GOES-16 has been serving in the operational GOES-East position (near -75\u00b0W) since December 18, 2017.  The GOES-16/ABI collection record spans from January 2019 through December 2022.    The XAERDT_L2_ABI_G16 product is a part of the Geostationary Earth Orbit (GEO)\u2013Low-Earth Orbit (LEO) Dark Target Aerosol project under NASA\u2019s Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, led by Robert Levy, uses a special version of the MODIS Dark Target (DT) aerosol retrieval algorithm to produce Aerosol Optical Depth (AOD) and other aerosol parameters derived independently from seven sensor/platform combinations, where 3 are in GEO and 4 are in LEO.  The 3 GEO sensors include Advanced Baseline Imagers (ABI) on both GOES-16 (GOES-East) and GOES-17 (GOES-West), and Advanced Himawari Imager (AHI) on Himawari-8. The 4 LEO sensors include MODIS on both Terra and Aqua, and VIIRS on both Suomi-NPP and NOAA-20.  Adding the LEO sensors reinforces a major goal of this project, which is to render a consistent science maturity level across DT aerosol products derived from both types and sources of orbital satellites.    The XAERDT_L2_ABI_G16 product, in netCDF4 format, contains 45 Science Data Set (SDS) layers that include 8 geolocation and 37 geophysical SDSs.    For more information consult LAADS product description page at:    https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/XAERDT_L2_ABI_G16    Or, Dark Target aerosol team Page at:   https://darktarget.gsfc.nasa.gov/",
+        "license": "not-provided"
+    },
+    {
+        "id": "XAERDT_L2_ABI_G17.v1",
+        "title": "ABI/GOES-17 Dark Target Aerosol 10-Min L2 Full Disk 10 km",
+        "catalog": "LAADS",
+        "state_date": "2019-01-01",
+        "end_date": "2022-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2859265967-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2859265967-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/XAERDT_L2_ABI_G17.v1",
+        "description": "The ABI/GOES-17 Dark Target Aerosol 10-Min L2 Full Disk 10 km product, short-name XAERDT_L2_ABI_G17 is provided at 10-km spatial resolution (at-nadir) and a 10-minute full-disk cadence that typically yields about 144 granules over the daylit hours of a 24-hour period.  The Geostationary Operational Environmental Satellite \u2013 GOES-17 served in the operational GOES-West position (near -137\u00b0W), from February 12, 2019, through January 4, 2023.  The GOES-16/ABI collection record spans from January 2019 through December 2022.    The XAERDT_L2_ABI_G17 product is a part of the Geostationary Earth Orbit (GEO)\u2013Low-Earth Orbit (LEO) Dark Target Aerosol project under NASA\u2019s Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, led by Robert Levy, uses a special version of the MODIS Dark Target (DT) aerosol retrieval algorithm to produce Aerosol Optical Depth (AOD) and other aerosol parameters derived independently from seven sensor/platform combinations, where 3 are in GEO and 4 are in LEO.  The 3 GEO sensors include Advanced Baseline Imagers (ABI) on both GOES-16 (GOES-East) and GOES-17 (GOES-West), and Advanced Himawari Imager (AHI) on Himawari-8. The 4 LEO sensors include MODIS on both Terra and Aqua, and VIIRS on both Suomi-NPP and NOAA-20.  Adding the LEO sensors reinforces a major goal of this project, which is to render a consistent science maturity level across DT aerosol products derived from both types and sources of orbital satellites.    The XAERDT_L2_ABI_G17 product, in netCDF4 format, contains 45 Science Data Set (SDS) layers that include 8 geolocation and 37 geophysical SDSs.    For more information consult LAADS product description page at:    https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/XAERDT_L2_ABI_G17    Or, Dark Target aerosol team Page at:   https://darktarget.gsfc.nasa.gov/",
+        "license": "not-provided"
+    },
+    {
+        "id": "XAERDT_L2_AHI_H08.v1",
+        "title": "AHI/Himawari-08 Dark Target Aerosol 10-Min L2 Full Disk 10 km",
+        "catalog": "LAADS",
+        "state_date": "2019-01-01",
+        "end_date": "2022-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2859255251-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2859255251-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/XAERDT_L2_AHI_H08.v1",
+        "description": "The AHI/Himawari-08 Dark Target Aerosol 10-Min L2 Full Disk 10 km product, short-name XAERDT_L2_AHI_H08 is provided at 10-km spatial resolution (at-nadir) and a 10-minute full-disk cadence that typically yields about 142 granules over the daylit hours of a 24-hour period (there are no images produced at 02:20 or 14:20 UTC for navigation purposes).  The Himawari-8 platform served in the operational Himawari position (near 140.7\u00b0E) between October 2014 and 13 December 2022.  Himawari-9 replaced Himawari-8 and is currently operational.  The Himawari-8/AHI collection record spans from January 2019 through 12th December 2022.  The final 19 days of 2022 (December 13 through 31) are served by L2 products derived from the Himawari-9/AHI instrument.    The XAERDT_L2_AHI_H08 product is a part of the Geostationary Earth Orbit (GEO)\u2013Low-Earth Orbit (LEO) Dark Target Aerosol project under NASA\u2019s Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, led by Robert Levy, uses a special version of the MODIS Dark Target (DT) aerosol retrieval algorithm to produce Aerosol Optical Depth (AOD) and other aerosol parameters derived independently from seven sensor/platform combinations, where 3 are in GEO and 4 are in LEO.  The 3 GEO sensors include Advanced Baseline Imagers (ABI) on both GOES-16 (GOES-East) and GOES-17 (GOES-West), and Advanced Himawari Imager (AHI) on Himawari-8. The 4 LEO sensors include MODIS on both Terra and Aqua, and VIIRS on both Suomi-NPP and NOAA-20.  Adding the LEO sensors reinforces a major goal of this project, which is to render a consistent science maturity level across DT aerosol products derived from both types and sources of orbital satellites.    The XAERDT_L2_AHI_H08 product, in netCDF4 format, contains 45 Science Data Set (SDS) layers that include 8 geolocation and 37 geophysical SDSs.      For more information consult LAADS product description page at:    https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/XAERDT_L2_AHI_H08    Or, Dark Target aerosol team Page at:   https://darktarget.gsfc.nasa.gov/",
+        "license": "not-provided"
+    },
+    {
+        "id": "XAERDT_L2_AHI_H09.v1",
+        "title": "AHI/Himawari-09 Dark Target Aerosol 10-Min L2 Full Disk 10 km",
+        "catalog": "LAADS",
+        "state_date": "2022-12-13",
+        "end_date": "2022-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2859261579-LAADS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2859261579-LAADS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/XAERDT_L2_AHI_H09.v1",
+        "description": "The AHI/Himawari-09 Dark Target Aerosol 10-Min L2 Full Disk 10 km product, short-name XAERDT_L2_AHI_H09 is provided at 10-km spatial resolution (at-nadir) and a 10-minute full-disk cadence that typically yields about 142 granules over the daylit hours of a 24-hour period (there are no images produced at 02:20 or 14:20 UTC for navigation purposes). The Himawari-9 platform currently serves in the operational Himawari position (near 140.7\u00b0E) since it was launched November 2, 2016, and replaces Himawari-8.  The Himawari-9/AHI collection record spans from 13th December 2022 through 31st December 2022.    The XAERDT_L2_AHI_H09 product is a part of the Geostationary Earth Orbit (GEO)\u2013Low-Earth Orbit (LEO) Dark Target Aerosol project under NASA\u2019s Making Earth System Data Records for Use in Research Environments (MEaSUREs) program, led by Robert Levy, uses a special version of the MODIS Dark Target (DT) aerosol retrieval algorithm to produce Aerosol Optical Depth (AOD) and other aerosol parameters derived independently from seven sensor/platform combinations, where 3 are in GEO and 4 are in LEO.  The 3 GEO sensors include Advanced Baseline Imagers (ABI) on both GOES-16 (GOES-East) and GOES-17 (GOES-West), and Advanced Himawari Imager (AHI) on Himawari-8. The 4 LEO sensors include MODIS on both Terra and Aqua, and VIIRS on both Suomi-NPP and NOAA-20.  Adding the LEO sensors reinforces a major goal of this project, which is to render a consistent science maturity level across DT aerosol products derived from both types and sources of orbital satellites.      The XAERDT_L2_AHI_H09 product, in netCDF4 format, contains 45 Science Data Set (SDS) layers that include 8 geolocation and 37 geophysical SDSs.        For more information consult LAADS product description page at:    https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/products/XAERDT_L2_AHI_H09    Or, Dark Target aerosol team Page at:   https://darktarget.gsfc.nasa.gov/",
         "license": "not-provided"
     },
     {
