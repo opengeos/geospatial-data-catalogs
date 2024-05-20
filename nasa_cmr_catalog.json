@@ -1,5 +1,31 @@
 [
     {
+        "id": "0f4324af-fa0a-4aaf-9b97-89a4f3325ce1",
+        "title": "DESIS - Hyperspectral Images - Global",
+        "catalog": "FEDEO",
+        "state_date": "2018-08-30",
+        "end_date": "",
+        "bbox": "-180, -52, 180, 52",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458058-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458058-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/0f4324af-fa0a-4aaf-9b97-89a4f3325ce1",
+        "description": "The hyperspectral instrument DESIS (DLR Earth Sensing Imaging Spectrometer) is one of four possible payloads of MUSES (Multi-User System for Earth Sensing), which is mounted on the International Space Station (ISS). DLR developed and delivered a Visual/Near-Infrared Imaging Spectrometer to Teledyne Brown Engineering, which was responsible for integrating the instrument. Teledyne Brown designed and constructed, integrated and tested the platform before delivered to NASA. Teledyne Brown collaborates with DLR in several areas, including basic and applied research for use of data. DESIS is operated in the wavelength range from visible through the near infrared and enables precise data acquisition from Earth's surface for applications including fire-detection, change detection, maritime domain awareness, and atmospheric research. Three product types can be ordered, which are Level 1B (systematic and radiometric corrected), Level 1C (geometrically corrected) and Level 2A (atmospherically corrected). The spatial resolution is about 30m on ground. DESIS is sensitive between 400nm and 1000nm with a spectral resolution of about 3.3nm. DESIS data are delivered in tiles of about 30x30km. For more information concerning DESIS the reader is referred to https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-13614/",
+        "license": "not-provided"
+    },
+    {
+        "id": "11c5f6df1abc41968d0b28fe36393c9d",
+        "title": "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 3 aerosol products from MERIS (ALAMO algorithm), Version 2.2",
+        "catalog": "FEDEO",
+        "state_date": "2008-01-01",
+        "end_date": "2008-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2548143004-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2548143004-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/11c5f6df1abc41968d0b28fe36393c9d",
+        "description": "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. This dataset comprises the Level 3 aerosol daily and monthly gridded products from MERIS for 2008, using the ALAMO algorithm, version 2.2.   The data have been provided by Hygeos.For further details about these data products please see the linked documentation.",
+        "license": "not-provided"
+    },
+    {
         "id": "12-hourly_interpolated_surface_position_from_buoys",
         "title": "12-Hourly Interpolated Surface Position from Buoys",
         "catalog": "SCIOPS",
@@ -234,6 +260,58 @@
         "license": "not-provided"
     },
     {
+        "id": "3fe263d2-99ed-4751-b937-d26a31ab0606",
+        "title": "AVHRR - Vegetation Index (NDVI) - Europe",
+        "catalog": "FEDEO",
+        "state_date": "1994-07-01",
+        "end_date": "",
+        "bbox": "-24, 28, 57, 78",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458021-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458021-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/3fe263d2-99ed-4751-b937-d26a31ab0606",
+        "description": "Every day, three successive NOAA-AVHRR scenes are used to derive a synthesis product in stereographic projection known as the \"Normalized Difference Vegetation Index\" for Europe and North Africa. It is calculated by dividing the difference in technical albedos between measurements in the near infrared and visible red part of the spectrum by the sum of both measurements. This value provides important information about the \"greenness\" and density of vegetation. Weekly and monthly thematic synthesis products are also derived from this daily operational product, at each step becoming successively free of clouds. For additional information, please see: https://wdc.dlr.de/sensors/avhrr/",
+        "license": "not-provided"
+    },
+    {
+        "id": "7ae5a791-b667-4838-9733-a44e4cf2d715",
+        "title": "Cartosat-1 (IRS-P5) - Panchromatic Images (PAN) - Europe, Stereographic",
+        "catalog": "FEDEO",
+        "state_date": "2007-01-05",
+        "end_date": "",
+        "bbox": "-25, 30, 45, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458042-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458042-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/7ae5a791-b667-4838-9733-a44e4cf2d715",
+        "description": "Indian Remote Sensing satellites (IRS) are a series of Earth Observation satellites, built, launched and maintained by Indian Space Research Organisation. The IRS series provides many remote sensing services to India and international ground stations. The satellite has two panchromatic cameras that were especially designed for in flight stereo viewing.",
+        "license": "not-provided"
+    },
+    {
+        "id": "802569b8-fb56-4d78-a2e8-3e4549ff475b",
+        "title": "AVHRR - Sea Surface Temperature (SST) - Europe",
+        "catalog": "FEDEO",
+        "state_date": "1994-08-01",
+        "end_date": "",
+        "bbox": "-35, 47.5, 51, 73",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458053-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458053-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/802569b8-fb56-4d78-a2e8-3e4549ff475b",
+        "description": "The AVHRR Mulitchannel Sea Surface Temperature Map (MCSST) was the first result of DLR's AVHRR pathfinder activities. The goal of the product is to provide the user with actual Sea Surface Temperature (SST) maps in a defined format easy to access with the highest possible reliability on the thematic quality. After a phase of definition, the operational production chain was launched in March 1993 covering the entire Mediterranean Sea and the Black Sea. Since then, daily, weekly, and monthly data sets have been available until September 13, 1994, when the AVHRR on board the NOAA-11 spacecraft failed. The production of daily, weekly and monthly SST maps was resumed in February, 1995, based on NOAA-14 AVHRR data. The NOAA-14 AVHRR sensor became some technical difficulties, so the generation was stopped on October 3, 2001. Since March 2002, NOAA-16 AVHRR SST maps are available again. With the beginning of January 2004, the data of AVHRR on board of NOAA-16 exhibited some anormal features showing strips in the scenes. Facing the \u201cbar coded\u201d images of NOAA16-AVHRR which occurred first in September 2003, continued in January 2004 for the second time and appeared in April 2004 again, DFD has decided to stop the reception of NOAA16 data on April 6th, 2004, and to start the reception of NOAA-17 data on this day. On April 7th, 2004, the production of all former NOAA16-AVHRR products as e.g. the SST composites was successully established. NOAA-17 is an AM sensor which passes central Europe about 2 hours earlier than NOAA-16 (about 10:00 UTC instead of 12:00 UTC for NOAA-16). In spring 2007, the communication system of NOAA-17 has degraded or is operating with limitations. Therefore, DFD has decided to shift the production of higher level products (NDVI, LST and SST) from NOAA-17 to NOAA-18 in April 2007. In order to test the performance of our processing chains, we processed simultaneously all NOAA-17 and NOAA-18 data from January 1st, 2007 till March 29th, 2007. All products are be available via EOWEB. Please remember that NOAA-18 is a PM sensor which passes central Europe about 1.5 hours later than NOAA-17 (about 11:30 UTC instead of 10:00 UTC for NOAA17). The SST product is intended for climate modelers, oceanographers, and all geo science-related disciplines dealing with ocean surface parameters. In addition, SST maps covering the North Atlantic, the Baltic Sea, the North Sea and the Western Atlantic equivalent to the Mediterranean MCSST maps are available since August 1994. The most important aspects of the MCSST maps are a) correct image registration and b) reasonable cloud screening to ensure that only cloud free pixels are taken for the later processing and compositing c) for deriving MCSST, only channel 4 and 5 are used.. The SST product consists of one 8 bit channel. For additional information, please see: https://wdc.dlr.de/sensors/avhrr/",
+        "license": "not-provided"
+    },
+    {
+        "id": "936b319d-5253-425d-bd29-4b6ebce067ff",
+        "title": "AVHRR - Land Surface Temperature (LST) - Europe, Nighttime",
+        "catalog": "FEDEO",
+        "state_date": "1998-02-23",
+        "end_date": "",
+        "bbox": "-24, 28, 57, 78",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458046-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458046-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/936b319d-5253-425d-bd29-4b6ebce067ff",
+        "description": "The \"Land Surface Temperature derived from NOAA-AVHRR data (LST_AVHRR)\" is a fixed grid map (in stereographic projection) with a spatial resolution of 1.1 km. The total size covering Europe is 4100 samples by 4300 lines. Within 24 hours of acquiring data from the satellite, day-time and night-time LSTs are calculated. In general, the products utilise data from all six of the passes that the satellite makes over Europe in each 24 hour period. For the daily day-time LST maps, the compositing criterion for the three day-time passes is maximum NDVI value and for daily night-time LST maps, the criterion is the maximum night-time LST value of the three night-time passes. Weekly and monthly day-time or night-time LST composite products are also produced by averaging daily day-time or daily night-time LST values, respectively. The range of LST values is scaled between \u201339.5\u00b0C and +87\u00b0C with a radiometric resolution of 0.5\u00b0C. A value of \u201340\u00b0C is used for water. Clouds are masked out as bad values. For additional information, please see: https://wdc.dlr.de/sensors/avhrr/",
+        "license": "not-provided"
+    },
+    {
         "id": "A Fusion Dataset for Crop Type Classification in Germany.v1",
         "title": "A Fusion Dataset for Crop Type Classification in Germany",
         "catalog": "MLHUB",
@@ -348,6 +426,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1673546369-NSIDC_ECS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_ECS/collections/ABOLVIS1A.v1",
         "description": "This data set contains geotagged images collected over Alaska and Western Canada. The images were taken by the NASA Digital Mapping Camera, paired with the Land, Vegetation, and Ice Sensor (LVIS), an airborne lidar scanning laser altimeter. The data were collected as part of NASA's Terrestrial Ecology Program campaign, the Arctic-Boreal Vulnerability Experiment (ABoVE).",
+        "license": "not-provided"
+    },
+    {
+        "id": "ABoVE_Concise_Experiment_Plan_1617.v1.1",
+        "title": "A Concise Experiment Plan for the Arctic-Boreal Vulnerability Experiment",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "2014-01-01",
+        "end_date": "2021-12-31",
+        "bbox": "-176.12, 39.42, -66.92, 81.61",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2162145735-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2162145735-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/ABoVE_Concise_Experiment_Plan_1617.v1.1",
+        "description": "This document presents the Concise Experiment Plan for NASA's Arctic-Boreal Vulnerability Experiment (ABoVE) to serve as a guide to the Program as it identifies the research to be conducted under this study. Research for ABoVE will link field-based, process-level studies with geospatial data products derived from airborne and satellite remote sensing, providing a foundation for improving the analysis and modeling capabilities needed to understand and predict ecosystem responses and societal implications. The ABoVE Concise Experiment Plan (ACEP) outlines the conceptual basis for the Field Campaign and expresses the compelling rationale explaining the scientific and societal importance of the study. It presents both the science questions driving ABoVE research as well as the top-level requirements for a study design to address them.",
         "license": "not-provided"
     },
     {
@@ -2756,6 +2847,58 @@
         "license": "not-provided"
     },
     {
+        "id": "Global_Litter_Carbon_Nutrients_1244.v1",
+        "title": "A Global Database of Litterfall Mass and Litter Pool Carbon and Nutrients",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1827-01-01",
+        "end_date": "1997-12-31",
+        "bbox": "-156.7, -54.5, 176.2, 72.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2784385713-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2784385713-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Global_Litter_Carbon_Nutrients_1244.v1",
+        "description": "Measurement data of aboveground litterfall and littermass and litter carbon, nitrogen, and nutrient concentrations were extracted from 685 original literature sources and compiled into a comprehensive database to support the analysis of global patterns of carbon and nutrients in litterfall and litter pools. Data are included from sources dating from 1827 to 1997. The reported data include the literature reference, general site information (description, latitude, longitude, and elevation), site climate data (mean annual temperature and precipitation), site vegetation characteristics (management, stand age, ecosystem and vegetation-type codes), annual quantities of litterfall (by class, kg m-2 yr-1), litter pool mass (by class and litter layer, kg m-2), and concentrations of nitrogen (N), phosphorus (P), and base cations for the litterfall (g m-2 yr-1) and litter pool components (g m-2).  The investigators intent was to compile a comprehensive data set of individual direct field measurements as reported by researchers. While the primary emphasis was on acquiring C data, measurements of N, P, and base cations were also obtained, although the database is sparse for elements other than C and N. Each of the 1,497 records in the database represents a measurement site. Replicate measurements were averaged according to conventions described in Section 5 and recorded for each site in the database. The sites were at 575 different locations. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "Global_Microbial_Biomass_C_N_P_1264.v1",
+        "title": "A Compilation of Global Soil Microbial Biomass Carbon, Nitrogen, and Phosphorus Data",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1977-11-16",
+        "end_date": "2012-06-01",
+        "bbox": "-180, -90, 177.9, 79",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2216863966-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2216863966-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Global_Microbial_Biomass_C_N_P_1264.v1",
+        "description": "This data set provides the concentrations of soil microbial biomass carbon (C), nitrogen (N) and phosphorus (P), soil organic carbon, total nitrogen, and total phosphorus at biome and global scales. The data were compiled from a comprehensive survey of publications from the late 1970s to 2012 and include 3,422 data points from 315 papers. These data are from soil samples collected primarily at 0-15 cm depth with some from 0-30 cm. In addition, data were compiled for soil microbial biomass concentrations from soil profile samples to depths of 100 cm. Sampling site latitude and longitude were available for the majority of the samples that enabled assembling additional soil properties, site characteristics, vegetation distributions, biomes, and long-term climate data from several global sources of soil, land-cover, and climate data. These site attributes are included with the microbial biomass data. This data set contains two *.csv files of the soil microbial biomass C, N, P data. The first provides all compiled results emphasizing the full spatial extent of the data, while the second is a subset that provides only data from a series of profile samples emphasizing the vertical distribution of microbial biomass concentrations.There is a companion file, also in .csv format, of the references for the surveyed publications. A reference_number relates the data to the respective publication.The concentrations of soil microbial biomass, in combination with other soil databases, were used to estimate the global storage of soil microbial biomass C and N in 0-30 cm and 0-100 cm soil profiles. These storage estimates were combined with a spatial map of 12 major biomes (boreal forest, temperate coniferous forest, temperate broadleaf forest, tropical and subtropical forests, mixed forest, grassland, shrub, tundra, desert, natural wetland, cropland, and pasture) at 0.05-degree by 0.5-degree spatial resolution. The biome map and six estimates of C and N storage and C:N ration in soil microbial biomass are provided in a single netCDF format file. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "Global_Phosphorus_Hedley_Fract_1230.v1",
+        "title": "A Global Database of Soil Phosphorus Compiled from Studies Using Hedley Fractionation",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1985-01-01",
+        "end_date": "2010-12-31",
+        "bbox": "-117.86, -42.5, 117.6, 63.23",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2216863440-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2216863440-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Global_Phosphorus_Hedley_Fract_1230.v1",
+        "description": "This data set provides concentrations of soil phosphorus (P) compiled from the peer-reviewed literature that cited the Hedley fractionation method (Hedley and Stewart, 1982). This database contains estimates of different forms of naturally occurring soil phosphorus, including labile inorganic P, organic P, occluded P, secondary mineral P, apatite P, and total P, based on the analyses of the various Hedley soil fractions.The recent literature survey (Yang and Post, 2011) was restricted to studies of natural, unfertilized, and uncultivated soils since 1995. Ninety measurements of soil P fractions were identified. These were added to the 88 values from soils in natural ecosystems that Cross and Schlesinger (1995) had compiled. Cross and Schlesinger provided a comprehensive survey on Hedley P data prior to 1995. Measurement data are provided for studies published from 1985 through 2010. In addition to the Hedley P fraction measurement data Yang and Post (2011) also compiled information on soil order, soil pH, organic carbon and nitrogen content, as well as the geographic location (longitude and latitude) of the measurement sites. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "Global_RTSG_Flux_1078.v1",
+        "title": "A Global Database of Gas Fluxes from Soils after Rewetting or Thawing, Version 1.0",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1956-01-01",
+        "end_date": "2009-12-31",
+        "bbox": "-149.63, -36.45, 160.52, 74.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2216863284-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2216863284-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Global_RTSG_Flux_1078.v1",
+        "description": "This database contains information compiled from published studies on gas flux from soil following rewetting or thawing. The resulting database includes 222 field and laboratory observations focused on rewetting of dry soils, and 116 field laboratory observations focused on thawing of frozen soils studies conducted from 1956 to 2010. Fluxes of carbon dioxide, methane, nitrous oxide, nitrogen oxide, and ammonia (CO2, CH4, N2O, NO and NH3) were compiled from the literature and the flux rates were normalized for ease of comparison. Field observations of gas flux following rewetting of dry soils include events caused by natural rainfall, simulated rainfall in natural ecosystems, and irrigation in agricultural lands. Similarly, thawing of frozen soils include field observations of natural thawing, simulated freezing-thawing events (i.e., thawing of simulated frozen soil by snow removal), and thawing of seasonal ice in temperate and high latitude regions (Kim et al., 2012). Reported parameters include experiment type, location, site type, vegetation, climate, soil properties, rainfall, soil moisture, soil gas flux after wetting and thawing, peak soil gas flux properties, and the corresponding study references. There is one comma-delimited data file. ",
+        "license": "not-provided"
+    },
+    {
         "id": "GreenBay.v0",
         "title": "2010 Measurements made in Green Bay, Wisconsin",
         "catalog": "OB_DAAC",
@@ -3003,6 +3146,19 @@
         "license": "not-provided"
     },
     {
+        "id": "LAI_Woody_Plants_1231.v1",
+        "title": "A Global Database of Field-observed Leaf Area Index in Woody Plant Species, 1932-2011",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1932-01-01",
+        "end_date": "2011-12-31",
+        "bbox": "-164.78, -54.2, 175.62, 78.42",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2784385653-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2784385653-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/LAI_Woody_Plants_1231.v1",
+        "description": "This data set provides global leaf area index (LAI) values for woody species. The data are a compilation of field-observed data from 1,216 locations obtained from 554 literature sources published between 1932 and 2011. Only site-specific maximum LAI values were included from the sources; values affected by significant artificial treatments (e.g. continuous fertilization and/or irrigation) and LAI values that were low due to drought or disturbance (e.g. intensive thinning, wildfire, or disease), or because vegetation was immature or old/declining, were excluded (Lio et al., 2014). To maximize the generic applicability of the data, original LAI values from source literature and values standardized using the definition of half of total surface area (HSA) are included. Supporting information, such as geographical coordinates of plot, altitude, stand age, name of dominant species, plant functional types, and climate data are also provided in the data file. There is one data file in comma-separated (.csv) format with this data set and one companion file which provides the data sources.",
+        "license": "not-provided"
+    },
+    {
         "id": "LGB_10m_traverse.v1",
         "title": "10 m firn temperature data: LGB traverses 1990-95",
         "catalog": "AU_AADC",
@@ -3013,6 +3169,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214313574-AU_AADC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/LGB_10m_traverse.v1",
         "description": "The Lambert Glacier Basin (LGB) series of five oversnow traverses were conducted from 1989-95. Ten metre depth (10 m) firn temperatures, as a proxy indicator of annual mean surface temperature at a site, were recorded approximately every 30 km along the 2014 km main traverse route from LGB00 (68.6543 S, 61.1201 E) near Mawson Station, to LGB72 (69.9209 S, 76.4933 E) near Davis Station.  10 m depth firn temperatures were recorded manually in field notebooks and the data transferred to spreadsheet files (MS Excel).  Summary data (30 km spatial resolution) can be obtained from CRC Research Note No.09 'Surface Mass Balance and Snow Surface Properties from the Lambert Glacier Basin Traverses 1990-94'.  This work was completed as part of ASAC projects 3 and 2216.  Some of this data have been stored in a very old format.  The majority of files have been updated to current formats, but some files (kaleidograph files in particular) were not able to be modified due to a lack of appropriate software.  However, these files are simply figures, and can be regenerated from the raw data (also provided).  The fields in this dataset are:  Latitutde Longitude Height Cane Distance Elevation Density Mass Accumulation Year Delta Oxygen-18 Grain Size Ice Crusts Depth Hoar",
+        "license": "not-provided"
+    },
+    {
+        "id": "Leaf_Carbon_Nutrients_1106.v1",
+        "title": "A Global Database of Carbon and Nutrient Concentrations of Green and Senesced Leaves",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1970-01-01",
+        "end_date": "2009-12-31",
+        "bbox": "-159.7, -50, 176.9, 68.5",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2784383820-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2784383820-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Leaf_Carbon_Nutrients_1106.v1",
+        "description": "This data set provides carbon (C), nitrogen (N), phosphorus (P), potassium (K), calcium (Ca), and magnesium (Mg) concentrations in green and senesced leaves. Vegetation characteristics reported include species growth habit, leaf area, mass, and mass loss with senescence. The data were compiled from 86 selected studies in 31 countries, and resulted in approximately 1,000 data points for both green and senesced leaves from woody and non-woody vegetation as described in Vergutz et al (2012). The studies were conducted from 1970-2009. There are two comma-delimited data files with this data set.",
+        "license": "not-provided"
+    },
+    {
+        "id": "Leaf_Photosynthesis_Traits_1224.v1",
+        "title": "A Global Data Set of Leaf Photosynthetic Rates, Leaf N and P, and Specific Leaf Area",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1993-01-01",
+        "end_date": "2010-12-31",
+        "bbox": "-122.4, -43.2, 176.13, 58.42",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2784384781-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2784384781-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/Leaf_Photosynthesis_Traits_1224.v1",
+        "description": "This global data set of photosynthetic rates and leaf nutrient traits was compiled from a comprehensive literature review. It includes estimates of Vcmax (maximum rate of carboxylation), Jmax (maximum rate of electron transport), leaf nitrogen content (N), leaf phosphorus content (P), and specific leaf area (SLA) data from both experimental and ambient field conditions, for a total of 325 species and treatment combinations. Both the original published Vcmax and Jmax values as well as estimates at standard temperature are reported. The maximum rate of carboxylation (Vcmax) and the maximum rate of electron transport (Jmax) are primary determinants of photosynthetic rates in plants, and modeled carbon fluxes are highly sensitive to these parameters. Previous studies have shown that Vcmax and Jmax correlate with leaf nitrogen across species and regions, and locally across species with leaf phosphorus and specific leaf area, yet no universal relationship suitable for global-scale models is currently available. These data are suitable for exploring the general relationships of Vcmax and Jmax with each other and with leaf N, P and SLA. This data set contains one *.csv file.",
         "license": "not-provided"
     },
     {
@@ -4329,6 +4511,19 @@
         "license": "not-provided"
     },
     {
+        "id": "a6efcb0868664248b9cb212aba44313d",
+        "title": "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 2 aerosol products from MERIS (ALAMO algorithm), Version 2.2",
+        "catalog": "FEDEO",
+        "state_date": "2008-01-01",
+        "end_date": "2008-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2548142742-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2548142742-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/a6efcb0868664248b9cb212aba44313d",
+        "description": "The ESA Climate Change Initiative Aerosol project has produced a number of global aerosol Essential Climate Variable (ECV) products from a set of European satellite instruments with different characteristics. This dataset comprises the Level 2 aerosol products from MERIS for 2008, using the ALAMO algorithm, version 2.2.   The data have been provided by Hygeos.For further details about these data products please see the linked documentation.",
+        "license": "not-provided"
+    },
+    {
         "id": "aamhcpex.v1",
         "title": "AAMH CPEX",
         "catalog": "GHRC_DAAC",
@@ -4550,6 +4745,19 @@
         "license": "not-provided"
     },
     {
+        "id": "b673f41b-d934-49e4-af6b-44bbdf164367",
+        "title": "AVHRR - Land Surface Temperature (LST) - Europe, Daytime",
+        "catalog": "FEDEO",
+        "state_date": "1998-02-23",
+        "end_date": "",
+        "bbox": "-24, 28, 57, 78",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458008-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207458008-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/b673f41b-d934-49e4-af6b-44bbdf164367",
+        "description": "The \"Land Surface Temperature derived from NOAA-AVHRR data (LST_AVHRR)\" is a fixed grid map (in stereographic projection ) with a spatial resolution of 1.1 km. The total size covering Europe is 4100 samples by 4300 lines. Within 24 hours of acquiring data from the satellite, day-time and night-time LSTs are calculated. In general, the products utilise data from all six of the passes that the satellite makes over Europe in each 24 hour period. For the daily day-time LST maps, the compositing criterion for the three day-time passes is maximum NDVI value and for daily night-time LST maps, the criterion is the maximum night-time LST value of the three night-time passes. Weekly and monthly day-time or night-time LST composite products are also produced by averaging daily day-time or daily night-time LST values, respectively. The range of LST values is scaled between \u201339.5\u00b0C and +87\u00b0C with a radiometric resolution of 0.5\u00b0C. A value of \u201340\u00b0C is used for water. Clouds are masked out as bad values. For additional information, please see: https://wdc.dlr.de/sensors/avhrr/",
+        "license": "not-provided"
+    },
+    {
         "id": "blue_ice_core_DML2004_AS",
         "title": "101.1 m long horizontal blue ice core collected from Scharffenbergbotnen, DML, Antarctica, in 2003/2004",
         "catalog": "SCIOPS",
@@ -4628,6 +4836,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ef6a9266-a210-4431-a4af-06cec4274726",
+        "title": "Cartosat-1 (IRS-P5) - Panchromatic Images (PAN) - Europe, Monographic",
+        "catalog": "FEDEO",
+        "state_date": "2015-02-10",
+        "end_date": "",
+        "bbox": "-25, 30, 45, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207457985-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207457985-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/ef6a9266-a210-4431-a4af-06cec4274726",
+        "description": "Indian Remote Sensing satellites (IRS) are a series of Earth Observation satellites, built, launched and maintained by Indian Space Research Organisation. The IRS series provides many remote sensing services to India and international ground stations. The satellite has two panchromatic cameras that were especially designed for in flight stereo viewing. However, this collection contains the monoscopic data.",
+        "license": "not-provided"
+    },
+    {
         "id": "envidat-lwf-34.v2019-03-06",
         "title": "10-HS Pfynwald",
         "catalog": "ENVIDAT",
@@ -4638,6 +4859,32 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815241-ENVIDAT.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/envidat-lwf-34.v2019-03-06",
         "description": "Continuous measurement of soil water content at 10 and 80 cm depth (3 replications) with 10-HS soil moisture probes (Decagon Incorporation, Pullman, WA, USA).    ### Purpose: ###    Monitoring of the soil water matrix potential        ### Paper Citation: ###     * Dobbertin, M.; Eilmann, B.; Bleuler, P.; Giuggiola, A.; Graf Pannatier, E.; Landolt, W.; Schleppi, P.; Rigling, A., 2010: Effect of irrigation on needle morphology, shoot and stem growth in a drought-exposed Pinus sylvestris forest. Tree Physiology, 30, 3: 346-360. [doi: 10.1093/treephys/tpp123](http://doi.org/10.1093/treephys/tpp123)    ",
+        "license": "not-provided"
+    },
+    {
+        "id": "fife_hydrology_strm_15m_1.v1",
+        "title": "15 Minute Stream Flow Data: USGS (FIFE)",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1984-12-25",
+        "end_date": "1988-03-04",
+        "bbox": "-96.6, 39.1, -96.6, 39.1",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2977827088-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2977827088-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/fife_hydrology_strm_15m_1.v1",
+        "description": "USGS 15 minute stream flow data for Kings Creek on the Konza Prairie",
+        "license": "not-provided"
+    },
+    {
+        "id": "fife_sur_met_rain_30m_2.v1",
+        "title": "30 Minute Rainfall Data (FIFE)",
+        "catalog": "ORNL_CLOUD",
+        "state_date": "1987-05-29",
+        "end_date": "1987-10-26",
+        "bbox": "-96.6, 39.08, -96.55, 39.11",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2977893818-ORNL_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2977893818-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/fife_sur_met_rain_30m_2.v1",
+        "description": "30 minute rainfall data for the Konza Prairie",
         "license": "not-provided"
     },
     {
@@ -4872,6 +5119,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789816347-ENVIDAT.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/pfynwaldgasexchange.v1.0",
         "description": "Gas exchange was measured on control, irrigated and irrigation-stop trees at the irrigation experiment Pfynwald, during the years 2013, 2014, 2016-2020. The measurement campaigns served different purposes, resulting in a large dataset containing survey data, CO2 response curves of photosynthesis, light response curves of photosynthesis, and fluorescence measurements. Measurements were done with LiCor 6400 and LiCor 6800 instruments. Until 2016, measurements were done on excised branches or branches lower in the canopy. From 2016 onwards, measurements were done in the top of the canopy using fixed installed scaffolds.   All metadata can be found in the attached documents.",
+        "license": "not-provided"
+    },
+    {
+        "id": "urn:ogc:def:EOP:VITO:VGT_S10.v1",
+        "title": "10 Days Synthesis of SPOT VEGETATION Images (VGT-S10)",
+        "catalog": "FEDEO",
+        "state_date": "1998-04-01",
+        "end_date": "2014-05-31",
+        "bbox": "-180, -56, 180, 75",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2207472890-FEDEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207472890-FEDEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/urn:ogc:def:EOP:VITO:VGT_S10.v1",
+        "description": "The VGT-S10 are near-global or continental, 10-daily composite images which are synthesised from the 'best available' observations registered in the course of every 'dekad' by the orbiting earth observation system SPOT-VEGETATION. The products provide data from all spectral bands (SWIR, NIR, RED, BLUE), the NDVI and auxiliary data on image acquisition parameters. The VEGETATION system allows operational and near real-time applications, at global, continental and regional scales, in very broad environmentally and socio-economically critical fields. The VEGETATION instrument is operational since April 1998, first with VGT1, from March 2003 onwards, with VGT2. More information is available on: https://docs.terrascope.be/#/DataProducts/SPOT-VGT/Level3/Level3",
         "license": "not-provided"
     }
 ]
