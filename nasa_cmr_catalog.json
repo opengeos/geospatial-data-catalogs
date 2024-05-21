@@ -938,39 +938,39 @@
     {
         "id": "AG100.v003",
         "title": "ASTER Global Emissivity Dataset, 100 meter, HDF5 V003",
-        "catalog": "LPDAAC_ECS",
+        "catalog": "LPCLOUD",
         "state_date": "2000-01-01",
         "end_date": "2008-12-31",
         "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000362-LPDAAC_ECS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000362-LPDAAC_ECS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPDAAC_ECS/collections/AG100.v003",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266348-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266348-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/AG100.v003",
         "description": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Emissivity Dataset (GED) land surface temperature and emissivity (LST&E) data products are generated using the ASTER Temperature Emissivity Separation (TES) algorithm with a Water Vapor Scaling (WVS) atmospheric correction method using Moderate Resolution Imaging Spectroradiometer (MODIS) (MOD07) (https://modis-atmos.gsfc.nasa.gov/MOD07_L2/index.html) atmospheric profiles and the MODerate spectral resolution TRANsmittance (MODTRAN 5.2 radiative transfer model). This dataset is computed from all clear-sky pixels of ASTER scenes acquired from 2000 through 2008. AG100 data are available globally at spatial resolution of 100 meters.    The National Aeronautics and Space Administration\u2019s (NASA) Jet Propulsion Laboratory (JPL), California Institute of Technology, developed the ASTER GED product.  ",
         "license": "not-provided"
     },
     {
         "id": "AG1km.v003",
         "title": "ASTER Global Emissivity Dataset, 1 kilometer, HDF5 V003",
-        "catalog": "LPDAAC_ECS",
+        "catalog": "LPCLOUD",
         "state_date": "2000-01-01",
         "end_date": "2008-12-31",
         "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000380-LPDAAC_ECS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1000000380-LPDAAC_ECS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPDAAC_ECS/collections/AG1km.v003",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266350-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266350-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/AG1km.v003",
         "description": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Emissivity Dataset (GED) land surface temperature and emissivity (LST&E) data products are generated using the ASTER Temperature Emissivity Separation (TES) algorithm with a Water Vapor Scaling (WVS) atmospheric correction method using Moderate Resolution Imaging Spectroradiometer (MODIS) (MOD07) (https://modis-atmos.gsfc.nasa.gov/MOD07_L2/index.html) atmospheric profiles and the MODerate Spectral resolution TRANsmittance (MODTRAN) 5.2 radiative transfer model. This dataset is computed from all clear-sky pixels of ASTER scenes acquired from 2000 through 2008. AG1KM data are available globally at spatial resolution of 1 kilometer.    The National Aeronautics and Space Administration\u2019s (NASA) Jet Propulsion Laboratory (JPL), California Institute of Technology, developed the ASTER GED product.",
         "license": "not-provided"
     },
     {
         "id": "AG5KMMOH.v041",
         "title": "ASTER Global Emissivity Dataset, Monthly, 0.05 deg, HDF5 V041",
-        "catalog": "LPDAAC_ECS",
+        "catalog": "LPCLOUD",
         "state_date": "2000-03-01",
         "end_date": "2015-12-31",
         "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1344831606-LPDAAC_ECS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1344831606-LPDAAC_ECS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPDAAC_ECS/collections/AG5KMMOH.v041",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268461-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268461-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/AG5KMMOH.v041",
         "description": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Emissivity Dataset (GED) is a collection of monthly files (see known issues for gaps) for each year of global emissivity. The ASTER GED data products are generated for 2000 through 2015 using the ASTER Temperature Emissivity Separation (TES) algorithm atmospheric correction method. This algorithm method uses Moderate Resolution Imaging Spectroradiometer (MODIS) Atmospheric Profiles product (MOD07) (https://modis-atmos.gsfc.nasa.gov/MOD07_L2/index.html) and the MODerate spectral resolution TRANsmittance (MODTRAN) 5.2 radiative transfer model along with the snow cover data from the standard monthly MODIS/Terra snow cover monthly global 0.05 degree product (MOD10CM) (https://doi.org/10.5067/MODIS/MOD10CM.006), and vegetation information from the MODIS monthly gridded NDVI product (MOD13C2) (https://doi.org/10.5067/MODIS/MOD13C2.006). ASTER GED Monthly V041 data products are offered in Hierarchical Data Format 5 (HDF5).    The National Aeronautics and Space Administration\u2019s (NASA) Jet Propulsion Laboratory (JPL), California Institute of Technology, developed the ASTER GED product.",
         "license": "not-provided"
     },
@@ -1521,6 +1521,32 @@
         "license": "not-provided"
     },
     {
+        "id": "AST_05.v003",
+        "title": "ASTER L2 Surface Emissivity V003",
+        "catalog": "LPDAAC_ECS",
+        "state_date": "2000-03-04",
+        "end_date": "",
+        "bbox": "-180, -83, 180, 83",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1299783607-LPDAAC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1299783607-LPDAAC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPDAAC_ECS/collections/AST_05.v003",
+        "description": "The ASTER L2 Surface Emissivity is an on-demand product ((https://lpdaac.usgs.gov/documents/996/ASTER_Earthdata_Search_Order_Instructions.pdf)) generated using the five thermal infrared (TIR) bands (acquired either during the day or night time) between 8 and 12 \u00b5m spectral range. It contains surface emissivity over the land at 90 meters spatial resolution. Estimates of surface emissivity were thus far only derived using surrogates such as land-cover type or vegetation index.     The Temperature/Emissivity Separation (TES) algorithm is used to derive both E (emissivity) and T (surface temperature). The main goals of the TES algorithm include: recovering accurate and precise emissivities for mineral substrates, and estimating accurate and precise surface temperatures especially over vegetation, water and snow.The TES algorithm is executed in the ASTER processing chain following generation of ASTER Level-2 Surface Radiance (TIR). The land-leaving radiance and down-welling irradiance vectors for each pixel are taken in account. Emissivity is estimated using the Normalized Emissivity Method (NEM), and is iteratively compensated for reflected sunlight. The emissivity spectrum is normalized using the average emissivity of each pixel. The minimum-maximum difference (MMD) of the normalized spectrum is calculated and estimates of the minimum emissivity derived through regression analysis. These estimates are used to scale the normalized emissivity and compensate for reflected skylight with the derived refinement of emissivity.     ASTER Level 2 data requests for observations that occurred after May 27, 2020 will resort back to using the climatology ozone input. Additional information can be found in the ASTER L2 Processing Options Update (https://lpdaac.usgs.gov/news/aster-l2-processing-options-update/).    V003 data set release date: 2002-05-03    Starting June 23, 2021, radiometric calibration coefficient Version 5 (RCC V5) will be applied to newly observed ASTER data and archived ASTER data products. Details regarding RCC V5 are described in the following journal article.    Tsuchida, S., Yamamoto, H., Kouyama, T., Obata, K., Sakuma, F., Tachikawa, T., Kamei, A., Arai, K., Czapla-Myers, J.S., Biggar, S.F., and Thome, K.J., 2020, Radiometric Degradation Curves for the ASTER VNIR Processing Using Vicarious and Lunar Calibrations: Remote Sensing, v. 12, no. 3, at https://doi.org/10.3390/rs12030427.    As of December 15, 2021, the LP DAAC has implemented changes to ASTER PGE Version 3.4, which will affect all ASTER Level 2 on-demand products.  Changes include:  \u2022\tAura Ozone Monitoring Instrument (OMI) has been added as one of the ancillary ozone inputs for any observations made after May 27, 2020.  The sequence of fallbacks for ozone will remain the same.  \u2022\tToolkit has been updated from Version 5.2.17 to 5.2.20.  Users may notice minor differences between the two versions.  Differences may include minuscule changes in digital numbers around the peripheral of the granule and boundaries of a cloud for Surface Reflectance and Surface Radiance (AST07 and AST09) QA Data Plane depending on the Operating System and libraries being used by the user to process the data.    Additionally, Climatology, which is one of the inputs for Ozone and Moisture, Temperature and Pressures (MTP) will be removed from the Earthdata Order Form.  It has been observed that PGEs generated with Climatology as an input yield noticeable differences statistically during image and spectral analysis.  Climatology will continue to be used as the final default if neither of the first two selectable options are available for Ozone and MTP.  Users can check the OPERATIONALQUALITYFLAGEXPLANATION field in the metadata or the output file for atmospheric parameters that were applied.    Aura OMI data are no longer available as an input for ASTER Level 2 data acquisitions after October 6, 2023. For data acquired after this date, ozone inputs will automatically fall back to climatology ozone inputs when Aura OMI is selected as an input. For more details, please refer to the Discontinuation of Aura OMI as an Input news announcement (https://lpdaac.usgs.gov/news/discontinuation-of-aura-omi-as-an-ancillary-ozone-input-for-aster-products/).  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "AST_09XT.v003",
+        "title": "ASTER L2 Surface Radiance - VNIR and Crosstalk Corrected SWIR V003",
+        "catalog": "LPDAAC_ECS",
+        "state_date": "2000-03-06",
+        "end_date": "",
+        "bbox": "-180, -83, 180, 83",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1299783631-LPDAAC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1299783631-LPDAAC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPDAAC_ECS/collections/AST_09XT.v003",
+        "description": "The ASTER Surface Radiance VNIR and Crosstalk Corrected SWIR (AST_09XT) is a multi-file product (https://lpdaac.usgs.gov/documents/996/ASTER_Earthdata_Search_Order_Instructions.pdf) that contains atmospherically corrected data for both the Visible and Near Infrared (VNIR) and Shortwave Infrared (SWIR) sensors. The crosstalk phenomenon was discovered during the nascent stage of the Terra Mission. It is whereby the incident light with band 4 caused multiple reflections for the SWIR bands, which resulted in blurred images. This has been corrected with the ASTER L2 Surface Radiance VNIR and Crosstalk Corrected SWIR data product. Each product delivery includes two Hierarchical Data Format - Earth Observing System (HDF-EOS) files: one for the VNIR, and the other for the SWIR. Both the VNIR and the SWIR data are atmospherically corrected using the corresponding bands from an (ASTER Level 1B) (https://doi.org/10.5067/ASTER/AST_L1B.003) image.    ASTER Level 2 data requests for observations that occurred after May 27, 2020 will resort back to using the climatology ozone input. Additional information can be found in the ASTER L2 Processing Options Update (https://lpdaac.usgs.gov/news/aster-l2-processing-options-update/).    Starting June 23, 2021, radiometric calibration coefficient Version 5 (RCC V5) will be applied to newly observed ASTER data and archived ASTER data products. Details regarding RCC V5 are described in the following journal article.    Tsuchida, S., Yamamoto, H., Kouyama, T., Obata, K., Sakuma, F., Tachikawa, T., Kamei, A., Arai, K., Czapla-Myers, J.S., Biggar, S.F., and Thome, K.J., 2020, Radiometric Degradation Curves for the ASTER VNIR Processing Using Vicarious and Lunar Calibrations: Remote Sensing, v. 12, no. 3, at https://doi.org/10.3390/rs12030427.    As of December 15, 2021, the LP DAAC has implemented changes to ASTER PGE Version 3.4, which will affect all ASTER Level 2 on-demand products.  Changes include:  \u2022\tAura Ozone Monitoring Instrument (OMI) has been added as one of the ancillary ozone inputs for any observations made after May 27, 2020.  The sequence of fallbacks for ozone will remain the same.  \u2022\tToolkit has been updated from Version 5.2.17 to 5.2.20.  Users may notice minor differences between the two versions.  Differences may include minuscule changes in digital numbers around the peripheral of the granule and boundaries of a cloud for Surface Reflectance and Surface Radiance (AST07 and AST09) QA Data Plane depending on the Operating System and libraries being used by the user to process the data.    Additionally, Climatology, which is one of the inputs for Ozone and Moisture, Temperature and Pressures (MTP) will be removed from the Earthdata Order Form.  It has been observed that PGEs generated with Climatology as an input yield noticeable differences statistically during image and spectral analysis.  Climatology will continue to be used as the final default if neither of the first two selectable options are available for Ozone and MTP.  Users can check the OPERATIONALQUALITYFLAGEXPLANATION field in the metadata or the output file for atmospheric parameters that were applied.    Aura OMI data are no longer available as an input for ASTER Level 2 data acquisitions after October 6, 2023. For data acquired after this date, ozone inputs will automatically fall back to climatology ozone inputs when Aura OMI is selected as an input. For more details, please refer to the Discontinuation of Aura OMI as an Input news announcement (https://lpdaac.usgs.gov/news/discontinuation-of-aura-omi-as-an-ancillary-ozone-input-for-aster-products/).",
+        "license": "not-provided"
+    },
+    {
         "id": "AST_L1A.v003",
         "title": "ASTER L1A Reconstructed Unprocessed Instrument Data V003",
         "catalog": "LPDAAC_ECS",
@@ -1544,6 +1570,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C179460405-LPDAAC_ECS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPDAAC_ECS/collections/AST_L1AE.v003",
         "description": "The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Expedited Level 1A Reconstructed Unprocessed Instrument Data (AST_L1AE) global product contains reconstructed, unprocessed instrument digital data derived from the acquired telemetry streams of the telescopes: Visible and Near Infrared (VNIR), Shortwave Infrared (SWIR), and Thermal Infrared (TIR). This data product is similar to the (AST_L1A) (http://doi.org/10.5067/ASTER/AST_L1A.003) with a few notable exceptions. These include:  * The AST_L1AE is available for download within 48 hours of acquisition in support of field calibration and validation efforts, in addition to emergency response for natural disasters where the quick turn-around time from acquisition to availability would prove beneficial in initial damage or impact assessments.  * The registration quality of the AST_L1AE is likely to be lower than the AST_L1A, and may vary from scene to scene.  * The AST_L1AE data product does not contain the VNIR 3B (aft-viewing) Band.  * This dataset does not have short-term calibration for the Thermal Infrared (TIR) sensor.  * The AST_L1AE data product is only available for download 30 days after acquisition. It is then removed and reprocessed into an AST_L1A product.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AST_L1B.v003",
+        "title": "ASTER L1B Registered Radiance at the Sensor V003",
+        "catalog": "LPDAAC_ECS",
+        "state_date": "2000-03-04",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C190733714-LPDAAC_ECS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C190733714-LPDAAC_ECS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPDAAC_ECS/collections/AST_L1B.v003",
+        "description": "The Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Level-1B (AST_L1B) Registered Radiance at the Sensor data product is radiometrically calibrated and geometrically co-registered. Application of intra-telescope and inter-telescope registration corrections for all bands are relative to the reference band for each telescope: Visible and Near Infrared (VNIR) Band 2, Shortwave Infrared (SWIR) Band 6, and Thermal Infrared (TIR) Band 11. The spatial resolution is 15 m (VNIR), 30 m (SWIR), and 90 m (TIR) with a temporal coverage of 2000 to present.     Starting June 23, 2021, radiometric calibration coefficient Version 5 (RCC V5) will be applied to newly observed ASTER data and archived ASTER data products. Details regarding RCC V5 are described in the following journal article.    Tsuchida, S., Yamamoto, H., Kouyama, T., Obata, K., Sakuma, F., Tachikawa, T., Kamei, A., Arai, K., Czapla-Myers, J.S., Biggar, S.F., and Thome, K.J., 2020, Radiometric Degradation Curves for the ASTER VNIR Processing Using Vicarious and Lunar Calibrations: Remote Sensing, v. 12, no. 3, at https://doi.org/10.3390/rs12030427.  ",
         "license": "not-provided"
     },
     {
@@ -2405,32 +2444,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ECO_L2G_LSTE.v002",
-        "title": "ECOSTRESS Gridded Land Surface Temperature and Emissivity Instantaneous L2 Global 70 m V002",
-        "catalog": "LPCLOUD",
-        "state_date": "2018-07-09",
-        "end_date": "",
-        "bbox": "-180, -54, 180, 54",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076113037-LPCLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076113037-LPCLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L2G_LSTE.v002",
-        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found in figure 2 on the ECOSTRESS website(https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Gridded Land Surface Temperature and Emissivity Instantaneous Level 2 Global 70 m (ECO_L2G_LSTE) Version 2 data product provides atmospherically corrected land surface temperature and emissivity (LST&E) values derived from five thermal infrared (TIR) bands. The ECO_L2G_LSTE data product was derived using a physics-based Temperature and Emissivity Separation (TES) algorithm. This data product is a gridded version of the ECO_L2_LSTE (https://doi.org/10.5067/ECOSTRESS/ECO_L2_LSTE.002) Version 2 data product that was resampled using nearest neighbor, projected to a globally snapped 0.0006\u00b0 grid, and repackaged as the ECO_L2G_LSTE data product. The ECO_L2G_LSTE product is provided as gridded data and has a spatial resolution of 70 meters (m). The ECO_L2G_LSTE Version 2 data product contains 8 layers distributed in an HDF5 format file including LST, LST error, wideband emissivity, height, view zenith angle, quality flags, and cloud and water masks.    Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach TIR bands 2, 4, and 5 are being downloaded. The data products are as previously, except the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.  *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.  *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.  ",
-        "license": "not-provided"
-    },
-    {
-        "id": "ECO_L3G_JET.v002",
-        "title": "ECOSTRESS Gridded Evapotranspiration Instantaneous and Daytime L3 Global 70 m V002",
-        "catalog": "LPCLOUD",
-        "state_date": "2018-07-09",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076112011-LPCLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076112011-LPCLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L3G_JET.v002",
-        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Gridded Evapotranspiration Instantaneous and Daytime L3 Global 70 m (ECO_L3G_JET) Version 2 data product provides instantaneous canopy transpiration, leaf surface evaporation, and soil moisture evaporation using the Priestley-Taylor formula. This data product is mosaicked from the L3 tiled JET (ECO_L3T_JET (https://doi.org/10.5067/ECOSTRESS/ECO_L3T_JET.002)) product, projected to a globally snapped 0.0006\u00b0 grid, and has a spatial resolution of 70 meters (m).  The ECO_L3G_JET Version 2 data product contains 12 layers distributed in an HDF5 format file including ETdaily, ETinstUncertainty, PTJPLSMinst, STICinst, MOD16inst, BESSinst, STICcanopy, PTJPLSMcanopy, PTJPLSMinterception, PTJPLSMsoil, cloud mask, and water mask.  ",
-        "license": "not-provided"
-    },
-    {
         "id": "ECO_L3G_MET.v002",
         "title": "ECOSTRESS Gridded Downscaled Meteorology Instantaneous L3 Global 70 m V002",
         "catalog": "LPCLOUD",
@@ -2454,19 +2467,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2074890845-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L3G_SM.v002",
         "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found on the ECOSTRESS website.    The ECOSTRESS Gridded Downscaled Soil Moisture Instantaneous L3 Global 70 m (ECO_L3G_SM) Version 2 data product provides instantaneous soil moisture (SM) estimates downscaled using linear regression. The linear regression uses up-sampled surface temperature (ST), normalized difference vegetation index (NDVI), and albedo as predictor variables and SM from Goddard Earth Observing System Version 5 (GEOS-5) Forward Processing (FP) as response variables for their relative outputs. Once the regression coefficients have been determined, they are applied to the 70 meter (m) ST, NDVI, and albedo as a first pass, which is then bias corrected using a GEOS-5 FP image. This data product is mosaicked from the L3 tiled SM (ECO_L3T_SM) product, is projected to a globally snapped 0.0006\u00b0 grid, and has a spatial resolution of 70 m.    The ECO_L3G_SM Version 2 data product contains three layers distributed in an HDF5 file including SM, cloud mask, and water mask.    Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU, and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach, only Thermal Infrared (TIR) bands 2, 4, and 5 are being downloaded. The data products are the same as before, but the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.    *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.    *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.",
-        "license": "not-provided"
-    },
-    {
-        "id": "ECO_L4G_ESI.v002",
-        "title": "ECOSTRESS Gridded Evaporative Stress Index PT-JPL Instantaneous L4 Global 70 m",
-        "catalog": "LPCLOUD",
-        "state_date": "2018-07-09",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076110703-LPCLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076110703-LPCLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L4G_ESI.v002",
-        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found on the ECOSTRESS website.    The ECOSTRESS Gridded Evaporative Stress Index PT-JPL Instantaneous L4 Global 70 m (ECO_L4G_ESI) Version 2 data product uses the Priestley-Taylor Jet Propulsion Laboratory Soil Moisture (PT-JPL-SM) model to generate estimates of both actual and potential instantaneous evapotranspiration (ET). The potential evapotranspiration (PET) estimate represents the maximum expected ET if there were no water stress to plants on the ground. The ratio of the actual ET estimate to the PET estimate forms an index representing the water stress of plants.    The ECO_L4G_ESI Version 2 data product is available globally and is projected to a globally snapped 0.0006\u00b0 grid with a 70 meter spatial resolution and is distributed in HDF5. Each granule contains layers of Evaporative Stress Index (ESI), PET, cloud mask, and water mask. A low-resolution browse is also available showing daily ESI as a stretched image with a color ramp in JPEG format.    Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU, and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach, only Thermal Infrared (TIR) bands 2, 4, and 5 are being downloaded. The data products are the same as before, but the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023. *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected. *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.",
         "license": "not-provided"
     },
     {
@@ -3848,6 +3848,19 @@
         "license": "not-provided"
     },
     {
+        "id": "PACE_EPH_DEF.v1",
+        "title": "PACE Definitive Ephemeris Data, version 1",
+        "catalog": "OB_CLOUD",
+        "state_date": "2024-03-08",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3020918309-OB_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3020918309-OB_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_EPH_DEF.v1",
+        "description": "The Plankton, Aerosol, Cloud, and ocean Ecosystem (PACE) mission launched in  February 2024. The mission will carry three instruments - one hyperspectral  radiometer (OCI) and two multi-angle polarimeters (HARP2 and SPEXone). The  range that PACE's instruments will observe includes the UV (350-400 nm),  visible (400-700 nm), and near infrared (700-885 nm), as well as several  shortwave infrared bands. ",
+        "license": "not-provided"
+    },
+    {
         "id": "PACE_HARP2_L0.v1",
         "title": "PACE HARP2 Level-0 Instrument Telemetry/Multi-Detector Data, 1",
         "catalog": "OB_CLOUD",
@@ -3857,7 +3870,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798249-OB_CLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798249-OB_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0.v1",
-        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE  spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles  and clouds, as well as properties of land and water surfaces. HARP2 will combine  data from multiple along-track viewing angles (up to 60), four spectral bands in the  visible and near infrared ranges, and three angles of linear polarization to measure  the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
         "license": "not-provided"
     },
     {
@@ -3870,7 +3883,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798238-OB_CLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798238-OB_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_D1.v1",
-        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE  spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles  and clouds, as well as properties of land and water surfaces. HARP2 will combine  data from multiple along-track viewing angles (up to 60), four spectral bands in the  visible and near infrared ranges, and three angles of linear polarization to measure  the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
         "license": "not-provided"
     },
     {
@@ -3909,7 +3922,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798243-OB_CLOUD.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2804798243-OB_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L0_REAL.v1",
-        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
+        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE  spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles  and clouds, as well as properties of land and water surfaces. HARP2 will combine  data from multiple along-track viewing angles (up to 60), four spectral bands in the  visible and near infrared ranges, and three angles of linear polarization to measure  the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
         "license": "not-provided"
     },
     {
@@ -3962,19 +3975,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2841266778-OB_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L1A_AST2.v1",
         "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles and clouds, as well as properties of land and water surfaces. HARP2 will combine data from multiple along-track viewing angles (up to 60), four spectral bands in the visible and near infrared ranges, and three angles of linear polarization to measure the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
-        "license": "not-provided"
-    },
-    {
-        "id": "PACE_HARP2_L1A_AST3.v1",
-        "title": "PACE HARP2 Level-1A Acquisition Scheme Type 3 Data, version 1",
-        "catalog": "OB_CLOUD",
-        "state_date": "2024-03-08",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2841266786-OB_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2841266786-OB_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/OB_CLOUD/collections/PACE_HARP2_L1A_AST3.v1",
-        "description": "The Hyper-Angular Rainbow Polarimeter #2 (HARP2) instrument, flying aboard the PACE  spacecraft, is a wide-angle imaging polarimeter designed to measure aerosol particles  and clouds, as well as properties of land and water surfaces. HARP2 will combine  data from multiple along-track viewing angles (up to 60), four spectral bands in the  visible and near infrared ranges, and three angles of linear polarization to measure  the microphysical properties of the atmospheric particles including their size distribution, amount, refractive indices and particle shape.",
         "license": "not-provided"
     },
     {
@@ -4057,7 +4057,7 @@
     },
     {
         "id": "TEMPO_CLDO4_L2.vV01",
-        "title": "TEMPO cloud pressure and fraction (O2-O2 dimer) (UNVALIDATED)",
+        "title": "TEMPO cloud pressure and fraction (O2-O2 dimer) V01 (UNVALIDATED)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-08-01",
         "end_date": "",
@@ -4069,21 +4069,21 @@
         "license": "not-provided"
     },
     {
-        "id": "TEMPO_CLDO4_L3.vV01",
-        "title": "TEMPO gridded cloud fraction and pressure (O2-O2 dimer) (UNVALIDATED)",
+        "id": "TEMPO_CLDO4_L2.vV03",
+        "title": "TEMPO cloud pressure and fraction (O2-O2 dimer) V03 (BETA)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-08-01",
         "end_date": "",
         "bbox": "-170, 10, -10, 80",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2724035076-LARC_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2724035076-LARC_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/TEMPO_CLDO4_L3.vV01",
-        "description": "O2-O2 cloud Level 3 files provide cloud information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on effective cloud fraction, cloud optical centroid pressure, cloud radiance fraction, and ancillary data used in the calculation. The re-gridding algorithm uses an area-weighted approach.",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2930760329-LARC_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2930760329-LARC_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/TEMPO_CLDO4_L2.vV03",
+        "description": "O2-O2 cloud Level 2 files provide cloud information at TEMPO\u2019s native spatial resolution, ~10 km^2 at the center of the Field of Regard (FOR), for individual granules. Each granule covers the entire North-South TEMPO FOR but only a portion of the East-West FOR. The files are provided in netCDF4 format, and contain information on effective cloud fraction (ECF), cloud optical centroid pressure (OCP), ancillary data, processing quality flags, etc. The ECF is derived from reflectance at 466 nm. The OCP is derived from O2-O2 slant column density. The cloud retrieval uses Look Up Tables (LUTs) of reflectance and air mass factors, GEOS-CF forecast meteorology, and GLER surface albedo.",
         "license": "not-provided"
     },
     {
         "id": "TEMPO_DRK_L1.vV01",
-        "title": "TEMPO dark exposure (UNVALIDATED)",
+        "title": "TEMPO dark exposure V01 (UNVALIDATED)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-06-06",
         "end_date": "",
@@ -4096,7 +4096,7 @@
     },
     {
         "id": "TEMPO_DRK_L1.vV02",
-        "title": "TEMPO dark exposure (BETA)",
+        "title": "TEMPO dark exposure V02 (BETA)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-06-06",
         "end_date": "",
@@ -4108,8 +4108,21 @@
         "license": "not-provided"
     },
     {
+        "id": "TEMPO_DRK_L1.vV03",
+        "title": "TEMPO dark exposure V03 (BETA)",
+        "catalog": "LARC_CLOUD",
+        "state_date": "2023-06-06",
+        "end_date": "",
+        "bbox": "-170, 10, -10, 80",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2930729926-LARC_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2930729926-LARC_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/TEMPO_DRK_L1.vV03",
+        "description": "Level 1 dark files provide the processed dark currents, corresponding to either solar irradiance measurements or radiance measurements. Each file includes the measured dark currents for all the North-South cross-track pixels. The files are provided in netCDF4 format, and contain information on dark current rates of all frames and their average for the UV and visible bands, pixel quality flags and other ancillary information. The product is produced using the image processing of L0-1b processor.",
+        "license": "not-provided"
+    },
+    {
         "id": "TEMPO_HCHO_L2.vV01",
-        "title": "TEMPO formaldehyde total column (UNVALIDATED)",
+        "title": "TEMPO formaldehyde total column V01 (UNVALIDATED)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-08-01",
         "end_date": "",
@@ -4121,47 +4134,34 @@
         "license": "not-provided"
     },
     {
-        "id": "TEMPO_HCHO_L3.vV01",
-        "title": "TEMPO gridded formaldehyde total column (UNVALIDATED)",
+        "id": "TEMPO_HCHO_L2.vV03",
+        "title": "TEMPO Formaldehyde total column V03 (BETA)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-08-01",
         "end_date": "",
         "bbox": "-170, 10, -10, 80",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2724036159-LARC_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2724036159-LARC_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/TEMPO_HCHO_L3.vV01",
-        "description": "Formaldehyde Level 3 files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on formaldehyde vertical columns, ancillary data used in air mass factor calculations and reference sector or de-striping corrections, and retrieval quality flags. The re-gridding algorithm uses an area-weighted approach.",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2930730944-LARC_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2930730944-LARC_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/TEMPO_HCHO_L2.vV03",
+        "description": "Formaldehyde Level 2 files provide trace gas information at TEMPO\u2019s native spatial resolution, ~10 km^2 at the center of the Field of Regard (FOR), for individual granules. Each granule covers the entire North-South TEMPO FOR but only a portion of the East-West FOR. The files are provided in netCDF4 format, and contain information on vertical columns, ancillary data used in air mass factor calculations and reference sector corrections, and retrieval quality flags. The retrieval uses a three-step approach: (1) spectral fitting of slant columns, (2) air mass factor calculation and derivation of vertical columns, and (3) reference sector corrections.",
         "license": "not-provided"
     },
     {
-        "id": "TEMPO_NO2_L3.vV01",
-        "title": "TEMPO gridded NO2 tropospheric, stratospheric, and total columns (UNVALIDATED)",
-        "catalog": "LARC_CLOUD",
-        "state_date": "2023-08-02",
-        "end_date": "",
-        "bbox": "-170, 10, -10, 80",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2724036633-LARC_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2724036633-LARC_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/TEMPO_NO2_L3.vV01",
-        "description": "Nitrogen dioxide Level 3 files provide trace gas information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on tropospheric, stratospheric and total nitrogen dioxide vertical columns, ancillary data used in air mass factor and stratospheric/tropospheric separation calculations, and retrieval quality flags. The re-gridding algorithm uses an area-weighted approach.",
-        "license": "not-provided"
-    },
-    {
-        "id": "TEMPO_O3TOT_L3.vV01",
-        "title": "TEMPO gridded ozone total column (UNVALIDATED)",
+        "id": "TEMPO_RADT_L1.vV03",
+        "title": "TEMPO geolocated Earth radiances twilight V03 (BETA)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-08-01",
         "end_date": "",
         "bbox": "-170, 10, -10, 80",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2724037749-LARC_CLOUD.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2724037749-LARC_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/TEMPO_O3TOT_L3.vV01",
-        "description": "Total ozone Level 3 files provide ozone information on a regular grid covering the TEMPO field of regard for nominal TEMPO observations. Level 3 files are derived by combining information from all Level 2 files constituting a TEMPO East-West scan cycle. The files are provided in netCDF4 format, and contain information on total column ozone and some auxiliary derived and ancillary input parameters including effective cloud fraction, effective cloud pressure, radiative cloud fraction, SO2 index, and terrain pressure. The re-gridding algorithm uses an area-weighted approach.",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2930766795-LARC_CLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2930766795-LARC_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/TEMPO_RADT_L1.vV03",
+        "description": "Level 1 twilight radiance files provide radiance measured during twilight hours to capture city lights at TEMPO\u2019s native spatial resolution, ~10 km^2 at the center of the Field of Regard (FOR), for individual granules. Each granule covers the entire North-South TEMPO FOR but only a portion of the East-West FOR. The files are provided in netCDF4 format, and contain information on radiometrically calibrated and geolocated radiances for the UV and visible bands, corresponding noise, geolocation, viewing geometry, quality flags and other ancillary information. The product is produced using the L0-1b processor which includes image processing steps to produce radiometrically calibrated radiances with nominal navigation.",
         "license": "not-provided"
     },
     {
         "id": "TEMPO_RAD_L1.vV01",
-        "title": "TEMPO geolocated Earth radiances (UNVALIDATED)",
+        "title": "TEMPO geolocated Earth radiances V01 (UNVALIDATED)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-08-01",
         "end_date": "",
@@ -4174,7 +4174,7 @@
     },
     {
         "id": "TEMPO_RAD_L1.vV02",
-        "title": "TEMPO geolocated Earth radiances (BETA)",
+        "title": "TEMPO geolocated Earth radiances V02 (BETA)",
         "catalog": "LARC_CLOUD",
         "state_date": "2023-08-01",
         "end_date": "",
@@ -4689,7 +4689,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2004708841-GHRC_DAAC.json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2004708841-GHRC_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/GHRC_DAAC/collections/amprimpacts.v1",
-        "description": "The Advanced Microwave Precipitation Radiometer (AMPR) IMPACTS dataset consists of brightness temperature measurements collected by the Advanced Microwave Precipitation Radiometer (AMPR) onboard the NASA ER-2 high-altitude research aircraft. AMPR provides multi-frequency microwave imagery, with high spatial and temporal resolution for deriving cloud, precipitation, water vapor, and surface properties. These measurements were taken during the Investigation of Microphysics and Precipitation for Atlantic Coast-Threatening Snowstorms (IMPACTS) campaign. Funded by NASA\u2019s Earth Venture program, IMPACTS is the first comprehensive study of East Coast snowstorms in 30 years. Data files are available from January 18, 2020, through February 28, 2022, in netCDF-4 format.  ",
+        "description": "The Advanced Microwave Precipitation Radiometer (AMPR) IMPACTS dataset consists of brightness temperature measurements collected by the Advanced Microwave Precipitation Radiometer (AMPR) onboard the NASA ER-2 high-altitude research aircraft. AMPR provides multi-frequency microwave imagery, with high spatial and temporal resolution for deriving cloud, precipitation, water vapor, and surface properties. These measurements were taken during the Investigation of Microphysics and Precipitation for Atlantic Coast-Threatening Snowstorms (IMPACTS) campaign. Funded by NASA\u2019s Earth Venture program, IMPACTS is the first comprehensive study of East Coast snowstorms in 30 years. Data files are available from January 18, 2020, through March 2, 2023, in netCDF-4 format.  ",
         "license": "not-provided"
     },
     {
