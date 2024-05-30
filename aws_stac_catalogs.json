@@ -396,6 +396,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "RCM CEOS ARD",
+        "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard/items/",
+        "Description": "RCM CEOS Analysis Ready Data in an public S3 bucket.",
+        "ARN": "arn:aws:s3:::rcm-ceos-ard",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "Reference Elevation Model of Antarctica (REMA) - REMA DEM Mosaics",
         "Endpoint": "https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/rema/mosaics.json",
         "Description": "REMA DEM Mosaics",
