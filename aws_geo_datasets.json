@@ -10058,6 +10058,29 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -10082,29 +10105,6 @@
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13111,6 +13111,68 @@
         "AccountRequired": null
     },
     {
+        "Name": "NSF NCAR Curated ECMWF Reanalysis 5 (ERA5) - ERA5 NetCDF4 Data Files",
+        "Description": "ERA5 NetCDF4 Data Files",
+        "ARN": "arn:aws:s3:::nsf-ncar-era5",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://doi.org/10.5065/BH6N-5N20",
+        "Contact": "rdahelp@ucar.edu",
+        "ManagedBy": "[NSF National Center for Atmospheric Research](https://ncar.ucar.edu/)",
+        "UpdateFrequency": "Monthly, with a 3-4 month lag from realtime",
+        "License": "https://www.ucar.edu/terms-of-use/data",
+        "Tags": [
+            "climate",
+            "model",
+            "atmosphere",
+            "land",
+            "data assimilation",
+            "forecast",
+            "meteorological",
+            "weather",
+            "geoscience",
+            "geospatial",
+            "aws-pds",
+            "netcdf"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://nsf-ncar-era5.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NSF NCAR Curated ECMWF Reanalysis 5 (ERA5) - Notifications for the NSF NCAR ERA5 bucket",
+        "Description": "Notifications for the NSF NCAR ERA5 bucket",
+        "ARN": "arn:aws:sns:us-west-2:891377163634:nsf-ncar-era5-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://doi.org/10.5065/BH6N-5N20",
+        "Contact": "rdahelp@ucar.edu",
+        "ManagedBy": "[NSF National Center for Atmospheric Research](https://ncar.ucar.edu/)",
+        "UpdateFrequency": "Monthly, with a 3-4 month lag from realtime",
+        "License": "https://www.ucar.edu/terms-of-use/data",
+        "Tags": [
+            "climate",
+            "model",
+            "atmosphere",
+            "land",
+            "data assimilation",
+            "forecast",
+            "meteorological",
+            "weather",
+            "geoscience",
+            "geospatial",
+            "aws-pds",
+            "netcdf"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "National Herbarium of NSW",
         "Description": "Herbarium Collection Image files",
         "ARN": "arn:aws:s3:::herbariumnsw-pds",
@@ -14798,6 +14860,35 @@
         "RequesterPays": null,
         "Explore": [
             "[Browse Bucket](https://rapid-nrt-flood-maps.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "RCM CEOS ARD",
+        "Description": "RCM CEOS Analysis Ready Data in an public S3 bucket",
+        "ARN": "arn:aws:s3:::rcm-ceos-ard",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.asc-csa.gc.ca/eng/satellites/radarsat/",
+        "Contact": "eodms-sgdot@nrcan-rncan.gc.ca",
+        "ManagedBy": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
+        "UpdateFrequency": "The initial dataset will be Canada-wide, 30M Compact-Polarization standard coverage, every 12 days, per mission revisit frequency.",
+        "License": "RCM image products are available free of charge, to the broadest extent possible, in order to promote the development of innovative products and services derived from SAR data. The Government of Canada retains ownership of all RCM data and image products. Intellectual property rights to value-added products (VAPs) created from the RCM image products will remain with the creator of the VAP. Acceptable uses of RCM image products are set out in the [RCM Public User License Agreement](https://www.asc-csa.gc.ca/eng/satellites/radarsat/access-to-data/public-user-license-agreement.asp), which is provided with each RCM image product.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "sustainability",
+            "disaster response",
+            "synthetic aperture radar",
+            "stac"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[EODMS STAC for RCM CEOS ARD](https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard/items/)"
         ],
         "Host": null,
         "AccountRequired": null
