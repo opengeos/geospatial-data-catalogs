@@ -270,6 +270,15 @@
         "RequesterPays": false
     },
     {
+        "Name": "EarthDEM",
+        "Endpoint": "https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/earthdem/strips.json",
+        "Description": "EarthDEM DEM Strips",
+        "ARN": "arn:aws:s3:::pgc-opendata-dems/earthdem/strips/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "Global 30m Height Above Nearest Drainage (HAND)",
         "Endpoint": "https://stac.asf.alaska.edu/collections/glo-30-hand",
         "Description": "GLO-30 HAND S3 bucket",
