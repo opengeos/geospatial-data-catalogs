@@ -637,7 +637,7 @@
         "Type": "S3 Bucket",
         "Documentation": "https://www.pgc.umn.edu/data/arcticdem/",
         "Contact": "pgc-support@umn.edu",
-        "ManagedBy": "[Polar Geospatial Center](http://www.pgc.umn.edu/)",
+        "ManagedBy": "[Polar Geospatial Center](https://www.pgc.umn.edu/)",
         "UpdateFrequency": "New DEM strips are added twice yearly.  Mosaic products are added as soon as they are available.",
         "License": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
@@ -666,7 +666,7 @@
         "Type": "S3 Bucket",
         "Documentation": "https://www.pgc.umn.edu/data/arcticdem/",
         "Contact": "pgc-support@umn.edu",
-        "ManagedBy": "[Polar Geospatial Center](http://www.pgc.umn.edu/)",
+        "ManagedBy": "[Polar Geospatial Center](https://www.pgc.umn.edu/)",
         "UpdateFrequency": "New DEM strips are added twice yearly.  Mosaic products are added as soon as they are available.",
         "License": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
@@ -4454,6 +4454,35 @@
         "AccountRequired": null
     },
     {
+        "Name": "EarthDEM",
+        "Description": "EarthDEM DEM Strips",
+        "ARN": "arn:aws:s3:::pgc-opendata-dems/earthdem/strips/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.pgc.umn.edu/data/earthdem/",
+        "Contact": "pgc-support@umn.edu",
+        "ManagedBy": "[Polar Geospatial Center](https://www.pgc.umn.edu/)",
+        "UpdateFrequency": "New DEM strips are added when allowed by licensing restrictions.  Mosaic products are added as soon as they are available.",
+        "License": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "elevation",
+            "earth observation",
+            "geospatial",
+            "mapping",
+            "open source software",
+            "satellite imagery",
+            "cog",
+            "stac"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse STAC Catalog](https://polargeospatialcenter.github.io/stac-browser/#/external/pgc-opendata-dems.s3.us-west-2.amazonaws.com/earthdem/strips.json)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "End-Use Load Profiles for the U.S. Building Stock",
         "Description": "End-Use Load Profiles for the US Building Stock",
         "ARN": "arn:aws:s3:::oedi-data-lake/nrel-pds-building-stock/",
@@ -4739,6 +4768,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -4759,30 +4812,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
         ],
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
@@ -4939,6 +4968,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -4959,30 +5012,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
@@ -9317,6 +9346,58 @@
         "AccountRequired": null
     },
     {
+        "Name": "NOAA Global Data Assimilation System (DA) Test Data - Global Data Assimilation (DA) System Test Data",
+        "Description": "Global Data Assimilation (DA) System Test Data",
+        "ARN": "arn:aws:s3:::noaa-ufs-gdas-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NOAA-EMC/GDASApp/wiki",
+        "Contact": "For questions regarding data content or quality, post on the ufs-community forum at https://github.com/orgs/ufs-community/discussions or email support.epic@noaa.gov. For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "These are stable datasets for use with global DA projects. They will be updated as new sample cases are added.",
+        "License": "GNU Lesser Public License v2.1: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html#SEC1",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-ufs-gdas-pds.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Global Data Assimilation System (DA) Test Data - New data notifications for Global Data Assimilation (DA) System Test Data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for Global Data Assimilation (DA) System Test Data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNWSUFSGDASObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-EMC/GDASApp/wiki",
+        "Contact": "For questions regarding data content or quality, post on the ufs-community forum at https://github.com/orgs/ufs-community/discussions or email support.epic@noaa.gov. For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "These are stable datasets for use with global DA projects. They will be updated as new sample cases are added.",
+        "License": "GNU Lesser Public License v2.1: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html#SEC1",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "NOAA Global Ensemble Forecast System (GEFS) - New data notifications for GFS, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GFS, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:123901341784:NewGEFSObject",
@@ -10058,7 +10139,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10104,7 +10185,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11356,7 +11437,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -11379,7 +11460,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -14954,7 +15035,7 @@
         "Type": "S3 Bucket",
         "Documentation": "https://www.pgc.umn.edu/data/rema/",
         "Contact": "pgc-support@umn.edu",
-        "ManagedBy": "[Polar Geospatial Center](http://www.pgc.umn.edu/)",
+        "ManagedBy": "[Polar Geospatial Center](https://www.pgc.umn.edu/)",
         "UpdateFrequency": "New DEM strips are added twice yearly.  Mosaic products are added as soon as they are available.",
         "License": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
@@ -14983,7 +15064,7 @@
         "Type": "S3 Bucket",
         "Documentation": "https://www.pgc.umn.edu/data/rema/",
         "Contact": "pgc-support@umn.edu",
-        "ManagedBy": "[Polar Geospatial Center](http://www.pgc.umn.edu/)",
+        "ManagedBy": "[Polar Geospatial Center](https://www.pgc.umn.edu/)",
         "UpdateFrequency": "New DEM strips are added twice yearly.  Mosaic products are added as soon as they are available.",
         "License": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
