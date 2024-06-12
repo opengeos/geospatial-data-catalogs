@@ -180,6 +180,24 @@
         "RequesterPays": false
     },
     {
+        "Name": "Digital Earth Africa Monthly Normalised Difference Vegetation Index (NDVI) Anomaly",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/ndvi_anomaly",
+        "Description": "Monthly Normalised Difference Vegetation Index (NDVI) Anomaly",
+        "ARN": "arn:aws:s3:::deafrica-services/ndvi_anomaly",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "Digital Earth Africa Normalised Difference Vegetation Index (NDVI) Climatology",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/ndvi_climatology_ls",
+        "Description": "Normalised Difference Vegetation Index (NDVI) Climatology",
+        "ARN": "arn:aws:s3:::deafrica-services/ndvi_climatology_ls",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
         "Name": "Digital Earth Africa Sentinel-1 Radiometrically Terrain Corrected",
         "Endpoint": "https://explorer.digitalearth.africa/stac/collections/s1_rtc",
         "Description": "Sentinel-1 tiles and metadata",
