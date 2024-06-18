@@ -26,58 +26,6 @@
         "license": "not-provided"
     },
     {
-        "id": "12-hourly_interpolated_surface_position_from_buoys",
-        "title": "12-Hourly Interpolated Surface Position from Buoys",
-        "catalog": "SCIOPS",
-        "state_date": "1979-01-01",
-        "end_date": "2009-12-01",
-        "bbox": "-180, 60, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600619-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600619-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12-hourly_interpolated_surface_position_from_buoys",
-        "description": "This data set contains Arctic Ocean daily buoy positions interpolated to hours 0Z and 12Z.",
-        "license": "not-provided"
-    },
-    {
-        "id": "12-hourly_interpolated_surface_velocity_from_buoys",
-        "title": "12-Hourly Interpolated Surface Velocity from Buoys",
-        "catalog": "SCIOPS",
-        "state_date": "1979-01-01",
-        "end_date": "2009-12-02",
-        "bbox": "-180, 74, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600621-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600621-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12-hourly_interpolated_surface_velocity_from_buoys",
-        "description": "This data set contains 12-hourly interpolated surface velocity data from buoys. Point grid: Latitude 74N to 90N - 4 degree increment Longitude 0E to 320E - 20 and 40 degree increment.",
-        "license": "not-provided"
-    },
-    {
-        "id": "12_hourly_interpolated_surface_air_pressure_from_buoys",
-        "title": "12 Hourly Interpolated Surface Air Pressure from Buoys",
-        "catalog": "SCIOPS",
-        "state_date": "1979-01-01",
-        "end_date": "2007-11-30",
-        "bbox": "-180, 70, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600618-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600618-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12_hourly_interpolated_surface_air_pressure_from_buoys",
-        "description": "Optimally interpolated atmospheric surface pressure over the Arctic Ocean Basin. Temporal format - twice daily (0Z and 12Z) Spatial format - 2 degree latitude x 10 degree longitude - latitude: 70 N - 90 N - longitude: 0 E - 350 E",
-        "license": "not-provided"
-    },
-    {
-        "id": "14c_of_soil_co2_from_ipy_itex_cross_site_comparison",
-        "title": "14C of soil CO2 from IPY ITEX Cross Site Comparison",
-        "catalog": "SCIOPS",
-        "state_date": "2008-01-16",
-        "end_date": "2008-01-21",
-        "bbox": "-157.4, -36.9, 147.29, 71.3",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214602443-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214602443-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/14c_of_soil_co2_from_ipy_itex_cross_site_comparison",
-        "description": "Study sites: Toolik Lake Field Station Alaska, USA 68.63 N, 149.57 W; Atqasuk, Alaska USA 70.45 N, 157.40 W; Barrow, Alaska, USA 71.30 N, 156.67 W; Latnjajaure, Sweden 68.35 N, 18.50 E; Falls Creek, Australia: Site 2-unburned 36.90 S 147.29 E; Site 3-burned 36.89 S 147.28 E. Additional sites will be added summer 2008, but the exact sites are not finalized. Purpose: Collect soil CO2 for analysis of radiocarbon to evaluate the age of the carbon respired in controls and warmed plots from across the ITEX network.  Treatments: control and ITEX OTC warming experiment (1994-2007). Design: 5 replicates of each treatment at dry site and moist site. Sampling frequency: Once per peak season.",
-        "license": "not-provided"
-    },
-    {
         "id": "200708_CEAMARC_CASO_TRACE_ELEMENT_SAMPLES.v1",
         "title": "2007-08 CEAMARC-CASO VOYAGE TRACE ELEMENT SAMPLING AROUND AN ICEBERG",
         "catalog": "AU_AADC",
@@ -936,6 +884,45 @@
         "license": "not-provided"
     },
     {
+        "id": "AG100.v003",
+        "title": "ASTER Global Emissivity Dataset, 100 meter, HDF5 V003",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-01-01",
+        "end_date": "2008-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266348-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266348-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/AG100.v003",
+        "description": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Emissivity Dataset (GED) land surface temperature and emissivity (LST&E) data products are generated using the ASTER Temperature Emissivity Separation (TES) algorithm with a Water Vapor Scaling (WVS) atmospheric correction method using Moderate Resolution Imaging Spectroradiometer (MODIS) (MOD07) (https://modis-atmos.gsfc.nasa.gov/MOD07_L2/index.html) atmospheric profiles and the MODerate spectral resolution TRANsmittance (MODTRAN 5.2 radiative transfer model). This dataset is computed from all clear-sky pixels of ASTER scenes acquired from 2000 through 2008. AG100 data are available globally at spatial resolution of 100 meters.    The National Aeronautics and Space Administration\u2019s (NASA) Jet Propulsion Laboratory (JPL), California Institute of Technology, developed the ASTER GED product.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "AG1km.v003",
+        "title": "ASTER Global Emissivity Dataset, 1 kilometer, HDF5 V003",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-01-01",
+        "end_date": "2008-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266350-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2763266350-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/AG1km.v003",
+        "description": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Emissivity Dataset (GED) land surface temperature and emissivity (LST&E) data products are generated using the ASTER Temperature Emissivity Separation (TES) algorithm with a Water Vapor Scaling (WVS) atmospheric correction method using Moderate Resolution Imaging Spectroradiometer (MODIS) (MOD07) (https://modis-atmos.gsfc.nasa.gov/MOD07_L2/index.html) atmospheric profiles and the MODerate Spectral resolution TRANsmittance (MODTRAN) 5.2 radiative transfer model. This dataset is computed from all clear-sky pixels of ASTER scenes acquired from 2000 through 2008. AG1KM data are available globally at spatial resolution of 1 kilometer.    The National Aeronautics and Space Administration\u2019s (NASA) Jet Propulsion Laboratory (JPL), California Institute of Technology, developed the ASTER GED product.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AG5KMMOH.v041",
+        "title": "ASTER Global Emissivity Dataset, Monthly, 0.05 deg, HDF5 V041",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-03-01",
+        "end_date": "2015-12-31",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268461-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2763268461-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/AG5KMMOH.v041",
+        "description": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER) Global Emissivity Dataset (GED) is a collection of monthly files (see known issues for gaps) for each year of global emissivity. The ASTER GED data products are generated for 2000 through 2015 using the ASTER Temperature Emissivity Separation (TES) algorithm atmospheric correction method. This algorithm method uses Moderate Resolution Imaging Spectroradiometer (MODIS) Atmospheric Profiles product (MOD07) (https://modis-atmos.gsfc.nasa.gov/MOD07_L2/index.html) and the MODerate spectral resolution TRANsmittance (MODTRAN) 5.2 radiative transfer model along with the snow cover data from the standard monthly MODIS/Terra snow cover monthly global 0.05 degree product (MOD10CM) (https://doi.org/10.5067/MODIS/MOD10CM.006), and vegetation information from the MODIS monthly gridded NDVI product (MOD13C2) (https://doi.org/10.5067/MODIS/MOD13C2.006). ASTER GED Monthly V041 data products are offered in Hierarchical Data Format 5 (HDF5).    The National Aeronautics and Space Administration\u2019s (NASA) Jet Propulsion Laboratory (JPL), California Institute of Technology, developed the ASTER GED product.",
+        "license": "not-provided"
+    },
+    {
         "id": "AIRABRAD.v005",
         "title": "AIRS/Aqua L1B AMSU (A1/A2) geolocated and calibrated brightness temperatures V005 (AIRABRAD) at GES DISC",
         "catalog": "GES_DISC",
@@ -1248,6 +1235,123 @@
         "license": "not-provided"
     },
     {
+        "id": "AQUARIUS_ANCILLARY_CELESTIALSKY_V1.v1",
+        "title": "Aquarius Celestial Sky Microwave Emission Map Ancillary Dataset V1.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-09-01",
+        "end_date": "2015-06-07",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2617176761-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2617176761-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_ANCILLARY_CELESTIALSKY_V1.v1",
+        "description": "This datasets contains three maps of L-band (wavelength = 21 cm) brightness temperature of the celestial sky (\"Galaxy\") used in the processing of the NASA Aquarius instrument data. The maps report Sky brightness temperatures in Kelvin gridded on the Earth Centered Inertial (ECI) reference frame epoch J2000. They are sampled over 721 Declinations between -90 degrees and +90 degrees and 1441 Right Ascensions between 0 degrees and 360 degrees, all evenly spaced at 0.25 degrees intervals. The brightness temperatures are assumed temporally invariant and polarization has been neglected.  They include microwave continuum and atomic hydrogen line (HI) emissions. The maps differ only in how the strong radio source Cassiopeia A has been included into the whole sky background surveys: 1/ TB_no_Cas_A does not include Cassiopeia A and reports only the whole Sky surveys. 2/ TB_Cas_A_1cell spread Cas A total flux homogeneously over 1 map grid cell (i.e. 9.8572E-6 sr). 3/ TB_Cas_A_beam spreads Cas A over surrounding grid cells using a convolution by a Gaussian beam with HPBW of 35 arcmin (equivalent to the instrument used for the Sky surveys). Cassiopeia A  is a supernova remnant (SNR) in the constellation Cassiopeia and the brightest extra-solar radio source in the sky at frequencies above 1.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L2_SSS_CAP_V5.v5.0",
+        "title": "Aquarius CAP Level 2 Sea Surface Salinity, Wind Speed & Direction Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-05",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121315-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2205121315-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L2_SSS_CAP_V5.v5.0",
+        "description": "The version 5.0 Aquarius CAP Level 2 product contains the fourth release of the AQUARIUS/SAC-D orbital/swath data based on the Combined Active Passive (CAP) algorithm. CAP is a P.I. produced dataset developed and provided by JPL.  This Level 2 dataset contains sea surface salinity (SSS), wind speed and wind direction data derived from 3 different radiometers and the onboard scatterometer. The CAP algorithm simultaneously retrieves the salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. Each L2 data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L2_SSS_V5.v5.0",
+        "title": "Aquarius Official Release Level 2 Sea Surface Salinity & Wind Speed Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-25",
+        "end_date": "2015-06-07",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2036882456-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2036882456-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L2_SSS_V5.v5.0",
+        "description": "The version 5.0 Aquarius Level 2 product is the official third release of the orbital/swath data from AQUARIUS/SAC-D mission. The Aquarius Level 2 data set contains sea surface salinity (SSS) and wind speed data derived from 3 different radiometers and the onboard scatterometer. Included also in the Level 2 data are the horizontal and vertical brightness temperatures (TH and TV) for each radiometer, ancillary data, flags, converted telemetry and navigation data. Each data file covers one 98 minute orbit. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit. Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath. Enhancements to the version 5.0 Level 2 data relative to v4.0 include: improvement of the salinity retrieval geophysical model for SST bias, estimates of SSS uncertainties (systematic and random components), and inclusion of a new spiciness variable.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image 7-Day Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756349-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm.  Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) V5.0 Aquarius CAP product.  CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.   The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Standard Mapped Image Monthly Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-09-01",
+        "end_date": "2015-06-01",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756350-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756350-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_CAP_MONTHLY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly sea surface salinity (SSS) V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image 7-Day Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756351-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756351-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_SSS_RAINCORRECTED_CAP_MONTHLY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Sea Surface Salinity Rain Corrected Standard Mapped Image Monthly Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-09-01",
+        "end_date": "2015-06-01",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756352-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491756352-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_SSS_RAINCORRECTED_CAP_MONTHLY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly sea surface salinity (SSS) rain corrected V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Wind Speed Standard Mapped Image 7-Day Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-08-26",
+        "end_date": "2015-06-08",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757161-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757161-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_WIND_SPEED_CAP_7DAY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the 7-Day running mean wind speed V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST.  The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
+        "id": "AQUARIUS_L3_WIND_SPEED_CAP_MONTHLY_V5.v5.0",
+        "title": "Aquarius CAP Level 3 Wind Speed Standard Mapped Image Monthly Data V5.0",
+        "catalog": "POCLOUD",
+        "state_date": "2011-09-01",
+        "end_date": "2015-06-01",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757162-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2491757162-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/AQUARIUS_L3_WIND_SPEED_CAP_MONTHLY_V5.v5.0",
+        "description": "Version 5.0 Aquarius CAP Level 3 products are the fourth release of the AQUARIUS/SAC-D mapped salinity and wind speed data based on the Combined Active Passive (CAP) algorithm. CAP Level 3 standard mapped image products contain gridded 1 degree spatial resolution salinity and wind speed data averaged over 7 day and monthly time scales.  This particular dataset is the monthly wind speed V5.0 Aquarius CAP product. CAP is a P.I. produced dataset developed and provided by JPL.  The CAP algorithm utilizes data from both the onboard radiometer and scatterometer to simultaneously retrieve salinity, wind speed and direction by minimizing the sum of squared differences between model and observations. The main improvements in CAP V5.0 relative to the previous version include: updates to the Geophysical Model Functions to 4th order harmonics with the inclusion of sea surface temperature (SST) and stability at air-sea interface effects; use of the Canadian Meteorological Center (CMC) SST product as the new source ancillary sea surface temperature data in place of NOAA OI SST. The Aquarius instrument is onboard the AQUARIUS/SAC-D satellite, a collaborative effort between NASA and the Argentinian Space Agency Comision Nacional de Actividades Espaciales (CONAE). The instrument consists of three radiometers in push broom alignment at incidence angles of 29, 38, and 46 degrees incidence angles relative to the shadow side of the orbit.  Footprints for the beams are: 76 km (along-track) x 94 km (cross-track), 84 km x 120 km and 96km x 156 km, yielding a total cross-track swath of 370 km. The radiometers measure brightness temperature at 1.413 GHz in their respective horizontal and vertical polarizations (TH and TV). A scatterometer operating at 1.26 GHz measures ocean backscatter in each footprint that is used for surface roughness corrections in the estimation of salinity. The scatterometer has an approximate 390km swath.",
+        "license": "not-provided"
+    },
+    {
         "id": "ASAC_2201_HCL_0.5.v1",
         "title": "0.5 hour 1 M HCl extraction data for the Windmill Islands marine sediments",
         "catalog": "AU_AADC",
@@ -1284,6 +1388,45 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1299783579-LPDAAC_ECS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPDAAC_ECS/collections/AST14DEM.v003",
         "description": "The ASTER Digital Elevation Model (AST14DEM) product is generated (https://lpdaac.usgs.gov/documents/996/ASTER_Earthdata_Search_Order_Instructions.pdf) using bands 3N (nadir-viewing) and 3B (backward-viewing) of an (ASTER Level 1A) (https://doi.org/10.5067/ASTER/AST_L1A.003) image acquired by the Visible and Near Infrared (VNIR) sensor. The VNIR subsystem includes two independent telescope assemblies that facilitate the generation of stereoscopic data. The band 3 stereo pair is acquired in the spectral range of 0.78 and 0.86 microns with a base-to-height ratio of 0.6 and an intersection angle of 27.7 degrees. There is a time lag of approximately one minute between the acquisition of the nadir and backward images. For a better understanding, refer to this (diagram) (https://lpdaac.usgs.gov/documents/301/ASTER_Along_Track_Imaging_Geometry.png) depicting the along-track imaging geometry of the ASTER VNIR nadir and backward-viewing sensors.    The accuracy of the new LP DAAC produced DEMs will meet or exceed accuracy specifications set for the ASTER relative DEMs by the Algorithm Theoretical Basis Document (ATBD) (https://lpdaac.usgs.gov/documents/81/AST14_ATBD.pdf). Users likely will find that the DEMs produced by the new LP DAAC system have accuracies approaching those specified in the ATBD for absolute DEMs. Validation testing has shown that DEMs produced by the new system frequently are more accurate than 25 meters root mean square error (RMSE) in xyz dimensions.    Improvements/Changes from Previous Versions    As of January 2021, the LP DAAC has implemented version 3.0 of the Sensor Information Laboratory Corporation ASTER DEM/Ortho (SILCAST) software, which is used to generate the Level 2 on-demand ASTER Orthorectified and Digital Elevation Model (DEM) products (AST14). The updated software provides digital elevation extraction and orthorectification from ASTER L1B input data without needing to enter ground control points or depending on external global DEMs at 30-arc-second resolution (GTOPO30). It utilizes the ephemeris and attitude data derived from both the ASTER instrument and the Terra spacecraft platform. The outputs are geoid height-corrected and waterbodies are automatically detected in this version. Users will notice differences between AST14DEM, AST14DMO, and AST14OTH products ordered before January 2021 (generated with SILCAST V1) and those generated with the updated version of the production software (version 3.0). Differences may include slight elevation changes over different surface types, including waterbodies. Differences have also been observed over cloudy portions of ASTER scenes. Additional information on SILCAST version 3.0 can be found on the  SILCAST website (http://www.silc.co.jp/en/products.html).    Starting June 23, 2021, radiometric calibration coefficient Version 5 (RCC V5) will be applied to newly observed ASTER data and archived ASTER data products. Details regarding RCC V5 are described in the following journal article.    Tsuchida, S., Yamamoto, H., Kouyama, T., Obata, K., Sakuma, F., Tachikawa, T., Kamei, A., Arai, K., Czapla-Myers, J.S., Biggar, S.F., and Thome, K.J., 2020, Radiometric Degradation Curves for the ASTER VNIR Processing Using Vicarious and Lunar Calibrations: Remote Sensing, v. 12, no. 3, at https://doi.org/10.3390/rs12030427.      ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ASTGTM.v003",
+        "title": "ASTER Global Digital Elevation Model V003",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-03-01",
+        "end_date": "2013-11-30",
+        "bbox": "-180, -83, 180, 82",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1711961296-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1711961296-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ASTGTM.v003",
+        "description": "The ASTER Global Digital Elevation Model (GDEM) Version 3 (ASTGTM) provides a global digital elevation model (DEM) of land areas on Earth at a spatial resolution of 1 arc second (approximately 30 meter horizontal posting at the equator).    The development of the ASTER GDEM data products is a collaborative effort between National Aeronautics and Space Administration (NASA) and Japan\u2019s Ministry of Economy, Trade, and Industry (METI). The ASTER GDEM data products are created by the Sensor Information Laboratory Corporation (SILC) in Tokyo.     The ASTER GDEM Version 3 data product was created from the automated processing of the entire ASTER Level 1A (https://doi.org/10.5067/ASTER/AST_L1A.003) archive of scenes acquired between March 1, 2000, and November 30, 2013. Stereo correlation was used to produce over one million individual scene based ASTER DEMs, to which cloud masking was applied. All cloud screened DEMs and non-cloud screened DEMs were stacked. Residual bad values and outliers were removed. In areas with limited data stacking, several existing reference DEMs were used to supplement ASTER data to correct for residual anomalies. Selected data were averaged to create final pixel values before partitioning the data into 1 degree latitude by 1 degree longitude tiles with a one pixel overlap. To correct elevation values of water body surfaces, the ASTER Global Water Bodies Database (ASTWBD) (https://doi.org/10.5067/ASTER/ASTWBD.001) Version 1 data product was also generated.     The geographic coverage of the ASTER GDEM extends from 83\u00b0 North to 83\u00b0 South. Each tile is distributed in GeoTIFF format and projected on the 1984 World Geodetic System (WGS84)/1996 Earth Gravitational Model (EGM96) geoid. Each of the 22,912 tiles in the collection contain at least 0.01% land area.     Provided in the ASTER GDEM product are layers for DEM and number of scenes (NUM). The NUM layer indicates the number of scenes that were processed for each pixel and the source of the data.    While the ASTER GDEM Version 3 data products offer substantial improvements over Version 2, users are advised that the products still may contain anomalies and artifacts that will reduce its usability for certain applications.     Improvements/Changes from Previous Versions   \u2022 Expansion of acquisition coverage to increase the amount of cloud-free input scenes from about 1.5 million in Version 2 to about 1.88 million scenes in Version 3.  \u2022 Separation of rivers from lakes in the water body processing.   \u2022 Minimum water body detection size decreased from 1 km2 to 0.2 km2. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ASTGTM_NC.v003",
+        "title": "ASTER Global Digital Elevation Model NetCDF V003",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-03-01",
+        "end_date": "2013-11-30",
+        "bbox": "-180, -83, 180, 82",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2439422590-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2439422590-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ASTGTM_NC.v003",
+        "description": "The ASTER Global Digital Elevation Model (GDEM) Version 3 (ASTGTM) provides a global digital elevation model (DEM) of land areas on Earth at a spatial resolution of 1 arc second (approximately 30 meter horizontal posting at the equator).  The development of the ASTER GDEM data products is a collaborative effort between National Aeronautics and Space Administration (NASA) and Japan\u2019s Ministry of Economy, Trade, and Industry (METI). The ASTER GDEM data products are created by the Sensor Information Laboratory Corporation (SILC) in Tokyo.   The ASTER GDEM Version 3 data product was created from the automated processing of the entire ASTER Level 1A (https://doi.org/10.5067/ASTER/AST_L1A.003) archive of scenes acquired between March 1, 2000, and November 30, 2013. Stereo correlation was used to produce over one million individual scene based ASTER DEMs, to which cloud masking was applied. All cloud screened DEMs and non-cloud screened DEMs were stacked. Residual bad values and outliers were removed. In areas with limited data stacking, several existing reference DEMs were used to supplement ASTER data to correct for residual anomalies. Selected data were averaged to create final pixel values before partitioning the data into 1 degree latitude by 1 degree longitude tiles with a one pixel overlap. To correct elevation values of water body surfaces, the ASTER Global Water Bodies Database (ASTWBD) (https://doi.org/10.5067/ASTER/ASTWBD.001) Version 1 data product was also generated.   The geographic coverage of the ASTER GDEM extends from 83\u00b0 North to 83\u00b0 South. Each tile is distributed in NetCDF format and projected on the 1984 World Geodetic System (WGS84)/1996 Earth Gravitational Model (EGM96) geoid. Each of the 22,912 tiles in the collection contain at least 0.01% land area.   Each ASTGTM_NC data product contains a DEM file, which provides elevation information. The corresponding ASTGTM_NUMNC file indicates the number of scenes that were processed for each pixel and the source of the data.  While the ASTER GDEM Version 3 data products offer substantial improvements over Version 2, users are advised that the products still may contain anomalies and artifacts that will reduce its usability for certain applications.   Improvements/Changes from Previous Versions  \u2022 Expansion of acquisition coverage to increase the amount of cloud-free input scenes from about 1.5 million in Version 2 to about 1.88 million scenes in Version 3. \u2022 Separation of rivers from lakes in the water body processing.  \u2022 Minimum water body detection size decreased from 1 km2 to 0.2 km2.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ASTGTM_NUMNC.v003",
+        "title": "ASTER Global Digital Elevation Model Attributes NetCDF V003",
+        "catalog": "LPCLOUD",
+        "state_date": "2000-03-01",
+        "end_date": "2013-11-30",
+        "bbox": "-180, -83, 180, 82",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2439429778-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2439429778-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ASTGTM_NUMNC.v003",
+        "description": "The ASTER Global Digital Elevation Model (GDEM) Version 3 (ASTGTM) provides a global digital elevation model (DEM) of land areas on Earth at a spatial resolution of 1 arc second (approximately 30 meter horizontal posting at the equator).    The development of the ASTER GDEM data products is a collaborative effort between National Aeronautics and Space Administration (NASA) and Japan\u2019s Ministry of Economy, Trade, and Industry (METI). The ASTER GDEM data products are created by the Sensor Information Laboratory Corporation (SILC) in Tokyo.     The ASTER GDEM Version 3 data product was created from the automated processing of the entire ASTER Level 1A (https://doi.org/10.5067/ASTER/AST_L1A.003) archive of scenes acquired between March 1, 2000, and November 30, 2013. Stereo correlation was used to produce over one million individual scene based ASTER DEMs, to which cloud masking was applied. All cloud screened DEMs and non-cloud screened DEMs were stacked. Residual bad values and outliers were removed. In areas with limited data stacking, several existing reference DEMs were used to supplement ASTER data to correct for residual anomalies. Selected data were averaged to create final pixel values before partitioning the data into 1 degree latitude by 1 degree longitude tiles with a one pixel overlap. To correct elevation values of water body surfaces, the ASTER Global Water Bodies Database (ASTWBD) (https://doi.org/10.5067/ASTER/ASTWBD.001) Version 1 data product was also generated.     The geographic coverage of the ASTER GDEM extends from 83\u00b0 North to 83\u00b0 South. Each tile is distributed in NetCDF format and projected on the 1984 World Geodetic System (WGS84)/1996 Earth Gravitational Model (EGM96) geoid. Each of the 22,912 tiles in the collection contain at least 0.01% land area.     Each ASTGTM_NUMNC file indicates the number of scenes that were processed for each pixel and the source of the data.. The corresponding ASTGTM_NC data product contains a DEM file, which provides elevation information.     While the ASTER GDEM Version 3 data products offer substantial improvements over Version 2, users are advised that the products still may contain anomalies and artifacts that will reduce its usability for certain applications.     Improvements/Changes from Previous Versions   \u2022 Expansion of acquisition coverage to increase the amount of cloud-free input scenes from about 1.5 million in Version 2 to about 1.88 million scenes in Version 3.  \u2022 Separation of rivers from lakes in the water body processing.   \u2022 Minimum water body detection size decreased from 1 km2 to 0.2 km2. ",
         "license": "not-provided"
     },
     {
@@ -1911,19 +2054,6 @@
         "license": "not-provided"
     },
     {
-        "id": "CH-OG-1-GPS-10S.v0.0",
-        "title": "10 sec GPS ground tracking data",
-        "catalog": "SCIOPS",
-        "state_date": "2001-05-28",
-        "end_date": "",
-        "bbox": "-63.51, -45.69, 170.42, 78.87",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/CH-OG-1-GPS-10S.v0.0",
-        "description": "This data set comprises GPS ground data of a sample rate of 10 sec, generated       by decoding and sampling GPS high  rate ground data. This raw data passed no       quality control. The data are given in the Rinex 2.1 format.",
-        "license": "not-provided"
-    },
-    {
         "id": "CIESIN_SEDAC_EPI_2008.v2008.00",
         "title": "2008 Environmental Performance Index (EPI)",
         "catalog": "SEDAC",
@@ -2106,6 +2236,45 @@
         "license": "not-provided"
     },
     {
+        "id": "CWIC_REG.v1.0",
+        "title": "Radarsat-2 Scenes, Natural Resources Canada",
+        "catalog": "CCMEO",
+        "state_date": "2008-04-27",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2204659831-CCMEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2204659831-CCMEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CCMEO/collections/CWIC_REG.v1.0",
+        "description": "The collection represents browse images and metadata for systematically georeferenced Radarsat-2 Synthetic Aperture Radar(SAR) satellite scenes. The browse scenes are not geometrically enhanced using ground control points, but are systematically corrected using sensor parameters. Full resolution precision geocoded scenes(corrected using ground control points) which correspond to the browse images can be ordered from MacDonald Dettwiler and Associates Ltd., Vancouver, Canada. Metadata discovery is achieved using the online catalog http://neodf.nrcan.gc.ca OR by using the CWIC OGC CSW service URL : http://cwic.csiss.gmu.edu/cwicv1/discovery. The imaging frequency is C Band SAR : 5405.0000 MHz. RADARSAT-2 is in a polar, sun-synchronous orbit with a period of approximately 101 minutes. The RADARSAT-2 orbit will be maintained at +\\/- 1 km in across track direction. This orbit maintenance is suitable for InSAR data collection. The geo-location accuracy of RADARSAT-2 products varies with product type. It is currently estimated at +\\/- 30 m for Standard beam products.  The revisit period for RADARSAT-2 depends on the beam mode, incidence angle and geographic location of the area of interest. In general, revisit is more frequent at the poles than the equator and the wider swath modes have higher revisit than t he narrow swath modes.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CWIC_REG_RCM.v1.0",
+        "title": "RCM (Radarsat Constellation Mission ) Products, Natural Resources Canada",
+        "catalog": "CCMEO",
+        "state_date": "2019-06-12",
+        "end_date": "2026-06-12",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2204659595-CCMEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2204659595-CCMEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CCMEO/collections/CWIC_REG_RCM.v1.0",
+        "description": "The collection represents products and metadata for georeferenced Radarsat Constellation Mission ( RCM ) satellite scenes. Metadata discovery and product ordering is achieved using the online catalog https://www.eodms-sgdot.nrcan-rncan.gc.ca/index-en.html OR by using the CWIC OpenSearch OSDD : http://cwic.csiss.gmu.edu/cwicv1/discovery. ",
+        "license": "not-provided"
+    },
+    {
+        "id": "CWIC_REG_Radarsat-1.v1.0",
+        "title": "Radarsat-1 Scenes, Natural Resources Canada",
+        "catalog": "CCMEO",
+        "state_date": "1996-01-11",
+        "end_date": "2013-03-29",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2204658925-CCMEO.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2204658925-CCMEO.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/CCMEO/collections/CWIC_REG_Radarsat-1.v1.0",
+        "description": "The collection represents browse images and metadata for systematically georeferenced Radarsat-1 Synthetic Aperture Radar(SAR) satellite scenes. The browse scenes are not geometrically enhanced using ground control points, but are systematically corrected using sensor parameters. Full resolution precision geocoded scenes(corrected using ground control points) which correspond to the browse images can be ordered from MacDonald Dettwiler and Associates Ltd., Vancouver, Canada. Metadata discovery is achieved using the online catalog https://neodf.nrcan.gc.ca/neodf_cat3 OR by using the CWIC OGC CSW service URL : http://cwic.csiss.gmu.edu/cwicv1/discovery.  Radarsat-1 operates at 5.3 GHz. (C-Band). It is in a sun-synchronous orbit. Image resolution is in the range 8-100 meters.",
+        "license": "not-provided"
+    },
+    {
         "id": "Catlin_Arctic_Survey.v0",
         "title": "2011 R/V Catlin cruise in the Arctic Ocean",
         "catalog": "OB_DAAC",
@@ -2194,6 +2363,45 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220566371-USGS_LTA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/EARTH_LAND_USGS_AMES_AIR_PHOTOS",
         "description": "The aerial photography inventoried by the Pilot Land Data System  (PLDS) at NASA AMES Research Center has been transferred to the USGS EROS  Data Center.  The photos were obtained from cameras mounted on high and  medium altitude aircraft based at the NASA Ames Research Center.  Several  cameras with varying focal lengths, lenses and film formats are used, but  the Wild RC-10 camera with a focal length of 152 millimeters and a 9 by 9  inch film format is most common.  The positive transparencies are typically  used for ancillary ground checks in conjunctions with digital processing for  the same sites.  The aircraft flights, specifically requested by scientists  performing approved research, often simultaneously collect data using other  sensors on        board (e.g. Thematic Mapper Simulators (TMS) and Thermal Infrared  Multispectral Scanners).  High altitude color infrared photography is used  regularly by government agencies for such applications as crop yield forecasting,  timber inventory and defoliation assessment, water resource management,  land use surveys, water pollution monitoring, and natural disaster  assessment.  To order, specify the latitude and longitude of interest.  You will  then be given a list of photos available for that location.  In some cases,  \"flight books\" are available at EDC that describe the nature of the mission  during which the photos were taken and other attribute information.  The  customer service personnel have access to these books for those photo sets  for which the books exist.",
+        "license": "not-provided"
+    },
+    {
+        "id": "ECO_L2G_CLOUD.v002",
+        "title": "ECOSTRESS Gridded Cloud Mask Instantaneous L2 Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -54, 180, 54",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2076113561-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2076113561-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L2G_CLOUD.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found in figure 2 on the ECOSTRESS website(https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Gridded Cloud Mask Instantaneous L2 Global 70 m (ECO_L2G_CLOUD) Version 2 data product is derived using a single-channel Bayesian cloud threshold with a look-up-table (LUT) approach. The ECO_L2G_CLOUD product provides a cloud mask that can be used to determine cloud cover for accurate land surface temperature and evapotranspiration estimation. This data product is a gridded version of the ECO_L2_CLOUD Version 2 product that was resampled using nearest neighbor, projected to a globally snapped 0.0006\u00b0 grid, and repackaged as the ECO_L2G_CLOUD Version 2 data product.  The ECO_L2G_CLOUD Version 2 data product contains two cloud mask layers: cloud confidence and final cloud mask. Information on how to interpret the cloud confidence and cloud mask layers is provided in Table 7 of the ECO_L2_CLOUD Version 2 User Guide.     Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach TIR bands 2, 4, and 5 are being downloaded. The data products are as previously, except the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.  *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.  *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ECO_L3G_MET.v002",
+        "title": "ECOSTRESS Gridded Downscaled Meteorology Instantaneous L3 Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -54, 180, 54",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2074897737-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2074897737-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L3G_MET.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found in Figure 2 on the ECOSTRESS website (https://ecostress.jpl.nasa.gov/science).  The ECOSTRESS Gridded Downscaled Meteorology Instantaneous L3 Global 70 m (ECO_L3G_MET) Version 2 data product provides instantaneous near-surface air temperature (Ta) and relative humidity (RH) estimates downscaled using linear regression. The linear regression uses up-sampled surface temperature (ST), normalized difference vegetation index (NDVI), and albedo as predictor variables and Ta or RH from Goddard Earth Observing System Version 5 (GEOS-5) Forward Processing (FP) as response variables for their relative outputs. Once the regression coefficients have been determined, they are applied to the 70 meter (m) ST, NDVI, and albedo as a first pass, which is then bias corrected using a GEOS-5 FP image. This data product is mosaicked from the L3 tiled MET (ECO_L3T_MET (https://doi.org/10.5067/ECOSTRESS/ECO_L3T_MET.002)) product, projected to a globally snapped 0.0006\u00b0 grid, and has a spatial resolution of 70 meters (m).  The ECO_L3G_MET Version 2 data product contains four layers distributed in an HDF5 format file including Ta, RH, cloud mask, and water mask.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "ECO_L3G_SM.v002",
+        "title": "ECOSTRESS Gridded Downscaled Soil Moisture Instantaneous L3 Global 70 m V002",
+        "catalog": "LPCLOUD",
+        "state_date": "2018-07-09",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2074890845-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2074890845-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/ECO_L3G_SM.v002",
+        "description": "The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally between 52\u00b0 N and 52\u00b0 S latitudes. A map of the acquisition coverage can be found on the ECOSTRESS website.    The ECOSTRESS Gridded Downscaled Soil Moisture Instantaneous L3 Global 70 m (ECO_L3G_SM) Version 2 data product provides instantaneous soil moisture (SM) estimates downscaled using linear regression. The linear regression uses up-sampled surface temperature (ST), normalized difference vegetation index (NDVI), and albedo as predictor variables and SM from Goddard Earth Observing System Version 5 (GEOS-5) Forward Processing (FP) as response variables for their relative outputs. Once the regression coefficients have been determined, they are applied to the 70 meter (m) ST, NDVI, and albedo as a first pass, which is then bias corrected using a GEOS-5 FP image. This data product is mosaicked from the L3 tiled SM (ECO_L3T_SM) product, is projected to a globally snapped 0.0006\u00b0 grid, and has a spatial resolution of 70 m.    The ECO_L3G_SM Version 2 data product contains three layers distributed in an HDF5 file including SM, cloud mask, and water mask.    Known Issues: *Data acquisition gap: ECOSTRESS was launched on June 29, 2018, and moved to autonomous science operations on August 20, 2018, following a successful in-orbit checkout period. On September 29, 2018, ECOSTRESS experienced an anomaly with its primary mass storage unit (MSU). ECOSTRESS has a primary and secondary MSU (A and B). On December 5, 2018, the instrument was switched to the secondary MSU, and science operations resumed. On March 14, 2019, the secondary MSU experienced a similar anomaly, temporarily halting science acquisitions. On May 15, 2019, a new data acquisition approach was implemented, and science acquisitions resumed. To optimize the new acquisition approach, only Thermal Infrared (TIR) bands 2, 4, and 5 are being downloaded. The data products are the same as before, but the bands not downloaded contain fill values (L1 radiance and L2 emissivity). This approach was implemented from May 15, 2019, through April 28, 2023.    *Data acquisition gap: From February 8 to February 16, 2020, an ECOSTRESS instrument issue resulted in a data anomaly that created striping in band 4 (10.5 micron). These data products have been reprocessed and are available for download. No ECOSTRESS data were acquired on February 17, 2020, due to the instrument being in SAFEHOLD. Data acquired following the anomaly have not been affected.    *Data acquisition: ECOSTRESS has now successfully returned to 5-band mode after being in 3-band mode since 2019. This feature was successfully enabled following a Data Processing Unit firmware update (version 4.1) to the payload on April 28, 2023. To better balance contiguous science data scene variables, 3-band collection is currently being interleaved with 5-band acquisitions over the orbital day/night periods.",
         "license": "not-provided"
     },
     {
@@ -2678,19 +2886,6 @@
         "license": "not-provided"
     },
     {
-        "id": "ISERV.v1",
-        "title": "International Space Station SERVIR Environmental Research and Visualization System V1",
-        "catalog": "USGS_EROS",
-        "state_date": "2013-03-27",
-        "end_date": "",
-        "bbox": "-180, -90, 180, 90",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/ISERV.v1",
-        "description": "Abstract: The ISS SERVIR Environmental Research and Visualization System (ISERV) acquired images of the Earth's surface from the International Space Station (ISS). The goal was to improve automatic image capturing and data transfer. ISERV's main component was the optical assembly which consisted of a 9.25 inch Schmidt-Cassegrain telescope, a focal reducer (field of view enlarger), a digital single lens reflex camera, and a high precision focusing mechanism. A motorized 2-axis pointing mount allowed pointing at targets approximately 23 degrees from nadir in both along- and across-track directions.",
-        "license": "not-provided"
-    },
-    {
         "id": "KOPRI-KPDC-00000008.v1",
         "title": "1998 Seismic Data, Antarctica",
         "catalog": "AMD_KOPRI",
@@ -2821,19 +3016,6 @@
         "license": "not-provided"
     },
     {
-        "id": "KUKRI_He",
-        "title": "(U-Th)/He ages from the Kukri Hills of southern Victoria Land",
-        "catalog": "SCIOPS",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "162.7, -77.7, 162.7, -77.7",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214587974-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214587974-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/KUKRI_He",
-        "description": "The data set consists of (U-Th)/He ages collected from three vertical profiles       from the the Kukri Hills (north side of the Ferrar Glacier) of Southern       Victoria Land.  The data set provides information on the cooling history and       hence the denduation history of the Transantarctic Mountains in this area.       Analyses were all carried out at the (U-Th)/He lab of Ken Farley at the       Californai Institute of Technology.",
-        "license": "not-provided"
-    },
-    {
         "id": "L1B_Wind_Products",
         "title": "Aeolus preliminary HLOS (horizontal line-of-sight) wind observations for Rayleigh and Mie receivers",
         "catalog": "ESA",
@@ -2961,6 +3143,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2751635237-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/M1_AVH13C1.v6",
         "description": "The Long-Term Data Record (LTDR) produces, validates, and distributes a global land surface climate data record (CDR) that uses both mature and well-tested algorithms in concert with the best-available polar-orbiting satellite data from past to the present.   The CDR is critically important to studying global climate change.  The LTDR project is unique in that it serves as a bridge that connects data derived from the NOAA Advanced Very High Resolution Radiometer (AVHRR), the EOS Moderate resolution Imaging Spectroradiometer (MODIS), the Suomi National Polar-orbiting Partnership (SNPP) Visible Infrared Imaging Radiometer Suite (VIIRS), and Joint Polar Satellite System (JPSS) VIIRS missions.  The LTDR draws from the following eight AVHRR missions:   NOAA-7, NOAA-9, NOAA-11, NOAA-14, NOAA-16, NOAA-18, NOAA-19, and MetOp-B.  Currently, the project generates a daily surface reflectance product as the fundamental climate data record (FCDR) and derives daily Normalized Differential Vegetation Index (NDVI) and Leaf-Area Index/fraction of absorbed Photosynthetically Active Radiation (LAI/fPAR) as two thematic CDRs (TCDR).  LAI/fPAR was developed as an experimental product.    The METOP-B AVHRR Atmospherically Corrected Normalized Difference Vegetation Index (NDVI) Daily L3 Global 0.05 Deg CMG, short-name M1_AVH13C1 is generated from GIMMS Advanced Processing System (GAPS) BRDF-corrected Surface Reflectance product (M1_AVH01C1). The M1_AVH13C1 product is available in HDF4 file format.  ",
+        "license": "not-provided"
+    },
+    {
+        "id": "MASTER_FireSense_2023_2330.v1",
+        "title": "MASTER: FireSense, western US, October 2023",
+        "catalog": "ORNL_DAAC",
+        "state_date": "2023-10-16",
+        "end_date": "2023-10-26",
+        "bbox": "-120.17, 33.02, -112.05, 39.21",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3104940437-ORNL_DAAC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3104940437-ORNL_DAAC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_DAAC/collections/MASTER_FireSense_2023_2330.v1",
+        "description": "This dataset includes Level 1B (L1B) data products from the MODIS/ASTER Airborne Simulator (MASTER) instrument. The spectral data were collected as part of the FireSense project during 11 flights aboard a NASA B200 aircraft over California, Nevada, Utah, and Arizona, U.S., 2023-10-16 to 2023-10-26. The FireSense project is focused on delivering NASA's unique Earth science and technological capabilities to operational agencies, striving towards measurable improvement in US wildland fire management. Data products include L1B georeferenced multispectral imagery of calibrated radiance in 50 bands covering wavelengths of 0.460 to 12.879 micrometers at approximately 10-meter spatial resolution. The L1B file format is HDF-4. In addition, the dataset includes flight paths, spectral band information, instrument configuration, ancillary notes, and summary information for each flight, and browse images derived from each L1B data file.",
         "license": "not-provided"
     },
     {
@@ -3185,19 +3380,6 @@
         "license": "not-provided"
     },
     {
-        "id": "NBII_SAIN2",
-        "title": "1986-1988 Plot-Transect Installation - Roan Mountain Massif Content Management",
-        "catalog": "SCIOPS",
-        "state_date": "1987-01-01",
-        "end_date": "1988-01-01",
-        "bbox": "-82.13472, 36.08544, -82.01191, 36.15365",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586476-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586476-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NBII_SAIN2",
-        "description": "This data set contains information on a set of transects and plots that were originally installed in 1987 and 1988 on the grassy balds of the Roan Mountain Massif (Round Bald, Engine Gap, Jane Bald, Grassy Ridge, Big Yellow Mountain (also known as Yellow Mountain), Little Hump Mountain, Bradley Gap, and Hump Mountain (also known as Big Hump Mountain). Data collected from the transects and plots were to characterize baseline conditions against which the effects of future vegetation management actions could be evaluated.   This legacy dataset contains information on the baseline (pre-management) conditions of the grassy balds based on the field collections and analysis of the data collected at transects and plots installed in 1987 and 1988. More specifically, this legacy dataset contains information on the first vegetation composition analysis and first comprehensive plant inventory conducted on the Roan Mountain grassy bald complex.   Information that describes this dataset primarily comes from the following sources: various field reports, memos, letters, grant proposals, hardcopies of the 1987 and 1988 data sheets, photos of the original transects and plots, and interviews with the originators of the transect and plot data.  This metadata record documents legacy data to the extent practical, as required by Executive Order 12906, \"Coordinating Geographic Data Acquisition and Access: The National Spatial Data Infrastructure\", dated April 11, 1994. Details may be missing, but given the resources available, the information provided herein is as concise as possible at this point in time.",
-        "license": "not-provided"
-    },
-    {
         "id": "NEX-DCP30.v1",
         "title": "Downscaled 30 Arc-Second CMIP5 Climate Projections for Studies of Climate Change Impacts in the United States",
         "catalog": "NCCS",
@@ -3221,19 +3403,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1374483929-NCCS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/NEX-GDDP.v1",
         "description": "The NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP) dataset is comprised of downscaled climate scenarios for the globe that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 5 (CMIP5) and across two of the four greenhouse gas emissions scenarios known as Representative Concentration Pathways (RCPs). The CMIP5 GCM runs were developed in support of the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR5). The NEX-GDDP dataset includes downscaled projections for RCP 4.5 and RCP 8.5 from the 21 models and scenarios for which daily scenarios were produced and distributed under CMIP5. Each of the climate projections includes daily maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2100. The spatial resolution of the dataset is 0.25 degrees (~25 km x 25 km). The NEX-GDDP dataset is provided to assist the science community in conducting studies of climate change impacts at local to regional scales, and to enhance public understanding of possible future global climate patterns at the spatial scale of individual towns, cities, and watersheds.    Each of the climate projections includes monthly averaged maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2005 (Retrospective Run) and from 2006 to 2099 (Prospective Run). ",
-        "license": "not-provided"
-    },
-    {
-        "id": "NIPR_UAP_ELF_SYO",
-        "title": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
-        "catalog": "SCIOPS",
-        "state_date": "2000-01-01",
-        "end_date": "",
-        "bbox": "39.6, -69, 39.6, -69",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NIPR_UAP_ELF_SYO",
-        "description": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
         "license": "not-provided"
     },
     {
@@ -3757,6 +3926,19 @@
         "license": "not-provided"
     },
     {
+        "id": "SEAGLIDER_GUAM_2019.vV1",
+        "title": "Adaptive Sampling of Rain and Ocean Salinity from Autonomous Seagliders (Guam 2019-2020)",
+        "catalog": "POCLOUD",
+        "state_date": "2019-10-03",
+        "end_date": "2020-01-15",
+        "bbox": "143.63035, 13.39476, 144.613, 14.71229",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2151536874-POCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2151536874-POCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/POCLOUD/collections/SEAGLIDER_GUAM_2019.vV1",
+        "description": "This dataset was produced by the Adaptive Sampling of Rain and Ocean Salinity from Autonomous Seagliders (NASA grant NNX17AK07G) project, an investigation to develop tools and strategies to better measure the structure and variability of upper-ocean salinity in rain-dominated environments. From October 2019 to January 2020, three Seagliders were deployed near Guam (14\u00b0N 144\u00b0E). The Seaglider is an autonomous profiler measuring salinity and temperature in the upper ocean. The three gliders sampled in an adaptive formation to capture the patchiness of the rain and the corresponding oceanic response in real time. The location was chosen because of the likelihood of intense tropical rain events and the availability of a NEXRAD (S-band) rain radar at the Guam Airport. Spacing between gliders varies from 1 to 60 km. Data samples are gridded by profile and on regular depth bins from 0 to 1000 m. The time interval between profiles was about 3 hours, and they are typically about 1.5 km apart. These profiles are available at Level 2 (basic gridding) and Level 3 (despiked and interpolated). All Seaglider data files are in netCDF format with standards compliant metadata. The project was led by a team from the Applied Physics Laboratory at the University of Washington.",
+        "license": "not-provided"
+    },
+    {
         "id": "Survey_1988_89_Mawson_npcms.v1",
         "title": "1988/89 Summer season, surveying and mapping program, Mawson - North Prince Charles Mountains - Davis",
         "catalog": "AU_AADC",
@@ -4147,6 +4329,19 @@
         "license": "not-provided"
     },
     {
+        "id": "WaterBalance_Daily_Historical_GRIDMET.v1.5",
+        "title": "Daily Historical Water Balance Products for the CONUS",
+        "catalog": "LPCLOUD",
+        "state_date": "1980-01-01",
+        "end_date": "2023-12-31",
+        "bbox": "-131.70607, 21.115301, -60.530453, 55.457306",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2674694066-LPCLOUD.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2674694066-LPCLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/WaterBalance_Daily_Historical_GRIDMET.v1.5",
+        "description": "This dataset provides daily historical Water Balance Model outputs from a Thornthwaite-type, single bucket model.  Climate inputs to the model are from GridMet daily temperature and precipitation for the Continental United States (CONUS). The Water Balance Model output variables include the following: Potential Evapotranspiration (PET, mm), Actual Evapotranspiration (AET, mm), Moisture Deficit (Deficit, mm), Soil Water (soilwater, mm), Runoff (mm), Rain (mm), and Accumulated Snow Water Equivalent (accumswe, mm). The dataset covers the period from January 1 to December 31 for years 1980 through 2023 for the CONUS. Water Balance Model variables are provided as individual files, by variable and year, at a 1 km x 1 km spatial resolution and a daily temporal resolution. Data are in a North America Lambert Conformal Conic projection and are distributed in a standardized Climate and Forecast (CF)-compliant NetCDF file format.",
+        "license": "not-provided"
+    },
+    {
         "id": "XAERDT_L2_ABI_G16.v1",
         "title": "ABI/GOES-16 Dark Target Aerosol 10-Min L2 Full Disk 10 km",
         "catalog": "LAADS",
@@ -4459,19 +4654,6 @@
         "license": "not-provided"
     },
     {
-        "id": "blue_ice_core_DML2004_AS",
-        "title": "101.1 m long horizontal blue ice core collected from Scharffenbergbotnen, DML, Antarctica, in 2003/2004",
-        "catalog": "SCIOPS",
-        "state_date": "1970-01-01",
-        "end_date": "",
-        "bbox": "-180, -90, 180, -62.83",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/blue_ice_core_DML2004_AS",
-        "description": "Horizontal blue ice core collected from the surface of a blue ice area in       Scharffenbergbotnen, Heimefrontfjella, DML. Samples were collected in austral       summer 2003/2004 and transported to Finland for chemical analyses. The blue ice       core is estimated to represent a 1000-year period of climate history 20 - 40       kyr B.P.. The results of the analyses will be available in 2005.",
-        "license": "not-provided"
-    },
-    {
         "id": "ch2014.v1",
         "title": "Alpine3D simulations of future climate scenarios CH2014",
         "catalog": "ENVIDAT",
@@ -4495,19 +4677,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360188-OB_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/chesapeake_val_2013.v0",
         "description": "2013 Chesapeake Bay measurements.",
-        "license": "not-provided"
-    },
-    {
-        "id": "darling_sst_82-93",
-        "title": "1982-1989 and 1993 Seawater Temperatures at the Darling Marine Center",
-        "catalog": "SCIOPS",
-        "state_date": "1982-03-01",
-        "end_date": "1993-12-31",
-        "bbox": "-71.31, 42.85, -66.74, 47.67",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214621676-SCIOPS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214621676-SCIOPS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/darling_sst_82-93",
-        "description": "Seawater Surface Temperature Data Collected between the years 1982-1989 and 1993 off the dock at the Darling Marine Center, Walpole, Maine",
         "license": "not-provided"
     },
     {
