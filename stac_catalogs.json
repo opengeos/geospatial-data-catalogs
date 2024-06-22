@@ -171,14 +171,14 @@
     {
         "title": "Digitale Orthophotos Niedersachsen",
         "id": 35,
-        "url": "https://dop-stac.opengeodata.lgln.niedersachsen.de/catalog.json",
+        "url": "https://dop.stac.lgln.niedersachsen.de",
         "slug": "digitale-orthophotos-niedersachsen",
         "summary": "Digital orthophotos from Lower Saxony in Germany, provided by LGLN.",
         "access": "public",
         "created": "2021-07-06T00:07:56.234Z",
-        "updated": "2022-01-31T18:07:56.234Z",
+        "updated": "2024-06-21T13:07:56.234Z",
         "isPrivate": false,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
@@ -245,19 +245,6 @@
         "isPrivate": true,
         "isApi": true,
         "accessInfo": "The EODC API is accessible for EODC partners only. You need to [contact](https://www.eodc.eu/contact/) EODC to subscribe to their services."
-    },
-    {
-        "title": "EOSSAT-1 Open Data",
-        "id": 99,
-        "url": "https://dragonfly-open-data.s3.eu-west-2.amazonaws.com/stac_collection/catalog.json",
-        "slug": "eossat-1-open-data",
-        "summary": "EOSSAT-1 Open Dataset.  Contains sample datasets captured with the EOSSAT-1 HR-250 instrument.",
-        "access": "protected",
-        "created": "2024-06-19T15:00:15.913Z",
-        "updated": "2024-06-19T15:00:15.913Z",
-        "isPrivate": true,
-        "isApi": false,
-        "accessInfo": "Access to the datasets are protected, but can be shared on request. Please [Email Us](mailto:info@dragonflyaerospace.com) for more information or to request access to the datasets."
     },
     {
         "title": "ERS open data",
