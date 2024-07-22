@@ -5942,6 +5942,32 @@
         "AccountRequired": null
     },
     {
+        "Name": "High resolution, annual cropland and landcover maps for selected African countries",
+        "Description": "Field boundary and land cover maps",
+        "ARN": "arn:aws:s3:::mappingafrica",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/agroimpacts/mapping-africa",
+        "Contact": "mappingafrica@clarku.edu",
+        "ManagedBy": "[The Agricultural Impacts Research Group](https://agroimpacts.info/)",
+        "UpdateFrequency": "New maps are added as developed",
+        "License": "[Planet NICFI participant license agreement](https://assets.planet.com/docs/Planet_ParticipantLicenseAgreement_NICFI.pdf)",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "land cover",
+            "satellite imagery",
+            "machine learning",
+            "deep learning",
+            "cog",
+            "labeled"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Homeland Security and Infrastructure US Cities",
         "Description": "A Requester Pays Bucket of HSIP data including building footprints, LiDAR, ortho imagery, and vegetation delination",
         "ARN": "arn:aws:s3:::usgs-lidar-uscities",
@@ -9109,7 +9135,7 @@
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "Refer to source datasets documentation",
-        "Contact": "For questions regarding data content or quality, visit [Email The Tetra Team Team](nodd-support@tetratech.com). <br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "Contact": "For questions regarding data content or quality, visit [Email The Tetra Tech Team](nodd-support@tetratech.com). <br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA's National Ocean Service, the Integrated Ocean Observing System (IOOS)](https://ioos.noaa.gov/)",
         "UpdateFrequency": "Optimizations run every time new data is uploaded to the source buckets and are available here within minutes.",
         "License": "Open Data. There are no restrictions on the use of this data.",
@@ -9138,7 +9164,7 @@
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "Refer to source datasets documentation",
-        "Contact": "For questions regarding data content or quality, visit [Email The Tetra Team Team](nodd-support@tetratech.com). <br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "Contact": "For questions regarding data content or quality, visit [Email The Tetra Tech Team](nodd-support@tetratech.com). <br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA's National Ocean Service, the Integrated Ocean Observing System (IOOS)](https://ioos.noaa.gov/)",
         "UpdateFrequency": "Optimizations run every time new data is uploaded to the source buckets and are available here within minutes.",
         "License": "Open Data. There are no restrictions on the use of this data.",
@@ -10610,7 +10636,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10656,7 +10682,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
