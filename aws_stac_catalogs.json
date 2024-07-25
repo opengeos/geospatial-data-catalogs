@@ -432,9 +432,9 @@
         "RequesterPays": null
     },
     {
-        "Name": "RCM CEOS ARD",
+        "Name": "RCM CEOS Analysis Ready Data | Donn\u00e9es pr\u00eates \u00e0 l'analyse du CEOS pour le MCR",
         "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard/items/",
-        "Description": "RCM CEOS Analysis Ready Data in an public S3 bucket.",
+        "Description": "RCM CEOS Analysis Ready Data. Donn\u00e9es pr\u00eates \u00e0 l'analyse (DPA) du CEOS pour le MCR",
         "ARN": "arn:aws:s3:::rcm-ceos-ard",
         "Region": "ca-central-1",
         "Type": "S3 Bucket",
@@ -459,9 +459,9 @@
         "RequesterPays": null
     },
     {
-        "Name": "Sentinel Near Real-time Canada Mirror",
+        "Name": "Sentinel Near Real-time Canada Mirror | Miroir Sentinel temps quasi r\u00e9el du Canada",
         "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/",
-        "Description": "NRT Sentinel data in an S3 bucket broken down by sensor, product type and date.",
+        "Description": "Sentinel data over Canada | Donn\u00e9es sentinelles au Canada.",
         "ARN": "arn:aws:s3:::sentinel-products-ca-mirror",
         "Region": "ca-central-1",
         "Type": "S3 Bucket",
