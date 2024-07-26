@@ -5095,26 +5095,31 @@
         "AccountRequired": null
     },
     {
-        "Name": "GEOS-Chem Input Data",
-        "Description": "Top-level directory for all GEOS-Chem data",
+        "Name": "GEOS-Chem Nested Input Data",
+        "Description": "Top-level directory for all GEOS-Chem nested-grid data",
         "ARN": "arn:aws:s3:::gcgrid",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://geos-chem-cloud.readthedocs.io",
-        "Contact": "https://geoschem.github.io/support-team.html",
+        "Documentation": "https://geos-chem.readthedocs.io",
+        "Contact": "http://geos-chem.org/support-team",
         "ManagedBy": "[Harvard University](https://www.harvard.edu/) and [Washington University in St. Louis](https://wustl.edu)",
         "UpdateFrequency": "New meteorological and emission data will be added when available.",
-        "License": "https://geoschem.github.io/license.html",
+        "License": "http://geos-chem.org/license",
         "Tags": [
             "aws-pds",
             "climate",
             "weather",
             "meteorological",
             "environmental",
-            "air quality"
+            "air quality",
+            "chemistry",
+            "atmosphere",
+            "model"
         ],
         "RequesterPays": null,
-        "Explore": null,
+        "Explore": [
+            "[Browse Bucket](https://s3.amazonaws.com/gcgrid/index.html)"
+        ],
         "Host": null,
         "AccountRequired": null
     },
@@ -15585,14 +15590,14 @@
     },
     {
         "Name": "RADARSAT-1",
-        "Description": "Cloud Optimized GeoTIFF scenes and metadata in an S3 bucket",
+        "Description": "Cloud Optimized GeoTIFF (COG) images",
         "ARN": "arn:aws:s3:::radarsat-r1-l1-cog",
         "Region": "ca-central-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.asc-csa.gc.ca/eng/satellites/radarsat1/what-is-radarsat1.asp",
         "Contact": "https://www.eodms-sgdot.nrcan-rncan.gc.ca",
         "ManagedBy": "[Natural Resources Canada](https://nrcan.gc.ca/)",
-        "UpdateFrequency": "The initial product release includes the 36000 products originally ordered by the Government of Canada. Products are added on an adhoc basis driven by prioritized foreign repatriation efforts and new processing orders from the raw archive.",
+        "UpdateFrequency": "Products are added on an adhoc basis driven by prioritized foreign repatriation efforts and new processing orders from the raw archive.\nLes produits sont ajout\u00e9s de mani\u00e8re ponctuelle en fonction des efforts prioritaires de rapatriement \u00e0 l'\u00e9tranger et des nouvelles commandes de traitement \u00e0 partir des archives brutes.",
         "License": "[Open Government License (OGL)](https://open.canada.ca/en/open-government-licence-canada)",
         "Tags": [
             "earth observation",
@@ -15638,16 +15643,16 @@
         "AccountRequired": null
     },
     {
-        "Name": "RCM CEOS ARD",
-        "Description": "RCM CEOS Analysis Ready Data in an public S3 bucket",
+        "Name": "RCM CEOS Analysis Ready Data | Donn\u00e9es pr\u00eates \u00e0 l'analyse du CEOS pour le MCR",
+        "Description": "RCM CEOS Analysis Ready Data Donn\u00e9es pr\u00eates \u00e0 l'analyse (DPA) du CEOS pour le MCR",
         "ARN": "arn:aws:s3:::rcm-ceos-ard",
         "Region": "ca-central-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.asc-csa.gc.ca/eng/satellites/radarsat/",
         "Contact": "eodms-sgdot@nrcan-rncan.gc.ca",
         "ManagedBy": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
-        "UpdateFrequency": "The initial dataset will be Canada-wide, 30M Compact-Polarization standard coverage, every 12 days, per mission revisit frequency.",
-        "License": "RCM image products are available free of charge, to the broadest extent possible, in order to promote the development of innovative products and services derived from SAR data. The Government of Canada retains ownership of all RCM data and image products. Intellectual property rights to value-added products (VAPs) created from the RCM image products will remain with the creator of the VAP. Acceptable uses of RCM image products are set out in the [RCM Public User License Agreement](https://www.asc-csa.gc.ca/eng/satellites/radarsat/access-to-data/public-user-license-agreement.asp), which is provided with each RCM image product.",
+        "UpdateFrequency": "The initial dataset will be Canada-wide, 30M Compact-Polarization standard coverage, every 12 days, per mission revisit frequency.\nL'ensemble de donn\u00e9es initial couvrira l'ensemble du Canada, une couverture standard de 30 metres de polarisation compacte, tous les 12 jours, par fr\u00e9quence de revisite de mission.",
+        "License": "RCM image products are available free of charge, to the broadest extent possible, in order to promote the development of innovative products and services derived from SAR data. The Government of Canada retains ownership of all RCM data and image products. Intellectual property rights to value-added products (VAPs) created from the RCM image products will remain with the creator of the VAP. Acceptable uses of RCM image products are set out in the [RCM Public User License Agreement](https://www.asc-csa.gc.ca/eng/satellites/radarsat/access-to-data/public-user-license-agreement.asp), which is provided with each RCM image product.Les produits d'image de la MCR sont disponibles sans frais, le plus possible accessibles, pour encourager la mise au point de produits et services novateurs d\u00e9riv\u00e9s des donn\u00e9es RSO. Le gouvernement du Canada conserve la propri\u00e9t\u00e9 de toutes les donn\u00e9es et de tous les produits d'image de la MCR. Les droits de propri\u00e9t\u00e9 intellectuelle sur les produits \u00e0 valeur ajout\u00e9e (PVA) cr\u00e9\u00e9s \u00e0 partir des produits d'image de la MCR demeureront la propri\u00e9t\u00e9 du cr\u00e9ateur du PVA. Les utilisations acceptables des produits d'image de la MCR sont \u00e9nonc\u00e9es dans le [contrat de licence d'utilisation](https://www.asc-csa.gc.ca/fra/satellites/radarsat/acces-aux-donnees/contrat-licence-utilisation.asp) fourni avec chaque produit d'image de la MCR",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -16088,16 +16093,16 @@
         "AccountRequired": null
     },
     {
-        "Name": "Sentinel Near Real-time Canada Mirror",
-        "Description": "NRT Sentinel data in an S3 bucket broken down by sensor, product type and date",
+        "Name": "Sentinel Near Real-time Canada Mirror | Miroir Sentinel temps quasi r\u00e9el du Canada",
+        "Description": "Sentinel data over Canada | Donn\u00e9es sentinelles au Canada",
         "ARN": "arn:aws:s3:::sentinel-products-ca-mirror",
         "Region": "ca-central-1",
         "Type": "S3 Bucket",
         "Documentation": "https://sentinel.esa.int/web/sentinel/home",
         "Contact": "eodms-sgdot@nrcan-rncan.gc.ca",
         "ManagedBy": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
-        "UpdateFrequency": "Sentinel-1 is an NRT dataset retrieved from ESA's [collaborative hub](https://colhub.copernicus.eu/) within 90 minutes of satellite downlink. Non-NRT Sentinel-2 and Sentinel-3 are also retrieved. Other sensors are updated as quickly as possible based on Canada coverage and availability at the source.",
-        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
+        "UpdateFrequency": "Sentinel-1 is an NRT dataset retrieved from ESA within 90 minutes of satellite downlink. Non-NRT Sentinel-2, Sentinel-3 and Sentinel-6 are also updated as quickly as possible based on Canada coverage and availability at the source.\nSentinel-1 est un ensemble de donn\u00e9es NRT r\u00e9cup\u00e9r\u00e9 de l'ESA dans les 90 minutes suivant la liaison descendante du satellite. Sentinel-2, Sentinel-3 et Sentinel-6 non NRT sont \u00e9galement r\u00e9cup\u00e9r\u00e9s le plus rapidement possible en fonction de la couverture du Canada et de la disponibilit\u00e9 \u00e0 la source.",
+        "License": "The access and use of Copernicus Sentinel data is available on a free, full and open basis through the Copernicus Data Space Ecosystem and shall be governed by the Legal Notice on the use of Copernicus Sentinel Data and Service published here: https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice.",
         "Tags": [
             "aws-pds",
             "agriculture",
