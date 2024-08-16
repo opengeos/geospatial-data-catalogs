@@ -2223,6 +2223,19 @@
         "license": "not-provided"
     },
     {
+        "id": "CEAMARC_CASO_200708030_BIOGEOCHEMISTRYL_SAMPLES.v1",
+        "title": "2007-08 V3 CEAMARC-CASO Samples for germanium and boron group",
+        "catalog": "AU_AADC",
+        "state_date": "2007-12-17",
+        "end_date": "2008-01-27",
+        "bbox": "139.01488, -67.07104, 150.06479, -42.88246",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214308503-AU_AADC.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214308503-AU_AADC.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/CEAMARC_CASO_200708030_BIOGEOCHEMISTRYL_SAMPLES.v1",
+        "description": "These data describe the locations, dates, time, etc where biogeochemistry data were collected on the CEAMARC-CASO cruise in the 2007/2008 Antarctic season.  See the CEAMARC-CASO events metadata record for further information.  Sample codes are not descriptive.   CEMARC/CASO column have underway data (no link to group site) as well as the CEAMARC and CASO sampling locations. Events are recorded by number and the associated type of sample taken.   CTD - 0.4 um filtered water sample.  Box corer - diatom scrape. Beam Trawl AAD - sponge sample. PHY - phytoplankton sample taken from inline surface seawater system. Van Veen grab - sediment scrape. WAT - surface water sample passed through 0.4 um filter. Description column explains the samples in more detail - eg information on what size fraction the phytoplankton were filtered at. Litres column describes the volume of water that was filtered. Depth is in metres. Time is local time. Temperature is degrees C. Storage location was for shipboard use only.  The \"other\" column details any extra information that may be useful to the sample for example #2153 refers to a sample id code that the French CEAMARC group was using to code for their samples.  Our aim for this voyage was to collect surface phytoplankton and water samples across a transect of the Southern Ocean, and to collect benthic sponge and coral samples in Antarctica, to (i) measure the Ge/Si and Si isotope composition to construct a nutrient profile across the Southern Ocean, and to test and calibrate these parameters as proxies for silica utilisation; and (ii) measure the B isotope composition to test the potential of biogenic silica to be used as a seawater pH proxy.    We collected phytoplankton, sponges, diatom sediment scrapes and water samples at strategic locations to ensure that the entire water column was surveyed.  The data that were collected were used in collaboration with palaeoenvironmental data from sediment cores and experimental culture experiments on diatoms and sponges to gain a better understanding of historical distributions of Silicon and pH in the Southern Ocean.",
+        "license": "not-provided"
+    },
+    {
         "id": "CEAMARC_CASO_200708030_EVENT_BATHYMETRY_PLOTS.v1",
         "title": "2007-08 V3 CEAMARC-CASO Bathymetry Plots Over Time During Events",
         "catalog": "AU_AADC",
@@ -5184,19 +5197,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815280-ENVIDAT.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/latent-reserves-in-the-swiss-nfi.v1.0",
         "description": "The files refer to the data used in Portier et al. \"\u2018Latent reserves\u2019: a hidden treasure in National Forest Inventories\" (2020) *Journal of Ecology*.           **'Latent reserves'** are defined as plots in National Forest Inventories (NFI) that have been free of human influence for >40 to >70 years. They can be used to investigate and acquire a deeper understanding of attributes and processes of near-natural forests using existing long-term data. To determine which NFI sample plots could be considered \u2018latent reserves\u2019, criteria were defined based on the information available in the Swiss NFI database:           * Shrub forests were excluded.  * Plots must have been free of any kind of management, including salvage logging or sanitary cuts, for a minimum amount of time. Thresholds of 40, 50, 60 and 70 years without intervention were tested.  * To ensure that species composition was not influenced by past management, plots where potential vegetation was classified as deciduous by Ellenberg & Kl\u00f6tzli (1972) had to have an observed proportion of deciduous trees matching the theoretical proportion expected in a natural deciduous forest, as defined by Kienast, Brzeziecki, & Wildi (1994).  * Plots had to originate from natural regeneration.   * Intensive livestock grazing must never have occurred on the plots.          The tables stored here were derived from the first, second and third campaigns of the Swiss NFI. The raw data from the Swiss NFI can be provided free of charge within the scope of a contractual agreement (http://www.lfi.ch/dienstleist/daten-en.php).    ****    The files 'Data figure 2' to 'Data figure 8' are publicly available and contain the data used to produce the figures published in the paper.     The files 'Plot-level data for characterisation of 'latent reserves' and 'Tree-level data for characterisation of 'latent reserves' contain all the data required to reproduce the section of the article concerning the characterisation of 'latent reserves' and the comparison to managed forests. The file 'Data for mortality analyses' contains the data required to reproduce the section of the article concerning tree mortality in 'latent reserves'. The access to these three files is restricted as they contain some raw data from the Swiss NFI, submitted to the Swiss law and only accessible upon contractual agreement.   ",
-        "license": "not-provided"
-    },
-    {
-        "id": "law_dome_annual_msa.v1",
-        "title": "150 year MSA sea ice proxy record from Law Dome, Antarctica",
-        "catalog": "AU_AADC",
-        "state_date": "1841-01-01",
-        "end_date": "1995-12-31",
-        "bbox": "112.806946, -66.76972, 112.806946, -66.76972",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214313532-AU_AADC.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214313532-AU_AADC.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/law_dome_annual_msa.v1",
-        "description": "This MSA record (1841-1995) is from a Law Dome ice core called \"DSS\" in East Antarctica. It was calibrated against satellite sea ice records and used to reconstruct sea ice extent prior to the satellite era. The following is taken from the abstract of the paper (Curran et al., 2003).   The instrumental record of Antarctic sea ice in recent decades does not reveal a clear signature of warming despite observational evidence from coastal Antarctica. This work shows a significant correlation (P less than 0.002) between methanesulphonic acid (MSA) concentrations from a Law Dome ice core and 22 years of satellite-derived sea ice extent (SIE) for the 80 degrees E to 140 degrees E sector.  Applying this instrumental calibration to longer term MSA data (1841 to 1995 A.D.) suggests that there has been a 20% decline in SIE since about 1950. The decline is not uniform, showing large cyclical variations, with periods of about 11 years, that confuse trend detection over the relatively short satellite era.  This work was completed as part of ASAC project 757 (ASAC_757).",
         "license": "not-provided"
     },
     {
