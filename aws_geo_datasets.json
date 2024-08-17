@@ -10860,7 +10860,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10883,7 +10883,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -16012,6 +16012,27 @@
         "Explore": [
             "[Browse Bucket](https://smn-ar-wrf.s3.amazonaws.com/index.html)"
         ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "SPARTAN Data",
+        "Description": "All data products (PM25, aerosol chemical components, scattering) provided by SPARTAN",
+        "ARN": "arn:aws:s3:::spartan-cloud",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.spartan-network.org/data",
+        "Contact": "SPARTAN.PM25@gmail.com",
+        "ManagedBy": "The [Atmospheric Composition Analysis Group](https://sites.wustl.edu/acag/) at [Washington University in St. Louis](https://wustl.edu)",
+        "UpdateFrequency": "New measurement or estimation products will be added when available, usually multiple times a month.",
+        "License": "SPARTAN data is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "air quality"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
