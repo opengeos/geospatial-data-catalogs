@@ -481,6 +481,19 @@
         "accessInfo": null
     },
     {
+        "title": "Iconem STAC - 3D Cities, monuments, archeo sites",
+        "id": 104,
+        "url": "https://app.iconem.com/api/stac",
+        "slug": "iconem-stac-3d-cities-monuments-archeo-sites",
+        "summary": "Iconem 3D STAC Catalog includes datasets for 3d-scans of archeo sites, monuments and entire cities. Includes pointclouds (potree, COPC las/laz), tiled meshes (OGC/Cesium 3D Tiles), orthophotos (COG, geotiff), oriented medias, gaussian splats, stored in a unified CRS. Visible at app.iconem.com",
+        "access": "protected",
+        "created": "2024-08-19T15:55:47.898Z",
+        "updated": "2024-08-19T15:55:47.898Z",
+        "isPrivate": true,
+        "isApi": true,
+        "accessInfo": "Please contact Iconem CTO Jonathan Chemla, or access app.iconem.com to see which sites are public, or protected (listed publicly but only available after request) jchemla@iconem.com"
+    },
+    {
         "title": "Kentucky From Above Catalog",
         "id": 93,
         "url": "https://kyfromabove-stac.s3.us-west-1.amazonaws.com/catalog.json",
@@ -985,6 +998,19 @@
         "updated": "2021-05-13T19:23:18.645Z",
         "isPrivate": false,
         "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "USGS 3DEP Lidar Point Cloud COPC",
+        "id": 103,
+        "url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/3dep-lidar-copc",
+        "slug": "usgs-3dep-lidar-point-cloud-copc",
+        "summary": "This collection contains source data from the [USGS 3DEP program](https://www.usgs.gov/3d-elevation-program) reformatted into the [COPC](https://copc.io) format. In addition to these COPC files, various higher-level derived products are available as Cloud Optimized GeoTIFFs in other collections",
+        "access": "public",
+        "created": "2024-08-19T15:50:09.812Z",
+        "updated": "2024-08-19T15:50:09.812Z",
+        "isPrivate": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
