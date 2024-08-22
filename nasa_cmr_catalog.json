@@ -26,6 +26,58 @@
         "license": "not-provided"
     },
     {
+        "id": "12-hourly_interpolated_surface_position_from_buoys",
+        "title": "12-Hourly Interpolated Surface Position from Buoys",
+        "catalog": "SCIOPS",
+        "state_date": "1979-01-01",
+        "end_date": "2009-12-01",
+        "bbox": "-180, 60, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600619-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600619-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12-hourly_interpolated_surface_position_from_buoys",
+        "description": "This data set contains Arctic Ocean daily buoy positions interpolated to hours 0Z and 12Z.",
+        "license": "not-provided"
+    },
+    {
+        "id": "12-hourly_interpolated_surface_velocity_from_buoys",
+        "title": "12-Hourly Interpolated Surface Velocity from Buoys",
+        "catalog": "SCIOPS",
+        "state_date": "1979-01-01",
+        "end_date": "2009-12-02",
+        "bbox": "-180, 74, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600621-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600621-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12-hourly_interpolated_surface_velocity_from_buoys",
+        "description": "This data set contains 12-hourly interpolated surface velocity data from buoys. Point grid: Latitude 74N to 90N - 4 degree increment Longitude 0E to 320E - 20 and 40 degree increment.",
+        "license": "not-provided"
+    },
+    {
+        "id": "12_hourly_interpolated_surface_air_pressure_from_buoys",
+        "title": "12 Hourly Interpolated Surface Air Pressure from Buoys",
+        "catalog": "SCIOPS",
+        "state_date": "1979-01-01",
+        "end_date": "2007-11-30",
+        "bbox": "-180, 70, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600618-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600618-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12_hourly_interpolated_surface_air_pressure_from_buoys",
+        "description": "Optimally interpolated atmospheric surface pressure over the Arctic Ocean Basin. Temporal format - twice daily (0Z and 12Z) Spatial format - 2 degree latitude x 10 degree longitude - latitude: 70 N - 90 N - longitude: 0 E - 350 E",
+        "license": "not-provided"
+    },
+    {
+        "id": "14c_of_soil_co2_from_ipy_itex_cross_site_comparison",
+        "title": "14C of soil CO2 from IPY ITEX Cross Site Comparison",
+        "catalog": "SCIOPS",
+        "state_date": "2008-01-16",
+        "end_date": "2008-01-21",
+        "bbox": "-157.4, -36.9, 147.29, 71.3",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214602443-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214602443-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/14c_of_soil_co2_from_ipy_itex_cross_site_comparison",
+        "description": "Study sites: Toolik Lake Field Station Alaska, USA 68.63 N, 149.57 W; Atqasuk, Alaska USA 70.45 N, 157.40 W; Barrow, Alaska, USA 71.30 N, 156.67 W; Latnjajaure, Sweden 68.35 N, 18.50 E; Falls Creek, Australia: Site 2-unburned 36.90 S 147.29 E; Site 3-burned 36.89 S 147.28 E. Additional sites will be added summer 2008, but the exact sites are not finalized. Purpose: Collect soil CO2 for analysis of radiocarbon to evaluate the age of the carbon respired in controls and warmed plots from across the ITEX network.  Treatments: control and ITEX OTC warming experiment (1994-2007). Design: 5 replicates of each treatment at dry site and moist site. Sampling frequency: Once per peak season.",
+        "license": "not-provided"
+    },
+    {
         "id": "200708_CEAMARC_CASO_TRACE_ELEMENT_SAMPLES.v1",
         "title": "2007-08 CEAMARC-CASO VOYAGE TRACE ELEMENT SAMPLING AROUND AN ICEBERG",
         "catalog": "AU_AADC",
@@ -1222,19 +1274,6 @@
         "license": "not-provided"
     },
     {
-        "id": "AMZ1-WFI-L4-SR-1",
-        "title": "AMAZONIA-1/WFI - Level-4-SR - Cloud Optimized GeoTIFF",
-        "catalog": "INPE",
-        "state_date": "2024-01-01",
-        "end_date": "2024-06-09",
-        "bbox": "-135.151782, -45.613218, 106.18473, 63.78312",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204639-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204639-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/AMZ1-WFI-L4-SR-1",
-        "description": "AMAZONIA-1/WFI Surface Reflectance product over Brazil. L4 SR product provides orthorectified surface reflectance images. This dataset is provided as Cloud Optimized GeoTIFF (COG).",
-        "license": "not-provided"
-    },
-    {
         "id": "APSF",
         "title": "Aerial Photo Single Frames",
         "catalog": "USGS_LTA",
@@ -1950,97 +1989,6 @@
         "license": "not-provided"
     },
     {
-        "id": "CB4-MUX-L4-SR-1",
-        "title": "CBERS-4/MUX - Level-4-SR - Cloud Optimized GeoTIFF",
-        "catalog": "INPE",
-        "state_date": "2016-01-01",
-        "end_date": "2024-06-09",
-        "bbox": "-79.392902, -40.793661, 49.863137, 28.185483",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204643-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204643-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/CB4-MUX-L4-SR-1",
-        "description": "CBERS-4/MUX Surface Reflectance product over Brazil. L4 SR product provides orthorectified surface reflectance images. This dataset is provided as Cloud Optimized GeoTIFF (COG).",
-        "license": "not-provided"
-    },
-    {
-        "id": "CB4-WFI-L4-SR-1",
-        "title": "CBERS-4/WFI - Level-4-SR - Cloud Optimized GeoTIFF",
-        "catalog": "INPE",
-        "state_date": "2016-01-01",
-        "end_date": "2024-06-09",
-        "bbox": "-84.468045, -46.643149, 57.533125, 42.454712",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204413-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204413-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/CB4-WFI-L4-SR-1",
-        "description": "CBERS-4/WFI Surface Reflectance product over Brazil. L4 SR product provides orthorectified surface reflectance images. This dataset is provided as Cloud Optimized GeoTIFF (COG).",
-        "license": "not-provided"
-    },
-    {
-        "id": "CB4A-WFI-L4-SR-1",
-        "title": "CBERS-4A/WFI - Level-4-SR - Cloud Optimized GeoTIFF",
-        "catalog": "INPE",
-        "state_date": "2020-01-01",
-        "end_date": "2024-06-09",
-        "bbox": "-81.507167, -38.111915, 51.482289, 39.663251",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204696-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204696-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/CB4A-WFI-L4-SR-1",
-        "description": "CBERS-4A/WFI Surface Reflectance product over Brazil. L4 SR product provides orthorectified surface reflectance images. This dataset is provided as Cloud Optimized GeoTIFF (COG).",
-        "license": "not-provided"
-    },
-    {
-        "id": "CB4A-WPM-PCA-FUSED-1",
-        "title": "CBERS-4A/WPM - Multispectral and Panchromatic Bands Fusioned",
-        "catalog": "INPE",
-        "state_date": "2023-03-02",
-        "end_date": "2024-06-16",
-        "bbox": "-74.678026, -34.572211, -34.099281, 6.02882",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204169-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204169-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/CB4A-WPM-PCA-FUSED-1",
-        "description": "This collection contains 2 meter high-resolution, RGB products, generated using the Principal Components Fusion (PCA) method, with values coded between 1 and 255, with 0 being reserved for 'No Data'. This product is derived from the original CBERS-4A WPM Level-4 Digital Number with 10 bit of quantization.",
-        "license": "not-provided"
-    },
-    {
-        "id": "CBERS-WFI-8D-1",
-        "title": "CBERS/WFI - Level-4-SR - Data Cube - LCF 8 days",
-        "catalog": "INPE",
-        "state_date": "2020-01-01",
-        "end_date": "2024-05-31",
-        "bbox": "-76.2226604, -36.733211, -32.761135, 6.013904",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204417-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204417-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/CBERS-WFI-8D-1",
-        "description": "Earth Observation Data Cube generated from CBERS-4/WFI and CBERS-4A/WFI Level-4 SR products over Brazil extension. This dataset is provided in Cloud Optimized GeoTIFF (COG) file format. The dataset is processed with 64 meters of spatial resolution, reprojected and cropped to BDC_LG grid Version 2 (BDC_LG V2), considering a temporal compositing function of 8 days using the Least Cloud Cover First (LCF) best pixel approach.",
-        "license": "not-provided"
-    },
-    {
-        "id": "CBERS4-MUX-2M-1",
-        "title": "CBERS-4/MUX - Level-4-SR - Data Cube - LCF 2 months",
-        "catalog": "INPE",
-        "state_date": "2016-01-01",
-        "end_date": "2024-04-30",
-        "bbox": "-75.9138367, -34.6755646, -27.9114219, 5.9260044",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204197-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204197-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/CBERS4-MUX-2M-1",
-        "description": "Earth Observation Data Cube generated from CBERS-4/MUX Level-4 SR product over Brazil extension. This dataset is provided in Cloud Optimized GeoTIFF (COG) file format. The dataset is processed with 20 meters of spatial resolution, reprojected and cropped to BDC_MD grid Version 2 (BDC_MD V2), considering a temporal compositing function of 2 months using the Least Cloud Cover First (LCF) best pixel approach.",
-        "license": "not-provided"
-    },
-    {
-        "id": "CBERS4-WFI-16D-2",
-        "title": "CBERS-4/WFI - Level-4-SR - Data Cube - LCF 16 days",
-        "catalog": "INPE",
-        "state_date": "2016-01-01",
-        "end_date": "2024-05-23",
-        "bbox": "-76.2226604, -36.7332109, -32.7611351, 6.0139036",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204143-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204143-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/CBERS4-WFI-16D-2",
-        "description": "Earth Observation Data Cube generated from CBERS-4/WFI Level-4 SR product over Brazil extension. This dataset is provided in Cloud Optimized GeoTIFF (COG) file format. The dataset is processed with 64 meters of spatial resolution, reprojected and cropped to BDC_LG grid Version 2 (BDC_LG V2), considering a temporal compositing function of 16 days using the Least Cloud Cover First (LCF) best pixel approach.",
-        "license": "not-provided"
-    },
-    {
         "id": "CDDIS MEASURES products strain rate grids.v1",
         "title": "CDDIS SESES MEaSUREs products strain rate grids",
         "catalog": "CDDIS",
@@ -2207,6 +2155,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1220567099-USGS_LTA.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/USGS_LTA/collections/CEOS_CalVal_Test_Sites-Algeria3",
         "description": "On the background of these requirements for sensor calibration, intercalibration and product validation, the subgroup on Calibration and Validation of the Committee on Earth Observing System (CEOS) formulated the following recommendation during the plenary session held in China at the end of 2004, with the goal of setting-up and operating an internet based system to provide sensor data, protocols and guidelines for these purposes:  Background:  Reference Datasets are required to support the understanding of climate change and quality assure operational services by Earth Observing satellites. The data from different sensors and the resulting synergistic data products require a high level of accuracy that can only be obtained through continuous traceable calibration and validation activities. Requirement:  Initiate an activity to document a reference methodology to predict Top of Atmosphere (TOA) radiance for which currently flying and planned wide swath sensors can be intercompared, i.e. define a standard for traceability. Also create and maintain a fully accessible web page containing, on an instrument basis, links to all instrument characteristics needed for intercomparisons as specified above, ideally in a common format. In addition, create and maintain a database (e.g. SADE) of instrument data for specific vicarious calibration sites, including site characteristics, in a common format. Each agency is responsible for providing data for their instruments in this common format. Recommendation : The required activities described above should be supported for an implementation period of two years and a maintenance period over two subsequent years. The CEOS should encourage a member agency to accept the lead role in supporting this activity. CEOS should request all member agencies to support this activity by providing appropriate information and data in a timely manner.  Pseudo-Invariant Calibration Sites (PICS): Algeria 3 is one of six CEOS reference Pseudo-Invariant Calibration Sites (PICS) that are CEOS Reference Test Sites. Besides the nominally good site characteristics (temporal stability, uniformity, homogeneity, etc.), these six PICS were selected by also taking into account their heritage and the large number of datasets from multiple instruments that already existed in the EO archives and the long history of characterization performed over these sites. The PICS have high reflectance and are usually made up of sand dunes with climatologically low aerosol loading and practically no vegetation. Consequently, these PICS can be used to evaluate the long-term stability of instrument and facilitate inter-comparison of multiple instruments.",
+        "license": "not-provided"
+    },
+    {
+        "id": "CH-OG-1-GPS-10S.v0.0",
+        "title": "10 sec GPS ground tracking data",
+        "catalog": "SCIOPS",
+        "state_date": "2001-05-28",
+        "end_date": "",
+        "bbox": "-63.51, -45.69, 170.42, 78.87",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/CH-OG-1-GPS-10S.v0.0",
+        "description": "This data set comprises GPS ground data of a sample rate of 10 sec, generated       by decoding and sampling GPS high  rate ground data. This raw data passed no       quality control. The data are given in the Rinex 2.1 format.",
         "license": "not-provided"
     },
     {
@@ -3003,6 +2964,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ISERV.v1",
+        "title": "International Space Station SERVIR Environmental Research and Visualization System V1",
+        "catalog": "USGS_EROS",
+        "state_date": "2013-03-27",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/ISERV.v1",
+        "description": "Abstract: The ISS SERVIR Environmental Research and Visualization System (ISERV) acquired images of the Earth's surface from the International Space Station (ISS). The goal was to improve automatic image capturing and data transfer. ISERV's main component was the optical assembly which consisted of a 9.25 inch Schmidt-Cassegrain telescope, a focal reducer (field of view enlarger), a digital single lens reflex camera, and a high precision focusing mechanism. A motorized 2-axis pointing mount allowed pointing at targets approximately 23 degrees from nadir in both along- and across-track directions.",
+        "license": "not-provided"
+    },
+    {
         "id": "KOPRI-KPDC-00000008.v1",
         "title": "1998 Seismic Data, Antarctica",
         "catalog": "AMD_KOPRI",
@@ -3263,19 +3237,6 @@
         "license": "not-provided"
     },
     {
-        "id": "MCD14DL_C5_NRT.v005",
-        "title": "MODIS/Aqua+Terra Thermal Anomalies/Fire locations 1km FIRMS V005 NRT",
-        "catalog": "LM_FIRMS",
-        "state_date": "2014-01-28",
-        "end_date": "",
-        "bbox": "-180, -80, 180, 80",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1219768065-LM_FIRMS.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LM_FIRMS/collections/MCD14DL_C5_NRT.v005",
-        "description": "Near Real-Time (NRT) MODIS Thermal Anomalies / Fire locations processed by FIRMS (Fire Information for Resource Management System) - Land Atmosphere Near real time Capability for EOS (LANCE), using swath products (MOD14/MYD14) rather than the tiled MOD14A1 and MYD14A1 products. The thermal anomalies / active fire represent the center of a 1km pixel that is flagged by the MODIS MOD14/MYD14 Fire and Thermal Anomalies algorithm (Giglio 2003) as containing one or more fires within the pixel. This is the most basic fire product in which active fires and other thermal anomalies, such as volcanoes, are identified.MCD14DL are available in the following formats: TXT, SHP, KML, WMS. These data are also provided through the FIRMS Fire Email Alerts. Please note only the TXT and SHP files contain all the attributes.",
-        "license": "not-provided"
-    },
-    {
         "id": "MIANACP.v1",
         "title": "MISR Aerosol Climatology Product V001",
         "catalog": "LARC",
@@ -3484,6 +3445,32 @@
         "license": "not-provided"
     },
     {
+        "id": "NBII_SAIN2",
+        "title": "1986-1988 Plot-Transect Installation - Roan Mountain Massif Content Management",
+        "catalog": "SCIOPS",
+        "state_date": "1987-01-01",
+        "end_date": "1988-01-01",
+        "bbox": "-82.13472, 36.08544, -82.01191, 36.15365",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586476-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586476-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NBII_SAIN2",
+        "description": "This data set contains information on a set of transects and plots that were originally installed in 1987 and 1988 on the grassy balds of the Roan Mountain Massif (Round Bald, Engine Gap, Jane Bald, Grassy Ridge, Big Yellow Mountain (also known as Yellow Mountain), Little Hump Mountain, Bradley Gap, and Hump Mountain (also known as Big Hump Mountain). Data collected from the transects and plots were to characterize baseline conditions against which the effects of future vegetation management actions could be evaluated.   This legacy dataset contains information on the baseline (pre-management) conditions of the grassy balds based on the field collections and analysis of the data collected at transects and plots installed in 1987 and 1988. More specifically, this legacy dataset contains information on the first vegetation composition analysis and first comprehensive plant inventory conducted on the Roan Mountain grassy bald complex.   Information that describes this dataset primarily comes from the following sources: various field reports, memos, letters, grant proposals, hardcopies of the 1987 and 1988 data sheets, photos of the original transects and plots, and interviews with the originators of the transect and plot data.  This metadata record documents legacy data to the extent practical, as required by Executive Order 12906, \"Coordinating Geographic Data Acquisition and Access: The National Spatial Data Infrastructure\", dated April 11, 1994. Details may be missing, but given the resources available, the information provided herein is as concise as possible at this point in time.",
+        "license": "not-provided"
+    },
+    {
+        "id": "NBII_SAIN5",
+        "title": "1987- 1992 Plot-Transect - Community and Mowing Analysis - Roan Mountain Massif Data",
+        "catalog": "SCIOPS",
+        "state_date": "1987-01-01",
+        "end_date": "1992-01-01",
+        "bbox": "-82.13472, 36.08544, -82.01191, 36.15365",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586477-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586477-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NBII_SAIN5",
+        "description": "The transects and plots were originally installed in 1987 and 1988 on the grassy balds of the Roan Mountain Massif [Round Bald, Engine Gap, Jane Bald, Grassy Ridge, Big Yellow Mountain (also known as Yellow Mountain), Little Hump Mountain, Bradley Gap, and Hump Mountain (also known as Big Hump Mountain)]. Data collected from the transects were to characterize baseline conditions against which the effects of future vegetation management actions could be evaluated. This legacy data set represents (1) an analysis of data collected from transects and plots that were originally installed in 1987 and 1988 and revisited in 1992, and (2) information on the entry of the 1987, 1988, 1992, 1993, and 1994 data electronically in 1994. Analyses were conducted to document the pre-management conditions of the vegetation on the grassy balds complex of Roan Mountain, and the changes in vegetation on Round Bald and Jane Bald in response to the hand-mowing between 1987-1988 and 1992. This was the second time that a vegetation composition analysis was conducted using the 1987 and 1988 baseline data. Information pertaining to this dataset primarily comes from one report that describes the analyses, electronic files and hardcopies of the raw data, and interviews with the originators of the transect and plot data. This metadata record documents geospatial legacy data to the extent practicable, as required by Executive Order 12906, \"Coordinating Geographic Data Acquisition and Access: The National Spatial Data Infrastructure,\" dated April 11, 1994. Details may be missing, but given the resources available, the information provided herein is as concise as possible at this point in time.",
+        "license": "not-provided"
+    },
+    {
         "id": "NEX-DCP30.v1",
         "title": "Downscaled 30 Arc-Second CMIP5 Climate Projections for Studies of Climate Change Impacts in the United States",
         "catalog": "NCCS",
@@ -3507,6 +3494,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1374483929-NCCS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/NEX-GDDP.v1",
         "description": "The NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP) dataset is comprised of downscaled climate scenarios for the globe that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 5 (CMIP5) and across two of the four greenhouse gas emissions scenarios known as Representative Concentration Pathways (RCPs). The CMIP5 GCM runs were developed in support of the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR5). The NEX-GDDP dataset includes downscaled projections for RCP 4.5 and RCP 8.5 from the 21 models and scenarios for which daily scenarios were produced and distributed under CMIP5. Each of the climate projections includes daily maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2100. The spatial resolution of the dataset is 0.25 degrees (~25 km x 25 km). The NEX-GDDP dataset is provided to assist the science community in conducting studies of climate change impacts at local to regional scales, and to enhance public understanding of possible future global climate patterns at the spatial scale of individual towns, cities, and watersheds.    Each of the climate projections includes monthly averaged maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2005 (Retrospective Run) and from 2006 to 2099 (Prospective Run). ",
+        "license": "not-provided"
+    },
+    {
+        "id": "NIPR_UAP_ELF_SYO",
+        "title": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
+        "catalog": "SCIOPS",
+        "state_date": "2000-01-01",
+        "end_date": "",
+        "bbox": "39.6, -69, 39.6, -69",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NIPR_UAP_ELF_SYO",
+        "description": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
         "license": "not-provided"
     },
     {
@@ -4498,19 +4498,6 @@
         "license": "not-provided"
     },
     {
-        "id": "a-numerical-solver-for-heat-and-mass-transport-in-snow-based-on-fenics.v1.0",
-        "title": "A numerical solver for heat and mass transport in snow based on FEniCS",
-        "catalog": "ENVIDAT",
-        "state_date": "2022-01-01",
-        "end_date": "2022-01-01",
-        "bbox": "9.8472494, 46.812044, 9.8472494, 46.812044",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814662-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814662-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/a-numerical-solver-for-heat-and-mass-transport-in-snow-based-on-fenics.v1.0",
-        "description": "This python code uses the Finite Element library FEniCS (via docker) to solve the one dimensional partial differential equations for heat and mass transfer in snow. The results are written in vtk format.     The dataset contains the code and the output data to reproduce the key Figure 5 from the related publication:    _Sch\u00fcrholt, K., Kowalski, J., L\u00f6we, H.; Elements of future snowpack modeling - Part 1: A physical  instability arising from the non-linear coupling of transport and phase changes, The Cryosphere, 2022_    The code and potential updates can be accessed directly through git via:    https://gitlabext.wsl.ch/snow-physics/snowmodel_fenics",
-        "license": "not-provided"
-    },
-    {
         "id": "a6efcb0868664248b9cb212aba44313d",
         "title": "ESA Aerosol Climate Change Initiative (Aerosol CCI): Level 2 aerosol products from MERIS (ALAMO algorithm), Version 2.2",
         "catalog": "FEDEO",
@@ -4534,19 +4521,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2645106424-GHRC_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/GHRC_DAAC/collections/aamhcpex.v1",
         "description": "The AAMH CPEX dataset contains products obtained from the MetOp-A, MetOp-B, NOAA-18, and NOAA-19 satellites. These data were collected in support of the NASA Convective Processes Experiment (CPEX) field campaign. The CPEX field campaign took place in the North Atlantic-Gulf of Mexico-Caribbean Sea region from 25 May to 25 June 2017. CPEX conducted a total of sixteen DC-8 missions from 27 May to 24 June. The CPEX campaign collected data to help explain convective storm initiation, organization, growth, and dissipation in the North Atlantic-Gulf of Mexico-Caribbean Oceanic region during the early summer of 2017. These data are available from May 26, 2017, through July 15, 2017, and are available in netCDF-4 format.",
-        "license": "not-provided"
-    },
-    {
-        "id": "above-and-below-ground-herbivore-communities-along-elevation.v1.0",
-        "title": "Above- and below-ground herbivore communities along elevation",
-        "catalog": "ENVIDAT",
-        "state_date": "2020-01-01",
-        "end_date": "2020-01-01",
-        "bbox": "5.95587, 45.81802, 10.49203, 47.80838",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814648-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814648-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/above-and-below-ground-herbivore-communities-along-elevation.v1.0",
-        "description": "Despite the common role of above- and below-ground herbivore communities in mediating ecosystem functioning, our understanding of the variation of species communities along natural gradient is largely strongly biased toward aboveground organisms. This dataset enables to study the variations in assemblages of two dominant groups of herbivores, namely, aboveground orthoptera and belowground nematodes together with their food plants. Herbivores and plant surveys were conducted in 48 natural grasslands along six elevation gradients, selected to span the major macro-climatic and environmental conditions of the Swiss Alps. It compiles herbivores and plant surveys, information on the study sites as well as plant and herbivores functional traits sought to be involved in trophic interactions and to respond to climatic variation along the elevation. Plant functional traits considered are the SLA, the LDMC, the C/N content, the punch strength (i.e. force required to pierce the leave lamina), the mandibular strength for Orthoptera insect. Data were collected during the summer 2016 and 2017. ",
         "license": "not-provided"
     },
     {
@@ -4628,58 +4602,6 @@
         "license": "not-provided"
     },
     {
-        "id": "aerosol-data-davos-wolfgang.v1.0",
-        "title": "Aerosol Data Davos Wolfgang",
-        "catalog": "ENVIDAT",
-        "state_date": "2020-01-01",
-        "end_date": "2020-01-01",
-        "bbox": "9.853594, 46.835577, 9.853594, 46.835577",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814678-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814678-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/aerosol-data-davos-wolfgang.v1.0",
-        "description": "Aerosol properties were measured between February 8 and March 31 2019  at the measurement site Davos Wolfgang (LON: 9.853594, LAT: 46.835577). Optical and aerodynamic particle counters, as well as a scanning mobility particle size spectrometer and an ice nuclei counter were deployed to report particle concentrations and size distributions in fine (10-1000 nm) and coarse mode (> 1000 nm), cloud condensation nuclei concentrations (CCNCs) and ice nuclei particle concentrations (ICNCs). The ambient particles were transported via a heated inlet to be distributed to the particle detecting devices inside the setup room.    Optical Particle Counter (OPC): Light scattering of a diode laser beam caused by travelling particles is used in the both, the OPC-N3 (0.41 - 38.5 &#956;m) and GT-526S (0.3 \u2013 5 &#956;m), to determine their size and number concentration. For the OPC-N3, particle size spectra and concentration data are used afterwards to calculate PM&#8321;, PM&#8322;,&#8325; and PM&#8321;&#8320; (assumptions: particle density: 1.65 g cm&#713;&#179;, refractive index: 1.5+i0).    Aerodynamic Particle Sizer (APS): The APS (3321, TSI Inc.) measured the particle size distribution for aerodynamic diameters between 0.5 &#956;m and ~20 &#956;m by the particle\u2019s time-of-flight and light-scattering intensity (assumptions: particle density 1 g cm&#713;&#179;).    Scanning Mobility Particle Size Spectrometer (SMPS): Particle number concentrations in a size range between 12 and 460 nm (electrical mobility diameter) were measured at Davos Wolfgang, using a Scanning Mobility Particle Sizer Spectrometer (3938, TSI Inc.). The classifier (3082, TSI Inc.) was equipped with a neutralizer (3088, TSI Inc.) and a differential mobility analyzer working with negative polarity (3081, TSI Inc.). The size selected particles were counted by a water-based condensation particle counter (3788 , TSI Inc.). The TSI AIM software was used to provide particle size distributions by applying multiple charge and diffusion loss corrections (assumptions: particle density 1 g cm&#713;&#179;).     Coriolis &#956; and DRINCZ: A microbial air sampler (Coriolis &#956;, bertin Instruments) was used to collect airborne particles for investigating their ice nucleating ability with a droplet freezing device. Particles larger than 0.5 &#956;m were drawn with an air flow rate of up to 300 l min&#713;&#185; into the cone and centrifuged into the wall of the cone due to the forming vortex. The liquid sample was transferred into the DRoplet Ice Nuclei Counter Zurich (DRINCZ, ETH Zurich) to study heterogeneous ice formation (immersion freezing mode) of ambient airborne particles. ",
-        "license": "not-provided"
-    },
-    {
-        "id": "aerosol-data-weissfluhjoch.v1.0",
-        "title": "Aerosol Data Weissfluhjoch",
-        "catalog": "ENVIDAT",
-        "state_date": "2020-01-01",
-        "end_date": "2020-01-01",
-        "bbox": "9.806475, 46.832964, 9.806475, 46.832964",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814736-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814736-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/aerosol-data-weissfluhjoch.v1.0",
-        "description": "Aerosol properties were measured between February 8 and March 31 2019  at the measurement site Weissfluhjoch (LON: 9.806475, LAT: 46.832964). Optical and aerodynamic particle counters, as well as a scanning mobility particle size spectrometer and an ice nuclei counter were deployed to report particle concentrations and size distributions in fine (10-1000 nm) and coarse mode (> 1000 nm), cloud condensation nuclei concentrations (CCNCs), and ice nuclei particle concentrations (ICNCs). The ambient particles were transported via a heated inlet to be distributed to the particle detecting devices inside the setup room.     Optical Particle Counter (OPC): Light scattering of a diode laser beam caused by travelling particles is used in the both, the OPC-N3 (0.41 - 38.5 &#956;m) and GT-526S (0.3 \u2013 5 &#956;m), to determine their size and number concentration. For the OPC-N3, particle size spectra and concentration data are used afterwards to calculate PM&#8321;, PM&#8322;,&#8325; and PM&#8321;&#8320; (assumptions: particle density: 1.65 g cm&#713;&#179;, refractive index: 1.5+i0).     Aerodynamic Particle Sizer (APS): The APS (3321, TSI Inc.) measured the particle size distribution for aerodynamic diameters between 0.5 &#956;m and ~20 &#956;m by the particle\u2019s time-of-flight and light-scattering intensity (assumptions: particle density 1 g cm&#713;&#179;).     Scanning Mobility Particle Size Spectrometer (SMPS): Particle number concentrations in a size range between 12 and 460 nm (electrical mobility diameter) were measured at Davos Wolfgang, using a Scanning Mobility Particle Sizer Spectrometer (SMPS 3938, TSI Inc.). The classifier (3082, TSI Inc.) was equipped with a neutralizer (3088, TSI Inc.) and a differential mobility analyzer working with negative polarity (3081, TSI Inc.). The size selected particles were counted by a water-based condensation particle counter (3787 TSI Inc.). The TSI AIM software was used to provide particle size distributions by applying multiple charge and diffusion loss corrections (assumptions: particle density 1 g cm&#713;&#179;).     Coriolis &#956; and LINDA: A microbial air sampler (Coriolis &#956;, bertin Instruments) was used to collect airborne particles for investigating their ice nucleating ability with a droplet freezing device. Particles larger than 0.5 &#956;m were drawn with an air flow rate of up to 300 l min&#8254;&#185; into the cone and centrifuged into the wall of the cone due to the forming vortex. The liquid sample was transferred into the LED based Ice Nucleation Detection Apparatus (LINDA, University of Basel) to study heterogeneous ice formation (immersion freezing mode) of ambient airborne particles.   ",
-        "license": "not-provided"
-    },
-    {
-        "id": "alnus-glutinosa-orientus-ishidae-flavescence-doree.v1.0",
-        "title": "Alnus glutinosa (L.) Gaertn. and Orientus ishidae (Matsumura, 1902) share phytoplasma genotypes linked to the \u201cFlavescence dor\u00e9e\u201d epidemics",
-        "catalog": "ENVIDAT",
-        "state_date": "2021-01-01",
-        "end_date": "2021-01-01",
-        "bbox": "8.4484863, 45.8115721, 9.4372559, 46.4586735",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814963-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814963-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/alnus-glutinosa-orientus-ishidae-flavescence-doree.v1.0",
-        "description": "Flavescence dor\u00e9e (FD) is a grapevine disease caused by associated phytoplasmas (FDp), which are epidemically spread by their main vector Scaphoideus titanus. The possible roles of alternative and secondary FDp plant hosts and vectors have gained interest to better understand the FDp ecology and epidemiology. A survey conducted in the surroundings of a vineyard in the Swiss Southern Alps aimed at studying the possible epidemiological role of the FDp secondary vector Orientus ishidae and the FDp host plant Alnus glutinosa is reported.     Data used for the publication.  Insects were captured by using a sweeping net (on common alder trees) and yellow sticky traps (Rebell Giallo, Andermatt Biocontrol AG, Switzerland) placed in the vineyard canopy. Insects were later determined and selected for molecular analyses.  Grapevines and common alder samples were collected using the standard techniques. The molecular analyses were conducted in order to identify samples infected by the Flavescence dor\u00e9e phytoplasma (16SrV-p) and the Bois Noir phytoplasma (16SrXII-p). A selection of the infected sampled were further characterized by map genotype and sequenced in order to compare the genotypes in insects, grapevines and common alder trees.  ",
-        "license": "not-provided"
-    },
-    {
-        "id": "alpine3d-simulations-of-future-climate-scenarios-for-graubunden.v1.0",
-        "title": "Alpine3D simulations of future climate scenarios for Graubunden",
-        "catalog": "ENVIDAT",
-        "state_date": "2019-01-01",
-        "end_date": "2019-01-01",
-        "bbox": "8.6737061, 46.2216525, 10.6347656, 47.1075228",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814545-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814545-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/alpine3d-simulations-of-future-climate-scenarios-for-graubunden.v1.0",
-        "description": "This is the simulation dataset from _\"Response of snow cover and runoff to climate change in high Alpine catchments of Eastern Switzerland\"_, M. Bavay, T. Gr\u00fcnewald, M. Lehning, Advances in Water Resources __55__, 4-16, 2013    A model study on the impact of climate change on snow cover and runoff has been conducted for the Swiss Canton of Graub\u00fcnden. The model Alpine3D has been forced with the data from 35 Automatic Weather Stations in order to investigate snow and runoff dynamics for the current climate. The data set has then been modified to reflect climate change as predicted for the 2021-2050 and 2070-2095 periods from an ensemble of regional climate models.    The predicted changes in snow cover will be moderate for 2021-2050 and become drastic in the second half of the century. Towards the end of the century the snow cover changes will roughly be equivalent to an elevation shift of 800 m. Seasonal snow water equivalents will decrease by one to two thirds and snow seasons will be shortened by five to nine weeks in 2095.    Small, higher elevation catchments will show more winter runoff, earlier spring melt peaks and reduced summer runoff. Where glacierized areas exist, the transitional increase in glacier melt will initially offset losses from snow melt. Larger catchments, which reach lower elevations will show much smaller changes since they are already dominated by summer precipitation.",
-        "license": "not-provided"
-    },
-    {
         "id": "amprimpacts.v1",
         "title": "Advanced Microwave Precipitation Radiometer (AMPR) IMPACTS",
         "catalog": "GHRC_DAAC",
@@ -4758,16 +4680,16 @@
         "license": "not-provided"
     },
     {
-        "id": "ch2014.v1",
-        "title": "Alpine3D simulations of future climate scenarios CH2014",
-        "catalog": "ENVIDAT",
-        "state_date": "2014-01-01",
-        "end_date": "2014-01-01",
-        "bbox": "8.227, 46.79959, 8.227, 46.79959",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814657-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789814657-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/ch2014.v1",
-        "description": "# Overview    The CH2014-Impacts initiative is a concerted national effort to describe impacts of climate change in Switzerland quantitatively, drawing on the scientific resources available in Switzerland today. The initiative links the recently developed Swiss Climate Change Scenarios CH2011 with an evolving base of quantitative impact models. The use of a common climate data set across disciplines and research groups sets a high standard of consistency and comparability of results. Impact studies explore the wide range of climatic changes in temperature and precipitation projected in CH2011 for the 21st century, which vary with the assumed global level of greenhouse gases, the time horizon, the underlying climate model, and the geographical region within Switzerland. The differences among climate projections are considered using three greenhouse gas scenarios, three future time periods in the 21st century, and three climate uncertainty levels (Figure 1). Impacts are shown with respect to the reference period 1980-2009 of CH2011, and add to any impacts that have already emerged as a result of earlier climate change.    # Experimental Setup    Future snow cover changes are simulated with the physics-based model Alpine3D (Lehning et al., 2006). It is applied to two regions: The canton of Graub\u00fcnden and the Aare catchment. These domains are modeled with a Digital Elevation Model (DEM) with a resolution of 200 m \u00d7 200 m. This defines the simulation grid that has to be filled with land cover data and downscaled meteorological input data for each cell for the time period of interest at hourly resolution. The reference data set consists of automatic weather station data. All meteorological input parameters are spatially interpolated to the simulation grid. The reference period comprises only thirteen years (1999\u20132012), because the number of available high elevation weather stations for earlier times is not sufficient to achieve unbiased distribution of the observations with elevation. The model uses projected temperature and precipitation changes for all greenhouse gas scenarios (A1B, A2, and RCP3PD) and CH2011 time periods (2035, 2060, and 2085).    # Data    Snow cover changes are projected to be relatively small in the near term (2035) (Figure 5.1 top), in particular at higher elevations above 2000 m asl. As shown by Bavay et al. (2013) the spread in projected snow cover for this period is greater between different climate model chains (Chapter 3) than between the reference period and the model chain exhibiting the most moderate change. In the 2085 period much larger changes with the potential to fundamentally transform the snow dominated alpine area become apparent (Figure 5.1 bottom). These changes include a shortening of the snow season by 5\u20139 weeks for the A1B scenario. This is roughly equivalent to an elevation shift of 400\u2013800 m. The slight increase of winter precipitation and therefore snow fall projected in the CH2011 scenarios (with high associated uncertainty) can no longer compensate for the effect of increasing winter temperatures even at high elevations. In terms of Snow Water Equivalents (SWE), the projected reduction is up to two thirds toward the end of the century (2085). A continuous snow cover will be restricted to a shorter time period and/or to regions at increasingly high elevation. In Bern, for example, the number of days per year with at least 5 cm snow depth will decrease by 90% from now 20 days to only 2 days on average.  ",
+        "id": "blue_ice_core_DML2004_AS",
+        "title": "101.1 m long horizontal blue ice core collected from Scharffenbergbotnen, DML, Antarctica, in 2003/2004",
+        "catalog": "SCIOPS",
+        "state_date": "1970-01-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, -62.83",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/blue_ice_core_DML2004_AS",
+        "description": "Horizontal blue ice core collected from the surface of a blue ice area in       Scharffenbergbotnen, Heimefrontfjella, DML. Samples were collected in austral       summer 2003/2004 and transported to Finland for chemical analyses. The blue ice       core is estimated to represent a 1000-year period of climate history 20 - 40       kyr B.P.. The results of the analyses will be available in 2005.",
         "license": "not-provided"
     },
     {
@@ -4781,6 +4703,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360188-OB_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/chesapeake_val_2013.v0",
         "description": "2013 Chesapeake Bay measurements.",
+        "license": "not-provided"
+    },
+    {
+        "id": "darling_sst_82-93",
+        "title": "1982-1989 and 1993 Seawater Temperatures at the Darling Marine Center",
+        "catalog": "SCIOPS",
+        "state_date": "1982-03-01",
+        "end_date": "1993-12-31",
+        "bbox": "-71.31, 42.85, -66.74, 47.67",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214621676-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214621676-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/darling_sst_82-93",
+        "description": "Seawater Surface Temperature Data Collected between the years 1982-1989 and 1993 off the dock at the Darling Marine Center, Walpole, Maine",
         "license": "not-provided"
     },
     {
@@ -4820,19 +4755,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2207457985-FEDEO.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/FEDEO/collections/ef6a9266-a210-4431-a4af-06cec4274726",
         "description": "Indian Remote Sensing satellites (IRS) are a series of Earth Observation satellites, built, launched and maintained by Indian Space Research Organisation. The IRS series provides many remote sensing services to India and international ground stations. The satellite has two panchromatic cameras that were especially designed for in flight stereo viewing. However, this collection contains the monoscopic data.",
-        "license": "not-provided"
-    },
-    {
-        "id": "envidat-lwf-34.v2019-03-06",
-        "title": "10-HS Pfynwald",
-        "catalog": "ENVIDAT",
-        "state_date": "2019-01-01",
-        "end_date": "2019-01-01",
-        "bbox": "7.61211, 46.30279, 7.61211, 46.30279",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815241-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815241-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/envidat-lwf-34.v2019-03-06",
-        "description": "Continuous measurement of soil water content at 10 and 80 cm depth (3 replications) with 10-HS soil moisture probes (Decagon Incorporation, Pullman, WA, USA).    ### Purpose: ###    Monitoring of the soil water matrix potential        ### Paper Citation: ###     * Dobbertin, M.; Eilmann, B.; Bleuler, P.; Giuggiola, A.; Graf Pannatier, E.; Landolt, W.; Schleppi, P.; Rigling, A., 2010: Effect of irrigation on needle morphology, shoot and stem growth in a drought-exposed Pinus sylvestris forest. Tree Physiology, 30, 3: 346-360. [doi: 10.1093/treephys/tpp123](http://doi.org/10.1093/treephys/tpp123)    ",
         "license": "not-provided"
     },
     {
@@ -5044,19 +4966,6 @@
         "license": "not-provided"
     },
     {
-        "id": "latent-reserves-in-the-swiss-nfi.v1.0",
-        "title": "'Latent reserves' within the Swiss NFI",
-        "catalog": "ENVIDAT",
-        "state_date": "2020-01-01",
-        "end_date": "2020-01-01",
-        "bbox": "5.95587, 45.81802, 10.49203, 47.80838",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815280-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789815280-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/latent-reserves-in-the-swiss-nfi.v1.0",
-        "description": "The files refer to the data used in Portier et al. \"\u2018Latent reserves\u2019: a hidden treasure in National Forest Inventories\" (2020) *Journal of Ecology*.           **'Latent reserves'** are defined as plots in National Forest Inventories (NFI) that have been free of human influence for >40 to >70 years. They can be used to investigate and acquire a deeper understanding of attributes and processes of near-natural forests using existing long-term data. To determine which NFI sample plots could be considered \u2018latent reserves\u2019, criteria were defined based on the information available in the Swiss NFI database:           * Shrub forests were excluded.  * Plots must have been free of any kind of management, including salvage logging or sanitary cuts, for a minimum amount of time. Thresholds of 40, 50, 60 and 70 years without intervention were tested.  * To ensure that species composition was not influenced by past management, plots where potential vegetation was classified as deciduous by Ellenberg & Kl\u00f6tzli (1972) had to have an observed proportion of deciduous trees matching the theoretical proportion expected in a natural deciduous forest, as defined by Kienast, Brzeziecki, & Wildi (1994).  * Plots had to originate from natural regeneration.   * Intensive livestock grazing must never have occurred on the plots.          The tables stored here were derived from the first, second and third campaigns of the Swiss NFI. The raw data from the Swiss NFI can be provided free of charge within the scope of a contractual agreement (http://www.lfi.ch/dienstleist/daten-en.php).    ****    The files 'Data figure 2' to 'Data figure 8' are publicly available and contain the data used to produce the figures published in the paper.     The files 'Plot-level data for characterisation of 'latent reserves' and 'Tree-level data for characterisation of 'latent reserves' contain all the data required to reproduce the section of the article concerning the characterisation of 'latent reserves' and the comparison to managed forests. The file 'Data for mortality analyses' contains the data required to reproduce the section of the article concerning tree mortality in 'latent reserves'. The access to these three files is restricted as they contain some raw data from the Swiss NFI, submitted to the Swiss law and only accessible upon contractual agreement.   ",
-        "license": "not-provided"
-    },
-    {
         "id": "mbs_wilhelm_msa_hooh.v1",
         "title": "15 year Wilhelm II Land MSA and HOOH shallow ice core record from Mount Brown South (MBS)",
         "catalog": "AU_AADC",
@@ -5067,45 +4976,6 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214313640-AU_AADC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/AU_AADC/collections/mbs_wilhelm_msa_hooh.v1",
         "description": "This work presents results from a short firn core spanning 15 years collected from near Mount Brown, Wilhelm II Land, East Antarctica. Variations of methanesulphonic acid (MSA) at Mount Brown were positively correlated with sea-ice extent from the coastal region surrounding Mount Brown (60-1208 E) and from around the entire Antarctic coast (0-3608 E). Previous results from Law Dome identified this MSA-sea-ice relationship and proposed it as an Antarctic sea-ice proxy (Curran and others, 2003), with the strongest results found for the local Law Dome region. Our data provide supporting evidence for the Law Dome proxy (at another site in East Antarctica), but a deeper Mount Brown ice core is required to confirm the sea-ice decline suggested by Curran and others (2003). Results also indicate that this deeper record may also provide a more circum-Antarctic sea-ice proxy.  This work was completed as part of ASAC project 757 (ASAC_757).",
-        "license": "not-provided"
-    },
-    {
-        "id": "mosaic-cbers4-brazil-3m-1",
-        "title": "CBERS-4/WFI Image Mosaic of Brazil - 3 Months",
-        "catalog": "INPE",
-        "state_date": "2020-04-01",
-        "end_date": "2020-06-30",
-        "bbox": "-76.6054059, -33.7511817, -27.7877802, 6.3052432",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204634-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204634-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/mosaic-cbers4-brazil-3m-1",
-        "description": "CBERS-4/WFI image mosaic of Brazil with 64m of spatial resolution. The mosaic was prepared in order to demonstrate the technological capabilities of the Brazil Data Cube project tools. The false color composition is based on the WFI bands 15, 16 and 13 assigned to RGB channels. The temporal composition encompasses 03-months of images, starting in April 2020 and ending in June 2020, with a best pixel selection approach called Least Cloud Cover First (LCF). More information on LCF can be found at Brazil Data Cube web site (https://brazil-data-cube.github.io/specifications/processing-flow.html#temporal-compositing). This Image Mosaic used more than 1200 CBERS-4 scenes and was generated based on an existing CBERS-4/WFI image collection.",
-        "license": "not-provided"
-    },
-    {
-        "id": "mosaic-cbers4a-paraiba-3m-1",
-        "title": "CBERS-4A/WFI Image Mosaic of Brazil Para\u00edba State - 3 Months",
-        "catalog": "INPE",
-        "state_date": "2020-07-01",
-        "end_date": "2020-09-30",
-        "bbox": "-38.8134896, -8.3976443, -34.7223714, -5.87659",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204719-INPE.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3108204719-INPE.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/INPE/collections/mosaic-cbers4a-paraiba-3m-1",
-        "description": "CBERS-4A/WFI image mosaic of Brazil Para\u00edba State with 55m of spatial resolution. The mosaic was prepared in order to demonstrate the technological capabilities of the Brazil Data Cube project tools. The false color composition is based on the WFI bands 16, 15 and 14 assigned to RGB channels. The temporal composition encompasses 03-months of images, starting in July 2020 and ending in September 2020, with a best pixel selection approach called Least Cloud Cover First (LCF). More information on LCF can be found at Brazil Data Cube web site (https://brazil-data-cube.github.io/specifications/processing-flow.html#temporal-compositing). This Image Mosaic used more than 50 CBERS-4A scenes and was generated based on an existing CBERS-4A/WFI image collection.",
-        "license": "not-provided"
-    },
-    {
-        "id": "pfynwaldgasexchange.v1.0",
-        "title": "2013-2020 gas exchange at Pfynwald",
-        "catalog": "ENVIDAT",
-        "state_date": "2021-01-01",
-        "end_date": "2021-01-01",
-        "bbox": "7.6105556, 46.3001905, 7.6163921, 46.3047564",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2789816347-ENVIDAT.json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2789816347-ENVIDAT.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/ENVIDAT/collections/pfynwaldgasexchange.v1.0",
-        "description": "Gas exchange was measured on control, irrigated and irrigation-stop trees at the irrigation experiment Pfynwald, during the years 2013, 2014, 2016-2020. The measurement campaigns served different purposes, resulting in a large dataset containing survey data, CO2 response curves of photosynthesis, light response curves of photosynthesis, and fluorescence measurements. Measurements were done with LiCor 6400 and LiCor 6800 instruments. Until 2016, measurements were done on excised branches or branches lower in the canopy. From 2016 onwards, measurements were done in the top of the canopy using fixed installed scaffolds.   All metadata can be found in the attached documents.",
         "license": "not-provided"
     },
     {
