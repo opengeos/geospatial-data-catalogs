@@ -26,6 +26,58 @@
         "license": "not-provided"
     },
     {
+        "id": "12-hourly_interpolated_surface_position_from_buoys",
+        "title": "12-Hourly Interpolated Surface Position from Buoys",
+        "catalog": "SCIOPS",
+        "state_date": "1979-01-01",
+        "end_date": "2009-12-01",
+        "bbox": "-180, 60, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600619-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600619-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12-hourly_interpolated_surface_position_from_buoys",
+        "description": "This data set contains Arctic Ocean daily buoy positions interpolated to hours 0Z and 12Z.",
+        "license": "not-provided"
+    },
+    {
+        "id": "12-hourly_interpolated_surface_velocity_from_buoys",
+        "title": "12-Hourly Interpolated Surface Velocity from Buoys",
+        "catalog": "SCIOPS",
+        "state_date": "1979-01-01",
+        "end_date": "2009-12-02",
+        "bbox": "-180, 74, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600621-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600621-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12-hourly_interpolated_surface_velocity_from_buoys",
+        "description": "This data set contains 12-hourly interpolated surface velocity data from buoys. Point grid: Latitude 74N to 90N - 4 degree increment Longitude 0E to 320E - 20 and 40 degree increment.",
+        "license": "not-provided"
+    },
+    {
+        "id": "12_hourly_interpolated_surface_air_pressure_from_buoys",
+        "title": "12 Hourly Interpolated Surface Air Pressure from Buoys",
+        "catalog": "SCIOPS",
+        "state_date": "1979-01-01",
+        "end_date": "2007-11-30",
+        "bbox": "-180, 70, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600618-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214600618-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/12_hourly_interpolated_surface_air_pressure_from_buoys",
+        "description": "Optimally interpolated atmospheric surface pressure over the Arctic Ocean Basin. Temporal format - twice daily (0Z and 12Z) Spatial format - 2 degree latitude x 10 degree longitude - latitude: 70 N - 90 N - longitude: 0 E - 350 E",
+        "license": "not-provided"
+    },
+    {
+        "id": "14c_of_soil_co2_from_ipy_itex_cross_site_comparison",
+        "title": "14C of soil CO2 from IPY ITEX Cross Site Comparison",
+        "catalog": "SCIOPS",
+        "state_date": "2008-01-16",
+        "end_date": "2008-01-21",
+        "bbox": "-157.4, -36.9, 147.29, 71.3",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214602443-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214602443-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/14c_of_soil_co2_from_ipy_itex_cross_site_comparison",
+        "description": "Study sites: Toolik Lake Field Station Alaska, USA 68.63 N, 149.57 W; Atqasuk, Alaska USA 70.45 N, 157.40 W; Barrow, Alaska, USA 71.30 N, 156.67 W; Latnjajaure, Sweden 68.35 N, 18.50 E; Falls Creek, Australia: Site 2-unburned 36.90 S 147.29 E; Site 3-burned 36.89 S 147.28 E. Additional sites will be added summer 2008, but the exact sites are not finalized. Purpose: Collect soil CO2 for analysis of radiocarbon to evaluate the age of the carbon respired in controls and warmed plots from across the ITEX network.  Treatments: control and ITEX OTC warming experiment (1994-2007). Design: 5 replicates of each treatment at dry site and moist site. Sampling frequency: Once per peak season.",
+        "license": "not-provided"
+    },
+    {
         "id": "200708_CEAMARC_CASO_TRACE_ELEMENT_SAMPLES.v1",
         "title": "2007-08 CEAMARC-CASO VOYAGE TRACE ELEMENT SAMPLING AROUND AN ICEBERG",
         "catalog": "AU_AADC",
@@ -2210,6 +2262,19 @@
         "license": "not-provided"
     },
     {
+        "id": "CH-OG-1-GPS-10S.v0.0",
+        "title": "10 sec GPS ground tracking data",
+        "catalog": "SCIOPS",
+        "state_date": "2001-05-28",
+        "end_date": "",
+        "bbox": "-63.51, -45.69, 170.42, 78.87",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586614-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/CH-OG-1-GPS-10S.v0.0",
+        "description": "This data set comprises GPS ground data of a sample rate of 10 sec, generated       by decoding and sampling GPS high  rate ground data. This raw data passed no       quality control. The data are given in the Rinex 2.1 format.",
+        "license": "not-provided"
+    },
+    {
         "id": "CIESIN_SEDAC_EPI_2008.v2008.00",
         "title": "2008 Environmental Performance Index (EPI)",
         "catalog": "SEDAC",
@@ -3003,6 +3068,19 @@
         "license": "not-provided"
     },
     {
+        "id": "ISERV.v1",
+        "title": "International Space Station SERVIR Environmental Research and Visualization System V1",
+        "catalog": "USGS_EROS",
+        "state_date": "2013-03-27",
+        "end_date": "",
+        "bbox": "-180, -90, 180, 90",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1379906336-USGS_EROS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/USGS_EROS/collections/ISERV.v1",
+        "description": "Abstract: The ISS SERVIR Environmental Research and Visualization System (ISERV) acquired images of the Earth's surface from the International Space Station (ISS). The goal was to improve automatic image capturing and data transfer. ISERV's main component was the optical assembly which consisted of a 9.25 inch Schmidt-Cassegrain telescope, a focal reducer (field of view enlarger), a digital single lens reflex camera, and a high precision focusing mechanism. A motorized 2-axis pointing mount allowed pointing at targets approximately 23 degrees from nadir in both along- and across-track directions.",
+        "license": "not-provided"
+    },
+    {
         "id": "KOPRI-KPDC-00000008.v1",
         "title": "1998 Seismic Data, Antarctica",
         "catalog": "AMD_KOPRI",
@@ -3484,6 +3562,32 @@
         "license": "not-provided"
     },
     {
+        "id": "NBII_SAIN2",
+        "title": "1986-1988 Plot-Transect Installation - Roan Mountain Massif Content Management",
+        "catalog": "SCIOPS",
+        "state_date": "1987-01-01",
+        "end_date": "1988-01-01",
+        "bbox": "-82.13472, 36.08544, -82.01191, 36.15365",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586476-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586476-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NBII_SAIN2",
+        "description": "This data set contains information on a set of transects and plots that were originally installed in 1987 and 1988 on the grassy balds of the Roan Mountain Massif (Round Bald, Engine Gap, Jane Bald, Grassy Ridge, Big Yellow Mountain (also known as Yellow Mountain), Little Hump Mountain, Bradley Gap, and Hump Mountain (also known as Big Hump Mountain). Data collected from the transects and plots were to characterize baseline conditions against which the effects of future vegetation management actions could be evaluated.   This legacy dataset contains information on the baseline (pre-management) conditions of the grassy balds based on the field collections and analysis of the data collected at transects and plots installed in 1987 and 1988. More specifically, this legacy dataset contains information on the first vegetation composition analysis and first comprehensive plant inventory conducted on the Roan Mountain grassy bald complex.   Information that describes this dataset primarily comes from the following sources: various field reports, memos, letters, grant proposals, hardcopies of the 1987 and 1988 data sheets, photos of the original transects and plots, and interviews with the originators of the transect and plot data.  This metadata record documents legacy data to the extent practical, as required by Executive Order 12906, \"Coordinating Geographic Data Acquisition and Access: The National Spatial Data Infrastructure\", dated April 11, 1994. Details may be missing, but given the resources available, the information provided herein is as concise as possible at this point in time.",
+        "license": "not-provided"
+    },
+    {
+        "id": "NBII_SAIN5",
+        "title": "1987- 1992 Plot-Transect - Community and Mowing Analysis - Roan Mountain Massif Data",
+        "catalog": "SCIOPS",
+        "state_date": "1987-01-01",
+        "end_date": "1992-01-01",
+        "bbox": "-82.13472, 36.08544, -82.01191, 36.15365",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586477-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214586477-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NBII_SAIN5",
+        "description": "The transects and plots were originally installed in 1987 and 1988 on the grassy balds of the Roan Mountain Massif [Round Bald, Engine Gap, Jane Bald, Grassy Ridge, Big Yellow Mountain (also known as Yellow Mountain), Little Hump Mountain, Bradley Gap, and Hump Mountain (also known as Big Hump Mountain)]. Data collected from the transects were to characterize baseline conditions against which the effects of future vegetation management actions could be evaluated. This legacy data set represents (1) an analysis of data collected from transects and plots that were originally installed in 1987 and 1988 and revisited in 1992, and (2) information on the entry of the 1987, 1988, 1992, 1993, and 1994 data electronically in 1994. Analyses were conducted to document the pre-management conditions of the vegetation on the grassy balds complex of Roan Mountain, and the changes in vegetation on Round Bald and Jane Bald in response to the hand-mowing between 1987-1988 and 1992. This was the second time that a vegetation composition analysis was conducted using the 1987 and 1988 baseline data. Information pertaining to this dataset primarily comes from one report that describes the analyses, electronic files and hardcopies of the raw data, and interviews with the originators of the transect and plot data. This metadata record documents geospatial legacy data to the extent practicable, as required by Executive Order 12906, \"Coordinating Geographic Data Acquisition and Access: The National Spatial Data Infrastructure,\" dated April 11, 1994. Details may be missing, but given the resources available, the information provided herein is as concise as possible at this point in time.",
+        "license": "not-provided"
+    },
+    {
         "id": "NEX-DCP30.v1",
         "title": "Downscaled 30 Arc-Second CMIP5 Climate Projections for Studies of Climate Change Impacts in the United States",
         "catalog": "NCCS",
@@ -3507,6 +3611,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1374483929-NCCS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NCCS/collections/NEX-GDDP.v1",
         "description": "The NASA Earth Exchange Global Daily Downscaled Projections (NEX-GDDP) dataset is comprised of downscaled climate scenarios for the globe that are derived from the General Circulation Model (GCM) runs conducted under the Coupled Model Intercomparison Project Phase 5 (CMIP5) and across two of the four greenhouse gas emissions scenarios known as Representative Concentration Pathways (RCPs). The CMIP5 GCM runs were developed in support of the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (IPCC AR5). The NEX-GDDP dataset includes downscaled projections for RCP 4.5 and RCP 8.5 from the 21 models and scenarios for which daily scenarios were produced and distributed under CMIP5. Each of the climate projections includes daily maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2100. The spatial resolution of the dataset is 0.25 degrees (~25 km x 25 km). The NEX-GDDP dataset is provided to assist the science community in conducting studies of climate change impacts at local to regional scales, and to enhance public understanding of possible future global climate patterns at the spatial scale of individual towns, cities, and watersheds.    Each of the climate projections includes monthly averaged maximum temperature, minimum temperature, and precipitation for the periods from 1950 through 2005 (Retrospective Run) and from 2006 to 2099 (Prospective Run). ",
+        "license": "not-provided"
+    },
+    {
+        "id": "NIPR_UAP_ELF_SYO",
+        "title": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
+        "catalog": "SCIOPS",
+        "state_date": "2000-01-01",
+        "end_date": "",
+        "bbox": "39.6, -69, 39.6, -69",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214590112-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/NIPR_UAP_ELF_SYO",
+        "description": "1-100Hz ULF/ELF Electromagnetic Wave Observation at Syowa Station",
         "license": "not-provided"
     },
     {
@@ -4758,6 +4875,19 @@
         "license": "not-provided"
     },
     {
+        "id": "blue_ice_core_DML2004_AS",
+        "title": "101.1 m long horizontal blue ice core collected from Scharffenbergbotnen, DML, Antarctica, in 2003/2004",
+        "catalog": "SCIOPS",
+        "state_date": "1970-01-01",
+        "end_date": "",
+        "bbox": "-180, -90, 180, -62.83",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214614210-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/blue_ice_core_DML2004_AS",
+        "description": "Horizontal blue ice core collected from the surface of a blue ice area in       Scharffenbergbotnen, Heimefrontfjella, DML. Samples were collected in austral       summer 2003/2004 and transported to Finland for chemical analyses. The blue ice       core is estimated to represent a 1000-year period of climate history 20 - 40       kyr B.P.. The results of the analyses will be available in 2005.",
+        "license": "not-provided"
+    },
+    {
         "id": "ch2014.v1",
         "title": "Alpine3D simulations of future climate scenarios CH2014",
         "catalog": "ENVIDAT",
@@ -4781,6 +4911,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1633360188-OB_DAAC.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/OB_DAAC/collections/chesapeake_val_2013.v0",
         "description": "2013 Chesapeake Bay measurements.",
+        "license": "not-provided"
+    },
+    {
+        "id": "darling_sst_82-93",
+        "title": "1982-1989 and 1993 Seawater Temperatures at the Darling Marine Center",
+        "catalog": "SCIOPS",
+        "state_date": "1982-03-01",
+        "end_date": "1993-12-31",
+        "bbox": "-71.31, 42.85, -66.74, 47.67",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C1214621676-SCIOPS.json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C1214621676-SCIOPS.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/SCIOPS/collections/darling_sst_82-93",
+        "description": "Seawater Surface Temperature Data Collected between the years 1982-1989 and 1993 off the dock at the Darling Marine Center, Walpole, Maine",
         "license": "not-provided"
     },
     {
