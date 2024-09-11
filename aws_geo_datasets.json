@@ -1781,7 +1781,7 @@
         "Contact": "https://forum.sentinel-hub.com/c/aws-copdem/28",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
         "UpdateFrequency": "None, except GLO-30 Public can be updated if the public tile list changes.",
-        "License": "GLO-30 Public and GLO-90 are available on a free basis for the general public under the terms and conditions of the Licence found [here](https://spacedata.copernicus.eu/documents/20123/121286/CSCDA_ESA_Mission-specific+Annex_31_Oct_22.pdf).",
+        "License": "GLO-30 Public and GLO-90 are available on a free basis for the general public under the terms and conditions of the Licence found on [here](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM).",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -1809,7 +1809,7 @@
         "Contact": "https://forum.sentinel-hub.com/c/aws-copdem/28",
         "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
         "UpdateFrequency": "None, except GLO-30 Public can be updated if the public tile list changes.",
-        "License": "GLO-30 Public and GLO-90 are available on a free basis for the general public under the terms and conditions of the Licence found [here](https://spacedata.copernicus.eu/documents/20123/121286/CSCDA_ESA_Mission-specific+Annex_31_Oct_22.pdf).",
+        "License": "GLO-30 Public and GLO-90 are available on a free basis for the general public under the terms and conditions of the Licence found on [here](https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM).",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -10888,7 +10888,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10934,7 +10934,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -10957,7 +10957,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11444,6 +11444,34 @@
         "RequesterPays": null,
         "Explore": [
             "[Browse Bucket](https://noaa-nwm-pds.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA National Water Model Short-Range Forecast - Cloud-optimized zarr reference files managed by RPS Tetra Tech",
+        "Description": "Cloud-optimized zarr reference files managed by RPS Tetra Tech",
+        "ARN": "arn:aws:s3:::noaa-nodd-kerchunk-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nwm-pds",
+        "Contact": "For questions regarding data content or quality, go [here](http://water.noaa.gov/about/nwm).<br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Daily",
+        "License": "Open Data. There are no restrictions on the use of this data",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "weather",
+            "climate",
+            "environmental",
+            "disaster response",
+            "agriculture",
+            "transportation"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-nodd-kerchunk-pds.s3.amazonaws.com/index.html#nwm/)"
         ],
         "Host": null,
         "AccountRequired": null
