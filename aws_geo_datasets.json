@@ -16199,6 +16199,25 @@
         "AccountRequired": null
     },
     {
+        "Name": "SSL4EO S12 Landsat Multi Product Dataset",
+        "Description": "Satellite imagery and context from Sentinel-12 and Landsat 4-5, 7, 8-9",
+        "ARN": "arn:aws:s3:::ssl4eo-s12-landsat-combined",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/sunny1401/ssl4eo_multi_satellite_products",
+        "Contact": "https://github.com/sunny1401/ssl4eo_multi_satellite_products",
+        "ManagedBy": "Sankranti Joshi",
+        "UpdateFrequency": "Not updated",
+        "License": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "Tags": [
+            "satellite imagery"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Safecast - Bulk exports of air and radiation measurements",
         "Description": "Bulk exports of air and radiation measurements",
         "ARN": "arn:aws:s3:::safecast-opendata-public-us-east-1",
