@@ -8515,6 +8515,28 @@
         "AccountRequired": null
     },
     {
+        "Name": "NASA SOTERIA Simulation Testbed Data",
+        "Description": "SOTERIA Testbed Data",
+        "ARN": "arn:aws:s3:::nasa-soteria-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/",
+        "Contact": "chad.l.stephens@nasa.gov; tyler.fettrow@nasa.gov",
+        "ManagedBy": "[NASA](http://www.nasa.gov/)",
+        "UpdateFrequency": "As required",
+        "License": "[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "workload analysis",
+            "neuroimaging",
+            "transportation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "NEOWISE Post-Cryo Data | Wide-field Infrared Survey Explorer (WISE)",
         "Description": "NEOWISE Post-Cryo Single-exposure Image Sets: 901,271 calibrated 1016x1016 pix @275\"/pix FITS image sets for the individual 77 sec W1 and W2 WISE survey exposures Each image set consists of two intensity images, noise maps, and bit-masks indicating pixel use status, one each for the W1 and W2 bands",
         "ARN": "arn:aws:s3:::nasa-irsa-wise/wise/postcryo",
