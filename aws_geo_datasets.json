@@ -10956,6 +10956,29 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -10980,29 +11003,6 @@
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11116,6 +11116,31 @@
         "RequesterPays": null,
         "Explore": [
             "[Browse Bucket](https://noaa-oar-myrorss-pds.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA NASA Joint Archive (NNJA) of Observations for Earth System Reanalysis",
+        "Description": "NNJA Observations for Earth System Reanalysis Data",
+        "ARN": "arn:aws:s3:::noaa-reanalyses-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://psl.noaa.gov/data/nnja_obs/",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA PSL NNJA](https://psl.noaa.gov/data/nnja_obs/). Or contact the team at  psl.nnja@noaa.govFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "1 time a day",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-reanalyses-pds.s3.amazonaws.com/index.html)"
         ],
         "Host": null,
         "AccountRequired": null
@@ -12374,6 +12399,31 @@
         "RequesterPays": null,
         "Explore": [
             "[Browse Bucket](https://noaa-normals-pds.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System (UFS) Global Ensemble Forecast System (GEFS) Version 13 Replay",
+        "Description": "UFS / GEFS Replay Data",
+        "ARN": "arn:aws:s3:::-noaa-ufs-gefsv13replay-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://psl.noaa.gov/data/ufs_replay/",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA GEFS Replay site](https://psl.noaa.gov/data/ufs_replay/). For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Static",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://noaa-ufs-gefsv13replay-pds.s3.amazonaws.com/index.html)"
         ],
         "Host": null,
         "AccountRequired": null
