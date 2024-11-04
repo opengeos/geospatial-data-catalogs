@@ -9,7 +9,7 @@
         "Contact": "For questions regarding data content or quality, visit [the NOAA EMC Github site](https://github.com/noaa-emc/graphcast/issues). For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "4 times a day at 00Z, 06Z, 12Z and 18Z",
-        "License": "NOAA's GraphCast GFS products are released under CC0 license. The products in this bucket only contain NOAA produced products and not GraphCast code or training data. For information on the GraphCast code package, please visit the \"[Google DeepMind GraphCast Gitub License page](https://github.com/google-deepmind/graphcast?tab=readme-ov-file#license-and-attribution)\".",
+        "License": "NOAA's GraphCast GFS products are released under CC0 license. The products in this bucket only contain NOAA produced products and not GraphCast code or training data. For information on the GraphCast code package, please visit the \"[Google DeepMind GraphCast Github License page](https://github.com/google-deepmind/graphcast?tab=readme-ov-file#license-and-attribution).\" The **weights** that are used in GraphCastGFS v2 were generated based on the pre-trained weights from GoogleDeepMind. They are released under CC BY-NC-SA 4.0 license.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -36,7 +36,7 @@
         "Contact": "For questions regarding data content or quality, visit [the NOAA EMC Github site](https://github.com/noaa-emc/graphcast/issues). For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "4 times a day at 00Z, 06Z, 12Z and 18Z",
-        "License": "NOAA's GraphCast GFS products are released under CC0 license. The products in this bucket only contain NOAA produced products and not GraphCast code or training data. For information on the GraphCast code package, please visit the \"[Google DeepMind GraphCast Gitub License page](https://github.com/google-deepmind/graphcast?tab=readme-ov-file#license-and-attribution)\".",
+        "License": "NOAA's GraphCast GFS products are released under CC0 license. The products in this bucket only contain NOAA produced products and not GraphCast code or training data. For information on the GraphCast code package, please visit the \"[Google DeepMind GraphCast Github License page](https://github.com/google-deepmind/graphcast?tab=readme-ov-file#license-and-attribution).\" The **weights** that are used in GraphCastGFS v2 were generated based on the pre-trained weights from GoogleDeepMind. They are released under CC BY-NC-SA 4.0 license.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -7234,6 +7234,37 @@
         "AccountRequired": null
     },
     {
+        "Name": "Met Office UK Earth System Model (UKESM1) ARISE-SAI geoengineering experiment data",
+        "Description": "CMIP6 standards-compliant netCDF data",
+        "ARN": "arn:aws:s3:::met-office-ukesm1-arise",
+        "Region": "eu-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "(https://github.com/MetOffice/arise-cmor-tables)",
+        "Contact": "https://github.com/MetOffice/arise-cmor-tables/issues",
+        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk)",
+        "UpdateFrequency": "Rare once complete",
+        "License": "CMIP6 data included is licensed under CC-BY 4.0 (see [here](https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_source_id_licenses.html). Additional ARISE-SAI data is licenced under the [Open Government Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)",
+        "Tags": [
+            "climate",
+            "model",
+            "climate model",
+            "atmosphere",
+            "oceans",
+            "land",
+            "ice",
+            "geospatial",
+            "aws-pds",
+            "sustainability",
+            "CMIP6"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Bucket](https://met-office-ukesm1-arise.s3.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Multi-Scale Ultra High Resolution (MUR) Sea Surface Temperature (SST)",
         "Description": "MUR Level 4 SST dataset in Zarr format The zarr-v1/ directory contains a zarr store chunked (5, 1799, 3600",
         "ARN": "arn:aws:s3:::mur-sst/zarr-v1",
@@ -10985,7 +11016,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11031,7 +11062,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -17684,37 +17715,6 @@
         "RequesterPays": null,
         "Explore": [
             "[Browse Bucket](https://noaa-nesdis-tcprimed-pds.s3.amazonaws.com/index.html)"
-        ],
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "UK Earth System Model (UKESM1) ARISE-SAI geoengineering experiment data",
-        "Description": "CMIP6 standards-compliant netCDF data",
-        "ARN": "arn:aws:s3:::met-office-ukesm1-arise",
-        "Region": "eu-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "(https://github.com/MetOffice/arise-cmor-tables)",
-        "Contact": "https://github.com/MetOffice/arise-cmor-tables/issues",
-        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk)",
-        "UpdateFrequency": "Rare once complete",
-        "License": "CMIP6 data included is licensed under CC-BY 4.0 (see [here](https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_source_id_licenses.html). Additional ARISE-SAI data is licenced under the [Open Government Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)",
-        "Tags": [
-            "climate",
-            "model",
-            "climate model",
-            "atmosphere",
-            "oceans",
-            "land",
-            "ice",
-            "geospatial",
-            "aws-pds",
-            "sustainability",
-            "CMIP6"
-        ],
-        "RequesterPays": null,
-        "Explore": [
-            "[Browse Bucket](https://met-office-ukesm1-arise.s3.amazonaws.com/index.html)"
         ],
         "Host": null,
         "AccountRequired": null
