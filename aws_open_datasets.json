@@ -5434,8 +5434,8 @@
     },
     {
         "Name": "Daylight Map Distribution of OpenStreetMap",
-        "Description": "Daylight OSM Features (Parquet)",
-        "ARN": "arn:aws:s3:::daylight-openstreetmap/parquet/osm_features",
+        "Description": "Daylight OSM Elements (Parquet)",
+        "ARN": "arn:aws:s3:::daylight-openstreetmap/parquet/osm_elements",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "[Project Website](https://daylightmap.org)",
@@ -5458,8 +5458,8 @@
     },
     {
         "Name": "Daylight Map Distribution of OpenStreetMap",
-        "Description": "Daylight OSM Elements (Parquet)",
-        "ARN": "arn:aws:s3:::daylight-openstreetmap/parquet/osm_elements",
+        "Description": "Daylight OSM Features (Parquet)",
+        "ARN": "arn:aws:s3:::daylight-openstreetmap/parquet/osm_features",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "[Project Website](https://daylightmap.org)",
@@ -5593,31 +5593,6 @@
     },
     {
         "Name": "Department of Energy's Marine Energy Data Lake",
-        "Description": "Data Catalog of the Marine and Hydrokinetic Data Repository",
-        "ARN": "arn:aws:s3:::marine-energy-data/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/",
-        "Contact": "https://github.com/openEDI/documentation/issues",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "marine",
-            "water"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=marine-energy-data)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Department of Energy's Marine Energy Data Lake",
         "Description": "Tidal Resource Data from Sequim Bay Inlet, WA, August 2020",
         "ARN": "arn:aws:s3:::marine-energy-data/primre/sequim-tidal-resource/",
         "Region": "us-west-2",
@@ -5642,27 +5617,24 @@
         "Host": null
     },
     {
-        "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
-        "Description": "National Renewable Energy Laboratory (NREL) PV Rooftop Database - Puerto Rico (PVRDB-PR)",
-        "ARN": "arn:aws:s3:::oedi-data-lake/pv-rooftop-pr/",
+        "Name": "Department of Energy's Marine Energy Data Lake",
+        "Description": "Data Catalog of the Marine and Hydrokinetic Data Repository",
+        "ARN": "arn:aws:s3:::marine-energy-data/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/",
         "Contact": "https://github.com/openEDI/documentation/issues",
         "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
         "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
+        "License": "Creative Commons Attribution 4.0 United States License",
         "Tags": [
             "aws-pds",
             "energy",
-            "environmental",
-            "geospatial",
-            "model",
-            "solar",
-            "lidar"
+            "marine",
+            "water"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=pv-rooftop-pr%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=marine-energy-data)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -5727,34 +5699,6 @@
     },
     {
         "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
-        "Description": "Demand-Side Grid Model (dsgrid) Data from the Electrification Futures Project (EFS)",
-        "ARN": "arn:aws:s3:::oedi-data-lake/dsgrid-2018-efs/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/",
-        "Contact": "https://github.com/openEDI/documentation/issues",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "environmental",
-            "geospatial",
-            "model",
-            "solar",
-            "lidar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=dsgrid-2018-efs%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
         "Description": "Data Catalog of the Open Energy Data Initiative (OEDI)",
         "ARN": "arn:aws:s3:::oedi-data-lake/",
         "Region": "us-west-2",
@@ -5783,34 +5727,6 @@
     },
     {
         "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
-        "Description": "Synthetic Models for Advanced, Realistic Testing: Distribution systems and Scenarios (SMART-DS) Datasets",
-        "ARN": "arn:aws:s3:::oedi-data-lake/SMART-DS/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/",
-        "Contact": "https://github.com/openEDI/documentation/issues",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "environmental",
-            "geospatial",
-            "model",
-            "solar",
-            "lidar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=SMART-DS%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
         "Description": "University of Miami Coupled Model (UMCM) for Hurricanes Ike and Sandy",
         "ARN": "arn:aws:s3:::oedi-data-lake/umcm/",
         "Region": "us-west-2",
@@ -5831,6 +5747,118 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=umcm%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
+        "Description": "PR100: Puerto Rico Grid Resilience and Transition to 100% Renewable Energy",
+        "ARN": "arn:aws:s3:::oedi-data-lake/PR100/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "environmental",
+            "geospatial",
+            "model",
+            "solar",
+            "lidar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=PR100%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
+        "Description": "National Renewable Energy Laboratory (NREL) PV Rooftop Database - Puerto Rico (PVRDB-PR)",
+        "ARN": "arn:aws:s3:::oedi-data-lake/pv-rooftop-pr/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "environmental",
+            "geospatial",
+            "model",
+            "solar",
+            "lidar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=pv-rooftop-pr%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
+        "Description": "NREL's Annual Technology Baseline (ATB)",
+        "ARN": "arn:aws:s3:::oedi-data-lake/ATB/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "environmental",
+            "geospatial",
+            "model",
+            "solar",
+            "lidar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=ATB%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
+        "Description": "Synthetic Models for Advanced, Realistic Testing: Distribution systems and Scenarios (SMART-DS) Datasets",
+        "ARN": "arn:aws:s3:::oedi-data-lake/SMART-DS/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "environmental",
+            "geospatial",
+            "model",
+            "solar",
+            "lidar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=SMART-DS%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -6007,34 +6035,6 @@
     },
     {
         "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
-        "Description": "NREL's Annual Technology Baseline (ATB)",
-        "ARN": "arn:aws:s3:::oedi-data-lake/ATB/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/",
-        "Contact": "https://github.com/openEDI/documentation/issues",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "environmental",
-            "geospatial",
-            "model",
-            "solar",
-            "lidar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=ATB%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
         "Description": "National Renewable Energy Laboratory (NREL) PV Rooftop Database - (PVRDB)",
         "ARN": "arn:aws:s3:::oedi-data-lake/pv-rooftop/",
         "Region": "us-west-2",
@@ -6063,8 +6063,8 @@
     },
     {
         "Name": "Department of Energy's Open Energy Data Initiative (OEDI)",
-        "Description": "PR100: Puerto Rico Grid Resilience and Transition to 100% Renewable Energy",
-        "ARN": "arn:aws:s3:::oedi-data-lake/PR100/",
+        "Description": "Demand-Side Grid Model (dsgrid) Data from the Electrification Futures Project (EFS)",
+        "ARN": "arn:aws:s3:::oedi-data-lake/dsgrid-2018-efs/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/",
@@ -6082,7 +6082,31 @@
             "lidar"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=PR100%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=dsgrid-2018-efs%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
+        "Description": "Soda Lake Geothermal: Raw 3D and 3C Seismic-Reflection Data from 2010 Survey",
+        "ARN": "arn:aws:s3:::gdr-data-lake/soda_lake/raw_seismic/2010",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "geothermal"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=soda_lake%2Fraw_seismic%2F2010%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -6107,30 +6131,6 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=egs_collab%2Fexperiment_2%2Fpassive_seismic%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
-        "Description": "EGS Collab Experiment 2: Distributed Fiber Optic Acoustic Data (DAS)",
-        "ARN": "arn:aws:s3:::gdr-data-lake/egs_collab/experiment_2/DAS/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/",
-        "Contact": "https://github.com/openEDI/documentation/issues",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "geothermal"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=egs_collab%2Fexperiment_2%2FDAS%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -6187,30 +6187,6 @@
     },
     {
         "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
-        "Description": "Seismic Survey 2016 Data at Crescent Valley, Nevada",
-        "ARN": "arn:aws:s3:::gdr-data-lake/wholescale/subter_seismic/crescent_valley",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/",
-        "Contact": "https://github.com/openEDI/documentation/issues",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "geothermal"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=wholescale%2Fsubter_seismic%2Fcrescent_valley%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
         "Description": "Imperial Valley Dark Fiber Project Continuous DAS Data",
         "ARN": "arn:aws:s3:::gdr-data-lake/imperialvalleydas",
         "Region": "us-west-2",
@@ -6259,30 +6235,6 @@
     },
     {
         "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
-        "Description": "WHOLESCALE: Seismic Survey Data from San Emidio Nevada 2021",
-        "ARN": "arn:aws:s3:::gdr-data-lake/wholescale/2021_seismic",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/",
-        "Contact": "https://github.com/openEDI/documentation/issues",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 4.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "geothermal"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=wholescale%2F2021_seismic%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
         "Description": "Seismic Survey 2016 Data at San Emidio Nevada",
         "ARN": "arn:aws:s3:::gdr-data-lake/wholescale/subter_seismic/san_emidio",
         "Region": "us-west-2",
@@ -6299,6 +6251,78 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=wholescale%2Fsubter_seismic%2Fsan_emidio%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
+        "Description": "EGS Collab Experiment 2: Distributed Fiber Optic Acoustic Data (DAS)",
+        "ARN": "arn:aws:s3:::gdr-data-lake/egs_collab/experiment_2/DAS/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "geothermal"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=egs_collab%2Fexperiment_2%2FDAS%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
+        "Description": "Seismic Survey 2016 Data at Crescent Valley, Nevada",
+        "ARN": "arn:aws:s3:::gdr-data-lake/wholescale/subter_seismic/crescent_valley",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "geothermal"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=wholescale%2Fsubter_seismic%2Fcrescent_valley%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
+        "Description": "WHOLESCALE: Seismic Survey Data from San Emidio Nevada 2021",
+        "ARN": "arn:aws:s3:::gdr-data-lake/wholescale/2021_seismic",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 4.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "geothermal"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=wholescale%2F2021_seismic%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -6552,10 +6576,10 @@
     },
     {
         "Name": "Digital Earth Africa Coastlines",
-        "Description": "Bucket creation event notification, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-services-topic",
+        "Description": "DE Africa Coastlines",
+        "ARN": "arn:aws:s3:::deafrica-services/coastlines",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Coastlines_specs.html",
         "Contact": "helpdesk@digitalearthafrica.org",
         "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
@@ -6572,7 +6596,7 @@
             "deafrica"
         ],
         "Explore": null,
-        "RequesterPays": null,
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -6606,10 +6630,10 @@
     },
     {
         "Name": "Digital Earth Africa Coastlines",
-        "Description": "DE Africa Coastlines",
-        "ARN": "arn:aws:s3:::deafrica-services/coastlines",
+        "Description": "Bucket creation event notification, can subscribe with Lambda",
+        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-services-topic",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Coastlines_specs.html",
         "Contact": "helpdesk@digitalearthafrica.org",
         "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
@@ -6626,7 +6650,65 @@
             "deafrica"
         ],
         "Explore": null,
-        "RequesterPays": false,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Digital Earth Africa Cropland Extent Map (2019)",
+        "Description": "S3 Inventory",
+        "ARN": "arn:aws:s3:::deafrica-services-inventory",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Cropland_extent_specs.html",
+        "Contact": "helpdesk@digitalearthafrica.org",
+        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
+        "UpdateFrequency": "To be defined.",
+        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "food security",
+            "geospatial",
+            "satellite imagery",
+            "sustainability",
+            "deafrica",
+            "stac",
+            "cog"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Digital Earth Africa Cropland Extent Map (2019)",
+        "Description": "Bucket creation event notification, can subscribe with Lambda",
+        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-services-topic",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Cropland_extent_specs.html",
+        "Contact": "helpdesk@digitalearthafrica.org",
+        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
+        "UpdateFrequency": "To be defined.",
+        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "food security",
+            "geospatial",
+            "satellite imagery",
+            "sustainability",
+            "deafrica",
+            "stac",
+            "cog"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -6663,22 +6745,23 @@
         "Host": null
     },
     {
-        "Name": "Digital Earth Africa Cropland Extent Map (2019)",
-        "Description": "S3 Inventory",
-        "ARN": "arn:aws:s3:::deafrica-services-inventory",
+        "Name": "Digital Earth Africa Fractional Cover",
+        "Description": "Bucket creation event notification, can subscribe with Lambda",
+        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-services-topic",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Cropland_extent_specs.html",
+        "Type": "SNS Topic",
+        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Fractional_Cover_specs.html",
         "Contact": "helpdesk@digitalearthafrica.org",
         "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
-        "UpdateFrequency": "To be defined.",
+        "UpdateFrequency": "New scene-level data is added as new Landsat data is available. New summaries are available soon after data is available for a year.",
         "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
         "Tags": [
             "aws-pds",
             "agriculture",
+            "disaster response",
             "earth observation",
-            "food security",
             "geospatial",
+            "natural resource",
             "satellite imagery",
             "sustainability",
             "deafrica",
@@ -6692,22 +6775,23 @@
         "Host": null
     },
     {
-        "Name": "Digital Earth Africa Cropland Extent Map (2019)",
-        "Description": "Bucket creation event notification, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-services-topic",
+        "Name": "Digital Earth Africa Fractional Cover",
+        "Description": "S3 Inventory",
+        "ARN": "arn:aws:s3:::deafrica-services-inventory",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Cropland_extent_specs.html",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Fractional_Cover_specs.html",
         "Contact": "helpdesk@digitalearthafrica.org",
         "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
-        "UpdateFrequency": "To be defined.",
+        "UpdateFrequency": "New scene-level data is added as new Landsat data is available. New summaries are available soon after data is available for a year.",
         "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
         "Tags": [
             "aws-pds",
             "agriculture",
+            "disaster response",
             "earth observation",
-            "food security",
             "geospatial",
+            "natural resource",
             "satellite imagery",
             "sustainability",
             "deafrica",
@@ -6786,68 +6870,8 @@
     },
     {
         "Name": "Digital Earth Africa Fractional Cover",
-        "Description": "S3 Inventory",
-        "ARN": "arn:aws:s3:::deafrica-services-inventory",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Fractional_Cover_specs.html",
-        "Contact": "helpdesk@digitalearthafrica.org",
-        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
-        "UpdateFrequency": "New scene-level data is added as new Landsat data is available. New summaries are available soon after data is available for a year.",
-        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "disaster response",
-            "earth observation",
-            "geospatial",
-            "natural resource",
-            "satellite imagery",
-            "sustainability",
-            "deafrica",
-            "stac",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Digital Earth Africa Fractional Cover",
         "Description": "New scene notifications, can subscribe with Lambda",
         "ARN": "arn:aws:sns:af-south-1:565417506782:deafrica-landsat-wofs",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Fractional_Cover_specs.html",
-        "Contact": "helpdesk@digitalearthafrica.org",
-        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
-        "UpdateFrequency": "New scene-level data is added as new Landsat data is available. New summaries are available soon after data is available for a year.",
-        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "disaster response",
-            "earth observation",
-            "geospatial",
-            "natural resource",
-            "satellite imagery",
-            "sustainability",
-            "deafrica",
-            "stac",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Digital Earth Africa Fractional Cover",
-        "Description": "Bucket creation event notification, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-services-topic",
         "Region": "af-south-1",
         "Type": "SNS Topic",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Fractional_Cover_specs.html",
@@ -6936,6 +6960,37 @@
     },
     {
         "Name": "Digital Earth Africa GeoMAD",
+        "Description": "Sentinel-2 GeoMAD (Annual) data",
+        "ARN": "arn:aws:s3:::deafrica-services/gm_s2_annual",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/GeoMAD_specs.html",
+        "Contact": "helpdesk@digitalearthafrica.org",
+        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
+        "UpdateFrequency": "GeoMADs for Sentinel-2 and Landsat are updated as their respective time periods are available.",
+        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "natural resource",
+            "disaster response",
+            "deafrica",
+            "stac",
+            "cog"
+        ],
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/gm_s2_annual)"
+        ],
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Digital Earth Africa GeoMAD",
         "Description": "Bucket creation event notification, can subscribe with Lambda",
         "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-services-topic",
         "Region": "af-south-1",
@@ -6996,37 +7051,6 @@
     },
     {
         "Name": "Digital Earth Africa GeoMAD",
-        "Description": "Sentinel-2 GeoMAD (Annual) data",
-        "ARN": "arn:aws:s3:::deafrica-services/gm_s2_annual",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/GeoMAD_specs.html",
-        "Contact": "helpdesk@digitalearthafrica.org",
-        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
-        "UpdateFrequency": "GeoMADs for Sentinel-2 and Landsat are updated as their respective time periods are available.",
-        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "natural resource",
-            "disaster response",
-            "deafrica",
-            "stac",
-            "cog"
-        ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/gm_s2_annual)"
-        ],
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Digital Earth Africa GeoMAD",
         "Description": "Sentinel-2 GeoMAD (Semi-Annual) data",
         "ARN": "arn:aws:s3:::deafrica-services/gm_s2_semiannual",
         "Region": "af-south-1",
@@ -7058,8 +7082,8 @@
     },
     {
         "Name": "Digital Earth Africa Global Mangrove Watch",
-        "Description": "Global Mangrove Watch",
-        "ARN": "arn:aws:s3:::deafrica-input-datasets/gmw",
+        "Description": "S3 Inventory",
+        "ARN": "arn:aws:s3:::deafrica-services-inventory",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Global_Mangrove_Watch_specs.html",
@@ -7080,10 +7104,8 @@
             "cog",
             "land cover"
         ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/gmw)"
-        ],
-        "RequesterPays": false,
+        "Explore": null,
+        "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -7120,8 +7142,8 @@
     },
     {
         "Name": "Digital Earth Africa Global Mangrove Watch",
-        "Description": "S3 Inventory",
-        "ARN": "arn:aws:s3:::deafrica-services-inventory",
+        "Description": "Global Mangrove Watch",
+        "ARN": "arn:aws:s3:::deafrica-input-datasets/gmw",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Global_Mangrove_Watch_specs.html",
@@ -7142,8 +7164,10 @@
             "cog",
             "land cover"
         ],
-        "Explore": null,
-        "RequesterPays": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/gmw)"
+        ],
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -7268,37 +7292,6 @@
     },
     {
         "Name": "Digital Earth Africa Monthly Normalised Difference Vegetation Index (NDVI) Anomaly",
-        "Description": "Monthly Normalised Difference Vegetation Index (NDVI) Anomaly",
-        "ARN": "arn:aws:s3:::deafrica-services/ndvi_anomaly",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/NDVI_Anomaly_specs.html",
-        "Contact": "helpdesk@digitalearthafrica.org",
-        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
-        "UpdateFrequency": "From September 2022, the Monthly NDVI Anomaly is generated as a low latency product, i.e. anomaly for a month is generated on the 5th day of the following month. This ensures data is available shortly after the end of a month and all Landat 9 and Sentinel-2 observations are included. Not all landsat 8 observations for the month will be used, because the Landsat 8 Surface Refelectance product from USGS has a latency of over 2 weeks ([see Landsat Collection 2 Generation Timeline (https://www.usgs.gov/media/images/landsat-collection-2-generation-timeline)).",
-        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "disaster response",
-            "earth observation",
-            "geospatial",
-            "natural resource",
-            "satellite imagery",
-            "deafrica",
-            "stac",
-            "cog"
-        ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/ndvi_anomaly)"
-        ],
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Digital Earth Africa Monthly Normalised Difference Vegetation Index (NDVI) Anomaly",
         "Description": "S3 Inventory",
         "ARN": "arn:aws:s3:::deafrica-services-inventory",
         "Region": "af-south-1",
@@ -7380,6 +7373,37 @@
         ],
         "Explore": null,
         "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Digital Earth Africa Monthly Normalised Difference Vegetation Index (NDVI) Anomaly",
+        "Description": "Monthly Normalised Difference Vegetation Index (NDVI) Anomaly",
+        "ARN": "arn:aws:s3:::deafrica-services/ndvi_anomaly",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/NDVI_Anomaly_specs.html",
+        "Contact": "helpdesk@digitalearthafrica.org",
+        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
+        "UpdateFrequency": "From September 2022, the Monthly NDVI Anomaly is generated as a low latency product, i.e. anomaly for a month is generated on the 5th day of the following month. This ensures data is available shortly after the end of a month and all Landat 9 and Sentinel-2 observations are included. Not all landsat 8 observations for the month will be used, because the Landsat 8 Surface Refelectance product from USGS has a latency of over 2 weeks ([see Landsat Collection 2 Generation Timeline (https://www.usgs.gov/media/images/landsat-collection-2-generation-timeline)).",
+        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "disaster response",
+            "earth observation",
+            "geospatial",
+            "natural resource",
+            "satellite imagery",
+            "deafrica",
+            "stac",
+            "cog"
+        ],
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/ndvi_anomaly)"
+        ],
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -7504,10 +7528,10 @@
     },
     {
         "Name": "Digital Earth Africa Sentinel-1 Radiometrically Terrain Corrected",
-        "Description": "S3 Inventory",
-        "ARN": "arn:aws:s3:::deafrica-sentinel-1-inventory",
+        "Description": "New scene notifications, can subscribe with Lambda",
+        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-sentinel-1-scene-topic",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html",
         "Contact": "helpdesk@digitalearthafrica.org",
         "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
@@ -7566,10 +7590,10 @@
     },
     {
         "Name": "Digital Earth Africa Sentinel-1 Radiometrically Terrain Corrected",
-        "Description": "Bucket creation event notification, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-sentinel-1-topic",
+        "Description": "S3 Inventory",
+        "ARN": "arn:aws:s3:::deafrica-sentinel-1-inventory",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html",
         "Contact": "helpdesk@digitalearthafrica.org",
         "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
@@ -7596,8 +7620,8 @@
     },
     {
         "Name": "Digital Earth Africa Sentinel-1 Radiometrically Terrain Corrected",
-        "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-sentinel-1-scene-topic",
+        "Description": "Bucket creation event notification, can subscribe with Lambda",
+        "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-sentinel-1-topic",
         "Region": "af-south-1",
         "Type": "SNS Topic",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-1_specs.html",
@@ -7657,35 +7681,6 @@
     },
     {
         "Name": "Digital Earth Africa Sentinel-2 Level-2A",
-        "Description": "S3 Inventory",
-        "ARN": "arn:aws:s3:::deafrica-sentinel-2-inventory",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html",
-        "Contact": "helpdesk@digitalearthafrica.org",
-        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
-        "UpdateFrequency": "New Sentinel-2 scenes are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
-        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "natural resource",
-            "disaster response",
-            "deafrica",
-            "stac",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Digital Earth Africa Sentinel-2 Level-2A",
         "Description": "New scene notifications, can subscribe with Lambda",
         "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-sentinel-2-scene-topic",
         "Region": "af-south-1",
@@ -7719,6 +7714,35 @@
         "ARN": "arn:aws:sns:af-south-1:543785577597:deafrica-sentinel-2-topic",
         "Region": "af-south-1",
         "Type": "SNS Topic",
+        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html",
+        "Contact": "helpdesk@digitalearthafrica.org",
+        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
+        "UpdateFrequency": "New Sentinel-2 scenes are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
+        "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "natural resource",
+            "disaster response",
+            "deafrica",
+            "stac",
+            "cog"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Digital Earth Africa Sentinel-2 Level-2A",
+        "Description": "S3 Inventory",
+        "ARN": "arn:aws:s3:::deafrica-sentinel-2-inventory",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Sentinel-2_Level-2A_specs.html",
         "Contact": "helpdesk@digitalearthafrica.org",
         "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
@@ -10793,9 +10817,9 @@
     },
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
-        "Region": "sa-east-1",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -10811,7 +10835,7 @@
             "life sciences"
         ],
         "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -10901,9 +10925,9 @@
     },
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
-        "Region": "us-east-1",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "Region": "sa-east-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -10919,7 +10943,7 @@
             "life sciences"
         ],
         "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -12196,32 +12220,6 @@
     },
     {
         "Name": "ICGC on AWS",
-        "Description": "This public Amazon S3 bucket contains analysis metadata in XML format for genome analysis results More information at http://oicricgcmetas3amazonawscom/metadata/README",
-        "ARN": "arn:aws:s3:::oicr.icgc.meta/metadata",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dcc.icgc.org/icgc-in-the-cloud/aws",
-        "Contact": "dcc-support@icgc.org",
-        "ManagedBy": "[International Cancer Genome Collaboratory](https://dcc.icgc.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "Data use is subject to the access and publication polices of the source. Distribution of the data is subject to ICGC Trusted Partner Approval.  More information on terms of use is available at https://icgc.org/daco",
-        "Tags": [
-            "aws-pds",
-            "cancer",
-            "genetic",
-            "genomic",
-            "life sciences",
-            "bam",
-            "vcf"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ICGC on AWS",
         "Description": "BAM and VCF files from the The PanCancer Analysis of Whole Genomes (PCAWG) study",
         "ARN": "arn:aws:s3:::icgc",
         "Region": "us-east-1",
@@ -12243,6 +12241,32 @@
         "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": "https://icgc.org/daco",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ICGC on AWS",
+        "Description": "This public Amazon S3 bucket contains analysis metadata in XML format for genome analysis results More information at http://oicricgcmetas3amazonawscom/metadata/README",
+        "ARN": "arn:aws:s3:::oicr.icgc.meta/metadata",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dcc.icgc.org/icgc-in-the-cloud/aws",
+        "Contact": "dcc-support@icgc.org",
+        "ManagedBy": "[International Cancer Genome Collaboratory](https://dcc.icgc.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "Data use is subject to the access and publication polices of the source. Distribution of the data is subject to ICGC Trusted Partner Approval.  More information on terms of use is available at https://icgc.org/daco",
+        "Tags": [
+            "aws-pds",
+            "cancer",
+            "genetic",
+            "genomic",
+            "life sciences",
+            "bam",
+            "vcf"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
     },
