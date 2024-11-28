@@ -970,6 +970,31 @@
     },
     {
         "Name": "ARPA-E PERFORM Forecast data",
+        "Description": "ARPA-E PERFORM Forecast data",
+        "ARN": "arn:aws:s3:::arpa-e-perform/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/PERFORM-Forecasts/documentation",
+        "Contact": "https://github.com/openEDI/PERFORM-Forecasts/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "environmental",
+            "geospatial",
+            "model",
+            "solar"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ARPA-E PERFORM Forecast data",
         "Description": "Forecasts and Actuals for The Southwest Power Pool (SPP)",
         "ARN": "arn:aws:s3:::arpa-e-perform/SPP/",
         "Region": "us-west-2",
@@ -1069,31 +1094,6 @@
         "Host": null
     },
     {
-        "Name": "ARPA-E PERFORM Forecast data",
-        "Description": "ARPA-E PERFORM Forecast data",
-        "ARN": "arn:aws:s3:::arpa-e-perform/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/PERFORM-Forecasts/documentation",
-        "Contact": "https://github.com/openEDI/PERFORM-Forecasts/documentation/issues",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "energy",
-            "environmental",
-            "geospatial",
-            "model",
-            "solar"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "ASF SAR Data Products for Disaster Events",
         "Description": "ASF Event data S3 bucket",
         "ARN": "arn:aws:s3:::asf-event-data",
@@ -1147,33 +1147,6 @@
     },
     {
         "Name": "ASTER L1T Cloud-Optimized GeoTIFFs",
-        "Description": "Imagery and metadata",
-        "ARN": "arn:aws:s3:::aster-l1t",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/aster-l1t",
-        "Contact": "opendata@descarteslabs.com",
-        "ManagedBy": "[Descartes Labs](https://descarteslabs.com/)",
-        "UpdateFrequency": "Daily",
-        "License": "There are no restrictions on the use of data, unless expressly identified prior to or at the time of receipt.",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "natural resource",
-            "sustainability",
-            "mining",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ASTER L1T Cloud-Optimized GeoTIFFs",
         "Description": "New image notifications",
         "ARN": "arn:aws:sns:us-west-2:526859492376:aster-l1t-object_created",
         "Region": "us-west-2",
@@ -1195,6 +1168,33 @@
         ],
         "Explore": null,
         "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ASTER L1T Cloud-Optimized GeoTIFFs",
+        "Description": "Imagery and metadata",
+        "ARN": "arn:aws:s3:::aster-l1t",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/aster-l1t",
+        "Contact": "opendata@descarteslabs.com",
+        "ManagedBy": "[Descartes Labs](https://descarteslabs.com/)",
+        "UpdateFrequency": "Daily",
+        "License": "There are no restrictions on the use of data, unless expressly identified prior to or at the time of receipt.",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "natural resource",
+            "sustainability",
+            "mining",
+            "cog"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -1430,8 +1430,8 @@
     },
     {
         "Name": "Allen Brain Observatory - Visual Coding AWS Public Data Set",
-        "Description": "Project data files in a public bucket",
-        "ARN": "arn:aws:s3:::allen-brain-observatory",
+        "Description": "SageMaker launch template with s3fs bucket mounts",
+        "ARN": "arn:aws:s3:::allen-brain-observatory-templates",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS",
@@ -1458,8 +1458,8 @@
     },
     {
         "Name": "Allen Brain Observatory - Visual Coding AWS Public Data Set",
-        "Description": "SageMaker launch template with s3fs bucket mounts",
-        "ARN": "arn:aws:s3:::allen-brain-observatory-templates",
+        "Description": "Project data files in a public bucket",
+        "ARN": "arn:aws:s3:::allen-brain-observatory",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS",
@@ -1783,35 +1783,6 @@
     },
     {
         "Name": "Amazonia EO satellite on AWS",
-        "Description": "STAC static catalog",
-        "ARN": "arn:aws:s3:::br-eo-stac-1-0-0",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "http://www.inpe.br/amazonia1",
-        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
-        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
-        "UpdateFrequency": "Daily",
-        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "geospatial",
-            "imaging",
-            "satellite imagery",
-            "sustainability",
-            "disaster response",
-            "stac",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Amazonia EO satellite on AWS",
         "Description": "Notifications for new quicklooks",
         "ARN": "arn:aws:sns:us-west-2:599544552497:NewAM1Quicklook",
         "Region": "us-west-2",
@@ -1869,32 +1840,30 @@
         "Host": null
     },
     {
-        "Name": "Analysis Ready Sentinel-1 Backscatter Imagery",
-        "Description": "Sentinel-1 RTC tiled data and metadata in a S3 bucket",
-        "ARN": "arn:aws:s3:::sentinel-s1-rtc-indigo",
+        "Name": "Amazonia EO satellite on AWS",
+        "Description": "STAC static catalog",
+        "ARN": "arn:aws:s3:::br-eo-stac-1-0-0",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://sentinel-s1-rtc-indigo-docs.s3-us-west-2.amazonaws.com/index.html",
-        "Contact": "For questions regarding data methodology or delivery, contact sentinel1@indigoag.com.",
-        "ManagedBy": "[Indigo Ag, Inc.](https://www.indigoag.com/)",
-        "UpdateFrequency": "Data updates are paused while we repair the processing pipeline, but the target is to update on a daily cadence for the dataset's spatial domain (CONUS).",
-        "License": "The use of these data fall under the terms and conditions of the [Indigo Atlas Sentinel License](https://www.indigoag.com/forms/atlas-sentinel-license). ",
+        "Documentation": "http://www.inpe.br/amazonia1",
+        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
+        "ManagedBy": "[AMS Kepler](https://amskepler.com/)",
+        "UpdateFrequency": "Daily",
+        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
         "Tags": [
-            "agriculture",
             "aws-pds",
-            "disaster response",
+            "agriculture",
             "earth observation",
-            "environmental",
             "geospatial",
+            "imaging",
             "satellite imagery",
-            "cog",
+            "sustainability",
+            "disaster response",
             "stac",
-            "synthetic aperture radar"
+            "cog"
         ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://scottyhq.github.io/sentinel1-rtc-stac/#/)"
-        ],
-        "RequesterPays": null,
+        "Explore": null,
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -1923,6 +1892,37 @@
             "synthetic aperture radar"
         ],
         "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Analysis Ready Sentinel-1 Backscatter Imagery",
+        "Description": "Sentinel-1 RTC tiled data and metadata in a S3 bucket",
+        "ARN": "arn:aws:s3:::sentinel-s1-rtc-indigo",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://sentinel-s1-rtc-indigo-docs.s3-us-west-2.amazonaws.com/index.html",
+        "Contact": "For questions regarding data methodology or delivery, contact sentinel1@indigoag.com.",
+        "ManagedBy": "[Indigo Ag, Inc.](https://www.indigoag.com/)",
+        "UpdateFrequency": "Data updates are paused while we repair the processing pipeline, but the target is to update on a daily cadence for the dataset's spatial domain (CONUS).",
+        "License": "The use of these data fall under the terms and conditions of the [Indigo Atlas Sentinel License](https://www.indigoag.com/forms/atlas-sentinel-license). ",
+        "Tags": [
+            "agriculture",
+            "aws-pds",
+            "disaster response",
+            "earth observation",
+            "environmental",
+            "geospatial",
+            "satellite imagery",
+            "cog",
+            "stac",
+            "synthetic aperture radar"
+        ],
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://scottyhq.github.io/sentinel1-rtc-stac/#/)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -2306,8 +2306,8 @@
     },
     {
         "Name": "Automated Segmentation of Intracellular Substructures in Electron Microscopy (ASEM) on AWS",
-        "Description": "High resolution 3D cell image datasets",
-        "ARN": "arn:aws:s3:::asem-project/datasets/",
+        "Description": "Trained ML segmentation models for use in ASEM pipeline",
+        "ARN": "arn:aws:s3:::asem-project/models/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://open.quiltdata.com/b/asem-project",
@@ -2333,8 +2333,8 @@
     },
     {
         "Name": "Automated Segmentation of Intracellular Substructures in Electron Microscopy (ASEM) on AWS",
-        "Description": "Trained ML segmentation models for use in ASEM pipeline",
-        "ARN": "arn:aws:s3:::asem-project/models/",
+        "Description": "High resolution 3D cell image datasets",
+        "ARN": "arn:aws:s3:::asem-project/datasets/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://open.quiltdata.com/b/asem-project",
@@ -2440,32 +2440,6 @@
     },
     {
         "Name": "Beat Acute Myeloid Leukemia (AML) 1.0",
-        "Description": "BEATAML10-COHORT RNA-Seq Gene Expression Quantification",
-        "ARN": "arn:aws:s3:::gdc-beataml1-cohort-phs001657-2-open",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.cancer.gov/about-nci/organization/ccg/blog/2019/beataml",
-        "Contact": "dcf-support@datacommons.io",
-        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
-        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
-        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
-        "Tags": [
-            "aws-pds",
-            "life sciences",
-            "cancer",
-            "genetic",
-            "genomic",
-            "Homo sapiens",
-            "STRIDES"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Beat Acute Myeloid Leukemia (AML) 1.0",
         "Description": "WXS/RNA-Seq Aligned Reads, WXS Annotated Somatic Mutation, WXS Raw Somatic Mutation, RNA-SeqSplice Junction Quantification",
         "ARN": "arn:aws:s3:::gdc-beataml1-cohort-phs001657-2-controlled",
         "Region": "us-east-1",
@@ -2509,6 +2483,54 @@
             "genomic",
             "Homo sapiens",
             "STRIDES"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Beat Acute Myeloid Leukemia (AML) 1.0",
+        "Description": "BEATAML10-COHORT RNA-Seq Gene Expression Quantification",
+        "ARN": "arn:aws:s3:::gdc-beataml1-cohort-phs001657-2-open",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.cancer.gov/about-nci/organization/ccg/blog/2019/beataml",
+        "Contact": "dcf-support@datacommons.io",
+        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
+        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
+        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
+        "Tags": [
+            "aws-pds",
+            "life sciences",
+            "cancer",
+            "genetic",
+            "genomic",
+            "Homo sapiens",
+            "STRIDES"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Biodiversity Heritage Library Metadata and Page Images",
+        "Description": "Image files (JPEG-2000) and associated metadata describing the image and the book or article that contains the image",
+        "ARN": "arn:aws:s3:::bhl-open-data",
+        "Region": "us-east-2",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation can be found at <a href=\"https://github.com/gbhl/bhl-open-data\">our GitHub repository</a>.",
+        "Contact": "feedback@biodiversitylibrary.org",
+        "ManagedBy": "[The Biodiversity Heritage Library](https://biodiversitylibrary.org/)",
+        "UpdateFrequency": "Metadata is updated monthly. Images are updated weekly.",
+        "License": "Public Domain, CC0, or Creative Commons. Exact licenses are found in the related metadta files and <a href=\"https://github.com/gbhl/bhl-open-data\">documentation</a>.",
+        "Tags": [
+            "biodiversity",
+            "bioinformatics",
+            "life sciences"
         ],
         "Explore": null,
         "RequesterPays": null,
@@ -2701,28 +2723,6 @@
     },
     {
         "Name": "CAFE60 reanalysis",
-        "Description": "Notifications for updates to data",
-        "ARN": "arn:aws:sns:ap-southeast-2:970429975021:Cafe60-Data-Changes",
-        "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Documentation": "https://data.csiro.au/dap/ws/v2/collections/49803/support/4029",
-        "Contact": "Terence.O'Kane@csiro.au",
-        "ManagedBy": "[CSIRO](http://csiro.au/)",
-        "UpdateFrequency": "6 Monthly (Approx)",
-        "License": "Creative Commons Attribution-ShareAlike 4.0 International Licence",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "sustainability"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CAFE60 reanalysis",
         "Description": "CSIRO Climate retrospective Analysis and Forecast Ensemble system: version 1 (CAFE60v1) data",
         "ARN": "arn:aws:s3:::cafe60-reanalysis-dataset-aws-open-data",
         "Region": "ap-southeast-2",
@@ -2740,6 +2740,28 @@
         "Explore": [
             "[Browse Bucket](https://cafe60-reanalysis-dataset-aws-open-data.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CAFE60 reanalysis",
+        "Description": "Notifications for updates to data",
+        "ARN": "arn:aws:sns:ap-southeast-2:970429975021:Cafe60-Data-Changes",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://data.csiro.au/dap/ws/v2/collections/49803/support/4029",
+        "Contact": "Terence.O'Kane@csiro.au",
+        "ManagedBy": "[CSIRO](http://csiro.au/)",
+        "UpdateFrequency": "6 Monthly (Approx)",
+        "License": "Creative Commons Attribution-ShareAlike 4.0 International Licence",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "sustainability"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -3027,8 +3049,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "MPAS-CMAQ Input Data",
-        "ARN": "arn:aws:s3:::mpas-cmaq",
+        "Description": "2018v2 Modeling Platform",
+        "ARN": "arn:aws:s3:::2018v2platform",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3045,34 +3067,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://mpas-cmaq.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ CONUS-2 Benchmark Data",
-        "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-cmaq-conus2-benchmark.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://2018v2platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3108,8 +3103,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "2019 Modeling Platform",
-        "ARN": "arn:aws:s3:::2019platform",
+        "Description": "CMAQ CONUS-2 Benchmark Data",
+        "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3126,7 +3121,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://cmas-cmaq-conus2-benchmark.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3135,8 +3130,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "2018v2 Modeling Platform",
-        "ARN": "arn:aws:s3:::2018v2platform",
+        "Description": "MPAS-CMAQ Input Data",
+        "ARN": "arn:aws:s3:::mpas-cmaq",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3153,7 +3148,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://2018v2platform.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://mpas-cmaq.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3189,6 +3184,60 @@
     },
     {
         "Name": "CMAS Data Warehouse",
+        "Description": "SMOKE 2016 Modeling Platform",
+        "ARN": "arn:aws:s3:::cmas-smoke-modeling-platform-2016",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-smoke-modeling-platform-2016.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "2019 Modeling Platform",
+        "ARN": "arn:aws:s3:::2019platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
         "Description": "AMET Data",
         "ARN": "arn:aws:s3:::cmas-amet",
         "Region": "us-east-1",
@@ -3208,6 +3257,60 @@
         ],
         "Explore": [
             "[Browse Bucket](https://cmas-amet.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "SMOKE Test Case",
+        "ARN": "arn:aws:s3:::cmas-smoke-testcase",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-smoke-testcase.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "2016v3 Modeling Platform",
+        "ARN": "arn:aws:s3:::2016v3platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3270,87 +3373,6 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "2016v3 Modeling Platform",
-        "ARN": "arn:aws:s3:::2016v3platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "SMOKE Test Case",
-        "ARN": "arn:aws:s3:::cmas-smoke-testcase",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-smoke-testcase.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2020 Modeling Platform",
-        "ARN": "arn:aws:s3:::2020platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2020platform.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
         "Description": "CMAQ 2018 Modeling Platform",
         "ARN": "arn:aws:s3:::cmas-cmaq-modeling-platform-2018",
         "Region": "us-east-1",
@@ -3378,8 +3400,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "SMOKE 2016 Modeling Platform",
-        "ARN": "arn:aws:s3:::cmas-smoke-modeling-platform-2016",
+        "Description": "2020 Modeling Platform",
+        "ARN": "arn:aws:s3:::2020platform",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3396,7 +3418,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://cmas-smoke-modeling-platform-2016.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://2020platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3541,8 +3563,8 @@
     },
     {
         "Name": "COVID-19 Genome Sequence Dataset",
-        "Description": "Metadata for sra-pub-sars-cov2 in an Athena-queryable format",
-        "ARN": "arn:aws:s3:::sra-pub-sars-cov2-metadata-us-east-1",
+        "Description": "Genomic sequence reads of SARS-CoV-2 and related coronaviridae, organized by NCBI accession Files in the `sra-src` folder are in FASTQ, BAM, or CRAM format (original submission); files in the  `run` folder are in sra format and require the SRA Toolkit",
+        "ARN": "arn:aws:s3:::sra-pub-sars-cov2",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-aws-download/",
@@ -3578,8 +3600,8 @@
     },
     {
         "Name": "COVID-19 Genome Sequence Dataset",
-        "Description": "Genomic sequence reads of SARS-CoV-2 and related coronaviridae, organized by NCBI accession Files in the `sra-src` folder are in FASTQ, BAM, or CRAM format (original submission); files in the  `run` folder are in sra format and require the SRA Toolkit",
-        "ARN": "arn:aws:s3:::sra-pub-sars-cov2",
+        "Description": "Metadata for sra-pub-sars-cov2 in an Athena-queryable format",
+        "ARN": "arn:aws:s3:::sra-pub-sars-cov2-metadata-us-east-1",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-aws-download/",
@@ -3773,6 +3795,31 @@
     },
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer",
+        "Description": "WGS/Targeted Sequencing/RNA-Seq/miRNA-Seq Aligned Reads, RNA-Seq Splice JunctionQuantification",
+        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-controlled",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://ocg.cancer.gov/programs/cgci",
+        "Contact": "dcf-support@datacommons.io",
+        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
+        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
+        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
+        "Tags": [
+            "aws-pds",
+            "cancer",
+            "genomic",
+            "life sciences",
+            "transcriptomics",
+            "STRIDES"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000235.v14.p2",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantification, miRNA-SeqIsoform Expression Quantification, miRNA-Seq miRNA Expression Quantification",
         "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
         "Region": "us-east-1",
@@ -3822,27 +3869,33 @@
         "Host": null
     },
     {
-        "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer",
-        "Description": "WGS/Targeted Sequencing/RNA-Seq/miRNA-Seq Aligned Reads, RNA-Seq Splice JunctionQuantification",
-        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-controlled",
-        "Region": "us-east-1",
+        "Name": "Capella Space Synthetic Aperture Radar (SAR) Open Dataset",
+        "Description": "Capella Space Open Data in COG format",
+        "ARN": "arn:aws:s3:::capella-open-data/data/",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://ocg.cancer.gov/programs/cgci",
-        "Contact": "dcf-support@datacommons.io",
-        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
-        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
-        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
+        "Documentation": "Documentation is available under [support.capellaspace.com](https://support.capellaspace.com/)",
+        "Contact": "opendata@capellaspace.com",
+        "ManagedBy": "[Capella Space](https://www.capellaspace.com/)",
+        "UpdateFrequency": "New data is added quarterly.",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",
-            "cancer",
-            "genomic",
-            "life sciences",
-            "transcriptomics",
-            "STRIDES"
+            "cog",
+            "stac",
+            "earth observation",
+            "satellite imagery",
+            "geospatial",
+            "image processing",
+            "computer vision",
+            "synthetic aperture radar"
         ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000235.v14.p2",
+        "Explore": [
+            "[STAC Catalog](https://capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json)",
+            "[STAC Browser](https://radiantearth.github.io/stac-browser/#/external/capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json)"
+        ],
+        "RequesterPays": false,
+        "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
     },
@@ -3869,37 +3922,6 @@
             "synthetic aperture radar"
         ],
         "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Capella Space Synthetic Aperture Radar (SAR) Open Dataset",
-        "Description": "Capella Space Open Data in COG format",
-        "ARN": "arn:aws:s3:::capella-open-data/data/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "Documentation is available under [support.capellaspace.com](https://support.capellaspace.com/)",
-        "Contact": "opendata@capellaspace.com",
-        "ManagedBy": "[Capella Space](https://www.capellaspace.com/)",
-        "UpdateFrequency": "New data is added quarterly.",
-        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "cog",
-            "stac",
-            "earth observation",
-            "satellite imagery",
-            "geospatial",
-            "image processing",
-            "computer vision",
-            "synthetic aperture radar"
-        ],
-        "Explore": [
-            "[STAC Catalog](https://capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json)",
-            "[STAC Browser](https://radiantearth.github.io/stac-browser/#/external/capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json)"
-        ],
         "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -3933,8 +3955,8 @@
     },
     {
         "Name": "Cell Organelle Segmentation in Electron Microscopy (COSEM) on AWS",
-        "Description": "Machine learning models for organelle prediction",
-        "ARN": "arn:aws:s3:::janelia-cosem-networks",
+        "Description": "Raw FIB-SEM datasets and derived data",
+        "ARN": "arn:aws:s3:::janelia-cosem-datasets",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/janelia-cosem/aws-opendata/blob/master/cosem-introduction.md",
@@ -3959,8 +3981,8 @@
     },
     {
         "Name": "Cell Organelle Segmentation in Electron Microscopy (COSEM) on AWS",
-        "Description": "Raw FIB-SEM datasets and derived data",
-        "ARN": "arn:aws:s3:::janelia-cosem-datasets",
+        "Description": "Machine learning models for organelle prediction",
+        "ARN": "arn:aws:s3:::janelia-cosem-networks",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/janelia-cosem/aws-opendata/blob/master/cosem-introduction.md",
@@ -4409,29 +4431,6 @@
     },
     {
         "Name": "Common Screens",
-        "Description": "Cloudfront CDN distribution for hotlinking screenshots",
-        "ARN": null,
-        "Region": "us-west-2",
-        "Type": "CloudFront Distribution",
-        "Documentation": "https://commonscreens.com/?page_id=1492",
-        "Contact": "admin@commonscreens.com",
-        "ManagedBy": "[Common Screens](https://commonscreens.com/)",
-        "UpdateFrequency": "Monthly",
-        "License": "[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "encyclopedic",
-            "natural language processing",
-            "internet"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": "dqh5x5k6xg3n1.cloudfront.net"
-    },
-    {
-        "Name": "Common Screens",
         "Description": "Common Screens (jpeg and csv format)",
         "ARN": "arn:aws:s3:::common-screens",
         "Region": "us-west-2",
@@ -4452,6 +4451,29 @@
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
+    },
+    {
+        "Name": "Common Screens",
+        "Description": "Cloudfront CDN distribution for hotlinking screenshots",
+        "ARN": null,
+        "Region": "us-west-2",
+        "Type": "CloudFront Distribution",
+        "Documentation": "https://commonscreens.com/?page_id=1492",
+        "Contact": "admin@commonscreens.com",
+        "ManagedBy": "[Common Screens](https://commonscreens.com/)",
+        "UpdateFrequency": "Monthly",
+        "License": "[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "encyclopedic",
+            "natural language processing",
+            "internet"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": "dqh5x5k6xg3n1.cloudfront.net"
     },
     {
         "Name": "Community Earth System Model Large Ensemble (CESM LENS)",
@@ -10817,9 +10839,9 @@
     },
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
-        "Region": "us-east-1",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "Region": "sa-east-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -10835,7 +10857,7 @@
             "life sciences"
         ],
         "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -10925,9 +10947,9 @@
     },
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
-        "Region": "sa-east-1",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -10943,7 +10965,7 @@
             "life sciences"
         ],
         "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -12220,32 +12242,6 @@
     },
     {
         "Name": "ICGC on AWS",
-        "Description": "BAM and VCF files from the The PanCancer Analysis of Whole Genomes (PCAWG) study",
-        "ARN": "arn:aws:s3:::icgc",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dcc.icgc.org/icgc-in-the-cloud/aws",
-        "Contact": "dcc-support@icgc.org",
-        "ManagedBy": "[International Cancer Genome Collaboratory](https://dcc.icgc.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "Data use is subject to the access and publication polices of the source. Distribution of the data is subject to ICGC Trusted Partner Approval.  More information on terms of use is available at https://icgc.org/daco",
-        "Tags": [
-            "aws-pds",
-            "cancer",
-            "genetic",
-            "genomic",
-            "life sciences",
-            "bam",
-            "vcf"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": "https://icgc.org/daco",
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ICGC on AWS",
         "Description": "This public Amazon S3 bucket contains analysis metadata in XML format for genome analysis results More information at http://oicricgcmetas3amazonawscom/metadata/README",
         "ARN": "arn:aws:s3:::oicr.icgc.meta/metadata",
         "Region": "us-east-1",
@@ -12267,6 +12263,32 @@
         "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ICGC on AWS",
+        "Description": "BAM and VCF files from the The PanCancer Analysis of Whole Genomes (PCAWG) study",
+        "ARN": "arn:aws:s3:::icgc",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dcc.icgc.org/icgc-in-the-cloud/aws",
+        "Contact": "dcc-support@icgc.org",
+        "ManagedBy": "[International Cancer Genome Collaboratory](https://dcc.icgc.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "Data use is subject to the access and publication polices of the source. Distribution of the data is subject to ICGC Trusted Partner Approval.  More information on terms of use is available at https://icgc.org/daco",
+        "Tags": [
+            "aws-pds",
+            "cancer",
+            "genetic",
+            "genomic",
+            "life sciences",
+            "bam",
+            "vcf"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": "https://icgc.org/daco",
         "AccountRequired": null,
         "Host": null
     },
@@ -16843,8 +16865,8 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Ocean Nearsurface Atmos Profiles",
-        "ARN": "arn:aws:s3:::noaa-cdr-ocean-nearsurface-atmos-profiles-pds",
+        "Description": "Ocean Heatflux",
+        "ARN": "arn:aws:s3:::noaa-cdr-ocean-heatflux-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
@@ -16861,7 +16883,7 @@
             "weather"
         ],
         "Explore": [
-            "[Browse Bucket](https://noaa-cdr-ocean-nearsurface-atmos-profiles-pds.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://noaa-cdr-ocean-heatflux-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -17032,6 +17054,33 @@
     },
     {
         "Name": "NOAA Atmospheric Climate Data Records",
+        "Description": "Ocean Nearsurface Atmos Profiles",
+        "ARN": "arn:aws:s3:::noaa-cdr-ocean-nearsurface-atmos-profiles-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
+        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team here: nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
+        "License": "Open Data. There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "sustainability",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-cdr-ocean-nearsurface-atmos-profiles-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Atmospheric Climate Data Records",
         "Description": "Outgoing Longwave Radiation - Monthly",
         "ARN": "arn:aws:s3:::noaa-cdr-outgoing-longwave-radiation-monthly-pds",
         "Region": "us-east-1",
@@ -17186,33 +17235,6 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-cdr-precip-gpcp-daily-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Atmospheric Climate Data Records",
-        "Description": "Ocean Heatflux",
-        "ARN": "arn:aws:s3:::noaa-cdr-ocean-heatflux-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncei.noaa.gov/products/climate-data-records/atmospheric",
-        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team here: nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "sustainability",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-cdr-ocean-heatflux-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
