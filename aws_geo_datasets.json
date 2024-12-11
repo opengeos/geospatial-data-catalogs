@@ -11162,7 +11162,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11185,7 +11185,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13594,6 +13594,30 @@
         "RequesterPays": null,
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bangladesh%2F)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset - Bias Corrected NOAA HRRR Wind Resource Data for Grid Integration Applications",
+        "Description": "Bias Corrected NOAA HRRR Wind Resource Data for Grid Integration Applications",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/bchrrr/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bchrrr%2F)"
         ],
         "Host": null,
         "AccountRequired": null

@@ -21639,8 +21639,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Central Asia wind resource data (2015) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/central_asia/",
+        "Description": "India wind resource data (2014) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/india/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -21655,7 +21655,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=central_asia%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=india%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -21781,31 +21781,6 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=vietnam%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Philippines wind resource data (2017) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/philippines/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=philippines%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22039,8 +22014,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Gulf of Mexico wind resource data (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/gulf_of_mexico/",
+        "Description": "Central Asia wind resource data (2015) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/central_asia/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22055,7 +22030,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=gulf_of_mexico%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=central_asia%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22064,8 +22039,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "India wind resource data (2014) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/india/",
+        "Description": "Philippines wind resource data (2017) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/philippines/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22080,7 +22055,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=india%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=philippines%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22114,31 +22089,6 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Data for the Western Wind Integration Study (2004-2006",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/western_wind/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=western_wind%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
         "Description": "Data for the Eastern Wind Integration Study (2004-2006",
         "ARN": "arn:aws:s3:::nrel-pds-wtk/eastern_wind/",
         "Region": "us-west-2",
@@ -22156,6 +22106,56 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=eastern_wind%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Maine wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/maine/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=maine%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Data for the Western Wind Integration Study (2004-2006",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/western_wind/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=western_wind%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22206,6 +22206,31 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=philippines_tmy%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Mid Atlantic three-dimensional planetary boundary layer (3D PBL) scheme wind resource data",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/mid_atlantic_3d_pbl/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=mid_atlantic_3d_pbl%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22289,8 +22314,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Southeast Asia wind resource data v3 (2007-2021) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind_v3/",
+        "Description": "Bias Corrected NOAA HRRR Wind Resource Data for Grid Integration Applications",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/bchrrr/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22305,32 +22330,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind_v3%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Mid Atlantic three-dimensional planetary boundary layer (3D PBL) scheme wind resource data",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/mid_atlantic_3d_pbl/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=mid_atlantic_3d_pbl%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bchrrr%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22414,8 +22414,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Maine wind resource data (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/maine/",
+        "Description": "Southeast Asia wind resource data v3 (2007-2021) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind_v3/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22430,7 +22430,32 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=maine%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind_v3%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Gulf of Mexico wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/gulf_of_mexico/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=gulf_of_mexico%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22666,6 +22691,34 @@
     },
     {
         "Name": "National Cancer Institute Imaging Data Commons (IDC) Collections",
+        "Description": "De-identified imaging data files in DICOM format distributed under CC-NC license Files in this bucket are covered by This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
+        "ARN": "arn:aws:s3:::idc-open-data-cr",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://learn.canceridc.dev/",
+        "Contact": "https://discourse.canceridc.dev/",
+        "ManagedBy": "Imaging Data Commons (IDC)(https://imaging.datacommons.cancer.gov) team",
+        "UpdateFrequency": "Every 1-3 months",
+        "License": "https://fairsharing.org/FAIRsharing.0b5a1d",
+        "Tags": [
+            "aws-pds",
+            "cancer",
+            "imaging",
+            "digital pathology",
+            "radiology",
+            "microscopy",
+            "fluorescence imaging",
+            "image processing",
+            "machine learning"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "National Cancer Institute Imaging Data Commons (IDC) Collections",
         "Description": "Second bucket containing de-identified imaging data files in DICOM format distributed under CC-BY license This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
         "ARN": "arn:aws:s3:::idc-open-data-two",
         "Region": "us-east-1",
@@ -22696,34 +22749,6 @@
         "Name": "National Cancer Institute Imaging Data Commons (IDC) Collections",
         "Description": "De-identified imaging data files in DICOM format distributed under CC-BY license This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
         "ARN": "arn:aws:s3:::idc-open-data",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://learn.canceridc.dev/",
-        "Contact": "https://discourse.canceridc.dev/",
-        "ManagedBy": "Imaging Data Commons (IDC)(https://imaging.datacommons.cancer.gov) team",
-        "UpdateFrequency": "Every 1-3 months",
-        "License": "https://fairsharing.org/FAIRsharing.0b5a1d",
-        "Tags": [
-            "aws-pds",
-            "cancer",
-            "imaging",
-            "digital pathology",
-            "radiology",
-            "microscopy",
-            "fluorescence imaging",
-            "image processing",
-            "machine learning"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "National Cancer Institute Imaging Data Commons (IDC) Collections",
-        "Description": "De-identified imaging data files in DICOM format distributed under CC-NC license Files in this bucket are covered by This bucket is updated with each new IDC release, while maintaining the versioning of the previous releases, as described in the IDC Data versioning documentation The content of the buckets is organized",
-        "ARN": "arn:aws:s3:::idc-open-data-cr",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://learn.canceridc.dev/",
@@ -23570,7 +23595,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Daily stored energy per subsystem (PT-BR Energia Armazenada (EAR) di\u00e1rio por subsistema)",
+        "Description": "Daily affluent natural energy per basin (PT-BR Energia Natural Afluente (ENA) di\u00e1rio por bacia)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -23586,7 +23611,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ear-diario-por-subsistema)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-bacia)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -24295,7 +24320,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Daily affluent natural energy per basin (PT-BR Energia Natural Afluente (ENA) di\u00e1rio por bacia)",
+        "Description": "Daily stored energy per subsystem (PT-BR Energia Armazenada (EAR) di\u00e1rio por subsistema)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -24311,7 +24336,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-bacia)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ear-diario-por-subsistema)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
