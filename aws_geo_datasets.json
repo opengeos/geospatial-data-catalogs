@@ -2199,6 +2199,32 @@
         "AccountRequired": null
     },
     {
+        "Name": "DOE's Water Power Technology Office's (WPTO) US Wave dataset - Updated version of 32 Year Wave Hindcast (1979-2010) for the Atlantic Coast of the United States at 3-hour temporal resolution and down to 200m spatial resolution in HDF5 format Updates resolve issues with NaNs",
+        "Description": "Updated version of 32 Year Wave Hindcast (1979-2010) for the Atlantic Coast of the United States at 3-hour temporal resolution and down to 200m spatial resolution in HDF5 format Updates resolve issues with NaNs",
+        "ARN": "arn:aws:s3:::wpto-pds-us-wave/v1.0.1/Atlantic/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/US_Wave.md",
+        "Contact": "Levi.Kilcher@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "https://github.com/openEDI/documentation/blob/master/US_Wave.md",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "water"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=wpto-pds-us-wave&prefix=v1.0.1%2FAtlantic%2F)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Daylight Map Distribution of OpenStreetMap - Daylight Earth Table (Parquet)",
         "Description": "Daylight Earth Table (Parquet)",
         "ARN": "arn:aws:s3:::daylight-openstreetmap/earth",
@@ -5313,6 +5339,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -5337,10 +5387,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5383,30 +5433,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
@@ -5463,30 +5489,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "Explore": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -5507,6 +5509,30 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
         "Host": null,
         "AccountRequired": null
     },
@@ -6121,6 +6147,28 @@
             "natural resource",
             "weather",
             "meteorological"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "IGP Coal Plant",
+        "Description": "Asset level data - Coal_Plants_IGP",
+        "ARN": "arn:aws:s3:::assetdata-igp/Coal Plants/",
+        "Region": "ap-south-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/Coal%20Plants/coal-plants.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "air quality",
+            "energy",
+            "meteorological",
+            "environmental"
         ],
         "RequesterPays": null,
         "Explore": null,
@@ -7247,7 +7295,7 @@
         "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST).  As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
         "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
         "UpdateFrequency": "The Global Deterministic available time steps are provided every hour from 0 to 54 hours, every 3 hours between 57 to 144 hours and every 6 hours between 150 to 168 hours. Full runs (up to 168 hours) - 00:00, 12:00. Shortened runs (up to 66 hours) - 06:00, 18:00.",
-        "License": "British Crown copyright 2022-2024, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "License": "British Crown copyright 2023-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
         "Tags": [
             "aws-pds",
             "air temperature",
@@ -7278,7 +7326,7 @@
         "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST).  As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
         "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
         "UpdateFrequency": "The Global Deterministic available time steps are provided every hour from 0 to 54 hours, every 3 hours between 57 to 144 hours and every 6 hours between 150 to 168 hours. Full runs (up to 168 hours) - 00:00, 12:00. Shortened runs (up to 66 hours) - 06:00, 18:00.",
-        "License": "British Crown copyright 2022-2024, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "License": "British Crown copyright 2023-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
         "Tags": [
             "aws-pds",
             "air temperature",
@@ -7286,6 +7334,70 @@
             "forecast",
             "geoscience",
             "geospatial",
+            "model",
+            "near-surface air temperature",
+            "near-surface relative humidity",
+            "netcdf",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Met Office Global Ensemble Prediction System (MOGREPS-G) on a 30-day rolling archive - Met Office Global Ensemble Prediction System (MOGREPS-G) on a 30-day rolling archive",
+        "Description": "Met Office Global Ensemble Prediction System (MOGREPS-G) on a 30-day rolling archive",
+        "ARN": "arn:aws:s3:::met-office-global-ensemble-model-data",
+        "Region": "eu-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.metoffice.gov.uk/services/data/external-data-channels",
+        "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST).  As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
+        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
+        "UpdateFrequency": "The MOGREPS-G model runs four times per day at 00, 06, 12, 18 UTC. The available time steps are provided every hour from 0 to 54 hours or from 0 to 132 hours and every 3 hours between 57 to 198 hours or from 135 to 198 hours.",
+        "License": "British Crown copyright 2024-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "Tags": [
+            "aws-pds",
+            "air temperature",
+            "atmosphere",
+            "forecast",
+            "geoscience",
+            "geospatial",
+            "global",
+            "meteorological",
+            "model",
+            "near-surface air temperature",
+            "near-surface relative humidity",
+            "netcdf",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse bucket](https://met-office-global-ensemble-model-data.s3.eu-west-2.amazonaws.com/index.html)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Met Office Global Ensemble Prediction System (MOGREPS-G) on a 30-day rolling archive - Notifications for new global ensemble model data",
+        "Description": "Notifications for new global ensemble model data",
+        "ARN": "arn:aws:sns:eu-west-2:633885181284:met-office-global-ensemble-model-data-object_created",
+        "Region": "eu-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.metoffice.gov.uk/services/data/external-data-channels",
+        "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST).  As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
+        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
+        "UpdateFrequency": "The MOGREPS-G model runs four times per day at 00, 06, 12, 18 UTC. The available time steps are provided every hour from 0 to 54 hours or from 0 to 132 hours and every 3 hours between 57 to 198 hours or from 135 to 198 hours.",
+        "License": "British Crown copyright 2024-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "Tags": [
+            "aws-pds",
+            "air temperature",
+            "atmosphere",
+            "forecast",
+            "geoscience",
+            "geospatial",
+            "global",
+            "meteorological",
             "model",
             "near-surface air temperature",
             "near-surface relative humidity",
@@ -7307,7 +7419,7 @@
         "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST).  As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
         "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
         "UpdateFrequency": "The UKV provides hourly forecasts covering the period T+0 to T+48 hours, produced at surface level and at standard pressure levels eight times a day. With 3 hourly forecasts out to T+120. Model runs hourly, with the run times of T+54 with 03*, 15* hours extended to T+120.",
-        "License": "British Crown copyright 2022-2024, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "License": "British Crown copyright 2023-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
         "Tags": [
             "aws-pds",
             "air temperature",
@@ -7338,7 +7450,7 @@
         "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST).  As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
         "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
         "UpdateFrequency": "The UKV provides hourly forecasts covering the period T+0 to T+48 hours, produced at surface level and at standard pressure levels eight times a day. With 3 hourly forecasts out to T+120. Model runs hourly, with the run times of T+54 with 03*, 15* hours extended to T+120.",
-        "License": "British Crown copyright 2022-2024, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "License": "British Crown copyright 2023-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
         "Tags": [
             "aws-pds",
             "air temperature",
@@ -7474,7 +7586,7 @@
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/naip",
         "Contact": "imagerycontent@esri.com",
         "ManagedBy": "[Esri](https://www.esri.com/en-us/home)",
-        "UpdateFrequency": "NAIP data is provided state by state at varying time intervals. Each year, a variable number of states are updated with an overall update cycle of every two to three years for each state. This catalog currently includes NAIP imagery from 2010 through 2021 for most products.",
+        "UpdateFrequency": "NAIP data is provided state by state at varying time intervals. Each year, a variable number of states are updated with an overall update cycle of every two to three years for each state. This catalog currently includes NAIP imagery from 2010 through 2023 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
             "aws-pds",
@@ -7500,7 +7612,7 @@
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/naip",
         "Contact": "imagerycontent@esri.com",
         "ManagedBy": "[Esri](https://www.esri.com/en-us/home)",
-        "UpdateFrequency": "NAIP data is provided state by state at varying time intervals. Each year, a variable number of states are updated with an overall update cycle of every two to three years for each state. This catalog currently includes NAIP imagery from 2010 through 2021 for most products.",
+        "UpdateFrequency": "NAIP data is provided state by state at varying time intervals. Each year, a variable number of states are updated with an overall update cycle of every two to three years for each state. This catalog currently includes NAIP imagery from 2010 through 2023 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
             "aws-pds",
@@ -7526,7 +7638,7 @@
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/naip",
         "Contact": "imagerycontent@esri.com",
         "ManagedBy": "[Esri](https://www.esri.com/en-us/home)",
-        "UpdateFrequency": "NAIP data is provided state by state at varying time intervals. Each year, a variable number of states are updated with an overall update cycle of every two to three years for each state. This catalog currently includes NAIP imagery from 2010 through 2021 for most products.",
+        "UpdateFrequency": "NAIP data is provided state by state at varying time intervals. Each year, a variable number of states are updated with an overall update cycle of every two to three years for each state. This catalog currently includes NAIP imagery from 2010 through 2023 for most products.",
         "License": "Public Domain with Attribution",
         "Tags": [
             "aws-pds",
@@ -8622,7 +8734,7 @@
         "Contact": "larc-power-project@mail.nasa.gov",
         "ManagedBy": "NASA",
         "UpdateFrequency": "Near Real Time (NRT); as soon as source data becomes available from our source data providers. <br/><br/>\n- Meteorological: ~2-3 days <br/>\n- Solar ~5-7 days <br/><br/>\nFor more information see the [NASA POWER Availability Dashboards](https://power.larc.nasa.gov/dashboard/availability/)\n",
-        "License": "There are no restrictions on the use, access, and/or download of data from the NASA POWER Project. We request that you cite the NASA POWER Project when using the data provided from NASA POWER Project. <br/><br/> [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/)",
+        "License": "There are no restrictions on the use, access, and/or download of data from the NASA POWER Project. We request that you cite the NASA POWER Project when using the data provided from NASA POWER Project. <br/><br/> [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "agriculture",
             "air quality",
@@ -8671,14 +8783,14 @@
     {
         "Name": "NASA Prediction of Worldwide Energy Resources (POWER) - POWER's Zarr Analysis Ready Data (ARD) Datasets",
         "Description": "POWER's Zarr Analysis Ready Data (ARD) Datasets",
-        "ARN": "arn:aws:s3:::power-analysis-ready-datastore",
+        "ARN": "arn:aws:s3:::nasa-power",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://power.larc.nasa.gov/docs/",
         "Contact": "larc-power-project@mail.nasa.gov",
         "ManagedBy": "NASA",
         "UpdateFrequency": "Near Real Time (NRT); as soon as source data becomes available from our source data providers. <br/><br/>\n- Meteorological: ~2-3 days <br/>\n- Solar ~5-7 days <br/><br/>\nFor more information see the [NASA POWER Availability Dashboards](https://power.larc.nasa.gov/dashboard/availability/)\n",
-        "License": "There are no restrictions on the use, access, and/or download of data from the NASA POWER Project. We request that you cite the NASA POWER Project when using the data provided from NASA POWER Project. <br/><br/> [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/)",
+        "License": "There are no restrictions on the use, access, and/or download of data from the NASA POWER Project. We request that you cite the NASA POWER Project when using the data provided from NASA POWER Project. <br/><br/> [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "agriculture",
             "air quality",
@@ -8719,7 +8831,7 @@
         ],
         "RequesterPays": false,
         "Explore": [
-            "[Browse Bucket](https://power-analysis-ready-datastore.s3.us-west-2.amazonaws.com/index.html)"
+            "[Browse Bucket](https://nasa-power.s3.us-west-2.amazonaws.com/index.html)"
         ],
         "Host": null,
         "AccountRequired": null
@@ -9694,9 +9806,9 @@
         "ARN": "arn:aws:s3:::noaa-nos-coastal-lidar-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://coast.noaa.gov/digitalcoast/data/coastallidar.html  and   https://coast.noaa.gov/digitalcoast/data/jalbtcx.html",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. </ br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "Documentation": "https://coast.noaa.gov/digitalcoast/data/coastallidar.html and https://coast.noaa.gov/digitalcoast/data/jalbtcx.html. A table providing the dataset names and links is at https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/index.html",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. <br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](https://www.noaa.gov/)",
         "UpdateFrequency": "Periodically, as new data becomes available",
         "License": "Open Data. There are no restrictions on the use of this data.",
         "Tags": [
@@ -9705,10 +9817,13 @@
             "elevation",
             "disaster response",
             "geospatial",
-            "lidar"
+            "lidar",
+            "stac"
         ],
         "RequesterPays": null,
-        "Explore": null,
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://noaa-nos-coastal-lidar-pds.s3.us-east-1.amazonaws.com/entwine/stac/catalog.json)"
+        ],
         "Host": null,
         "AccountRequired": null
     },
@@ -9718,9 +9833,9 @@
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewCoastalLidarObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
-        "Documentation": "https://coast.noaa.gov/digitalcoast/data/coastallidar.html  and   https://coast.noaa.gov/digitalcoast/data/jalbtcx.html",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. </ br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "Documentation": "https://coast.noaa.gov/digitalcoast/data/coastallidar.html and https://coast.noaa.gov/digitalcoast/data/jalbtcx.html. A table providing the dataset names and links is at https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/index.html",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. <br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](https://www.noaa.gov/)",
         "UpdateFrequency": "Periodically, as new data becomes available",
         "License": "Open Data. There are no restrictions on the use of this data.",
         "Tags": [
@@ -9729,7 +9844,8 @@
             "elevation",
             "disaster response",
             "geospatial",
-            "lidar"
+            "lidar",
+            "stac"
         ],
         "RequesterPays": null,
         "Explore": null,
@@ -11163,7 +11279,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11186,7 +11302,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -12541,7 +12657,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -12564,7 +12680,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -13619,6 +13735,30 @@
         "RequesterPays": null,
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bchrrr%2F)"
+        ],
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset - Bias corrected Indonesia wind resource",
+        "Description": "Bias corrected Indonesia wind resource",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/indonesia/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "RequesterPays": null,
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=indonesia%2F)"
         ],
         "Host": null,
         "AccountRequired": null
