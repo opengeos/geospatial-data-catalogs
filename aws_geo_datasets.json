@@ -16589,8 +16589,8 @@
         "Documentation": "https://www.asc-csa.gc.ca/eng/satellites/radarsat/",
         "Contact": "eodms-sgdot@nrcan-rncan.gc.ca",
         "ManagedBy": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
-        "UpdateFrequency": "The initial dataset will be Canada-wide, 30M Compact-Polarization standard coverage, every 12 days, per mission revisit frequency.\nL'ensemble de donn\u00e9es initial couvrira l'ensemble du Canada, une couverture standard de 30 metres de polarisation compacte, tous les 12 jours, par fr\u00e9quence de revisite de mission.",
-        "License": "RCM image products are available free of charge, to the broadest extent possible, in order to promote the development of innovative products and services derived from SAR data. The Government of Canada retains ownership of all RCM data and image products. Intellectual property rights to value-added products (VAPs) created from the RCM image products will remain with the creator of the VAP. Acceptable uses of RCM image products are set out in the [RCM Public User License Agreement](https://www.asc-csa.gc.ca/eng/satellites/radarsat/access-to-data/public-user-license-agreement.asp), which is provided with each RCM image product.Les produits d'image de la MCR sont disponibles sans frais, le plus possible accessibles, pour encourager la mise au point de produits et services novateurs d\u00e9riv\u00e9s des donn\u00e9es RSO. Le gouvernement du Canada conserve la propri\u00e9t\u00e9 de toutes les donn\u00e9es et de tous les produits d'image de la MCR. Les droits de propri\u00e9t\u00e9 intellectuelle sur les produits \u00e0 valeur ajout\u00e9e (PVA) cr\u00e9\u00e9s \u00e0 partir des produits d'image de la MCR demeureront la propri\u00e9t\u00e9 du cr\u00e9ateur du PVA. Les utilisations acceptables des produits d'image de la MCR sont \u00e9nonc\u00e9es dans le [contrat de licence d'utilisation](https://www.asc-csa.gc.ca/fra/satellites/radarsat/acces-aux-donnees/contrat-licence-utilisation.asp) fourni avec chaque produit d'image de la MCR",
+        "UpdateFrequency": "The initial dataset will be Canada-wide, 30M Compact-Polarization standard coverage, every 12 days, per mission revisit frequency.\n<br/> <br/>\nL'ensemble de donn\u00e9es initial couvrira l'ensemble du Canada, une couverture standard de 30 metres de polarisation compacte, tous les 12 jours, par fr\u00e9quence de revisite de mission.",
+        "License": "RCM image products are available free of charge, to the broadest extent possible, in order to promote the development of innovative products and services derived from SAR data. The Government of Canada retains ownership of all RCM data and image products. Intellectual property rights to value-added products (VAPs) created from the RCM image products will remain with the creator of the VAP. Acceptable uses of RCM image products are set out in the [RCM Public User License Agreement](https://www.asc-csa.gc.ca/eng/satellites/radarsat/access-to-data/public-user-license-agreement.asp), which is provided with each RCM image product.<br/> <br/>Les produits d'image de la MCR sont disponibles sans frais, le plus possible accessibles, pour encourager la mise au point de produits et services novateurs d\u00e9riv\u00e9s des donn\u00e9es RSO. Le gouvernement du Canada conserve la propri\u00e9t\u00e9 de toutes les donn\u00e9es et de tous les produits d'image de la MCR. Les droits de propri\u00e9t\u00e9 intellectuelle sur les produits \u00e0 valeur ajout\u00e9e (PVA) cr\u00e9\u00e9s \u00e0 partir des produits d'image de la MCR demeureront la propri\u00e9t\u00e9 du cr\u00e9ateur du PVA. Les utilisations acceptables des produits d'image de la MCR sont \u00e9nonc\u00e9es dans le [contrat de licence d'utilisation](https://www.asc-csa.gc.ca/fra/satellites/radarsat/acces-aux-donnees/contrat-licence-utilisation.asp) fourni avec chaque produit d'image de la MCR",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -16600,7 +16600,9 @@
             "sustainability",
             "disaster response",
             "synthetic aperture radar",
-            "stac"
+            "stac",
+            "ceos",
+            "analysis ready data"
         ],
         "Explore": [
             "[EODMS STAC for RCM CEOS ARD](https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard/items/)"
