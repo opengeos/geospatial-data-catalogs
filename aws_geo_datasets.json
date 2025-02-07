@@ -5546,30 +5546,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -5594,10 +5570,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5644,10 +5620,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5694,10 +5670,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5744,10 +5720,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5789,6 +5765,30 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "Host": null,
         "AccountRequired": null
@@ -7609,6 +7609,66 @@
             "near-surface air temperature",
             "near-surface relative humidity",
             "netcdf",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Met Office Global Ocean model on a 2-year rolling archive - Met Office Global Ocean model on a 2-year rolling archive",
+        "Description": "Met Office Global Ocean model on a 2-year rolling archive",
+        "ARN": "arn:aws:s3:::met-office-global-ocean-model-data",
+        "Region": "eu-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.metoffice.gov.uk/services/data/external-data-channels",
+        "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST).  As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
+        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
+        "UpdateFrequency": "The Global Ocean model runs once daily. T+00h is the midnight prior to production, the following are produced. T-48h to T-24h best estimate; T-24h to T+00h analyses; 7 day forecast (from T+00h).",
+        "License": "British Crown copyright 2024-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "Tags": [
+            "aws-pds",
+            "forecast",
+            "geoscience",
+            "geospatial",
+            "global",
+            "marine",
+            "model",
+            "netcdf",
+            "ocean sea surface height",
+            "oceans",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse bucket](https://met-office-global-ocean-model-data.s3.eu-west-2.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Met Office Global Ocean model on a 2-year rolling archive - Notifications for new global ocean model data",
+        "Description": "Notifications for new global ocean model data",
+        "ARN": "arn:aws:sns:eu-west-2:633885181284:met-office-global-ocean-model-data-object_created",
+        "Region": "eu-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.metoffice.gov.uk/services/data/external-data-channels",
+        "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST).  As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
+        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
+        "UpdateFrequency": "The Global Ocean model runs once daily. T+00h is the midnight prior to production, the following are produced. T-48h to T-24h best estimate; T-24h to T+00h analyses; 7 day forecast (from T+00h).",
+        "License": "British Crown copyright 2024-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "Tags": [
+            "aws-pds",
+            "forecast",
+            "geoscience",
+            "geospatial",
+            "global",
+            "marine",
+            "model",
+            "netcdf",
+            "ocean sea surface height",
+            "oceans",
             "weather"
         ],
         "Explore": null,
@@ -9913,7 +9973,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Hourly, 6-Hourly, and Monthly",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -9938,7 +9998,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Hourly, 6-Hourly, and Monthly",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -10017,7 +10077,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. <br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](https://www.noaa.gov/)",
         "UpdateFrequency": "Periodically, as new data becomes available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "climate",
@@ -10044,7 +10104,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. <br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](https://www.noaa.gov/)",
         "UpdateFrequency": "Periodically, as new data becomes available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "climate",
@@ -10508,7 +10568,7 @@
         "AccountRequired": null
     },
     {
-        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17 & 18 - GOES-16 imagery and metadata",
+        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - GOES-16 imagery and metadata",
         "Description": "GOES-16 imagery and metadata",
         "ARN": "arn:aws:s3:::noaa-goes16",
         "Region": "us-east-1",
@@ -10536,7 +10596,7 @@
         "AccountRequired": null
     },
     {
-        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17 & 18 - GOES-17 imagery and metadata",
+        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - GOES-17 imagery and metadata",
         "Description": "GOES-17 imagery and metadata",
         "ARN": "arn:aws:s3:::noaa-goes17",
         "Region": "us-east-1",
@@ -10564,7 +10624,7 @@
         "AccountRequired": null
     },
     {
-        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17 & 18 - GOES-18 imagery and metadata",
+        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - GOES-18 imagery and metadata",
         "Description": "GOES-18 imagery and metadata",
         "ARN": "arn:aws:s3:::noaa-goes18",
         "Region": "us-east-1",
@@ -10592,7 +10652,35 @@
         "AccountRequired": null
     },
     {
-        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17 & 18 - New data notifications for GOES-16, only Lambda and SQS protocols allowed",
+        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - GOES-19 imagery and metadata",
+        "Description": "GOES-19 imagery and metadata",
+        "ARN": "arn:aws:s3:::noaa-goes19",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-goes16",
+        "Contact": "For questions related to specific GOES Products, please visit the \"[GOES-R website](https://www.ncei.noaa.gov/products/satellite/goes-r-series)\" and navigate to the Help section.For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "geospatial",
+            "weather",
+            "earth observation",
+            "meteorological",
+            "disaster response",
+            "satellite imagery"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-goes19.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - New data notifications for GOES-16, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GOES-16, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES16Object",
         "Region": "us-east-1",
@@ -10618,7 +10706,7 @@
         "AccountRequired": null
     },
     {
-        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17 & 18 - New data notifications for GOES-17, only Lambda and SQS protocols allowed",
+        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - New data notifications for GOES-17, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GOES-17, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES17Object",
         "Region": "us-east-1",
@@ -10644,9 +10732,35 @@
         "AccountRequired": null
     },
     {
-        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17 & 18 - New data notifications for GOES-18, only Lambda and SQS protocols allowed",
+        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - New data notifications for GOES-18, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GOES-18, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES18Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-goes16",
+        "Contact": "For questions related to specific GOES Products, please visit the \"[GOES-R website](https://www.ncei.noaa.gov/products/satellite/goes-r-series)\" and navigate to the Help section.For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "geospatial",
+            "weather",
+            "earth observation",
+            "meteorological",
+            "disaster response",
+            "satellite imagery"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - New data notifications for GOES-18, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for GOES-18, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES19Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-goes16",
@@ -10779,7 +10893,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Re-forecasts do not adhere to an update frequency.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -10981,7 +11095,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office of Coast Survey (OCS) ASSIST Tool at https://www.nauticalcharts.noaa.gov/customer-service/assist/.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Hourly",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11006,7 +11120,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office of Coast Survey (OCS) ASSIST Tool at https://www.nauticalcharts.noaa.gov/customer-service/assist/.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Hourly",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11114,7 +11228,7 @@
         "Contact": "For questions regarding data content or quality, visit the ESTOFS site (https://polar.ncep.noaa.gov/estofs/). <br /> For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Four times per day, every 6 hours starting at midnight UTC",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "global",
@@ -11144,7 +11258,7 @@
         "Contact": "For questions regarding data content or quality, visit the ESTOFS site (https://polar.ncep.noaa.gov/estofs/). <br /> For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Four times per day, every 6 hours starting at midnight UTC",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "global",
@@ -11372,7 +11486,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11397,7 +11511,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11422,7 +11536,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11447,7 +11561,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11472,7 +11586,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11495,7 +11609,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11518,7 +11632,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -11541,7 +11655,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -12457,7 +12571,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Hourly",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -12480,7 +12594,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Hourly",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -12697,7 +12811,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "The update frequencies of the space weather dataset range from one minute observations to daily and monthly updates of more slowly-varying indices",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "climate",
@@ -12722,7 +12836,7 @@
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "The update frequencies of the space weather dataset range from one minute observations to daily and monthly updates of more slowly-varying indices",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "climate",
@@ -13168,7 +13282,7 @@
         "Contact": "For questions regarding data content or quality, visit https://vlab.noaa.gov/web/ufs-r2o/coupled-model-prototype5. <br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Big Data Program, email noaa.bdp@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA BDP team here: noaa.bdp@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "A Prototype is a retrospective run for the period from 2011 to 2018. The runs are initialized twice per month (1st and 15th) and the length of the forecast is 35 days with an output frequency of 6 hours.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -13194,7 +13308,7 @@
         "Contact": "For questions regarding data content or quality, visit https://vlab.noaa.gov/web/ufs-r2o/coupled-model-prototype5. <br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Big Data Program, email noaa.bdp@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA BDP team here: noaa.bdp@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "A Prototype is a retrospective run for the period from 2011 to 2018. The runs are initialized twice per month (1st and 15th) and the length of the forecast is 35 days with an output frequency of 6 hours.",
-        "License": "Open Data. There are no restrictions on the use of this data.",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
