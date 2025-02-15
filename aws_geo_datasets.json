@@ -4533,6 +4533,52 @@
         "AccountRequired": null
     },
     {
+        "Name": "Digital Earth Pacific Mangroves Extent and Density",
+        "Description": "Data access",
+        "ARN": "arn:aws:s3:::dep-public-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://digitalearthpacific.org/#/applications",
+        "Contact": "dep@spc.int",
+        "ManagedBy": "[Pacific Community (SPC)](https://www.spc.int/)",
+        "UpdateFrequency": "Annually",
+        "License": "Digital Earth Pacific Data is available under the Creative CommonsAttribution 4.0 International license https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "earth observation",
+            "environmental",
+            "climate",
+            "geoscience",
+            "geospatial"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Digital Earth Pacific Water Observatins from Space (WOfS)",
+        "Description": "Data access",
+        "ARN": "arn:aws:s3:::dep-public-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://digitalearthpacific.org/#/applications",
+        "Contact": "dep@spc.int",
+        "ManagedBy": "[Pacific Community (SPC)](https://www.spc.int/)",
+        "UpdateFrequency": "Annually",
+        "License": "Digital Earth Pacific Data is available under the Creative CommonsAttribution 4.0 International license https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "earth observation",
+            "environmental",
+            "water",
+            "geoscience",
+            "geospatial"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "District of Columbia - Classified Point Cloud LiDAR - LAS, XML",
         "Description": "LAS, XML",
         "ARN": "arn:aws:s3:::dc-lidar-2018",
@@ -5546,6 +5592,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -5570,10 +5640,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5615,30 +5685,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "Host": null,
         "AccountRequired": null
@@ -5696,6 +5742,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -5720,10 +5790,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5765,30 +5835,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "Host": null,
         "AccountRequired": null
@@ -7014,6 +7060,27 @@
             "[Browse Bucket](https://kyfromabove.s3.us-west-2.amazonaws.com/index.html#elevation/Contours/)"
         ],
         "RequesterPays": false,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Landsat Geometric Median and Absolute Deviations (GeoMAD) over the Pacific.",
+        "Description": "Data access",
+        "ARN": "arn:aws:s3:::dep-public-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://digitalearthpacific.org/#/applications",
+        "Contact": "dep@spc.int",
+        "ManagedBy": "[Pacific Community (SPC)](https://www.spc.int/)",
+        "UpdateFrequency": "Annually",
+        "License": "Digital Earth Pacific Data is available under the Creative CommonsAttribution 4.0 International license https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "earth observation",
+            "geoscience",
+            "geospatial"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
         "Host": null,
         "AccountRequired": null
     },
@@ -10794,7 +10861,7 @@
     {
         "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - New data notifications for GOES-18, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GOES-18, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES18Object",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES19Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/nodd-data-docs/tree/main/GOES",
@@ -10820,7 +10887,7 @@
     {
         "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - New data notifications for GOES-18, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GOES-18, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES19Object",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES18Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/nodd-data-docs/tree/main/GOES",
@@ -11639,29 +11706,6 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -11685,7 +11729,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11708,7 +11752,30 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13040,7 +13107,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -13063,7 +13130,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -15933,6 +16000,29 @@
         "AccountRequired": null
     },
     {
+        "Name": "Pacific Coastlines Change",
+        "Description": "Data access",
+        "ARN": "arn:aws:s3:::dep-public-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://digitalearthpacific.org/#/applications",
+        "Contact": "dep@spc.int",
+        "ManagedBy": "[Pacific Community (SPC)](https://www.spc.int/)",
+        "UpdateFrequency": "Annually",
+        "License": "Digital Earth Pacific Data is available under the Creative CommonsAttribution 4.0 International license https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "earth observation",
+            "environmental",
+            "coastal",
+            "geoscience",
+            "geospatial"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Pacific Ocean Sound Recordings - decimated 16 kHz audio recordings",
         "Description": "decimated 16 kHz audio recordings",
         "ARN": "arn:aws:s3:::pacific-sound-16khz",
@@ -17749,6 +17839,29 @@
         "AccountRequired": null
     },
     {
+        "Name": "Sentinel-1 Mean and Median Annual Mosaic",
+        "Description": "Data access",
+        "ARN": "arn:aws:s3:::dep-public-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://digitalearthpacific.org/#/applications",
+        "Contact": "dep@spc.int",
+        "ManagedBy": "[Pacific Community (SPC)](https://www.spc.int/)",
+        "UpdateFrequency": "Annually",
+        "License": "Digital Earth Pacific Data is available under the Creative CommonsAttribution 4.0 International license https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "earth observation",
+            "environmental",
+            "climate",
+            "geoscience",
+            "geospatial"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Sentinel-1 Precise Orbit Determination (POD) Products - Notifications for new data",
         "Description": "Notifications for new data",
         "ARN": "arn:aws:sns:us-west-2:211125554030:s1-orbits-object_created",
@@ -18196,6 +18309,27 @@
             "disaster response",
             "cog",
             "stac"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Sentinel-2 Geometric Median and Absolute Deviations (GeoMAD) over the Pacific",
+        "Description": "Data access",
+        "ARN": "arn:aws:s3:::dep-public-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://digitalearthpacific.org/#/applications",
+        "Contact": "dep@spc.int",
+        "ManagedBy": "[Pacific Community (SPC)](https://www.spc.int/)",
+        "UpdateFrequency": "Annually",
+        "License": "Digital Earth Pacific Data is available under the Creative CommonsAttribution 4.0 International license https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "earth observation",
+            "geoscience",
+            "geospatial"
         ],
         "Explore": null,
         "RequesterPays": null,
