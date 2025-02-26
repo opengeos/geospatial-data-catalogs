@@ -1,5 +1,57 @@
 [
     {
+        "Name": "(EXPERIMENTAL) NOAA FourCastNet Global Forecast System (FourCastNetGFS) (EXPERIMENTAL) - FourCastNet GFS data",
+        "Description": "FourCastNet GFS data",
+        "ARN": "arn:aws:s3:::noaa-nws-fourcastnetgfs-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "For the NOAA Product, https://fourcastnetgfs.readthedocs.io/en/latest/index.html and for background FourCastNet v2 information, https://github.com/ecmwf-lab/ai-models-fourcastnetv2.",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA EMC Github site](https://github.com/noaa-emc/fourcastnet/issues). For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "4 times a day at 00Z, 06Z, 12Z and 18Z",
+        "License": "NOAA's FourCastNetGFS products are released under CC0 license. The underlying FourCastNet code package follows Apache-2.0 license as specified in the ECMWF\u2019s ai-models-fourcastnetv2 github page. The products in this bucket only contain NOAA produced products and not FourCastNet code or training data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-nws-fourcastnetgfs-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "(EXPERIMENTAL) NOAA FourCastNet Global Forecast System (FourCastNetGFS) (EXPERIMENTAL) - New data notifications for FourCastNet GFS, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for FourCastNet GFS, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNWSFOURCASTNETGFSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "For the NOAA Product, https://fourcastnetgfs.readthedocs.io/en/latest/index.html and for background FourCastNet v2 information, https://github.com/ecmwf-lab/ai-models-fourcastnetv2.",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA EMC Github site](https://github.com/noaa-emc/fourcastnet/issues). For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "4 times a day at 00Z, 06Z, 12Z and 18Z",
+        "License": "NOAA's FourCastNetGFS products are released under CC0 license. The underlying FourCastNet code package follows Apache-2.0 license as specified in the ECMWF\u2019s ai-models-fourcastnetv2 github page. The products in this bucket only contain NOAA produced products and not FourCastNet code or training data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "(EXPERIMENTAL) NOAA GraphCast Global Forecast System (GFS) (EXPERIMENTAL) - GraphCast GFS data",
         "Description": "GraphCast GFS data",
         "ARN": "arn:aws:s3:::noaa-nws-graphcastgfs-pds",
@@ -5458,7 +5510,7 @@
         "ARN": "arn:aws:s3:::geos-chem",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://geos-chem.readthedocs.io/en/latest/geos-chem-shared-docs/supplemental-guides/geos-chem-input-data-on-aws.html",
+        "Documentation": "https://geos-chem.readthedocs.io/en/stable/geos-chem-shared-docs/doc/gcid-portal-overview.html",
         "Contact": "https://geoschem.github.io/support-team.html",
         "ManagedBy": "[GEOS-Chem Support Team](https://geoschem.github.io/support-team.html)",
         "UpdateFrequency": "New meteorological and emission data will be added when available.",
@@ -5487,7 +5539,7 @@
         "ARN": "arn:aws:s3:::gcgrid",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://geos-chem.readthedocs.io",
+        "Documentation": "https://geos-chem.readthedocs.io/en/stable/geos-chem-shared-docs/doc/gcid-special-portals.html#geos-chem-nested-input-data",
         "Contact": "http://geos-chem.org/support-team",
         "ManagedBy": "[GEOS-Chem Support Team](https://geoschem.github.io/support-team.html)",
         "UpdateFrequency": "New meteorological and emission data will be added when available.",
@@ -5592,30 +5644,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -5640,10 +5668,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5685,6 +5713,30 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "Host": null,
         "AccountRequired": null
@@ -5742,30 +5794,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -5785,6 +5813,30 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "Host": null,
         "AccountRequired": null
@@ -10861,7 +10913,7 @@
     {
         "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - New data notifications for GOES-18, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GOES-18, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES19Object",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES18Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/nodd-data-docs/tree/main/GOES",
@@ -10887,7 +10939,7 @@
     {
         "Name": "NOAA Geostationary Operational Environmental Satellites (GOES) 16, 17, 18 & 19 - New data notifications for GOES-18, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for GOES-18, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES18Object",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewGOES19Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/nodd-data-docs/tree/main/GOES",
@@ -11706,7 +11758,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11752,7 +11804,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13171,6 +13223,58 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-normals-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System (UFS) Coastal Model - NOAA Coastal Lidar Dataset New Dataset Notification",
+        "Description": "NOAA Coastal Lidar Dataset New Dataset Notification",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSCoastalObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://oceanmodeling.github.io/ufs-coastal-app/ (under development)",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For questions regarding data content or quality, visit https://github.com/oceanmodeling/ufs-weather-model/discussions<br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](https://www.noaa.gov/)",
+        "UpdateFrequency": "Periodically, as new data becomes available",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/>NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.<br/><br/>NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.<br/><br/>The UFS Coastal license page is available at: https://github.com/oceanmodeling/ufs-coastal-app/blob/main/LICENSE.md",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "elevation",
+            "disaster response",
+            "geospatial",
+            "lidar",
+            "stac"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System (UFS) Coastal Model - NOAA UFS Coastal Data",
+        "Description": "NOAA UFS Coastal Data",
+        "ARN": "arn:aws:s3:::noaa-ufs-coastal-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://oceanmodeling.github.io/ufs-coastal-app/ (under development)",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For questions regarding data content or quality, visit https://github.com/oceanmodeling/ufs-weather-model/discussions<br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](https://www.noaa.gov/)",
+        "UpdateFrequency": "Periodically, as new data becomes available",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/>NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.<br/><br/>NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.<br/><br/>The UFS Coastal license page is available at: https://github.com/oceanmodeling/ufs-coastal-app/blob/main/LICENSE.md",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "elevation",
+            "disaster response",
+            "geospatial",
+            "lidar",
+            "stac"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-ufs-coastal-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "Host": null,
