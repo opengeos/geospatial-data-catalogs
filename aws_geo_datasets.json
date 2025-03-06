@@ -239,6 +239,30 @@
         "AccountRequired": null
     },
     {
+        "Name": "AG-LOAM Dataset",
+        "Description": "AG-LOAM Dataset sequences",
+        "ARN": "arn:aws:s3:::ucr-robotics/ag-loam-dataset",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/UCR-Robotics/AG-LOAM",
+        "Contact": "Hanzhe Teng (hteng007@ucr.edu), Konstantinos Karydis (kkarydis@ece.ucr.edu)",
+        "ManagedBy": "[Autonomous Robots and Control Systems Lab](https://sites.google.com/view/arcs-lab)",
+        "UpdateFrequency": "NA",
+        "License": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).",
+        "Tags": [
+            "aws-pds",
+            "robotics",
+            "agriculture",
+            "lidar",
+            "localization",
+            "mapping"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "AI Weather Prediction (AIWP) Model Reforecasts",
         "Description": "AIWP data",
         "ARN": "arn:aws:s3:::noaa-oar-mlwp-data",
