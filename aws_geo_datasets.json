@@ -11860,7 +11860,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11883,7 +11883,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -11929,7 +11929,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13083,6 +13083,50 @@
         "AccountRequired": null
     },
     {
+        "Name": "NOAA Space Weather Follow-On Mission Geostationary Operational Environmental Satellite (GOES) 19 - GOES-19 CCOR-1 data",
+        "Description": "GOES-19 CCOR-1 data",
+        "ARN": "arn:aws:s3:::noaa-nesdis-swfo-ccor-1-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/nodd-data-docs/tree/main/SWFO",
+        "Contact": "For questions related to specific CCOR-1 Products, please contact ncei.swx.coronagraph@noaa.govFor questions related to general Space Weather data, please contact ncei.info@noaa.govFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/><br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "space weather",
+            "satellite imagery"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-nesdis-swfo-ccor-1-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "NOAA Space Weather Follow-On Mission Geostationary Operational Environmental Satellite (GOES) 19 - New data notifications for GOES-19 CCOR-1 data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for GOES-19 CCOR-1 data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSWFOCCOR1Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/nodd-data-docs/tree/main/SWFO",
+        "Contact": "For questions related to specific CCOR-1 Products, please contact ncei.swx.coronagraph@noaa.govFor questions related to general Space Weather data, please contact ncei.info@noaa.govFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/><br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "space weather",
+            "satellite imagery"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "NOAA Space Weather Forecast and Observation Data - NOAA Space Weather Prediction Center Forecasts",
         "Description": "NOAA Space Weather Prediction Center Forecasts",
         "ARN": "arn:aws:s3:::noaa-swpc-pds",
@@ -13261,7 +13305,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -13284,7 +13328,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",

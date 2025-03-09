@@ -17422,10 +17422,10 @@
     },
     {
         "Name": "NIH NCBI Sequence Read Archive (SRA) on AWS",
-        "Description": "Update notifications for s3://sra-pub-run-odp Users can subscribe to this SNS topic with AWS Lambda or AWS Simple Queue Service",
-        "ARN": "arn:aws:sns:us-east-1:867126678632:sra-pub-run-odp-objects",
+        "Description": "Metadata files for the Sequence Read Archive, ready to load into AWS Glue and query with Amazon Athena",
+        "ARN": "arn:aws:s3:::sra-pub-metadata-us-east-1/sra/metadata",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud/",
         "Contact": "sra@ncbi.nlm.nih.gov",
         "ManagedBy": "[National Library of Medicine (NLM)](http://nlm.nih.gov/)",
@@ -17482,10 +17482,10 @@
     },
     {
         "Name": "NIH NCBI Sequence Read Archive (SRA) on AWS",
-        "Description": "Metadata files for the Sequence Read Archive, ready to load into AWS Glue and query with Amazon Athena",
-        "ARN": "arn:aws:s3:::sra-pub-metadata-us-east-1/sra/metadata",
+        "Description": "Update notifications for s3://sra-pub-run-odp Users can subscribe to this SNS topic with AWS Lambda or AWS Simple Queue Service",
+        "ARN": "arn:aws:sns:us-east-1:867126678632:sra-pub-run-odp-objects",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud/",
         "Contact": "sra@ncbi.nlm.nih.gov",
         "ManagedBy": "[National Library of Medicine (NLM)](http://nlm.nih.gov/)",
@@ -19751,30 +19751,6 @@
     },
     {
         "Name": "NOAA Hurricane Analysis and Forecast System (HAFS)",
-        "Description": "New data notifications for HAFS, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewHAFSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://wpo.noaa.gov/the-hurricane-analysis-and-forecast-system-hafs/",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Event Driven",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Hurricane Analysis and Forecast System (HAFS)",
         "Description": "Hurricane Analysis Forecast System (HAFS) Data",
         "ARN": "arn:aws:s3:::noaa-nws-hafs-pds",
         "Region": "us-east-1",
@@ -19794,6 +19770,30 @@
         "Explore": [
             "[Browse Bucket](https://noaa-nws-hafs-pds.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Hurricane Analysis and Forecast System (HAFS)",
+        "Description": "New data notifications for HAFS, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewHAFSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://wpo.noaa.gov/the-hurricane-analysis-and-forecast-system-hafs/",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Event Driven",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -20676,6 +20676,30 @@
     },
     {
         "Name": "NOAA North American Mesoscale Forecast System (NAM)",
+        "Description": "New data notifications for NAM data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNCEPNAMObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/nam.php, https://www.ncei.noaa.gov/products/weather-climate-models/north-american-mesoscale",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Four times daily (0000, 0600, 1200, and 1800 UTC)",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA North American Mesoscale Forecast System (NAM)",
         "Description": "North American Mesoscale Forecast System (NAM) Data",
         "ARN": "arn:aws:s3:::noaa-nam-pds",
         "Region": "us-east-1",
@@ -20695,30 +20719,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-nam-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA North American Mesoscale Forecast System (NAM)",
-        "Description": "New data notifications for NAM data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNCEPNAMObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.emc.ncep.noaa.gov/emc/pages/numerical_forecast_systems/nam.php, https://www.ncei.noaa.gov/products/weather-climate-models/north-american-mesoscale",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Four times daily (0000, 0600, 1200, and 1800 UTC)",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -20864,38 +20864,8 @@
     },
     {
         "Name": "NOAA Operational Forecast System (OFS)",
-        "Description": "NOMADS Production OFS Data (30 day rolling retention)",
-        "ARN": "arn:aws:s3:::noaa-ofs-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/blob/main/OFS/README.md",
-        "Contact": "For questions regarding data content or quality, visit [the NOAA OFS site](https://tidesandcurrents.noaa.gov/models.html). <br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "4 times a day, every 6 hours with 6-hour nowcasts (WCOFS is updated once a day with 24-hour nowcast) and 48- to 120-hour forecast guidance.",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "coastal",
-            "disaster response",
-            "environmental",
-            "meteorological",
-            "oceans",
-            "water",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-ofs-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Operational Forecast System (OFS)",
-        "Description": "New data notifications for OFS, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewOFSObject",
+        "Description": "New data notifications for NOS OFS Historical Retention, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNOSOFSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/blob/main/OFS/README.md",
@@ -20952,8 +20922,8 @@
     },
     {
         "Name": "NOAA Operational Forecast System (OFS)",
-        "Description": "New data notifications for NOS OFS Historical Retention, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNOSOFSObject",
+        "Description": "New data notifications for OFS, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewOFSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/blob/main/OFS/README.md",
@@ -20970,6 +20940,60 @@
             "meteorological",
             "oceans",
             "water",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Operational Forecast System (OFS)",
+        "Description": "NOMADS Production OFS Data (30 day rolling retention)",
+        "ARN": "arn:aws:s3:::noaa-ofs-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/blob/main/OFS/README.md",
+        "Contact": "For questions regarding data content or quality, visit [the NOAA OFS site](https://tidesandcurrents.noaa.gov/models.html). <br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "4 times a day, every 6 hours with 6-hour nowcasts (WCOFS is updated once a day with 24-hour nowcast) and 48- to 120-hour forecast guidance.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "coastal",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "oceans",
+            "water",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-ofs-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Rapid Refresh (RAP)",
+        "Description": "New data notifications for RAP, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewRAPObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rap/",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Hourly",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
             "weather"
         ],
         "Explore": null,
@@ -21005,16 +21029,16 @@
         "Host": null
     },
     {
-        "Name": "NOAA Rapid Refresh (RAP)",
-        "Description": "New data notifications for RAP, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewRAPObject",
+        "Name": "NOAA Rapid Refresh Forecast System (RRFS) [Prototype]",
+        "Description": "New data notifications for RRFS, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewRRFSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
-        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rap/",
+        "Documentation": "https://vlab.noaa.gov/web/ufs-r2o",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Hourly",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "UpdateFrequency": "Daily",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -21055,15 +21079,41 @@
         "Host": null
     },
     {
-        "Name": "NOAA Rapid Refresh Forecast System (RRFS) [Prototype]",
-        "Description": "New data notifications for RRFS, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewRRFSObject",
+        "Name": "NOAA Real-Time Mesoscale Analysis (RTMA) / Unrestricted Mesoscale Analysis (URMA)",
+        "Description": "Real-Time Mesoscale Analysis (RTMA) Data",
+        "ARN": "arn:aws:s3:::noaa-rtma-pds",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://vlab.noaa.gov/web/ufs-r2o",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rtma/",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Daily",
+        "UpdateFrequency": "Hourly",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-rtma-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Real-Time Mesoscale Analysis (RTMA) / Unrestricted Mesoscale Analysis (URMA)",
+        "Description": "New data notifications for RTMA data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNCEPRTMAObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rtma/",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Hourly",
         "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
@@ -21098,56 +21148,6 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-urma-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Real-Time Mesoscale Analysis (RTMA) / Unrestricted Mesoscale Analysis (URMA)",
-        "Description": "New data notifications for RTMA data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNCEPRTMAObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rtma/",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Hourly",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Real-Time Mesoscale Analysis (RTMA) / Unrestricted Mesoscale Analysis (URMA)",
-        "Description": "Real-Time Mesoscale Analysis (RTMA) Data",
-        "ARN": "arn:aws:s3:::noaa-rtma-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nco.ncep.noaa.gov/pmb/products/rtma/",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Hourly",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-rtma-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -21234,6 +21234,30 @@
     },
     {
         "Name": "NOAA S-111 Surface Water Currents Data",
+        "Description": "NOAA S-111 Surface Water Currents Datasets",
+        "ARN": "arn:aws:s3:::noaa-s111-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://noaa-s111-pds.s3.amazonaws.com/README.html",
+        "Contact": "For general questions or feedback about the data, please submit inquiries through the NOAA Office of Coast Survey (OCS) ASSIST Tool at https://www.nauticalcharts.noaa.gov/customer-service/assist/.\"<br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Four times per day for each OFS, except Global RTOFS which updates once per day",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "oceans",
+            "water"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-s111-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA S-111 Surface Water Currents Data",
         "Description": "NOAA S-111 Surface Water Currents New Dataset Notification",
         "ARN": "arn:aws:sns:us-east-1:123901341784:NewS111Object",
         "Region": "us-east-1",
@@ -21255,24 +21279,24 @@
         "Host": null
     },
     {
-        "Name": "NOAA S-111 Surface Water Currents Data",
-        "Description": "NOAA S-111 Surface Water Currents Datasets",
-        "ARN": "arn:aws:s3:::noaa-s111-pds",
+        "Name": "NOAA Severe Weather Data Inventory (SWDI)",
+        "Description": "NOAA Severe Weather Data Inventory Dataset Notification",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewSWDIObject",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://noaa-s111-pds.s3.amazonaws.com/README.html",
-        "Contact": "For general questions or feedback about the data, please submit inquiries through the NOAA Office of Coast Survey (OCS) ASSIST Tool at https://www.nauticalcharts.noaa.gov/customer-service/assist/.\"<br />For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00773",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> For general questions or feedback about the data, please submit inquiries through NOAA National Centers for Environmental Information (NCEI) at swdi.ncdc@noaa.gov<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Four times per day for each OFS, except Global RTOFS which updates once per day",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "UpdateFrequency": "Monthly",
+        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data. Use of these data should cite NOAA and NESDIS/NCEI as the dataset creator and the Severe Weather Data Inventory as the dataset.",
         "Tags": [
             "aws-pds",
-            "oceans",
-            "water"
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
         ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-s111-pds.s3.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -21305,22 +21329,44 @@
         "Host": null
     },
     {
-        "Name": "NOAA Severe Weather Data Inventory (SWDI)",
-        "Description": "NOAA Severe Weather Data Inventory Dataset Notification",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewSWDIObject",
+        "Name": "NOAA Space Weather Follow-On Mission Geostationary Operational Environmental Satellite (GOES) 19",
+        "Description": "GOES-19 CCOR-1 data",
+        "ARN": "arn:aws:s3:::noaa-nesdis-swfo-ccor-1-pds",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00773",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> For general questions or feedback about the data, please submit inquiries through NOAA National Centers for Environmental Information (NCEI) at swdi.ncdc@noaa.gov<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/nodd-data-docs/tree/main/SWFO",
+        "Contact": "For questions related to specific CCOR-1 Products, please contact ncei.swx.coronagraph@noaa.govFor questions related to general Space Weather data, please contact ncei.info@noaa.govFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Monthly",
-        "License": "NOAA data disseminated through NODD is made available under the \\\"[Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license]https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\\", which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data. Use of these data should cite NOAA and NESDIS/NCEI as the dataset creator and the Severe Weather Data Inventory as the dataset.",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/><br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
+            "space weather",
+            "satellite imagery"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-nesdis-swfo-ccor-1-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Space Weather Follow-On Mission Geostationary Operational Environmental Satellite (GOES) 19",
+        "Description": "New data notifications for GOES-19 CCOR-1 data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSWFOCCOR1Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/nodd-data-docs/tree/main/SWFO",
+        "Contact": "For questions related to specific CCOR-1 Products, please contact ncei.swx.coronagraph@noaa.govFor questions related to general Space Weather data, please contact ncei.info@noaa.govFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/><br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "space weather",
+            "satellite imagery"
         ],
         "Explore": null,
         "RequesterPays": null,
@@ -21380,33 +21426,6 @@
     },
     {
         "Name": "NOAA Terrestrial Climate Data Records",
-        "Description": "Snow Cover Extent",
-        "ARN": "arn:aws:s3:::noaa-cdr-snow-cover-ext-north-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncdc.noaa.gov/cdr",
-        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "sustainability",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-cdr-snow-cover-ext-north-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Terrestrial Climate Data Records",
         "Description": "NDVI",
         "ARN": "arn:aws:s3:::noaa-cdr-ndvi-pds",
         "Region": "us-east-1",
@@ -21426,6 +21445,33 @@
         ],
         "Explore": [
             "[Browse Bucket](https://noaa-cdr-ndvi-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Terrestrial Climate Data Records",
+        "Description": "Snow Cover Extent",
+        "ARN": "arn:aws:s3:::noaa-cdr-snow-cover-ext-north-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncdc.noaa.gov/cdr",
+        "Contact": "For questions regarding the specific CDR data holdings, please contact NCEI.SAT.INFO@NOAA.GOV.<br />For any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Open Data Dissemination Team (NODD) email us at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Climate Data Records are updated independently. For update frequency for a specific CDR, please refer to the Climate Data Record website.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "sustainability",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-cdr-snow-cover-ext-north-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -21511,30 +21557,6 @@
     },
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid)",
-        "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Monthly",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid)",
         "Description": "Daily NClimGrid Data",
         "ARN": "arn:aws:s3:::noaa-nclimgrid-daily-pds",
         "Region": "us-east-1",
@@ -21554,6 +21576,30 @@
         "Explore": [
             "[Browse Bucket](https://noaa-nclimgrid-daily-pds.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid)",
+        "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Monthly",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -21588,32 +21634,6 @@
     },
     {
         "Name": "NOAA Unified Forecast System (UFS) Coastal Model",
-        "Description": "NOAA Coastal Lidar Dataset New Dataset Notification",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSCOASTALObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://ufs-coastal-application.readthedocs.io/en/latest/index.html",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For questions regarding data content or quality, visit https://github.com/oceanmodeling/ufs-weather-model/discussions<br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](https://www.noaa.gov/)",
-        "UpdateFrequency": "Periodically, as new data becomes available",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/>NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.<br/><br/>NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.<br/><br/>The UFS Coastal license page is available at: https://github.com/oceanmodeling/ufs-coastal-app/blob/main/LICENSE.md",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "elevation",
-            "disaster response",
-            "geospatial",
-            "lidar",
-            "stac"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Unified Forecast System (UFS) Coastal Model",
         "Description": "NOAA UFS Coastal Data",
         "ARN": "arn:aws:s3:::noaa-ufs-coastal-pds",
         "Region": "us-east-1",
@@ -21635,6 +21655,32 @@
         "Explore": [
             "[Browse Bucket](https://noaa-ufs-coastal-pds.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System (UFS) Coastal Model",
+        "Description": "NOAA Coastal Lidar Dataset New Dataset Notification",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSCOASTALObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://ufs-coastal-application.readthedocs.io/en/latest/index.html",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For questions regarding data content or quality, visit https://github.com/oceanmodeling/ufs-weather-model/discussions<br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](https://www.noaa.gov/)",
+        "UpdateFrequency": "Periodically, as new data becomes available",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/>NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.<br/><br/>NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.<br/><br/>The UFS Coastal license page is available at: https://github.com/oceanmodeling/ufs-coastal-app/blob/main/LICENSE.md",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "elevation",
+            "disaster response",
+            "geospatial",
+            "lidar",
+            "stac"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -21824,30 +21870,6 @@
     },
     {
         "Name": "NOAA Unified Forecast System Short-Range Weather (UFS SRW) Application",
-        "Description": "New data notifications for UFS Short-Range Weather data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSSRWObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://ufs-srweather-app.readthedocs.io/en/develop/",
-        "Contact": "For questions regarding data content or quality, visit  https://github.com/ufs-community/ufs-srweather-app/issuesFor any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Big Data Program, email noaa.bdp@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA BDP team at noaa.bdp@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "These are stable datasets for use with the SRW Application. They will not be updated frequently.",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Unified Forecast System Short-Range Weather (UFS SRW) Application",
         "Description": "Unified Forecast System Short-Range Weather (UFS SRW) Application data",
         "ARN": "arn:aws:s3:::noaa-ufs-srw-pds",
         "Region": "us-east-1",
@@ -21867,6 +21889,30 @@
         "Explore": [
             "[Browse Bucket](https://noaa-ufs-srw-pds.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System Short-Range Weather (UFS SRW) Application",
+        "Description": "New data notifications for UFS Short-Range Weather data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSSRWObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://ufs-srweather-app.readthedocs.io/en/develop/",
+        "Contact": "For questions regarding data content or quality, visit  https://github.com/ufs-community/ufs-srweather-app/issuesFor any questions regarding data delivery not associated with this platform or any general questions regarding the NOAA Big Data Program, email noaa.bdp@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA BDP team at noaa.bdp@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "These are stable datasets for use with the SRW Application. They will not be updated frequently.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -21930,6 +21976,30 @@
     },
     {
         "Name": "NOAA Unified Forecast System Weather Model (UFS-WM) Regression Tests",
+        "Description": "New data notifications for UFS Weather Model Regression data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://ufs-weather-model.readthedocs.io/en/ufs-v1.0.0/index.html",
+        "Contact": "For questions regarding data content or quality, visit  https://github.com/ufs-community/ufs-weather-model/issuesFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "The input and baseline datasets are updated for the latest two-months of development code commits/revisions made to the UFS-WM\u2019s development branch.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System Weather Model (UFS-WM) Regression Tests",
         "Description": "Unified Forecast System Weather Model (UFS-WM) Regression Tests data",
         "ARN": "arn:aws:s3:::noaa-ufs-regtests-pds",
         "Region": "us-east-1",
@@ -21955,21 +22025,21 @@
         "Host": null
     },
     {
-        "Name": "NOAA Unified Forecast System Weather Model (UFS-WM) Regression Tests",
-        "Description": "New data notifications for UFS Weather Model Regression data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewUFSObject",
+        "Name": "NOAA Wang Sheeley Arge (WSA) Enlil",
+        "Description": "New data notifications for NOAA WSA-Enlil Products, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSWPCWSAEnlilObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
-        "Documentation": "https://ufs-weather-model.readthedocs.io/en/ufs-v1.0.0/index.html",
-        "Contact": "For questions regarding data content or quality, visit  https://github.com/ufs-community/ufs-weather-model/issuesFor any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "Documentation": "https://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction",
+        "Contact": "For any questions regarding WSA-Ensil data, please contact Eric Adamson (eric.adamson@noaa.gov) For data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "The input and baseline datasets are updated for the latest two-months of development code commits/revisions made to the UFS-WM\u2019s development branch.",
+        "UpdateFrequency": "Only model output from model runs containing CMEs are provided here. As these runs are executed on demand, there is no regular update frequency.",
         "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
-            "agriculture",
             "climate",
             "meteorological",
+            "solar",
             "weather"
         ],
         "Explore": null,
@@ -21999,30 +22069,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-wsa-enlil-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Wang Sheeley Arge (WSA) Enlil",
-        "Description": "New data notifications for NOAA WSA-Enlil Products, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSWPCWSAEnlilObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://www.swpc.noaa.gov/products/wsa-enlil-solar-wind-prediction",
-        "Contact": "For any questions regarding WSA-Ensil data, please contact Eric Adamson (eric.adamson@noaa.gov) For data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Only model output from model runs containing CMEs are provided here. As these runs are executed on demand, there is no regular update frequency.",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "meteorological",
-            "solar",
-            "weather"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -22059,6 +22105,30 @@
     },
     {
         "Name": "NOAA Wave Ensemble Reforecast",
+        "Description": "New data notifications for NOAA Wave Ensemble Reforecast, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewWERObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-EMC/gefswaves_reforecast/wiki  https://github.com/NOAA-EMC/gefswaves_reforecast",
+        "Contact": "For questions related to wave modeling and the ensemble reforecast available, please contact Ricardo Martins Campos, email ricardo.campos@noaa.gov.For any questions regarding data delivery not associated with this platform or any general questionsregarding the NOAA Open Data Dissemination Program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring thosestories in joint publications and in upcoming events. If you are interested in seeing your storyhighlighted, please share it with the NOAA NODD team at nodd@noaa.gov.",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "Quarterly",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Wave Ensemble Reforecast",
         "Description": "NOAA Wave Ensemble Reforecast Data",
         "ARN": "arn:aws:s3:::noaa-nws-gefswaves-reforecast-pds",
         "Region": "us-east-1",
@@ -22078,30 +22148,6 @@
         "Explore": [
             "[Browse Bucket](https://noaa-nws-gefswaves-reforecast-pds.s3.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Wave Ensemble Reforecast",
-        "Description": "New data notifications for NOAA Wave Ensemble Reforecast, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewWERObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-EMC/gefswaves_reforecast/wiki  https://github.com/NOAA-EMC/gefswaves_reforecast",
-        "Contact": "For questions related to wave modeling and the ensemble reforecast available, please contact Ricardo Martins Campos, email ricardo.campos@noaa.gov.For any questions regarding data delivery not associated with this platform or any general questionsregarding the NOAA Open Data Dissemination Program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring thosestories in joint publications and in upcoming events. If you are interested in seeing your storyhighlighted, please share it with the NOAA NODD team at nodd@noaa.gov.",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Quarterly",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -22241,32 +22287,6 @@
     },
     {
         "Name": "NOAA/PMEL Ocean Climate Stations Moorings",
-        "Description": "OCS moored buoy data",
-        "ARN": "arn:aws:s3:::noaa-oar-keo-papa-pds",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.pmel.noaa.gov/ocs/ http://www.oceansites.org https://dods.ndbc.noaa.gov/oceansites/",
-        "Contact": "For questions regarding data content or quality, users are directed to the OCS webpage (https://www.pmel.noaa.gov/ocs/). For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "KEO and Papa data on BDP are synchronized with the OceanSITES Global Data Assembly Center periodically.",
-        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "environmental",
-            "oceans",
-            "weather"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://noaa-oar-keo-papa-pds.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA/PMEL Ocean Climate Stations Moorings",
         "Description": "New data notifications for OCS moored buoy data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewKeoPapaObject",
         "Region": "us-east-1",
@@ -22290,134 +22310,25 @@
         "Host": null
     },
     {
-        "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB v3 4km x 30min data (1998-2018",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/",
-        "Region": "us-west-2",
+        "Name": "NOAA/PMEL Ocean Climate Stations Moorings",
+        "Description": "OCS moored buoy data",
+        "ARN": "arn:aws:s3:::noaa-oar-keo-papa-pds",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
+        "Documentation": "https://www.pmel.noaa.gov/ocs/ http://www.oceansites.org https://dods.ndbc.noaa.gov/oceansites/",
+        "Contact": "For questions regarding data content or quality, users are directed to the OCS webpage (https://www.pmel.noaa.gov/ocs/). For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "KEO and Papa data on BDP are synchronized with the OceanSITES Global Data Assembly Center periodically.",
+        "License": "NOAA data disseminated through NODD is made available under the [Creative Commons 1.0 Universal Public Domain Dedication (CC0-1.0) license](https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1\\), which is well-known and internationally recognized. There are no restrictions on the use of the data. The data are open to the public and can be used as desired. <br/><br/> NOAA has adopted the Creative Commons license to ensure maximum use of our data, to spur and encourage exploration and innovation throughout the industry. This license is applicable to each of the NOAA datasets made available by NODD. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
+            "climate",
+            "environmental",
+            "oceans",
+            "weather"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB v3 typical meteorological years (TMY",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tmy/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftmy%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL National Solar Radiation Database",
-        "Description": "HSDS NSRDB domains",
-        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/nsrdb/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fnsrdb%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB v3 typical direct years (TDY",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tdy/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftdy%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB v3 typical global years (TGY",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tgy/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://nsrdb.nrel.gov/",
-        "Contact": "nsrdb@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "Annually",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "energy",
-            "geospatial",
-            "meteorological",
-            "solar"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftgy%2F)"
+            "[Browse Bucket](https://noaa-oar-keo-papa-pds.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22472,6 +22383,33 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=conus%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL National Solar Radiation Database",
+        "Description": "HSDS NSRDB domains",
+        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/nsrdb/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fnsrdb%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22588,6 +22526,114 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
+        "Description": "NSRDB v3 typical global years (TGY",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tgy/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftgy%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL National Solar Radiation Database",
+        "Description": "NSRDB v3 typical direct years (TDY",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tdy/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftdy%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL National Solar Radiation Database",
+        "Description": "Meteorological Statistical Model 2 (MTS2) data (1991-2005) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/mts2",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=mts2%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL National Solar Radiation Database",
+        "Description": "NSRDB v3 4km x 30min data (1998-2018",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://nsrdb.nrel.gov/",
+        "Contact": "nsrdb@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "Annually",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "energy",
+            "geospatial",
+            "meteorological",
+            "solar"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL National Solar Radiation Database",
         "Description": "NREL Solar Radiation Datasets",
         "ARN": "arn:aws:s3:::nrel-pds-nsrdb/",
         "Region": "us-west-2",
@@ -22642,8 +22688,8 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
-        "Description": "Meteorological Statistical Model 2 (MTS2) data (1991-2005) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/mts2",
+        "Description": "NSRDB v3 typical meteorological years (TMY",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/v3/tmy/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsrdb.nrel.gov/",
@@ -22660,107 +22706,7 @@
             "solar"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=mts2%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Offshore California Wind Resource data for (2000-2019) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/Offshore_CA/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Offshore_CA%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Source files for WIND Toolkit Mexico (2007-2014)",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/mexico/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=mexico%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Source files for WIND Toolkit Canada (2007-2014)",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/canada/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=canada%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Source files for WIND Toolkit CONUS (2007-2014)",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/conus/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=conus%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=v3%2Ftmy%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22794,8 +22740,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Philippines wind resource data (2017) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/philippines/",
+        "Description": "Source files for WIND Toolkit CONUS (2007-2014)",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/conus/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22810,7 +22756,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=philippines%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=conus%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22819,8 +22765,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Southeast Asia wind resource data (2017-2021) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind/",
+        "Description": "Source files for WIND Toolkit Canada (2007-2014)",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/canada/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22835,7 +22781,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=canada%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22844,8 +22790,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Vietnam wind resource data (2016-2018) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/vietnam/",
+        "Description": "Source files for WIND Toolkit Mexico (2007-2014)",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/mexico/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22860,7 +22806,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=vietnam%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=mexico%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22869,8 +22815,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "HSDS WIND domains",
-        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/wtk/",
+        "Description": "Offshore California Wind Resource data for (2000-2019) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/Offshore_CA/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22885,7 +22831,82 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fwtk%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Offshore_CA%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Hawaii Wind Resource data for (2000-2019) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/Hawaii/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Hawaii%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "NW Pacific Wind Resource data for (2000-2019) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/NW_Pacific/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=NW_Pacific%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Mid Atlantic Wind Resource data for (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/Mid_Atlantic/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Mid_Atlantic%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22919,8 +22940,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "HSDS gridded WIND Toolkit domain",
-        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/wtk-us.h5",
+        "Description": "California offshore wind resource data (2000-2022) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/now23_california/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -22935,7 +22956,82 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fwtk-us.h5%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=now23_california%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Philippines wind resource data (2017) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/philippines/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=philippines%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Gulf of Mexico wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/gulf_of_mexico/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=gulf_of_mexico%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Southeast Asia wind resource data v2 (2007-2021) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind_v2/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind_v2%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -22961,6 +23057,331 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=pr100%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Southeast Asia wind resource data v3 (2007-2021) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind_v3/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind_v3%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Mid Atlantic wind resource data with modeled wakes in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/NOW-WAKES_Mid_Atlantic/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=NOW-WAKES_Mid_Atlantic%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Maine wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/maine/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=maine%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Kazakhstan wind resource data (2015) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/kazakhstan/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=kazakhstan%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "India wind resource data (2014) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/india/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=india%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Central Asia wind resource data (2015) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/central_asia/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=central_asia%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Bangladesh wind resource data (2014-2017) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/bangladesh/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bangladesh%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "HSDS WIND domains",
+        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/wtk/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fwtk%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Southeast Asia wind resource data (2017-2021) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "South Atlantic offshore wind resource data (2000-2020) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/south_atlantic/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=south_atlantic)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Bias Corrected NOAA HRRR Wind Resource Data for Grid Integration Applications",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/bchrrr/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bchrrr%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Bias corrected Indonesia wind resource",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/indonesia/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=indonesia%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset",
+        "Description": "Long-Term ensemble dataset",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/wtk-led/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-led%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -23094,8 +23515,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Hawaii Wind Resource data for (2000-2019) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/Hawaii/",
+        "Description": "HSDS gridded WIND Toolkit domain",
+        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/wtk-us.h5",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -23110,157 +23531,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Hawaii%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "NW Pacific Wind Resource data for (2000-2019) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/NW_Pacific/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=NW_Pacific%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Gulf of Mexico wind resource data (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/gulf_of_mexico/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=gulf_of_mexico%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Southeast Asia wind resource data v2 (2007-2021) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind_v2/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind_v2%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Long-Term ensemble dataset",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/wtk-led/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-led%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Bias corrected Indonesia wind resource",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/indonesia/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=indonesia%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Bias Corrected NOAA HRRR Wind Resource Data for Grid Integration Applications",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/bchrrr/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bchrrr%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fwtk-us.h5%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -23294,8 +23565,8 @@
     },
     {
         "Name": "NREL Wind Integration National Dataset",
-        "Description": "Bangladesh wind resource data (2014-2017) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/bangladesh/",
+        "Description": "Vietnam wind resource data (2016-2018) in HDF5 format",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/vietnam/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
@@ -23310,232 +23581,7 @@
             "meteorological"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bangladesh%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "California offshore wind resource data (2000-2022) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/now23_california/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=now23_california%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "South Atlantic offshore wind resource data (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/south_atlantic/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=south_atlantic)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "India wind resource data (2014) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/india/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=india%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Kazakhstan wind resource data (2015) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/kazakhstan/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=kazakhstan%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Mid Atlantic Wind Resource data for (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/Mid_Atlantic/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Mid_Atlantic%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Maine wind resource data (2000-2020) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/maine/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=maine%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Mid Atlantic wind resource data with modeled wakes in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/NOW-WAKES_Mid_Atlantic/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=NOW-WAKES_Mid_Atlantic%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Southeast Asia wind resource data v3 (2007-2021) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/seasiawind_v3/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind_v3%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NREL Wind Integration National Dataset",
-        "Description": "Central Asia wind resource data (2015) in HDF5 format",
-        "ARN": "arn:aws:s3:::nrel-pds-wtk/central_asia/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
-        "Contact": "wind-toolkit@nrel.gov",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As Needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "environmental",
-            "geospatial",
-            "meteorological"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=central_asia%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=vietnam%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -24679,7 +24725,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Installed generation capacity (PT-BR Capacidade instalada de gera\u00e7\u00e3o)",
+        "Description": "Basic network transformation capacity (PT-BR Capacidade de transforma\u00e7\u00e3o da rede b\u00e1sica)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -24695,7 +24741,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-geracao)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-transformacao)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -25604,7 +25650,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Basic network transformation capacity (PT-BR Capacidade de transforma\u00e7\u00e3o da rede b\u00e1sica)",
+        "Description": "Installed generation capacity (PT-BR Capacidade instalada de gera\u00e7\u00e3o)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -25620,7 +25666,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-transformacao)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/capacidade-geracao)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -27857,32 +27903,6 @@
     },
     {
         "Name": "PoroTomo",
-        "Description": "HSDS PoroTomo domains",
-        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/porotomo/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
-        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
-        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
-        "UpdateFrequency": "As needed",
-        "License": "Creative Commons Attribution 3.0 United States License",
-        "Tags": [
-            "aws-pds",
-            "geothermal",
-            "seismology",
-            "image processing",
-            "geospatial"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fporotomo%2F)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "PoroTomo",
         "Description": "PoroTomo Horizontal Distributed Acoustic Sensing (DASH) Data Resampled in Time MATLAB Files",
         "ARN": "arn:aws:s3:::nrel-pds-porotomo/DAS/SEG-Y/DASH/Resampled/",
         "Region": "us-west-2",
@@ -27901,6 +27921,32 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-porotomo&prefix=DAS%2FSEG-Y%2FDASH%2FResampled%2F)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "PoroTomo",
+        "Description": "HSDS PoroTomo domains",
+        "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/porotomo/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/openEDI/documentation/blob/master/PoroTomo/PoroTomo.md",
+        "Contact": "Thomas Coleman (thomas.coleman@silixa.com)",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "geothermal",
+            "seismology",
+            "image processing",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-hsds&prefix=nrel%2Fporotomo%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
