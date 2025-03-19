@@ -2433,6 +2433,43 @@
         "AccountRequired": null
     },
     {
+        "Name": "Danish Meteorological Institute (DMI) Open Data Forecasts",
+        "Description": "DMI's Open Data Forecasts",
+        "ARN": "arn:aws:s3:::dmi-opendata",
+        "Region": "eu-north-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://opendatadocs.dmi.govcloud.dk/en/Data/Forecast_Data",
+        "Contact": "https://opendatadocs.dmi.govcloud.dk/en/API_Status_and_Contact",
+        "ManagedBy": "[Danish Meteorological Institute](https://www.dmi.dk/)",
+        "UpdateFrequency": "Every hour, 3 hours or 6 hours depending on model",
+        "License": "DMI's Open Data are distributed under the [Creative Commons License CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.en)",
+        "Tags": [
+            "aws-pds",
+            "air temperature",
+            "atmosphere",
+            "forecast",
+            "meteorological",
+            "near-surface air temperature",
+            "near-surface relative humidity",
+            "near-surface specific humidity",
+            "model",
+            "ocean circulation",
+            "ocean currents",
+            "ocean velocity",
+            "ocean sea surface height",
+            "ocean simulation",
+            "oceans",
+            "time series forecasting",
+            "weather"
+        ],
+        "Explore": [
+            "[Explore dataset](https://dmi-opendata.s3.eu-north-1.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
         "Name": "Daylight Map Distribution of OpenStreetMap - Daylight Earth Table (Parquet)",
         "Description": "Daylight Earth Table (Parquet)",
         "ARN": "arn:aws:s3:::daylight-openstreetmap/earth",
@@ -5818,30 +5855,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "Host": null,
-        "AccountRequired": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
@@ -5866,10 +5879,10 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -5916,11 +5929,11 @@
         "AccountRequired": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -5934,9 +5947,7 @@
             "conservation",
             "life sciences"
         ],
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "Host": null,
         "AccountRequired": null
@@ -5961,6 +5972,32 @@
             "life sciences"
         ],
         "Explore": null,
+        "RequesterPays": null,
+        "Host": null,
+        "AccountRequired": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "Host": null,
         "AccountRequired": null
@@ -18012,7 +18049,7 @@
         "Documentation": "https://sentinel.esa.int/web/sentinel/home",
         "Contact": "eodms-sgdot@nrcan-rncan.gc.ca",
         "ManagedBy": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
-        "UpdateFrequency": "Sentinel-1 is an NRT dataset retrieved from ESA within 90 minutes of satellite downlink. Non-NRT Sentinel-2, Sentinel-3 and Sentinel-6 are also updated as quickly as possible based on Canada coverage and availability at the source.\nSentinel-1 est un ensemble de donn\u00e9es NRT r\u00e9cup\u00e9r\u00e9 de l'ESA dans les 90 minutes suivant la liaison descendante du satellite. Sentinel-2, Sentinel-3 et Sentinel-6 non NRT sont \u00e9galement r\u00e9cup\u00e9r\u00e9s le plus rapidement possible en fonction de la couverture du Canada et de la disponibilit\u00e9 \u00e0 la source.",
+        "UpdateFrequency": "Sentinel-1 is an NRT dataset retrieved from ESA within 90 minutes of satellite downlink. Non-NRT Sentinel-2 and Sentinel-3 are also updated as quickly as possible based on Canada coverage and availability at the source.\n<br/> <br/>\nSentinel-1 est un ensemble de donn\u00e9es NRT r\u00e9cup\u00e9r\u00e9 de l'ESA dans les 90 minutes suivant la liaison descendante du satellite. Sentinel-2 et Sentinel-3 non NRT sont \u00e9galement r\u00e9cup\u00e9r\u00e9s le plus rapidement possible en fonction de la couverture du Canada et de la disponibilit\u00e9 \u00e0 la source.",
         "License": "The access and use of Copernicus Sentinel data is available on a free, full and open basis through the Copernicus Data Space Ecosystem and shall be governed by the Legal Notice on the use of Copernicus Sentinel Data and Service published here: https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice.",
         "Tags": [
             "aws-pds",
