@@ -2377,36 +2377,6 @@
     {
         "Name": "Australasian Genomes",
         "Description": "Data files",
-        "ARN": "arn:aws:s3:::threatenedspecies",
-        "Region": "ap-southeast-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
-        "Contact": "soles.wildlife-genomics@sydney.edu.au",
-        "ManagedBy": "[Australasian Wildlife Genomics Group at The University of Sydney](https://www.sydney.edu.au/science/our-research/research-areas/life-and-environmental-sciences/wildlife-genomics-group.html)",
-        "UpdateFrequency": "As new genomes are produced",
-        "License": "https://threatenedspeciesinitiative.com/threatened-species-initiative-data-policy-v1-0-june-2020/",
-        "Tags": [
-            "aws-pds",
-            "biology",
-            "biodiversity",
-            "conservation",
-            "genetic",
-            "genomic",
-            "life sciences",
-            "transcriptomics",
-            "wildlife"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Australasian Genomes",
-        "Description": "Data files",
         "ARN": "arn:aws:s3:::koalagenomes",
         "Region": "ap-southeast-2",
         "Type": "S3 Bucket",
@@ -2435,9 +2405,39 @@
         "Host": null
     },
     {
+        "Name": "Australasian Genomes",
+        "Description": "Data files",
+        "ARN": "arn:aws:s3:::threatenedspecies",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://awgg-lab.github.io/australasiangenomes/",
+        "Contact": "soles.wildlife-genomics@sydney.edu.au",
+        "ManagedBy": "[Australasian Wildlife Genomics Group at The University of Sydney](https://www.sydney.edu.au/science/our-research/research-areas/life-and-environmental-sciences/wildlife-genomics-group.html)",
+        "UpdateFrequency": "As new genomes are produced",
+        "License": "https://threatenedspeciesinitiative.com/threatened-species-initiative-data-policy-v1-0-june-2020/",
+        "Tags": [
+            "aws-pds",
+            "biology",
+            "biodiversity",
+            "conservation",
+            "genetic",
+            "genomic",
+            "life sciences",
+            "transcriptomics",
+            "wildlife"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://threatenedspecies.s3.ap-southeast-2.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Automated Segmentation of Intracellular Substructures in Electron Microscopy (ASEM) on AWS",
-        "Description": "High resolution 3D cell image datasets",
-        "ARN": "arn:aws:s3:::asem-project/datasets/",
+        "Description": "Trained ML segmentation models for use in ASEM pipeline",
+        "ARN": "arn:aws:s3:::asem-project/models/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://open.quiltdata.com/b/asem-project",
@@ -2464,8 +2464,8 @@
     },
     {
         "Name": "Automated Segmentation of Intracellular Substructures in Electron Microscopy (ASEM) on AWS",
-        "Description": "Trained ML segmentation models for use in ASEM pipeline",
-        "ARN": "arn:aws:s3:::asem-project/models/",
+        "Description": "High resolution 3D cell image datasets",
+        "ARN": "arn:aws:s3:::asem-project/datasets/",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://open.quiltdata.com/b/asem-project",
@@ -2573,8 +2573,8 @@
     },
     {
         "Name": "Beat Acute Myeloid Leukemia (AML) 1.0",
-        "Description": "WXS/RNA-Seq Aligned Reads, WXS Annotated Somatic Mutation, WXS Raw Somatic Mutation, RNA-SeqSplice Junction Quantification",
-        "ARN": "arn:aws:s3:::gdc-beataml1-cohort-phs001657-2-controlled",
+        "Description": "BEATAML10-COHORT RNA-Seq Gene Expression Quantification",
+        "ARN": "arn:aws:s3:::gdc-beataml1-cohort-phs001657-2-open",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.cancer.gov/about-nci/organization/ccg/blog/2019/beataml",
@@ -2593,7 +2593,7 @@
         ],
         "Explore": null,
         "RequesterPays": null,
-        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001657.v1.p1&phv=417530&phd=&pha=&pht=9391&phvf=&phdf=&phaf=&phtf=&dssp=1&consent=&temp=1",
+        "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
     },
@@ -2625,8 +2625,8 @@
     },
     {
         "Name": "Beat Acute Myeloid Leukemia (AML) 1.0",
-        "Description": "BEATAML10-COHORT RNA-Seq Gene Expression Quantification",
-        "ARN": "arn:aws:s3:::gdc-beataml1-cohort-phs001657-2-open",
+        "Description": "WXS/RNA-Seq Aligned Reads, WXS Annotated Somatic Mutation, WXS Raw Somatic Mutation, RNA-SeqSplice Junction Quantification",
+        "ARN": "arn:aws:s3:::gdc-beataml1-cohort-phs001657-2-controlled",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://www.cancer.gov/about-nci/organization/ccg/blog/2019/beataml",
@@ -2645,7 +2645,7 @@
         ],
         "Explore": null,
         "RequesterPays": null,
-        "ControlledAccess": null,
+        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001657.v1.p1&phv=417530&phd=&pha=&pht=9391&phvf=&phdf=&phaf=&phtf=&dssp=1&consent=&temp=1",
         "AccountRequired": null,
         "Host": null
     },
@@ -2912,28 +2912,6 @@
     },
     {
         "Name": "CAFE60 reanalysis",
-        "Description": "Notifications for updates to data",
-        "ARN": "arn:aws:sns:ap-southeast-2:970429975021:Cafe60-Data-Changes",
-        "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Documentation": "https://data.csiro.au/dap/ws/v2/collections/49803/support/4029",
-        "Contact": "Terence.O'Kane@csiro.au",
-        "ManagedBy": "[CSIRO](http://csiro.au/)",
-        "UpdateFrequency": "6 Monthly (Approx)",
-        "License": "Creative Commons Attribution-ShareAlike 4.0 International Licence",
-        "Tags": [
-            "aws-pds",
-            "climate",
-            "sustainability"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CAFE60 reanalysis",
         "Description": "CSIRO Climate retrospective Analysis and Forecast Ensemble system: version 1 (CAFE60v1) data",
         "ARN": "arn:aws:s3:::cafe60-reanalysis-dataset-aws-open-data",
         "Region": "ap-southeast-2",
@@ -2951,6 +2929,28 @@
         "Explore": [
             "[Browse Bucket](https://cafe60-reanalysis-dataset-aws-open-data.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CAFE60 reanalysis",
+        "Description": "Notifications for updates to data",
+        "ARN": "arn:aws:sns:ap-southeast-2:970429975021:Cafe60-Data-Changes",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://data.csiro.au/dap/ws/v2/collections/49803/support/4029",
+        "Contact": "Terence.O'Kane@csiro.au",
+        "ManagedBy": "[CSIRO](http://csiro.au/)",
+        "UpdateFrequency": "6 Monthly (Approx)",
+        "License": "Creative Commons Attribution-ShareAlike 4.0 International Licence",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "sustainability"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -3072,34 +3072,6 @@
     },
     {
         "Name": "CBERS on AWS",
-        "Description": "Notifications for new CBERS 4A quicklooks, all sensors",
-        "ARN": "arn:aws:sns:us-west-2:599544552497:NewCB4AQuicklook",
-        "Region": "us-west-2",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/fredliporace/cbers-on-aws",
-        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
-        "ManagedBy": "[Frederico Liporace](https://github.com/fredliporace)",
-        "UpdateFrequency": "Daily",
-        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "geospatial",
-            "imaging",
-            "satellite imagery",
-            "disaster response",
-            "stac",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CBERS on AWS",
         "Description": "CBERS imagery (COG files, quicklooks, metadata)",
         "ARN": "arn:aws:s3:::brazil-eosats",
         "Region": "us-west-2",
@@ -3153,6 +3125,34 @@
         ],
         "Explore": null,
         "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CBERS on AWS",
+        "Description": "Notifications for new CBERS 4A quicklooks, all sensors",
+        "ARN": "arn:aws:sns:us-west-2:599544552497:NewCB4AQuicklook",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/fredliporace/cbers-on-aws",
+        "Contact": "https://lists.osgeo.org/mailman/listinfo/cbers-pds",
+        "ManagedBy": "[Frederico Liporace](https://github.com/fredliporace)",
+        "UpdateFrequency": "Daily",
+        "License": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "geospatial",
+            "imaging",
+            "satellite imagery",
+            "disaster response",
+            "stac",
+            "cog"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -3214,13 +3214,13 @@
     },
     {
         "Name": "CIViC (Clinical Interpretation of Variants in Cancer)",
-        "Description": "Monthly CIViC data dumps including gene, variant, assertion, and evidence tables",
+        "Description": "Monthly CIViC data dumps including feature, variant, assertion, and evidence tables",
         "ARN": "arn:aws:s3:::civic-aws-opendata",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.civicdb.org/",
         "Contact": "help@civicdb.org",
-        "ManagedBy": "The McDonnell Genome Institute at Washington University School of Medicine",
+        "ManagedBy": "The Griffith Lab at Washington University School of Medicine",
         "UpdateFrequency": "First of each month",
         "License": "[CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
         "Tags": [
@@ -3228,7 +3228,8 @@
             "genetic",
             "genomic",
             "life sciences",
-            "vcf"
+            "vcf",
+            "cancer"
         ],
         "Explore": null,
         "RequesterPays": null,
@@ -3237,135 +3238,25 @@
         "Host": null
     },
     {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2020 Modeling Platform",
-        "ARN": "arn:aws:s3:::2020platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Name": "CIViC (Clinical Interpretation of Variants in Cancer)",
+        "Description": "Notifications for monthly CIViC data availability",
+        "ARN": "arn:aws:sns:us-west-2:182652044697:civic-aws-opendata-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://docs.civicdb.org/",
+        "Contact": "help@civicdb.org",
+        "ManagedBy": "The Griffith Lab at Washington University School of Medicine",
+        "UpdateFrequency": "First of each month",
+        "License": "[CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
         "Tags": [
             "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
+            "genetic",
+            "genomic",
+            "life sciences",
+            "vcf",
+            "cancer"
         ],
-        "Explore": [
-            "[Browse Bucket](https://2020platform.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2016v3 Modeling Platform",
-        "ARN": "arn:aws:s3:::2016v3platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "SMOKE Test Case",
-        "ARN": "arn:aws:s3:::cmas-smoke-testcase",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-smoke-testcase.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "SMOKE 2016 Modeling Platform",
-        "ARN": "arn:aws:s3:::cmas-smoke-modeling-platform-2016",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-smoke-modeling-platform-2016.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2018v2 Modeling Platform",
-        "ARN": "arn:aws:s3:::2018v2platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2018v2platform.s3.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -3392,60 +3283,6 @@
         ],
         "Explore": [
             "[Browse Bucket](https://cmas-cmaq.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ 2019 Modeling Platform",
-        "ARN": "arn:aws:s3:::cmaq-2019-modeling-platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmaq-2019-modeling-platform.s3.amazonaws.com/readme.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ 2021 Modeling Platform",
-        "ARN": "arn:aws:s3:::2021platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2021platform.s3.amazonaws.com/readme.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3481,33 +3318,6 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "CMAS WWLLN Lightning Data",
-        "ARN": "arn:aws:s3:::cmas-wwlln-lightning",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-wwlln-lightning.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
         "Description": "AMET Data",
         "ARN": "arn:aws:s3:::cmas-amet",
         "Region": "us-east-1",
@@ -3527,6 +3337,60 @@
         ],
         "Explore": [
             "[Browse Bucket](https://cmas-amet.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "CMAQ 2021 Modeling Platform",
+        "ARN": "arn:aws:s3:::2021platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2021platform.s3.amazonaws.com/readme.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "CMAQ 2018 Modeling Platform",
+        "ARN": "arn:aws:s3:::cmas-cmaq-modeling-platform-2018",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-cmaq-modeling-platform-2018.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3589,6 +3453,168 @@
     },
     {
         "Name": "CMAS Data Warehouse",
+        "Description": "2019 Modeling Platform",
+        "ARN": "arn:aws:s3:::2019platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "CMAS WWLLN Lightning Data",
+        "ARN": "arn:aws:s3:::cmas-wwlln-lightning",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-wwlln-lightning.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "SMOKE 2016 Modeling Platform",
+        "ARN": "arn:aws:s3:::cmas-smoke-modeling-platform-2016",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-smoke-modeling-platform-2016.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "SMOKE Test Case",
+        "ARN": "arn:aws:s3:::cmas-smoke-testcase",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-smoke-testcase.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "2016v3 Modeling Platform",
+        "ARN": "arn:aws:s3:::2016v3platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "2018v2 Modeling Platform",
+        "ARN": "arn:aws:s3:::2018v2platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2018v2platform.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
         "Description": "CMAQ CONUS-2 Benchmark Data",
         "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
         "Region": "us-east-1",
@@ -3616,8 +3642,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ 2018 Modeling Platform",
-        "ARN": "arn:aws:s3:::cmas-cmaq-modeling-platform-2018",
+        "Description": "CMAQ 2019 Modeling Platform",
+        "ARN": "arn:aws:s3:::cmaq-2019-modeling-platform",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3634,7 +3660,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://cmas-cmaq-modeling-platform-2018.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://cmaq-2019-modeling-platform.s3.amazonaws.com/readme.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3643,8 +3669,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "2019 Modeling Platform",
-        "ARN": "arn:aws:s3:::2019platform",
+        "Description": "2020 Modeling Platform",
+        "ARN": "arn:aws:s3:::2020platform",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3661,7 +3687,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://2020platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -4199,8 +4225,8 @@
     },
     {
         "Name": "Cell Organelle Segmentation in Electron Microscopy (COSEM) on AWS",
-        "Description": "Raw FIB-SEM datasets and derived data",
-        "ARN": "arn:aws:s3:::janelia-cosem-datasets",
+        "Description": "Machine learning models for organelle prediction",
+        "ARN": "arn:aws:s3:::janelia-cosem-networks",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/janelia-cosem/aws-opendata/blob/master/cosem-introduction.md",
@@ -4225,8 +4251,8 @@
     },
     {
         "Name": "Cell Organelle Segmentation in Electron Microscopy (COSEM) on AWS",
-        "Description": "Machine learning models for organelle prediction",
-        "ARN": "arn:aws:s3:::janelia-cosem-networks",
+        "Description": "Raw FIB-SEM datasets and derived data",
+        "ARN": "arn:aws:s3:::janelia-cosem-datasets",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/janelia-cosem/aws-opendata/blob/master/cosem-introduction.md",
@@ -17510,10 +17536,10 @@
     },
     {
         "Name": "NIH NCBI Sequence Read Archive (SRA) on AWS",
-        "Description": "Metadata files for the Sequence Read Archive, ready to load into AWS Glue and query with Amazon Athena",
-        "ARN": "arn:aws:s3:::sra-pub-metadata-us-east-1/sra/metadata",
+        "Description": "Update notifications for s3://sra-pub-run-odp Users can subscribe to this SNS topic with AWS Lambda or AWS Simple Queue Service",
+        "ARN": "arn:aws:sns:us-east-1:867126678632:sra-pub-run-odp-objects",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
+        "Type": "SNS Topic",
         "Documentation": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud/",
         "Contact": "sra@ncbi.nlm.nih.gov",
         "ManagedBy": "[National Library of Medicine (NLM)](http://nlm.nih.gov/)",
@@ -17570,10 +17596,10 @@
     },
     {
         "Name": "NIH NCBI Sequence Read Archive (SRA) on AWS",
-        "Description": "Update notifications for s3://sra-pub-run-odp Users can subscribe to this SNS topic with AWS Lambda or AWS Simple Queue Service",
-        "ARN": "arn:aws:sns:us-east-1:867126678632:sra-pub-run-odp-objects",
+        "Description": "Metadata files for the Sequence Read Archive, ready to load into AWS Glue and query with Amazon Athena",
+        "ARN": "arn:aws:s3:::sra-pub-metadata-us-east-1/sra/metadata",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
+        "Type": "S3 Bucket",
         "Documentation": "https://www.ncbi.nlm.nih.gov/sra/docs/sra-cloud/",
         "Contact": "sra@ncbi.nlm.nih.gov",
         "ManagedBy": "[National Library of Medicine (NLM)](http://nlm.nih.gov/)",
@@ -34326,9 +34352,9 @@
     },
     {
         "Name": "YouTube 8 Million - Data Lakehouse Ready",
-        "Description": "Replica of the two locations above in us-east-1",
-        "ARN": "arn:aws:s3:::aws-roda-ml-datalake-us-east-1/",
-        "Region": "us-east-1",
+        "Description": "Lakehouse ready YT8M as Glue Parquet files Install instructions here",
+        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m_ods/",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda-ml/docs/roda_install.md",
         "Contact": "https://github.com/aws-samples/data-lake-as-code/issues",
@@ -34351,9 +34377,9 @@
     },
     {
         "Name": "YouTube 8 Million - Data Lakehouse Ready",
-        "Description": "Lakehouse ready YT8M as Glue Parquet files Install instructions here",
-        "ARN": "arn:aws:s3:::aws-roda-ml-datalake/yt8m_ods/",
-        "Region": "us-west-2",
+        "Description": "Replica of the two locations above in us-east-1",
+        "ARN": "arn:aws:s3:::aws-roda-ml-datalake-us-east-1/",
+        "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/aws-samples/data-lake-as-code/blob/roda-ml/docs/roda_install.md",
         "Contact": "https://github.com/aws-samples/data-lake-as-code/issues",
