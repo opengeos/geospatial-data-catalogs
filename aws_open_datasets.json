@@ -3239,31 +3239,6 @@
     },
     {
         "Name": "CIViC (Clinical Interpretation of Variants in Cancer)",
-        "Description": "Monthly CIViC data dumps including feature, variant, assertion, and evidence tables",
-        "ARN": "arn:aws:s3:::civic-aws-opendata",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://docs.civicdb.org/",
-        "Contact": "help@civicdb.org",
-        "ManagedBy": "The Griffith Lab at Washington University School of Medicine",
-        "UpdateFrequency": "First of each month",
-        "License": "[CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
-        "Tags": [
-            "aws-pds",
-            "genetic",
-            "genomic",
-            "life sciences",
-            "vcf",
-            "cancer"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CIViC (Clinical Interpretation of Variants in Cancer)",
         "Description": "Notifications for monthly CIViC data availability",
         "ARN": "arn:aws:sns:us-west-2:182652044697:civic-aws-opendata-object_created",
         "Region": "us-west-2",
@@ -3288,27 +3263,25 @@
         "Host": null
     },
     {
-        "Name": "CMAS Data Warehouse",
-        "Description": "CMAS WWLLN Lightning Data",
-        "ARN": "arn:aws:s3:::cmas-wwlln-lightning",
-        "Region": "us-east-1",
+        "Name": "CIViC (Clinical Interpretation of Variants in Cancer)",
+        "Description": "Monthly CIViC data dumps including feature, variant, assertion, and evidence tables",
+        "ARN": "arn:aws:s3:::civic-aws-opendata",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Documentation": "https://docs.civicdb.org/",
+        "Contact": "help@civicdb.org",
+        "ManagedBy": "The Griffith Lab at Washington University School of Medicine",
+        "UpdateFrequency": "First of each month",
+        "License": "[CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
         "Tags": [
             "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
+            "genetic",
+            "genomic",
+            "life sciences",
+            "vcf",
+            "cancer"
         ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-wwlln-lightning.s3.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -3335,6 +3308,33 @@
         ],
         "Explore": [
             "[Browse Bucket](https://cmaq-release-benchmark-data-for-easy-download.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "CMAQ CONUS-2 Benchmark Data",
+        "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-cmaq-conus2-benchmark.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3424,8 +3424,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ CONUS-2 Benchmark Data",
-        "ARN": "arn:aws:s3:::cmas-cmaq-conus2-benchmark",
+        "Description": "EQUATES EPA\u2019s Air QUAlity TimE Series Project Data",
+        "ARN": "arn:aws:s3:::cmas-equates",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3442,7 +3442,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://cmas-cmaq-conus2-benchmark.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://cmas-equates.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3478,6 +3478,60 @@
     },
     {
         "Name": "CMAS Data Warehouse",
+        "Description": "CMAS WWLLN Lightning Data",
+        "ARN": "arn:aws:s3:::cmas-wwlln-lightning",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmas-wwlln-lightning.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "CMAQ 2019 Modeling Platform",
+        "ARN": "arn:aws:s3:::cmaq-2019-modeling-platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmaq-2019-modeling-platform.s3.amazonaws.com/readme.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
         "Description": "SMOKE 2016 Modeling Platform",
         "ARN": "arn:aws:s3:::cmas-smoke-modeling-platform-2016",
         "Region": "us-east-1",
@@ -3497,168 +3551,6 @@
         ],
         "Explore": [
             "[Browse Bucket](https://cmas-smoke-modeling-platform-2016.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "SMOKE Test Case",
-        "ARN": "arn:aws:s3:::cmas-smoke-testcase",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-smoke-testcase.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2016v3 Modeling Platform",
-        "ARN": "arn:aws:s3:::2016v3platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "EQUATES EPA\u2019s Air QUAlity TimE Series Project Data",
-        "ARN": "arn:aws:s3:::cmas-equates",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://cmas-equates.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2019 Modeling Platform",
-        "ARN": "arn:aws:s3:::2019platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2020 Modeling Platform",
-        "ARN": "arn:aws:s3:::2020platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2020platform.s3.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "CMAS Data Warehouse",
-        "Description": "2018v2 Modeling Platform",
-        "ARN": "arn:aws:s3:::2018v2platform",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
-        "Contact": "cmas@unc.edu",
-        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
-        "UpdateFrequency": "New data is added as soon as it is available.",
-        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
-        "Tags": [
-            "aws-pds",
-            "air quality",
-            "meteorological",
-            "geospatial",
-            "environmental",
-            "climate"
-        ],
-        "Explore": [
-            "[Browse Bucket](https://2018v2platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3694,8 +3586,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "CMAQ 2019 Modeling Platform",
-        "ARN": "arn:aws:s3:::cmaq-2019-modeling-platform",
+        "Description": "SMOKE Test Case",
+        "ARN": "arn:aws:s3:::cmas-smoke-testcase",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3712,7 +3604,115 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://cmaq-2019-modeling-platform.s3.amazonaws.com/readme.html)"
+            "[Browse Bucket](https://cmas-smoke-testcase.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "2020 Modeling Platform",
+        "ARN": "arn:aws:s3:::2020platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2020platform.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "2019 Modeling Platform",
+        "ARN": "arn:aws:s3:::2019platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "2018v2 Modeling Platform",
+        "ARN": "arn:aws:s3:::2018v2platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2018v2platform.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse",
+        "Description": "2016v3 Modeling Platform",
+        "ARN": "arn:aws:s3:::2016v3platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://2016v3platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -4090,6 +4090,31 @@
     },
     {
         "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer",
+        "Description": "WGS/Targeted Sequencing/RNA-Seq/miRNA-Seq Aligned Reads, RNA-Seq Splice JunctionQuantification",
+        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-controlled",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://ocg.cancer.gov/programs/cgci",
+        "Contact": "dcf-support@datacommons.io",
+        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
+        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
+        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
+        "Tags": [
+            "aws-pds",
+            "cancer",
+            "genomic",
+            "life sciences",
+            "transcriptomics",
+            "STRIDES"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000235.v14.p2",
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer",
         "Description": "Clinical Supplement, Biospecimen Supplement, RNA-Seq Gene Expression Quantification, miRNA-SeqIsoform Expression Quantification, miRNA-Seq miRNA Expression Quantification",
         "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-open",
         "Region": "us-east-1",
@@ -4135,31 +4160,6 @@
         "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Cancer Genome Characterization Initiatives - Burkitt Lymphoma, HIV+ Cervical Cancer",
-        "Description": "WGS/Targeted Sequencing/RNA-Seq/miRNA-Seq Aligned Reads, RNA-Seq Splice JunctionQuantification",
-        "ARN": "arn:aws:s3:::gdc-cgci-phs000235-2-controlled",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://ocg.cancer.gov/programs/cgci",
-        "Contact": "dcf-support@datacommons.io",
-        "ManagedBy": "[Center for Translational Data Science at The University of Chicago](https://ctds.uchicago.edu/)",
-        "UpdateFrequency": "Genomic Data Commons (GDC) is source of truth for this dataset; GDC offers monthly data releases,although this dataset may not be updated at every release.",
-        "License": "NIH Genomic Data Sharing Policy: https://gdc.cancer.gov/access-data/data-access-policies",
-        "Tags": [
-            "aws-pds",
-            "cancer",
-            "genomic",
-            "life sciences",
-            "transcriptomics",
-            "STRIDES"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": "https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000235.v14.p2",
         "AccountRequired": null,
         "Host": null
     },
@@ -4339,6 +4339,47 @@
             "[Documentation](https://github.com/broadinstitute/cellpainting-gallery)",
             "[Browse Bucket](https://cellpainting-gallery.s3.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Cell Painting Gallery",
+        "Description": "Notifications for new Cell Painting Gallery data",
+        "ARN": "arn:aws:sns:us-east-1:309624411020:cellpainting-repository-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/broadinstitute/cellpainting-gallery",
+        "Contact": "cellpainting@broadinstitute.org",
+        "ManagedBy": "Carpenter-Singh and Cimini Labs at the Broad Institute",
+        "UpdateFrequency": "Typically when an associated publication is posted on biorxiv",
+        "License": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication, but please do cite the corresponding publication for each dataset, as listed [here](https://github.com/broadinstitute/cellpainting-gallery#citation).",
+        "Tags": [
+            "aws-pds",
+            "bioinformatics",
+            "biology",
+            "cancer",
+            "cell biology",
+            "cell imaging",
+            "cell painting",
+            "chemical biology",
+            "computer vision",
+            "csv",
+            "deep learning",
+            "fluorescence imaging",
+            "genetic",
+            "high-throughput imaging",
+            "image processing",
+            "image-based profiling",
+            "imaging",
+            "machine learning",
+            "medicine",
+            "microscopy",
+            "organelle",
+            "life sciences"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -6625,8 +6666,8 @@
     },
     {
         "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
-        "Description": "Seismic Survey 2016 Data at Crescent Valley, Nevada",
-        "ARN": "arn:aws:s3:::gdr-data-lake/wholescale/subter_seismic/crescent_valley",
+        "Description": "Utah FORGE: Neubrex Well 16B(78)-32 DAS Data - April 2024",
+        "ARN": "arn:aws:s3:::gdr-data-lake/FORGE/DAS/Neubrex/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/",
@@ -6640,7 +6681,7 @@
             "geothermal"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=wholescale%2Fsubter_seismic%2Fcrescent_valley%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=FORGE%2FDAS%2FNeubrex%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -6721,8 +6762,8 @@
     },
     {
         "Name": "Department of Energy\u2019s Geothermal Data Repository (GDR) Data Lake",
-        "Description": "Utah FORGE: Neubrex Well 16B(78)-32 DAS Data - April 2024",
-        "ARN": "arn:aws:s3:::gdr-data-lake/FORGE/DAS/Neubrex/",
+        "Description": "Seismic Survey 2016 Data at Crescent Valley, Nevada",
+        "ARN": "arn:aws:s3:::gdr-data-lake/wholescale/subter_seismic/crescent_valley",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/openEDI/documentation/",
@@ -6736,7 +6777,7 @@
             "geothermal"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=FORGE%2FDAS%2FNeubrex%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=gdr-data-lake&prefix=wholescale%2Fsubter_seismic%2Fcrescent_valley%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -13020,7 +13061,7 @@
         "ARN": "arn:aws:s3:::ibl-brain-wide-map-public",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://int-brain-lab.github.io/iblenv/dj_docs/dj_public.html",
+        "Documentation": "https://int-brain-lab.github.io/iblenv/notebooks_external/data_release_behavior.html",
         "Contact": "info@internationalbrainlab.org",
         "ManagedBy": "[International Brain Laboratory](https://www.internationalbrainlab.com)",
         "UpdateFrequency": "TBD",
@@ -31656,7 +31697,7 @@
         "Contact": "aws@softwareheritage.org",
         "ManagedBy": "Software Heritage",
         "UpdateFrequency": "Data is updated yearly",
-        "License": "Creative Commons Attribution 4.0 International.By accessing the dataset, you agree with the Software Heritage [EthicalCharter for using the archivedata](https://www.softwareheritage.org/legal/users-ethical-charter/),the [terms of use for bulkaccess](https://www.softwareheritage.org/legal/bulk-access-terms-of-use/),and the [Software Heritage principles for large languagemodels](https://www.softwareheritage.org/2023/10/19/swh-statement-on-llm-for-code/).",
+        "License": "The term \"Software Heritage Graph Dataset\" designates the internal structure of the Software Heritage archive, and explicitly excludes the file contents.The \"Software Heritage Graph Dataset\" is distributed under the Creative Commons Attribution 4.0 International license.For terms of use of all other contents found in the S3 buckets, contact datasets@softwareheritage.orgBy accessing the dataset, you agree with the Software Heritage [EthicalCharter for using the archivedata](https://www.softwareheritage.org/legal/users-ethical-charter/),the [terms of use for bulkaccess](https://www.softwareheritage.org/legal/bulk-access-terms-of-use/),and the [Software Heritage principles for large languagemodels](https://www.softwareheritage.org/2023/10/19/swh-statement-on-llm-for-code/).",
         "Tags": [
             "aws-pds",
             "source code",
@@ -31680,7 +31721,7 @@
         "Contact": "aws@softwareheritage.org",
         "ManagedBy": "Software Heritage",
         "UpdateFrequency": "Data is updated yearly",
-        "License": "Creative Commons Attribution 4.0 International.By accessing the dataset, you agree with the Software Heritage [EthicalCharter for using the archivedata](https://www.softwareheritage.org/legal/users-ethical-charter/),the [terms of use for bulkaccess](https://www.softwareheritage.org/legal/bulk-access-terms-of-use/),and the [Software Heritage principles for large languagemodels](https://www.softwareheritage.org/2023/10/19/swh-statement-on-llm-for-code/).",
+        "License": "The term \"Software Heritage Graph Dataset\" designates the internal structure of the Software Heritage archive, and explicitly excludes the file contents.The \"Software Heritage Graph Dataset\" is distributed under the Creative Commons Attribution 4.0 International license.For terms of use of all other contents found in the S3 buckets, contact datasets@softwareheritage.orgBy accessing the dataset, you agree with the Software Heritage [EthicalCharter for using the archivedata](https://www.softwareheritage.org/legal/users-ethical-charter/),the [terms of use for bulkaccess](https://www.softwareheritage.org/legal/bulk-access-terms-of-use/),and the [Software Heritage principles for large languagemodels](https://www.softwareheritage.org/2023/10/19/swh-statement-on-llm-for-code/).",
         "Tags": [
             "aws-pds",
             "source code",
