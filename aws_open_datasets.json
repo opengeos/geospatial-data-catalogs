@@ -3640,8 +3640,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "2019 Modeling Platform",
-        "ARN": "arn:aws:s3:::2019platform",
+        "Description": "2020 Modeling Platform",
+        "ARN": "arn:aws:s3:::2020platform",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3658,7 +3658,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://2020platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -3694,8 +3694,8 @@
     },
     {
         "Name": "CMAS Data Warehouse",
-        "Description": "2020 Modeling Platform",
-        "ARN": "arn:aws:s3:::2020platform",
+        "Description": "2019 Modeling Platform",
+        "ARN": "arn:aws:s3:::2019platform",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
@@ -3712,7 +3712,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://2020platform.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://2019platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -8260,8 +8260,8 @@
     },
     {
         "Name": "Digital Earth Africa Water Observations from Space",
-        "Description": "Water Observations from Space data",
-        "ARN": "arn:aws:s3:::deafrica-services/wofs_ls",
+        "Description": "S3 Inventory",
+        "ARN": "arn:aws:s3:::deafrica-services-inventory",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_WOfS_specs.html",
@@ -8282,10 +8282,8 @@
             "stac",
             "cog"
         ],
-        "Explore": [
-            "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/wofs_ls)"
-        ],
-        "RequesterPays": false,
+        "Explore": null,
+        "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -8326,36 +8324,6 @@
         "ARN": "arn:aws:sns:af-south-1:565417506782:deafrica-landsat-wofs",
         "Region": "af-south-1",
         "Type": "SNS Topic",
-        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_WOfS_specs.html",
-        "Contact": "helpdesk@digitalearthafrica.org",
-        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
-        "UpdateFrequency": "New scene-level data is added as new Landsat data is available. New summaries are available soon after data is available for a year.",
-        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "disaster response",
-            "earth observation",
-            "geospatial",
-            "natural resource",
-            "satellite imagery",
-            "water",
-            "deafrica",
-            "stac",
-            "cog"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Digital Earth Africa Water Observations from Space",
-        "Description": "S3 Inventory",
-        "ARN": "arn:aws:s3:::deafrica-services-inventory",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
         "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_WOfS_specs.html",
         "Contact": "helpdesk@digitalearthafrica.org",
         "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
@@ -8438,6 +8406,38 @@
         ],
         "Explore": [
             "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/wofs_ls_summary_annual)"
+        ],
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Digital Earth Africa Water Observations from Space",
+        "Description": "Water Observations from Space data",
+        "ARN": "arn:aws:s3:::deafrica-services/wofs_ls",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://docs.digitalearthafrica.org/en/latest/data_specs/Landsat_WOfS_specs.html",
+        "Contact": "helpdesk@digitalearthafrica.org",
+        "ManagedBy": "[Digital Earth Africa](https://www.digitalearthafrica.org/)",
+        "UpdateFrequency": "New scene-level data is added as new Landsat data is available. New summaries are available soon after data is available for a year.",
+        "License": "DE Africa makes this data available under the Creative Commons Attribute 4.0 license https://creativecommons.org/licenses/by/4.0/.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "disaster response",
+            "earth observation",
+            "geospatial",
+            "natural resource",
+            "satellite imagery",
+            "water",
+            "deafrica",
+            "stac",
+            "cog"
+        ],
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://explorer.digitalearth.africa/stac/collections/wofs_ls)"
         ],
         "RequesterPays": false,
         "ControlledAccess": null,
@@ -8680,6 +8680,28 @@
             "weather"
         ],
         "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "EEGDash on AWS",
+        "Description": "EEGDash data",
+        "ARN": "arn:aws:s3:::eegdash",
+        "Region": "us-east-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://eegdash.org",
+        "Contact": "adelorme@ucsd.edu",
+        "ManagedBy": "[Swartz Center for Computational Neuroscience](https://sccn.ucsd.edu/)",
+        "UpdateFrequency": "About once a week.",
+        "License": "There are no restrictions on the use of this data.",
+        "Tags": [
+            "aws-pds"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://eegdash.s3.amazonaws.com)"
+        ],
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -9144,8 +9166,8 @@
     },
     {
         "Name": "Earth Observation Data Cubes for Brazil",
-        "Description": "Notifications for new EO Data Cubes CBERS scenes",
-        "ARN": "arn:aws:sns:us-west-2:896627514407:bdc-cbers-object_created",
+        "Description": "Notifications for new EO Data Cubes Sentinel-2 scenes",
+        "ARN": "arn:aws:sns:us-west-2:896627514407:bdc-sentinel-2-object_created",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "http://brazildatacube.org/en/home-page-2/",
@@ -9232,8 +9254,8 @@
     },
     {
         "Name": "Earth Observation Data Cubes for Brazil",
-        "Description": "Notifications for new EO Data Cubes Sentinel-2 scenes",
-        "ARN": "arn:aws:sns:us-west-2:896627514407:bdc-sentinel-2-object_created",
+        "Description": "Notifications for new EO Data Cubes CBERS scenes",
+        "ARN": "arn:aws:sns:us-west-2:896627514407:bdc-cbers-object_created",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "http://brazildatacube.org/en/home-page-2/",
@@ -9504,48 +9526,6 @@
     },
     {
         "Name": "Estimating Confidence Intervals for 2020 Census Statistics Using Approximate Monte Carlo Simulation (2010 Census Proof of Concept)",
-        "Description": "Census Open Data S3 Inventory",
-        "ARN": "arn:aws:s3:::uscb-opendata-inventory",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "[AMC Replicates README (Updated 8/5/2024)](https://uscb-2020-product-releases.s3.amazonaws.com/decennial/amc/2010/mdf/2010-dhc-mdf-replicates/README.html)",
-        "Contact": "2020DAS@census.gov",
-        "ManagedBy": "[United States Census Bureau](http://www.census.gov/)",
-        "UpdateFrequency": "Not Updated",
-        "License": "CC0 1.0 Universal",
-        "Tags": [
-            "census",
-            "differential privacy",
-            "disclosure avoidance",
-            "ethnicity",
-            "group quarters",
-            "hispanic",
-            "latino",
-            "housing",
-            "housing units",
-            "noisy measurements",
-            "population",
-            "race",
-            "redistricting",
-            "demographic and housing characteristics file",
-            "dhc",
-            "voting age",
-            "household type",
-            "relation-to-householder",
-            "age",
-            "single year of age",
-            "approximate monte carlo",
-            "approximate monte carlo replicates",
-            "microdata"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Estimating Confidence Intervals for 2020 Census Statistics Using Approximate Monte Carlo Simulation (2010 Census Proof of Concept)",
         "Description": "2010 Census Production Settings Demographic and Housing Characteristics Approximate Monte Carlo method seed Privacy Protected Microdata File and PPMF replicates",
         "ARN": "arn:aws:s3:::uscb-2020-product-releases/decennial/amc/2010/mdf/2010-dhc-mdf-replicates",
         "Region": "us-west-2",
@@ -9587,20 +9567,18 @@
         "Host": null
     },
     {
-        "Name": "Estimating Confidence Intervals for 2020 Census Statistics Using Approximate Monte Carlo Simulation (2020 Census Production Run)",
+        "Name": "Estimating Confidence Intervals for 2020 Census Statistics Using Approximate Monte Carlo Simulation (2010 Census Proof of Concept)",
         "Description": "Census Open Data S3 Inventory",
         "ARN": "arn:aws:s3:::uscb-opendata-inventory",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "[AMC Replicates README (Updated 9/17/2024)](https://uscb-2020-product-releases.s3.amazonaws.com/decennial/amc/2020/mdf/2020-dhc-mdf-replicates/ppmf/README.html)",
+        "Documentation": "[AMC Replicates README (Updated 8/5/2024)](https://uscb-2020-product-releases.s3.amazonaws.com/decennial/amc/2010/mdf/2010-dhc-mdf-replicates/README.html)",
         "Contact": "2020DAS@census.gov",
         "ManagedBy": "[United States Census Bureau](http://www.census.gov/)",
         "UpdateFrequency": "Not Updated",
         "License": "CC0 1.0 Universal",
         "Tags": [
             "census",
-            "decennial census",
-            "2020 census",
             "differential privacy",
             "disclosure avoidance",
             "ethnicity",
@@ -9675,51 +9653,47 @@
         "Host": null
     },
     {
-        "Name": "Euclid Quick Release 1 (Q1)",
-        "Description": "VMPZ: Level 3 visibility masks FITS format",
-        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/VMPZ",
-        "Region": "us-east-1",
+        "Name": "Estimating Confidence Intervals for 2020 Census Statistics Using Approximate Monte Carlo Simulation (2020 Census Production Run)",
+        "Description": "Census Open Data S3 Inventory",
+        "ARN": "arn:aws:s3:::uscb-opendata-inventory",
+        "Region": "us-west-2",
         "Type": "S3 Bucket",
-        "Documentation": "https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q1.html",
-        "Contact": "https://irsa.ipac.caltech.edu/docs/help_desk.html",
-        "ManagedBy": "NASA/IPAC Infrared Science Archive ([IRSA](https://irsa.ipac.caltech.edu)) at Caltech",
-        "UpdateFrequency": "Euclid Q1 has been finalized and will not be updated. The data may be presented in new ways as the products become available.",
-        "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
+        "Documentation": "[AMC Replicates README (Updated 9/17/2024)](https://uscb-2020-product-releases.s3.amazonaws.com/decennial/amc/2020/mdf/2020-dhc-mdf-replicates/ppmf/README.html)",
+        "Contact": "2020DAS@census.gov",
+        "ManagedBy": "[United States Census Bureau](http://www.census.gov/)",
+        "UpdateFrequency": "Not Updated",
+        "License": "CC0 1.0 Universal",
         "Tags": [
-            "astronomy",
-            "imaging",
-            "object detection",
-            "satellite imagery",
-            "survey"
+            "census",
+            "decennial census",
+            "2020 census",
+            "differential privacy",
+            "disclosure avoidance",
+            "ethnicity",
+            "group quarters",
+            "hispanic",
+            "latino",
+            "housing",
+            "housing units",
+            "noisy measurements",
+            "population",
+            "race",
+            "redistricting",
+            "demographic and housing characteristics file",
+            "dhc",
+            "voting age",
+            "household type",
+            "relation-to-householder",
+            "age",
+            "single year of age",
+            "approximate monte carlo",
+            "approximate monte carlo replicates",
+            "microdata"
         ],
         "Explore": null,
-        "RequesterPays": false,
+        "RequesterPays": null,
         "ControlledAccess": null,
-        "AccountRequired": false,
-        "Host": null
-    },
-    {
-        "Name": "Euclid Quick Release 1 (Q1)",
-        "Description": "MER_SEG: Segmentation maps of detections made on the MER mosaics FITS format, organized by Tile ID",
-        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/MER_SEG",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q1.html",
-        "Contact": "https://irsa.ipac.caltech.edu/docs/help_desk.html",
-        "ManagedBy": "NASA/IPAC Infrared Science Archive ([IRSA](https://irsa.ipac.caltech.edu)) at Caltech",
-        "UpdateFrequency": "Euclid Q1 has been finalized and will not be updated. The data may be presented in new ways as the products become available.",
-        "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
-        "Tags": [
-            "astronomy",
-            "imaging",
-            "object detection",
-            "satellite imagery",
-            "survey"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "ControlledAccess": null,
-        "AccountRequired": false,
+        "AccountRequired": null,
         "Host": null
     },
     {
@@ -9748,8 +9722,32 @@
     },
     {
         "Name": "Euclid Quick Release 1 (Q1)",
-        "Description": "VIS: Level 2 VIS calibrated frames FITS format, organized by Observation ID",
-        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/VIS",
+        "Description": "MER: Level 2 multiwavelength space- and ground-based mosaics FITS format, organized by Tile ID",
+        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/MER",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q1.html",
+        "Contact": "https://irsa.ipac.caltech.edu/docs/help_desk.html",
+        "ManagedBy": "NASA/IPAC Infrared Science Archive ([IRSA](https://irsa.ipac.caltech.edu)) at Caltech",
+        "UpdateFrequency": "Euclid Q1 has been finalized and will not be updated. The data may be presented in new ways as the products become available.",
+        "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
+        "Tags": [
+            "astronomy",
+            "imaging",
+            "object detection",
+            "satellite imagery",
+            "survey"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": false,
+        "Host": null
+    },
+    {
+        "Name": "Euclid Quick Release 1 (Q1)",
+        "Description": "VMPZ: Level 3 visibility masks FITS format",
+        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/VMPZ",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q1.html",
@@ -9796,8 +9794,8 @@
     },
     {
         "Name": "Euclid Quick Release 1 (Q1)",
-        "Description": "Catalogs: MER final catalog, photometric redshift catalogs, spectroscopic catalogs organized by Tile ID NIR and VIS catalogs of calibrated frame detections, organized by Observation ID FITS format",
-        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/catalogs",
+        "Description": "MER_SEG: Segmentation maps of detections made on the MER mosaics FITS format, organized by Tile ID",
+        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/MER_SEG",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q1.html",
@@ -9844,8 +9842,32 @@
     },
     {
         "Name": "Euclid Quick Release 1 (Q1)",
-        "Description": "MER: Level 2 multiwavelength space- and ground-based mosaics FITS format, organized by Tile ID",
-        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/MER",
+        "Description": "VIS: Level 2 VIS calibrated frames FITS format, organized by Observation ID",
+        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/VIS",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q1.html",
+        "Contact": "https://irsa.ipac.caltech.edu/docs/help_desk.html",
+        "ManagedBy": "NASA/IPAC Infrared Science Archive ([IRSA](https://irsa.ipac.caltech.edu)) at Caltech",
+        "UpdateFrequency": "Euclid Q1 has been finalized and will not be updated. The data may be presented in new ways as the products become available.",
+        "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
+        "Tags": [
+            "astronomy",
+            "imaging",
+            "object detection",
+            "satellite imagery",
+            "survey"
+        ],
+        "Explore": null,
+        "RequesterPays": false,
+        "ControlledAccess": null,
+        "AccountRequired": false,
+        "Host": null
+    },
+    {
+        "Name": "Euclid Quick Release 1 (Q1)",
+        "Description": "Catalogs: MER final catalog, photometric redshift catalogs, spectroscopic catalogs organized by Tile ID NIR and VIS catalogs of calibrated frame detections, organized by Observation ID FITS format",
+        "ARN": "arn:aws:s3:::nasa-irsa-euclid-q1/q1/catalogs",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://irsa.ipac.caltech.edu/data/Euclid/docs/overview_q1.html",
@@ -10018,6 +10040,35 @@
     },
     {
         "Name": "Fly Brain Anatomy: FlyLight Gen1 and Split-GAL4 Imagery",
+        "Description": "Alignment Templates",
+        "ARN": "arn:aws:s3:::janelia-flylight-templates",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://open.quiltdata.com/b/janelia-flylight-imagery",
+        "Contact": "flylight@janelia.hhmi.org",
+        "ManagedBy": "[Janelia Research Campus](https://www.janelia.org)",
+        "UpdateFrequency": "As required",
+        "License": "[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "biology",
+            "life sciences",
+            "imaging",
+            "neuroscience",
+            "neurobiology",
+            "neuroimaging",
+            "fluorescence imaging",
+            "microscopy",
+            "image processing"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Fly Brain Anatomy: FlyLight Gen1 and Split-GAL4 Imagery",
         "Description": "Imagery and Metadata",
         "ARN": "arn:aws:s3:::janelia-flylight-imagery",
         "Region": "us-east-1",
@@ -10075,38 +10126,9 @@
         "Host": null
     },
     {
-        "Name": "Fly Brain Anatomy: FlyLight Gen1 and Split-GAL4 Imagery",
-        "Description": "Alignment Templates",
-        "ARN": "arn:aws:s3:::janelia-flylight-templates",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://open.quiltdata.com/b/janelia-flylight-imagery",
-        "Contact": "flylight@janelia.hhmi.org",
-        "ManagedBy": "[Janelia Research Campus](https://www.janelia.org)",
-        "UpdateFrequency": "As required",
-        "License": "[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "biology",
-            "life sciences",
-            "imaging",
-            "neuroscience",
-            "neurobiology",
-            "neuroimaging",
-            "fluorescence imaging",
-            "microscopy",
-            "image processing"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "Foldingathome COVID-19 Datasets",
-        "Description": "Simulations of target proteins and bound small molecules from the COVID Moonshot, documented at the MolSSI COVID Hub",
-        "ARN": "arn:aws:s3:::fah-public-data-covid19-moonshot-dynamics",
+        "Description": "Simulations of SARS-CoV-2 and associated host proteins relevant to neutralization by therapeutic antibodies, documented at the MolSSI COVID Hub",
+        "ARN": "arn:aws:s3:::fah-public-data-covid19-antibodies",
         "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/FoldingAtHome/coronavirus",
@@ -10169,8 +10191,8 @@
     },
     {
         "Name": "Foldingathome COVID-19 Datasets",
-        "Description": "Simulations of SARS-CoV-2 and associated host proteins relevant to neutralization by therapeutic antibodies, documented at the MolSSI COVID Hub",
-        "ARN": "arn:aws:s3:::fah-public-data-covid19-antibodies",
+        "Description": "Simulations of SARS-CoV-2 and associated host proteins, with emphasis on discovering druggable cryptic pockets, documented at the MolSSI COVID Hub",
+        "ARN": "arn:aws:s3:::fah-public-data-covid19-cryptic-pockets",
         "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/FoldingAtHome/coronavirus",
@@ -10201,8 +10223,8 @@
     },
     {
         "Name": "Foldingathome COVID-19 Datasets",
-        "Description": "Simulations of SARS-CoV-2 and associated host proteins, with emphasis on discovering druggable cryptic pockets, documented at the MolSSI COVID Hub",
-        "ARN": "arn:aws:s3:::fah-public-data-covid19-cryptic-pockets",
+        "Description": "Simulations of target proteins and bound small molecules from the COVID Moonshot, documented at the MolSSI COVID Hub",
+        "ARN": "arn:aws:s3:::fah-public-data-covid19-moonshot-dynamics",
         "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Documentation": "https://github.com/FoldingAtHome/coronavirus",
@@ -10366,34 +10388,6 @@
     },
     {
         "Name": "GEOGLOWS Hydrological Model Version 2",
-        "Description": "GEOGLOWS V2 Retrospective Simulation",
-        "ARN": "arn:aws:s3:::geoglows-v2-retrospective",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://training.geoglows.org",
-        "Contact": "https://groups.google.com/g/geoglows",
-        "ManagedBy": "Riley Hales",
-        "UpdateFrequency": "Monthly",
-        "License": "[Creative Commons BY 4 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "hydrology",
-            "hydrologic model",
-            "simulations",
-            "zarr",
-            "hydrography",
-            "geopackage"
-        ],
-        "Explore": [
-            "[Browse Bucket](http://geoglows-v2-retrospective.s3-website-us-west-2.amazonaws.com)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "GEOGLOWS Hydrological Model Version 2",
         "Description": "GEOGLOWS V2 Forecasts",
         "ARN": "arn:aws:s3:::geoglows-v2-forecasts",
         "Region": "us-west-2",
@@ -10414,6 +10408,34 @@
         ],
         "Explore": [
             "[Browse Bucket](http://geoglows-v2-forecasts.s3-website-us-west-2.amazonaws.com)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "GEOGLOWS Hydrological Model Version 2",
+        "Description": "GEOGLOWS V2 Retrospective Simulation",
+        "ARN": "arn:aws:s3:::geoglows-v2-retrospective",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://training.geoglows.org",
+        "Contact": "https://groups.google.com/g/geoglows",
+        "ManagedBy": "Riley Hales",
+        "UpdateFrequency": "Monthly",
+        "License": "[Creative Commons BY 4 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "hydrology",
+            "hydrologic model",
+            "simulations",
+            "zarr",
+            "hydrography",
+            "geopackage"
+        ],
+        "Explore": [
+            "[Browse Bucket](http://geoglows-v2-retrospective.s3-website-us-west-2.amazonaws.com)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -23044,8 +23066,8 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB 4km-10min data from the Himawari satellites starting in 2015 in HDF5",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/himawari/",
+        "Description": "NSRDB 4km-15min data from the Meteosat satellites starting in 2017 in HDF5",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/meteosat/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsrdb.nrel.gov/",
@@ -23062,7 +23084,7 @@
             "solar"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=himawari%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=meteosat%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -23233,8 +23255,8 @@
     },
     {
         "Name": "NREL National Solar Radiation Database",
-        "Description": "NSRDB 4km-15min data from the Meteosat satellites starting in 2017 in HDF5",
-        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/meteosat/",
+        "Description": "NSRDB 4km-10min data from the Himawari satellites starting in 2015 in HDF5",
+        "ARN": "arn:aws:s3:::nrel-pds-nsrdb/himawari/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Documentation": "https://nsrdb.nrel.gov/",
@@ -23251,7 +23273,7 @@
             "solar"
         ],
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=meteosat%2F)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-nsrdb&prefix=himawari%2F)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -25720,31 +25742,6 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Transmission function availability indicator - converters (PT-BR Indicador de disponibilidade de fun\u00e7\u00e3o transmiss\u00e3o - conversores)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_disponibilidade_ft_conversor)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
         "Description": "Generation function availability indicators for the National Interconnected System - monthly basis (PT-BR Indicadores de disponibilidade de fun\u00e7\u00e3o gera\u00e7\u00e3o para o Sistema Interligado Nacional (SIN) - base mensal)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
@@ -25762,6 +25759,31 @@
         ],
         "Explore": [
             "[Browse Dataset](https://dados.ons.org.br/dataset/ind-disponibilidade-geracao)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Basic Network Reliability indicator: SM - Severity of Disturbances (PT-BR Indicador de Confiabilidade da Rede B\u00e1sica: SM - Severidade das Perturba\u00e7\u00f5es)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_confiarb_severidade)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -25820,7 +25842,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Basic Network Reliability indicator: SM - Severity of Disturbances (PT-BR Indicador de Confiabilidade da Rede B\u00e1sica: SM - Severidade das Perturba\u00e7\u00f5es)",
+        "Description": "Transmission function availability indicator - converters (PT-BR Indicador de disponibilidade de fun\u00e7\u00e3o transmiss\u00e3o - conversores)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -25836,7 +25858,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_confiarb_severidade)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ind_disponibilidade_ft_conversor)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -25870,7 +25892,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Wind and solar generation capacity factor (PT-BR Fator de capacidade de gera\u00e7\u00e3o e\u00f3lica e solar)",
+        "Description": "Turbinable spilled energy (PT-BR Energia vertida turbin\u00e1vel)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -25886,7 +25908,7 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/fator-capacidade-2)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/energia-vertida-turbinavel)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -25945,31 +25967,6 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Daily affluent natural energy per equivalent energy reservoir (PT-BR Energia Natural Afluente (ENA) di\u00e1rio por REE - reservatorio equivalente de energia)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-ree-reservatorio-equivalente-de-energia)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
         "Description": "Commercial generation for international export (PT-BR Gera\u00e7\u00e3o Comercial Para Exporta\u00e7\u00e3o Internacional)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
@@ -26020,7 +26017,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Reagents control equipment (PT-BR Equipamentos de controle de reativos da rede de opera\u00e7\u00e3o)",
+        "Description": "Wind and solar generation capacity factor (PT-BR Fator de capacidade de gera\u00e7\u00e3o e\u00f3lica e solar)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -26036,7 +26033,32 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/equipamento-controle-reativo)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/fator-capacidade-2)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Generation per power plant on an hourly basis (PT-BR Gera\u00e7\u00e3o por usina em base hor\u00e1ria)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/geracao-usina-2)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -26062,31 +26084,6 @@
         ],
         "Explore": [
             "[Browse Dataset](https://dados.ons.org.br/dataset/geracao-termica-despacho-2)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "ONS Open Data Portal",
-        "Description": "Turbinable spilled energy (PT-BR Energia vertida turbin\u00e1vel)",
-        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://dados.ons.org.br/dataset/",
-        "Contact": "dadosabertos@ons.org.br",
-        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
-        "UpdateFrequency": "diary",
-        "License": "CC-BY 4.0",
-        "Tags": [
-            "aws-pds",
-            "electricity",
-            "hydrography",
-            "energy"
-        ],
-        "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/energia-vertida-turbinavel)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -26195,7 +26192,7 @@
     },
     {
         "Name": "ONS Open Data Portal",
-        "Description": "Generation per power plant on an hourly basis (PT-BR Gera\u00e7\u00e3o por usina em base hor\u00e1ria)",
+        "Description": "Daily affluent natural energy per equivalent energy reservoir (PT-BR Energia Natural Afluente (ENA) di\u00e1rio por REE - reservatorio equivalente de energia)",
         "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -26211,7 +26208,32 @@
             "energy"
         ],
         "Explore": [
-            "[Browse Dataset](https://dados.ons.org.br/dataset/geracao-usina-2)"
+            "[Browse Dataset](https://dados.ons.org.br/dataset/ena-diario-por-ree-reservatorio-equivalente-de-energia)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ONS Open Data Portal",
+        "Description": "Reagents control equipment (PT-BR Equipamentos de controle de reativos da rede de opera\u00e7\u00e3o)",
+        "ARN": "arn:aws:s3:::ons-aws-prod-opendata",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dados.ons.org.br/dataset/",
+        "Contact": "dadosabertos@ons.org.br",
+        "ManagedBy": "[ONS - National Electric System Operator](https://www.ons.org.br/)",
+        "UpdateFrequency": "diary",
+        "License": "CC-BY 4.0",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "hydrography",
+            "energy"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://dados.ons.org.br/dataset/equipamento-controle-reativo)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -26454,6 +26476,32 @@
             "oceans",
             "ocean velocity",
             "ocean sea surface height"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "OceanOmics",
+        "Description": "https://githubcom/MinderooFoundation/OceanOmics-OpenData/blob/master/aws-public-datamd",
+        "ARN": "arn:aws:s3:::minderoo-oceanomics",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://edna.minderoo.org",
+        "Contact": "oceanomics@minderoo.org",
+        "ManagedBy": "Minderoo Foundation OceanOmics (Dr Shannon Corrigan, Dr Philipp Bayer)",
+        "UpdateFrequency": "Data will be continually updated as it is generated.",
+        "License": "CC-BY 4.0 https://creativecommons.org/licenses/by/4.0/deed.en",
+        "Tags": [
+            "biodiversity",
+            "bioinformatics",
+            "biology",
+            "conservation",
+            "genetic",
+            "genomic",
+            "life sciences"
         ],
         "Explore": null,
         "RequesterPays": null,
