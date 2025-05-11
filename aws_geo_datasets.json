@@ -5989,32 +5989,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
-        "Region": "ap-southeast-2",
-        "Type": "S3 Bucket",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
         "Region": "ap-southeast-2",
         "Type": "SNS Topic",
@@ -6037,11 +6011,11 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
-        "Type": "SNS Topic",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -6055,7 +6029,9 @@
             "conservation",
             "life sciences"
         ],
-        "Explore": null,
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -6087,11 +6063,11 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
+        "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -6105,9 +6081,7 @@
             "conservation",
             "life sciences"
         ],
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -6132,6 +6106,32 @@
             "life sciences"
         ],
         "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -12317,6 +12317,29 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -12341,29 +12364,6 @@
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13739,7 +13739,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -13762,7 +13762,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -16135,6 +16135,90 @@
         "Host": null
     },
     {
+        "Name": "Ocean Radar - Capricorn bunker group site - Wind - Delayed mode",
+        "Description": "Cloud Optimised AODN dataset of IMOS - ACORN - Capricorn Bunker Group HF ocean radar site (Great Barrier Reef, Queensland, Australia) - Delayed mode wind",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/radar_CapricornBunkerGroup_wind_delayed_qc.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/742dc902-b300-4e3e-839f-04d03671aa09",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "ocean currents",
+            "meteorological"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Ocean Radar - Coffs Harbour site - Wind - Delayed mode",
+        "Description": "Cloud Optimised AODN dataset of IMOS - ACORN - Coffs Harbour HF ocean radar site (New South Wales, Australia) - Delayed mode wind",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/radar_CoffsHarbour_wind_delayed_qc.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/ffe8f19c-de4a-4362-89be-7605b2dd6b8c",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "ocean currents",
+            "meteorological"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Ocean Radar - Rottnest shelf site - Wind - Delayed mode",
+        "Description": "Cloud Optimised AODN dataset of IMOS - ACORN - Rottnest Shelf HF ocean radar site (Western Australia, Australia) - Delayed mode wind",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/radar_RottnestShelf_wind_delayed_qc.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/5ad9a6da-3f0b-4b2f-8212-48b386e1b98c",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "ocean currents",
+            "meteorological"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Ocean Radar - South Australian gulfs site - Wind - Delayed mode",
+        "Description": "Cloud Optimised AODN dataset of IMOS - ACORN - South Australia Gulfs HF ocean radar site (South Australia, Australia) - Delayed mode wind",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/radar_SouthAustraliaGulfs_wind_delayed_qc.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/db049981-3d4e-4cb2-9c4b-e697650845b9",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "ocean currents",
+            "meteorological"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Open City Model (OCM)",
         "Description": "Project data files",
         "ARN": "arn:aws:s3:::opencitymodel",
@@ -18200,6 +18284,132 @@
         "Host": null
     },
     {
+        "Name": "Satellite - Ocean Colour -  NOAA20 - 1 day - Chlorophyll-a concentration (GSM model)",
+        "Description": "Cloud Optimised AODN dataset of IMOS - Satellite Remote Sensing - NOAA20 - 01 day - Chlorophyll-a concentration (GSM model)",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_chlorophylla_gsm_1day_noaa20.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/ad4d6908-3a36-4991-996a-5b00ac162794",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "satellite imagery",
+            "biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Satellite - Ocean Colour -  NOAA20 - 1 day - Chlorophyll-a concentration (OC3 model)",
+        "Description": "Cloud Optimised AODN dataset of IMOS - Satellite Remote Sensing - NOAA20 - 01 day - Chlorophyll-a concentration (OC3 model)",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_chlorophylla_oc3_1day_noaa20.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/77f46a04-f07d-4968-a5f9-1da8df9706a7",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "satellite imagery",
+            "biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Satellite - Ocean Colour -  NOAA20 - 1 day - Chlorophyll-a concentration (OCI model)",
+        "Description": "Cloud Optimised AODN dataset of IMOS - Satellite Remote Sensing - NOAA20 - 01 day - Chlorophyll-a concentration (OCI model)",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_chlorophylla_oci_1day_noaa20.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/a9e03db8-f277-45d1-821d-cfcbfe8ae6be",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "satellite imagery",
+            "biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Satellite - Ocean Colour -  SNPP - 1 day - Chlorophyll-a concentration (GSM model)",
+        "Description": "Cloud Optimised AODN dataset of IMOS - Satellite Remote Sensing - SNPP - 01 day - Chlorophyll-a concentration (GSM model)",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_chlorophylla_gsm_1day_snpp.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/6447f562-9063-4879-8598-ca0b5c4e0175",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "satellite imagery",
+            "biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Satellite - Ocean Colour -  SNPP - 1 day - Chlorophyll-a concentration (OC3 model)",
+        "Description": "Cloud Optimised AODN dataset of IMOS - Satellite Remote Sensing - SNPP - 01 day - Chlorophyll-a concentration (OC3 model)",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_chlorophylla_oc3_1day_snpp.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/d222bd3f-b1a8-46f1-b462-90e44c5d9b44",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "satellite imagery",
+            "biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Satellite - Ocean Colour -  SNPP - 1 day - Chlorophyll-a concentration (OCI model)",
+        "Description": "Cloud Optimised AODN dataset of IMOS - Satellite Remote Sensing - SNPP - 01 day - Chlorophyll-a concentration (OCI model)",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_chlorophylla_oci_1day_snpp.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/d7f9eb3f-b81e-4421-8c75-761ffb33db5d",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "satellite imagery",
+            "biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Satellite - Ocean Colour - MODIS - 1 day - Diffuse attenuation coefficient (k490)",
         "Description": "Cloud Optimised AODN dataset of IMOS - SRS - MODIS - 01 day - Diffuse attenuation coefficient (k490 )",
         "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_diffuse_attenuation_coefficent_1day_aqua.zarr",
@@ -18311,6 +18521,48 @@
         "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/bc428d0b-eff7-41b9-8d4c-10e666ee1312",
         "Contact": "FILL UP MANUALLY - CHECK DOCUMENTATION",
         "ManagedBy": "FILL UP MANUALLY - CHECK DOCUMENTATION",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "satellite imagery",
+            "biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Satellite - Ocean Colour - NOAA20 - 1 day - Diffuse attenuation coefficient (k490)",
+        "Description": "Cloud Optimised AODN dataset of IMOS - Satellite Remote Sensing - NOAA20 - 01 day - Diffuse attenuation coefficient (k490)",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_diffuse_attenuation_coefficent_1day_noaa20.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/37751f5b-3c93-40df-9913-951df310cbc8",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
+        "UpdateFrequency": "As Needed",
+        "License": "http://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "oceans",
+            "satellite imagery",
+            "biology"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Satellite - Ocean Colour - SNPP - 1 day - Diffuse attenuation coefficient (k490)",
+        "Description": "Cloud Optimised AODN dataset of IMOS - Satellite Remote Sensing - SNPP - 01 day - Diffuse attenuation coefficient (k490)",
+        "ARN": "arn:aws:s3:::aodn-cloud-optimised/satellite_diffuse_attenuation_coefficent_1day_snpp.zarr",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://catalogue-imos.aodn.org.au/geonetwork/srv/eng/catalog.search#/metadata/697aa9e7-bf24-4f9e-9950-d5cfd78f1b35",
+        "Contact": "info@aodn.org.au",
+        "ManagedBy": "AODN",
         "UpdateFrequency": "As Needed",
         "License": "http://creativecommons.org/licenses/by/4.0/",
         "Tags": [
