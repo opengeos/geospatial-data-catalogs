@@ -598,6 +598,32 @@
         "accessInfo": null
     },
     {
+        "title": "Lantm\u00e4teriets katalog f\u00f6r nedladdning av h\u00f6jddata",
+        "id": 118,
+        "url": "https://api.lantmateriet.se/stac-hojd/v1",
+        "slug": "lantmateriets-katalog-for-nedladdning-av-hojddata",
+        "summary": "The catalog contains elevation data from Lantm\u00e4teriet over Sweden, which is free of charge and available for use under the Creative Commons license CC BY 4.0.",
+        "access": "private",
+        "created": "2025-05-17T16:38:43.715Z",
+        "updated": "2025-05-17T16:38:43.715Z",
+        "isPrivate": true,
+        "isApi": false,
+        "accessInfo": "I actually don\u00b4t know under what Access right it falls under, you need to order it through Lantm\u00e4teriets site GeoTorget and use Auth. More information: https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/markhojdmodell-nedladdning/#anchor-3"
+    },
+    {
+        "title": "Lantm\u00e4teriets katalog f\u00f6r nedladdning av ortofoton",
+        "id": 117,
+        "url": "https://api.lantmateriet.se/stac-bild/v1",
+        "slug": "lantmateriets-katalog-for-nedladdning-av-ortofoton",
+        "summary": "Katalogen inneh\u00e5ller ortofoton fr\u00e5n Lantm\u00e4teriet som \u00e4r avgiftsfria och tillg\u00e4ngliga f\u00f6r anv\u00e4ndning under Creative Commons licens CC BY 4.0. Din anv\u00e4ndning kommer att pr\u00f6vas juridiskt, i enlighet med dataskyddsf\u00f6rordningen (GDPR), och du beh\u00f6ver godk\u00e4nna s\u00e4rskilda anv\u00e4ndningsvillkor.",
+        "access": "protected",
+        "created": "2025-05-17T16:30:47.733Z",
+        "updated": "2025-05-17T16:30:47.733Z",
+        "isPrivate": true,
+        "isApi": false,
+        "accessInfo": "To get access to this dat you need to order it in Lantm\u00e4teriets portal GeoTorget. https://geotorget.lantmateriet.se/dokumentation/GEODOK/44/latest/atkomst-och-leverans.html"
+    },
+    {
         "title": "MSC GeoMet - GeoMet-OGC-API",
         "id": 29,
         "url": "https://api.weather.gc.ca/stac/?f=json",
