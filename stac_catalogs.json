@@ -598,32 +598,6 @@
         "accessInfo": null
     },
     {
-        "title": "Lantm\u00e4teriets katalog f\u00f6r nedladdning av h\u00f6jddata",
-        "id": 118,
-        "url": "https://api.lantmateriet.se/stac-hojd/v1",
-        "slug": "lantmateriets-katalog-for-nedladdning-av-hojddata",
-        "summary": "The catalog contains elevation data from Lantm\u00e4teriet over Sweden, which is free of charge and available for use under the Creative Commons license CC BY 4.0.",
-        "access": "private",
-        "created": "2025-05-17T16:38:43.715Z",
-        "updated": "2025-05-17T16:38:43.715Z",
-        "isPrivate": true,
-        "isApi": false,
-        "accessInfo": "I actually don\u00b4t know under what Access right it falls under, you need to order it through Lantm\u00e4teriets site GeoTorget and use Auth. More information: https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/markhojdmodell-nedladdning/#anchor-3"
-    },
-    {
-        "title": "Lantm\u00e4teriets katalog f\u00f6r nedladdning av ortofoton",
-        "id": 117,
-        "url": "https://api.lantmateriet.se/stac-bild/v1",
-        "slug": "lantmateriets-katalog-for-nedladdning-av-ortofoton",
-        "summary": "Katalogen inneh\u00e5ller ortofoton fr\u00e5n Lantm\u00e4teriet som \u00e4r avgiftsfria och tillg\u00e4ngliga f\u00f6r anv\u00e4ndning under Creative Commons licens CC BY 4.0. Din anv\u00e4ndning kommer att pr\u00f6vas juridiskt, i enlighet med dataskyddsf\u00f6rordningen (GDPR), och du beh\u00f6ver godk\u00e4nna s\u00e4rskilda anv\u00e4ndningsvillkor.",
-        "access": "protected",
-        "created": "2025-05-17T16:30:47.733Z",
-        "updated": "2025-05-17T16:30:47.733Z",
-        "isPrivate": true,
-        "isApi": false,
-        "accessInfo": "To get access to this dat you need to order it in Lantm\u00e4teriets portal GeoTorget. https://geotorget.lantmateriet.se/dokumentation/GEODOK/44/latest/atkomst-och-leverans.html"
-    },
-    {
         "title": "MSC GeoMet - GeoMet-OGC-API",
         "id": 29,
         "url": "https://api.weather.gc.ca/stac/?f=json",
@@ -635,6 +609,19 @@
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
+    },
+    {
+        "title": "Markh\u00f6jdmodell Nedladdning Lantm\u00e4teriet",
+        "id": 118,
+        "url": "https://api.lantmateriet.se/stac-hojd/v1",
+        "slug": "markhojdmodell-nedladdning-lantmateriet",
+        "summary": "The catalog contains elevation data from Lantm\u00e4teriet over Sweden, which is free of charge and available for use under the Creative Commons license CC BY 4.0.",
+        "access": "protected",
+        "created": "2025-05-17T16:38:43.715Z",
+        "updated": "2025-05-19T10:38:43.715Z",
+        "isPrivate": true,
+        "isApi": true,
+        "accessInfo": "To get access to this data you need to order access to it in Lantm\u00e4teriets portal GeoTorget: https://www.lantmateriet.se/sv/geodata/vara-produkter/produktlista/markhojdmodell-nedladdning/#anchor-3"
     },
     {
         "title": "Maxar ARD Sample Data",
@@ -843,6 +830,19 @@
         "isPrivate": true,
         "isApi": true,
         "accessInfo": "Please see [openeo.cloud](https://openeo.cloud) for more information on how to get access to the Platform API."
+    },
+    {
+        "title": "Ortofoto Nedladdning Lantm\u00e4teriet",
+        "id": 117,
+        "url": "https://api.lantmateriet.se/stac-bild/v1",
+        "slug": "ortofoto-nedladdning-lantmateriet",
+        "summary": "The catalog contains orthophotos from Lantm\u00e4teriet over Sweden that are free of charge, using Creative Commons license CC BY 4.0. Your use will be subject to legal review in accordance with the General Data Protection Regulation (GDPR), you will need to agree to specific terms of use.",
+        "access": "protected",
+        "created": "2025-05-17T16:30:47.733Z",
+        "updated": "2025-05-19T10:30:47.733Z",
+        "isPrivate": true,
+        "isApi": true,
+        "accessInfo": "To get access to this data you need to order access to it in Lantm\u00e4teriets portal GeoTorget: https://geotorget.lantmateriet.se/dokumentation/GEODOK/44/latest/atkomst-och-leverans.html"
     },
     {
         "title": "Paituli STAC (Finland)",
