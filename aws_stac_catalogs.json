@@ -19,7 +19,7 @@
     },
     {
         "Name": "Amazonia EO satellite on AWS",
-        "Endpoint": "https://stac.amskepler.com/v100",
+        "Endpoint": "https://stac.scitekno.com.br/v100",
         "Description": "Amazonia 1 imagery (COG files, quicklooks, metadata)",
         "ARN": "arn:aws:s3:::brazil-eosats",
         "Region": "us-west-2",
@@ -55,7 +55,7 @@
     },
     {
         "Name": "CBERS on AWS",
-        "Endpoint": "https://stac.amskepler.com/v100",
+        "Endpoint": "https://stac.scitekno.com.br/v100",
         "Description": "CBERS imagery (COG files, quicklooks, metadata)",
         "ARN": "arn:aws:s3:::brazil-eosats",
         "Region": "us-west-2",
@@ -72,7 +72,16 @@
         "RequesterPays": false
     },
     {
-        "Name": "Digital Earth Africa ALOS PALSAR, ALOS-2 PALSAR-2 and JERS-1",
+        "Name": "DE Africa Waterbodies Monitoring Service",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/waterbodies",
+        "Description": "DE Africa Waterbodies",
+        "ARN": "arn:aws:s3:::deafrica-services/waterbodies",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "Digital Earth Africa ALOS PALSAR",
         "Endpoint": "https://explorer.digitalearth.africa/stac/collections/alos_palsar_mosaic",
         "Description": "ALOS PALSAR ALOS-2 PALSAR-2 data",
         "ARN": "arn:aws:s3:::deafrica-input-datasets/alos_palsar_mosaic",
@@ -252,7 +261,7 @@
         "RequesterPays": false
     },
     {
-        "Name": "ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites - ESA WorldCover S1 composites. The bucket contains 1 Sentinel-1 annual composite for the years 2020 and 2021. A 3 bands GAMMA0 yearly median composite (VV, VH, VH-VV), power scaled.",
+        "Name": "ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites - ESA WorldCover S1 composites",
         "Endpoint": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/esa_worldcover_grid_composites.fgb",
         "Description": "ESA WorldCover S1 composites. The bucket contains 1 Sentinel-1 annual composite for the years 2020 and 2021. A 3 bands GAMMA0 yearly median composite (VV, VH, VH/VV), power scaled.",
         "ARN": "arn:aws:s3:::esa-worldcover-s1",
@@ -261,7 +270,7 @@
         "RequesterPays": false
     },
     {
-        "Name": "ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites - ESA WorldCover S2 composites. The bucket contains the 3 Sentinel-2 L2A annual composites for the years 2020 and 2021. A 4 bands RGBNIR yearly median composite (B02, B03, B04, B08), a 2 bands SWIR yearly median composite (B11, B12) and a 3 bands NDVI yearly percentiles composite (NDVI p90, NDVI p50, NDVI p10).",
+        "Name": "ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites - ESA WorldCover S2 composites",
         "Endpoint": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/esa_worldcover_grid_composites.fgb",
         "Description": "ESA WorldCover S2 composites. The bucket contains the 3 Sentinel-2 L2A annual composites for the years 2020 and 2021. A 4 bands RGBNIR yearly median composite (B02, B03, B04, B08), a 2 bands SWIR yearly median composite (B11, B12) and a 3 bands NDVI yearly percentiles composite (NDVI p90, NDVI p50, NDVI p10).",
         "ARN": "arn:aws:s3:::esa-worldcover-s2",
@@ -432,6 +441,24 @@
         "RequesterPays": null
     },
     {
+        "Name": "NOAA Coastal Lidar Data",
+        "Endpoint": "https://noaa-nos-coastal-lidar-pds.s3.us-east-1.amazonaws.com/entwine/stac/catalog.json",
+        "Description": "NOAA Coastal Lidar Dataset",
+        "ARN": "arn:aws:s3:::noaa-nos-coastal-lidar-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
+        "Name": "NOAA Unified Forecast System (UFS) Coastal Model",
+        "Endpoint": "https://noaa-ufs-coastal-pds.s3.amazonaws.com/index.html",
+        "Description": "NOAA UFS Coastal Data",
+        "ARN": "arn:aws:s3:::noaa-ufs-coastal-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "RCM CEOS Analysis Ready Data | Donn\u00e9es pr\u00eates \u00e0 l'analyse du CEOS pour le MCR",
         "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard/items/",
         "Description": "RCM CEOS Analysis Ready Data. Donn\u00e9es pr\u00eates \u00e0 l'analyse (DPA) du CEOS pour le MCR",
@@ -459,6 +486,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "Satellogic EarthView dataset",
+        "Endpoint": "https://satellogic-earthview.s3.us-west-2.amazonaws.com/stac/catalog.json",
+        "Description": "Satellogic data includes TOA RGBN COG, VISUAL RGB COG files data and metadata",
+        "ARN": "arn:aws:s3:::satellogic-earthview",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
         "Name": "Sentinel Near Real-time Canada Mirror | Miroir Sentinel temps quasi r\u00e9el du Canada",
         "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/",
         "Description": "Sentinel data over Canada | Donn\u00e9es sentinelles au Canada.",
@@ -468,7 +504,7 @@
         "RequesterPays": null
     },
     {
-        "Name": "Sentinel-2 - Level 1C scenes and metadata, in [Requester Pays](https:--docs.aws.amazon.com-AmazonS3-latest-dev-RequesterPaysBuckets.html) S3 bucket",
+        "Name": "Sentinel-2 - Level 1C scenes and metadata",
         "Endpoint": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l1c",
         "Description": "Level 1C scenes and metadata, in [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html) S3 bucket",
         "ARN": "arn:aws:s3:::sentinel-s2-l1c",
@@ -477,7 +513,7 @@
         "RequesterPays": true
     },
     {
-        "Name": "Sentinel-2 - Level 2A scenes and metadata, in [Requester Pays](https:--docs.aws.amazon.com-AmazonS3-latest-dev-RequesterPaysBuckets.html) S3 bucket",
+        "Name": "Sentinel-2 - Level 2A scenes and metadata",
         "Endpoint": "https://sentinel-s2-l2a-stac.s3.amazonaws.com/",
         "Description": "Level 2A scenes and metadata, in [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html) S3 bucket",
         "ARN": "arn:aws:s3:::sentinel-s2-l2a",
