@@ -261,7 +261,7 @@
         "RequesterPays": false
     },
     {
-        "Name": "ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites - ESA WorldCover S1 composites",
+        "Name": "ESA WorldCover S1 composites",
         "Endpoint": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/esa_worldcover_grid_composites.fgb",
         "Description": "ESA WorldCover S1 composites. The bucket contains 1 Sentinel-1 annual composite for the years 2020 and 2021. A 3 bands GAMMA0 yearly median composite (VV, VH, VH/VV), power scaled.",
         "ARN": "arn:aws:s3:::esa-worldcover-s1",
@@ -270,7 +270,7 @@
         "RequesterPays": false
     },
     {
-        "Name": "ESA WorldCover Sentinel-1 and Sentinel-2 10m Annual Composites - ESA WorldCover S2 composites",
+        "Name": "ESA WorldCover S2 composites",
         "Endpoint": "https://esa-worldcover.s3.eu-central-1.amazonaws.com/esa_worldcover_grid_composites.fgb",
         "Description": "ESA WorldCover S2 composites. The bucket contains the 3 Sentinel-2 L2A annual composites for the years 2020 and 2021. A 4 bands RGBNIR yearly median composite (B02, B03, B04, B08), a 2 bands SWIR yearly median composite (B11, B12) and a 3 bands NDVI yearly percentiles composite (NDVI p90, NDVI p50, NDVI p10).",
         "ARN": "arn:aws:s3:::esa-worldcover-s2",
@@ -319,42 +319,6 @@
         "Endpoint": "https://its-live-data.s3.amazonaws.com/index.html",
         "Description": "ITS_LIVE Data S3 Bucket",
         "ARN": "arn:aws:s3:::its-live-data",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "RequesterPays": null
-    },
-    {
-        "Name": "JAXA - USGS - NASA Kaguya-SELENE Terrain Camera Digital Terrain Models",
-        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_usgs_dtms",
-        "Description": "Digital terrain models, orthoimages, shaded reliefs, and quality assurance documents",
-        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/usgs_dtms/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "RequesterPays": null
-    },
-    {
-        "Name": "JAXA - USGS - NASA Kaguya-SELENE Terrain Camera Observations - Scenes and metadata for monoscopic observing mode",
-        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_monoscopic_uncontrolled_observations",
-        "Description": "Scenes and metadata for monoscopic observing mode",
-        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/monoscopic/uncontrolled/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "RequesterPays": null
-    },
-    {
-        "Name": "JAXA - USGS - NASA Kaguya-SELENE Terrain Camera Observations - Scenes and metadata for spectral profiler (spsupport) observing mode",
-        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_spsupport_uncontrolled_observations",
-        "Description": "Scenes and metadata for spectral profiler (spsupport) observing mode",
-        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/spsupport/uncontrolled/",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "RequesterPays": null
-    },
-    {
-        "Name": "JAXA - USGS - NASA Kaguya-SELENE Terrain Camera Observations - Scenes and metadata for stereoscopic observing mode",
-        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_stereoscopic_uncontrolled_observations",
-        "Description": "Scenes and metadata for stereoscopic observing mode",
-        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/stereoscopic/uncontrolled/",
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "RequesterPays": null
@@ -441,6 +405,42 @@
         "RequesterPays": null
     },
     {
+        "Name": "NASA Kaguya-SELENE Terrain Camera Digital Terrain Models",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_usgs_dtms",
+        "Description": "Digital terrain models, orthoimages, shaded reliefs, and quality assurance documents",
+        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/usgs_dtms/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
+        "Name": "NASA Kaguya-SELENE Terrain Camera Observations - monoscopic observing mode",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_monoscopic_uncontrolled_observations",
+        "Description": "monoscopic observing mode",
+        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/monoscopic/uncontrolled/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
+        "Name": "NASA Kaguya-SELENE Terrain Camera Observations - spectral profiler (spsupport) observing mode",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_spsupport_uncontrolled_observations",
+        "Description": "spectral profiler (spsupport) observing mode",
+        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/spsupport/uncontrolled/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
+        "Name": "NASA Kaguya-SELENE Terrain Camera Observations - stereoscopic observing mode",
+        "Endpoint": "https://stac.astrogeology.usgs.gov/browser-dev/#/api/collections/kaguya_terrain_camera_stereoscopic_uncontrolled_observations",
+        "Description": "stereoscopic observing mode",
+        "ARN": "arn:aws:s3:::astrogeo-ard/moon/kaguya/terrain_camera/stereoscopic/uncontrolled/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "NOAA Coastal Lidar Data",
         "Endpoint": "https://noaa-nos-coastal-lidar-pds.s3.us-east-1.amazonaws.com/entwine/stac/catalog.json",
         "Description": "NOAA Coastal Lidar Dataset",
@@ -459,7 +459,7 @@
         "RequesterPays": null
     },
     {
-        "Name": "RCM CEOS Analysis Ready Data | Donn\u00e9es pr\u00eates \u00e0 l'analyse du CEOS pour le MCR",
+        "Name": "RCM CEOS Analysis Ready Data ",
         "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard/items/",
         "Description": "RCM CEOS Analysis Ready Data. Donn\u00e9es pr\u00eates \u00e0 l'analyse (DPA) du CEOS pour le MCR",
         "ARN": "arn:aws:s3:::rcm-ceos-ard",
@@ -495,7 +495,7 @@
         "RequesterPays": false
     },
     {
-        "Name": "Sentinel Near Real-time Canada Mirror | Miroir Sentinel temps quasi r\u00e9el du Canada",
+        "Name": "Sentinel Near Real-time Canada Mirror ",
         "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/",
         "Description": "Sentinel data over Canada | Donn\u00e9es sentinelles au Canada.",
         "ARN": "arn:aws:s3:::sentinel-products-ca-mirror",
