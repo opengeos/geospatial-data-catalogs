@@ -1610,6 +1610,37 @@
         "Host": null
     },
     {
+        "Name": "Canopy Tree Height maps for the Amazon Forest (mean height composite 2020-2024) by CTrees.org",
+        "Description": "Cloud-optimized GeoTIFF files with names corresponding to the tiling system of the Norway's International Climate and Forest Initiative (NICFI) Satellite Data Program",
+        "ARN": "arn:aws:s3:::ctrees-amazon-canopy-height",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "[Project overview](https://ctrees.org/products/tree-level)",
+        "Contact": "info@ctrees.org",
+        "ManagedBy": "[CTrees](https://ctrees.org/)",
+        "UpdateFrequency": "TBD",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "aws-pds",
+            "cog",
+            "earth observation",
+            "land cover",
+            "deep learning",
+            "lidar",
+            "satellite imagery",
+            "image processing",
+            "environmental",
+            "conservation",
+            "geospatial"
+        ],
+        "Explore": [
+            "[Browse CTrees Bucket](https://ctrees-amazon-canopy-height.s3.us-west-2.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Capella Space Synthetic Aperture Radar (SAR) Open Dataset - Capella Space Open Data in COG format",
         "Description": "Capella Space Open Data in COG format",
         "ARN": "arn:aws:s3:::capella-open-data/data/",
@@ -20042,7 +20073,9 @@
             "conservation",
             "geospatial"
         ],
-        "Explore": null,
+        "Explore": [
+            "[Browse CTrees Bucket](https://ctrees-tree-height-ca-2020.s3.us-west-2.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
