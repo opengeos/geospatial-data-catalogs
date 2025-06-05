@@ -522,7 +522,16 @@
         "RequesterPays": true
     },
     {
-        "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs",
+        "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - Collection 1 Level 2A scenes and metadata",
+        "Endpoint": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-c1-l2a",
+        "Description": "Collection 1 Level 2A scenes and metadata",
+        "ARN": "arn:aws:s3:::e84-earth-search-sentinel-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - Level 2A scenes and metadata",
         "Endpoint": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a",
         "Description": "Level 2A scenes and metadata",
         "ARN": "arn:aws:s3:::sentinel-cogs",
