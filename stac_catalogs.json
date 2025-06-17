@@ -728,6 +728,19 @@
         "accessInfo": null
     },
     {
+        "title": "New Zealand Coastal Elevation",
+        "id": 122,
+        "url": "https://nz-coastal.s3-ap-southeast-2.amazonaws.com/catalog.json",
+        "slug": "nz-coastal",
+        "summary": "Toit\u016b Te Whenua Land Information New Zealand makes New Zealand's publicly owned coastal elevation archive freely available to use under an open licence. This public S3 bucket has been made available to enable bulk access and cloud-based data processing.",
+        "access": "public",
+        "created": "2025-06-17T00:40:56.767Z",
+        "updated": "2025-06-17T00:40:56.767Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "New Zealand Elevation",
         "id": 92,
         "url": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/catalog.json",
@@ -1068,12 +1081,12 @@
     {
         "title": "Terrascope",
         "id": 62,
-        "url": "https://services.terrascope.be/stac/",
+        "url": "https://stac.terrascope.be",
         "slug": "terrascope",
-        "summary": "VITO Remote Sensing EO Data Catalogue for the Terrascope platform. Offers Sentinel-1/2/5P, PROBA-V, WorldCover, DEMs, CLS and more.",
+        "summary": "Terrascope is the Belgian Earth Observation Data Space. It provides easy access to Copernicus, PROBA-V, and SPOT-VEGETATION satellite data, products, and services. The access is free and open to all registered users, see [documentation](https://docs.terrascope.be/).",
         "access": "protected",
         "created": "2023-01-04T11:14:18.546Z",
-        "updated": "2023-01-04T11:14:18.546Z",
+        "updated": "2025-06-16T16:14:18.546Z",
         "isPrivate": true,
         "isApi": true,
         "accessInfo": "You need to register yourself a Terrascope account at <https://portal.terrascope.be/home> and subscribe to a paid plan."
