@@ -1610,6 +1610,33 @@
         "Host": null
     },
     {
+        "Name": "CanElevation - LiDAR Point Clouds",
+        "Description": "LiDAR Point Clouds Nuages de points lidar",
+        "ARN": "arn:aws:s3:::canelevation-lidar-point-clouds",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://open.canada.ca/data/en/dataset/7069387e-9986-4297-9f55-0288e9676947",
+        "Contact": "geoinfo@nrcan-rncan.gc.ca",
+        "ManagedBy": "[Natural Resources Canada](https://www.nrcan.gc.ca/)",
+        "UpdateFrequency": "The dataset is updated as new LiDAR data becomes available.\nL'ensemble de donn\u00e9es est mis \u00e0 jour \u00e0 mesure que de nouvelles donn\u00e9es LiDAR deviennent disponibles.",
+        "License": "The LiDAR Point Clouds dataset is available free of charge under the [Open Government License - Canada](https://open.canada.ca/en/open-government-licence-canada).Le jeu de donn\u00e9es Nuages de points LiDAR est disponible gratuitement sous la [licence du gouvernement ouvert - Canada](https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada).",
+        "Tags": [
+            "aws-pds",
+            "lidar",
+            "elevation",
+            "geospatial",
+            "floods",
+            "land",
+            "urban"
+        ],
+        "Explore": [
+            "[LiDAR Data on Open Canada](https://open.canada.ca/data/en/dataset/7069387e-9986-4297-9f55-0288e9676947)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Canopy Tree Height Map for the Amazon Forest (mean height composite 2020-2024) by CTrees.org",
         "Description": "Cloud-optimized GeoTIFF files with names corresponding to the tiling system of the Norway's International Climate and Forest Initiative (NICFI) Satellite Data Program",
         "ARN": "arn:aws:s3:::ctrees-amazon-canopy-height",
@@ -6020,6 +6047,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -6039,30 +6090,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -6170,6 +6197,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
         "Type": "S3 Bucket",
@@ -6189,30 +6240,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -12189,6 +12216,58 @@
         "Host": null
     },
     {
+        "Name": "NOAA HYSPLIT-compatible meteorological data archives - HYSPLIT-compatible meteorological data archives",
+        "Description": "HYSPLIT-compatible meteorological data archives",
+        "ARN": "arn:aws:s3:::noaa-oar-arl-hysplit-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "For the description of each archive listed above, please refer to their respective README file at  https://www.ready.noaa.gov/archives.php. For information on HYSPLIT, please consult https://www.arl.noaa.gov/hysplit/.",
+        "Contact": "For questions regarding ARL HYSPLIT data content or quality, contact arl.webmaster@noaa.gov. For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "At present, the following five datasets are updated every day or every week:\n<br/> \n**HRRR 3 km archive (Jun 2019 - present) - daily** \n**NAMS Hybrid sigma-pressure archive (2010 - present) - daily**\n**NAM 12 km archive (May 2007 - present) - daily**\n**GDAS one-degree archive (Dec 2004 - present) - weekly**\n**GFS quarter-degree archive (Jun 2019 - present) - daily**\n<br/>\nThe following two datasets are updated monthly:\n<br/>\n**NCEP/NCAR reanalysis archive (1948 - present) - monthly, typically around the 5th of the following month.**\n**Weather research and forecasting model 27 km archive (1980 - present) - monthly, typically with a delay of two to three months.**\n<br/>\nThe following datasets are no longer updated:\n<br/>\n**HRRR 3 km version 1 archive (Jun 2015 - Jul 2019) - frozen**\n**GDAS half-degree archive (Sep 2007 - Jun 2019) - frozen**\n**FNL archive (1997 - 2006) - frozen**\n**NGM archive (Jan 1991 - Apr 1997) - frozen**\n**NAM data assimilation system archive (2004 - 2018) - frozen**\n**NAM(Eta) data assimilation system archive (1997 - 2004) - frozen**\n**NARR archive (1979 - 2019) - frozen**\n",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://noaa-oar-arl-hysplit-pds.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA HYSPLIT-compatible meteorological data archives - New data notifications for ARL HYSPLIT, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for ARL HYSPLIT, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewHYSPLITObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "For the description of each archive listed above, please refer to their respective README file at  https://www.ready.noaa.gov/archives.php. For information on HYSPLIT, please consult https://www.arl.noaa.gov/hysplit/.",
+        "Contact": "For questions regarding ARL HYSPLIT data content or quality, contact arl.webmaster@noaa.gov. For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "At present, the following five datasets are updated every day or every week:\n<br/> \n**HRRR 3 km archive (Jun 2019 - present) - daily** \n**NAMS Hybrid sigma-pressure archive (2010 - present) - daily**\n**NAM 12 km archive (May 2007 - present) - daily**\n**GDAS one-degree archive (Dec 2004 - present) - weekly**\n**GFS quarter-degree archive (Jun 2019 - present) - daily**\n<br/>\nThe following two datasets are updated monthly:\n<br/>\n**NCEP/NCAR reanalysis archive (1948 - present) - monthly, typically around the 5th of the following month.**\n**Weather research and forecasting model 27 km archive (1980 - present) - monthly, typically with a delay of two to three months.**\n<br/>\nThe following datasets are no longer updated:\n<br/>\n**HRRR 3 km version 1 archive (Jun 2015 - Jul 2019) - frozen**\n**GDAS half-degree archive (Sep 2007 - Jun 2019) - frozen**\n**FNL archive (1997 - 2006) - frozen**\n**NGM archive (Jan 1991 - Apr 1997) - frozen**\n**NAM data assimilation system archive (2004 - 2018) - frozen**\n**NAM(Eta) data assimilation system archive (1997 - 2004) - frozen**\n**NARR archive (1979 - 2019) - frozen**\n",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "disaster response",
+            "environmental",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "NOAA High-Resolution Rapid Refresh (HRRR) Model - Archive of HRRR data since 2014",
         "Description": "Archive of HRRR data since 2014",
         "ARN": "arn:aws:s3:::noaa-hrrr-bdp-pds",
@@ -16130,6 +16209,32 @@
         "Explore": null,
         "RequesterPays": null,
         "AccountRequired": true,
+        "Host": null
+    },
+    {
+        "Name": "New Zealand Coastal Elevation",
+        "Description": "New Zealand Coastal Elevation with accompanying metadata",
+        "ARN": "arn:aws:s3:::nz-coastal",
+        "Region": "ap-southeast-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/linz/coastal",
+        "Contact": "hydrosurvey@linz.govt.nz",
+        "ManagedBy": "[Toit\u016b Te Whenua Land Information New Zealand](https://www.linz.govt.nz)",
+        "UpdateFrequency": "New coastal elevation data will regularly be added, as part of being published to the LINZ Data Service and LINZ Basemaps.",
+        "License": "Toit\u016b Te Whenua Land Information New Zealand is the copyright owner for the coastal elevation data that is available in this bucket. Licensed for re-use under \"[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)\".",
+        "Tags": [
+            "aws-pds",
+            "coastal",
+            "elevation",
+            "lidar",
+            "earth observation",
+            "stac",
+            "cog",
+            "geospatial"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
         "Host": null
     },
     {
