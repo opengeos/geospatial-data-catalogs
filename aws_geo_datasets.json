@@ -7540,6 +7540,50 @@
         "Host": null
     },
     {
+        "Name": "Louisiana Watershed Initiative (LWI) Model Data",
+        "Description": "Model Applications and Simulations",
+        "ARN": "arn:aws:s3:::lwi-model-data",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://watershed.la.gov/modeling-program",
+        "Contact": "endmc@thewaterinstitute.org",
+        "ManagedBy": "The Water Institute",
+        "UpdateFrequency": "yearly",
+        "License": "https://creativecommons.org/licenses/by/4.0/ with attribution to Louisiana Watershed Council",
+        "Tags": [
+            "forecast",
+            "bathymetry",
+            "climate",
+            "coastal",
+            "disaster response",
+            "elevation",
+            "floods",
+            "geospatial",
+            "hydrologic model",
+            "hydrology",
+            "infrastructure",
+            "land cover",
+            "land use",
+            "mapping",
+            "meteorological",
+            "model",
+            "open source software",
+            "precipitation",
+            "simulations",
+            "sustainability",
+            "water",
+            "weather",
+            "aws-pds"
+        ],
+        "Explore": [
+            "[Browse the bucket](https://lwi-model-data.s3.amazonaws.com/index.html)",
+            "[Disover the data and models. The ID of the resources can be used to explore the data on the AWS bucket.](https://lwi.endmc.org/)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Low Altitude Disaster Imagery (LADI) Dataset",
         "Description": "LADI dataset: images and labels",
         "ARN": "arn:aws:s3:::ladi",
@@ -12570,7 +12614,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -12593,7 +12637,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -12639,7 +12683,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
