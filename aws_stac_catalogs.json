@@ -504,6 +504,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "Sentinel-1 Monthly Mosaic",
+        "Endpoint": "https://explorer.digitalearth.africa/products/s1_monthly_mosaic",
+        "Description": "S1 Monthly Mosaic tiles and metadata",
+        "ARN": "arn:aws:s3:::deafrica-sentinel-1",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
         "Name": "Sentinel-2 - Level 1C scenes and metadata",
         "Endpoint": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l1c",
         "Description": "Level 1C scenes and metadata, in [Requester Pays](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html) S3 bucket",
