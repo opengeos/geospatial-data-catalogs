@@ -81,6 +81,51 @@
         "RequesterPays": false
     },
     {
+        "Name": "Digital Earth Africa - Copernicus Global Land Service - Lake Water Quality - Lake Water Quality 2002-2012 (raster 300 m)",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/cgls_lwq300_2002_2012",
+        "Description": "Lake Water Quality 2002-2012 (raster 300 m), 10-daily \u2013 version 1",
+        "ARN": "arn:aws:s3:::deafrica-services/cgls_lwq300_2002_2012",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "Digital Earth Africa - Copernicus Global Land Service - Lake Water Quality - Lake Water Quality 2016-2024 (raster 300 m)",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/cgls_lwq300_2016_2024",
+        "Description": "Lake Water Quality 2016-2024 (raster 300 m), 10-daily \u2013 version 1",
+        "ARN": "arn:aws:s3:::deafrica-services/cgls_lwq300_2016_2024",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "Digital Earth Africa - Copernicus Global Land Service - Lake Water Quality - Lake Water Quality 2019-2024 (raster 100 m)",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/cgls_lwq100_2019_2024",
+        "Description": "Lake Water Quality 2019-2024 (raster 100 m), 10-daily \u2013 version 1",
+        "ARN": "arn:aws:s3:::deafrica-input-datasets/cgls_lwq100_2019_2024",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "Digital Earth Africa - Copernicus Global Land Service - Lake Water Quality - Lake Water Quality 2024 - present (raster 100 m)",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/cgls_lwq100_2024_nrt",
+        "Description": "Lake Water Quality 2024 - present (raster 100 m), 10-daily \u2013 version 2",
+        "ARN": "arn:aws:s3:::deafrica-input-datasets/cgls_lwq100_2024_nrt",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "Digital Earth Africa - Copernicus Global Land Service - Lake Water Quality - Lake Water Quality 2024 - present (raster 300 m)",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/cgls_lwq300_2024_nrt",
+        "Description": "Lake Water Quality 2024 - present (raster 300 m), 10-daily \u2013 version 2",
+        "ARN": "arn:aws:s3:::deafrica-services/cgls_lwq300_2024_nrt",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
         "Name": "Digital Earth Africa ALOS PALSAR",
         "Endpoint": "https://explorer.digitalearth.africa/stac/collections/alos_palsar_mosaic",
         "Description": "ALOS PALSAR ALOS-2 PALSAR-2 data",
@@ -220,6 +265,15 @@
         "Endpoint": "https://explorer.digitalearth.africa/stac/collections/s2_l2a",
         "Description": "Sentinel-2 scenes and metadata",
         "ARN": "arn:aws:s3:::deafrica-sentinel-2",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "Digital Earth Africa Sentinel-2 Level-2A Surface Reflectance Collection 1",
+        "Endpoint": "https://explorer.digitalearth.africa/stac/collections/s2_l2a_c1",
+        "Description": "Sentinel-2 scenes and metadata",
+        "ARN": "arn:aws:s3:::deafrica-sentinel-2-l2a-c1/sentinel-2-c1-l2a",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
         "RequesterPays": false
