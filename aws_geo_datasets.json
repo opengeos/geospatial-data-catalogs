@@ -8252,6 +8252,31 @@
         "Host": null
     },
     {
+        "Name": "Marginal Build Emissions Rates (MBERs) for Electricity",
+        "Description": "Marginal Build Emissions Rates (MBERs) for Electricity CSV Data",
+        "ARN": "arn:aws:s3:::mbers-open-data",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/WattTime/mbers-open-data/blob/main/MBER_Data_Summary_and_Methodology.pdf",
+        "Contact": "The annual and hourly MBERs data are created and maintained by the Climate TRACE coalition of nonprofits, universities, and tech companies. The largest contributors to the coalition's electricity sector work are WattTime, Transition Zero, Global Energy Monitor, Pixel Scientia Labs, Planet Labs, and Georgetown University. For questions or more information about MBER data, contact coalition@ClimateTRACE.org or visit https://climatetrace.org/contact.",
+        "ManagedBy": "Climate TRACE",
+        "UpdateFrequency": "Annually",
+        "License": "All data are free and provided without license restrictions.",
+        "Tags": [
+            "carbon",
+            "climate",
+            "csv",
+            "electricity",
+            "energy",
+            "energy modeling",
+            "environmental"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Materials Project Data - Build Data",
         "Description": "Build Data",
         "ARN": "arn:aws:s3:::materialsproject-build",
@@ -14404,7 +14429,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -14427,7 +14452,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
