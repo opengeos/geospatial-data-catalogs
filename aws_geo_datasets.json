@@ -6311,6 +6311,41 @@
         "Host": null
     },
     {
+        "Name": "GRAF Reforecast",
+        "Description": "GRAF Reforecast dataset",
+        "ARN": "arn:aws:s3:::twc-graf-reforecast",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "[Documentation](https://docs.google.com/forms/d/e/1FAIpQLSejRyG2CXrfcmrX7g_iFhc3RF-n3ZzmPQdVieSDwTzLNkR-_w/viewform)",
+        "Contact": "graf.reforecast@weather.com",
+        "ManagedBy": "[The Weather Company](https://www.weathercompany.com/)",
+        "UpdateFrequency": "One time push only",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "atmosphere",
+            "forecast",
+            "geoscience",
+            "geospatial",
+            "model",
+            "near-surface air temperature",
+            "near-surface relative humidity",
+            "precipitation",
+            "wind speeds",
+            "cloud amount",
+            "visibility",
+            "ERA5",
+            "MPAS",
+            "zarr",
+            "weather"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://s3-us-west-2.amazonaws.com/twc-graf-reforecast/index.html)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Geosnap Data, Center for Geospatial Sciences",
         "Description": "Data files stored as Apache parquet and GeoTiff in a public bucket",
         "ARN": "arn:aws:s3:::spatial-ucr",
@@ -12984,7 +13019,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13030,7 +13065,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13053,7 +13088,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -20408,7 +20443,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/Element84/earth-search",
@@ -20435,7 +20470,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/Element84/earth-search",
