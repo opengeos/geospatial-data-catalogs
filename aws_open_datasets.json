@@ -3092,7 +3092,7 @@
         "Contact": "brock.wester@jhuapl.edu",
         "ManagedBy": "[Johns Hopkins University Applied Physics Laboratory](https://https://jhuapl.edu)",
         "UpdateFrequency": "New datasets are added as soon as it is available. Minor updates on existing datasets occur sporadically.",
-        "License": "Creative Commons 4.0 International (CC BY 4.0); Creative Commons CC0 1.0 Universal (CC0-1.0)",
+        "License": "Creative Commons 4.0 International (CC BY 4.0); Creative Commons CC0 1.0 Universal (CC0-1.0); Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
         "Tags": [
             "aws-pds",
             "life sciences",
@@ -12732,6 +12732,35 @@
         "Host": null
     },
     {
+        "Name": "GeoJSON Files for Geo-TIDE",
+        "Description": "GeoJSON Files for Geo-TIDE",
+        "ARN": "arn:aws:s3:::mcsc-geotide-geojson-files/geojson_files/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/mcsc-impact-climate/Geo-TIDE-datasets",
+        "Contact": "mcsc@mit.edu",
+        "ManagedBy": "MIT Climate & Sustainability Consortium",
+        "UpdateFrequency": "Quarterly",
+        "License": "Creative Commons Attribution 4.0 International",
+        "Tags": [
+            "aws-pds",
+            "electricity",
+            "energy",
+            "environmental",
+            "geospatial",
+            "supply chain",
+            "sustainability",
+            "transportation"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://mcsc-geotide-geojson-files.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "GeoNet Aotearoa New Zealand Data",
         "Description": "Data files",
         "ARN": "arn:aws:s3:::geonet-open-data",
@@ -12847,6 +12876,33 @@
     },
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
         "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
         "Region": "ap-southeast-2",
@@ -12893,33 +12949,6 @@
         ],
         "Explore": [
             "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "ControlledAccess": null,
@@ -12980,6 +13009,33 @@
     },
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
         "Region": "eu-central-1",
@@ -13005,10 +13061,10 @@
     },
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -13022,9 +13078,7 @@
             "conservation",
             "life sciences"
         ],
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Explore": null,
         "RequesterPays": null,
         "ControlledAccess": null,
         "AccountRequired": null,
@@ -13060,31 +13114,6 @@
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
         "Type": "SNS Topic",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
@@ -13427,6 +13456,31 @@
     },
     {
         "Name": "HIRLAM Weather Model",
+        "Description": "Notifications for new pressure data",
+        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-rcrhirlam-pressure-grib",
+        "Region": "eu-west-1",
+        "Type": "SNS Topic",
+        "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
+        "Contact": "avoin-data@fmi.fi",
+        "ManagedBy": "[Finnish Meteorological Institute](https://www.ilmatieteenlaitos.fi/)",
+        "UpdateFrequency": "The data is updated four times a day with analysis hours 00, 06, 12 and 18. Corresponding model runs are available roughly five hours after analysis time (~ after model run has started).",
+        "License": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "climate",
+            "weather",
+            "meteorological"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "HIRLAM Weather Model",
         "Description": "Surface GRIB files",
         "ARN": "arn:aws:s3:::fmi-opendata-rcrhirlam-surface-grib",
         "Region": "eu-west-1",
@@ -13483,31 +13537,6 @@
         "Name": "HIRLAM Weather Model",
         "Description": "Notifications for new surface data",
         "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-rcrhirlam-surface-grib",
-        "Region": "eu-west-1",
-        "Type": "SNS Topic",
-        "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
-        "Contact": "avoin-data@fmi.fi",
-        "ManagedBy": "[Finnish Meteorological Institute](https://www.ilmatieteenlaitos.fi/)",
-        "UpdateFrequency": "The data is updated four times a day with analysis hours 00, 06, 12 and 18. Corresponding model runs are available roughly five hours after analysis time (~ after model run has started).",
-        "License": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "earth observation",
-            "climate",
-            "weather",
-            "meteorological"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "HIRLAM Weather Model",
-        "Description": "Notifications for new pressure data",
-        "ARN": "arn:aws:sns:eu-west-1:916174725480:new-fmi-opendata-rcrhirlam-pressure-grib",
         "Region": "eu-west-1",
         "Type": "SNS Topic",
         "Documentation": "http://en.ilmatieteenlaitos.fi/open-data-on-aws-s3",
@@ -16274,6 +16303,7 @@
         "UpdateFrequency": "Annually",
         "License": "All data are free and provided without license restrictions.",
         "Tags": [
+            "aws-pds",
             "carbon",
             "climate",
             "csv",
@@ -31893,6 +31923,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -31917,6 +31948,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -31941,6 +31973,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -31965,6 +31998,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -31989,6 +32023,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -32013,6 +32048,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -32037,6 +32073,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -32061,6 +32098,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -32085,6 +32123,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
@@ -32109,6 +32148,7 @@
         "UpdateFrequency": "SPHEREx QR is updated weekly. The data may also be presented in new ways as the products become available.",
         "License": "https://irsa.ipac.caltech.edu/data_use_terms.html",
         "Tags": [
+            "aws-pds",
             "astronomy",
             "imaging",
             "object detection",
