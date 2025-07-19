@@ -1725,6 +1725,32 @@
         "Host": null
     },
     {
+        "Name": "CarbonPDF",
+        "Description": "A component-level product carbon footprint dataset and a corresponding question-answering dataset based on it",
+        "ARN": "arn:aws:s3:::carbonpdf",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/pittcps/carbonpdf-dataset",
+        "Contact": "kaz81@pitt.edu",
+        "ManagedBy": "Pittcps lab",
+        "UpdateFrequency": "Data for a new company is added once collected.",
+        "License": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "product comparison",
+            "csv",
+            "information retrieval",
+            "industry"
+        ],
+        "Explore": [
+            "[Explore](https://github.com/pittcps/carbonpdf-dataset)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
         "Name": "Central Weather Administration OpenData",
         "Description": "CWA data lake",
         "ARN": "arn:aws:s3:::cwaopendata",
@@ -6483,30 +6509,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -6526,6 +6528,30 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -6583,32 +6609,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
-        "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
         "Region": "eu-central-1",
         "Type": "SNS Topic",
@@ -6631,11 +6631,11 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
+        "Region": "eu-central-1",
+        "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -6649,7 +6649,9 @@
             "conservation",
             "life sciences"
         ],
-        "Explore": null,
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -6676,6 +6678,30 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -13076,7 +13102,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13122,7 +13148,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13145,7 +13171,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -14573,7 +14599,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -14596,7 +14622,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -16446,6 +16472,30 @@
         ],
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind_v3%2F)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NREL Wind Integration National Dataset - Super-Resolution for Renewable Energy Resource Data with Wind from Reanalysis (Sup3rWind)",
+        "Description": "Super-Resolution for Renewable Energy Resource Data with Wind from Reanalysis (Sup3rWind)",
+        "ARN": "arn:aws:s3:::nrel-pds-wtk/sup3rwind/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.nrel.gov/grid/wind-toolkit.html",
+        "Contact": "wind-toolkit@nrel.gov",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As Needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "environmental",
+            "geospatial",
+            "meteorological"
+        ],
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=sup3rwind%2F)"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
@@ -19270,6 +19320,42 @@
             "radiation"
         ],
         "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Sanborn Maps Data Package",
+        "Description": "Sanborn Maps data",
+        "ARN": "arn:aws:s3:::loc-sanborn-maps",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://data.labs.loc.gov/sanborn/",
+        "Contact": "For curatorial questions about the content of the collection and formats, contact the Library of Congress Geography and Map Division at https://ask.loc.gov/map-geography. For technical questions about access, contact LC-Labs@loc.gov",
+        "ManagedBy": "[Library of Congress](https://www.loc.gov/)",
+        "UpdateFrequency": "As new and significant changes to the underlying digital collection occurs",
+        "License": "The content of the Library of Congress online Sanborn Maps Collection is in the public domain and is free to use and reuse. For more information, see https://www.loc.gov/collections/sanborn-maps/about-this-collection/rights-and-access/.",
+        "Tags": [
+            "aws-pds",
+            "archives",
+            "cities",
+            "computer vision",
+            "conservation",
+            "culture",
+            "cultural preservation",
+            "demographics",
+            "digital assets",
+            "geospatial",
+            "history",
+            "housing",
+            "land use",
+            "mapping",
+            "urban"
+        ],
+        "Explore": [
+            "[Browse Bucket by State](https://loc-sanborn-maps.s3.amazonaws.com/maps-by-state/index.html)",
+            "[README](https://loc-sanborn-maps.s3.amazonaws.com/README.html)"
+        ],
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
