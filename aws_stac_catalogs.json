@@ -369,6 +369,15 @@
         "RequesterPays": null
     },
     {
+        "Name": "ICEYE Synthetic Aperture Radar (SAR) Open Dataset",
+        "Endpoint": "http://iceye-open-data-catalog.s3-website-us-west-2.amazonaws.com",
+        "Description": "ICEYE Open SAR Data",
+        "ARN": "arn:aws:s3:::iceye-open-data-catalog",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
         "Name": "Inter-mission Time Series of Land Ice Velocity and Elevation (ITS_LIVE)",
         "Endpoint": "https://its-live-data.s3.amazonaws.com/index.html",
         "Description": "ITS_LIVE Data S3 Bucket",

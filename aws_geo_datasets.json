@@ -6509,6 +6509,30 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "Region": "af-south-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
         "Type": "S3 Bucket",
@@ -6528,30 +6552,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
         ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
-        "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": null,
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -6659,32 +6659,6 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
-        "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
         "Region": "sa-east-1",
         "Type": "SNS Topic",
@@ -6707,11 +6681,11 @@
         "Host": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "Region": "sa-east-1",
+        "Type": "S3 Bucket",
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -6725,7 +6699,9 @@
             "conservation",
             "life sciences"
         ],
-        "Explore": null,
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -6752,6 +6728,30 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
         ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "Explore": null,
         "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
@@ -7296,6 +7296,63 @@
         ],
         "Explore": null,
         "RequesterPays": true,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ICEYE Synthetic Aperture Radar (SAR) Open Dataset - ICEYE Open SAR Data",
+        "Description": "ICEYE Open SAR Data",
+        "ARN": "arn:aws:s3:::iceye-open-data-catalog",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "Documentation is available at the [ICEYE website](https://www.iceye.com) and the [ICEYE Product Documentation](sar.iceye.com).",
+        "Contact": "customer@iceye.com",
+        "ManagedBy": "[ICEYE](https://www.iceye.com)",
+        "UpdateFrequency": "New data is added frequently.",
+        "License": "The data is provided under the Creative Commons License [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), which gives the user the right to share, copy, and redistribute the material in any medium or format, as well as adapt, remix, transform, and build upon the material for any purpose, even commercially, as long as appropriate credit is given to the original creator.",
+        "Tags": [
+            "aws-pds",
+            "synthetic aperture radar",
+            "stac",
+            "earth observation",
+            "satellite imagery",
+            "image processing",
+            "geospatial",
+            "computer vision",
+            "disaster response"
+        ],
+        "Explore": [
+            "[Browse bucket](http://iceye-open-data-catalog.s3-website-us-west-2.amazonaws.com)",
+            "[STAC Browser](https://radiantearth.github.io/stac-browser/#/external/iceye-open-data-catalog.s3-us-west-2.amazonaws.com/catalog.json)"
+        ],
+        "RequesterPays": false,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "ICEYE Synthetic Aperture Radar (SAR) Open Dataset - Notification for new ICEYE Open SAR Data",
+        "Description": "Notification for new ICEYE Open SAR Data",
+        "ARN": "arn:aws:sns:us-west-2:058264311954:iceye-open-data-catalog-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "Documentation is available at the [ICEYE website](https://www.iceye.com) and the [ICEYE Product Documentation](sar.iceye.com).",
+        "Contact": "customer@iceye.com",
+        "ManagedBy": "[ICEYE](https://www.iceye.com)",
+        "UpdateFrequency": "New data is added frequently.",
+        "License": "The data is provided under the Creative Commons License [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), which gives the user the right to share, copy, and redistribute the material in any medium or format, as well as adapt, remix, transform, and build upon the material for any purpose, even commercially, as long as appropriate credit is given to the original creator.",
+        "Tags": [
+            "aws-pds",
+            "synthetic aperture radar",
+            "stac",
+            "earth observation",
+            "satellite imagery",
+            "image processing",
+            "geospatial",
+            "computer vision",
+            "disaster response"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
         "AccountRequired": null,
         "Host": null
     },
@@ -10522,8 +10579,8 @@
         "Host": null
     },
     {
-        "Name": "NEXRAD on AWS - NEXRAD Level II archive data",
-        "Description": "NEXRAD Level II archive data",
+        "Name": "NEXRAD on AWS - *OLD NEXRAD Level II archive bucket* which is now <b>Deprecated</b> It is recommended to move to the new bucket: unidata-nexrad-level2 and SNS topic: arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel2Archive",
+        "Description": "*OLD NEXRAD Level II archive bucket* which is now <b>Deprecated</b> It is recommended to move to the new bucket: unidata-nexrad-level2 and SNS topic: arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel2Archive",
         "ARN": "arn:aws:s3:::noaa-nexrad-level2",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -10540,8 +10597,32 @@
             "weather",
             "meteorological"
         ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NEXRAD on AWS - NEXRAD Level II archive data",
+        "Description": "NEXRAD Level II archive data",
+        "ARN": "arn:aws:s3:::unidata-nexrad-level2",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nexrad",
+        "Contact": "support-level2@unidata.ucar.edu",
+        "ManagedBy": "[Unidata](https://www.unidata.ucar.edu/)",
+        "UpdateFrequency": "New Level II data is added as soon as it is available.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "natural resource",
+            "weather",
+            "meteorological"
+        ],
         "Explore": [
-            "[Browse Bucket](https://noaa-nexrad-level2.s3.amazonaws.com/index.html)"
+            "[Browse Bucket](https://unidata-nexrad-level2.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
@@ -10598,8 +10679,8 @@
         "Host": null
     },
     {
-        "Name": "NEXRAD on AWS - Notifications for the Level II archival bucket",
-        "Description": "Notifications for the Level II archival bucket",
+        "Name": "NEXRAD on AWS - Notifications for the *OLD Level II archival bucket*  which is now <b>Deprecated</b> It is recommended to move to the new bucket: unidata-nexrad-level2 and SNS topic: arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel2Archive",
+        "Description": "Notifications for the *OLD Level II archival bucket*  which is now <b>Deprecated</b> It is recommended to move to the new bucket: unidata-nexrad-level2 and SNS topic: arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel2Archive",
         "ARN": "arn:aws:sns:us-east-1:811054952067:NewNEXRADLevel2Archive",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -10625,6 +10706,30 @@
         "Name": "NEXRAD on AWS - Notifications for the Level III bucket",
         "Description": "Notifications for the Level III bucket",
         "ARN": "arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel3Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nexrad",
+        "Contact": "support-level2@unidata.ucar.edu",
+        "ManagedBy": "[Unidata](https://www.unidata.ucar.edu/)",
+        "UpdateFrequency": "New Level II data is added as soon as it is available.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "earth observation",
+            "natural resource",
+            "weather",
+            "meteorological"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NEXRAD on AWS - Notifications for the new Level II archival bucket",
+        "Description": "Notifications for the new Level II archival bucket",
+        "ARN": "arn:aws:sns:us-east-1:684042711724:NewNEXRADLevel2Archive",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/awslabs/open-data-docs/tree/main/docs/noaa/noaa-nexrad",
@@ -13102,52 +13207,6 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -13172,6 +13231,52 @@
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -14599,7 +14704,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -14622,7 +14727,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -20648,7 +20753,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/Element84/earth-search",
@@ -20675,7 +20780,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/Element84/earth-search",
