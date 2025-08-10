@@ -1311,7 +1311,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://cmaq-2019-modeling-platform.s3.amazonaws.com/readme.html)"
+            "[Browse Bucket](https://cmaq-2019-modeling-platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
@@ -1337,7 +1337,7 @@
             "climate"
         ],
         "Explore": [
-            "[Browse Bucket](https://2021platform.s3.amazonaws.com/readme.html)"
+            "[Browse Bucket](https://2021platform.s3.amazonaws.com/index.html)"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
@@ -1442,6 +1442,33 @@
         ],
         "Explore": [
             "[Browse Bucket](https://cmas-wwlln-lightning.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "CMAS Data Warehouse - EPA 2022 Modeling Platform",
+        "Description": "EPA 2022 Modeling Platform",
+        "ARN": "arn:aws:s3:::epa-2022-modeling-platform",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://epa-2022-modeling-platform.s3.amazonaws.com/index.html)",
+            "[OAQPS 2022 Modeling Platform](https://registry.opendata.aws/epa-2022-modeling-platform/)"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
@@ -13253,7 +13280,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -13276,7 +13303,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
