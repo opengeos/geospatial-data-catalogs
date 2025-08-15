@@ -14250,7 +14250,7 @@
         "Documentation": "https://wpo.noaa.gov/the-hurricane-analysis-and-forecast-system-hafs/",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Event Driven",
+        "UpdateFrequency": "Event Driven.<br/> <br/>As of August 2025, a few forecast cycles for Hurricane Fiona (07L) and Hurricane Nicole (17L) from the 2022 Atlantic hurricane season have been made available. These files can be found under the subdirectories of hfsa_retro and hfsb_retro. Additional forecast files from the 2022 hurricane season can be made available upon user request.",
         "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
@@ -14276,7 +14276,7 @@
         "Documentation": "https://wpo.noaa.gov/the-hurricane-analysis-and-forecast-system-hafs/",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "Event Driven",
+        "UpdateFrequency": "Event Driven.<br/> <br/>As of August 2025, a few forecast cycles for Hurricane Fiona (07L) and Hurricane Nicole (17L) from the 2022 Atlantic hurricane season have been made available. These files can be found under the subdirectories of hfsa_retro and hfsb_retro. Additional forecast files from the 2022 hurricane season can be made available upon user request.",
         "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
@@ -16006,7 +16006,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -16030,7 +16030,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -18641,34 +18641,6 @@
         "AccountRequired": null,
         "Host": null,
         "ControlledAccess": "https://archive.podaac.earthdata.nasa.gov/s3credentials"
-    },
-    {
-        "Name": "OPERA Land Surface Disturbance Alert from Harmonized Landsat Sentinel-2 product (Version 1)",
-        "Description": "OPERA Land Surface Disturbance Alert from Harmonized Landsat Sentinel-2 product (Version 1)",
-        "ARN": "arn:aws:s3:::lp-protected/OPERA_L3_DIST-ALERT-HLS_V1.001",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Documentation": "https://doi.org/10.5067/SNWG/OPERA_L3_DIST-ALERT-HLS_V1.001",
-        "Contact": "User Services: lpdaac@usgs.gov",
-        "ManagedBy": "NASA",
-        "UpdateFrequency": "From 2022-01-01 to Ongoing (Daily - < Weekly)",
-        "License": "[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "cog",
-            "earth observation",
-            "environmental",
-            "global",
-            "land",
-            "land cover",
-            "land use",
-            "satellite imagery"
-        ],
-        "Explore": null,
-        "RequesterPays": false,
-        "AccountRequired": null,
-        "Host": null,
-        "ControlledAccess": "https://data.lpdaac.earthdatacloud.nasa.gov/s3credentials"
     },
     {
         "Name": "OPERA Land Surface Disturbance Alert from Harmonized Landsat Sentinel-2 product (Version 1)",
