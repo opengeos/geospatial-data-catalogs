@@ -1562,6 +1562,33 @@
         "ControlledAccess": null
     },
     {
+        "Name": "CMAS Data Warehouse - CMAQ 2023 12US4 CRACMM3 Modeling Platform",
+        "Description": "CMAQ 2023 12US4 CRACMM3 Modeling Platform",
+        "ARN": "arn:aws:s3::::::cmaq-12us4-cracmm3-modeling-platform-2023",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://cmaq-12us4-cracmm3-modeling-platform-2023.s3.amazonaws.com/index.html)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "CMAS Data Warehouse - CMAQ Benchmark Data",
         "Description": "CMAQ Benchmark Data",
         "ARN": "arn:aws:s3:::cmas-cmaq",
