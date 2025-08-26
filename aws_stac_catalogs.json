@@ -63,6 +63,42 @@
         "RequesterPays": false
     },
     {
+        "Name": "CanElevation - Canada Digital Elevation Models - Medium Resolution Digital Elevation Model (MRDEM)",
+        "Endpoint": "https://datacube.services.geo.ca/stac/api/search?collections=mrdem-30",
+        "Description": "Medium Resolution Digital Elevation Model (MRDEM). Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de moyenne r\u00e9solution (MNEMR)",
+        "ARN": "arn:aws:s3:::canelevation-dem/mrdem-30/",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
+        "Name": "CanElevation - Canada Digital Elevation Models - Mosaic of High Resolution Digital Elevation Model (HRDEM) at 1m - Mosa\u00efque de Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de haute r\u00e9solution (MNEHR) \u00e0 1m",
+        "Endpoint": "https://datacube.services.geo.ca/stac/api/search?collections=hrdem-mosaic-1m",
+        "Description": "Mosaic of High Resolution Digital Elevation Model (HRDEM) at 1m / Mosa\u00efque de Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de haute r\u00e9solution (MNEHR) \u00e0 1m",
+        "ARN": "arn:aws:s3:::canelevation-dem/hrdem-mosaic-1m/",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
+        "Name": "CanElevation - Canada Digital Elevation Models - Mosaic of High Resolution Digital Elevation Model (HRDEM) at 2m - Mosa\u00efque de Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de haute r\u00e9solution (MNEHR) \u00e0 2m",
+        "Endpoint": "https://datacube.services.geo.ca/stac/api/search?collections=hrdem-mosaic-2m",
+        "Description": "Mosaic of High Resolution Digital Elevation Model (HRDEM) at 2m / Mosa\u00efque de Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de haute r\u00e9solution (MNEHR) \u00e0 2m",
+        "ARN": "arn:aws:s3:::canelevation-dem/hrdem-mosaic-2m/",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
+        "Name": "CanElevation - Canada Digital Elevation Models - Mosaic of High Resolution Digital Elevation Model (HRDEM) by LiDAR acquisition project",
+        "Endpoint": "https://datacube.services.geo.ca/stac/api/search?collections=hrdem-lidar",
+        "Description": "Mosaic of High Resolution Digital Elevation Model (HRDEM) by LiDAR acquisition project. Mosa\u00efque de Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de haute r\u00e9solution (MNEHR) par project d'acquisition LiDAR.",
+        "ARN": "arn:aws:s3:::canelevation-dem/hrdem-lidar/",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "Capella Space Synthetic Aperture Radar (SAR) Open Dataset",
         "Endpoint": "https://capella-open-data.s3.us-west-2.amazonaws.com/stac/catalog.json",
         "Description": "Capella Space Open Data in COG format",
@@ -385,6 +421,96 @@
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "RequesterPays": null
+    },
+    {
+        "Name": "KyFromAbove on AWS - Elevation and imagery data resources for the Commonwealth of Kentucky are organized in this bucket",
+        "Endpoint": "https://kygeonet.ky.gov/stac",
+        "Description": "Elevation and imagery data resources for the Commonwealth of Kentucky are organized in this bucket. Elevation data are available in Cloud Optimized GeoTIFF (COG) and Geopackage formats depending on the data type. Imagery data is also available in COG format. A Cloud Optimized GeoTIFF (COG) is a GeoTIFF file optimized for hosting on a HTTP file server. COG has an internal organization that enables more efficient workflows on the cloud by supporting HTTP GET range requests, where just parts of a file are requested and returned.",
+        "ARN": "arn:aws:s3:::kyfromabove",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - KyFromAbove Topographic Contours",
+        "Endpoint": "https://kyfromabove.s3.us-west-2.amazonaws.com/index.html#elevation/",
+        "Description": "KyFromAbove Topographic Contours, digital elevation models, point cloud, spot elevations and the KyTopo Map Series quadrangles can be found in this bucket.",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - KyFromAbove aerial imagery",
+        "Endpoint": "https://kygeonet.ky.gov/collections/orthos-phase1",
+        "Description": "KyFromAbove aerial imagery, both nadir and oblique views, can be found in this bucket. Ortho imagery is available for Phases 1, 3, and 3.  Oblique imagery is available for Phase 3 only.",
+        "ARN": "arn:aws:s3:::kyfromabove/imagery/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - KyFromAbove oblique imagery can be found in this folder",
+        "Endpoint": "https://explore.kyfromabove.ky.gov/",
+        "Description": "KyFromAbove oblique imagery can be found in this folder. The four oblique views associated with each ortho image are provided in a 3-band (RGB) COG format using the default 512x512 tile setting. There are no oblique images available for Phases 1 and 2. Phase 3 data is available for the entire state. It is organized by year and season (where Season1 = Spring and Season2 = Fall) as imagery was acquired during the fall and spring leaf-off seasons as sun angle and weather conditions permitted.",
+        "ARN": "arn:aws:s3:::kyfromabove/imagery/obliques/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - KyFromAbove ortho imagery for the Commonwealth of Kentucky organized in a 5000x5000 foot grid",
+        "Endpoint": "https://kygeonet.ky.gov/stac",
+        "Description": "KyFromAbove ortho imagery for the Commonwealth of Kentucky organized in a 5000x5000 foot grid. Each image tile has been converted to a COG format. Phase 1 and 2 data are organized by acquisition year and are currently available for use. Phase 3 is organized by year and season, as imagery was acquired during the fall and spring leaf-off seasons as sun angle permitted.",
+        "ARN": "arn:aws:s3:::kyfromabove/imagery/orthos/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - LiDAR-derived Point Cloud tiles for the Commonwealth of Kentucky organized in a 5000x5000 foot grid",
+        "Endpoint": "https://kygeonet.ky.gov/collections/laz-phase1",
+        "Description": "LiDAR-derived Point Cloud tiles for the Commonwealth of Kentucky organized in a 5000x5000 foot grid. There  currently two complete resources in this folder -  1) Phase 1 LiDAR-derived point clouds in LAZ format and 2) Phase 2 LiDAR-derived Point Clouds in COPC format. Phase 3 is partially availabe in COPC format while efforts are still ongoing.",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/PointCloud/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - LiDAR-derived digital elevation models (DEM) for the Commonwealth of Kentucky organized in a 5000x5000 foot grid",
+        "Endpoint": "https://kygeonet.ky.gov/collections/dem-phase1",
+        "Description": "LiDAR-derived digital elevation models (DEM) for the Commonwealth of Kentucky organized in a 5000x5000 foot grid. There are currently three data resources in this folder - 1) Phase 1 LiDAR-derived DEMs at a 5 foot resolution, 2) Phase 2 LiDAR-derived DEMs at a 2 foot resolution, and 3) Phase 3 LiDAR-derived DEMs at a 2 foot resolution. All data has been converted to a Cloud Optimized GeoTIFF (COG) format. Phase 3 efforts are still underway.",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/DEM/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - The data in this bucket includes spot elevations for the entire Commonwealth of Kentucky generated from the KyFromAbove Phase 1 LiDAR-derived digital elevation model (DEM) in a geopackage format",
+        "Endpoint": "https://kyfromabove.s3.us-west-2.amazonaws.com/index.html#elevation/SpotElevations/",
+        "Description": "The data in this bucket includes spot elevations for the entire Commonwealth of Kentucky generated from the KyFromAbove Phase 1 LiDAR-derived digital elevation model (DEM) in a geopackage format. ArcGIS was used to create this dataset. Spot elevations for Phase 2 and Phase 3 will be generated upon completion of each Phase.",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/SpotElevations/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - There are three data resources in this folder - 1) KyTopo Map Series quadrangles in a COG format",
+        "Endpoint": "https://kyfromabove.s3.us-west-2.amazonaws.com/index.html#elevation/KyTopoMapSeries/",
+        "Description": "There are three data resources in this folder - 1) KyTopo Map Series quadrangles in a COG format, 2) KyTopo Map Series quadrangles with all collar information in a non-georeferenced PNG format for printing on a standard ARCH-D sized sheet, and 3) the KyTopo Map Series quadrangles tile grid in a geopackage format. The COGs were created using GDAL with JPEG compression at a 90% quality setting and the default 512x512 tile setting.",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/KyTopoMapSeries/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
+    },
+    {
+        "Name": "KyFromAbove on AWS - Topographic contours created from the KyFromAbove Phase 1 LiDAR-derived digital elevation model (DEM) in geopackage and Esri file geodatabase format",
+        "Endpoint": "https://kyfromabove.s3.us-west-2.amazonaws.com/index.html#elevation/Contours/",
+        "Description": "Topographic contours created from the KyFromAbove Phase 1 LiDAR-derived digital elevation model (DEM) in geopackage and Esri file geodatabase format. There are four data resources in this folder - 1) KyTopo contours at a 10-foot interval primarily for Western and Central Kentucky, 2) KyTopo contours at a 20-foot interval primarily for Central and Eastern Kentucky, 3) KyTopo contours at a 40-foot interval for Eastern Kentucky, and 4) KyTopo contours at a 5-foot interval for the entire Commonwealth.",
+        "ARN": "arn:aws:s3:::kyfromabove/elevation/Contours/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "RequesterPays": false
     },
     {
         "Name": "Maxar Open Data Program",
