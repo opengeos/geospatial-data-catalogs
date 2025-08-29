@@ -1697,6 +1697,34 @@
         "ControlledAccess": null
     },
     {
+        "Name": "CMAS Data Warehouse - Community Multiscale Air Quality (CMAQ) 2019 3D Gridded and Column data from the EPA's Air Quality Time Series (EQUATES) Project",
+        "Description": "Community Multiscale Air Quality (CMAQ) 2019 3D Gridded and Column data from the EPA's Air Quality Time Series (EQUATES) Project",
+        "ARN": "arn:aws:s3:::epa-equates-v1",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://dataverse.unc.edu/dataverse/cmascenter",
+        "Contact": "cmas@unc.edu",
+        "ManagedBy": "[CMAS CENTER](https://cmascenter.org/)",
+        "UpdateFrequency": "New data is added as soon as it is available.",
+        "License": "There are no restrictions on the use of this data. US EPA License (https://pasteur.epa.gov/license/sciencehub-license.html)",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "meteorological",
+            "geospatial",
+            "environmental",
+            "climate"
+        ],
+        "Explore": [
+            "[Browse Bucket](https://epa-equates-v1.s3.amazonaws.com/index.html)",
+            "[EPA CMAQ 2019 3D Gridded and Column data from EQUATES Project](https://aws.amazon.com/marketplace/pp/prodview-kziefcewnxcxe?sr=0-5&ref_=beagle&applicationId=AWSMPContessa)"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "CMAS Data Warehouse - EPA 2022 Modeling Platform",
         "Description": "EPA 2022 Modeling Platform",
         "ARN": "arn:aws:s3:::epa-2022-modeling-platform",
