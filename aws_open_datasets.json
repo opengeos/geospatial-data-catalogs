@@ -26883,16 +26883,16 @@
         "Host": null
     },
     {
-        "Name": "NOAA's Coastal Ocean Reanalysis (CORA) Dataset",
+        "Name": "NOAA's Coastal Ocean Reanalysis (CORA) Dataset: 1979-2022",
         "Description": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset NetCDF",
         "ARN": "arn:aws:s3:::noaa-nos-cora-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
-        "Documentation": "https://tidesandcurrents.noaa.gov/",
-        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at NODD@NOAA.GOV.",
+        "Documentation": "[NOAA Technical Report NOS CO-OPS 108: NOAA\u2019s Coastal Ocean Reanalysis: Gulf of Mexico, Atlantic, and Caribbean (January 2025)](https://doi.org/10.25923/5ypp-4e84)",
+        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at nodd@noaa.gov.",
         "ManagedBy": "[NOAA\u2019s National Ocean Service, The Center for Operational Oceanographic Products and Services (CO-OPS)](https://tidesandcurrents.noaa.gov/about_us.html)",
-        "UpdateFrequency": "Monthly, quarterly, and annually, depending on the dataset.",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "UpdateFrequency": "Product dependent. At minimum, annually.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
@@ -26913,16 +26913,16 @@
         "Host": null
     },
     {
-        "Name": "NOAA's Coastal Ocean Reanalysis (CORA) Dataset",
+        "Name": "NOAA's Coastal Ocean Reanalysis (CORA) Dataset: 1979-2022",
         "Description": "NOAA\u2019s Coastal Ocean Reanalysis (CORA) Dataset Notifications",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOSCORAObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
-        "Documentation": "https://tidesandcurrents.noaa.gov/",
-        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at NODD@NOAA.GOV.",
+        "Documentation": "[NOAA Technical Report NOS CO-OPS 108: NOAA\u2019s Coastal Ocean Reanalysis: Gulf of Mexico, Atlantic, and Caribbean (January 2025)](https://doi.org/10.25923/5ypp-4e84)",
+        "Contact": "For questions regarding data content or quality, email CO-OPS.UserServices@noaa.govThis data is made available to the public through the NOAA Open Data Dissemination (NODD) Program. For questions regarding this program, email nodd@noaa.gov.We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NOAA NODD team at nodd@noaa.gov.",
         "ManagedBy": "[NOAA\u2019s National Ocean Service, The Center for Operational Oceanographic Products and Services (CO-OPS)](https://tidesandcurrents.noaa.gov/about_us.html)",
-        "UpdateFrequency": "Monthly, quarterly, and annually, depending on the dataset.",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.<br/> <br/>NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "UpdateFrequency": "Product dependent. At minimum, annually.",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired.NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
         "Tags": [
             "aws-pds",
             "agriculture",
