@@ -649,7 +649,7 @@
     },
     {
         "Name": "RCM CEOS Analysis Ready Data ",
-        "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard/items/",
+        "Endpoint": "https://radiantearth.github.io/stac-browser/#/external/www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard?.language=en",
         "Description": "RCM CEOS Analysis Ready Data. Donn\u00e9es pr\u00eates \u00e0 l'analyse (DPA) du CEOS pour le MCR",
         "ARN": "arn:aws:s3:::rcm-ceos-ard",
         "Region": "ca-central-1",
@@ -685,7 +685,7 @@
     },
     {
         "Name": "Sentinel Near Real-time Canada Mirror ",
-        "Endpoint": "https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/",
+        "Endpoint": "https://radiantearth.github.io/stac-browser/#/external/www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/sentinel-1",
         "Description": "Sentinel data over Canada | Donn\u00e9es sentinelles au Canada.",
         "ARN": "arn:aws:s3:::sentinel-products-ca-mirror",
         "Region": "ca-central-1",
