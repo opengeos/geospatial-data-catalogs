@@ -14933,7 +14933,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -14981,7 +14981,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -15005,7 +15005,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
@@ -16491,7 +16491,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -16515,7 +16515,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Documentation": "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332",
@@ -21079,7 +21079,7 @@
             "analysis ready data"
         ],
         "Explore": [
-            "[EODMS STAC for RCM CEOS ARD](https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard/items/)"
+            "[STAC for RCM CEOS ARD products](https://radiantearth.github.io/stac-browser/#/external/www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard?.language=en)"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
@@ -21107,6 +21107,76 @@
             "environmental",
             "cog",
             "stac"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Rain over Africa - Notifications for new Rain over Africa data",
+        "Description": "Notifications for new Rain over Africa data",
+        "ARN": "arn:aws:sns:us-west-2:261854712492:rainoverafrica-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Documentation": "https://github.com/SEE-GEO/roa",
+        "Contact": "https://github.com/SEE-GEO/roa",
+        "ManagedBy": "[Geoscience and Remote Sensing at Chalmers University of Technology](https://www.chalmers.se/en/departments/see/research/geo)",
+        "UpdateFrequency": "At most, yearly",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "analysis ready data",
+            "atmosphere",
+            "aws-pds",
+            "climate",
+            "deep learning",
+            "earth observation",
+            "geophysics",
+            "geoscience",
+            "hydrology",
+            "machine learning",
+            "precipitation",
+            "satellite imagery",
+            "weather",
+            "zarr"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Rain over Africa - RoA expected rain rate and quantiles at levels 5%, 16%, 25%, 50%, 75%, 84%, and 95% in Zarr format",
+        "Description": "RoA expected rain rate and quantiles at levels 5%, 16%, 25%, 50%, 75%, 84%, and 95% in Zarr format",
+        "ARN": "arn:aws:s3:::rainoverafrica",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Documentation": "https://github.com/SEE-GEO/roa",
+        "Contact": "https://github.com/SEE-GEO/roa",
+        "ManagedBy": "[Geoscience and Remote Sensing at Chalmers University of Technology](https://www.chalmers.se/en/departments/see/research/geo)",
+        "UpdateFrequency": "At most, yearly",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "analysis ready data",
+            "atmosphere",
+            "aws-pds",
+            "climate",
+            "deep learning",
+            "earth observation",
+            "geophysics",
+            "geoscience",
+            "hydrology",
+            "machine learning",
+            "precipitation",
+            "satellite imagery",
+            "weather",
+            "zarr"
         ],
         "Explore": null,
         "RequesterPays": null,
@@ -22559,7 +22629,7 @@
             "stac"
         ],
         "Explore": [
-            "[EODMS STAC for Sentinel products](https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/)"
+            "[STAC for Sentinel products](https://radiantearth.github.io/stac-browser/#/external/www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/sentinel-1)"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
