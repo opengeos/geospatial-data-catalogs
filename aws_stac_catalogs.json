@@ -63,6 +63,15 @@
         "RequesterPays": false
     },
     {
+        "Name": "CanElevation - Canada Digital Elevation Models - High-Resolution Digital Elevation Model (HRDEM) generated from optical stereo imagery for Northern Canada - Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation haute r\u00e9solution (MNEHR) g\u00e9n\u00e9r\u00e9 \u00e0 partir de couple st\u00e9r\u00e9o d'imagerie optique pour le nord du Canada",
+        "Endpoint": "https://datacube.services.geo.ca/stac/api/search?collections=hrdem-arcticdem",
+        "Description": "High-Resolution Digital Elevation Model (HRDEM) generated from optical stereo imagery for Northern Canada / Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation haute r\u00e9solution (MNEHR) g\u00e9n\u00e9r\u00e9 \u00e0 partir de couple st\u00e9r\u00e9o d'imagerie optique pour le nord du Canada",
+        "ARN": "arn:aws:s3:::canelevation-dem/hrdem-arcticdem/",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "RequesterPays": null
+    },
+    {
         "Name": "CanElevation - Canada Digital Elevation Models - Medium Resolution Digital Elevation Model (MRDEM)",
         "Endpoint": "https://datacube.services.geo.ca/stac/api/search?collections=mrdem-30",
         "Description": "Medium Resolution Digital Elevation Model (MRDEM). Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de moyenne r\u00e9solution (MNEMR)",
