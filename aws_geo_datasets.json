@@ -1948,6 +1948,38 @@
         "ControlledAccess": null
     },
     {
+        "Name": "CanElevation - Canada Digital Elevation Models - High-Resolution Digital Elevation Model (HRDEM) generated from optical stereo imagery for Northern Canada / Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation haute r\u00e9solution (MNEHR) g\u00e9n\u00e9r\u00e9 \u00e0 partir de couple st\u00e9r\u00e9o d'imagerie optique pour le nord du Canada",
+        "Description": "High-Resolution Digital Elevation Model (HRDEM) generated from optical stereo imagery for Northern Canada / Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation haute r\u00e9solution (MNEHR) g\u00e9n\u00e9r\u00e9 \u00e0 partir de couple st\u00e9r\u00e9o d'imagerie optique pour le nord du Canada",
+        "ARN": "arn:aws:s3:::canelevation-dem/hrdem-arcticdem/",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[STAC catalog](https://datacube.services.geo.ca/stac/api/search?collections=hrdem-arcticdem)",
+            "[STAC Browser by Radiant Earth](https://radiantearth.github.io/stac-browser/#/external/datacube.services.geo.ca/stac/api/collections/hrdem-arcticdem)",
+            "[Browse Bucket](https://canelevation-dem.s3.ca-central-1.amazonaws.com/index.html)"
+        ],
+        "Documentation": "[Medium Resolution Digital Elevation Model - MRDEM](https://open.canada.ca/data/en/dataset/18752265-bda3-498c-a4ba-9dfe68cb98da) [High Resolution Digital Elevation Model Mosaic](https://open.canada.ca/data/en/dataset/0fe65119-e96e-4a57-8bfe-9d9245fba06b) ",
+        "Contact": "geoinfo@nrcan-rncan.gc.ca",
+        "ManagedBy": "[Natural Resources Canada](https://nrcan.gc.ca/)",
+        "UpdateFrequency": "The dataset is updated as new DEM models becomes available.\n<br/>\nL'ensemble de donn\u00e9es est mis \u00e0 jour \u00e0 mesure que des nouveaux mod\u00e8les num\u00e9rique d'\u00e9l\u00e9vation deviennent disponibles.\n",
+        "License": "[Open Government License (OGL)](https://open.canada.ca/en/open-government-licence-canada)",
+        "Tags": [
+            "aws-pds",
+            "canada",
+            "elevation",
+            "geospatial",
+            "stac",
+            "land",
+            "dsm",
+            "dtm",
+            "dem"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "CanElevation - Canada Digital Elevation Models - Medium Resolution Digital Elevation Model (MRDEM) Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de moyenne r\u00e9solution (MNEMR)",
         "Description": "Medium Resolution Digital Elevation Model (MRDEM) Mod\u00e8le num\u00e9rique d'\u00e9l\u00e9vation de moyenne r\u00e9solution (MNEMR)",
         "ARN": "arn:aws:s3:::canelevation-dem/mrdem-30/",
@@ -2222,7 +2254,8 @@
         "Region": "ca-central-1",
         "Type": "S3 Bucket",
         "Explore": [
-            "[LiDAR Data on Open Canada](https://open.canada.ca/data/en/dataset/7069387e-9986-4297-9f55-0288e9676947)"
+            "[LiDAR Data on Open Canada](https://open.canada.ca/data/en/dataset/7069387e-9986-4297-9f55-0288e9676947)",
+            "[Browse Bucket](https://canelevation-lidar-point-clouds.s3.ca-central-1.amazonaws.com/pointclouds_nuagespoints/index.html#pointclouds_nuagespoints/)"
         ],
         "Documentation": "https://open.canada.ca/data/en/dataset/7069387e-9986-4297-9f55-0288e9676947",
         "Contact": "geoinfo@nrcan-rncan.gc.ca",
@@ -3679,7 +3712,7 @@
         "Region": "us-west-2",
         "Type": "S3 Bucket",
         "Explore": [
-            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=building-sector-scenarios%2F&limit=50)"
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=buildings-sector-scenarios%2F&limit=50)"
         ],
         "Documentation": "https://github.com/openEDI/documentation/",
         "Contact": "https://github.com/openEDI/documentation/issues",
@@ -4044,6 +4077,34 @@
         "Type": "S3 Bucket",
         "Explore": [
             "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=SMART-DS%2F)"
+        ],
+        "Documentation": "https://github.com/openEDI/documentation/",
+        "Contact": "https://github.com/openEDI/documentation/issues",
+        "ManagedBy": "[National Renewable Energy Laboratory](https://www.nrel.gov/)",
+        "UpdateFrequency": "As needed",
+        "License": "Creative Commons Attribution 3.0 United States License",
+        "Tags": [
+            "aws-pds",
+            "energy",
+            "environmental",
+            "geospatial",
+            "model",
+            "solar",
+            "lidar"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Department of Energy's Open Energy Data Initiative (OEDI) - US Agrivoltaic Irradiance Database",
+        "Description": "US Agrivoltaic Irradiance Database",
+        "ARN": "arn:aws:s3:::oedi-data-lake/inspire/agrivoltaics_irradiance/",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://data.openei.org/s3_viewer?bucket=oedi-data-lake&prefix=inspire%2Fagrivoltaics_irradiance%2F&limit=50)"
         ],
         "Documentation": "https://github.com/openEDI/documentation/",
         "Contact": "https://github.com/openEDI/documentation/issues",
@@ -7736,12 +7797,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
         "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -7763,10 +7822,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -23514,7 +23575,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
@@ -23542,7 +23603,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
@@ -24264,7 +24325,31 @@
         "ControlledAccess": null
     },
     {
-        "Name": "State of Colorado Imagery",
+        "Name": "State of Colorado Imagery - Notifications for real-time data updates",
+        "Description": "Notifications for real-time data updates",
+        "ARN": "arn:aws:sns:us-west-2:180294215083:colorado-public-imagery-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://docs.google.com/document/d/1YDHignUj9lQTMw2J-SqA96MTP8KmJYtk2ZKKC2ZYuPE/edit?usp=sharing",
+        "Contact": "oit_gis@state.co.us",
+        "ManagedBy": "State of Colorado Governors Office of Information Technology OIT GIS team",
+        "UpdateFrequency": "Periodically",
+        "License": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+        "Tags": [
+            "aws-pds",
+            "aerial imagery",
+            "geospatial",
+            "imaging",
+            "mapping"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "State of Colorado Imagery - The State of Colorado historic public aerial imagery Currently, NAIP is available from 2005 and 2009-2021 The National Agriculture Imagery Program is a project managed by the US Department of Agriculture created to collect leaf-on imagery for the United States during peak growing seasons The files are available as GeoTIFFs From 2005-2017 they have a one meter resolution After that, it is a 60cm resolution DRAPP (Denver Regional Aerial Photgraphy Project) is available from 2010-2020 It is availble in 3, 6, and 12in resolutions (except 2012)",
         "Description": "The State of Colorado historic public aerial imagery Currently, NAIP is available from 2005 and 2009-2021 The National Agriculture Imagery Program is a project managed by the US Department of Agriculture created to collect leaf-on imagery for the United States during peak growing seasons The files are available as GeoTIFFs From 2005-2017 they have a one meter resolution After that, it is a 60cm resolution DRAPP (Denver Regional Aerial Photgraphy Project) is available from 2010-2020 It is availble in 3, 6, and 12in resolutions (except 2012)",
         "ARN": "arn:aws:s3:::colorado-public-imagery",
         "Region": "us-west-2",
