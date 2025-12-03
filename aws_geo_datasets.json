@@ -15129,7 +15129,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -15177,7 +15177,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -15201,7 +15201,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -20926,6 +20926,31 @@
         "ControlledAccess": null
     },
     {
+        "Name": "Planette ERA5 Archive",
+        "Description": "ERA5 Reanalysis Data with Multiple Temporal Aggregations (Zarr format)",
+        "ARN": "arn:aws:s3:::planette-era5/era5/",
+        "Region": "us-east-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://planette-era5.s3.amazonaws.com/index.html#era5/)"
+        ],
+        "Documentation": "https://github.com/PlanetteAI/planette_era5_archive/blob/main/README.md",
+        "Contact": "aodhan.sweeney@planette.ai",
+        "ManagedBy": "Planette.ai",
+        "UpdateFrequency": "Monthly",
+        "License": "Copernicus Licence (similar to CC-BY-4.0): You are free to share and adapt the material for any purpose, even commercially, provided that you give appropriate credit.https://cds.climate.copernicus.eu/api/v2/terms/static/licence-to-use-copernicus-products.pdf",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "weather",
+            "earth observation"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "PoroTomo - HSDS PoroTomo domains",
         "Description": "HSDS PoroTomo domains",
         "ARN": "arn:aws:s3:::nrel-pds-hsds/nrel/porotomo/",
@@ -23575,7 +23600,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
@@ -23603,7 +23628,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
