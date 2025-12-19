@@ -1346,6 +1346,56 @@
         "ControlledAccess": null
     },
     {
+        "Name": "CCRS MODIS albedo over Canada | Alb\u00e9do CCRS MODIS au-dessus du Canada - CCRS MODIS Albedo, Cloud Optimized GeoTIFF (COG) images",
+        "Description": "CCRS MODIS Albedo, Cloud Optimized GeoTIFF (COG) images",
+        "ARN": "arn:aws:s3:::ccrs-modis-albedo",
+        "Region": "ca-central-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://data.eodms-sgdot.nrcan-rncan.gc.ca/public/CCRS/Trishchenko_MODIS_Albedo",
+        "Contact": "alexander.trichtchenko@nrcan-rncan.gc.ca",
+        "ManagedBy": "Canada Centre for Remote Sensing (CCRS), Canada Centre for Mapping and Earth Observation (CCMEO), Department of Natural Resources Canada (NRCan) https://natural-resources.canada.ca/science-data/science-research/research-centres/canada-centre-remote-sensing https://natural-resources.canada.ca/science-data/science-research/research-centres/canada-centre-mapping-earth-observation",
+        "UpdateFrequency": "Semi-annually, until the end of MODIS operations\nDeux fois par an, jusqu'\u00e0 la fin des op\u00e9rations MODIS\n",
+        "License": "Creative Commons Licence. Creative Commons BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "aws-pds",
+            "analysis ready data",
+            "broadband",
+            "cog",
+            "earth observation",
+            "satellite imagery"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "CCRS MODIS albedo over Canada | Alb\u00e9do CCRS MODIS au-dessus du Canada - Notifications for new CCRS MODIS Albedo data",
+        "Description": "Notifications for new CCRS MODIS Albedo data",
+        "ARN": "arn:aws:sns:ca-central-1:675987781521:ccrs-modis-albedo-object_created",
+        "Region": "ca-central-1",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://data.eodms-sgdot.nrcan-rncan.gc.ca/public/CCRS/Trishchenko_MODIS_Albedo",
+        "Contact": "alexander.trichtchenko@nrcan-rncan.gc.ca",
+        "ManagedBy": "Canada Centre for Remote Sensing (CCRS), Canada Centre for Mapping and Earth Observation (CCMEO), Department of Natural Resources Canada (NRCan) https://natural-resources.canada.ca/science-data/science-research/research-centres/canada-centre-remote-sensing https://natural-resources.canada.ca/science-data/science-research/research-centres/canada-centre-mapping-earth-observation",
+        "UpdateFrequency": "Semi-annually, until the end of MODIS operations\nDeux fois par an, jusqu'\u00e0 la fin des op\u00e9rations MODIS\n",
+        "License": "Creative Commons Licence. Creative Commons BY 4.0 https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "aws-pds",
+            "analysis ready data",
+            "broadband",
+            "cog",
+            "earth observation",
+            "satellite imagery"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "CMAS Data Warehouse - 2016v3 Modeling Platform",
         "Description": "2016v3 Modeling Platform",
         "ARN": "arn:aws:s3:::2016v3platform",
@@ -7747,10 +7797,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
         "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -7772,12 +7824,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
         "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-ap-southeast-2",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
         "Region": "ap-southeast-2",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
