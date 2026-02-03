@@ -22,6 +22,13 @@ This repo provides the list of geospatial datasets in two formats:
 - Planetary Computer Catalog: [pc_catalog.tsv](https://github.com/opengeos/geospatial-data-catalogs/blob/master/pc_catalog.tsv)
 - NASA CMR STAC Catalog: [nasa_cmr_catalog.tsv](https://github.com/opengeos/NASA-CMR-STAC/blob/master/nasa_cmr_catalog.tsv)
 
+#### Copernicus Services Products
+- Copernicus Atmosphere: [copernicus_atmosphere.tsv](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_atmosphere.tsv)
+- Copernicus Climate: [copernicus_climate.tsv](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_climate.tsv)
+- Copernicus Emergency: [copernicus_emergency.tsv](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_emergency.tsv)
+- Copernicus Land: [copernicus_land.tsv](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_land.tsv)
+- Copernicus Marine: [copernicus_marine.tsv](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_marine.tsv)
+
 ### JSON format
 
 - AWS Open Data: [aws_open_datasets.json](https://github.com/opengeos/geospatial-data-catalogs/blob/master/aws_open_datasets.json)
@@ -31,6 +38,13 @@ This repo provides the list of geospatial datasets in two formats:
 - Earth Engine Catalog: [gee_catalog.json](https://github.com/opengeos/geospatial-data-catalogs/blob/master/gee_catalog.json)
 - Planetary Computer Catalog: [pc_catalog.json](https://github.com/opengeos/geospatial-data-catalogs/blob/master/pc_catalog.json)
 - NASA CMR STAC Catalog: [nasa_cmr_catalog.json](https://github.com/opengeos/NASA-CMR-STAC/blob/master/nasa_cmr_catalog.json)
+
+#### Copernicus Services Products
+- Copernicus Atmosphere: [copernicus_atmosphere.json](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_atmosphere.json)
+- Copernicus Climate: [copernicus_climate.json](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_climate.json)
+- Copernicus Emergency: [copernicus_emergency.json](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_emergency.json)
+- Copernicus Land: [copernicus_land.json](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_land.json)
+- Copernicus Marine: [copernicus_marine.json](https://github.com/opengeos/geospatial-data-catalogs/blob/master/copernicus_marine.json)
 
 ### Examples
 
@@ -55,3 +69,4 @@ df.head()
 - A list of geospatial datasets on NASA's Common Metadata Repository (CMR): [NASA-CMR-STAC](https://github.com/opengeos/NASA-CMR-STAC)
 - A list of geospatial data catalogs: [geospatial-data-catalogs](https://github.com/opengeos/geospatial-data-catalogs)
 - The Maxar Open Data STAC Catalog: [maxar-open-data](https://github.com/opengeos/maxar-open-data)
+- Copernicus Services Products Metadata: [Copernicus-Services-Products-Metadata](https://github.com/do-me/Copernicus-Services-Products-Metadata)
