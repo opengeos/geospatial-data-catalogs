@@ -38718,7 +38718,7 @@
         "Type": "SNS Topic",
         "Documentation": "https://roda.sentinel-hub.com/sentinel-s1-l1c/GRD/readme.html",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](http://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -38745,7 +38745,7 @@
         "Type": "S3 Bucket",
         "Documentation": "https://roda.sentinel-hub.com/sentinel-s1-l1c/GRD/readme.html",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](http://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -38766,13 +38766,13 @@
     },
     {
         "Name": "Sentinel-1",
-        "Description": "GRD in a Requester Pays S3 bucket",
+        "Description": "Sentinel-1 GRD S3 bucket",
         "ARN": "arn:aws:s3:::sentinel-s1-l1c",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "https://roda.sentinel-hub.com/sentinel-s1-l1c/GRD/readme.html",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](http://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -38788,7 +38788,7 @@
         "Explore": [
             "[STAC V1.0.0 endpoint](https://sentinel-s1-l1c-stac.s3.amazonaws.com/)"
         ],
-        "RequesterPays": true,
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -38966,7 +38966,7 @@
         "Type": "SNS Topic",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -38993,7 +38993,7 @@
         "Type": "SNS Topic",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -39020,7 +39020,7 @@
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -39047,7 +39047,7 @@
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -39074,7 +39074,7 @@
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -39095,13 +39095,13 @@
     },
     {
         "Name": "Sentinel-2",
-        "Description": "Level 2A scenes and metadata, in Requester Pays S3 bucket",
+        "Description": "Level 2A scenes and metadata, in S3 bucket",
         "ARN": "arn:aws:s3:::sentinel-s2-l2a",
         "Region": "eu-central-1",
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -39117,7 +39117,7 @@
         "Explore": [
             "[STAC V1.0.0 endpoint](https://sentinel-s2-l2a-stac.s3.amazonaws.com/)"
         ],
-        "RequesterPays": true,
+        "RequesterPays": false,
         "ControlledAccess": null,
         "AccountRequired": null,
         "Host": null
@@ -39130,7 +39130,7 @@
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [
@@ -39157,7 +39157,7 @@
         "Type": "S3 Bucket",
         "Documentation": "Documentation is available for [Sentinel-2 L1C](https://roda.sentinel-hub.com/sentinel-s2-l1c/readme.html) and [Sentinel-2 L2A](https://roda.sentinel-hub.com/sentinel-s2-l2a/readme.html).",
         "Contact": "https://forum.sentinel-hub.com/c/aws-sentinel",
-        "ManagedBy": "[Sinergise](https://www.sinergise.com/)",
+        "ManagedBy": "[Element 84](https://www.element84.com/)",
         "UpdateFrequency": "New Sentinel data are added regularly, usually within few hours after they are available on Copernicus OpenHub.",
         "License": "Access to Sentinel data is free, full and open for the broad Regional, National, European and International user community. View [Terms and Conditions](https://scihub.copernicus.eu/twiki/do/view/SciHubWebPortal/TermsConditions).",
         "Tags": [

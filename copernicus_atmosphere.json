@@ -51,7 +51,7 @@
                 "interval": [
                     [
                         "2024-03-01T00:00:00Z",
-                        "2026-02-03T00:00:00Z"
+                        "2026-02-07T00:00:00Z"
                     ]
                 ]
             }
@@ -331,7 +331,7 @@
                 "interval": [
                     [
                         "2024-01-17T00:00:00Z",
-                        "2026-02-03T00:00:00Z"
+                        "2026-02-07T00:00:00Z"
                     ]
                 ]
             }
@@ -683,7 +683,7 @@
                 "interval": [
                     [
                         "2015-01-01T00:00:00Z",
-                        "2026-02-03T00:00:00Z"
+                        "2026-02-07T00:00:00Z"
                     ]
                 ]
             }
@@ -697,75 +697,6 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/oD3sGIXSIP2lrUjmOgA0aLPUsLM=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-atmospheric-composition-forecasts/overview_a484dee4988156df196a92b874b23a6d2686921df6b17c528d1a171cb51d0240.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
-        "id": "cams-global-radiative-forcing-auxilliary-variables",
-        "title": "CAMS global radiative forcing - auxilliary variables",
-        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Parameter family: Radiation",
-            "Spatial coverage: Satellite image area",
-            "Product type: Analysis",
-            "Variable domain: Solar radiation"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -180,
-                        -90,
-                        180,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2003-01-01T00:00:00Z",
-                        "2017-12-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
             }
         }
     },
@@ -844,6 +775,75 @@
     {
         "type": "Collection",
         "stac_version": "1.1.0",
+        "id": "cams-global-radiative-forcing-auxilliary-variables",
+        "title": "CAMS global radiative forcing - auxilliary variables",
+        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Parameter family: Radiation",
+            "Spatial coverage: Satellite image area",
+            "Product type: Analysis",
+            "Variable domain: Solar radiation"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -180,
+                        -90,
+                        180,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2003-01-01T00:00:00Z",
+                        "2017-12-31T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
         "id": "cams-global-emission-inventories",
         "title": "CAMS global emission inventories",
         "description": "This data set contains gridded distributions of global anthropogenic and natural emissions.\nNatural and anthropogenic emissions of atmospheric pollutants and greenhouse gases are key drivers of the evolution of the composition of the atmosphere, so an accurate representation of them in forecast models of atmospheric composition is essential. CAMS compiles inventories of emission data that serve as input to its own forecast models, but which can also be used by other atmospheric chemical transport models. These inventories are based on a combination of existing data sets and new information, describing anthropogenic emissions from fossil fuel use on land, shipping, and aviation, and natural emissions from vegetation, soil, the ocean and termites. The anthropogenic emissions on land are further separated in specific activity sectors (e.g., power generation, road traffic, industry). The CAMS emission data sets provide good consistency between the emissions of greenhouse gases, reactive gases, and aerosol particles and their precursors. Because most inventory-based data sets are only available with a delay of several years, the CAMS emission inventories also extend these existing data sets forward in time by using the trends from the most recent available years, producing timely input data for real-time forecast models.\nMost of the data sets are updated once or twice per year adding the most recent year to the data record, while re-processing the original data record for consistency, when needed. This is reflected by the different version numbers.",
@@ -907,147 +907,6 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/JSWxIlRXCBVHEfW0QaEUZcYYDhI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-emission-inventories/overview_def42da7bfd33d3f2cc49e07bc5cac39340cc56944bcbbd96d7f8117e5bd3756.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
-        "id": "cams-solar-radiation-timeseries",
-        "title": "CAMS solar radiation time-series",
-        "description": "The CAMS solar radiation services provide historical values (2004 to present) of global (GHI), direct (BHI) and diffuse (DHI) solar irradiation, as well as direct normal irradiation (BNI). The aim is to fulfil the needs of European and national policy development and the requirements of both commercial and public downstream services, e.g. for planning, monitoring, efficiency improvements and the integration of solar energy systems into energy supply grids.\nFor clear-sky conditions, an irradiation time series is provided for any location in the world using information on aerosol, ozone and water vapour from the CAMS global forecasting system. Other properties, such as ground albedo and ground elevation, are also taken into account. Similar time series are available for cloudy (or \u201call sky\u201d) conditions but, since the high-resolution cloud information is directly inferred from satellite observations, these are currently only available inside the field-of-view of the Meteosat Second Generation (MSG) and the Himawari satellites, which is roughly Europe, Africa, part of South America, the Atlantic Ocean, the Middle East, part of Asia, and Australia.\nData is offered in both ASCII and netCDF format. Additionally, an ASCII \"expert mode\" format can be selected which contains in addition to the irradiation, all the input data used in their calculation (aerosol optical properties, water vapour concentration, etc). This additional information is only meaningful in the time frame at which the calculation is performed and so is only available at 1-minute time steps in universal time (UT).",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-solar-radiation-timeseries"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Parameter family: Radiation",
-            "Spatial coverage: Satellite image area",
-            "Product type: Analysis",
-            "Variable domain: Solar radiation"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        0,
-                        -89,
-                        360,
-                        89
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2004-01-01T00:00:00Z",
-                        "2026-02-01T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/fmEhVM3duj-r5aYGrd_mRQto8FU=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
-        "id": "cams-europe-air-quality-forecasts",
-        "title": "CAMS European air quality forecasts",
-        "description": "This dataset provides daily air quality analyses and forecasts for Europe. \nCAMS produces specific daily air quality analyses and forecasts for the European\ndomain at significantly higher spatial resolution (0.1 degrees, approx. 10km)\nthan is available from the global analyses and forecasts. The production is\nbased on an ensemble of eleven air quality forecasting systems across Europe. A\nmedian ensemble is calculated from individual outputs, since ensemble products\nyield on average better performance than the individual model products. The\nspread between the eleven models are used to provide an estimate of the forecast\nuncertainty. The analysis combines model data with observations provided by the\nEuropean Environment Agency (EEA) into a complete and consistent dataset using\nvarious data assimilation techniques depending upon the air-quality forecasting\nsystem used. In parallel, air quality forecasts are produced once a day for the\nnext four days. Both the analysis and the forecast are available at hourly time\nsteps and multiple height levels.\nNote that only nitrogen monoxide, nitrogen dioxide, sulphur dioxide, ozone,\nPM2.5, PM10 and dust are regularly validated against in situ observations, and\ntherefore forecasts of all other variables are unvalidated and should be\nconsidered experimental.",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-europe-air-quality-forecasts"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Variable domain: Atmosphere (composition)",
-            "Spatial coverage: Europe",
-            "Parameter family: Aerosol",
-            "Parameter family: Reactive gas",
-            "Product type: Analysis",
-            "Temporal coverage: Present",
-            "Temporal coverage: Future",
-            "Product type: Forecast"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -25,
-                        30,
-                        45,
-                        72
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2023-01-29T00:00:00Z",
-                        "2026-02-03T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-europe-air-quality-forecasts/overview_4e21f3b83980b68134ee3b2b792f5f0fdb3132d8c545becbba8cd3d801f66411.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/XTaSBGAN5Qd-Pfwkss9EG1I76pA=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-europe-air-quality-forecasts/overview_4e21f3b83980b68134ee3b2b792f5f0fdb3132d8c545becbba8cd3d801f66411.png"
             }
         }
     },
@@ -1118,6 +977,147 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/N8pJ0sN-74RKO2kbYxF1ezgGlcI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-reanalysis-eac4-monthly/overview_e26d2a815d3e6499bc8d18623930c253deb87757ca8df91fa99e939137d38a46.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
+        "id": "cams-europe-air-quality-forecasts",
+        "title": "CAMS European air quality forecasts",
+        "description": "This dataset provides daily air quality analyses and forecasts for Europe. \nCAMS produces specific daily air quality analyses and forecasts for the European\ndomain at significantly higher spatial resolution (0.1 degrees, approx. 10km)\nthan is available from the global analyses and forecasts. The production is\nbased on an ensemble of eleven air quality forecasting systems across Europe. A\nmedian ensemble is calculated from individual outputs, since ensemble products\nyield on average better performance than the individual model products. The\nspread between the eleven models are used to provide an estimate of the forecast\nuncertainty. The analysis combines model data with observations provided by the\nEuropean Environment Agency (EEA) into a complete and consistent dataset using\nvarious data assimilation techniques depending upon the air-quality forecasting\nsystem used. In parallel, air quality forecasts are produced once a day for the\nnext four days. Both the analysis and the forecast are available at hourly time\nsteps and multiple height levels.\nNote that only nitrogen monoxide, nitrogen dioxide, sulphur dioxide, ozone,\nPM2.5, PM10 and dust are regularly validated against in situ observations, and\ntherefore forecasts of all other variables are unvalidated and should be\nconsidered experimental.",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-europe-air-quality-forecasts"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Variable domain: Atmosphere (composition)",
+            "Spatial coverage: Europe",
+            "Parameter family: Aerosol",
+            "Parameter family: Reactive gas",
+            "Product type: Analysis",
+            "Temporal coverage: Present",
+            "Temporal coverage: Future",
+            "Product type: Forecast"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -25,
+                        30,
+                        45,
+                        72
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2023-02-02T00:00:00Z",
+                        "2026-02-08T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-europe-air-quality-forecasts/overview_4e21f3b83980b68134ee3b2b792f5f0fdb3132d8c545becbba8cd3d801f66411.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/XTaSBGAN5Qd-Pfwkss9EG1I76pA=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-europe-air-quality-forecasts/overview_4e21f3b83980b68134ee3b2b792f5f0fdb3132d8c545becbba8cd3d801f66411.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
+        "id": "cams-solar-radiation-timeseries",
+        "title": "CAMS solar radiation time-series",
+        "description": "The CAMS solar radiation services provide historical values (2004 to present) of global (GHI), direct (BHI) and diffuse (DHI) solar irradiation, as well as direct normal irradiation (BNI). The aim is to fulfil the needs of European and national policy development and the requirements of both commercial and public downstream services, e.g. for planning, monitoring, efficiency improvements and the integration of solar energy systems into energy supply grids.\nFor clear-sky conditions, an irradiation time series is provided for any location in the world using information on aerosol, ozone and water vapour from the CAMS global forecasting system. Other properties, such as ground albedo and ground elevation, are also taken into account. Similar time series are available for cloudy (or \u201call sky\u201d) conditions but, since the high-resolution cloud information is directly inferred from satellite observations, these are currently only available inside the field-of-view of the Meteosat Second Generation (MSG) and the Himawari satellites, which is roughly Europe, Africa, part of South America, the Atlantic Ocean, the Middle East, part of Asia, and Australia.\nData is offered in both ASCII and netCDF format. Additionally, an ASCII \"expert mode\" format can be selected which contains in addition to the irradiation, all the input data used in their calculation (aerosol optical properties, water vapour concentration, etc). This additional information is only meaningful in the time frame at which the calculation is performed and so is only available at 1-minute time steps in universal time (UT).",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-solar-radiation-timeseries"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Parameter family: Radiation",
+            "Spatial coverage: Satellite image area",
+            "Product type: Analysis",
+            "Variable domain: Solar radiation"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        0,
+                        -89,
+                        360,
+                        89
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2004-01-01T00:00:00Z",
+                        "2026-02-06T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/fmEhVM3duj-r5aYGrd_mRQto8FU=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png"
             }
         }
     }

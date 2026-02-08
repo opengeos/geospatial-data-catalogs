@@ -50,7 +50,7 @@
                 "interval": [
                     [
                         "2019-11-05T00:00:00Z",
-                        "2026-02-03T00:00:00Z"
+                        "2026-02-07T00:00:00Z"
                     ]
                 ]
             }
@@ -64,74 +64,6 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/5Ei37SA8oZby9C0Xvw2VoF6dWag=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-glofas-forecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
-        "id": "efas-historical",
-        "title": "River discharge and related historical data from the European Flood Awareness System",
-        "description": "This dataset provides gridded modelled sub-daily and daily hydrological time series forced with meteorological observations. The data set is a consistent representation of the most important hydrological variables across the European Flood Awareness System (EFAS) domain. The temporal resolution is up to 30 years modelled time series of:\n\nRiver discharge\nVolumetric soil moisture\nSnow water equivalent\nSoil wetness index (root zone)\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are auxiliary (time invariant) data to aid interpretation of river discharge and soil moisture data. These auxiliary data are the upstream area, elevation, soil depth, wilting capacity and field capacity. The latter three are provided at three soil levels, one for each of the three soil layers represented in LISFLOOD.\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model with gridded observational data of precipitation and temperature at a 1x1 arcminute resolution (~1.5 km at EFAS latitudes) across the EFAS domain. Previous versions of the data have a 5x5km resolution. For the latest version data is available from 1992-01-01 up until near-real time, with a delay of 6 days. The real-time data is only available to EFAS partners.\nCompanion datasets, also available through the EWDS, are forecasts for users who are looking medium-range forecasts, reforecasts for research, local skill assessment and post-processing, and seasonal forecasts and reforecasts for users looking for long-term forecasts. For users looking for global hydrological data, we refer to the Global Flood Awareness System (GloFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/efas-historical"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Product type: Reanalysis",
-            "Temporal coverage: Past",
-            "Spatial coverage: Europe",
-            "Provider: Copernicus CEMS",
-            "Variable domain: Land (hydrology)"
-        ],
-        "license": "other",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        0,
-                        -70,
-                        360,
-                        70
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "1991-01-01T00:00:00Z",
-                        "2026-01-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/efas-historical/overview_ddd9074d456be00a54d03c320485bdbb1d1871507eccaa1039404a9c2c62fe31.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/lHpkSZaxXko-wA_Tt4GqwZhv-7U=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/efas-historical/overview_ddd9074d456be00a54d03c320485bdbb1d1871507eccaa1039404a9c2c62fe31.png"
             }
         }
     },
@@ -186,7 +118,7 @@
                 "interval": [
                     [
                         "1940-01-03T00:00:00Z",
-                        "2026-01-31T00:00:00Z"
+                        "2026-02-05T00:00:00Z"
                     ]
                 ]
             }
@@ -254,7 +186,7 @@
                 "interval": [
                     [
                         "1979-01-01T00:00:00Z",
-                        "2026-01-31T00:00:00Z"
+                        "2026-02-05T00:00:00Z"
                     ]
                 ]
             }
@@ -268,6 +200,142 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/326qPafXpnwSyVeWE_zprZ7Bl9Y=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-glofas-historical/overview_779934fbef02d194554ae626a1c5570e24a2e2a2e4b2ae7e8c54b4ca0c7fe9d0.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
+        "id": "efas-historical",
+        "title": "River discharge and related historical data from the European Flood Awareness System",
+        "description": "This dataset provides gridded modelled sub-daily and daily hydrological time series forced with meteorological observations. The data set is a consistent representation of the most important hydrological variables across the European Flood Awareness System (EFAS) domain. The temporal resolution is up to 30 years modelled time series of:\n\nRiver discharge\nVolumetric soil moisture\nSnow water equivalent\nSoil wetness index (root zone)\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are auxiliary (time invariant) data to aid interpretation of river discharge and soil moisture data. These auxiliary data are the upstream area, elevation, soil depth, wilting capacity and field capacity. The latter three are provided at three soil levels, one for each of the three soil layers represented in LISFLOOD.\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model with gridded observational data of precipitation and temperature at a 1x1 arcminute resolution (~1.5 km at EFAS latitudes) across the EFAS domain. Previous versions of the data have a 5x5km resolution. For the latest version data is available from 1992-01-01 up until near-real time, with a delay of 6 days. The real-time data is only available to EFAS partners.\nCompanion datasets, also available through the EWDS, are forecasts for users who are looking medium-range forecasts, reforecasts for research, local skill assessment and post-processing, and seasonal forecasts and reforecasts for users looking for long-term forecasts. For users looking for global hydrological data, we refer to the Global Flood Awareness System (GloFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/efas-historical"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Product type: Reanalysis",
+            "Temporal coverage: Past",
+            "Spatial coverage: Europe",
+            "Provider: Copernicus CEMS",
+            "Variable domain: Land (hydrology)"
+        ],
+        "license": "other",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        0,
+                        -70,
+                        360,
+                        70
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "1991-01-01T00:00:00Z",
+                        "2026-02-04T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/efas-historical/overview_ddd9074d456be00a54d03c320485bdbb1d1871507eccaa1039404a9c2c62fe31.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/lHpkSZaxXko-wA_Tt4GqwZhv-7U=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/efas-historical/overview_ddd9074d456be00a54d03c320485bdbb1d1871507eccaa1039404a9c2c62fe31.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
+        "id": "cems-fire-seasonal",
+        "title": "Seasonal forecast of fire danger indices from the Copernicus Emergency Management Service",
+        "description": "This dataset offers modeled daily fire danger time series, driven by seasonal weather forecasts. It provides long-range predictions of meteorological conditions conducive to the initiation, spread, and persistence of fires. The fire danger metrics included in this dataset are part of an extensive dataset produced by the Copernicus Emergency Management Service (CEMS) for the European Forest Fire Information System (EFFIS) and the Global Wildfire Information System (GWIS). EFFIS and GWIS are used for monitoring and forecasting fire danger at both European and global scales. The dataset incorporates fire danger indices from the U.S. Forest Service National Fire-Danger Rating System (NFDRS), the Canadian Forest Service Fire Weather Index Rating System (FWI), and the Australian McArthur (Mark 5) rating systems.\nThis dataset was generated by driving the Global ECMWF Fire Forecast (GEFF) model with seasonal weather ensemble forecasts from the European Centre for Medium-Range Weather Forecasts (ECMWF) System 5 (SEAS5) prediction system.These forecasts initially consist of 25 ensemble members until December 2016, referred to as re-forecasts. After that period, they consist of seasonal forecasts with 51 members. It is important to note that the re-forecast dataset was initialized using ERA-Interim analysis data, while forecast simulations from 2016 onward are initialized using ECMWF operational analysis. Therefore, it is suggested that the period 1981-2016 be used as a reference period, while the period 2017-to present as a real time forecast. \nFor both the re-forecast (1981-2016) and forecast periods (2017-present), the temporal resolution is daily forecasts at 12:00 local time, available once a month, with a prediction horizon of 216 days (equivalent to 7 months). The data records in this dataset will be extended over time as seasonal  forcing data becomes available. Once the SEAS5 operation ceases, the dataset will be updated with the next ECMWF seasonal system (SEAS6). It is essential to note that this is not a real-time service, as real-time forecasts are accessible through the EFFIS web services.\nThese seasonal forecasts can be used to assess the performance of the forecasting system or to develop tools for statistically correcting forecast errors. ECMWF produces this dataset as the computational center for fire danger forecasting within the Copernicus Emergency Management Service (CEMS) on behalf of the Joint Research Centre, which serves as the managing entity for this service.",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-fire-seasonal"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Variable domain: Land (biosphere)",
+            "Provider: Copernicus CEMS",
+            "Product type: Seasonal forecasts"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -179.95,
+                        -89.95,
+                        179.95,
+                        89.95
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "1981-02-01T00:00:00Z",
+                        "2026-01-01T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-fire-seasonal/overview_6a09913a8735343a5dc4801f5394a4448c819060f84fd021b7b4291e4ef231da.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/c8wgzziXyVvvElQIy6hl9nTQSrc=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-fire-seasonal/overview_6a09913a8735343a5dc4801f5394a4448c819060f84fd021b7b4291e4ef231da.png"
             }
         }
     },
@@ -322,7 +390,7 @@
                 "interval": [
                     [
                         "2018-10-11T00:00:00Z",
-                        "2025-12-29T00:00:00Z"
+                        "2026-01-05T00:00:00Z"
                     ]
                 ]
             }
@@ -472,74 +540,6 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/O1bh_HpiA2OYGzlcy0IGnZu_pAI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/efas-seasonal/overview_027e11ba4b15ebcb3217e766cb5c74cfd08665cf129d439a9ef52724a1961fa0.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
-        "id": "cems-fire-seasonal",
-        "title": "Seasonal forecast of fire danger indices from the Copernicus Emergency Management Service",
-        "description": "This dataset offers modeled daily fire danger time series, driven by seasonal weather forecasts. It provides long-range predictions of meteorological conditions conducive to the initiation, spread, and persistence of fires. The fire danger metrics included in this dataset are part of an extensive dataset produced by the Copernicus Emergency Management Service (CEMS) for the European Forest Fire Information System (EFFIS) and the Global Wildfire Information System (GWIS). EFFIS and GWIS are used for monitoring and forecasting fire danger at both European and global scales. The dataset incorporates fire danger indices from the U.S. Forest Service National Fire-Danger Rating System (NFDRS), the Canadian Forest Service Fire Weather Index Rating System (FWI), and the Australian McArthur (Mark 5) rating systems.\nThis dataset was generated by driving the Global ECMWF Fire Forecast (GEFF) model with seasonal weather ensemble forecasts from the European Centre for Medium-Range Weather Forecasts (ECMWF) System 5 (SEAS5) prediction system.These forecasts initially consist of 25 ensemble members until December 2016, referred to as re-forecasts. After that period, they consist of seasonal forecasts with 51 members. It is important to note that the re-forecast dataset was initialized using ERA-Interim analysis data, while forecast simulations from 2016 onward are initialized using ECMWF operational analysis. Therefore, it is suggested that the period 1981-2016 be used as a reference period, while the period 2017-to present as a real time forecast. \nFor both the re-forecast (1981-2016) and forecast periods (2017-present), the temporal resolution is daily forecasts at 12:00 local time, available once a month, with a prediction horizon of 216 days (equivalent to 7 months). The data records in this dataset will be extended over time as seasonal  forcing data becomes available. Once the SEAS5 operation ceases, the dataset will be updated with the next ECMWF seasonal system (SEAS6). It is essential to note that this is not a real-time service, as real-time forecasts are accessible through the EFFIS web services.\nThese seasonal forecasts can be used to assess the performance of the forecasting system or to develop tools for statistically correcting forecast errors. ECMWF produces this dataset as the computational center for fire danger forecasting within the Copernicus Emergency Management Service (CEMS) on behalf of the Joint Research Centre, which serves as the managing entity for this service.",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-fire-seasonal"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Variable domain: Land (biosphere)",
-            "Provider: Copernicus CEMS",
-            "Product type: Seasonal forecasts"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -179.95,
-                        -89.95,
-                        179.95,
-                        89.95
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "1981-02-01T00:00:00Z",
-                        "2025-12-01T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-fire-seasonal/overview_6a09913a8735343a5dc4801f5394a4448c819060f84fd021b7b4291e4ef231da.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/c8wgzziXyVvvElQIy6hl9nTQSrc=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-fire-seasonal/overview_6a09913a8735343a5dc4801f5394a4448c819060f84fd021b7b4291e4ef231da.png"
             }
         }
     },
