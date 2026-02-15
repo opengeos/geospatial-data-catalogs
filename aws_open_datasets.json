@@ -23070,31 +23070,6 @@
         "Host": null
     },
     {
-        "Name": "NIH NCBI PubMed Central (PMC) Article Datasets - Full-Text Biomedical and Life Sciences Journal Articles on AWS",
-        "Description": "xml and txt files with the full-text of articles; txt and csv file lists for metadata; all located in a public S3 bucket",
-        "ARN": "arn:aws:s3:::pmc-oa-opendata",
-        "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Documentation": "https://www.ncbi.nlm.nih.gov/pmc/tools/pmcaws",
-        "Contact": "pubmedcentral@ncbi.nlm.nih.gov",
-        "ManagedBy": "[National Library of Medicine (NLM)](http://nlm.nih.gov/)",
-        "UpdateFrequency": "Daily",
-        "License": "[PMC Copyright](https://www.ncbi.nlm.nih.gov/pmc/about/copyright/)",
-        "Tags": [
-            "aws-pds",
-            "life sciences",
-            "STRIDES",
-            "txt",
-            "xml",
-            "csv"
-        ],
-        "Explore": null,
-        "RequesterPays": null,
-        "ControlledAccess": null,
-        "AccountRequired": null,
-        "Host": null
-    },
-    {
         "Name": "NIH NCBI Sequence Read Archive (SRA) on AWS",
         "Description": "Update notifications for s3://sra-pub-run-odp Users can subscribe to this SNS topic with AWS Lambda or AWS Simple Queue Service",
         "ARN": "arn:aws:sns:us-east-1:867126678632:sra-pub-run-odp-objects",
@@ -23267,6 +23242,31 @@
             "bam",
             "cram",
             "STRIDES"
+        ],
+        "Explore": null,
+        "RequesterPays": null,
+        "ControlledAccess": null,
+        "AccountRequired": null,
+        "Host": null
+    },
+    {
+        "Name": "NIH NLM NCBI PubMed Central (PMC) Article Datasets - Full-Text Biomedical and Life Sciences Journal Articles on AWS",
+        "Description": "xml, txt, and PDF files with the full-text of articles; media and supplementary materials files; all located in a public S3 bucket",
+        "ARN": "arn:aws:s3:::pmc-oa-opendata",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Documentation": "https://www.ncbi.nlm.nih.gov/pmc/tools/pmcaws",
+        "Contact": "pubmedcentral@ncbi.nlm.nih.gov",
+        "ManagedBy": "[National Library of Medicine (NLM)](http://nlm.nih.gov/)",
+        "UpdateFrequency": "Continuous - article versions are updated continuously. Updates include - the addition of new article versions; the update of one or more objects belonging to an existing article version; in rare cases, the removal of an article version",
+        "License": "[PMC Copyright](https://www.ncbi.nlm.nih.gov/pmc/about/copyright/)",
+        "Tags": [
+            "aws-pds",
+            "life sciences",
+            "STRIDES",
+            "txt",
+            "xml",
+            "csv"
         ],
         "Explore": null,
         "RequesterPays": null,
@@ -24760,7 +24760,7 @@
         "Documentation": "https://dynamical.org/catalog/models/noaa-gfs/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
-        "UpdateFrequency": "NOAA GFS forecast: Forecasts initialized every 6 hours",
+        "UpdateFrequency": "NOAA GFS analysis: 1 hour; NOAA GFS forecast: Forecasts initialized every 6 hours",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",
@@ -24788,7 +24788,7 @@
         "Documentation": "https://dynamical.org/catalog/models/noaa-gfs/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
-        "UpdateFrequency": "NOAA GFS forecast: Forecasts initialized every 6 hours",
+        "UpdateFrequency": "NOAA GFS analysis: 1 hour; NOAA GFS forecast: Forecasts initialized every 6 hours",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",

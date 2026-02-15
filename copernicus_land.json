@@ -1,5 +1,136 @@
 [
     {
+        "@id": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-near-real-time-v2-1-300m",
+        "@type": "DataSet",
+        "CreationDate": "2024-09-05T09:39:13+01:00",
+        "Creator": "ghitab",
+        "Date": "2024-09-05T12:20:09+01:00",
+        "Description": "Provides semi-continuous observations for a large number of medium and large-sized lakes. 10-daily observations are available in near real time at 300 m spatial resolution from September 2024 to present.",
+        "EffectiveDate": "2024-09-05T12:20:09+01:00",
+        "ExpirationDate": "None",
+        "Language": "",
+        "ModificationDate": "2026-02-12T12:26:57+01:00",
+        "Subject": [
+            "Lake Water Quality"
+        ],
+        "Title": "Lake Water Quality 2024-present (raster 300 m), global, 10-daily \u2013 version 2",
+        "TranslationGroup": "f9f38e5ab2324d269aa1e89d10136138",
+        "Type": "DataSet",
+        "UID": "9e8be500204945a48ce15fc8d1c57482",
+        "author_name": null,
+        "cmf_uid": 1498,
+        "commentators": [],
+        "created": "2024-09-05T08:39:13+00:00",
+        "description": "Provides semi-continuous observations for a large number of medium and large-sized lakes. 10-daily observations are available in near real time at 300 m spatial resolution from September 2024 to present.",
+        "downloadable_dataset": true,
+        "effective": "2024-09-05T11:20:09+00:00",
+        "end": null,
+        "exclude_from_nav": false,
+        "expires": "2499-12-30T23:00:00+00:00",
+        "getIcon": true,
+        "getId": "lake-water-quality-near-real-time-v2-1-300m",
+        "getObjSize": "71.6 KB",
+        "getPath": "/Plone/en/products/water-bodies/lake-water-quality-near-real-time-v2-1-300m",
+        "getRemoteUrl": null,
+        "getURL": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-near-real-time-v2-1-300m",
+        "hasPreviewImage": null,
+        "head_title": null,
+        "id": "lake-water-quality-near-real-time-v2-1-300m",
+        "image_field": "image",
+        "image_scales": {
+            "image": [
+                {
+                    "content-type": "image/png",
+                    "download": "@@images/image-201-15c2912b16e5161035c630b4a974872c.png",
+                    "filename": "LakeWaterQuality.png",
+                    "height": 197,
+                    "scales": {
+                        "big": {
+                            "download": "@@images/image-80-ad557f118cfc7f20e73db5e96f266b02.png",
+                            "height": 78,
+                            "width": 80
+                        },
+                        "icon": {
+                            "download": "@@images/image-32-39f1052f4da586f3a3f1ed7b05a32f2c.png",
+                            "height": 31,
+                            "width": 32
+                        },
+                        "medium": {
+                            "download": "@@images/image-60-a6641a4c43e9c482f988eb8299c6f70f.png",
+                            "height": 58,
+                            "width": 60
+                        },
+                        "mini": {
+                            "download": "@@images/image-200-bb1941626c728914d6e00bfbab95c46d.png",
+                            "height": 196,
+                            "width": 200
+                        },
+                        "small": {
+                            "download": "@@images/image-48-bf8fcb9da0c32a44dadd80bc56e33f97.png",
+                            "height": 47,
+                            "width": 48
+                        },
+                        "thumb": {
+                            "download": "@@images/image-128-93eed409a03d1e11075667308799103e.png",
+                            "height": 125,
+                            "width": 128
+                        },
+                        "tile": {
+                            "download": "@@images/image-64-c500b2ef4d50d96bab65281f1e5067dd.png",
+                            "height": 62,
+                            "width": 64
+                        },
+                        "tiny": {
+                            "download": "@@images/image-24-6bace106c43ad37b0bfc248655527af7.png",
+                            "height": 23,
+                            "width": 24
+                        }
+                    },
+                    "size": 67109,
+                    "width": 201
+                }
+            ]
+        },
+        "in_response_to": null,
+        "is_folderish": true,
+        "last_comment_date": null,
+        "latitude": null,
+        "listCreators": [
+            "ghitab"
+        ],
+        "location": null,
+        "longitude": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/lwq_nrt_global_300m_10daily_v2?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
+        "meta_type": "Dexterity Container",
+        "mime_type": "text/plain",
+        "modified": "2026-02-12T11:26:57+00:00",
+        "nav_title": null,
+        "ondemand": null,
+        "portal_type": "DataSet",
+        "procurement_no": null,
+        "publication_date": null,
+        "review_state": "published",
+        "start": null,
+        "submission_deadline": null,
+        "sync_uid": null,
+        "taxonomy_family": [],
+        "taxonomy_faqcategories": [],
+        "taxonomy_technical_library_categorization": [],
+        "taxonomy_use_case_spatial_coverage": [],
+        "taxonomy_user_profile_affiliation": [],
+        "taxonomy_user_profile_country": [],
+        "taxonomy_user_profile_sector_of_activity": [],
+        "taxonomy_user_profile_thematic_activity": [],
+        "taxonomy_userprofileinstitutionaldomain": [],
+        "taxonomy_userprofileproductuseintention": [],
+        "taxonomy_userprofileprofessionalthematicdomain": [],
+        "title": "Lake Water Quality 2024-present (raster 300 m), global, 10-daily \u2013 version 2",
+        "total_comments": 0,
+        "type_title": "DataSet",
+        "url": null,
+        "version": null
+    },
+    {
         "@id": "https://land.copernicus.eu/en/products/snow/snow-cover-global-v1-0-1km",
         "@type": "DataSet",
         "CreationDate": "2021-12-01T10:41:33+01:00",
@@ -9,7 +140,7 @@
         "EffectiveDate": "2022-01-21T12:07:16+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-03T14:21:35+01:00",
+        "ModificationDate": "2026-02-11T14:22:15+01:00",
         "Subject": [
             "Snow Cover Extent"
         ],
@@ -135,10 +266,10 @@
         ],
         "location": null,
         "longitude": null,
-        "mapviewer_viewservice": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/sce_global_1km_daily_v1?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-03T13:21:35+00:00",
+        "modified": "2026-02-11T13:22:15+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -3282,137 +3413,6 @@
         "taxonomy_userprofileproductuseintention": [],
         "taxonomy_userprofileprofessionalthematicdomain": [],
         "title": "Very High Resolution Image Mosaic 2021 True Colour (raster 2 m), Europe",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-near-real-time-v2-0-300m",
-        "@type": "DataSet",
-        "CreationDate": "2024-09-05T09:39:13+01:00",
-        "Creator": "ghitab",
-        "Date": "2024-09-05T12:20:09+01:00",
-        "Description": "Provides semi-continuous observations for a large number of medium and large-sized lakes. 10-daily observations are available in near real time at 300 m spatial resolution from September 2024 to present.",
-        "EffectiveDate": "2024-09-05T12:20:09+01:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2025-12-05T13:51:03+01:00",
-        "Subject": [
-            "Lake Water Quality"
-        ],
-        "Title": "Lake Water Quality 2024-present (raster 300 m), global, 10-daily \u2013 version 2",
-        "TranslationGroup": "f9f38e5ab2324d269aa1e89d10136138",
-        "Type": "DataSet",
-        "UID": "9e8be500204945a48ce15fc8d1c57482",
-        "author_name": null,
-        "cmf_uid": 1498,
-        "commentators": [],
-        "created": "2024-09-05T08:39:13+00:00",
-        "description": "Provides semi-continuous observations for a large number of medium and large-sized lakes. 10-daily observations are available in near real time at 300 m spatial resolution from September 2024 to present.",
-        "downloadable_dataset": true,
-        "effective": "2024-09-05T11:20:09+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T23:00:00+00:00",
-        "getIcon": true,
-        "getId": "lake-water-quality-near-real-time-v2-0-300m",
-        "getObjSize": "71.6 KB",
-        "getPath": "/Plone/en/products/water-bodies/lake-water-quality-near-real-time-v2-0-300m",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-near-real-time-v2-0-300m",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "lake-water-quality-near-real-time-v2-0-300m",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-201-15c2912b16e5161035c630b4a974872c.png",
-                    "filename": "LakeWaterQuality.png",
-                    "height": 197,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-ad557f118cfc7f20e73db5e96f266b02.png",
-                            "height": 78,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-39f1052f4da586f3a3f1ed7b05a32f2c.png",
-                            "height": 31,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-a6641a4c43e9c482f988eb8299c6f70f.png",
-                            "height": 58,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-bb1941626c728914d6e00bfbab95c46d.png",
-                            "height": 196,
-                            "width": 200
-                        },
-                        "small": {
-                            "download": "@@images/image-48-bf8fcb9da0c32a44dadd80bc56e33f97.png",
-                            "height": 47,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-93eed409a03d1e11075667308799103e.png",
-                            "height": 125,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-c500b2ef4d50d96bab65281f1e5067dd.png",
-                            "height": 62,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-6bace106c43ad37b0bfc248655527af7.png",
-                            "height": 23,
-                            "width": 24
-                        }
-                    },
-                    "size": 67109,
-                    "width": 201
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ghitab"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/lwq_nrt_global_300m_10daily_v2?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2025-12-05T12:51:03+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Lake Water Quality 2024-present (raster 300 m), global, 10-daily \u2013 version 2",
         "total_comments": 0,
         "type_title": "DataSet",
         "url": null,
@@ -15590,7 +15590,7 @@
         "EffectiveDate": "2023-10-30T12:07:00+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2025-12-05T13:29:31+01:00",
+        "ModificationDate": "2026-02-10T12:09:55+01:00",
         "Subject": [
             "Primary Production"
         ],
@@ -15689,7 +15689,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/gpp_global_300m_10daily_v1_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2025-12-05T12:29:31+00:00",
+        "modified": "2026-02-10T11:09:55+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -15845,6 +15845,142 @@
         "taxonomy_userprofileproductuseintention": [],
         "taxonomy_userprofileprofessionalthematicdomain": [],
         "title": "European Ground Motion Service: Calibrated 2016-present (vector), Europe, yearly",
+        "total_comments": 0,
+        "type_title": "DataSet",
+        "url": null,
+        "version": null
+    },
+    {
+        "@id": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-v2-1-100m",
+        "@type": "DataSet",
+        "CreationDate": "2024-09-05T09:16:11+01:00",
+        "Creator": "ghitab",
+        "Date": "2024-09-05T12:20:08+01:00",
+        "Description": "Provides semi-continuous observations for a large number of medium and large-sized lakes, according to the Global Lakes and Wetlands Database (GLWD) or otherwise of specific environmental monitoring interest. 10-daily observations are available in near real time at 100 m spatial resolution from September 2024 to present.",
+        "EffectiveDate": "2024-09-05T12:20:08+01:00",
+        "ExpirationDate": "None",
+        "Language": "",
+        "ModificationDate": "2026-02-11T14:59:13+01:00",
+        "Subject": [
+            "Lake Water Quality"
+        ],
+        "Title": "Lake Water Quality 2024-present (raster 100 m), global, 10-daily \u2013 version 2",
+        "TranslationGroup": "7269bc9806ae41f89c9fa18a29665e67",
+        "Type": "DataSet",
+        "UID": "7985b581c33a439b80a7a839ee7ce5e8",
+        "author_name": null,
+        "cmf_uid": 1497,
+        "commentators": [],
+        "created": "2024-09-05T08:16:11+00:00",
+        "description": "Provides semi-continuous observations for a large number of medium and large-sized lakes, according to the Global Lakes and Wetlands Database (GLWD) or otherwise of specific environmental monitoring interest. 10-daily observations are available in near real time at 100 m spatial resolution from September 2024 to present.",
+        "downloadable_dataset": true,
+        "effective": "2024-09-05T11:20:08+00:00",
+        "end": null,
+        "exclude_from_nav": false,
+        "expires": "2499-12-30T23:00:00+00:00",
+        "getIcon": true,
+        "getId": "lake-water-quality-v2-1-100m",
+        "getObjSize": "221.8 KB",
+        "getPath": "/Plone/en/products/water-bodies/lake-water-quality-v2-1-100m",
+        "getRemoteUrl": null,
+        "getURL": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-v2-1-100m",
+        "hasPreviewImage": null,
+        "head_title": null,
+        "id": "lake-water-quality-v2-1-100m",
+        "image_field": "image",
+        "image_scales": {
+            "image": [
+                {
+                    "content-type": "image/png",
+                    "download": "@@images/image-400-10f90cc883fec88d21fc979216e8f0b2.png",
+                    "filename": "website_LWQ-100m_zoom3.png.png",
+                    "height": 293,
+                    "scales": {
+                        "big": {
+                            "download": "@@images/image-80-fd4d192748ebc3700f2d448b75f6137b.png",
+                            "height": 58,
+                            "width": 80
+                        },
+                        "icon": {
+                            "download": "@@images/image-32-996d6a6b6a426712087dfe8312567d48.png",
+                            "height": 23,
+                            "width": 32
+                        },
+                        "medium": {
+                            "download": "@@images/image-60-6fcd97f7cd7a9442d5dc4121a0f071a6.png",
+                            "height": 43,
+                            "width": 60
+                        },
+                        "mini": {
+                            "download": "@@images/image-200-98691a8ab3dfcb94a0c183089613d24f.png",
+                            "height": 146,
+                            "width": 200
+                        },
+                        "preview": {
+                            "download": "@@images/image-400-e5d68b357452c027ec2686d4c25190f8.png",
+                            "height": 293,
+                            "width": 400
+                        },
+                        "small": {
+                            "download": "@@images/image-48-25a0cd3fc8c8397e3ddf111bd4a27913.png",
+                            "height": 35,
+                            "width": 48
+                        },
+                        "thumb": {
+                            "download": "@@images/image-128-b74520df018442730d8ddd251ccab4bd.png",
+                            "height": 93,
+                            "width": 128
+                        },
+                        "tile": {
+                            "download": "@@images/image-64-205acb12422a37f03c3a38d03bbcadee.png",
+                            "height": 46,
+                            "width": 64
+                        },
+                        "tiny": {
+                            "download": "@@images/image-24-d0dafd65a09262bb0d91f6b1136c8a4c.png",
+                            "height": 17,
+                            "width": 24
+                        }
+                    },
+                    "size": 220909,
+                    "width": 400
+                }
+            ]
+        },
+        "in_response_to": null,
+        "is_folderish": true,
+        "last_comment_date": null,
+        "latitude": null,
+        "listCreators": [
+            "ghitab"
+        ],
+        "location": null,
+        "longitude": null,
+        "mapviewer_viewservice": null,
+        "meta_type": "Dexterity Container",
+        "mime_type": "text/plain",
+        "modified": "2026-02-11T13:59:13+00:00",
+        "nav_title": null,
+        "ondemand": null,
+        "portal_type": "DataSet",
+        "procurement_no": null,
+        "publication_date": null,
+        "review_state": "published",
+        "start": null,
+        "submission_deadline": null,
+        "sync_uid": null,
+        "taxonomy_family": [],
+        "taxonomy_faqcategories": [],
+        "taxonomy_technical_library_categorization": [],
+        "taxonomy_use_case_spatial_coverage": [],
+        "taxonomy_user_profile_affiliation": [],
+        "taxonomy_user_profile_country": [],
+        "taxonomy_user_profile_sector_of_activity": [],
+        "taxonomy_user_profile_thematic_activity": [],
+        "taxonomy_userprofileinstitutionaldomain": [],
+        "taxonomy_userprofileproductuseintention": [],
+        "taxonomy_userprofileprofessionalthematicdomain": [],
+        "title": "Lake Water Quality 2024-present (raster 100 m), global, 10-daily \u2013 version 2",
         "total_comments": 0,
         "type_title": "DataSet",
         "url": null,
@@ -22513,11 +22649,11 @@
         "CreationDate": "2021-10-29T11:16:49+01:00",
         "Creator": "forsllud",
         "Date": "2020-03-30T13:20:00+01:00",
-        "Description": "Provides land cover and land use data with the integrated population estimates in 788 Functional Urban Areas (FUA) with more than 50,000 inhabitants in EEA38 countries and the United Kingdom for the 2018 reference year. The dataset maps land cover and land use for 17 urban classes with the Minimum Mapping Unit (MMU) of 0.25 ha and for 9 rural classes with the MMU of 1 ha and is available as vector data.",
+        "Description": "Provides land cover and land use data in 764 Functional Urban Areas (FUA) with more than 50,000 inhabitants in EEA38 countries and the United Kingdom for the 2018 reference year. The dataset maps land cover and land use for 17 urban classes with the Minimum Mapping Unit (MMU) of 0.25 ha and for 9 rural classes with the MMU of 1 ha and is available as vector data. The revised 2018 dataset is now aligned with the 2021 FUA boundaries, except for the 26 new FUAs that have no correspondence in 2018.",
         "EffectiveDate": "2020-03-30T13:20:00+01:00",
         "ExpirationDate": "None",
         "Language": "en",
-        "ModificationDate": "2026-02-06T15:42:04+01:00",
+        "ModificationDate": "2026-02-09T13:58:50+01:00",
         "Subject": [],
         "Title": "Urban Atlas Land Cover/Land Use 2018 (vector), Europe, 3-yearly",
         "TranslationGroup": "2caea4ebe93242289f1575f011c95e66",
@@ -22527,7 +22663,7 @@
         "cmf_uid": 626,
         "commentators": [],
         "created": "2021-10-29T10:16:49+00:00",
-        "description": "Provides land cover and land use data with the integrated population estimates in 788 Functional Urban Areas (FUA) with more than 50,000 inhabitants in EEA38 countries and the United Kingdom for the 2018 reference year. The dataset maps land cover and land use for 17 urban classes with the Minimum Mapping Unit (MMU) of 0.25 ha and for 9 rural classes with the MMU of 1 ha and is available as vector data.",
+        "description": "Provides land cover and land use data in 764 Functional Urban Areas (FUA) with more than 50,000 inhabitants in EEA38 countries and the United Kingdom for the 2018 reference year. The dataset maps land cover and land use for 17 urban classes with the Minimum Mapping Unit (MMU) of 0.25 ha and for 9 rural classes with the MMU of 1 ha and is available as vector data. The revised 2018 dataset is now aligned with the 2021 FUA boundaries, except for the 26 new FUAs that have no correspondence in 2018.",
         "downloadable_dataset": true,
         "effective": "2020-03-30T12:20:00+00:00",
         "end": null,
@@ -22614,7 +22750,7 @@
         "mapviewer_viewservice": "https://image.discomap.eea.europa.eu/arcgis/services/UrbanAtlas/UA_UrbanAtlas_2018/MapServer/WmsServer",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-06T14:42:04+00:00",
+        "modified": "2026-02-09T12:58:50+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -30153,7 +30289,7 @@
         "EffectiveDate": "2022-01-21T12:07:28+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2025-12-05T13:29:07+01:00",
+        "ModificationDate": "2026-02-11T11:00:10+01:00",
         "Subject": [
             "Primary Production"
         ],
@@ -30252,7 +30388,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/dmp_global_300m_10daily_v1_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2025-12-05T12:29:07+00:00",
+        "modified": "2026-02-11T10:00:10+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -30289,7 +30425,7 @@
         "EffectiveDate": "2022-01-21T12:07:28+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2025-12-05T13:29:16+01:00",
+        "ModificationDate": "2026-02-10T12:09:55+01:00",
         "Subject": [
             "Primary Production"
         ],
@@ -30388,7 +30524,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/gdmp_global_300m_10daily_v1_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2025-12-05T12:29:16+00:00",
+        "modified": "2026-02-10T11:09:55+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -33860,142 +33996,6 @@
         "version": null
     },
     {
-        "@id": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-v2-0-100m",
-        "@type": "DataSet",
-        "CreationDate": "2024-09-05T09:16:11+01:00",
-        "Creator": "ghitab",
-        "Date": "2024-09-05T12:20:08+01:00",
-        "Description": "Provides semi-continuous observations for a large number of medium and large-sized lakes, according to the Global Lakes and Wetlands Database (GLWD) or otherwise of specific environmental monitoring interest. 10-daily observations are available in near real time at 100 m spatial resolution from September 2024 to present.",
-        "EffectiveDate": "2024-09-05T12:20:08+01:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-02-03T14:16:23+01:00",
-        "Subject": [
-            "Lake Water Quality"
-        ],
-        "Title": "Lake Water Quality 2024-present (raster 100 m), global, 10-daily \u2013 version 2",
-        "TranslationGroup": "7269bc9806ae41f89c9fa18a29665e67",
-        "Type": "DataSet",
-        "UID": "7985b581c33a439b80a7a839ee7ce5e8",
-        "author_name": null,
-        "cmf_uid": 1497,
-        "commentators": [],
-        "created": "2024-09-05T08:16:11+00:00",
-        "description": "Provides semi-continuous observations for a large number of medium and large-sized lakes, according to the Global Lakes and Wetlands Database (GLWD) or otherwise of specific environmental monitoring interest. 10-daily observations are available in near real time at 100 m spatial resolution from September 2024 to present.",
-        "downloadable_dataset": true,
-        "effective": "2024-09-05T11:20:08+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T23:00:00+00:00",
-        "getIcon": true,
-        "getId": "lake-water-quality-v2-0-100m",
-        "getObjSize": "221.8 KB",
-        "getPath": "/Plone/en/products/water-bodies/lake-water-quality-v2-0-100m",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-v2-0-100m",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "lake-water-quality-v2-0-100m",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-10f90cc883fec88d21fc979216e8f0b2.png",
-                    "filename": "website_LWQ-100m_zoom3.png.png",
-                    "height": 293,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-fd4d192748ebc3700f2d448b75f6137b.png",
-                            "height": 58,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-996d6a6b6a426712087dfe8312567d48.png",
-                            "height": 23,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-6fcd97f7cd7a9442d5dc4121a0f071a6.png",
-                            "height": 43,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-98691a8ab3dfcb94a0c183089613d24f.png",
-                            "height": 146,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-e5d68b357452c027ec2686d4c25190f8.png",
-                            "height": 293,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-25a0cd3fc8c8397e3ddf111bd4a27913.png",
-                            "height": 35,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-b74520df018442730d8ddd251ccab4bd.png",
-                            "height": 93,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-205acb12422a37f03c3a38d03bbcadee.png",
-                            "height": 46,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-d0dafd65a09262bb0d91f6b1136c8a4c.png",
-                            "height": 17,
-                            "width": 24
-                        }
-                    },
-                    "size": 220909,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ghitab"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": null,
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-02-03T13:16:23+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Lake Water Quality 2024-present (raster 100 m), global, 10-daily \u2013 version 2",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
         "@id": "https://land.copernicus.eu/en/products/vegetation/net-primary-production-v1-0-300m",
         "@type": "DataSet",
         "CreationDate": "2021-12-01T10:42:02+01:00",
@@ -34005,7 +34005,7 @@
         "EffectiveDate": "2023-10-30T12:07:00+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2025-12-05T13:29:22+01:00",
+        "ModificationDate": "2026-02-11T11:00:07+01:00",
         "Subject": [
             "Primary Production"
         ],
@@ -34104,7 +34104,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/npp_global_300m_10daily_v1_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2025-12-05T12:29:22+00:00",
+        "modified": "2026-02-11T10:00:07+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -41562,7 +41562,7 @@
         "EffectiveDate": "2022-01-21T12:07:30+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-03T14:24:43+01:00",
+        "ModificationDate": "2026-02-11T14:19:02+01:00",
         "Subject": [
             "Vegetation Properties"
         ],
@@ -41658,10 +41658,10 @@
         ],
         "location": null,
         "longitude": null,
-        "mapviewer_viewservice": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fapar_global_300m_10daily_v2_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-03T13:24:43+00:00",
+        "modified": "2026-02-11T13:19:02+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -41698,7 +41698,7 @@
         "EffectiveDate": "2025-12-01T17:11:55+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-02T12:35:48+01:00",
+        "ModificationDate": "2026-02-11T14:29:12+01:00",
         "Subject": [],
         "Title": "Evapotranspiration 2025-present (raster 300 m), global, 10-daily \u2013 version 1",
         "TranslationGroup": "5b15acef4f7e4c7db99b90389a065340",
@@ -41792,10 +41792,10 @@
         ],
         "location": null,
         "longitude": null,
-        "mapviewer_viewservice": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/eta_global_300m_10daily_v1?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-02T11:35:48+00:00",
+        "modified": "2026-02-11T13:29:12+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -41832,7 +41832,7 @@
         "EffectiveDate": "2025-12-01T17:11:46+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-02T12:35:50+01:00",
+        "ModificationDate": "2026-02-11T14:26:14+01:00",
         "Subject": [],
         "Title": "Heat Flux 2025-present (raster 300 m), global, daily \u2013 version 1",
         "TranslationGroup": "5b20a388d2de4523b030787a50c9d519",
@@ -41926,10 +41926,10 @@
         ],
         "location": null,
         "longitude": null,
-        "mapviewer_viewservice": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/hf _global_300m_daily_v1?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-02T11:35:50+00:00",
+        "modified": "2026-02-11T13:26:14+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -42096,11 +42096,11 @@
         "CreationDate": "2025-06-23T14:22:29+01:00",
         "Creator": "ischueug",
         "Date": "2025-06-26T09:10:10+01:00",
-        "Description": "Provides pantropical tree cover density as projective tree cover in percent per pixel at 10 m resolution for the 2020 base year. The data are updated annually and will be available for the 2020-2026 years.  The product belongs to the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring Service (LCFM) and builds upon initiatives like the REDDCopernicus, EO4SD Forest Monitoring and pan-European Vegetated Land Cover Characteristics. It advances tropical forest monitoring capabilities, ensuring alignment with international sustainability initiatives and providing critical information for analysis and monitoring of deforestation and forest degradation. Please note: this version is still in beta status, as final validation is ongoing.",
+        "Description": "Provides pantropical tree cover density as projective tree cover in percent per pixel at 10 m resolution for the 2020 base year. The product belongs to the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring Service (LCFM) and builds upon initiatives like the REDDCopernicus, EO4SD Forest Monitoring and pan-European Vegetated Land Cover Characteristics. It advances tropical forest monitoring capabilities, ensuring alignment with international sustainability initiatives and providing critical information for analysis and monitoring of deforestation and forest degradation.",
         "EffectiveDate": "2025-06-26T09:10:10+01:00",
         "ExpirationDate": "None",
         "Language": "en",
-        "ModificationDate": "2026-01-27T15:01:00+01:00",
+        "ModificationDate": "2026-02-12T15:00:23+01:00",
         "Subject": [],
         "Title": "Tree Cover Density 2020 (raster 10 m), pantropical, annual - version 1",
         "TranslationGroup": "5981f766f712451eb9f2408a9a3abc36",
@@ -42110,7 +42110,7 @@
         "cmf_uid": 1790,
         "commentators": [],
         "created": "2025-06-23T13:22:29+00:00",
-        "description": "Provides pantropical tree cover density as projective tree cover in percent per pixel at 10 m resolution for the 2020 base year. The data are updated annually and will be available for the 2020-2026 years.  The product belongs to the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring Service (LCFM) and builds upon initiatives like the REDDCopernicus, EO4SD Forest Monitoring and pan-European Vegetated Land Cover Characteristics. It advances tropical forest monitoring capabilities, ensuring alignment with international sustainability initiatives and providing critical information for analysis and monitoring of deforestation and forest degradation. Please note: this version is still in beta status, as final validation is ongoing.",
+        "description": "Provides pantropical tree cover density as projective tree cover in percent per pixel at 10 m resolution for the 2020 base year. The product belongs to the Copernicus Global Land Cover and Tropical Forest Mapping and Monitoring Service (LCFM) and builds upon initiatives like the REDDCopernicus, EO4SD Forest Monitoring and pan-European Vegetated Land Cover Characteristics. It advances tropical forest monitoring capabilities, ensuring alignment with international sustainability initiatives and providing critical information for analysis and monitoring of deforestation and forest degradation.",
         "downloadable_dataset": true,
         "effective": "2025-06-26T08:10:10+00:00",
         "end": null,
@@ -42197,7 +42197,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/tcd_pantropical_10m_yearly_v1?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-01-27T14:01:00+00:00",
+        "modified": "2026-02-12T14:00:23+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -43044,7 +43044,7 @@
         "EffectiveDate": "2022-01-21T12:07:34+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-06T12:55:18+01:00",
+        "ModificationDate": "2026-02-11T14:23:34+01:00",
         "Subject": [
             "Vegetation Indices"
         ],
@@ -43140,10 +43140,10 @@
         ],
         "location": null,
         "longitude": null,
-        "mapviewer_viewservice": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/ndvi_global_300m_10daily_v3?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-06T11:55:18+00:00",
+        "modified": "2026-02-11T13:23:34+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -45078,11 +45078,11 @@
         "CreationDate": "2022-01-21T13:03:08+01:00",
         "Creator": "admin",
         "Date": "2022-01-21T13:06:37+01:00",
-        "Description": "Averages the daily Soil Water Index product over 10 days. The data are produced every 10 days over the globe at the spatial resolution of 0.1\u00b0 and with the temporal extent from 2025 July 10th to present.",
+        "Description": "Averages the daily Soil Water Index product over 10 days. The data are produced every 10 days over the globe at the spatial resolution of 0.1\u00b0 and with the temporal extent from January 2007 to present.",
         "EffectiveDate": "2022-01-21T13:06:37+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-01-08T11:01:14+01:00",
+        "ModificationDate": "2026-02-13T10:57:45+01:00",
         "Subject": [],
         "Title": "Soil Water Index 2025-present (raster 12.5 km), global, 10-daily \u2013 version 4",
         "TranslationGroup": "aaf497416691499c854ad559754723e1",
@@ -45092,7 +45092,7 @@
         "cmf_uid": 1845,
         "commentators": [],
         "created": "2022-01-21T12:03:08+00:00",
-        "description": "Averages the daily Soil Water Index product over 10 days. The data are produced every 10 days over the globe at the spatial resolution of 0.1\u00b0 and with the temporal extent from 2025 July 10th to present.",
+        "description": "Averages the daily Soil Water Index product over 10 days. The data are produced every 10 days over the globe at the spatial resolution of 0.1\u00b0 and with the temporal extent from January 2007 to present.",
         "downloadable_dataset": true,
         "effective": "2022-01-21T12:06:37+00:00",
         "end": null,
@@ -45179,7 +45179,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/swi_global_12_5km_10daily_v4?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-01-08T10:01:14+00:00",
+        "modified": "2026-02-13T09:57:45+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -45484,7 +45484,7 @@
         "EffectiveDate": "2022-01-21T12:06:00+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2025-09-16T15:27:08+01:00",
+        "ModificationDate": "2026-02-09T15:13:36+01:00",
         "Subject": [],
         "Title": "Small Woody Features 2018 (vector/raster 5 m and 100 m), Europe, 3-yearly",
         "TranslationGroup": "93c8f5a367fc417cb433a63aa5dc4acf",
@@ -45581,7 +45581,7 @@
         "mapviewer_viewservice": "https://copernicus.discomap.eea.europa.eu/arcgis/services/GioLandPublic/HRL_SmallWoodyFeatures_2018_005m/ImageServer/WMSServer",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2025-09-16T14:27:08+00:00",
+        "modified": "2026-02-09T14:13:36+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -45829,7 +45829,7 @@
         "EffectiveDate": "2022-01-21T12:07:33+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-03T14:28:44+01:00",
+        "ModificationDate": "2026-02-10T14:52:35+01:00",
         "Subject": [
             "Vegetation Properties"
         ],
@@ -45925,10 +45925,10 @@
         ],
         "location": null,
         "longitude": null,
-        "mapviewer_viewservice": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/lai_global_300m_10daily_v2_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-03T13:28:44+00:00",
+        "modified": "2026-02-10T13:52:35+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -45965,7 +45965,7 @@
         "EffectiveDate": "2022-01-21T12:07:31+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-03T14:27:25+01:00",
+        "ModificationDate": "2026-02-11T14:20:28+01:00",
         "Subject": [
             "Vegetation Properties"
         ],
@@ -46061,10 +46061,10 @@
         ],
         "location": null,
         "longitude": null,
-        "mapviewer_viewservice": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fcover_global_300m_10daily_v2_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-03T13:27:25+00:00",
+        "modified": "2026-02-11T13:20:28+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
