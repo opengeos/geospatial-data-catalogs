@@ -51,7 +51,7 @@
                 "interval": [
                     [
                         "2024-03-01T00:00:00Z",
-                        "2026-02-14T00:00:00Z"
+                        "2026-02-21T00:00:00Z"
                     ]
                 ]
             }
@@ -65,6 +65,75 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/WWLZVcZLV2sjSx99HjLC4b0DxJw=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-greenhouse-gas-forecasts/overview_0529b16a644b49da937a6fb6b25e3f2467e9fb8273fcb6ea7ff03c0d6423a91d.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
+        "id": "cams-global-greenhouse-gas-inversion",
+        "title": "CAMS global inversion-optimised greenhouse gas fluxes and concentrations",
+        "description": "This data set contains net fluxes at the surface, atmospheric mixing ratios at model levels, and column-mean atmospheric mixing ratios  for carbon dioxide (CO2), methane (CH4) and nitrous oxide (N20).\nNatural and anthropogenic surface fluxes of greenhouse gases are key drivers of the evolution of Earth\u2019s climate, so their monitoring is essential. Such information has been used in particular as part of the Assessment Reports of the Intergovernmental Panel on Climate Change (IPCC). Ground-based and satellite remote-sensing observations provide a means to quantifying the net fluxes between the land and ocean on the one hand and the atmosphere on the other hand. This is done through a process called atmospheric inversion, which uses transport models of the atmosphere to link the observed concentrations of CO2, CH4 and N2O to the net fluxes at the Earth's surface. By correctly modelling the winds, vertical diffusion, and convection in the global atmosphere, the observed concentrations of the greenhouse gases are used to infer the surface fluxes for the last few decades. For CH4 and N2O, the flux inversions account also for the chemical loss of these greenhouse gases. The net fluxes include contributions from the natural biosphere (e.g., vegetation, wetlands) as well anthropogenic contributions (e.g., fossil fuel emissions, rice fields).\nThe data sets for the three species are updated once or three times per year adding the most recent year to the data record, while re-processing the original data record for consistency. This is reflected by the different version numbers. In addition, fluxes for methane are available based on surface air samples only or based on a combination of surface air samples and satellite observations (reflected by an 's' in the version number).",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-greenhouse-gas-inversion"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Product type: Reanalysis",
+            "Temporal coverage: Past",
+            "Variable domain: Atmosphere (composition)",
+            "Spatial coverage: Global",
+            "Variable domain: Emissions and surface fluxes",
+            "Parameter family: Greenhouse gas"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -180,
+                        -90,
+                        180,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "1979-01-01T00:00:00Z",
+                        "2024-12-31T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-greenhouse-gas-inversion/overview_38d8bdbbbdcb2ad03e03cf6fed7c2fa885db8128b8da42dcccc57c90064c73be.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/WPLroD78i17ktq8R1dHf4cZjqS4=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-greenhouse-gas-inversion/overview_38d8bdbbbdcb2ad03e03cf6fed7c2fa885db8128b8da42dcccc57c90064c73be.png"
             }
         }
     },
@@ -210,75 +279,6 @@
     {
         "type": "Collection",
         "stac_version": "1.1.0",
-        "id": "cams-global-greenhouse-gas-inversion",
-        "title": "CAMS global inversion-optimised greenhouse gas fluxes and concentrations",
-        "description": "This data set contains net fluxes at the surface, atmospheric mixing ratios at model levels, and column-mean atmospheric mixing ratios  for carbon dioxide (CO2), methane (CH4) and nitrous oxide (N20).\nNatural and anthropogenic surface fluxes of greenhouse gases are key drivers of the evolution of Earth\u2019s climate, so their monitoring is essential. Such information has been used in particular as part of the Assessment Reports of the Intergovernmental Panel on Climate Change (IPCC). Ground-based and satellite remote-sensing observations provide a means to quantifying the net fluxes between the land and ocean on the one hand and the atmosphere on the other hand. This is done through a process called atmospheric inversion, which uses transport models of the atmosphere to link the observed concentrations of CO2, CH4 and N2O to the net fluxes at the Earth's surface. By correctly modelling the winds, vertical diffusion, and convection in the global atmosphere, the observed concentrations of the greenhouse gases are used to infer the surface fluxes for the last few decades. For CH4 and N2O, the flux inversions account also for the chemical loss of these greenhouse gases. The net fluxes include contributions from the natural biosphere (e.g., vegetation, wetlands) as well anthropogenic contributions (e.g., fossil fuel emissions, rice fields).\nThe data sets for the three species are updated once or three times per year adding the most recent year to the data record, while re-processing the original data record for consistency. This is reflected by the different version numbers. In addition, fluxes for methane are available based on surface air samples only or based on a combination of surface air samples and satellite observations (reflected by an 's' in the version number).",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-greenhouse-gas-inversion"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Product type: Reanalysis",
-            "Temporal coverage: Past",
-            "Variable domain: Atmosphere (composition)",
-            "Spatial coverage: Global",
-            "Variable domain: Emissions and surface fluxes",
-            "Parameter family: Greenhouse gas"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -180,
-                        -90,
-                        180,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "1979-01-01T00:00:00Z",
-                        "2024-12-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-greenhouse-gas-inversion/overview_38d8bdbbbdcb2ad03e03cf6fed7c2fa885db8128b8da42dcccc57c90064c73be.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/WPLroD78i17ktq8R1dHf4cZjqS4=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-greenhouse-gas-inversion/overview_38d8bdbbbdcb2ad03e03cf6fed7c2fa885db8128b8da42dcccc57c90064c73be.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
         "id": "cams-europe-air-quality-forecasts-optimised-at-observation-sites",
         "title": "CAMS European air quality forecasts optimised at observation sites",
         "description": "This dataset provides daily air quality forecasts at European observation\nstations after optimisation using a statistical post-processing method called\nModel Output Statistics (MOS). The unoptimised \"raw\" forecasts are also\nprovided in the same format.\nThe MOS method uses machine learning with predictive variables including\nbackground air quality observation datasets, ECMWF meteorological forecasts and\nthe \"raw\" CAMS European air quality ensemble median forecast. The result is\ndaily time series forecasts at many hundreds of European observation stations\nand for four species: ozone, nitrogen dioxide, PM10 and PM2.5. Please note that\nnot all species are available at all stations.\nThe data files contain EIONET (European Environment Information and Observation\nNetwork) station identifiers but not the associated station metadata such as\nlatitude, longitude, altitude and environment type (urban, surburban,\nrural). These are provided in a separate file that can be optionally added to\nthe download. The file contains latitude and longitude in degrees north and east\nrespectively, and altitude in metres. Observation stations can occasionally\nchange position so a given identifier may have more than one row. In this case\neach row will have a unique position number (1, 2, 3, etc.) and contain the\nstart and end date of the period for which the station had this position.",
@@ -331,7 +331,7 @@
                 "interval": [
                     [
                         "2024-01-17T00:00:00Z",
-                        "2026-02-14T00:00:00Z"
+                        "2026-02-21T00:00:00Z"
                     ]
                 ]
             }
@@ -491,75 +491,6 @@
     {
         "type": "Collection",
         "stac_version": "1.1.0",
-        "id": "cams-global-ghg-reanalysis-egg4",
-        "title": "CAMS global greenhouse gas reanalysis (EGG4)",
-        "description": "This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4). The emissions and natural fluxes at the surface are crucial for the evolution of the long-lived greenhouse gases in the atmosphere. In this dataset the CO2 fluxes from terrestrial vegetation are modelled in order to simulate the variability across a wide range of scales from diurnal to inter-annual. The CH4 chemical loss is represented by a climatological loss rate and the emissions at the surface are taken from a range of datasets.\nReanalysis combines model data with observations from across the world into a globally complete and consistent dataset using a model of the atmosphere based on the laws of physics and chemistry. This principle, called data assimilation, is based on the method used by numerical weather prediction centres and air quality forecasting centres, where every so many hours (12 hours at ECMWF) a previous forecast is combined with newly available observations in an optimal way to produce a new best estimate of the state of the atmosphere, called analysis, from which an updated, improved forecast is issued. Reanalysis works in the same way to allow for the provision of a dataset spanning back more than a decade. Reanalysis does not have the constraint of issuing timely forecasts, so there is more time to collect observations, and when going further back in time, to allow for the ingestion of improved versions of the original observations, which all benefit the quality of the reanalysis product.\nThe assimilation system is able to estimate biases between observations and to sift good-quality data from poor data. The atmosphere model allows for estimates at locations where data coverage is low or for atmospheric pollutants for which no direct observations are available. The provision of estimates at each grid point around the globe for each regular output time, over a long period, always using the same format, makes reanalysis a very convenient and popular dataset to work with.\nThe observing system has changed drastically over time, and although the assimilation system can resolve data holes, the initially much sparser networks will lead to less accurate estimates. For this reason, EAC4 is only available from 2003 onwards.\nThe analysis procedure assimilates data in a window of 12 hours using the 4D-Var assimilation method, which takes account of the exact timing of the observations and model evolution within the assimilation window.\nThese data are available in 3-hourly resolution, worldwide. Monthly means can be accessed here.",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-ghg-reanalysis-egg4"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Product type: Reanalysis",
-            "Temporal coverage: Past",
-            "Variable domain: Atmosphere (composition)",
-            "Spatial coverage: Global",
-            "Variable domain: Atmosphere (meteorology)",
-            "Parameter family: Greenhouse gas"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -180,
-                        -90,
-                        180,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2003-01-01T00:00:00Z",
-                        "2020-12-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/x6eCzJjkEQzbQCZ_njqF9y4KLs0=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
         "id": "cams-global-ghg-reanalysis-egg4-monthly",
         "title": "CAMS global greenhouse gas reanalysis (EGG4) monthly averaged fields",
         "description": "This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4). The emissions and natural fluxes at the surface are crucial for the evolution of the long-lived greenhouse gases in the atmosphere. In this dataset the CO2 fluxes from terrestrial vegetation are modelled in order to simulate the variability across a wide range of scales from diurnal to inter-annual. The CH4 chemical loss is represented by a climatological loss rate and the emissions at the surface are taken from a range of datasets.\nReanalysis combines model data with observations from across the world into a globally complete and consistent dataset using a model of the atmosphere based on the laws of physics and chemistry. This principle, called data assimilation, is based on the method used by numerical weather prediction centres and air quality forecasting centres, where every so many hours (12 hours at ECMWF) a previous forecast is combined with newly available observations in an optimal way to produce a new best estimate of the state of the atmosphere, called analysis, from which an updated, improved forecast is issued. Reanalysis works in the same way to allow for the provision of a dataset spanning back more than a decade. Reanalysis does not have the constraint of issuing timely forecasts, so there is more time to collect observations, and when going further back in time, to allow for the ingestion of improved versions of the original observations, which all benefit the quality of the reanalysis product.\nThe assimilation system is able to estimate biases between observations and to sift good-quality data from poor data. The atmosphere model allows for estimates at locations where data coverage is low or for atmospheric pollutants for which no direct observations are available. The provision of estimates at each grid point around the globe for each regular output time, over a long period, always using the same format, makes reanalysis a very convenient and popular dataset to work with.\nThe observing system has changed drastically over time, and although the assimilation system can resolve data holes, the initially much sparser networks will lead to less accurate estimates. For this reason, EAC4 is only available from 2003 onwards.\nThe analysis procedure assimilates data in a window of 12 hours using the 4D-Var assimilation method, which takes account of the exact timing of the observations and model evolution within the assimilation window.\nThis page provides monthly mean values, worldwide. Original 3-hourly outputs can be accessed here.",
@@ -630,6 +561,75 @@
     {
         "type": "Collection",
         "stac_version": "1.1.0",
+        "id": "cams-global-ghg-reanalysis-egg4",
+        "title": "CAMS global greenhouse gas reanalysis (EGG4)",
+        "description": "This dataset is part of the ECMWF Atmospheric Composition Reanalysis focusing on long-lived greenhouse gases: carbon dioxide (CO2) and methane (CH4). The emissions and natural fluxes at the surface are crucial for the evolution of the long-lived greenhouse gases in the atmosphere. In this dataset the CO2 fluxes from terrestrial vegetation are modelled in order to simulate the variability across a wide range of scales from diurnal to inter-annual. The CH4 chemical loss is represented by a climatological loss rate and the emissions at the surface are taken from a range of datasets.\nReanalysis combines model data with observations from across the world into a globally complete and consistent dataset using a model of the atmosphere based on the laws of physics and chemistry. This principle, called data assimilation, is based on the method used by numerical weather prediction centres and air quality forecasting centres, where every so many hours (12 hours at ECMWF) a previous forecast is combined with newly available observations in an optimal way to produce a new best estimate of the state of the atmosphere, called analysis, from which an updated, improved forecast is issued. Reanalysis works in the same way to allow for the provision of a dataset spanning back more than a decade. Reanalysis does not have the constraint of issuing timely forecasts, so there is more time to collect observations, and when going further back in time, to allow for the ingestion of improved versions of the original observations, which all benefit the quality of the reanalysis product.\nThe assimilation system is able to estimate biases between observations and to sift good-quality data from poor data. The atmosphere model allows for estimates at locations where data coverage is low or for atmospheric pollutants for which no direct observations are available. The provision of estimates at each grid point around the globe for each regular output time, over a long period, always using the same format, makes reanalysis a very convenient and popular dataset to work with.\nThe observing system has changed drastically over time, and although the assimilation system can resolve data holes, the initially much sparser networks will lead to less accurate estimates. For this reason, EAC4 is only available from 2003 onwards.\nThe analysis procedure assimilates data in a window of 12 hours using the 4D-Var assimilation method, which takes account of the exact timing of the observations and model evolution within the assimilation window.\nThese data are available in 3-hourly resolution, worldwide. Monthly means can be accessed here.",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-ghg-reanalysis-egg4"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Product type: Reanalysis",
+            "Temporal coverage: Past",
+            "Variable domain: Atmosphere (composition)",
+            "Spatial coverage: Global",
+            "Variable domain: Atmosphere (meteorology)",
+            "Parameter family: Greenhouse gas"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -180,
+                        -90,
+                        180,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2003-01-01T00:00:00Z",
+                        "2020-12-31T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/x6eCzJjkEQzbQCZ_njqF9y4KLs0=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-ghg-reanalysis-egg4/overview_0e58aaaa6c287649388046e898d0a25cfa1a936903e4e71352c365e59dd5dcef.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
         "id": "cams-global-atmospheric-composition-forecasts",
         "title": "CAMS global atmospheric composition forecasts",
         "description": "CAMS produces global forecasts for atmospheric composition twice a day. The forecasts consist of more than 50 chemical species (e.g. ozone, nitrogen dioxide, carbon monoxide) and seven different types of aerosol (desert dust, sea salt, organic matter, black carbon, sulphate, nitrate and ammonium aerosol). In addition, several meteorological variables are available as well.\nThe initial conditions of each forecast are obtained by combining a previous forecast with current satellite observations through a process called data assimilation. This best estimate of the state of the atmosphere at the initial forecast time step, called the analysis, provides a globally complete and consistent dataset allowing for estimates at locations where observation data coverage is low or for atmospheric pollutants for which no direct observations are available.\nThe forecast itself uses a model of the atmosphere based on the laws of physics and chemistry to determine the evolution of the concentrations of all species over time for the next five days. Apart from the required initial state, it also uses inventory-based or observation-based emission estimates as a boundary condition at the surface.\nThe CAMS global forecasting system is upgraded about once a year resulting in technical and scientific changes. The horizontal or vertical resolution can change, new species can be added, and more generally the accuracy of the forecasts can be improved. Details of these system changes can be found in the documentation. Users looking for a more consistent long-term data set should consider using the CAMS Global Reanalysis instead, which is available through the ADS and spans the period from 2003 onwards.",
@@ -683,7 +683,7 @@
                 "interval": [
                     [
                         "2015-01-01T00:00:00Z",
-                        "2026-02-14T00:00:00Z"
+                        "2026-02-21T00:00:00Z"
                     ]
                 ]
             }
@@ -697,75 +697,6 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/oD3sGIXSIP2lrUjmOgA0aLPUsLM=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-atmospheric-composition-forecasts/overview_a484dee4988156df196a92b874b23a6d2686921df6b17c528d1a171cb51d0240.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
-        "id": "cams-global-radiative-forcing-auxilliary-variables",
-        "title": "CAMS global radiative forcing - auxilliary variables",
-        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Parameter family: Radiation",
-            "Spatial coverage: Satellite image area",
-            "Product type: Analysis",
-            "Variable domain: Solar radiation"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -180,
-                        -90,
-                        180,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2003-01-01T00:00:00Z",
-                        "2017-12-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
             }
         }
     },
@@ -838,6 +769,75 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/vTWNWdaYOJPFR2zuqW39pY3T9CM=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcings/overview_64b7f931c9378814193a3f8879de137f73271a1e1320780d78ec894e974b75e0.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
+        "id": "cams-global-radiative-forcing-auxilliary-variables",
+        "title": "CAMS global radiative forcing - auxilliary variables",
+        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Parameter family: Radiation",
+            "Spatial coverage: Satellite image area",
+            "Product type: Analysis",
+            "Variable domain: Solar radiation"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -180,
+                        -90,
+                        180,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2003-01-01T00:00:00Z",
+                        "2017-12-31T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
             }
         }
     },
@@ -983,75 +983,6 @@
     {
         "type": "Collection",
         "stac_version": "1.1.0",
-        "id": "cams-solar-radiation-timeseries",
-        "title": "CAMS solar radiation time-series",
-        "description": "The CAMS solar radiation services provide historical values (2004 to present) of global (GHI), direct (BHI) and diffuse (DHI) solar irradiation, as well as direct normal irradiation (BNI). The aim is to fulfil the needs of European and national policy development and the requirements of both commercial and public downstream services, e.g. for planning, monitoring, efficiency improvements and the integration of solar energy systems into energy supply grids.\nFor clear-sky conditions, an irradiation time series is provided for any location in the world using information on aerosol, ozone and water vapour from the CAMS global forecasting system. Other properties, such as ground albedo and ground elevation, are also taken into account. Similar time series are available for cloudy (or \u201call sky\u201d) conditions but, since the high-resolution cloud information is directly inferred from satellite observations, these are currently only available inside the field-of-view of the Meteosat Second Generation (MSG) and the Himawari satellites, which is roughly Europe, Africa, part of South America, the Atlantic Ocean, the Middle East, part of Asia, and Australia.\nData is offered in both ASCII and netCDF format. Additionally, an ASCII \"expert mode\" format can be selected which contains in addition to the irradiation, all the input data used in their calculation (aerosol optical properties, water vapour concentration, etc). This additional information is only meaningful in the time frame at which the calculation is performed and so is only available at 1-minute time steps in universal time (UT).",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-solar-radiation-timeseries"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Parameter family: Radiation",
-            "Spatial coverage: Satellite image area",
-            "Product type: Analysis",
-            "Variable domain: Solar radiation"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        0,
-                        -89,
-                        360,
-                        89
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2004-01-01T00:00:00Z",
-                        "2026-02-13T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/fmEhVM3duj-r5aYGrd_mRQto8FU=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
         "id": "cams-europe-air-quality-forecasts",
         "title": "CAMS European air quality forecasts",
         "description": "This dataset provides daily air quality analyses and forecasts for Europe. \nCAMS produces specific daily air quality analyses and forecasts for the European\ndomain at significantly higher spatial resolution (0.1 degrees, approx. 10km)\nthan is available from the global analyses and forecasts. The production is\nbased on an ensemble of eleven air quality forecasting systems across Europe. A\nmedian ensemble is calculated from individual outputs, since ensemble products\nyield on average better performance than the individual model products. The\nspread between the eleven models are used to provide an estimate of the forecast\nuncertainty. The analysis combines model data with observations provided by the\nEuropean Environment Agency (EEA) into a complete and consistent dataset using\nvarious data assimilation techniques depending upon the air-quality forecasting\nsystem used. In parallel, air quality forecasts are produced once a day for the\nnext four days. Both the analysis and the forecast are available at hourly time\nsteps and multiple height levels.\nNote that only nitrogen monoxide, nitrogen dioxide, sulphur dioxide, ozone,\nPM2.5, PM10 and dust are regularly validated against in situ observations, and\ntherefore forecasts of all other variables are unvalidated and should be\nconsidered experimental.",
@@ -1103,8 +1034,8 @@
             "temporal": {
                 "interval": [
                     [
-                        "2023-02-09T00:00:00Z",
-                        "2026-02-14T00:00:00Z"
+                        "2023-02-16T00:00:00Z",
+                        "2026-02-21T00:00:00Z"
                     ]
                 ]
             }
@@ -1118,6 +1049,75 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/XTaSBGAN5Qd-Pfwkss9EG1I76pA=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-europe-air-quality-forecasts/overview_4e21f3b83980b68134ee3b2b792f5f0fdb3132d8c545becbba8cd3d801f66411.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
+        "id": "cams-solar-radiation-timeseries",
+        "title": "CAMS solar radiation time-series",
+        "description": "The CAMS solar radiation services provide historical values (2004 to present) of global (GHI), direct (BHI) and diffuse (DHI) solar irradiation, as well as direct normal irradiation (BNI). The aim is to fulfil the needs of European and national policy development and the requirements of both commercial and public downstream services, e.g. for planning, monitoring, efficiency improvements and the integration of solar energy systems into energy supply grids.\nFor clear-sky conditions, an irradiation time series is provided for any location in the world using information on aerosol, ozone and water vapour from the CAMS global forecasting system. Other properties, such as ground albedo and ground elevation, are also taken into account. Similar time series are available for cloudy (or \u201call sky\u201d) conditions but, since the high-resolution cloud information is directly inferred from satellite observations, these are currently only available inside the field-of-view of the Meteosat Second Generation (MSG) and the Himawari satellites, which is roughly Europe, Africa, part of South America, the Atlantic Ocean, the Middle East, part of Asia, and Australia.\nData is offered in both ASCII and netCDF format. Additionally, an ASCII \"expert mode\" format can be selected which contains in addition to the irradiation, all the input data used in their calculation (aerosol optical properties, water vapour concentration, etc). This additional information is only meaningful in the time frame at which the calculation is performed and so is only available at 1-minute time steps in universal time (UT).",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-solar-radiation-timeseries"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Parameter family: Radiation",
+            "Spatial coverage: Satellite image area",
+            "Product type: Analysis",
+            "Variable domain: Solar radiation"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        0,
+                        -89,
+                        360,
+                        89
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2004-01-01T00:00:00Z",
+                        "2026-02-21T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/fmEhVM3duj-r5aYGrd_mRQto8FU=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-solar-radiation-timeseries/overview_51b05dc9c04479bfe717483ad887ef69461fc77410257222a19775cf68790cce.png"
             }
         }
     }
