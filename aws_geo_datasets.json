@@ -11225,6 +11225,58 @@
         "ControlledAccess": null
     },
     {
+        "Name": "Met Office UK Land Surface Observations - Met Office UK Land Surface Observations",
+        "Description": "Met Office UK Land Surface Observations",
+        "ARN": "arn:aws:s3:::met-office-land-observations-data",
+        "Region": "eu-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://met-office-land-observations-data.s3.eu-west-2.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://www.metoffice.gov.uk/services/data/external-data-channels",
+        "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST). As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
+        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
+        "UpdateFrequency": "60 minutes of new data for all locations is ingested into the Amazon Registry of Open Data every hour. For example, at 12:00 new data will arrive for observations collected between 10:00-1100. This is due to the quality checks required to verify data for public consumption.",
+        "License": "British Crown copyright 2024-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "Tags": [
+            "aws-pds",
+            "atmosphere",
+            "geospatial",
+            "csv",
+            "precipitation",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Met Office UK Land Surface Observations - Notifications for new UK land surface observations data",
+        "Description": "Notifications for new UK land surface observations data",
+        "ARN": "arn:aws:sns:eu-west-2:633885181284:met-office-land-observations-data-object_created",
+        "Region": "eu-west-2",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://www.metoffice.gov.uk/services/data/external-data-channels",
+        "Contact": "servicedesk@metoffice.gov.uk. Service desk is only available Mon \u2013 Fri, 09:00 until 17:00 UTC (-1 hour during BST). As a non-operational service we aim to respond to any service support enquiries within 3-5 business days.",
+        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk/)",
+        "UpdateFrequency": "60 minutes of new data for all locations is ingested into the Amazon Registry of Open Data every hour. For example, at 12:00 new data will arrive for observations collected between 10:00-1100. This is due to the quality checks required to verify data for public consumption.",
+        "License": "British Crown copyright 2024-2025, the Met Office, is licensed under [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/deed.en)",
+        "Tags": [
+            "aws-pds",
+            "atmosphere",
+            "geospatial",
+            "csv",
+            "precipitation",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "Met Office UK Radar Observations on a 2-year rolling archive - Met Office UK Radar Observations on a 2-year rolling archive",
         "Description": "Met Office UK Radar Observations on a 2-year rolling archive",
         "ARN": "arn:aws:s3:::met-office-radar-obs-data",
@@ -15687,7 +15739,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -15735,7 +15787,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -15759,7 +15811,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
