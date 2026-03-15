@@ -578,7 +578,7 @@
         "EffectiveDate": "2022-01-21T13:06:37+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-16T11:36:06+01:00",
+        "ModificationDate": "2026-03-10T14:20:36+01:00",
         "Subject": [],
         "Title": "Soil Water Index 2007-2025 (raster 12.5 km), global, 10-daily \u2013 version 3",
         "TranslationGroup": "30c1c9c5cd234510b7b63dff62145b49",
@@ -675,7 +675,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/swi_global_12_5km_10daily_v3?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-16T10:36:06+00:00",
+        "modified": "2026-03-10T13:20:36+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -16268,7 +16268,7 @@
         "EffectiveDate": "2026-02-20T09:00:00+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-17T09:41:11+01:00",
+        "ModificationDate": "2026-03-12T12:22:26+01:00",
         "Subject": [
             "Primary Production"
         ],
@@ -16364,10 +16364,10 @@
         ],
         "location": null,
         "longitude": null,
-        "mapviewer_viewservice": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/npp_global_300m_10daily_v2_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-17T08:41:11+00:00",
+        "modified": "2026-03-12T11:22:26+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -23197,7 +23197,7 @@
         "EffectiveDate": "2020-03-30T13:20:00+01:00",
         "ExpirationDate": "None",
         "Language": "en",
-        "ModificationDate": "2026-03-02T10:43:14+01:00",
+        "ModificationDate": "2026-03-12T10:50:53+01:00",
         "Subject": [],
         "Title": "Urban Atlas Land Cover/Land Use 2018 (vector), Europe, 3-yearly",
         "TranslationGroup": "2caea4ebe93242289f1575f011c95e66",
@@ -23294,7 +23294,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-03-02T09:43:14+00:00",
+        "modified": "2026-03-12T09:50:53+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -39867,7 +39867,7 @@
         "EffectiveDate": "2022-01-21T12:07:00+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2025-10-07T08:49:39+01:00",
+        "ModificationDate": "2026-03-10T14:20:37+01:00",
         "Subject": [],
         "Title": "Soil Water Index - Static Layers (raster 12.5 km), global, 10-daily",
         "TranslationGroup": "731ae2644e4a45e68fcf9803bf162047",
@@ -39964,7 +39964,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2025-10-07T07:49:39+00:00",
+        "modified": "2026-03-10T13:20:37+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -41756,13 +41756,13 @@
         "CreationDate": "2021-12-01T10:42:21+01:00",
         "Creator": "admin",
         "Date": "2022-01-21T12:07:36+01:00",
-        "Description": "Reformats the daily Soil Water Index 0.1\u00b0 into a time series format, which makes it easier to perform local, time series based analysis without having to download and convert data for the whole globe.",
+        "Description": "The time series covers the period from 1st January 2007 to 31st December 2024. Reformats the daily Soil Water Index 0.1\u00b0 into a time series format, which makes it easier to perform local, time series based analysis without having to download and convert data for the whole globe.",
         "EffectiveDate": "2022-01-21T12:07:36+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2025-10-07T08:46:44+01:00",
+        "ModificationDate": "2026-03-12T09:25:04+01:00",
         "Subject": [],
-        "Title": "Soil Water Index - Time Series 2007-present (raster 12.5 km), global, daily",
+        "Title": "Soil Water Index Time Series 2007-2024 (discrete global grid), global, daily, version 3",
         "TranslationGroup": "a943abd5013b4c828cf914acac311a1e",
         "Type": "DataSet",
         "UID": "53cd952bd30a42cfbbcab0326a6faf64",
@@ -41770,23 +41770,81 @@
         "cmf_uid": 1292,
         "commentators": [],
         "created": "2021-12-01T09:42:21+00:00",
-        "description": "Reformats the daily Soil Water Index 0.1\u00b0 into a time series format, which makes it easier to perform local, time series based analysis without having to download and convert data for the whole globe.",
+        "description": "The time series covers the period from 1st January 2007 to 31st December 2024. Reformats the daily Soil Water Index 0.1\u00b0 into a time series format, which makes it easier to perform local, time series based analysis without having to download and convert data for the whole globe.",
         "downloadable_dataset": true,
         "effective": "2022-01-21T11:07:36+00:00",
         "end": null,
         "exclude_from_nav": false,
         "expires": "2499-12-30T23:00:00+00:00",
-        "getIcon": false,
+        "getIcon": true,
         "getId": "daily-soil-water-index-temporal-series-global-12-5km",
-        "getObjSize": "5.3 KB",
+        "getObjSize": "97.1 KB",
         "getPath": "/Plone/en/products/soil-moisture/daily-soil-water-index-temporal-series-global-12-5km",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/soil-moisture/daily-soil-water-index-temporal-series-global-12-5km",
         "hasPreviewImage": null,
         "head_title": null,
         "id": "daily-soil-water-index-temporal-series-global-12-5km",
-        "image_field": "",
-        "image_scales": null,
+        "image_field": "image",
+        "image_scales": {
+            "image": [
+                {
+                    "content-type": "image/png",
+                    "download": "@@images/image-400-63d842f3b7d80b6df5a678c807ecf2b1.png",
+                    "filename": "CGLOPS1_SWITS-V3_thumbnail_noText.png",
+                    "height": 400,
+                    "scales": {
+                        "big": {
+                            "download": "@@images/image-80-ecf5efe468357c96e4331c767a740207.png",
+                            "height": 80,
+                            "width": 80
+                        },
+                        "icon": {
+                            "download": "@@images/image-32-468abce53128f7fecffafcb218b40ada.png",
+                            "height": 32,
+                            "width": 32
+                        },
+                        "medium": {
+                            "download": "@@images/image-60-d4925887ff0b6bf3f3a3ed59aa935761.png",
+                            "height": 60,
+                            "width": 60
+                        },
+                        "mini": {
+                            "download": "@@images/image-200-a1ef2951acd411ecd4dff4a4344de7c0.png",
+                            "height": 200,
+                            "width": 200
+                        },
+                        "preview": {
+                            "download": "@@images/image-400-c83d097fc7a51a122ab1b10bb16f4d44.png",
+                            "height": 400,
+                            "width": 400
+                        },
+                        "small": {
+                            "download": "@@images/image-48-b1efe8d9784f0d34a83873e9f1167752.png",
+                            "height": 48,
+                            "width": 48
+                        },
+                        "thumb": {
+                            "download": "@@images/image-128-d2c975c6ed9bdec921fd7d3114b615c7.png",
+                            "height": 128,
+                            "width": 128
+                        },
+                        "tile": {
+                            "download": "@@images/image-64-4455c964d9b1ec0f6fba5fd48a1ff504.png",
+                            "height": 64,
+                            "width": 64
+                        },
+                        "tiny": {
+                            "download": "@@images/image-24-f9345ef3ba845ff30568481197a01e14.png",
+                            "height": 24,
+                            "width": 24
+                        }
+                    },
+                    "size": 94010,
+                    "width": 400
+                }
+            ]
+        },
         "in_response_to": null,
         "is_folderish": true,
         "last_comment_date": null,
@@ -41799,7 +41857,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2025-10-07T07:46:44+00:00",
+        "modified": "2026-03-12T08:25:04+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -41820,7 +41878,7 @@
         "taxonomy_userprofileinstitutionaldomain": [],
         "taxonomy_userprofileproductuseintention": [],
         "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Soil Water Index - Time Series 2007-present (raster 12.5 km), global, daily",
+        "title": "Soil Water Index Time Series 2007-2024 (discrete global grid), global, daily, version 3",
         "total_comments": 0,
         "type_title": "DataSet",
         "url": null,
@@ -42106,7 +42164,7 @@
         "EffectiveDate": "2022-01-21T12:07:30+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-11T14:19:02+01:00",
+        "ModificationDate": "2026-03-09T08:07:58+01:00",
         "Subject": [
             "Vegetation Properties"
         ],
@@ -42126,7 +42184,7 @@
         "expires": "2499-12-30T23:00:00+00:00",
         "getIcon": true,
         "getId": "fraction-of-absorbed-photosynthetically-active-radiation-v2-0-300m",
-        "getObjSize": "314.5 KB",
+        "getObjSize": "314.6 KB",
         "getPath": "/Plone/en/products/vegetation/fraction-of-absorbed-photosynthetically-active-radiation-v2-0-300m",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/vegetation/fraction-of-absorbed-photosynthetically-active-radiation-v2-0-300m",
@@ -42205,7 +42263,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fapar_global_300m_10daily_v2_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-11T13:19:02+00:00",
+        "modified": "2026-03-09T07:07:58+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -42510,7 +42568,7 @@
         "EffectiveDate": "2020-03-30T13:30:00+01:00",
         "ExpirationDate": "None",
         "Language": "en",
-        "ModificationDate": "2026-03-04T11:43:11+01:00",
+        "ModificationDate": "2026-03-11T10:20:55+01:00",
         "Subject": [],
         "Title": "Urban Atlas Land Cover/Land Use Change 2018-2021 (vector), Europe, 3-yearly",
         "TranslationGroup": "abc8a5eeeaaf4dd0a61b6edc669aeaa0",
@@ -42607,7 +42665,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-03-04T10:43:11+00:00",
+        "modified": "2026-03-11T09:20:55+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -42644,7 +42702,7 @@
         "EffectiveDate": "2020-05-05T12:55:00+01:00",
         "ExpirationDate": "None",
         "Language": "en",
-        "ModificationDate": "2026-03-04T11:52:26+01:00",
+        "ModificationDate": "2026-03-11T13:03:33+01:00",
         "Subject": [],
         "Title": "Urban Atlas Street Tree Layer 2021 (vector), Europe, 3-yearly",
         "TranslationGroup": "f703e4a384e0493cae405f36e4543035",
@@ -42741,7 +42799,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-03-04T10:52:26+00:00",
+        "modified": "2026-03-11T12:03:33+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -43180,7 +43238,7 @@
         "EffectiveDate": "2022-01-21T12:07:36+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2025-12-17T10:48:03+01:00",
+        "ModificationDate": "2026-03-10T14:39:23+01:00",
         "Subject": [],
         "Title": "Soil Water Index 2007-present (raster 12.5 km), global, daily \u2013 version 4",
         "TranslationGroup": "5c1db6882b424ca4b9438c4ae8d49af5",
@@ -43198,7 +43256,7 @@
         "expires": "2499-12-30T23:00:00+00:00",
         "getIcon": true,
         "getId": "daily-soil-water-index-global-12-5km-v4",
-        "getObjSize": "80.0 KB",
+        "getObjSize": "145.4 KB",
         "getPath": "/Plone/en/products/soil-moisture/daily-soil-water-index-global-12-5km-v4",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/soil-moisture/daily-soil-water-index-global-12-5km-v4",
@@ -43210,57 +43268,57 @@
             "image": [
                 {
                     "content-type": "image/png",
-                    "download": "@@images/image-400-1bac08f189c0f1428bc3dcd188551e48.png",
-                    "filename": "Soil Water Index 2007-present (raster 12.5 km), global, daily \u2013 version 3.png",
+                    "download": "@@images/image-400-770688e6e58a096603a7059ff94c6f42.png",
+                    "filename": "CGLOPS1_SWI-12.5km-V4_thumbnail.png",
                     "height": 400,
                     "scales": {
                         "big": {
-                            "download": "@@images/image-80-2594e34c94ae4b4414035608e4935779.png",
+                            "download": "@@images/image-80-9bfa6ef645ffc1ae692d298d310b868c.png",
                             "height": 80,
                             "width": 80
                         },
                         "icon": {
-                            "download": "@@images/image-32-ec678985d198bfb186b796b731ad77f4.png",
+                            "download": "@@images/image-32-cc272fef905f303318894df3f79d3e3b.png",
                             "height": 32,
                             "width": 32
                         },
                         "medium": {
-                            "download": "@@images/image-60-0d6737e3a9522773ca0cba2302354cf6.png",
+                            "download": "@@images/image-60-3a7e4ae66784774e5dd9b3580be39538.png",
                             "height": 60,
                             "width": 60
                         },
                         "mini": {
-                            "download": "@@images/image-200-0e064716621d4cadadc3861411800bd7.png",
+                            "download": "@@images/image-200-5ba5d6a52fafe8660998ae1c45ba855d.png",
                             "height": 200,
                             "width": 200
                         },
                         "preview": {
-                            "download": "@@images/image-400-c037409fc428937d0bacaa75e66cea9c.png",
+                            "download": "@@images/image-400-257c5f92e0814010178815885032e126.png",
                             "height": 400,
                             "width": 400
                         },
                         "small": {
-                            "download": "@@images/image-48-23dd77db23b0027cd0378ec844d53002.png",
+                            "download": "@@images/image-48-ddecca77940f1b6b29f3dfb938cb8ae7.png",
                             "height": 48,
                             "width": 48
                         },
                         "thumb": {
-                            "download": "@@images/image-128-4002406a9ea20e997b55934c5ab92cf8.png",
+                            "download": "@@images/image-128-85d059784820aedcaa225e64dda197f7.png",
                             "height": 128,
                             "width": 128
                         },
                         "tile": {
-                            "download": "@@images/image-64-c680dd36224fd7ecf08f7b970099a694.png",
+                            "download": "@@images/image-64-67eebcb62b3051357e7ddee2eac143da.png",
                             "height": 64,
                             "width": 64
                         },
                         "tiny": {
-                            "download": "@@images/image-24-526ae586151070e292f3834e304cb5de.png",
+                            "download": "@@images/image-24-0a4402f0f01f9701c048914d031d6f0f.png",
                             "height": 24,
                             "width": 24
                         }
                     },
-                    "size": 74976,
+                    "size": 141972,
                     "width": 400
                 }
             ]
@@ -43277,7 +43335,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/swi_global_12_5km_daily_v4?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2025-12-17T09:48:03+00:00",
+        "modified": "2026-03-10T13:39:23+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -45894,7 +45952,7 @@
         "EffectiveDate": "2022-01-21T13:06:37+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-16T08:52:27+01:00",
+        "ModificationDate": "2026-03-10T14:20:37+01:00",
         "Subject": [],
         "Title": "Soil Water Index 2007-present (raster 12.5 km), global, 10-daily \u2013 version 4",
         "TranslationGroup": "aaf497416691499c854ad559754723e1",
@@ -45912,7 +45970,7 @@
         "expires": "2499-12-30T23:00:00+00:00",
         "getIcon": true,
         "getId": "10-daily-soil-water-index-global-12-5-km-v4",
-        "getObjSize": "113.5 KB",
+        "getObjSize": "171.0 KB",
         "getPath": "/Plone/en/products/soil-moisture/10-daily-soil-water-index-global-12-5-km-v4",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/soil-moisture/10-daily-soil-water-index-global-12-5-km-v4",
@@ -45924,57 +45982,57 @@
             "image": [
                 {
                     "content-type": "image/png",
-                    "download": "@@images/image-400-b85a46f2d1b9a6a1534d958cd88a1de1.png",
-                    "filename": "Soil Water Index 2007-present (raster 12.5 km), global, 10-daily \u2013 version 3.png",
+                    "download": "@@images/image-400-2ed3ed12dd55665fb31907e57defb25a.png",
+                    "filename": "CGLOPS1_SWI10-12.5km-V4_thumbnail.png",
                     "height": 400,
                     "scales": {
                         "big": {
-                            "download": "@@images/image-80-62bb858d5687e07f9f223781ad1bf936.png",
+                            "download": "@@images/image-80-de99a4f8ca0cd366e343054ab1294c29.png",
                             "height": 80,
                             "width": 80
                         },
                         "icon": {
-                            "download": "@@images/image-32-9441c222ed4e771addb61bfcff77f117.png",
+                            "download": "@@images/image-32-529f2f45b01f0702b5e7fd323e85a353.png",
                             "height": 32,
                             "width": 32
                         },
                         "medium": {
-                            "download": "@@images/image-60-9f6ad694245011d537521bb5222f5c01.png",
+                            "download": "@@images/image-60-1b5d1b93a4383a564d2ceb091d5bff6f.png",
                             "height": 60,
                             "width": 60
                         },
                         "mini": {
-                            "download": "@@images/image-200-5fab589f76246a06053bb230b3aecdbc.png",
+                            "download": "@@images/image-200-4d30c02aea7245dfb8f3f9b03684f306.png",
                             "height": 200,
                             "width": 200
                         },
                         "preview": {
-                            "download": "@@images/image-400-64427e9a86ce55415d957a3ab3855938.png",
+                            "download": "@@images/image-400-a233eef8d66922b45850f46f426fabc6.png",
                             "height": 400,
                             "width": 400
                         },
                         "small": {
-                            "download": "@@images/image-48-ddf40ad20c16b85e5833d9d14ae924f9.png",
+                            "download": "@@images/image-48-410711815d476ae9045c422eaadc41ce.png",
                             "height": 48,
                             "width": 48
                         },
                         "thumb": {
-                            "download": "@@images/image-128-4969999f9c669a5183a123a767fcd9b0.png",
+                            "download": "@@images/image-128-0d27d574ab0e4ffcfc8b3d9665e88f58.png",
                             "height": 128,
                             "width": 128
                         },
                         "tile": {
-                            "download": "@@images/image-64-a6f62511a751a0ca194bea50b1f1a9a8.png",
+                            "download": "@@images/image-64-1c6e6e6eddc1db283c086e022fe1927f.png",
                             "height": 64,
                             "width": 64
                         },
                         "tiny": {
-                            "download": "@@images/image-24-bcf975dce27777cf9cdec485bb4cfa59.png",
+                            "download": "@@images/image-24-9d993719ba33cd284b8186b2a0fdea20.png",
                             "height": 24,
                             "width": 24
                         }
                     },
-                    "size": 109834,
+                    "size": 168681,
                     "width": 400
                 }
             ]
@@ -45991,7 +46049,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/swi_global_12_5km_10daily_v4?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-16T07:52:27+00:00",
+        "modified": "2026-03-10T13:20:37+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -46641,7 +46699,7 @@
         "EffectiveDate": "2020-03-30T13:20:00+01:00",
         "ExpirationDate": "None",
         "Language": "en",
-        "ModificationDate": "2026-03-04T11:45:30+01:00",
+        "ModificationDate": "2026-03-11T10:37:21+01:00",
         "Subject": [],
         "Title": "Urban Atlas Land Cover/Land Use 2021 (vector), Europe, 3-yearly",
         "TranslationGroup": "b4ddf5d5f2584d19b41a6259908472fd",
@@ -46738,7 +46796,7 @@
         "mapviewer_viewservice": null,
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-03-04T10:45:30+00:00",
+        "modified": "2026-03-11T09:37:21+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -46775,7 +46833,7 @@
         "EffectiveDate": "2022-01-21T12:07:33+01:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-02-10T14:52:35+01:00",
+        "ModificationDate": "2026-03-09T08:06:38+01:00",
         "Subject": [
             "Vegetation Properties"
         ],
@@ -46795,7 +46853,7 @@
         "expires": "2499-12-30T23:00:00+00:00",
         "getIcon": true,
         "getId": "leaf-area-index-v2-0-300m",
-        "getObjSize": "255.2 KB",
+        "getObjSize": "255.3 KB",
         "getPath": "/Plone/en/products/vegetation/leaf-area-index-v2-0-300m",
         "getRemoteUrl": null,
         "getURL": "https://land.copernicus.eu/en/products/vegetation/leaf-area-index-v2-0-300m",
@@ -46874,7 +46932,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/lai_global_300m_10daily_v2_RT0?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-02-10T13:52:35+00:00",
+        "modified": "2026-03-09T07:06:38+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
