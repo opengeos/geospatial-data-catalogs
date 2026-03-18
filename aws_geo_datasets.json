@@ -1292,7 +1292,7 @@
         "ControlledAccess": null
     },
     {
-        "Name": "CCRS MODIS albedo over Canada | Alb\u00e9do CCRS MODIS au-dessus du Canada - CCRS MODIS Albedo, Cloud Optimized GeoTIFF (COG) images",
+        "Name": "CCRS MODIS albedo over Canada | Alb\u00e9do MODIS du CCT couvrant le Canada - CCRS MODIS Albedo, Cloud Optimized GeoTIFF (COG) images",
         "Description": "CCRS MODIS Albedo, Cloud Optimized GeoTIFF (COG) images",
         "ARN": "arn:aws:s3:::ccrs-modis-albedo",
         "Region": "ca-central-1",
@@ -1317,7 +1317,7 @@
         "ControlledAccess": null
     },
     {
-        "Name": "CCRS MODIS albedo over Canada | Alb\u00e9do CCRS MODIS au-dessus du Canada - Notifications for new CCRS MODIS Albedo data",
+        "Name": "CCRS MODIS albedo over Canada | Alb\u00e9do MODIS du CCT couvrant le Canada - Notifications for new CCRS MODIS Albedo data",
         "Description": "Notifications for new CCRS MODIS Albedo data",
         "ARN": "arn:aws:sns:ca-central-1:675987781521:ccrs-modis-albedo-object_created",
         "Region": "ca-central-1",
@@ -9762,6 +9762,58 @@
             "tiles"
         ],
         "RequesterPays": false,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "LGND Clay v1.5 Sentinel-2 - Clay v15 Sentinel-2",
+        "Description": "Clay v15 Sentinel-2",
+        "ARN": "arn:aws:s3:::us-west-2.opendata.source.coop/clay/lgnd-clay-v1-5-sentinel-2-l2a",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Dataset](https://source.coop/clay/lgnd-clay-v1-5-sentinel-2-l2a)"
+        ],
+        "Documentation": "https://source.coop/clay/lgnd-clay-v1-5-sentinel-2-l2a",
+        "Contact": "contact@madewithclay.org",
+        "ManagedBy": "[Source Cooperative](https://source.coop/)",
+        "UpdateFrequency": "As new data versions become available",
+        "License": "Creative Commons Attribution 4.0 International License",
+        "Tags": [
+            "aws-pds",
+            "satellite imagery",
+            "earth observation",
+            "machine learning",
+            "imaging",
+            "computer vision"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "LGND Clay v1.5 Sentinel-2 - Notifications for new data as it arrives",
+        "Description": "Notifications for new data as it arrives",
+        "ARN": "arn:aws:sns:us-west-2:417712557820:source_coop-clay-lgnd-clay-v1-5-sentinel-2-l2a_new-object",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://source.coop/clay/lgnd-clay-v1-5-sentinel-2-l2a",
+        "Contact": "contact@madewithclay.org",
+        "ManagedBy": "[Source Cooperative](https://source.coop/)",
+        "UpdateFrequency": "As new data versions become available",
+        "License": "Creative Commons Attribution 4.0 International License",
+        "Tags": [
+            "aws-pds",
+            "satellite imagery",
+            "earth observation",
+            "machine learning",
+            "imaging",
+            "computer vision"
+        ],
+        "RequesterPays": null,
         "AccountRequired": null,
         "Host": null,
         "ControlledAccess": null
