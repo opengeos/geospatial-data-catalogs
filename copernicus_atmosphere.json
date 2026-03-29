@@ -51,7 +51,7 @@
                 "interval": [
                     [
                         "2024-03-01T00:00:00Z",
-                        "2026-03-21T00:00:00Z"
+                        "2026-03-28T00:00:00Z"
                     ]
                 ]
             }
@@ -331,7 +331,7 @@
                 "interval": [
                     [
                         "2024-01-17T00:00:00Z",
-                        "2026-03-21T00:00:00Z"
+                        "2026-03-28T00:00:00Z"
                     ]
                 ]
             }
@@ -683,7 +683,7 @@
                 "interval": [
                     [
                         "2015-01-01T00:00:00Z",
-                        "2026-03-21T00:00:00Z"
+                        "2026-03-28T00:00:00Z"
                     ]
                 ]
             }
@@ -697,75 +697,6 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/oD3sGIXSIP2lrUjmOgA0aLPUsLM=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-atmospheric-composition-forecasts/overview_a484dee4988156df196a92b874b23a6d2686921df6b17c528d1a171cb51d0240.png"
-            }
-        }
-    },
-    {
-        "type": "Collection",
-        "stac_version": "1.1.0",
-        "id": "cams-global-radiative-forcing-auxilliary-variables",
-        "title": "CAMS global radiative forcing - auxilliary variables",
-        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Parameter family: Radiation",
-            "Spatial coverage: Satellite image area",
-            "Product type: Analysis",
-            "Variable domain: Solar radiation"
-        ],
-        "license": "CC-BY-4.0",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        -180,
-                        -90,
-                        180,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2003-01-01T00:00:00Z",
-                        "2017-12-31T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "summaries": "{}",
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
             }
         }
     },
@@ -838,6 +769,75 @@
                     "thumbnail"
                 ],
                 "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/vTWNWdaYOJPFR2zuqW39pY3T9CM=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcings/overview_64b7f931c9378814193a3f8879de137f73271a1e1320780d78ec894e974b75e0.png"
+            }
+        }
+    },
+    {
+        "type": "Collection",
+        "stac_version": "1.1.0",
+        "id": "cams-global-radiative-forcing-auxilliary-variables",
+        "title": "CAMS global radiative forcing - auxilliary variables",
+        "description": "This dataset provides aerosol optical depths and aerosol-radiation radiative effects for four different aerosol origins: anthropogenic, mineral dust, marine, and land-based fine-mode natural aerosol. The latter mostly consists of biogenic aerosols. \nThe data are a necessary complement to the \"CAMS global radiative forcings\" dataset (see \"Related Data\"). The calculation of aerosol radiative forcing requires a discrimination between aerosol of anthropogenic and natural origin. However, the CAMS reanalysis, which is used to provide the aerosol concentrations, does not make this distinction. The anthropogenic fraction was therefore derived by a method which uses aerosol size as a proxy for aerosol origin.",
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/collections/cams-global-radiative-forcing-auxilliary-variables"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ads.atmosphere.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Parameter family: Radiation",
+            "Spatial coverage: Satellite image area",
+            "Product type: Analysis",
+            "Variable domain: Solar radiation"
+        ],
+        "license": "CC-BY-4.0",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        -180,
+                        -90,
+                        180,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2003-01-01T00:00:00Z",
+                        "2017-12-31T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "summaries": "{}",
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ads.atmosphere.copernicus.eu/thumbnails/CNKAGtzlYJJjcu9eVS-pqCwf-kI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cams-global-radiative-forcing-auxilliary-variables/overview_f9fb14508ff797a23b9b8e88df38d174307ef27015c6145805b74544a47a04d3.png"
             }
         }
     },
@@ -1032,7 +1032,7 @@
                 "interval": [
                     [
                         "2004-01-01T00:00:00Z",
-                        "2026-03-21T00:00:00Z"
+                        "2026-03-28T00:00:00Z"
                     ]
                 ]
             }
@@ -1103,8 +1103,8 @@
             "temporal": {
                 "interval": [
                     [
-                        "2023-03-16T00:00:00Z",
-                        "2026-03-21T00:00:00Z"
+                        "2023-03-23T00:00:00Z",
+                        "2026-03-29T00:00:00Z"
                     ]
                 ]
             }
