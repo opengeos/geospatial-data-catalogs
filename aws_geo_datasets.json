@@ -6336,6 +6336,60 @@
         "ControlledAccess": null
     },
     {
+        "Name": "ECMWF AIFS Single - dynamical.org Icechunk Zarr - ECMWF AIFS Single Icechunk Zarr data",
+        "Description": "ECMWF AIFS Single Icechunk Zarr data",
+        "ARN": "arn:aws:s3:::dynamical-ecmwf-aifs-single",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://dynamical-ecmwf-aifs-single.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://dynamical.org/catalog/",
+        "Contact": "feedback@dynamical.org",
+        "ManagedBy": "[dynamical.org](https://dynamical.org)",
+        "UpdateFrequency": "ECMWF AIFS Single forecast: Forecasts initialized every 6 hours",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "atmosphere",
+            "meteorological",
+            "climate",
+            "forecast",
+            "zarr"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "ECMWF AIFS Single - dynamical.org Icechunk Zarr - Notifications for dataset updates",
+        "Description": "Notifications for dataset updates",
+        "ARN": "arn:aws:sns:us-west-2:761136292730:dynamical-ecmwf-aifs-single-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://dynamical.org/catalog/",
+        "Contact": "feedback@dynamical.org",
+        "ManagedBy": "[dynamical.org](https://dynamical.org)",
+        "UpdateFrequency": "ECMWF AIFS Single forecast: Forecasts initialized every 6 hours",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "atmosphere",
+            "meteorological",
+            "climate",
+            "forecast",
+            "zarr"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "ECMWF IFS ENS - dynamical.org Icechunk Zarr - ECMWF IFS ENS Icechunk Zarr data",
         "Description": "ECMWF IFS ENS Icechunk Zarr data",
         "ARN": "arn:aws:s3:::dynamical-ecmwf-ifs-ens",
@@ -7839,10 +7893,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -7864,12 +7920,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -15791,7 +15845,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -15863,7 +15917,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
