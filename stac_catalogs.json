@@ -52,6 +52,19 @@
         "accessInfo": null
     },
     {
+        "title": "CEDA STAC API",
+        "id": 150,
+        "url": "https://api.stac.ceda.ac.uk/",
+        "slug": "ceda-stac-api",
+        "summary": "The Centre for Environmental Data Analysis (CEDA) stores over 20 PB of atmospheric and Earth observation data. Sources for the archive include aircraft campaigns, satellites, automatic weather stations and climate models, amongst many others. The data consists of netCDF and other historical data.",
+        "access": "protected",
+        "created": "2026-04-10T22:55:23.169Z",
+        "updated": "2026-04-10T22:55:23.169Z",
+        "isPrivate": true,
+        "isApi": false,
+        "accessInfo": "See the CEDA [documentation](https://help.ceda.ac.uk/article/5100-archive-access-tokens) for details."
+    },
+    {
         "title": "CIESIN STAC",
         "id": 144,
         "url": "https://ciesin.github.io/sci-apps-stac/stac/catalog.json",
@@ -543,6 +556,19 @@
         "updated": "2023-07-08T19:32:28.732Z",
         "isPrivate": false,
         "isApi": true,
+        "accessInfo": null
+    },
+    {
+        "title": "Geoportal des Kantons Bern",
+        "id": 149,
+        "url": "https://geofiles.be.ch/geoportal/pub/stac/de/catalog.json",
+        "slug": "geoportal-des-kantons-bern",
+        "summary": "Geoportal of the Canton of Bern in Switzerland: Geoproducts for download",
+        "access": "public",
+        "created": "2026-04-10T22:48:42.830Z",
+        "updated": "2026-04-10T22:48:42.830Z",
+        "isPrivate": false,
+        "isApi": false,
         "accessInfo": null
     },
     {
@@ -1194,6 +1220,19 @@
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
+    },
+    {
+        "title": "Terrabyte Stac Api (Dlr)",
+        "id": 148,
+        "url": "https://stac.terrabyte.lrz.de/public/api/",
+        "slug": "terrabyte",
+        "summary": "Curated data catalog of the terrabyte platform provided by DLR and LRZ",
+        "access": "private",
+        "created": "2026-04-10T22:46:48.455Z",
+        "updated": "2026-04-10T22:46:48.455Z",
+        "isPrivate": true,
+        "isApi": false,
+        "accessInfo": "Access through DLR or LRZ, contact the [support](https://docs.terrabyte.lrz.de/support/support-resources/) for more details."
     },
     {
         "title": "Terrascope",
