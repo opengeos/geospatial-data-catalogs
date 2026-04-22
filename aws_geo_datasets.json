@@ -8036,10 +8036,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
         "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -8061,12 +8063,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
         "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -8140,10 +8140,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -8165,12 +8167,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -8972,6 +8972,102 @@
         "ControlledAccess": null
     },
     {
+        "Name": "IGP Brick Kilns Bangladesh",
+        "Description": "Asset level data - Brick_Kilns_IGP for Bangladesh",
+        "ARN": "arn:aws:s3:::assetdata-igp/asset_igp_csvs/Brick_kilns_BAN_coal.csv",
+        "Region": "ap-south-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/IGP/Asset_Data_IGP/Brick%20Kiln/with_FPs/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "energy",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "IGP Brick Kilns India",
+        "Description": "Asset level data - Brick_Kilns_IGP for India",
+        "ARN": "arn:aws:s3:::assetdata-igp/asset_igp_csvs/Brick_Kilns_IND_coal.csv",
+        "Region": "ap-south-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/IGP/Asset_Data_IGP/Brick%20Kiln/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "energy",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "IGP Brick Kilns Pakistan",
+        "Description": "Asset level data - Brick_Kilns_IGP for Pakistan",
+        "ARN": "arn:aws:s3:::assetdata-igp/asset_igp_csvs/Brick_Kilns_PK_coal.csv",
+        "Region": "ap-south-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/IGP/Asset_Data_IGP/Brick%20Kiln/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "energy",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "IGP Cement Plants",
+        "Description": "Asset level data - Cement_Plants_IGP",
+        "ARN": "arn:aws:s3:::assetdata-igp/asset_igp_csvs/cement_plants.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/IGP/Asset_Data_IGP/Cement/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "http://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "industrial",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "IGP Coal Plant",
         "Description": "Asset level data - Coal_Plants_IGP",
         "ARN": "arn:aws:s3:::assetdata-igp/Coal Plants/",
@@ -8986,8 +9082,104 @@
         "Tags": [
             "air quality",
             "energy",
-            "meteorological",
-            "environmental"
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "IGP Paper and Pulp Plant",
+        "Description": "Asset level data - Paper_and_Pulp_Plants_IGP",
+        "ARN": "arn:aws:s3:::assetdata-igp/Pulp and Paper Plants/paper_pulp_main.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/IGP/Asset_Data_IGP/Paper%20and%20Pulp/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "http://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "industrial",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "IGP Power Generation Plant",
+        "Description": "Asset level data - Power_Generation_Plants_IGP",
+        "ARN": "arn:aws:s3:::assetdata-igp/asset_igp_csvs/Power_Generation.csv",
+        "Region": "ap-south-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/IGP/Asset_Data_IGP/Power%20Generation/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "https://creativecommons.org/licenses/by/4.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "energy",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "IGP Steel Plants",
+        "Description": "Asset level data - Steel_Plants_IGP",
+        "ARN": "arn:aws:s3:::assetdata-igp/asset_igp_csvs/steel_plants.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/IGP/Asset_Data_IGP/Steel/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "http://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "industrial",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "IGP Waste Management Data",
+        "Description": "Asset level data - Waste_Management_Sites_IGP",
+        "ARN": "arn:aws:s3:::assetdata-igp/asset_igp_csvs/waste.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/IGP/Asset_Data_IGP/Waste/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "as needed",
+        "License": "http://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "sustainability",
+            "environmental",
+            "infrastructure"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
@@ -15971,31 +16163,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null,
-        "ControlledAccess": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -16043,7 +16211,31 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA20Object",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -24679,7 +24871,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
@@ -24707,7 +24899,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
