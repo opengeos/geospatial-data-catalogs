@@ -3345,6 +3345,60 @@
         "ControlledAccess": null
     },
     {
+        "Name": "DWD ICON-EU - dynamical.org Icechunk Zarr - DWD ICON-EU Icechunk Zarr data",
+        "Description": "DWD ICON-EU Icechunk Zarr data",
+        "ARN": "arn:aws:s3:::dynamical-dwd-icon-eu",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://dynamical-dwd-icon-eu.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://dynamical.org/catalog/",
+        "Contact": "feedback@dynamical.org",
+        "ManagedBy": "[dynamical.org](https://dynamical.org)",
+        "UpdateFrequency": "DWD ICON-EU forecast, 5 day: Forecasts initialized every 6 hours",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "atmosphere",
+            "meteorological",
+            "climate",
+            "forecast",
+            "zarr"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "DWD ICON-EU - dynamical.org Icechunk Zarr - Notifications for dataset updates",
+        "Description": "Notifications for dataset updates",
+        "ARN": "arn:aws:sns:us-west-2:761136292730:dynamical-dwd-icon-eu-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://dynamical.org/catalog/",
+        "Contact": "feedback@dynamical.org",
+        "ManagedBy": "[dynamical.org](https://dynamical.org)",
+        "UpdateFrequency": "DWD ICON-EU forecast, 5 day: Forecasts initialized every 6 hours",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "atmosphere",
+            "meteorological",
+            "climate",
+            "forecast",
+            "zarr"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "Danish Meteorological Institute (DMI) Open Data Forecasts",
         "Description": "DMI's Open Data Forecasts",
         "ARN": "arn:aws:s3:::dmi-opendata",
@@ -6398,10 +6452,10 @@
         "Explore": [
             "[Browse Bucket](https://dynamical-ecmwf-ifs-ens.s3.amazonaws.com/index.html)"
         ],
-        "Documentation": "https://dynamical.org/catalog/models/ecmwf-ifs-ens/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
-        "UpdateFrequency": "ECMWF IFS ENS Forecast, 15 day, 0.25 degree: Forecasts initialized every 24 hours",
+        "UpdateFrequency": "ECMWF IFS ENS forecast, 15 day, 0.25 degree: Forecasts initialized every 24 hours",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",
@@ -6424,10 +6478,10 @@
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
-        "Documentation": "https://dynamical.org/catalog/models/ecmwf-ifs-ens/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
-        "UpdateFrequency": "ECMWF IFS ENS Forecast, 15 day, 0.25 degree: Forecasts initialized every 24 hours",
+        "UpdateFrequency": "ECMWF IFS ENS forecast, 15 day, 0.25 degree: Forecasts initialized every 24 hours",
         "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
         "Tags": [
             "aws-pds",
@@ -7932,6 +7986,33 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
         "Type": "SNS Topic",
@@ -7955,14 +8036,12 @@
         "ControlledAccess": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -8009,10 +8088,10 @@
         "ControlledAccess": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "Region": "eu-central-1",
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
@@ -8061,10 +8140,10 @@
         "ControlledAccess": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
-        "Region": "eu-central-1",
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "Region": "sa-east-1",
         "Type": "SNS Topic",
         "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
@@ -8094,31 +8173,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
         ],
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null,
-        "ControlledAccess": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
-        "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -14777,7 +14831,7 @@
         "Explore": [
             "[Browse Bucket](https://dynamical-noaa-gefs.s3.amazonaws.com/index.html)"
         ],
-        "Documentation": "https://dynamical.org/catalog/models/noaa-gefs/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
         "UpdateFrequency": "NOAA GEFS forecast, 35 day: Forecasts initialized every 24 hours; NOAA GEFS analysis: 3.0 hours",
@@ -14803,7 +14857,7 @@
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
-        "Documentation": "https://dynamical.org/catalog/models/noaa-gefs/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
         "UpdateFrequency": "NOAA GEFS forecast, 35 day: Forecasts initialized every 24 hours; NOAA GEFS analysis: 3.0 hours",
@@ -14831,7 +14885,7 @@
         "Explore": [
             "[Browse Bucket](https://dynamical-noaa-gfs.s3.amazonaws.com/index.html)"
         ],
-        "Documentation": "https://dynamical.org/catalog/models/noaa-gfs/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
         "UpdateFrequency": "NOAA GFS analysis: 1 hour; NOAA GFS forecast: Forecasts initialized every 6 hours",
@@ -14857,7 +14911,7 @@
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
-        "Documentation": "https://dynamical.org/catalog/models/noaa-gfs/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
         "UpdateFrequency": "NOAA GFS analysis: 1 hour; NOAA GFS forecast: Forecasts initialized every 6 hours",
@@ -15749,7 +15803,7 @@
         "Explore": [
             "[Browse Bucket](https://dynamical-noaa-hrrr.s3.amazonaws.com/index.html)"
         ],
-        "Documentation": "https://dynamical.org/catalog/models/noaa-hrrr/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
         "UpdateFrequency": "NOAA HRRR forecast, 48 hour: Forecasts initialized every 6 hours; NOAA HRRR analysis: 1 hour",
@@ -15775,7 +15829,7 @@
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
-        "Documentation": "https://dynamical.org/catalog/models/noaa-hrrr/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
         "UpdateFrequency": "NOAA HRRR forecast, 48 hour: Forecasts initialized every 6 hours; NOAA HRRR analysis: 1 hour",
@@ -16163,7 +16217,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -16187,7 +16241,7 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -16265,7 +16319,7 @@
         "Explore": [
             "[Browse Bucket](https://dynamical-noaa-mrms.s3.amazonaws.com/index.html)"
         ],
-        "Documentation": "https://dynamical.org/catalog/models/noaa-mrms/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
         "UpdateFrequency": "NOAA MRMS CONUS analysis, hourly: 1 hour",
@@ -16291,7 +16345,7 @@
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
-        "Documentation": "https://dynamical.org/catalog/models/noaa-mrms/",
+        "Documentation": "https://dynamical.org/catalog/",
         "Contact": "feedback@dynamical.org",
         "ManagedBy": "[dynamical.org](https://dynamical.org)",
         "UpdateFrequency": "NOAA MRMS CONUS analysis, hourly: 1 hour",
@@ -17066,10 +17120,12 @@
     {
         "Name": "NOAA North American Multi-Model Ensemble (NMME) - North American Multi-Model Ensemble (NMME)",
         "Description": "North American Multi-Model Ensemble (NMME)",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNMMEObject",
+        "ARN": "arn:aws:s3:::noaa-nmme-pds",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://noaa-nmme-pds.s3.amazonaws.com/index.html)"
+        ],
         "Documentation": "https://www.cpc.ncep.noaa.gov/products/NMME/about.html",
         "Contact": "For any issues with the NMME data, please submit an issue at https://www.cpc.ncep.noaa.gov/nwscwi/forms/issue-form-nmme.php. For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
@@ -17089,12 +17145,10 @@
     {
         "Name": "NOAA North American Multi-Model Ensemble (NMME) - North American Multi-Model Ensemble (NMME)",
         "Description": "North American Multi-Model Ensemble (NMME)",
-        "ARN": "arn:aws:s3:::noaa-nmme-pds",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNMMEObject",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse Bucket](https://noaa-nmme-pds.s3.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "https://www.cpc.ncep.noaa.gov/products/NMME/about.html",
         "Contact": "For any issues with the NMME data, please submit an issue at https://www.cpc.ncep.noaa.gov/nwscwi/forms/issue-form-nmme.php. For any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
@@ -17849,7 +17903,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -17873,7 +17927,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
