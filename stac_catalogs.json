@@ -59,9 +59,9 @@
         "summary": "The Centre for Environmental Data Analysis (CEDA) stores over 20 PB of atmospheric and Earth observation data. Sources for the archive include aircraft campaigns, satellites, automatic weather stations and climate models, amongst many others. The data consists of netCDF and other historical data.",
         "access": "protected",
         "created": "2026-04-10T22:55:23.169Z",
-        "updated": "2026-04-10T22:55:23.169Z",
+        "updated": "2026-06-27T20:22:46.198Z",
         "isPrivate": true,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": "See the CEDA [documentation](https://help.ceda.ac.uk/article/5100-archive-access-tokens) for details."
     },
     {
@@ -85,9 +85,9 @@
         "summary": "CREODIAS users can now benefit from the Copernicus Data Space Ecosystem SpatioTemporal Asset Catalogue (STAC) to search for Earth observation products. The results of a query from the CDSE STAC catalogue share the same S3 product path to /eodata repository as for the CREODIAS platform.",
         "access": "protected",
         "created": "2023-02-23T17:49:39.814Z",
-        "updated": "2025-07-11T17:49:39.814Z",
+        "updated": "2026-06-27T20:14:01.686Z",
         "isPrivate": true,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": "Some data is 'orderable', but can be requested through a custom API, using an account from https://creodias.eu/"
     },
     {
@@ -176,9 +176,9 @@
         "summary": "Catalogue of Earth Observation (EO) data sets maintained by the Copernicus Data Space Ecosystem.",
         "access": "public",
         "created": "2025-04-07T09:13:46.299Z",
-        "updated": "2025-07-11T09:13:46.299Z",
+        "updated": "2026-06-27T20:16:40.892Z",
         "isPrivate": false,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
@@ -189,9 +189,9 @@
         "summary": "This openEO service runs on the [Copernicus Data Space Ecosystem](https://dataspace.copernicus.eu/) and offers data access and processing on full archives of Copernicus data, such as the Sentinels.",
         "access": "protected",
         "created": "2023-09-02T16:08:53.927Z",
-        "updated": "2023-09-02T16:08:53.927Z",
+        "updated": "2026-06-27T20:15:54.996Z",
         "isPrivate": true,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": "Please visit the [Copernicus Data Space Ecosystem](https://dataspace.copernicus.eu/) homepage for details."
     },
     {
@@ -228,9 +228,9 @@
         "summary": "Data Analytics for Canadian Climate Services (DACCS) project. Searchable spatiotemporal metadata describing climate and Earth observation datasets. The CRIM Hirondelle server is employed for experimental development of STAC and OGC standards.",
         "access": "protected",
         "created": "2026-02-06T20:21:26.965Z",
-        "updated": "2026-02-06T20:21:26.965Z",
+        "updated": "2026-06-27T20:22:24.597Z",
         "isPrivate": true,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": "Contact via email: francis.charette-migneault@crim.ca. Provide the purpose of your request and how you intend to employ the data. "
     },
     {
@@ -366,12 +366,12 @@
     {
         "title": "ERS open data",
         "id": 57,
-        "url": "https://s3ext.gptl.ru/stac-web-free/catalog.json",
+        "url": "https://s3.gptl.ru/stac-web-free/catalog.json",
         "slug": "ers-open-data",
         "summary": "Some open data sets from the Russian Federal Space Agency, e.g. from the Meteor-M and Electro-L satellites.",
         "access": "public",
         "created": "2022-10-19T08:47:28.185Z",
-        "updated": "2023-02-15T11:00:00.000Z",
+        "updated": "2026-06-27T20:14:18.577Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -410,9 +410,9 @@
         "summary": "A publicly available STAC instance cataloging our data for the public good, including Sentinel-2 L2A Temporal Mosaics",
         "access": "public",
         "created": "2024-05-20T20:35:39.666Z",
-        "updated": "2024-05-20T20:35:39.666Z",
+        "updated": "2026-06-27T20:16:43.495Z",
         "isPrivate": false,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
@@ -475,9 +475,9 @@
         "summary": "A STAC catalog that contains all collections available on the FAIRiCUBE Hub and within the Sentinel Hub openEO backend.",
         "access": "public",
         "created": "2022-12-20T08:10:04.157Z",
-        "updated": "2024-10-14T11:00:00.000Z",
+        "updated": "2026-06-27T20:13:45.592Z",
         "isPrivate": false,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
@@ -540,9 +540,9 @@
         "summary": "GISTDA Drought Index in Thailand, Data processing from MODIS Product.",
         "access": "public",
         "created": "2023-09-04T10:05:23.553Z",
-        "updated": "2023-09-04T10:05:23.553Z",
+        "updated": "2026-06-27T20:15:40.467Z",
         "isPrivate": false,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
@@ -553,20 +553,7 @@
         "summary": "GISTDA Flood disaster in Thailand, Data processing from Sattalite Imagery.",
         "access": "public",
         "created": "2023-09-04T10:08:50.182Z",
-        "updated": "2023-09-04T10:08:50.182Z",
-        "isPrivate": false,
-        "isApi": false,
-        "accessInfo": null
-    },
-    {
-        "title": "Geoportal Server",
-        "id": 75,
-        "url": "https://gpt.geocloud.com/sentinel/stac",
-        "slug": "geoportal-server",
-        "summary": "This STAC uses the open-source Esri Geoportal Server. Esri Geoportal Server is a generic metadata catalog solution that can be configured to support any XML or JSON based metadata structure.",
-        "access": "public",
-        "created": "2023-07-08T19:32:28.732Z",
-        "updated": "2023-07-08T19:32:28.732Z",
+        "updated": "2026-06-27T20:15:45.724Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -587,12 +574,12 @@
     {
         "title": "Google Earth Engine",
         "id": 21,
-        "url": "https://earthengine-stac.storage.googleapis.com/catalog/catalog.json",
+        "url": "https://storage.googleapis.com/earthengine-stac/catalog/catalog.json",
         "slug": "google-earth-engine",
         "summary": "List of all rasters and vectors present in the [Google Earth Engine Catalog](https://developers.google.com/earth-engine/datasets/).",
         "access": "public",
         "created": "2020-10-01T19:38:14.208Z",
-        "updated": "2020-10-01T19:38:14.208Z",
+        "updated": "2026-06-27T20:09:41.159Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -639,12 +626,12 @@
     {
         "title": "IDE Facultad de Ciencia y Tecnolog\u00eda UADER",
         "id": 53,
-        "url": "https://raw.githubusercontent.com/IDE-FCyT/IDE-FCyT/main/catalog/stac_catalog.json",
+        "url": "https://rawcdn.githack.com/IDE-FCyT/IDE-FCyT/main/docs/catalog/stac_catalog.json",
         "slug": "ide-facultad-de-ciencia-y-tecnologia-uader",
         "summary": "Lista de raster y vectores presentes en la IDE de la Facultad de Ciencia y Tecnolog\u00eda - UADER ",
         "access": "public",
         "created": "2022-06-23T15:00:45.539Z",
-        "updated": "2022-06-23T15:00:45.539Z",
+        "updated": "2026-06-27T20:25:10.469Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -657,9 +644,9 @@
         "summary": "This is the landing page for the INPE STAC server. The SpatioTemporal Asset Catalogs (STAC) provide a standardized way to expose collections of spatial temporal data. Here you will find collections of data provided by projects and areas of INPE.",
         "access": "public",
         "created": "2026-04-02T13:21:52.183Z",
-        "updated": "2026-04-02T13:21:52.183Z",
+        "updated": "2026-06-27T20:25:52.081Z",
         "isPrivate": false,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
@@ -709,9 +696,9 @@
         "summary": "MISTEO STAC SERVER , for geo data for selected states ",
         "access": "public",
         "created": "2025-11-11T09:29:37.430Z",
-        "updated": "2025-11-11T09:29:37.430Z",
+        "updated": "2026-06-27T20:22:22.813Z",
         "isPrivate": false,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
@@ -819,19 +806,6 @@
         "accessInfo": null
     },
     {
-        "title": "Mundialis Actinia (Openeo)",
-        "id": 24,
-        "url": "https://openeo.mundialis.de/api/v1.0/",
-        "slug": "mundialis-actinia-openeo",
-        "summary": "Access to the mundialis Actinia service via an openEO interface.",
-        "access": "protected",
-        "created": "2020-11-13T09:22:13.399Z",
-        "updated": "2023-02-15T11:00:00.000Z",
-        "isPrivate": true,
-        "isApi": true,
-        "accessInfo": "Contact [mundialis](https://www.mundialis.de/de/contact/) for details."
-    },
-    {
         "title": "NASA CMR CLOUDSTAC Proxy",
         "id": 48,
         "url": "https://cmr.earthdata.nasa.gov/cloudstac/",
@@ -873,12 +847,12 @@
     {
         "title": "New Zealand Coastal Elevation",
         "id": 122,
-        "url": "https://nz-coastal.s3-ap-southeast-2.amazonaws.com/catalog.json",
+        "url": "https://nz-coastal.s3.ap-southeast-2.amazonaws.com/catalog.json",
         "slug": "nz-coastal",
         "summary": "Toit\u016b Te Whenua Land Information New Zealand makes New Zealand's publicly owned coastal elevation archive freely available to use under an open licence. This public S3 bucket has been made available to enable bulk access and cloud-based data processing.",
         "access": "public",
         "created": "2025-06-17T00:40:56.767Z",
-        "updated": "2025-06-17T00:40:56.767Z",
+        "updated": "2026-06-27T20:22:55.631Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -886,12 +860,12 @@
     {
         "title": "New Zealand Elevation",
         "id": 92,
-        "url": "https://nz-elevation.s3-ap-southeast-2.amazonaws.com/catalog.json",
+        "url": "https://nz-elevation.s3.ap-southeast-2.amazonaws.com/catalog.json",
         "slug": "nz-elevation",
         "summary": "Toit\u016b Te Whenua Land Information New Zealand makes New Zealand's publicly owned elevation archive freely available to use under an open licence. This public S3 bucket has been made available to enable bulk access and cloud-based data processing.",
         "access": "public",
         "created": "2024-03-14T00:44:17.769Z",
-        "updated": "2024-03-14T00:44:17.769Z",
+        "updated": "2026-06-27T20:22:39.030Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -899,12 +873,12 @@
     {
         "title": "New Zealand Imagery",
         "id": 82,
-        "url": "https://nz-imagery.s3-ap-southeast-2.amazonaws.com/catalog.json",
+        "url": "https://nz-imagery.s3.ap-southeast-2.amazonaws.com/catalog.json",
         "slug": "nz-imagery",
         "summary": "Toit\u016b Te Whenua Land Information New Zealand makes New Zealand's publicly owned aerial and satellite imagery archive freely available to use under an open licence. This public S3 bucket has been made available to enable bulk access and cloud-based data processing.",
         "access": "public",
         "created": "2023-09-18T02:32:53.754Z",
-        "updated": "2023-09-18T02:32:53.754Z",
+        "updated": "2026-06-27T20:22:43.334Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -930,9 +904,9 @@
         "summary": "Open Science Catalog (OSC) Catalog by the European Space Agency (ESA)",
         "access": "public",
         "created": "2023-01-06T17:21:43.499Z",
-        "updated": "2024-04-19T09:21:43.499Z",
+        "updated": "2026-06-27T20:13:54.966Z",
         "isPrivate": false,
-        "isApi": true,
+        "isApi": false,
         "accessInfo": null
     },
     {
@@ -1042,12 +1016,12 @@
     {
         "title": "Pangeo Cloud Data Catalog",
         "id": 17,
-        "url": "https://raw.githubusercontent.com/charlesbluca/pangeo-datastore-stac/master/master/catalog.json",
+        "url": "https://raw.githubusercontent.com/pangeo-data/pangeo-datastore-stac/master/master/catalog.json",
         "slug": "pangeo",
         "summary": "Experimental STAC catalog of ocean, weather, and climate data stored in Zarr format in Google Cloud Storage.",
         "access": "public",
         "created": "2020-09-03T13:10:10.994Z",
-        "updated": "2020-09-03T13:10:10.994Z",
+        "updated": "2026-06-27T20:24:31.281Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -1125,33 +1099,20 @@
         "summary": "SPOT6/7, Pl\u00e9iades and Pleiades Neo imagery of SEAS Guyane organization, lead by the Collectivit\u00e9 Territoriale de Guyane : https://seasguyane.org",
         "access": "private",
         "created": "2026-03-16T13:04:55.527Z",
-        "updated": "2026-03-16T13:04:55.527Z",
+        "updated": "2026-06-27T20:23:07.457Z",
         "isPrivate": true,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": "Intended for public sector entities and, under certain conditions, private sector entities. See https://seasguyane.org for more info."
     },
     {
         "title": "SPOT Orthoimages of Canada (2005-2010)",
         "id": 12,
-        "url": "https://spot-canada-ortho.s3.amazonaws.com/catalog.json",
+        "url": "https://canada-spot-ortho.s3.amazonaws.com/canada_spot_orthoimages/catalog.json",
         "slug": "spot-orthoimages-canada-2005",
         "summary": "Canada's Orthoimages 2005-2010 is the national medium-resolution imagery coverage of Canada. These digital raster data acquired by the Spot4 and Spot5 satellites comprise five spectral bands.",
         "access": "public",
         "created": "2020-08-24T20:59:43.049Z",
-        "updated": "2020-08-24T20:59:43.049Z",
-        "isPrivate": false,
-        "isApi": false,
-        "accessInfo": null
-    },
-    {
-        "title": "Sea Ice Concentration CDR",
-        "id": 110,
-        "url": "https://noaadata.apps.nsidc.org/NOAA/G02202_V4/stac/collection.json",
-        "slug": "sea-ice-concentration-cdr",
-        "summary": "The Sea Ice Concentration Climate Data Record (CDR) provides a consistent daily and monthly time series of sea ice concentrations for both the north and south Polar Regions on a 25 km x 25 km grid.",
-        "access": "public",
-        "created": "2025-01-29T23:00:08.263Z",
-        "updated": "2025-01-29T23:00:08.263Z",
+        "updated": "2026-06-27T20:24:35.828Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -1185,12 +1146,12 @@
     {
         "title": "Sentinel Hub",
         "id": 3,
-        "url": "https://services.sentinel-hub.com/api/v1/catalog/1.0.0/",
+        "url": "https://services.sentinel-hub.com/catalog/v1/",
         "slug": "sentinel-hub",
         "summary": "Sentinel Hub Catalog is an API implementing the STAC Specification, describing geospatial information about different data used with Sentinel Hub.",
         "access": "protected",
         "created": "2020-08-20T00:00:00.000Z",
-        "updated": "2022-12-07T11:00:00.000Z",
+        "updated": "2026-06-27T20:08:27.126Z",
         "isPrivate": true,
         "isApi": true,
         "accessInfo": "The Sentinel Hub API uses OAuth2 Authentication and requires that you have an access token. See the [Authentication chapter](https://docs.sentinel-hub.com/api/latest/api/overview/authentication/) for more information."
@@ -1209,19 +1170,6 @@
         "accessInfo": null
     },
     {
-        "title": "Sentinel-2 and Landsat-8 catalog",
-        "id": 18,
-        "url": "https://tamn.snapplanet.io",
-        "slug": "sentinel-2-and-landsat-8-catalog",
-        "summary": "Up to date Sentinel-2 and Landsat-8 catalog used for demo with rocket client.",
-        "access": "public",
-        "created": "2020-09-03T13:15:22.526Z",
-        "updated": "2020-09-03T13:15:22.526Z",
-        "isPrivate": false,
-        "isApi": true,
-        "accessInfo": null
-    },
-    {
         "title": "SkyServe Mission Data",
         "id": 96,
         "url": "https://api.ellipsis-drive.com/v3/ogc/stac/catalog/8a059125-b93d-4dda-b69b-9130fbe9f55e/epat_UK6PDdbzeJpySAvkdV55lztWjjrUZZmFzlYUQPbRFK2VnCxJQZ9twUJlv4ksKGc8",
@@ -1237,27 +1185,14 @@
     {
         "title": "Space2Stats Database",
         "id": 116,
-        "url": "https://raw.githubusercontent.com/worldbank/DECAT_Space2Stats/refs/heads/main/space2stats_api/src/space2stats_ingest/METADATA/stac/catalog.json",
+        "url": "https://worldbank.github.io/DECAT_Space2Stats/stac/catalog.json",
         "slug": "space2stats-database",
         "summary": "This database contains geospatial statistics for the entire globe standardized to a hexagonal grid. The variables cover a wide range of geographic themes relevant to international development, including demographic, socio-economic, environmental, climate, and infrastructure.",
         "access": "public",
         "created": "2025-04-30T23:20:56.352Z",
-        "updated": "2025-04-30T23:20:56.352Z",
+        "updated": "2026-06-27T20:25:41.414Z",
         "isPrivate": false,
         "isApi": false,
-        "accessInfo": null
-    },
-    {
-        "title": "TerraDue AI Extensions",
-        "id": 101,
-        "url": "https://ai-extensions-stac.terradue.com",
-        "slug": "terradue-ai",
-        "summary": "stac-fastapi terradue.com first submission in July 2024.stac-fastapi terradue.com first submission in July 2024.stac-fastapi terradue.com first submission in July 2024.",
-        "access": "public",
-        "created": "2024-07-23T12:07:24.057Z",
-        "updated": "2025-07-11T12:07:24.057Z",
-        "isPrivate": false,
-        "isApi": true,
         "accessInfo": null
     },
     {
@@ -1268,9 +1203,9 @@
         "summary": "Curated data catalog of the terrabyte platform provided by DLR and LRZ",
         "access": "private",
         "created": "2026-04-10T22:46:48.455Z",
-        "updated": "2026-04-10T22:46:48.455Z",
+        "updated": "2026-06-27T20:22:26.613Z",
         "isPrivate": true,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": "Access through DLR or LRZ, contact the [support](https://docs.terrabyte.lrz.de/support/support-resources/) for more details."
     },
     {
@@ -1328,38 +1263,25 @@
     {
         "title": "USGS 3DEP LiDAR Point Clouds",
         "id": 13,
-        "url": "https://usgs-lidar-stac.s3-us-west-2.amazonaws.com/ept/catalog.json",
+        "url": "https://s3-us-west-2.amazonaws.com/usgs-lidar-stac/ept/catalog.json",
         "slug": "usgs-3dep-lidar",
         "summary": "LiDAR 3DEP elevation data over the conterminous United States, Hawaii, and the U.S. territories, acquired over an 8-year period. Hosted on AWS.",
         "access": "public",
         "created": "2020-08-26T19:23:18.645Z",
-        "updated": "2021-05-13T19:23:18.645Z",
+        "updated": "2026-06-27T20:10:26.109Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
     },
     {
-        "title": "USGS 3DEP Lidar Point Cloud COPC",
-        "id": 103,
-        "url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/3dep-lidar-copc",
-        "slug": "usgs-3dep-lidar-point-cloud-copc",
-        "summary": "This collection contains source data from the [USGS 3DEP program](https://www.usgs.gov/3d-elevation-program) reformatted into the [COPC](https://copc.io) format. In addition to these COPC files, various higher-level derived products are available as Cloud Optimized GeoTIFFs in other collections",
-        "access": "public",
-        "created": "2024-08-19T15:50:09.812Z",
-        "updated": "2024-08-19T15:50:09.812Z",
-        "isPrivate": false,
-        "isApi": true,
-        "accessInfo": null
-    },
-    {
         "title": "USGS Astrogeology Provided Analysis Ready Data",
         "id": 38,
-        "url": "https://asc-stacbrowser.s3.us-west-2.amazonaws.com/catalog.json",
+        "url": "http://asc-stacbrowser.s3-website-us-west-2.amazonaws.com/catalog.json",
         "slug": "usgs-astrogeology-ard",
         "summary": "Analysis Ready Data (ARD) hosted by USGS Astrogeology. This catalog is organized by planetary body (e.g., Mars or Jupiter). Within each sub-catalog, users will find ARD orgamized by moon and/or data type (e.g., Europa, or kaguyaTC DTMs) depending upon how much logical nesting is required.",
         "access": "public",
         "created": "2021-08-11T14:09:33.168Z",
-        "updated": "2021-08-11T14:09:33.168Z",
+        "updated": "2026-06-27T20:25:00.949Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -1437,9 +1359,9 @@
         "summary": "WeatherLayers is Weather Visualization as a Service, providing pre-processed weather data for visualization and a frontend weather visualization library, which can be used with both cloud and custom self-hosted data. See [WeatherLayers](https://weatherlayers.com/) for more details.",
         "access": "protected",
         "created": "2022-03-26T16:47:34.737Z",
-        "updated": "2024-04-19T11:00:00.000Z",
+        "updated": "2026-06-27T20:10:38.519Z",
         "isPrivate": true,
-        "isApi": false,
+        "isApi": true,
         "accessInfo": "Subscription plans are available to access periodically pre-processed weather data for visualization. See [WeatherLayers](https://weatherlayers.com/) for more details."
     },
     {
@@ -1471,12 +1393,12 @@
     {
         "title": "Wyvern Open Data",
         "id": 111,
-        "url": "https://wyvern-prod-public-open-data-program.s3.ca-central-1.amazonaws.com/catalog.json",
+        "url": "https://wyvern-odp.com/catalog.json",
         "slug": "wyvern-open-data",
         "summary": "Root catalog for Wyvern's Open Data Program. Select the relevant catalogs/collections to access Wyvern's hyperspectral data. For more information on Wyvern and our data, check out our [knowledge centre](https://knowledge.wyvern.space/) for tutorials about how to work with hyperspectral data!",
         "access": "public",
         "created": "2025-02-04T19:27:57.514Z",
-        "updated": "2025-02-04T19:27:57.514Z",
+        "updated": "2026-06-07T21:27:57.514Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
