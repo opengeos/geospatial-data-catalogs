@@ -9,7 +9,7 @@
         "EffectiveDate": "2025-05-06T14:45:34+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:40:17+02:00",
+        "ModificationDate": "2026-07-10T12:23:23+02:00",
         "Subject": [
             "Grassland Mowing Events"
         ],
@@ -108,7 +108,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/gramd_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:40:17+00:00",
+        "modified": "2026-07-10T10:23:23+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -145,7 +145,7 @@
         "EffectiveDate": "2025-05-06T11:40:08+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T12:44:41+02:00",
+        "ModificationDate": "2026-07-06T10:59:06+02:00",
         "Subject": [
             "Cropping Patterns"
         ],
@@ -244,7 +244,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mcd_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T10:44:41+00:00",
+        "modified": "2026-07-06T08:59:06+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -417,7 +417,7 @@
         "EffectiveDate": "2025-05-06T11:40:15+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:54:58+02:00",
+        "ModificationDate": "2026-07-08T11:32:08+02:00",
         "Subject": [
             "Cropping Patterns"
         ],
@@ -516,7 +516,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/cs_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:54:58+00:00",
+        "modified": "2026-07-08T09:32:08+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -553,7 +553,7 @@
         "EffectiveDate": "2025-05-06T15:09:43+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:31:27+02:00",
+        "ModificationDate": "2026-07-07T13:43:29+02:00",
         "Subject": [
             "Dominant Leaf Type"
         ],
@@ -652,7 +652,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/dlt_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:31:27+00:00",
+        "modified": "2026-07-07T11:43:29+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -825,7 +825,7 @@
         "EffectiveDate": "2025-05-06T11:40:09+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:24:47+02:00",
+        "ModificationDate": "2026-07-10T10:54:41+02:00",
         "Subject": [
             "Cropping Patterns"
         ],
@@ -924,7 +924,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/bsa_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:24:47+00:00",
+        "modified": "2026-07-10T08:54:41+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -1097,7 +1097,7 @@
         "EffectiveDate": "2025-05-06T15:09:43+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-01T13:35:58+02:00",
+        "ModificationDate": "2026-07-07T13:42:36+02:00",
         "Subject": [
             "Dominant Leaf Type"
         ],
@@ -1196,7 +1196,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/coniferous_europe_100m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-01T11:35:58+00:00",
+        "modified": "2026-07-07T11:42:36+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -1760,6 +1760,142 @@
         "version": null
     },
     {
+        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2017-present-raster-10m-europe-yearly",
+        "@type": "DataSet",
+        "CreationDate": "2025-02-19T15:27:40+02:00",
+        "Creator": "ischueug",
+        "Date": "2025-05-06T11:40:05+02:00",
+        "Description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the period from the 2017 reference year onwards.  ",
+        "EffectiveDate": "2025-05-06T11:40:05+02:00",
+        "ExpirationDate": "None",
+        "Language": "",
+        "ModificationDate": "2026-07-07T13:10:02+02:00",
+        "Subject": [
+            "Cropping Patterns"
+        ],
+        "Title": "Main Crop Emergence 2017-present (raster 10 m), Europe, yearly",
+        "TranslationGroup": "8a07bb0989cf47a2aab54b1bececf58d",
+        "Type": "DataSet",
+        "UID": "325ff9b20fd648cbaee5cd4258f54604",
+        "author_name": null,
+        "cmf_uid": 2277,
+        "commentators": [],
+        "created": "2025-02-19T13:27:40+00:00",
+        "description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the period from the 2017 reference year onwards.  ",
+        "downloadable_dataset": true,
+        "effective": "2025-05-06T09:40:05+00:00",
+        "end": null,
+        "exclude_from_nav": false,
+        "expires": "2499-12-30T22:00:00+00:00",
+        "getIcon": true,
+        "getId": "main-crop-emergence-2017-present-raster-10m-europe-yearly",
+        "getObjSize": "55.9 KB",
+        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-emergence-2017-present-raster-10m-europe-yearly",
+        "getRemoteUrl": null,
+        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2017-present-raster-10m-europe-yearly",
+        "hasPreviewImage": null,
+        "head_title": null,
+        "id": "main-crop-emergence-2017-present-raster-10m-europe-yearly",
+        "image_field": "image",
+        "image_scales": {
+            "image": [
+                {
+                    "content-type": "image/png",
+                    "download": "@@images/image-400-b65cb25f75cf95f9584a597a230f609e.png",
+                    "filename": "CPMCE2021.png",
+                    "height": 400,
+                    "scales": {
+                        "big": {
+                            "download": "@@images/image-80-4fb130053dd81e055fab5314532c752b.png",
+                            "height": 80,
+                            "width": 80
+                        },
+                        "icon": {
+                            "download": "@@images/image-32-60f63f27ac339e95805a16f1e74c2d19.png",
+                            "height": 32,
+                            "width": 32
+                        },
+                        "medium": {
+                            "download": "@@images/image-60-7a9fd82b4dda654a6009fce54eefd81c.png",
+                            "height": 60,
+                            "width": 60
+                        },
+                        "mini": {
+                            "download": "@@images/image-200-e36e6d5f19be9d127999d11de6a76a93.png",
+                            "height": 200,
+                            "width": 200
+                        },
+                        "preview": {
+                            "download": "@@images/image-400-918039ab8447512485cf4d8b67777586.png",
+                            "height": 400,
+                            "width": 400
+                        },
+                        "small": {
+                            "download": "@@images/image-48-63e72224fead380d9fe382b005b0c933.png",
+                            "height": 48,
+                            "width": 48
+                        },
+                        "thumb": {
+                            "download": "@@images/image-128-ac59f86117bcddf667f77f452edd3a77.png",
+                            "height": 128,
+                            "width": 128
+                        },
+                        "tile": {
+                            "download": "@@images/image-64-6d8eb24ceda203fe9da284c087bd15d4.png",
+                            "height": 64,
+                            "width": 64
+                        },
+                        "tiny": {
+                            "download": "@@images/image-24-a34395b1a12c2b2f6c464ca3b6bae9f8.png",
+                            "height": 24,
+                            "width": 24
+                        }
+                    },
+                    "size": 52449,
+                    "width": 400
+                }
+            ]
+        },
+        "in_response_to": null,
+        "is_folderish": true,
+        "last_comment_date": null,
+        "latitude": null,
+        "listCreators": [
+            "ischueug"
+        ],
+        "location": null,
+        "longitude": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mce_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
+        "meta_type": "Dexterity Container",
+        "mime_type": "text/plain",
+        "modified": "2026-07-07T11:10:02+00:00",
+        "nav_title": null,
+        "ondemand": null,
+        "portal_type": "DataSet",
+        "procurement_no": null,
+        "publication_date": null,
+        "review_state": "published",
+        "start": null,
+        "submission_deadline": null,
+        "sync_uid": null,
+        "taxonomy_family": [],
+        "taxonomy_faqcategories": [],
+        "taxonomy_technical_library_categorization": [],
+        "taxonomy_use_case_spatial_coverage": [],
+        "taxonomy_user_profile_affiliation": [],
+        "taxonomy_user_profile_country": [],
+        "taxonomy_user_profile_sector_of_activity": [],
+        "taxonomy_user_profile_thematic_activity": [],
+        "taxonomy_userprofileinstitutionaldomain": [],
+        "taxonomy_userprofileproductuseintention": [],
+        "taxonomy_userprofileprofessionalthematicdomain": [],
+        "title": "Main Crop Emergence 2017-present (raster 10 m), Europe, yearly",
+        "total_comments": 0,
+        "type_title": "DataSet",
+        "url": null,
+        "version": null
+    },
+    {
         "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-grasslands/ploughing-indicator-2017-present-raster-10-m-europe-yearly",
         "@type": "DataSet",
         "CreationDate": "2025-02-28T10:57:05+02:00",
@@ -1769,7 +1905,7 @@
         "EffectiveDate": "2025-05-06T14:45:40+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-06-22T11:02:50+02:00",
+        "ModificationDate": "2026-07-08T12:00:21+02:00",
         "Subject": [
             "Grassland and Herbaceous"
         ],
@@ -1868,7 +2004,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/plough_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-06-22T09:02:50+00:00",
+        "modified": "2026-07-08T10:00:21+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -1905,7 +2041,7 @@
         "EffectiveDate": "2025-05-06T15:09:40+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-06-23T08:22:45+02:00",
+        "ModificationDate": "2026-07-07T13:54:12+02:00",
         "Subject": [
             "Tree Cover Density"
         ],
@@ -2004,7 +2140,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/tcd_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-06-23T06:22:45+00:00",
+        "modified": "2026-07-07T11:54:12+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -2041,7 +2177,7 @@
         "EffectiveDate": "2025-05-06T15:09:48+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:35:03+02:00",
+        "ModificationDate": "2026-07-07T13:51:01+02:00",
         "Subject": [
             "Forest Type"
         ],
@@ -2140,7 +2276,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fty_europe_100m_3yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:35:03+00:00",
+        "modified": "2026-07-07T11:51:01+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -2177,7 +2313,7 @@
         "EffectiveDate": "2025-05-06T15:09:43+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-01T13:31:37+02:00",
+        "ModificationDate": "2026-07-07T13:41:31+02:00",
         "Subject": [
             "Dominant Leaf Type"
         ],
@@ -2276,7 +2412,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/broadleaved_europe_100m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-01T11:31:37+00:00",
+        "modified": "2026-07-07T11:41:31+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -2313,7 +2449,7 @@
         "EffectiveDate": "2025-05-06T14:45:35+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:41:50+02:00",
+        "ModificationDate": "2026-07-10T12:29:34+02:00",
         "Subject": [
             "Grassland Mowing Events"
         ],
@@ -2412,7 +2548,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/grame_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:41:50+00:00",
+        "modified": "2026-07-10T10:29:34+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -2580,7 +2716,7 @@
         "EffectiveDate": "2025-05-06T14:45:34+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:43:22+02:00",
+        "ModificationDate": "2026-07-08T11:58:13+02:00",
         "Subject": [
             "Grassland and Herbaceous"
         ],
@@ -2679,7 +2815,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/her_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:43:22+00:00",
+        "modified": "2026-07-08T09:58:13+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -2843,6 +2979,142 @@
         "version": null
     },
     {
+        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2017-present-raster-10-m-europe-yearly",
+        "@type": "DataSet",
+        "CreationDate": "2025-02-19T15:23:08+02:00",
+        "Creator": "ischueug",
+        "Date": "2025-05-06T11:40:40+02:00",
+        "Description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the period from the 2017 reference year onwards.",
+        "EffectiveDate": "2025-05-06T11:40:40+02:00",
+        "ExpirationDate": "None",
+        "Language": "",
+        "ModificationDate": "2026-07-07T14:25:46+02:00",
+        "Subject": [
+            "Cropping Patterns"
+        ],
+        "Title": "Main Crop Harvest 2017-present (raster 10 m), Europe, yearly",
+        "TranslationGroup": "90a121ca52a8465187ae0ffa30b6d864",
+        "Type": "DataSet",
+        "UID": "461193fa864d4a6d92de66be9111a4f5",
+        "author_name": null,
+        "cmf_uid": 2275,
+        "commentators": [],
+        "created": "2025-02-19T13:23:08+00:00",
+        "description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the period from the 2017 reference year onwards.",
+        "downloadable_dataset": true,
+        "effective": "2025-05-06T09:40:40+00:00",
+        "end": null,
+        "exclude_from_nav": false,
+        "expires": "2499-12-30T22:00:00+00:00",
+        "getIcon": true,
+        "getId": "main-crop-harvest-2017-present-raster-10-m-europe-yearly",
+        "getObjSize": "46.5 KB",
+        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-harvest-2017-present-raster-10-m-europe-yearly",
+        "getRemoteUrl": null,
+        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2017-present-raster-10-m-europe-yearly",
+        "hasPreviewImage": null,
+        "head_title": null,
+        "id": "main-crop-harvest-2017-present-raster-10-m-europe-yearly",
+        "image_field": "image",
+        "image_scales": {
+            "image": [
+                {
+                    "content-type": "image/png",
+                    "download": "@@images/image-400-61892fcecfce6b114372b0ba9cfc53b9.png",
+                    "filename": "CPMCH2021.png",
+                    "height": 400,
+                    "scales": {
+                        "big": {
+                            "download": "@@images/image-80-3a35ad4a3b4d4fa7dc70a5220e448ae2.png",
+                            "height": 80,
+                            "width": 80
+                        },
+                        "icon": {
+                            "download": "@@images/image-32-a2295485257449624e8a88ce9bdc2987.png",
+                            "height": 32,
+                            "width": 32
+                        },
+                        "medium": {
+                            "download": "@@images/image-60-a0dd1403408a377ec831796ebd5406b4.png",
+                            "height": 60,
+                            "width": 60
+                        },
+                        "mini": {
+                            "download": "@@images/image-200-24df51e4b31e0984f6f7ecef30dffe43.png",
+                            "height": 200,
+                            "width": 200
+                        },
+                        "preview": {
+                            "download": "@@images/image-400-27adb9b1179b88adcd970ab0ae9a9386.png",
+                            "height": 400,
+                            "width": 400
+                        },
+                        "small": {
+                            "download": "@@images/image-48-d5da861aea926bf068172eefa636211d.png",
+                            "height": 48,
+                            "width": 48
+                        },
+                        "thumb": {
+                            "download": "@@images/image-128-cbf1b2c55290af2569fb2dea97aaae64.png",
+                            "height": 128,
+                            "width": 128
+                        },
+                        "tile": {
+                            "download": "@@images/image-64-01e593c1f581a4bc353e9a7dfd3014d0.png",
+                            "height": 64,
+                            "width": 64
+                        },
+                        "tiny": {
+                            "download": "@@images/image-24-7dc0e9ba931ba1f9e9d183f4707d2b14.png",
+                            "height": 24,
+                            "width": 24
+                        }
+                    },
+                    "size": 42889,
+                    "width": 400
+                }
+            ]
+        },
+        "in_response_to": null,
+        "is_folderish": true,
+        "last_comment_date": null,
+        "latitude": null,
+        "listCreators": [
+            "ischueug"
+        ],
+        "location": null,
+        "longitude": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mch_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
+        "meta_type": "Dexterity Container",
+        "mime_type": "text/plain",
+        "modified": "2026-07-07T12:25:46+00:00",
+        "nav_title": null,
+        "ondemand": null,
+        "portal_type": "DataSet",
+        "procurement_no": null,
+        "publication_date": null,
+        "review_state": "published",
+        "start": null,
+        "submission_deadline": null,
+        "sync_uid": null,
+        "taxonomy_family": [],
+        "taxonomy_faqcategories": [],
+        "taxonomy_technical_library_categorization": [],
+        "taxonomy_use_case_spatial_coverage": [],
+        "taxonomy_user_profile_affiliation": [],
+        "taxonomy_user_profile_country": [],
+        "taxonomy_user_profile_sector_of_activity": [],
+        "taxonomy_user_profile_thematic_activity": [],
+        "taxonomy_userprofileinstitutionaldomain": [],
+        "taxonomy_userprofileproductuseintention": [],
+        "taxonomy_userprofileprofessionalthematicdomain": [],
+        "title": "Main Crop Harvest 2017-present (raster 10 m), Europe, yearly",
+        "total_comments": 0,
+        "type_title": "DataSet",
+        "url": null,
+        "version": null
+    },
+    {
         "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-grasslands/grassland-2017-present-raster-100-m-europe-yearly",
         "@type": "DataSet",
         "CreationDate": "2025-02-27T11:42:33+02:00",
@@ -2988,7 +3260,7 @@
         "EffectiveDate": "2025-05-06T15:09:48+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:35:34+02:00",
+        "ModificationDate": "2026-07-07T13:51:40+02:00",
         "Subject": [
             "Forest Type"
         ],
@@ -3087,7 +3359,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fty_europe_10m_3yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:35:34+00:00",
+        "modified": "2026-07-07T11:51:40+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -3260,7 +3532,7 @@
         "EffectiveDate": "2025-05-06T11:40:14+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:56:51+02:00",
+        "ModificationDate": "2026-07-08T11:34:41+02:00",
         "Subject": [
             "Cropping Patterns"
         ],
@@ -3359,7 +3631,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/cst_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:56:51+00:00",
+        "modified": "2026-07-08T09:34:41+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -3817,278 +4089,6 @@
         "taxonomy_userprofileproductuseintention": [],
         "taxonomy_userprofileprofessionalthematicdomain": [],
         "title": "Water and Ice Cover 2016-present (raster 20 m, 60 m), Europe, daily",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2022-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:23:08+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:40+02:00",
-        "Description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2022 reference year.",
-        "EffectiveDate": "2025-05-06T11:40:40+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:28:31+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Harvest 2022 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "c5919a0930fd45d09e3c47495a0624b3",
-        "Type": "DataSet",
-        "UID": "b2632a7aa68a4b14a52ad4ef44a3dc60",
-        "author_name": null,
-        "cmf_uid": 1894,
-        "commentators": [],
-        "created": "2025-02-19T13:23:08+00:00",
-        "description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2022 reference year.",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:40+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-harvest-2022-raster-10-m-europe-yearly",
-        "getObjSize": "47.0 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-harvest-2022-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2022-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-harvest-2022-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-61892fcecfce6b114372b0ba9cfc53b9.png",
-                    "filename": "CPMCH2021.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-3a35ad4a3b4d4fa7dc70a5220e448ae2.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-a2295485257449624e8a88ce9bdc2987.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-a0dd1403408a377ec831796ebd5406b4.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-24df51e4b31e0984f6f7ecef30dffe43.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-27adb9b1179b88adcd970ab0ae9a9386.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-d5da861aea926bf068172eefa636211d.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-cbf1b2c55290af2569fb2dea97aaae64.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-01e593c1f581a4bc353e9a7dfd3014d0.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-7dc0e9ba931ba1f9e9d183f4707d2b14.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 42889,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mch_europe_10m_yearly_2022?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:28:31+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Harvest 2022 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2022-raster-10m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:27:40+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:05+02:00",
-        "Description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2022 reference year.  ",
-        "EffectiveDate": "2025-05-06T11:40:05+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:19:41+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Emergence 2022 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "64ff8351a4244f1b8f11da59c2d361dc",
-        "Type": "DataSet",
-        "UID": "858d2a72797b492aa480677a43fdcc15",
-        "author_name": null,
-        "cmf_uid": 1895,
-        "commentators": [],
-        "created": "2025-02-19T13:27:40+00:00",
-        "description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2022 reference year.  ",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:05+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-emergence-2022-raster-10m-europe-yearly",
-        "getObjSize": "55.9 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-emergence-2022-raster-10m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2022-raster-10m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-emergence-2022-raster-10m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-b65cb25f75cf95f9584a597a230f609e.png",
-                    "filename": "CPMCE2021.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-4fb130053dd81e055fab5314532c752b.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-60f63f27ac339e95805a16f1e74c2d19.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-7a9fd82b4dda654a6009fce54eefd81c.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-e36e6d5f19be9d127999d11de6a76a93.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-918039ab8447512485cf4d8b67777586.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-63e72224fead380d9fe382b005b0c933.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-ac59f86117bcddf667f77f452edd3a77.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-6d8eb24ceda203fe9da284c087bd15d4.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-a34395b1a12c2b2f6c464ca3b6bae9f8.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 52449,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mce_europe_10m_yearly_2022?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:19:41+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Emergence 2022 (raster 10 m), Europe, yearly",
         "total_comments": 0,
         "type_title": "DataSet",
         "url": null,
@@ -5639,142 +5639,6 @@
         "version": null
     },
     {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2019-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:19:41+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:07+02:00",
-        "Description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2019 reference year.",
-        "EffectiveDate": "2025-05-06T11:40:07+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:25:40+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Harvest 2019 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "6464f391b9e94191b73090804b91a265",
-        "Type": "DataSet",
-        "UID": "4ffd87b5966844b0ac9504811a3d0de5",
-        "author_name": null,
-        "cmf_uid": 1568,
-        "commentators": [],
-        "created": "2025-02-19T13:19:41+00:00",
-        "description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2019 reference year.",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:07+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-harvest-2019-raster-10-m-europe-yearly",
-        "getObjSize": "46.8 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-harvest-2019-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2019-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-harvest-2019-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-ba477e142e09876f079b22b5555397c9.png",
-                    "filename": "CPMCH2019.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-3779cf5a2ab274a74dac9cf61a2d49b3.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-25ea18906332a579cc80f928bfd3fa8d.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-6642aa9b25bbc201b5e1643a46eaa727.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-a7625c462e62dee8ad32cda7ed19f8e5.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-fa194230097bdf1b31304a6cf9440f9e.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-e17c75b51f8cd522dacf1401f0129a4f.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-8603524d2b0a3d30c6615742e726b3b7.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-7e5dfca44312de8f4c2db905a45e477e.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-ac4c08ff1735384aec8d3313ae8c5829.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 42844,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mch_europe_10m_yearly_2019?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:25:40+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Harvest 2019 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
         "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-grasslands/grassland-change-2018-2021-raster-20-m-europe-3-yearly",
         "@type": "DataSet",
         "CreationDate": "2025-02-28T11:05:04+02:00",
@@ -5920,7 +5784,7 @@
         "EffectiveDate": "2025-05-06T11:40:08+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:58:35+02:00",
+        "ModificationDate": "2026-07-08T11:45:28+02:00",
         "Subject": [
             "Cropping Patterns"
         ],
@@ -6019,7 +5883,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fld_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:58:35+00:00",
+        "modified": "2026-07-08T09:45:28+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -6041,686 +5905,6 @@
         "taxonomy_userprofileproductuseintention": [],
         "taxonomy_userprofileprofessionalthematicdomain": [],
         "title": "Fallow Land Duration 2017-2021 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2021-raster-10-m-europe-3-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-28T11:50:27+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T15:09:39+02:00",
-        "Description": "Provides auxiliary information in the spatial resolution of 10 m on the trees in agricultural use and urban context, used for production of the Forest Type dataset for the 2021 reference year. Data is sourced from Corine Land Cover and High Resolution Layer Imperviousness. ",
-        "EffectiveDate": "2025-05-06T15:09:39+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-06-17T13:24:43+02:00",
-        "Subject": [
-            "Forest Type"
-        ],
-        "Title": "Forest Additional Support Layer 2021 (raster 10 m), Europe, 3-yearly",
-        "TranslationGroup": "9764441b6771470cb5dcbb4584427d13",
-        "Type": "DataSet",
-        "UID": "65218c08aefb44d3b2eb271b9a819138",
-        "author_name": null,
-        "cmf_uid": 1680,
-        "commentators": [],
-        "created": "2025-02-28T09:50:27+00:00",
-        "description": "Provides auxiliary information in the spatial resolution of 10 m on the trees in agricultural use and urban context, used for production of the Forest Type dataset for the 2021 reference year. Data is sourced from Corine Land Cover and High Resolution Layer Imperviousness. ",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T13:09:39+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "forest-additional-support-layer-2021-raster-10-m-europe-3-yearly",
-        "getObjSize": "29.1 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2021-raster-10-m-europe-3-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2021-raster-10-m-europe-3-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "forest-additional-support-layer-2021-raster-10-m-europe-3-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-2cd3d9c91515de0be8893385ed137864.png",
-                    "filename": "FADSL2021.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-800cad74ba99e8ce69130d49706546e0.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-0e1d8a802e87ea9437a269666da26f61.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-6a8050c3faec77c3efbbc68239e1177d.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-988ef58124e9c9f7a5915241a814b1b3.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-e7b855df08f789beaee63eb9ebd0ee25.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-b208e385bf4c8554c98c9b5f5bc9f9a2.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-624412859b06ee6e90257c1a2256b17f.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-b4e6c4ff69ed66d4fced76c1bd7b9c41.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-f2d7ec2c659c5ace102c19e3b1500db1.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 24798,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fadsl_europe_10m_3yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-06-17T11:24:43+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Forest Additional Support Layer 2021 (raster 10 m), Europe, 3-yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2018-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:04:52+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:05+02:00",
-        "Description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2018 reference year.",
-        "EffectiveDate": "2025-05-06T11:40:05+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:24:28+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Harvest 2018 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "3c9d760970884401a787480185128637",
-        "Type": "DataSet",
-        "UID": "35c8d471131b4a4189097371c261893e",
-        "author_name": null,
-        "cmf_uid": 1567,
-        "commentators": [],
-        "created": "2025-02-19T13:04:52+00:00",
-        "description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2018 reference year.",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:05+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-harvest-2018-raster-10-m-europe-yearly",
-        "getObjSize": "49.1 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-harvest-2018-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2018-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-harvest-2018-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-f64047816c98f23d2846976bf906e06c.png",
-                    "filename": "CPMCH2018.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-12e0504c0dc48e03b410c27383b57f06.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-553c4d19040f6d91877e8beb0f7b9c19.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-6573b44667fa498054f16d946654eb46.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-0d3194a49b6529c03f765ddc60444f63.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-a8ae2e2f9bd8289045fb09d197ba6f44.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-29251d332327f538c60186e421ac9b2b.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-c28c4eea16b48257a276e6ab4ba34149.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-6b1dbd370cd964d2983e28738dbab8fc.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-66c87c68375798add01cd87ed6dff046.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 45274,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mch_europe_10m_yearly_2018?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:24:28+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Harvest 2018 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2020-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:21:15+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:09+02:00",
-        "Description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2020 reference year.",
-        "EffectiveDate": "2025-05-06T11:40:09+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:26:33+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Harvest 2020 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "dddb7c1fe70946c58291b3d4093fd24b",
-        "Type": "DataSet",
-        "UID": "a3e37316a2ae4dafbee1823648b6da46",
-        "author_name": null,
-        "cmf_uid": 1569,
-        "commentators": [],
-        "created": "2025-02-19T13:21:15+00:00",
-        "description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2020 reference year.",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:09+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-harvest-2020-raster-10-m-europe-yearly",
-        "getObjSize": "47.5 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-harvest-2020-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2020-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-harvest-2020-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-84d3b66daf6135664e449b4b9b42941a.png",
-                    "filename": "CPMCH2020.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-32341cc8bef10888b45c387ed28100db.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-f8338cc03a258f972ebd29a9d31b65fd.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-97ea90aae9e3d300a3492bac1b2f3f0c.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-66e0e36b667ccbf558ebc09232c4dfad.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-b49ae1cf7e755105350db1ce5bef29cb.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-ff3676e8d57d000321c0347b8421e622.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-03757bca52d01f911ee24dff54147c40.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-a5198f07e1d37a20c74f93527308d762.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-3ce8bce3f6a16e58dc48266d1b607435.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 43649,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mch_europe_10m_yearly_2020?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:26:33+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Harvest 2020 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2018-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:43:30+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:05+02:00",
-        "Description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2018 reference year.  ",
-        "EffectiveDate": "2025-05-06T11:40:05+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:15:07+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Emergence 2018 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "b40f4e6875674179abdd102c91d9c5d8",
-        "Type": "DataSet",
-        "UID": "45243570a8cf4583ad3caf56d9e3bb57",
-        "author_name": null,
-        "cmf_uid": 1575,
-        "commentators": [],
-        "created": "2025-02-19T13:43:30+00:00",
-        "description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2018 reference year.  ",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:05+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-emergence-2018-raster-10-m-europe-yearly",
-        "getObjSize": "58.3 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-emergence-2018-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2018-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-emergence-2018-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-1fd7d150d0bb1a616425ca72c3e65fac.png",
-                    "filename": "CPMCE2018.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-1bacce463fc04fb42449f724b836face.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-8302277de4a439a787a0ea292f3cda50.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-55c0c9949f57f4adc8523c0c17172e37.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-c58a7a4f49d3fc8df3678dbcebb5040b.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-258a85199fe3ea2ae5e6cb30e38d0db1.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-bda00afbad06725cb8c2afef3c9953fb.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-22782365dc8e544ee4646ff4c7ba8eeb.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-f08ecbb7da2c823d8cecc2f16837b11b.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-63a13611f4b955a246d9b42032b497d2.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 54621,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mce_europe_10m_yearly_2018?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:15:07+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Emergence 2018 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2017-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:44:58+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:08+02:00",
-        "Description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2017 reference year.  ",
-        "EffectiveDate": "2025-05-06T11:40:08+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:14:06+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Emergence 2017 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "c378d1e07bd041caa62f459c85cf5f22",
-        "Type": "DataSet",
-        "UID": "596bb21956f54227a65b4982bf899832",
-        "author_name": null,
-        "cmf_uid": 1576,
-        "commentators": [],
-        "created": "2025-02-19T13:44:58+00:00",
-        "description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2017 reference year.  ",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:08+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-emergence-2017-raster-10-m-europe-yearly",
-        "getObjSize": "56.5 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-emergence-2017-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2017-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-emergence-2017-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-a42ba0511fff2b277c0a50ea7eb8e613.png",
-                    "filename": "CPMCE2017.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-d73f25d939fa0224a082b29a42cd749d.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-10a7ef001b7057226f17a2c9233bebbf.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-57b3a094bcacffbcaf10b5a6dc86cbbb.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-19b5dbda07144611d9480c4777cd4c6b.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-fa7f17a80359b3d42be4b552493a9167.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-c992469b1d42f12258b728b503fe38fa.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-63d8ca08eb1b3a990354ac74734b8288.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-b7619f6030a009f993663d29169dc47b.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-a302f81049bf5380c87de60b90b9ac22.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 52781,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mce_europe_10m_yearly_2017?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:14:06+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Emergence 2017 (raster 10 m), Europe, yearly",
         "total_comments": 0,
         "type_title": "DataSet",
         "url": null,
@@ -6872,7 +6056,7 @@
         "EffectiveDate": "2025-05-06T15:09:40+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:32:16+02:00",
+        "ModificationDate": "2026-07-07T13:44:25+02:00",
         "Subject": [
             "Dominant Leaf Type"
         ],
@@ -6971,7 +6155,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/dlt_cha_europe_20m_3yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:32:16+00:00",
+        "modified": "2026-07-07T11:44:25+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -6993,414 +6177,6 @@
         "taxonomy_userprofileproductuseintention": [],
         "taxonomy_userprofileprofessionalthematicdomain": [],
         "title": "Dominant Leaf Type Change 2018-2021 (raster 20 m), Europe, 3-yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2017-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:01:56+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:07+02:00",
-        "Description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2017 reference year.",
-        "EffectiveDate": "2025-05-06T11:40:07+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:23:50+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Harvest 2017 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "8e94a921571b4a3b9d78e5fd01e2ffd1",
-        "Type": "DataSet",
-        "UID": "9a52b4ef315c42fe9c427c524de5a24a",
-        "author_name": null,
-        "cmf_uid": 1566,
-        "commentators": [],
-        "created": "2025-02-19T13:01:56+00:00",
-        "description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2017 reference year.",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:07+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-harvest-2017-raster-10-m-europe-yearly",
-        "getObjSize": "46.6 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-harvest-2017-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2017-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-harvest-2017-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-587e3bc76749ee6cb3814ec587e6e984.png",
-                    "filename": "CPMCH2017.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-475e45d1920a8a021876049cb215acbe.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-eb0c7e4ca6dfb0dfe268bfae4d65e075.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-8a8e2dc156f58619185086e4a0bf0c9e.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-f33b9e2ab921f75dd21d061378bbd72c.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-88b8320d2273a714e93ab923b7b727d9.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-3a1e99e43c0610b0ebea8246d52ea878.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-d588c769c9780894d9d9a424797f7f17.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-c42d84f42d4b311034cdedb311936bb2.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-75964c105b7a99beeda521818cfa4f76.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 42670,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mch_europe_10m_yearly_2017?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:23:50+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Harvest 2017 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2021-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:23:08+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:40+02:00",
-        "Description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2021 reference year.",
-        "EffectiveDate": "2025-05-06T11:40:40+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:27:37+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Harvest 2021 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "67528aa2cc5f46c78097348b52d51eac",
-        "Type": "DataSet",
-        "UID": "ad67c624a58640338e9d9037bf2e4ca6",
-        "author_name": null,
-        "cmf_uid": 1570,
-        "commentators": [],
-        "created": "2025-02-19T13:23:08+00:00",
-        "description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2021 reference year.",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:40+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-harvest-2021-raster-10-m-europe-yearly",
-        "getObjSize": "46.8 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-harvest-2021-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2021-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-harvest-2021-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-61892fcecfce6b114372b0ba9cfc53b9.png",
-                    "filename": "CPMCH2021.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-3a35ad4a3b4d4fa7dc70a5220e448ae2.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-a2295485257449624e8a88ce9bdc2987.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-a0dd1403408a377ec831796ebd5406b4.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-24df51e4b31e0984f6f7ecef30dffe43.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-27adb9b1179b88adcd970ab0ae9a9386.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-d5da861aea926bf068172eefa636211d.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-cbf1b2c55290af2569fb2dea97aaae64.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-01e593c1f581a4bc353e9a7dfd3014d0.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-7dc0e9ba931ba1f9e9d183f4707d2b14.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 42889,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mch_europe_10m_yearly_2021?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:27:37+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Harvest 2021 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2021-raster-10m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:27:40+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:05+02:00",
-        "Description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2021 reference year.  ",
-        "EffectiveDate": "2025-05-06T11:40:05+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:18:21+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Emergence 2021 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "0e92066105fa45f9a83e58a1a06c696c",
-        "Type": "DataSet",
-        "UID": "a0fd5a9c16784f9d9d4849cc0febabd8",
-        "author_name": null,
-        "cmf_uid": 1571,
-        "commentators": [],
-        "created": "2025-02-19T13:27:40+00:00",
-        "description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2021 reference year.  ",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:05+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-emergence-2021-raster-10m-europe-yearly",
-        "getObjSize": "55.7 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-emergence-2021-raster-10m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2021-raster-10m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-emergence-2021-raster-10m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-b65cb25f75cf95f9584a597a230f609e.png",
-                    "filename": "CPMCE2021.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-4fb130053dd81e055fab5314532c752b.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-60f63f27ac339e95805a16f1e74c2d19.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-7a9fd82b4dda654a6009fce54eefd81c.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-e36e6d5f19be9d127999d11de6a76a93.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-918039ab8447512485cf4d8b67777586.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-63e72224fead380d9fe382b005b0c933.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-ac59f86117bcddf667f77f452edd3a77.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-6d8eb24ceda203fe9da284c087bd15d4.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-a34395b1a12c2b2f6c464ca3b6bae9f8.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 52449,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mce_europe_10m_yearly_2021?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:18:21+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Emergence 2021 (raster 10 m), Europe, yearly",
         "total_comments": 0,
         "type_title": "DataSet",
         "url": null,
@@ -7543,142 +6319,6 @@
         "version": null
     },
     {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2019-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:41:56+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:08+02:00",
-        "Description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2019 reference year.",
-        "EffectiveDate": "2025-05-06T11:40:08+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:16:20+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Emergence 2019 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "fedbe0b76f814b4381fc44382bfcc6b0",
-        "Type": "DataSet",
-        "UID": "cfedb3c3099b4d0fb8a2bda21b7105bc",
-        "author_name": null,
-        "cmf_uid": 1574,
-        "commentators": [],
-        "created": "2025-02-19T13:41:56+00:00",
-        "description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2019 reference year.",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:08+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-emergence-2019-raster-10-m-europe-yearly",
-        "getObjSize": "55.2 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-emergence-2019-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2019-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-emergence-2019-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-334492eea11194e673a5e968c6a0f642.png",
-                    "filename": "CPMCE2019.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-83be1580aef93b51c09646f24fe61134.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-de05903653e2029e9e9f6ea9a5d12fff.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-e2f2a2a9a85aaea12f5c5b1636ace6ab.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-9b18a8d1b22ae90dbce2dd9691782583.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-fb050e1f38192820992c5d4d72fb1a3b.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-d4b74f35e5586297ef54544d0ed5d4ba.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-4ca12837a332297ac485d0a314a6dfb9.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-79b1f5a43d1521e9e4cd2c5bd856bad7.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-d6bf9553535fb5afe6da5bafd1bd19e1.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 51455,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mce_europe_10m_yearly_2019?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:16:20+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Emergence 2019 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
         "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-presence-change-2018-2021-raster-20-m-europe-3-yearly",
         "@type": "DataSet",
         "CreationDate": "2025-02-28T12:00:58+02:00",
@@ -7688,7 +6328,7 @@
         "EffectiveDate": "2025-05-06T15:09:41+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-06-26T09:46:24+02:00",
+        "ModificationDate": "2026-07-07T13:57:41+02:00",
         "Subject": [
             "Tree Cover Density"
         ],
@@ -7787,7 +6427,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/tc_cha_europe_20m_3yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-06-26T07:46:24+00:00",
+        "modified": "2026-07-07T11:57:41+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -8778,7 +7418,7 @@
         "EffectiveDate": "2025-05-06T14:45:33+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T14:37:04+02:00",
+        "ModificationDate": "2026-07-06T11:48:30+02:00",
         "Subject": [
             "Grassland and Herbaceous"
         ],
@@ -8877,7 +7517,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/gra_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:37:04+00:00",
+        "modified": "2026-07-06T09:48:30+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -8914,7 +7554,7 @@
         "EffectiveDate": "2025-05-06T15:09:40+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-06-15T14:31:34+02:00",
+        "ModificationDate": "2026-07-07T13:56:14+02:00",
         "Subject": [
             "Tree Cover Density"
         ],
@@ -9013,7 +7653,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/tcd_europe_100m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-06-15T12:31:34+00:00",
+        "modified": "2026-07-07T11:56:14+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -9843,6 +8483,142 @@
         "taxonomy_userprofileproductuseintention": [],
         "taxonomy_userprofileprofessionalthematicdomain": [],
         "title": "Lake Water Quality 2024-present (raster 100 m), global, 10-daily \u2013 version 2",
+        "total_comments": 0,
+        "type_title": "DataSet",
+        "url": null,
+        "version": null
+    },
+    {
+        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2018-present-raster-10-m-europe-3-yearly",
+        "@type": "DataSet",
+        "CreationDate": "2025-02-28T11:50:27+02:00",
+        "Creator": "ischueug",
+        "Date": "2025-05-06T15:09:41+02:00",
+        "Description": "Provides auxiliary information in the spatial resolution of 10 m on the trees in agricultural use and urban context, used for production of the Forest Type dataset for the period from the 2018 reference year onwards. Data is sourced from Corine Land Cover and High Resolution Layer Imperviousness. ",
+        "EffectiveDate": "2025-05-06T15:09:41+02:00",
+        "ExpirationDate": "None",
+        "Language": "",
+        "ModificationDate": "2026-07-08T11:47:09+02:00",
+        "Subject": [
+            "Forest Type"
+        ],
+        "Title": "Forest Additional Support Layer 2018-present (raster 10 m), Europe, 3-yearly",
+        "TranslationGroup": "0d8661a6c65f44b0a71ec1a26da1cebb",
+        "Type": "DataSet",
+        "UID": "e087f7ac40614b29a576bf2b4756479b",
+        "author_name": null,
+        "cmf_uid": 2263,
+        "commentators": [],
+        "created": "2025-02-28T09:50:27+00:00",
+        "description": "Provides auxiliary information in the spatial resolution of 10 m on the trees in agricultural use and urban context, used for production of the Forest Type dataset for the period from the 2018 reference year onwards. Data is sourced from Corine Land Cover and High Resolution Layer Imperviousness. ",
+        "downloadable_dataset": true,
+        "effective": "2025-05-06T13:09:41+00:00",
+        "end": null,
+        "exclude_from_nav": false,
+        "expires": "2499-12-30T22:00:00+00:00",
+        "getIcon": true,
+        "getId": "forest-additional-support-layer-2018-present-raster-10-m-europe-3-yearly",
+        "getObjSize": "28.8 KB",
+        "getPath": "/Plone/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2018-present-raster-10-m-europe-3-yearly",
+        "getRemoteUrl": null,
+        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2018-present-raster-10-m-europe-3-yearly",
+        "hasPreviewImage": null,
+        "head_title": null,
+        "id": "forest-additional-support-layer-2018-present-raster-10-m-europe-3-yearly",
+        "image_field": "image",
+        "image_scales": {
+            "image": [
+                {
+                    "content-type": "image/png",
+                    "download": "@@images/image-400-93d4d14c84d8c220fa1296116f91d479.png",
+                    "filename": "FADSL2018.png",
+                    "height": 400,
+                    "scales": {
+                        "big": {
+                            "download": "@@images/image-80-579fbe1f3c30509e13152686655a1adb.png",
+                            "height": 80,
+                            "width": 80
+                        },
+                        "icon": {
+                            "download": "@@images/image-32-77b22daa5048d225e2f870441f4988c0.png",
+                            "height": 32,
+                            "width": 32
+                        },
+                        "medium": {
+                            "download": "@@images/image-60-ea9601e42dc4242768d6876a2247f24d.png",
+                            "height": 60,
+                            "width": 60
+                        },
+                        "mini": {
+                            "download": "@@images/image-200-df9dc7a2f3399760c19b6c745c796ce3.png",
+                            "height": 200,
+                            "width": 200
+                        },
+                        "preview": {
+                            "download": "@@images/image-400-5fce1e04288421e382f037e73c1cd223.png",
+                            "height": 400,
+                            "width": 400
+                        },
+                        "small": {
+                            "download": "@@images/image-48-5bd2244c49193c3f57e216057b3726d7.png",
+                            "height": 48,
+                            "width": 48
+                        },
+                        "thumb": {
+                            "download": "@@images/image-128-a491a12cb0d4e4d024c86382c44b0470.png",
+                            "height": 128,
+                            "width": 128
+                        },
+                        "tile": {
+                            "download": "@@images/image-64-0c579432458aec7e7ac8ba0cf8859f93.png",
+                            "height": 64,
+                            "width": 64
+                        },
+                        "tiny": {
+                            "download": "@@images/image-24-d3f755b03cbd23a3ef971e62ca1d9a98.png",
+                            "height": 24,
+                            "width": 24
+                        }
+                    },
+                    "size": 24604,
+                    "width": 400
+                }
+            ]
+        },
+        "in_response_to": null,
+        "is_folderish": true,
+        "last_comment_date": null,
+        "latitude": null,
+        "listCreators": [
+            "ischueug"
+        ],
+        "location": null,
+        "longitude": null,
+        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fadsl_europe_10m_3yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
+        "meta_type": "Dexterity Container",
+        "mime_type": "text/plain",
+        "modified": "2026-07-08T09:47:09+00:00",
+        "nav_title": null,
+        "ondemand": null,
+        "portal_type": "DataSet",
+        "procurement_no": null,
+        "publication_date": null,
+        "review_state": "published",
+        "start": null,
+        "submission_deadline": null,
+        "sync_uid": null,
+        "taxonomy_family": [],
+        "taxonomy_faqcategories": [],
+        "taxonomy_technical_library_categorization": [],
+        "taxonomy_use_case_spatial_coverage": [],
+        "taxonomy_user_profile_affiliation": [],
+        "taxonomy_user_profile_country": [],
+        "taxonomy_user_profile_sector_of_activity": [],
+        "taxonomy_user_profile_thematic_activity": [],
+        "taxonomy_userprofileinstitutionaldomain": [],
+        "taxonomy_userprofileproductuseintention": [],
+        "taxonomy_userprofileprofessionalthematicdomain": [],
+        "title": "Forest Additional Support Layer 2018-present (raster 10 m), Europe, 3-yearly",
         "total_comments": 0,
         "type_title": "DataSet",
         "url": null,
@@ -28711,278 +27487,6 @@
         "version": null
     },
     {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2020-raster-10m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:39:14+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:04+02:00",
-        "Description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2020 reference year.  ",
-        "EffectiveDate": "2025-05-06T11:40:04+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:17:16+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Emergence 2020 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "fc69a76403a3406882c577175f248796",
-        "Type": "DataSet",
-        "UID": "d12dd2e711814d7a8d63c8b29226b939",
-        "author_name": null,
-        "cmf_uid": 1573,
-        "commentators": [],
-        "created": "2025-02-19T13:39:14+00:00",
-        "description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2020 reference year.  ",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:04+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-emergence-2020-raster-10m-europe-yearly",
-        "getObjSize": "57.7 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-emergence-2020-raster-10m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2020-raster-10m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-emergence-2020-raster-10m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-af33162eab50acab60ada54f31103ab8.png",
-                    "filename": "CPMCE2020.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-e48babb99bac63e3c849640faab15662.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-c8c439c092cf2a27267b96cc96554f23.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-000c2fc3ea7f76fe4a012d7193f02724.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-f8eee39e7e1131b608545e0497f71a47.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-85ff072d1b94e5991d0955fd668e6904.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-cbdacb36e0bd74694ca003fcc7287869.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-fd5e2f2ab3e521dcdf8cd44e15f0a5b3.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-d2034a6bd8230fc8c05f24db07a54622.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-8a0a2a5fba5fbc0edb45b9492d28d723.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 53972,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mce_europe_10m_yearly_2020?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:17:16+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Emergence 2020 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2018-raster-10-m-europe-3-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-28T11:50:27+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T15:09:41+02:00",
-        "Description": "Provides auxiliary information in the spatial resolution of 10 m on the trees in agricultural use and urban context, used for production of the Forest Type dataset for the 2018 reference year. Data is sourced from Corine Land Cover and High Resolution Layer Imperviousness. ",
-        "EffectiveDate": "2025-05-06T15:09:41+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-06-26T09:46:17+02:00",
-        "Subject": [
-            "Forest Type"
-        ],
-        "Title": "Forest Additional Support Layer 2018 (raster 10 m), Europe, 3-yearly",
-        "TranslationGroup": "d6015ee84b0949c395bb914b9fa62148",
-        "Type": "DataSet",
-        "UID": "eb1411c0f85e46a4ac284056b2324472",
-        "author_name": null,
-        "cmf_uid": 1682,
-        "commentators": [],
-        "created": "2025-02-28T09:50:27+00:00",
-        "description": "Provides auxiliary information in the spatial resolution of 10 m on the trees in agricultural use and urban context, used for production of the Forest Type dataset for the 2018 reference year. Data is sourced from Corine Land Cover and High Resolution Layer Imperviousness. ",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T13:09:41+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "forest-additional-support-layer-2018-raster-10-m-europe-3-yearly",
-        "getObjSize": "29.0 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2018-raster-10-m-europe-3-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/forest-additional-support-layer-2018-raster-10-m-europe-3-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "forest-additional-support-layer-2018-raster-10-m-europe-3-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-93d4d14c84d8c220fa1296116f91d479.png",
-                    "filename": "FADSL2018.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-579fbe1f3c30509e13152686655a1adb.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-77b22daa5048d225e2f870441f4988c0.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-ea9601e42dc4242768d6876a2247f24d.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-df9dc7a2f3399760c19b6c745c796ce3.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-5fce1e04288421e382f037e73c1cd223.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-5bd2244c49193c3f57e216057b3726d7.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-a491a12cb0d4e4d024c86382c44b0470.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-0c579432458aec7e7ac8ba0cf8859f93.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-d3f755b03cbd23a3ef971e62ca1d9a98.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 24604,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/fadsl_europe_10m_3yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-06-26T07:46:17+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Forest Additional Support Layer 2018 (raster 10 m), Europe, 3-yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
         "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover/tree-cover-density-2015",
         "@type": "DataSet",
         "CreationDate": "2021-12-01T10:36:54+01:00",
@@ -31603,14 +30107,14 @@
     {
         "@id": "https://land.copernicus.eu/en/products/vegetation/land-surface-phenology-2014-present-raster-300m-global-yearly-version-2",
         "@type": "DataSet",
-        "CreationDate": "2024-04-16T14:18:45+01:00",
+        "CreationDate": "2024-04-16T15:18:45+02:00",
         "Creator": "n001znto",
-        "Date": "2024-05-23T10:41:47+01:00",
-        "Description": "Land Surface Phenology (LSP) describes vegetation changes observed from satellite remote sensing and constitutes therefore an aggregate signal from heterogeneous surface conditions that may not be representative of any single plant species response. LSP indicates the timing, date of occurrence, and corresponding value of the vegetation index used, of key phases of the vegetation development cycle. In particular, phenological metrics related to the start, end of growing season, length of the season and maximum development, seasonal total and partly integrals (as productivity parameters), as well as growth and senescence rated, intra-annual coefficient of variation, etc. are provided. Every year estimates are available at global scale in the spatial resolution of about 300 m from 2014 to the present.",
-        "EffectiveDate": "2024-05-23T10:41:47+01:00",
+        "Date": "2024-05-23T11:41:47+02:00",
+        "Description": "Describes vegetation changes observed from satellite remote sensing and constitutes therefore an aggregate signal from heterogeneous surface conditions that may not be representative of any single plant species response. LSP indicates the timing, date of occurrence, and corresponding value of the vegetation index used, of key phases of the vegetation development cycle. In particular, phenological metrics related to the start, end of growing season, length of the season and maximum development, seasonal total and partly integrals (as productivity parameters), as well as growth and senescence rated, intra-annual coefficient of variation, etc. are provided. Every year estimates are available at global scale in the spatial resolution of about 300 m from 2014 to the present.",
+        "EffectiveDate": "2024-05-23T11:41:47+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-03-06T16:03:21+01:00",
+        "ModificationDate": "2026-07-08T12:56:37+02:00",
         "Subject": [
             "Vegetation Phenology and Productivity Parameters"
         ],
@@ -31622,12 +30126,12 @@
         "cmf_uid": 1972,
         "commentators": [],
         "created": "2024-04-16T13:18:45+00:00",
-        "description": "Land Surface Phenology (LSP) describes vegetation changes observed from satellite remote sensing and constitutes therefore an aggregate signal from heterogeneous surface conditions that may not be representative of any single plant species response. LSP indicates the timing, date of occurrence, and corresponding value of the vegetation index used, of key phases of the vegetation development cycle. In particular, phenological metrics related to the start, end of growing season, length of the season and maximum development, seasonal total and partly integrals (as productivity parameters), as well as growth and senescence rated, intra-annual coefficient of variation, etc. are provided. Every year estimates are available at global scale in the spatial resolution of about 300 m from 2014 to the present.",
+        "description": "Describes vegetation changes observed from satellite remote sensing and constitutes therefore an aggregate signal from heterogeneous surface conditions that may not be representative of any single plant species response. LSP indicates the timing, date of occurrence, and corresponding value of the vegetation index used, of key phases of the vegetation development cycle. In particular, phenological metrics related to the start, end of growing season, length of the season and maximum development, seasonal total and partly integrals (as productivity parameters), as well as growth and senescence rated, intra-annual coefficient of variation, etc. are provided. Every year estimates are available at global scale in the spatial resolution of about 300 m from 2014 to the present.",
         "downloadable_dataset": true,
         "effective": "2024-05-23T09:41:47+00:00",
         "end": null,
         "exclude_from_nav": false,
-        "expires": "2499-12-30T23:00:00+00:00",
+        "expires": "2499-12-30T22:00:00+00:00",
         "getIcon": true,
         "getId": "land-surface-phenology-2014-present-raster-300m-global-yearly-version-2",
         "getObjSize": "370.3 KB",
@@ -31709,7 +30213,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/lsp_global_300m_yearly_v2?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-03-06T15:03:21+00:00",
+        "modified": "2026-07-08T10:56:37+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -32016,7 +30520,7 @@
         "EffectiveDate": "2018-04-19T09:35:00+02:00",
         "ExpirationDate": "None",
         "Language": "en",
-        "ModificationDate": "2026-07-03T14:10:41+02:00",
+        "ModificationDate": "2026-07-07T14:00:35+02:00",
         "Subject": [],
         "Title": "Urban Atlas Building Block Height 2021 (raster 10 m), Europe, 3-yearly",
         "TranslationGroup": "2dca118b35cb4812b1dd2da8e52c9771",
@@ -32113,7 +30617,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/UA_BBH_2021_10ml_3yearly_v1?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T12:10:41+00:00",
+        "modified": "2026-07-07T12:00:35+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -33891,278 +32395,6 @@
         "version": null
     },
     {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2023-raster-10-m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:23:08+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:40+02:00",
-        "Description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2023 reference year.",
-        "EffectiveDate": "2025-05-06T11:40:40+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:30:57+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Harvest 2023 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "73d41bce8a064cd6b9570a8f3098598e",
-        "Type": "DataSet",
-        "UID": "f52e9b2424f34917a38e5ca7cf41c528",
-        "author_name": null,
-        "cmf_uid": 1916,
-        "commentators": [],
-        "created": "2025-02-19T13:23:08+00:00",
-        "description": "Provides at pan-European level the harvest date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2023 reference year.",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:40+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-harvest-2023-raster-10-m-europe-yearly",
-        "getObjSize": "47.0 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-harvest-2023-raster-10-m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-harvest-2023-raster-10-m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-harvest-2023-raster-10-m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-61892fcecfce6b114372b0ba9cfc53b9.png",
-                    "filename": "CPMCH2021.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-3a35ad4a3b4d4fa7dc70a5220e448ae2.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-a2295485257449624e8a88ce9bdc2987.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-a0dd1403408a377ec831796ebd5406b4.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-24df51e4b31e0984f6f7ecef30dffe43.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-27adb9b1179b88adcd970ab0ae9a9386.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-d5da861aea926bf068172eefa636211d.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-cbf1b2c55290af2569fb2dea97aaae64.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-01e593c1f581a4bc353e9a7dfd3014d0.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-7dc0e9ba931ba1f9e9d183f4707d2b14.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 42889,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mch_europe_10m_yearly_2023?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:30:57+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Harvest 2023 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
-        "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2023-raster-10m-europe-yearly",
-        "@type": "DataSet",
-        "CreationDate": "2025-02-19T15:27:40+02:00",
-        "Creator": "ischueug",
-        "Date": "2025-05-06T11:40:05+02:00",
-        "Description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2023 reference year.  ",
-        "EffectiveDate": "2025-05-06T11:40:05+02:00",
-        "ExpirationDate": "None",
-        "Language": "",
-        "ModificationDate": "2026-07-03T13:20:37+02:00",
-        "Subject": [
-            "Cropping Patterns"
-        ],
-        "Title": "Main Crop Emergence 2023 (raster 10 m), Europe, yearly",
-        "TranslationGroup": "d5c563c6787c41fc9974aedf0847d2c2",
-        "Type": "DataSet",
-        "UID": "9bb3f1df8cb44b5e8184e378f6bad8b1",
-        "author_name": null,
-        "cmf_uid": 1917,
-        "commentators": [],
-        "created": "2025-02-19T13:27:40+00:00",
-        "description": "Provides at pan-European level the emergence date of the main growing season at a spatial resolution of 10 m and a MMU of 0.25 ha for the 2023 reference year.  ",
-        "downloadable_dataset": true,
-        "effective": "2025-05-06T09:40:05+00:00",
-        "end": null,
-        "exclude_from_nav": false,
-        "expires": "2499-12-30T22:00:00+00:00",
-        "getIcon": true,
-        "getId": "main-crop-emergence-2023-raster-10m-europe-yearly",
-        "getObjSize": "55.9 KB",
-        "getPath": "/Plone/en/products/high-resolution-layer-croplands/main-crop-emergence-2023-raster-10m-europe-yearly",
-        "getRemoteUrl": null,
-        "getURL": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands/main-crop-emergence-2023-raster-10m-europe-yearly",
-        "hasPreviewImage": null,
-        "head_title": null,
-        "id": "main-crop-emergence-2023-raster-10m-europe-yearly",
-        "image_field": "image",
-        "image_scales": {
-            "image": [
-                {
-                    "content-type": "image/png",
-                    "download": "@@images/image-400-b65cb25f75cf95f9584a597a230f609e.png",
-                    "filename": "CPMCE2021.png",
-                    "height": 400,
-                    "scales": {
-                        "big": {
-                            "download": "@@images/image-80-4fb130053dd81e055fab5314532c752b.png",
-                            "height": 80,
-                            "width": 80
-                        },
-                        "icon": {
-                            "download": "@@images/image-32-60f63f27ac339e95805a16f1e74c2d19.png",
-                            "height": 32,
-                            "width": 32
-                        },
-                        "medium": {
-                            "download": "@@images/image-60-7a9fd82b4dda654a6009fce54eefd81c.png",
-                            "height": 60,
-                            "width": 60
-                        },
-                        "mini": {
-                            "download": "@@images/image-200-e36e6d5f19be9d127999d11de6a76a93.png",
-                            "height": 200,
-                            "width": 200
-                        },
-                        "preview": {
-                            "download": "@@images/image-400-918039ab8447512485cf4d8b67777586.png",
-                            "height": 400,
-                            "width": 400
-                        },
-                        "small": {
-                            "download": "@@images/image-48-63e72224fead380d9fe382b005b0c933.png",
-                            "height": 48,
-                            "width": 48
-                        },
-                        "thumb": {
-                            "download": "@@images/image-128-ac59f86117bcddf667f77f452edd3a77.png",
-                            "height": 128,
-                            "width": 128
-                        },
-                        "tile": {
-                            "download": "@@images/image-64-6d8eb24ceda203fe9da284c087bd15d4.png",
-                            "height": 64,
-                            "width": 64
-                        },
-                        "tiny": {
-                            "download": "@@images/image-24-a34395b1a12c2b2f6c464ca3b6bae9f8.png",
-                            "height": 24,
-                            "width": 24
-                        }
-                    },
-                    "size": 52449,
-                    "width": 400
-                }
-            ]
-        },
-        "in_response_to": null,
-        "is_folderish": true,
-        "last_comment_date": null,
-        "latitude": null,
-        "listCreators": [
-            "ischueug"
-        ],
-        "location": null,
-        "longitude": null,
-        "mapviewer_viewservice": "https://land.copernicus.eu/cdse/mce_europe_10m_yearly_2023?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
-        "meta_type": "Dexterity Container",
-        "mime_type": "text/plain",
-        "modified": "2026-07-03T11:20:37+00:00",
-        "nav_title": null,
-        "ondemand": null,
-        "portal_type": "DataSet",
-        "procurement_no": null,
-        "publication_date": null,
-        "review_state": "published",
-        "start": null,
-        "submission_deadline": null,
-        "sync_uid": null,
-        "taxonomy_family": [],
-        "taxonomy_faqcategories": [],
-        "taxonomy_technical_library_categorization": [],
-        "taxonomy_use_case_spatial_coverage": [],
-        "taxonomy_user_profile_affiliation": [],
-        "taxonomy_user_profile_country": [],
-        "taxonomy_user_profile_sector_of_activity": [],
-        "taxonomy_user_profile_thematic_activity": [],
-        "taxonomy_userprofileinstitutionaldomain": [],
-        "taxonomy_userprofileproductuseintention": [],
-        "taxonomy_userprofileprofessionalthematicdomain": [],
-        "title": "Main Crop Emergence 2023 (raster 10 m), Europe, yearly",
-        "total_comments": 0,
-        "type_title": "DataSet",
-        "url": null,
-        "version": null
-    },
-    {
         "@id": "https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness/impervious-built-up-2021",
         "@type": "DataSet",
         "CreationDate": "2025-06-11T16:05:01+02:00",
@@ -34440,7 +32672,7 @@
         "EffectiveDate": "2022-01-21T13:06:00+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-05-29T11:58:50+02:00",
+        "ModificationDate": "2026-07-07T09:32:56+02:00",
         "Subject": [],
         "Title": "Small Woody Features 2021 (vector/raster 5 m and 100 m), Europe, 3-yearly",
         "TranslationGroup": "0ca863e8a26a4c1085ff2d6c52a1c421",
@@ -34537,7 +32769,7 @@
         "mapviewer_viewservice": "https://copernicus.discomap.eea.europa.eu/arcgis/services/GioLandPublic/HRL_SmallWoodyFeatures_2021/ImageServer/WMSServer?",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-05-29T09:58:50+00:00",
+        "modified": "2026-07-07T07:32:56+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -35861,7 +34093,7 @@
         "EffectiveDate": "2025-05-06T11:40:09+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T13:34:04+02:00",
+        "ModificationDate": "2026-07-08T12:09:17+02:00",
         "Subject": [
             "Cropping Patterns"
         ],
@@ -35960,7 +34192,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/seccty_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T11:34:04+00:00",
+        "modified": "2026-07-08T10:09:17+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -35997,7 +34229,7 @@
         "EffectiveDate": "2025-05-06T11:40:12+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T13:32:01+02:00",
+        "ModificationDate": "2026-07-10T12:44:23+02:00",
         "Subject": [
             "Cropping Patterns"
         ],
@@ -36096,7 +34328,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/secctyd_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T11:32:01+00:00",
+        "modified": "2026-07-10T10:44:23+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
@@ -36133,7 +34365,7 @@
         "EffectiveDate": "2025-05-06T11:40:09+02:00",
         "ExpirationDate": "None",
         "Language": "",
-        "ModificationDate": "2026-07-03T13:32:58+02:00",
+        "ModificationDate": "2026-07-08T12:05:07+02:00",
         "Subject": [
             "Cropping Patterns"
         ],
@@ -36232,7 +34464,7 @@
         "mapviewer_viewservice": "https://land.copernicus.eu/cdse/secctye_europe_10m_yearly?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0",
         "meta_type": "Dexterity Container",
         "mime_type": "text/plain",
-        "modified": "2026-07-03T11:32:58+00:00",
+        "modified": "2026-07-08T10:05:07+00:00",
         "nav_title": null,
         "ondemand": null,
         "portal_type": "DataSet",
