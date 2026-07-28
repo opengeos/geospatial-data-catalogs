@@ -9401,6 +9401,33 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "Region": "af-south-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
+        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
+        "Contact": "helpdesk@gbif.org",
+        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
+        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
+        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
+        "Tags": [
+            "aws-pds",
+            "earth observation",
+            "biodiversity",
+            "bioinformatics",
+            "conservation",
+            "life sciences"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
+        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
         "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
         "Type": "SNS Topic",
@@ -9424,14 +9451,12 @@
         "ControlledAccess": null
     },
     {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
-        "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
+        "Region": "ap-southeast-2",
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9459,31 +9484,6 @@
         "Explore": [
             "[Browse bucket](https://gbif-open-data-ap-southeast-2.s3.ap-southeast-2.amazonaws.com/index.html)"
         ],
-        "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
-        "Contact": "helpdesk@gbif.org",
-        "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
-        "UpdateFrequency": "Snapshots of GBIF are taken on a monthly basis",
-        "License": "[CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/) under the GBIF [terms of use](https://www.gbif.org/terms).",
-        "Tags": [
-            "aws-pds",
-            "earth observation",
-            "biodiversity",
-            "bioinformatics",
-            "conservation",
-            "life sciences"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null,
-        "ControlledAccess": null
-    },
-    {
-        "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "Description": "GBIF species occurrence data in Parquet format (ap-southeast-2 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-ap-southeast-2-object_created",
-        "Region": "ap-southeast-2",
-        "Type": "SNS Topic",
-        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9557,12 +9557,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
         "Region": "sa-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9584,10 +9582,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (sa-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (sa-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-sa-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-sa-east-1",
         "Region": "sa-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-sa-east-1.s3.sa-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -82146,6 +82146,60 @@
         "AccountRequired": null,
         "Host": null,
         "ControlledAccess": "https://data.ornldaac.earthdata.nasa.gov/s3credentials"
+    },
+    {
+        "Name": "NASA IMERG - dynamical.org Icechunk Zarr - NASA IMERG Icechunk Zarr data",
+        "Description": "NASA IMERG Icechunk Zarr data",
+        "ARN": "arn:aws:s3:::dynamical-nasa-imerg",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://dynamical-nasa-imerg.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://dynamical.org/catalog/",
+        "Contact": "feedback@dynamical.org",
+        "ManagedBy": "[dynamical.org](https://dynamical.org)",
+        "UpdateFrequency": "NASA IMERG analysis, early: 30 minutes; NASA IMERG analysis, late: 30 minutes",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "atmosphere",
+            "meteorological",
+            "climate",
+            "forecast",
+            "zarr"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "NASA IMERG - dynamical.org Icechunk Zarr - Notifications for dataset updates",
+        "Description": "Notifications for dataset updates",
+        "ARN": "arn:aws:sns:us-west-2:761136292730:dynamical-nasa-imerg-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://dynamical.org/catalog/",
+        "Contact": "feedback@dynamical.org",
+        "ManagedBy": "[dynamical.org](https://dynamical.org)",
+        "UpdateFrequency": "NASA IMERG analysis, early: 30 minutes; NASA IMERG analysis, late: 30 minutes",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "atmosphere",
+            "meteorological",
+            "climate",
+            "forecast",
+            "zarr"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
     },
     {
         "Name": "NASA INTEXB Project - IXBMI2AE v002 - MISR Level 2 Aerosol Product containing aerosol optical depth and particle type, with associated atmospheric data for the INTEXB_2006 theme",
@@ -181894,7 +181948,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -181918,7 +181972,7 @@
     {
         "Name": "NOAA U.S. Climate Gridded Dataset (NClimGrid) - New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for Daily NClimGrid, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridDailyObject",
+        "ARN": "arn:aws:sns:us-east-1:123901341784:NewNClimGridMonthlyObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
@@ -189029,7 +189083,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
@@ -189057,7 +189111,7 @@
     {
         "Name": "Sentinel-2 Cloud-Optimized GeoTIFFs - New scene notifications, can subscribe with Lambda",
         "Description": "New scene notifications, can subscribe with Lambda",
-        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-v0-publish",
+        "ARN": "arn:aws:sns:us-west-2:608149789419:cirrus-es-prod-publish",
         "Region": "us-west-2",
         "Type": "SNS Topic",
         "Explore": null,
