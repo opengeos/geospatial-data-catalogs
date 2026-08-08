@@ -693,6 +693,126 @@
         "ControlledAccess": "https://data.nsidc.earthdatacloud.nasa.gov/s3credentials"
     },
     {
+        "Name": "Africa Brick Kilns",
+        "Description": "Asset level data - Brick_Kilns_Africa",
+        "ARN": "arn:aws:s3:::assetdata-igp/africa_assets_csvs/brick_kilns_main.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/Africa/Asset_Data_Africa/Brick%20Kilns/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "As Needed",
+        "License": "https://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "energy",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Africa Cement Plants",
+        "Description": "Asset level data - Cement_Plants_Africa",
+        "ARN": "arn:aws:s3:::assetdata-igp/africa_assets_csvs/cement_africa_main.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/Africa/Asset_Data_Africa/Cement/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "As Needed",
+        "License": "https://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "industrial",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Africa Coal Plants",
+        "Description": "Asset level data - Coal_Plants_Africa",
+        "ARN": "arn:aws:s3:::assetdata-igp/africa_assets_csvs/africa_coal_plants_main.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/Africa/Asset_Data_Africa/Coal%20Plants/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "As Needed",
+        "License": "https://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "energy",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Africa Paper and Pulp Plants",
+        "Description": "Asset level data - Paper_and_Pulp_Plants_Africa",
+        "ARN": "arn:aws:s3:::assetdata-igp/africa_assets_csvs/paper_pulp_Africa.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/Africa/Asset_Data_Africa/Paper%20and%20Pulp/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "As Needed",
+        "License": "https://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "industrial",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Africa Power Generation Plants",
+        "Description": "Asset level data - Power_Generation_Plants_Africa",
+        "ARN": "arn:aws:s3:::assetdata-igp/africa_assets_csvs/Power_Generation.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/Africa/Asset_Data_Africa/Power%20Generation/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "As Needed",
+        "License": "https://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "energy",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "Africa Soil Information Service (AfSIS) Soil Chemistry",
         "Description": "Paired wet and dry chemistry measurements for georeferenced soilscollected by the Africa Soil Information Service (AfSIS), storedas CSV and OPUS files",
         "ARN": "arn:aws:s3:::afsis",
@@ -710,6 +830,54 @@
             "environmental",
             "food security",
             "machine learning"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Africa Steel Plants",
+        "Description": "Asset level data - Steel_Plants_Africa",
+        "ARN": "arn:aws:s3:::assetdata-igp/africa_assets_csvs/Steel_plants_Africa_main.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/Africa/Asset_Data_Africa/Steel/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "As Needed",
+        "License": "https://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "industrial",
+            "environmental",
+            "infrastructure"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "Africa Waste Management Data",
+        "Description": "Asset level data - Waste_Management_Sites_Africa",
+        "ARN": "arn:aws:s3:::assetdata-igp/africa_assets_csvs/waste_Africa_main.csv",
+        "Region": "ap-southeast-1",
+        "Type": "S3 Bucket",
+        "Explore": null,
+        "Documentation": "https://github.com/APAD2024/APAD-Asset-Data/blob/main/Asset%20Data/Africa/Asset_Data_Africa/Waste/Readme.md",
+        "Contact": "https://github.com/APAD2024/APAD-Asset-Data/issues",
+        "ManagedBy": "APAD",
+        "UpdateFrequency": "As Needed",
+        "License": "https://opendatacommons.org/licenses/by/1.0/",
+        "Tags": [
+            "aws-pds",
+            "air quality",
+            "sustainability",
+            "environmental",
+            "infrastructure"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
@@ -9401,12 +9569,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
         "Region": "af-south-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9428,10 +9594,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (af-south-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (af-south-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-af-south-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-af-south-1",
         "Region": "af-south-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-af-south-1.s3.af-south-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9505,12 +9673,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
         "Region": "eu-central-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9532,10 +9698,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (eu-central-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (eu-central-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-eu-central-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-eu-central-1",
         "Region": "eu-central-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-eu-central-1.s3.eu-central-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9609,12 +9777,10 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
+        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
         "Region": "us-east-1",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
-        ],
+        "Type": "SNS Topic",
+        "Explore": null,
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
@@ -9636,10 +9802,12 @@
     {
         "Name": "Global Biodiversity Information Facility (GBIF) Species Occurrences - GBIF species occurrence data in Parquet format (us-east-1 region)",
         "Description": "GBIF species occurrence data in Parquet format (us-east-1 region)",
-        "ARN": "arn:aws:sns:af-south-1:288719126026:gbif-open-data-us-east-1-object_created",
+        "ARN": "arn:aws:s3:::gbif-open-data-us-east-1",
         "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse bucket](https://gbif-open-data-us-east-1.s3.us-east-1.amazonaws.com/index.html)"
+        ],
         "Documentation": "Documentation can be found [here](https://github.com/gbif/occurrence/blob/master/aws-public-data.md). You can learn more about GBIF [here](https://www.gbif.org).",
         "Contact": "helpdesk@gbif.org",
         "ManagedBy": "The Global Biodiversity Information Facility ([GBIF](https://www.gbif.org))",
