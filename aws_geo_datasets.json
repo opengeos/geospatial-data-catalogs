@@ -8567,17 +8567,17 @@
         "ControlledAccess": null
     },
     {
-        "Name": "EarthScope Geophysical Data - Geophysical data from the NSF SAGE and GAGE facilities operated by EarthScope",
-        "Description": "Geophysical data from the NSF SAGE and GAGE facilities operated by EarthScope",
+        "Name": "EarthScope Geophysical Data - Geophysical data from NSF's NGF facility operated by EarthScope",
+        "Description": "Geophysical data from NSF's NGF facility operated by EarthScope",
         "ARN": "arn:aws:s3:::earthscope-geophysical-data",
         "Region": "us-east-2",
         "Type": "S3 Bucket",
         "Explore": null,
-        "Documentation": "https://www.earthscope.org/sponsored-open-data/",
-        "Contact": "data-help@earthscope.org",
+        "Documentation": "https://docs.earthscope.org/sponsored-open-data",
+        "Contact": "help@earthscope.org",
         "ManagedBy": "[EarthScope Consortium](https://earthscope.org)",
         "UpdateFrequency": "Daily",
-        "License": "When using these data please cite both the network owners, identified by network code,and the NSF SAGE facility operated by EarthScope.  Network operators and owners specify thelicense for their data, and an appropriate citation, in their registration information whichis available at: https://fdsn.org/networks/.  When no license has been declared by the owner,the facility distributes the data with a license of CC-BY-4.0. The facility operation can becited using the instructions for citing SAGE here: https://www.earthscope.org/how-to-cite/.",
+        "License": "When using these data please cite both the network owners, identified by network code,and NSF's NGF facility operated by EarthScope.  Seismic network operators and owners specify thelicense for their data, and an appropriate citation, in their registration information whichis available at: https://fdsn.org/networks/.  When no license has been declared by the owner,the facility distributes the data with a license of CC-BY-4.0. The facility operation can becited using the instructions here: https://www.earthscope.org/how-to-cite/.",
         "Tags": [
             "aws-pds",
             "earth observation",
@@ -8601,11 +8601,11 @@
         "Region": "us-east-2",
         "Type": "SNS Topic",
         "Explore": null,
-        "Documentation": "https://www.earthscope.org/sponsored-open-data/",
-        "Contact": "data-help@earthscope.org",
+        "Documentation": "https://docs.earthscope.org/sponsored-open-data",
+        "Contact": "help@earthscope.org",
         "ManagedBy": "[EarthScope Consortium](https://earthscope.org)",
         "UpdateFrequency": "Daily",
-        "License": "When using these data please cite both the network owners, identified by network code,and the NSF SAGE facility operated by EarthScope.  Network operators and owners specify thelicense for their data, and an appropriate citation, in their registration information whichis available at: https://fdsn.org/networks/.  When no license has been declared by the owner,the facility distributes the data with a license of CC-BY-4.0. The facility operation can becited using the instructions for citing SAGE here: https://www.earthscope.org/how-to-cite/.",
+        "License": "When using these data please cite both the network owners, identified by network code,and NSF's NGF facility operated by EarthScope.  Seismic network operators and owners specify thelicense for their data, and an appropriate citation, in their registration information whichis available at: https://fdsn.org/networks/.  When no license has been declared by the owner,the facility distributes the data with a license of CC-BY-4.0. The facility operation can becited using the instructions here: https://www.earthscope.org/how-to-cite/.",
         "Tags": [
             "aws-pds",
             "earth observation",
@@ -179922,7 +179922,7 @@
         "Explore": [
             "[Browse Bucket](https://noaa-nws-rtofs-pds.s3.amazonaws.com/index.html)"
         ],
-        "Documentation": "https://polar.ncep.noaa.gov/global/",
+        "Documentation": "https://github.com/NOAA-EMC/RTOFS_GLO/wiki",
         "Contact": "For questions regarding data content or quality, visit the RTOFS site (https://polar.ncep.noaa.gov/global/). <br /> For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Once a day. The products are available at the following times each day <br /> 00z - Analysis and analysis post-processing <br /> 06z - forecast days 1-4, post-processing for most of these days <br /> 12z - forecast days 5-8, post-processing for these days and some of forecast days 1-4. <br />",
@@ -179951,7 +179951,7 @@
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
-        "Documentation": "https://polar.ncep.noaa.gov/global/",
+        "Documentation": "https://github.com/NOAA-EMC/RTOFS_GLO/wiki",
         "Contact": "For questions regarding data content or quality, visit the RTOFS site (https://polar.ncep.noaa.gov/global/). <br /> For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov.<br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](http://www.noaa.gov/)",
         "UpdateFrequency": "Once a day. The products are available at the following times each day <br /> 00z - Analysis and analysis post-processing <br /> 06z - forecast days 1-4, post-processing for most of these days <br /> 12z - forecast days 5-8, post-processing for these days and some of forecast days 1-4. <br />",
@@ -190227,6 +190227,60 @@
         "ControlledAccess": null
     },
     {
+        "Name": "TJweather Global-Regional Integrated Numerical Weather Prediction System Dataset (SD3) - Notifications for dataset updates",
+        "Description": "Notifications for dataset updates",
+        "ARN": "arn:aws:sns:us-west-2:051370880159:tj-nwp-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://github.com/Tianji-Weather/aws-opendata-docs/blob/main/tj-nwp-descriptive-documentation.md",
+        "Contact": "For any questions regarding the dataset, please visit [tjweather website](https://www.tjweather.com/en) or email us at contact@tjweather.com.",
+        "ManagedBy": "[Tianji Weather Science and Technology Company](https://www.tjweather.com/en)",
+        "UpdateFrequency": "Daily",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "meteorological",
+            "atmosphere",
+            "forecast",
+            "model",
+            "netcdf"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "TJweather Global-Regional Integrated Numerical Weather Prediction System Dataset (SD3) - TianJi Global-Regional Integrated Numerical Weather Prediction System Dataset",
+        "Description": "TianJi Global-Regional Integrated Numerical Weather Prediction System Dataset",
+        "ARN": "arn:aws:s3:::tj-nwp",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://tj-nwp.s3.us-west-2.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://github.com/Tianji-Weather/aws-opendata-docs/blob/main/tj-nwp-descriptive-documentation.md",
+        "Contact": "For any questions regarding the dataset, please visit [tjweather website](https://www.tjweather.com/en) or email us at contact@tjweather.com.",
+        "ManagedBy": "[Tianji Weather Science and Technology Company](https://www.tjweather.com/en)",
+        "UpdateFrequency": "Daily",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "meteorological",
+            "atmosphere",
+            "forecast",
+            "model",
+            "netcdf"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "Terra Fusion Data Sampler",
         "Description": "AWS S3 Public Bucket Containing Terra Basic Fusion Hierarchical Data Format 5 (HDF5) files",
         "ARN": "arn:aws:s3:::terrafusiondatasampler",
@@ -190294,60 +190348,6 @@
             "earth observation",
             "geospatial",
             "disaster response"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null,
-        "ControlledAccess": null
-    },
-    {
-        "Name": "TianJi Global-Regional Integrated Numerical Weather Prediction System Dataset (TJ-NWP) - Notifications for dataset updates",
-        "Description": "Notifications for dataset updates",
-        "ARN": "arn:aws:sns:us-west-2:051370880159:tj-nwp-object_created",
-        "Region": "us-west-2",
-        "Type": "SNS Topic",
-        "Explore": null,
-        "Documentation": "https://github.com/Tianji-Weather/aws-opendata-docs/blob/main/tj-nwp-descriptive-documentation.md",
-        "Contact": "For any questions regarding the dataset, please visit [tjweather website](https://www.tjweather.com/) or email us at contact@tjweather.com.",
-        "ManagedBy": "[Tianji Weather Science and Technology Company](https://www.tjweather.com/)",
-        "UpdateFrequency": "Daily",
-        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "weather",
-            "meteorological",
-            "atmosphere",
-            "forecast",
-            "model",
-            "netcdf"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null,
-        "ControlledAccess": null
-    },
-    {
-        "Name": "TianJi Global-Regional Integrated Numerical Weather Prediction System Dataset (TJ-NWP) - TianJi Global-Regional Integrated Numerical Weather Prediction System Dataset",
-        "Description": "TianJi Global-Regional Integrated Numerical Weather Prediction System Dataset",
-        "ARN": "arn:aws:s3:::tj-nwp",
-        "Region": "us-west-2",
-        "Type": "S3 Bucket",
-        "Explore": [
-            "[Browse Bucket](https://tj-nwp.s3.us-west-2.amazonaws.com/index.html)"
-        ],
-        "Documentation": "https://github.com/Tianji-Weather/aws-opendata-docs/blob/main/tj-nwp-descriptive-documentation.md",
-        "Contact": "For any questions regarding the dataset, please visit [tjweather website](https://www.tjweather.com/) or email us at contact@tjweather.com.",
-        "ManagedBy": "[Tianji Weather Science and Technology Company](https://www.tjweather.com/)",
-        "UpdateFrequency": "Daily",
-        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
-        "Tags": [
-            "aws-pds",
-            "weather",
-            "meteorological",
-            "atmosphere",
-            "forecast",
-            "model",
-            "netcdf"
         ],
         "RequesterPays": null,
         "AccountRequired": null,
