@@ -17582,7 +17582,7 @@
     },
     {
         "Name": "Gaia DR3",
-        "Description": "Notifications for new data",
+        "Description": "Notifications for new Gaia data",
         "ARN": "arn:aws:sns:us-east-1:879230861493:stpubdata/gaia",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -17603,7 +17603,7 @@
     {
         "Name": "Gaia DR3",
         "Description": "Gaia DR3 HATS-Formatted Files",
-        "ARN": "arn:aws:s3:::stpubdata/gaia",
+        "ARN": "arn:aws:s3:::stpubdata/gaia/gaia_dr3/public/hats",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
         "Documentation": "https://docs.lsdb.io/en/latest/index.html",
