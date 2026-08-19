@@ -13,6 +13,32 @@
         "accessInfo": null
     },
     {
+        "title": "Agroforestry Tree Detection \u2014 India (STAC layer)",
+        "id": 160,
+        "url": "https://data.source.coop/planet/agroforestry-individual-tree-detection-india/stac/catalog.json",
+        "slug": "agroforestry-tree-detection-india-stac-layer",
+        "summary": "Separate STAC layer over the Croissant/ML dataset (files unchanged): COG + original + labels per Item.",
+        "access": "public",
+        "created": "2026-08-18T07:46:35.954Z",
+        "updated": "2026-08-18T07:46:35.954Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "Argentina National Geographic Institute (IGN) Reference Layers",
+        "id": 179,
+        "url": "https://data.source.coop/nlebovits/ign-argentina/catalog.json",
+        "slug": "argentina-ational-geographic-institute",
+        "summary": "Official reference layers from Argentina's National Geographic Institute (IGN), extracted from its WFS service and published as cloud-optimized GeoParquet. Includes hydrography, geomorphology and relief, transportation and road infrastructure, administrative boundaries, settlements and buildings, vegetation, geodesy, and other categories from IGN's vector data model. Public-use data under Article 2 of Law 27.275 (Public Information Access Law).",
+        "access": "public",
+        "created": "2026-08-18T13:47:15.926Z",
+        "updated": "2026-08-18T13:47:15.926Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Astraea Earth OnDemand",
         "id": 16,
         "url": "https://eod-catalog-svc-prod.astraea.earth/",
@@ -34,6 +60,19 @@
         "access": "public",
         "created": "2025-02-28T15:49:40.097Z",
         "updated": "2025-02-28T15:49:40.097Z",
+        "isPrivate": false,
+        "isApi": true,
+        "accessInfo": null
+    },
+    {
+        "title": "Boettiger Lab Geospatial Datasets",
+        "id": 161,
+        "url": "https://s3-west.nrp-nautilus.io/public-data/stac/catalog.json",
+        "slug": "boettiger-lab-geospatial-datasets",
+        "summary": "A catalog of cloud-optimized geospatial datasets published by the Boettiger Lab, hosted on National Research Platform S3 storage. Datasets include biodiversity, conservation, census, environmental, and infrastructure data in formats optimized for cloud-native analysis.",
+        "access": "public",
+        "created": "2026-08-18T08:40:21.397Z",
+        "updated": "2026-08-18T08:40:21.397Z",
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
@@ -325,6 +364,19 @@
         "accessInfo": null
     },
     {
+        "title": "Disaster Data Releases from Planet Labs PBC",
+        "id": 169,
+        "url": "https://data.source.coop/planet/disasterdata/catalog.json",
+        "slug": "disaster-data-releases-from-planet-labs-pbc",
+        "summary": "Planet Crisis Response Program imagery for major disaster events \u2014 earthquakes, floods, storms, wildfires and human-made disasters \u2014 as a single browsable STAC / Portolan catalog. Each event is a self-contained sub-catalog with pre- and post-event high-resolution COGs (visual, pansharpened-analytic and usable-data masks), organised by affected location. Imagery \u00a9 Planet Labs PBC, licensed CC-BY-NC-4.0 (non-commercial).",
+        "access": "public",
+        "created": "2026-08-18T11:23:12.796Z",
+        "updated": "2026-08-18T11:23:12.796Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Disasters Charter Mapper Catalog",
         "id": 45,
         "url": "https://supervisor.disasterscharter.org/api/catalog.json",
@@ -481,6 +533,32 @@
         "accessInfo": "Contact [Alexander Jacob from EURAC Research](https://www.eurac.edu/de/people/alexander-jacob?institute=institut-fuer-erdbeobachtung) for details."
     },
     {
+        "title": "EuroSAT: Dataset for Land Use and Land Cover Classification",
+        "id": 181,
+        "url": "https://data.source.coop/nlebovits/eurosat-ms/catalog.json",
+        "slug": "eurosat-dataset-for-land-use-and-land-cover",
+        "summary": "EuroSAT is a land use and land cover classification dataset. It is based on Sentinel-2 satellite imagery covering 13 spectral bands and consists of 10 LULC classes with a total of 27,000 labeled and geo-referenced images. The dataset is associated with the publications \"Introducing EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification\" and \"EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification\".",
+        "access": "public",
+        "created": "2026-08-18T14:52:36.135Z",
+        "updated": "2026-08-18T14:52:36.135Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "Extremadura SDI (CICTEX)",
+        "id": 178,
+        "url": "https://storage.googleapis.com/carto-portolan-ide-extremadura/catalog.json",
+        "slug": "extremadura-sdi-cictex",
+        "summary": "Portolan catalog with a selection of geospatial data from the Regional Government of Extremadura (CICTEX), originally distributed via the SITEX Download Centre (sitex.juntaex.es/SITEX/centrodescargas). Data has been reprojected to EPSG:4326 and converted to cloud-native formats (GeoParquet, PMTiles); this is not the official distribution. Licensed CC-BY 4.0 CICTEX, Junta de Extremadura. This catalog is a publishing demo using Portolan and is not an official data source.",
+        "access": "public",
+        "created": "2026-08-18T13:39:34.538Z",
+        "updated": "2026-08-18T13:39:34.538Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "FAIRiCUBE Hub Catalog",
         "id": 58,
         "url": "https://stacapi.eoxhub.fairicube.eu/",
@@ -543,6 +621,19 @@
         "updated": "2023-08-14T12:30:51.121Z",
         "isPrivate": false,
         "isApi": true,
+        "accessInfo": null
+    },
+    {
+        "title": "GHSL Population Grids (GHS-POP R2023A)",
+        "id": 171,
+        "url": "https://data.source.coop/nlebovits/ghsl/catalog.json",
+        "slug": "ghsl-population-grids-ghs-pop-r2023a",
+        "summary": "A cloud-native mirror of the European Commission Joint Research Centre's GHS-POP R2023A population grids: twelve five-yearly epochs from 1975 to 2030 at 100 m in World Mollweide (ESRI:54009). The upstream rasters are stored in Deflated ZIP members without internal overviews, preventing partial reads over HTTP. This mirror converts them to Cloud Optimized GeoTIFFs with overviews and embedded statistics. It is a derived, lossy product: pixel values are quantized to 0.01 persons per cell and are not bit-identical to JRC's distribution. The grid, model, inputs, authors, and licence are unchanged. See the [catalog agent guide](AGENTS.md) for query recipes and [why this mirror exists](https://github.com/nlebovits/ghsl/blob/main/docs/upstream-gaps.md) for measurements.",
+        "access": "public",
+        "created": "2026-08-18T11:45:08.269Z",
+        "updated": "2026-08-18T11:45:08.269Z",
+        "isPrivate": false,
+        "isApi": false,
         "accessInfo": null
     },
     {
@@ -676,6 +767,19 @@
         "accessInfo": "Please contact Iconem CTO Jonathan Chemla, or access app.iconem.com to see which sites are public, or protected (listed publicly but only available after request) jchemla@iconem.com"
     },
     {
+        "title": "JRC GloFAS Global Flood Hazard Maps",
+        "id": 174,
+        "url": "https://data.source.coop/nlebovits/jrc-glofas/catalog.json",
+        "slug": "jrc-glofas-global-flood-hazard-maps",
+        "summary": "Global riverine flood hazard maps from the Joint Research Centre CEMS-GLOFAS v2.1.2. Includes flood depth and hazard classification rasters for return periods 10, 20, 50, 75, 100, 200, and 500 years, plus permanent water body and spurious depth auxiliary layers.",
+        "access": "public",
+        "created": "2026-08-18T12:27:06.428Z",
+        "updated": "2026-08-18T12:27:06.428Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "KAGIS Katalog",
         "id": 106,
         "url": "https://gis.ktn.gv.at/api/stac/v1/",
@@ -699,6 +803,19 @@
         "updated": "2025-08-17T14:27:53.980Z",
         "isPrivate": false,
         "isApi": true,
+        "accessInfo": null
+    },
+    {
+        "title": "LUCAS ML",
+        "id": 170,
+        "url": "https://data.source.coop/jrc-lucas/jrc-lucas-ml/stac/catalog.json",
+        "slug": "lucas-ml",
+        "summary": "The LUCAS (Land Use/Cover Area Frame Survey) dataset supports machine learning segmentation for land-use and land-cover change analysis and biodiversity measurement. This analysis-ready dataset provides segmented LUCAS survey photos with ancillary information and summary statistics, supporting land-cover change validation, vegetation detection and characterization, and biodiversity and landscape heterogeneity monitoring.",
+        "access": "public",
+        "created": "2026-08-18T11:35:12.465Z",
+        "updated": "2026-08-18T11:35:12.465Z",
+        "isPrivate": false,
+        "isApi": false,
         "accessInfo": null
     },
     {
@@ -738,6 +855,19 @@
         "updated": "2025-09-22T13:40:53.309Z",
         "isPrivate": false,
         "isApi": true,
+        "accessInfo": null
+    },
+    {
+        "title": "MapBiomas Annual Land Cover and Land Use, South America",
+        "id": 167,
+        "url": "https://data.source.coop/tristangruppwri/mapbiomas/catalog.json",
+        "slug": "mapbiomas-annual-land-cover-and-land-use",
+        "summary": "Annual land cover and land use maps from the MapBiomas Project for ten South American countries, 2019-2024, as Cloud-Optimized GeoTIFFs at 30 m. One collection per country, one item per year. Pixel values are the raw national MapBiomas class codes - nothing was reclassified. Because each MapBiomas national initiative maintains its own legend, codes are not comparable across borders as published; the README documents a three-tier harmonisation (exact level-1 collapse, a pan-MapBiomas legend, and a corrected crosswalk onto MapBiomas Brazil Collection 10) and ships it as a machine-readable harmonization.csv.",
+        "access": "public",
+        "created": "2026-08-18T11:17:47.966Z",
+        "updated": "2026-08-18T11:17:47.966Z",
+        "isPrivate": false,
+        "isApi": false,
         "accessInfo": null
     },
     {
@@ -832,6 +962,19 @@
         "accessInfo": null
     },
     {
+        "title": "NAIP Aerial Imagery Mosaics",
+        "id": 164,
+        "url": "https://data.source.coop/portolan/portolan-pipeline/naip-mosaic/PRs/111/catalog.json",
+        "slug": "naip-aerial-imagery-mosaics",
+        "summary": "Cloud-native mirror Collections of National Agriculture Imagery Program scenes, modelled as per-scene STAC Items whose Cloud Optimized GeoTIFFs stay on the host that publishes them.",
+        "access": "public",
+        "created": "2026-08-18T10:00:30.239Z",
+        "updated": "2026-08-18T10:00:30.239Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "NASA CMR CLOUDSTAC Proxy",
         "id": 48,
         "url": "https://cmr.earthdata.nasa.gov/cloudstac/",
@@ -879,6 +1022,19 @@
         "access": "public",
         "created": "2026-08-05T20:37:05.409Z",
         "updated": "2026-08-05T20:37:05.409Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "National geospatial data of the Republic of Moldova",
+        "id": 163,
+        "url": "data.source.coop/nlebovits/moldova-geodata/catalog.json",
+        "slug": "moldova-geodata",
+        "summary": "A cloud-native mirror of the Moldovan national geoportal geodata.gov.md, run by \u00ce.S. INGEOCAD for the Agency for Geodesy, Cartography and Cadastre (AGCC). It holds vector layers extracted over WFS: cadastral parcels, buildings, addresses, the 2017 base map, CORINE land cover, the state forest fund, flood models, and the geodetic network. Data is published as GeoParquet and PMTiles in the source coordinate system, MOLDREF99 / Moldova TM (EPSG:4026). This is not an official AGCC product.",
+        "access": "public",
+        "created": "2026-08-18T09:34:36.093Z",
+        "updated": "2026-08-18T09:34:36.093Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -1079,6 +1235,19 @@
         "accessInfo": null
     },
     {
+        "title": "Pergamino SDI: Spatial Data Infrastructure",
+        "id": 176,
+        "url": "https://data.source.coop/nlebovits/pergamino-ide/catalog.json",
+        "slug": "pergamino-sdi-spatial-data-infrastructure",
+        "summary": "Cloud-native mirror of the Spatial Data Infrastructure (SDI) of the Municipality of Pergamino, Buenos Aires Province, Argentina. Data is published by the Municipality's Directorate of Georeferenced Information Systems (DSIG) and is republished here in cloud-native formats (GeoParquet, PMTiles) without altering its content.",
+        "access": "public",
+        "created": "2026-08-18T13:01:33.939Z",
+        "updated": "2026-08-18T13:01:33.939Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Planet Labs STAC Catalog",
         "id": 44,
         "url": "https://www.planet.com/data/stac/catalog.json",
@@ -1100,6 +1269,32 @@
         "access": "public",
         "created": "2023-01-04T10:20:07.793Z",
         "updated": "2023-01-04T10:20:07.793Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "Portolan NL \u2014 Cloud-Native Dutch Geodata",
+        "id": 180,
+        "url": "https://data.source.coop/cholmes/portolan-nl/catalog.json",
+        "slug": "portolan-nl-cloud-native-dutch-geodata",
+        "summary": "A demonstration of Portolan as cloud-native infrastructure for the disclosure of open geodatasets from Dutch government authorities. Inspired by PDOK (Publieke Dienstverlening Op de Kaart), this catalog provides current and reliable geo-information as GeoParquet, PMTiles, and STAC metadata \u2014 open, standards-based, and freely accessible to everyone.",
+        "access": "public",
+        "created": "2026-08-18T14:43:18.899Z",
+        "updated": "2026-08-18T14:43:18.899Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "Portolan Reference Catalog",
+        "id": 165,
+        "url": "https://data.source.coop/portolan/portolan-pipeline/portolan-reference/main/catalog.json",
+        "slug": "portolan-reference-catalog",
+        "summary": "A mixed reference catalog exercising every major case in the Portolan v0.1 specification with real, openly licensed data pulled from its original upstream sources, vector polygons and points, raster, tabular, mirror provenance, nested catalogs and flat collections.",
+        "access": "public",
+        "created": "2026-08-18T10:09:38.856Z",
+        "updated": "2026-08-18T10:09:38.856Z",
         "isPrivate": false,
         "isApi": false,
         "accessInfo": null
@@ -1235,6 +1430,32 @@
         "accessInfo": null
     },
     {
+        "title": "Soft Commodity Infrastructure (Brazil)",
+        "id": 175,
+        "url": "https://data.source.coop/tristangruppwri/soft-commodity-infrastructure/catalog.json",
+        "slug": "soft-commodity-infrastructure-brazil",
+        "summary": "This is the geolocated midstream of Brazilian agriculture: the silos, slaughterhouses, dairy plants, and sugar/ethanol mills that farms sell into, plus the cooperatives that farms belong to. It exists to answer, for any rural property, **who to contact** about deforestation on the land \u2014 the cooperative that has the farmer as a member, or the buyer that receives their grain, cattle, or cane.",
+        "access": "public",
+        "created": "2026-08-18T12:55:18.749Z",
+        "updated": "2026-08-18T12:55:18.749Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "South American Rural Cadastral Boundaries",
+        "id": 162,
+        "url": "https://data.source.coop/tristangruppwri/cadastral/catalog.json",
+        "slug": "south-american-rural-cadastral-boundaries",
+        "summary": "Cadastral parcel boundaries for South American rural land use and supply chain analysis. Intended for use alongside Trazo agricultural field boundaries and Fields of The World.",
+        "access": "public",
+        "created": "2026-08-18T09:15:53.416Z",
+        "updated": "2026-08-18T09:15:53.416Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Space2Stats Database",
         "id": 116,
         "url": "https://worldbank.github.io/DECAT_Space2Stats/stac/catalog.json",
@@ -1274,6 +1495,45 @@
         "accessInfo": "You need to register yourself a Terrascope account at <https://portal.terrascope.be/home> and subscribe to a paid plan."
     },
     {
+        "title": "The Wildland Almanac - CONUS",
+        "id": 177,
+        "url": "https://data.source.coop/wildland-almanac/conus/catalog.json",
+        "slug": "the-wildland-almanac-conus",
+        "summary": "Root catalog for The Wildland Almanac - CONUS, a 30 m Landsat-derived data cube of wildland ecosystem properties at decadal snapshots (water years 1990, 2000, 2010, 2020, 2024). Each release is a complete reprocessing of the full snapshot set and is published as a versioned sub-catalog; the current release is v2026.1.",
+        "access": "public",
+        "created": "2026-08-18T13:12:28.530Z",
+        "updated": "2026-08-18T13:12:28.530Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "The Wildland Almanac - California",
+        "id": 166,
+        "url": "https://data.source.coop/wildland-almanac/california/catalog.json",
+        "slug": "the-wildland-almanac-california",
+        "summary": "Root catalog for The Wildland Almanac - California, a 30 m Landsat-derived data cube of wildland ecosystem properties spanning water years 1985-2025. Each annual release is a complete reprocessing of the full time series and is published as a versioned sub-catalog; the current release is v2026.1.",
+        "access": "public",
+        "created": "2026-08-18T10:50:14.382Z",
+        "updated": "2026-08-18T10:50:14.382Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "The Wildland Almanac - Treatment Scenarios",
+        "id": 173,
+        "url": "https://data.source.coop/wildland-almanac/treatment-scenarios/catalog.json",
+        "slug": "the-wildland-almanac-treatment-scenarios",
+        "summary": "Root catalog for The Wildland Almanac - Treatment Scenarios, a 30 m Landsat-derived data cube of wildland ecosystem properties for 24 BlueForest management-treatment scenarios applied to the 2024 western-CONUS baseline. Each release regenerates the full treatment set from the current baseline and is published as a versioned sub-catalog; the current release is v2026.1.",
+        "access": "public",
+        "created": "2026-08-18T12:20:27.552Z",
+        "updated": "2026-08-18T12:20:27.552Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Th\u00fcnen Earth Observation (ThEO)",
         "id": 137,
         "url": "https://eodata.thuenen.de/stac/api/v1/",
@@ -1284,6 +1544,32 @@
         "updated": "2025-11-11T09:07:52.137Z",
         "isPrivate": false,
         "isApi": true,
+        "accessInfo": null
+    },
+    {
+        "title": "Trazo Field Boundaries of South America",
+        "id": 168,
+        "url": "https://data.source.coop/wri-data-lab/trazofields/catalog.json",
+        "slug": "trazo-field-boundaries-of-south-america",
+        "summary": "10.9 million agricultural field boundaries across South America for the 2023\u20132024 planting season, delineated from Sentinel-2 imagery by the Trazo model suite (U-Net / EfficientNet-B3, built on Fields of The World). Published as three collections, one per model \u2014 trazo3-fields is recommended for most use cases. Intended to support supply chain traceability, EUDR compliance workflows, and field-level deforestation monitoring.",
+        "access": "public",
+        "created": "2026-08-18T11:22:07.953Z",
+        "updated": "2026-08-18T11:22:07.953Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "TriMet Geospatial Data",
+        "id": 172,
+        "url": "https://data.source.coop/cholmes/trimet/catalog.json",
+        "slug": "trimet-geospatial-data",
+        "summary": "A cloud-native mirror of the eight geospatial datasets TriMet publishes at [developer.trimet.org/gis](https://developer.trimet.org/gis/) \u2014 the transit district boundary, fixed-route alignments, rail lines, stops, route stops, rail stops, transit centers and park and rides for the Portland, Oregon metropolitan area.",
+        "access": "public",
+        "created": "2026-08-18T11:59:21.837Z",
+        "updated": "2026-08-18T11:59:21.837Z",
+        "isPrivate": false,
+        "isApi": false,
         "accessInfo": null
     },
     {
