@@ -702,6 +702,19 @@
         "accessInfo": null
     },
     {
+        "title": "HDX HAPI Cloud-Native",
+        "id": 183,
+        "url": "https://data.source.coop/hdx/hapi/collection.json",
+        "slug": "hdx-hapi-cloud-native",
+        "summary": "Cloud-native Parquet exports of the UN OCHA Humanitarian API (HAPI), which provides standardized humanitarian indicators designed for seamless interoperability from multiple sources. Covers affected people, food security, funding, conflict, operational presence, and more. Individual dataset licenses vary \u2014 see source links.",
+        "access": "public",
+        "created": "2026-08-19T09:17:45.728Z",
+        "updated": "2026-08-19T09:17:45.728Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "HUB Ocean\u00b4s Ocean Data Platform Catalog",
         "id": 134,
         "url": "https://api.hubocean.earth/api/stac",
@@ -765,6 +778,19 @@
         "isPrivate": true,
         "isApi": true,
         "accessInfo": "Please contact Iconem CTO Jonathan Chemla, or access app.iconem.com to see which sites are public, or protected (listed publicly but only available after request) jchemla@iconem.com"
+    },
+    {
+        "title": "Impact Observatory STAC API",
+        "id": 185,
+        "url": "https://api.impactobservatory.com/stac-aws/",
+        "slug": "impact-observatory-stac-api",
+        "summary": "Impact Observatory STAC API",
+        "access": "public",
+        "created": "2026-08-19T10:59:41.747Z",
+        "updated": "2026-08-19T10:59:41.747Z",
+        "isPrivate": false,
+        "isApi": true,
+        "accessInfo": null
     },
     {
         "title": "JRC GloFAS Global Flood Hazard Maps",
@@ -921,6 +947,19 @@
         "isPrivate": true,
         "isApi": false,
         "accessInfo": "The catalog and item metadata are fully public (anyone can browse it in STAC Browser), but fetching the actual tile and data assets requires an API  key (free tier available)."
+    },
+    {
+        "title": "Microsoft ML Road Detections",
+        "id": 182,
+        "url": "https://data.source.coop/nlebovits/microsoft-ml-road-detections/catalog.json",
+        "slug": "microsoft-ml-road-detections",
+        "summary": "A cloud-native mirror of the road detections Microsoft mines from Bing Maps aerial imagery and publishes at [microsoft/RoadDetections](https://github.com/microsoft/RoadDetections). Microsoft distributes the data as nineteen zipped TSV files of GeoJSON, one per UN subregion. This catalog republishes the same roads as GeoParquet partitioned by country, so a reader can query one country, one bounding box, or the whole planet without downloading 67 GB first.",
+        "access": "public",
+        "created": "2026-08-19T09:06:19.718Z",
+        "updated": "2026-08-19T09:06:19.718Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
     },
     {
         "title": "Microsoft Planetary Computer STAC API",
@@ -1193,6 +1232,19 @@
         "updated": "2026-02-04T22:42:19.419Z",
         "isPrivate": false,
         "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "PGC Data Catalog",
+        "id": 184,
+        "url": "https://stac.pgc.umn.edu/api/v1/",
+        "slug": "pgc-data-catalog",
+        "summary": "PGC Data Catalog of open digital elevation models",
+        "access": "public",
+        "created": "2026-08-19T10:50:50.212Z",
+        "updated": "2026-08-19T10:50:50.212Z",
+        "isPrivate": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
