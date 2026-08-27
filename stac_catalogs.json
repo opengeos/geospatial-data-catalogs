@@ -1300,6 +1300,19 @@
         "accessInfo": null
     },
     {
+        "title": "Philadelphia Housing and Land Use",
+        "id": 186,
+        "url": "https://data.source.coop/nlebovits/phl-housing-demo/catalog.json",
+        "slug": "philadelphia-housing-and-land-use",
+        "summary": "Ten collections describing property, zoning, vacancy, and affordable housing in Philadelphia, mirrored from the City of Philadelphia's ArcGIS services via [OpenDataPhilly](https://opendataphilly.org/). Together they answer what exists on a parcel, what the zoning code permits there, whether the city believes it is empty, and what publicly funded housing has been built.  The catalog holds 1,780,845 features. Property parcels (607,957), land use (559,077), and building footprints (546,083) cover the whole city. Zoning base districts (29,205) and overlays (195) record what the code allows, and a 39-row lookup table decodes every zoning code. The city's vacancy model flags 28,737 likely-vacant lots and 9,041 likely-vacant buildings. Affordable housing production lists 501 DHCD-funded projects delivering 19,249 units since 1994.  Each collection ships as GeoParquet in the source CRS, EPSG:3857, with PMTiles for rendering and two to three verified map styles. Start at the catalog [AGENTS.md](AGENTS.md) for join keys, worked queries, and the data quirks that cause most wrong answers.",
+        "access": "public",
+        "created": "2026-08-26T15:15:59.726Z",
+        "updated": "2026-08-26T15:15:59.726Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "Planet Labs STAC Catalog",
         "id": 44,
         "url": "https://www.planet.com/data/stac/catalog.json",
@@ -1518,6 +1531,19 @@
         "updated": "2026-06-27T20:25:41.414Z",
         "isPrivate": false,
         "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "Super-Resolved Sentinel-2 2.5m STAC API",
+        "id": 187,
+        "url": "https://console.semablu.com/py/stac",
+        "slug": "super-resolved-sentinel-2-2-5m-stac-api",
+        "summary": "Live search over the Copernicus Sentinel-2 L2A catalogue (STAC Core + Item Search). Every Item also exposes a paywalled 'sr' asset for ordering 2.5m AI super-resolved imagery over a custom AOI via the Semablu API. Free, unauthenticated browsing; SR orders need an API key and credits. See [API docs](https://console.semablu.com/api-docs).",
+        "access": "public",
+        "created": "2026-08-26T22:58:38.881Z",
+        "updated": "2026-08-26T22:58:38.881Z",
+        "isPrivate": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
