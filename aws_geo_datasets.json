@@ -13345,6 +13345,38 @@
         "ControlledAccess": null
     },
     {
+        "Name": "Met Office Global DCPP hindcast data from CMIP6",
+        "Description": "CMIP6 standards-compliant netCDF data",
+        "ARN": "arn:aws:s3:::met-office-cmip6",
+        "Region": "eu-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://met-office-cmip6.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "(https://github.com/MetOffice/ASDI-CMIP6-DCPP-hindcast)",
+        "Contact": "https://github.com/MetOffice/ASDI-CMIP6-DCPP-hindcast",
+        "ManagedBy": "[Met Office](https://www.metoffice.gov.uk)",
+        "UpdateFrequency": "Rare once complete",
+        "License": "CMIP6 data included is licensed under CC-BY 4.0 (see [here](https://wcrp-cmip.github.io/CMIP6_CVs/docs/CMIP6_source_id_licenses.html).",
+        "Tags": [
+            "climate",
+            "model",
+            "climate model",
+            "atmosphere",
+            "oceans",
+            "land",
+            "ice",
+            "geospatial",
+            "aws-pds",
+            "sustainability",
+            "CMIP6"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "Met Office Global Deterministic 10km on a 2-year rolling archive - Met Office Global Deterministic 10km on a 2-year rolling archive",
         "Description": "Met Office Global Deterministic 10km on a 2-year rolling archive",
         "ARN": "arn:aws:s3:::met-office-atmospheric-model-data",
