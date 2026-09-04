@@ -7673,6 +7673,60 @@
         "ControlledAccess": null
     },
     {
+        "Name": "ECCC HRDPS - dynamical.org Icechunk Zarr - ECCC HRDPS Icechunk Zarr data",
+        "Description": "ECCC HRDPS Icechunk Zarr data",
+        "ARN": "arn:aws:s3:::dynamical-eccc-hrdps",
+        "Region": "us-west-2",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[Browse Bucket](https://dynamical-eccc-hrdps.s3.amazonaws.com/index.html)"
+        ],
+        "Documentation": "https://dynamical.org/catalog/",
+        "Contact": "feedback@dynamical.org",
+        "ManagedBy": "[dynamical.org](https://dynamical.org)",
+        "UpdateFrequency": "ECCC HRDPS forecast: Forecasts initialized every 6 hours",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "atmosphere",
+            "meteorological",
+            "climate",
+            "forecast",
+            "zarr"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "ECCC HRDPS - dynamical.org Icechunk Zarr - Notifications for dataset updates",
+        "Description": "Notifications for dataset updates",
+        "ARN": "arn:aws:sns:us-west-2:761136292730:dynamical-eccc-hrdps-object_created",
+        "Region": "us-west-2",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://dynamical.org/catalog/",
+        "Contact": "feedback@dynamical.org",
+        "ManagedBy": "[dynamical.org](https://dynamical.org)",
+        "UpdateFrequency": "ECCC HRDPS forecast: Forecasts initialized every 6 hours",
+        "License": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+        "Tags": [
+            "aws-pds",
+            "weather",
+            "atmosphere",
+            "meteorological",
+            "climate",
+            "forecast",
+            "zarr"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
         "Name": "ECMWF AIFS ENS - dynamical.org Icechunk Zarr - ECMWF AIFS ENS Icechunk Zarr data",
         "Description": "ECMWF AIFS ENS Icechunk Zarr data",
         "ARN": "arn:aws:s3:::dynamical-ecmwf-aifs-ens",
@@ -178551,8 +178605,36 @@
         "ControlledAccess": null
     },
     {
-        "Name": "NOAA Coastal Lidar Data - NOAA Coastal Lidar Dataset",
-        "Description": "NOAA Coastal Lidar Dataset",
+        "Name": "NOAA Coastal Lidar Data - NOAA Coastal Lidar Dataset Cloud Optimized Point Cloud (COPC)",
+        "Description": "NOAA Coastal Lidar Dataset Cloud Optimized Point Cloud (COPC)",
+        "ARN": "arn:aws:s3:::noaa-nos-coastal-lidar-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://noaa-nos-coastal-lidar-pds.s3.us-east-1.amazonaws.com/laz/stac/catalog.json)"
+        ],
+        "Documentation": "https://coast.noaa.gov/digitalcoast/data/coastallidar.html and https://coast.noaa.gov/digitalcoast/data/jalbtcx.html. A table providing the dataset names and links is at https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/index.html",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. <br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](https://www.noaa.gov/)",
+        "UpdateFrequency": "Periodically, as new data becomes available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "elevation",
+            "disaster response",
+            "geospatial",
+            "lidar",
+            "stac"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "NOAA Coastal Lidar Data - NOAA Coastal Lidar Dataset Entwine Point Tiles",
+        "Description": "NOAA Coastal Lidar Dataset Entwine Point Tiles",
         "ARN": "arn:aws:s3:::noaa-nos-coastal-lidar-pds",
         "Region": "us-east-1",
         "Type": "S3 Bucket",
@@ -178585,6 +178667,34 @@
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
+        "Documentation": "https://coast.noaa.gov/digitalcoast/data/coastallidar.html and https://coast.noaa.gov/digitalcoast/data/jalbtcx.html. A table providing the dataset names and links is at https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/index.html",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. <br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](https://www.noaa.gov/)",
+        "UpdateFrequency": "Periodically, as new data becomes available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "climate",
+            "elevation",
+            "disaster response",
+            "geospatial",
+            "lidar",
+            "stac"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "NOAA Coastal Lidar Data - NOAA Coastal Lidar Dataset Raster DEMs",
+        "Description": "NOAA Coastal Lidar Dataset Raster DEMs",
+        "ARN": "arn:aws:s3:::noaa-nos-coastal-lidar-pds",
+        "Region": "us-east-1",
+        "Type": "S3 Bucket",
+        "Explore": [
+            "[STAC V1.0.0 endpoint](https://noaa-nos-coastal-lidar-pds.s3.us-east-1.amazonaws.com/dem/stac/catalog.json)"
+        ],
         "Documentation": "https://coast.noaa.gov/digitalcoast/data/coastallidar.html and https://coast.noaa.gov/digitalcoast/data/jalbtcx.html. A table providing the dataset names and links is at https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/index.html",
         "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. For general questions or feedback about the data, please submit inquiries through the NOAA Office for Coastal Management Contact Form https://coast.noaa.gov/contactform/. <br> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
         "ManagedBy": "[NOAA](https://www.noaa.gov/)",
@@ -180626,6 +180736,30 @@
     {
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
+        "Region": "us-east-1",
+        "Type": "SNS Topic",
+        "Explore": null,
+        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
+        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
+        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
+        "UpdateFrequency": "New data is added as soon as it's available",
+        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
+        "Tags": [
+            "aws-pds",
+            "agriculture",
+            "climate",
+            "meteorological",
+            "weather"
+        ],
+        "RequesterPays": null,
+        "AccountRequired": null,
+        "Host": null,
+        "ControlledAccess": null
+    },
+    {
+        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
+        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewSNPPObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
@@ -180651,30 +180785,6 @@
         "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
         "ARN": "arn:aws:sns:us-east-1:709902155096:NewNOAA21Object",
-        "Region": "us-east-1",
-        "Type": "SNS Topic",
-        "Explore": null,
-        "Documentation": "https://github.com/NOAA-Big-Data-Program/bdp-data-docs/tree/main/JPSS",
-        "Contact": "For any questions regarding data delivery or any general questions regarding the NOAA Open Data Dissemination (NODD) Program, email the NODD Team at nodd@noaa.gov. <br /> We also seek to identify case studies on how NOAA data is being used and will be featuring those stories in joint publications and in upcoming events. If you are interested in seeing your story highlighted, please share it with the NODD team by emailing nodd@noaa.gov",
-        "ManagedBy": "[NOAA](http://www.noaa.gov/)",
-        "UpdateFrequency": "New data is added as soon as it's available",
-        "License": "NOAA data disseminated through NODD are open to the public and can be used as desired. <br/> <br/> NOAA makes data openly available to ensure maximum use of our data, and to spur and encourage exploration and innovation throughout the industry. NOAA requests attribution for the use or dissemination of unaltered NOAA data. However, it is not permissible to state or imply endorsement by or affiliation with NOAA. If you modify NOAA data, you may not state or imply that it is original, unaltered NOAA data.",
-        "Tags": [
-            "aws-pds",
-            "agriculture",
-            "climate",
-            "meteorological",
-            "weather"
-        ],
-        "RequesterPays": null,
-        "AccountRequired": null,
-        "Host": null,
-        "ControlledAccess": null
-    },
-    {
-        "Name": "NOAA Joint Polar Satellite System (JPSS) - New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "Description": "New data notifications for JPSS data, only Lambda and SQS protocols allowed",
-        "ARN": "arn:aws:sns:us-east-1:709902155096:NewJPSSObject",
         "Region": "us-east-1",
         "Type": "SNS Topic",
         "Explore": null,
