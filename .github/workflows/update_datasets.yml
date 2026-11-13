@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: setup python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: "3.10"
 
@@ -24,8 +24,10 @@ jobs:
         run: |
           python auto_update.py
       - name: file_check
+        if: ${{ !cancelled() }}
         run: ls -l -a
       - name: commit files
+        if: ${{ !cancelled() }}
         continue-on-error: true
         run: |
           today=$(date +"%Y-%m-%d")
@@ -35,6 +37,7 @@ jobs:
           git commit -m "Updated datasets ${today} UTC" -a
           git pull origin master
       - name: push changes
+        if: ${{ !cancelled() }}
         continue-on-error: true
         uses: ad-m/github-push-action@master
         with:
