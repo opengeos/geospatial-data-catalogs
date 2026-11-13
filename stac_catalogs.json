@@ -780,6 +780,19 @@
         "accessInfo": null
     },
     {
+        "title": "IGIO STAC",
+        "id": 192,
+        "url": "https://stac.gisdata.in.gov",
+        "slug": "igio-stac",
+        "summary": "The SpatioTemporal Asset Catalog (STAC) Portal provides easy access to Indiana\u2019s LiDAR-derived data, including DTM, DSM, NDHM, point clouds, and orthoimagery. Users can browse, search, and download elevation products through an interactive map or connect programmatically using STAC APIs for advanced applications.",
+        "access": "public",
+        "created": "2026-10-12T14:54:42.895Z",
+        "updated": "2026-10-12T14:54:42.895Z",
+        "isPrivate": false,
+        "isApi": true,
+        "accessInfo": null
+    },
+    {
         "title": "INPE STAC Server",
         "id": 147,
         "url": "https://data.inpe.br/bdc/stac/v1/",
@@ -1261,6 +1274,19 @@
         "accessInfo": null
     },
     {
+        "title": "PDOK APIs and services",
+        "id": 193,
+        "url": "https://bertt.github.io/pdok-stac/catalog.json",
+        "slug": "pdok-apis-and-services",
+        "summary": "STAC catalog of all PDOK APIs listed in https://api.pdok.nl/index.json, with WMS/WFS/WMTS/WCS/ATOM services from https://www.pdok.nl/datasets (generated on 2026-10-14T07:52:55Z).",
+        "access": "public",
+        "created": "2026-10-14T20:20:02.073Z",
+        "updated": "2026-10-14T20:20:02.073Z",
+        "isPrivate": false,
+        "isApi": false,
+        "accessInfo": null
+    },
+    {
         "title": "PGC Data Catalog",
         "id": 184,
         "url": "https://stac.pgc.umn.edu/api/v1/",
@@ -1272,6 +1298,32 @@
         "isPrivate": false,
         "isApi": true,
         "accessInfo": null
+    },
+    {
+        "title": "PSL / Mines Paris / OIE | STAC Catalog | Renewable energy datasets ",
+        "id": 190,
+        "url": "https://stac.webservice-energy.org/api/",
+        "slug": "oie-stac-catalog",
+        "summary": "A searchable catalog of renewable energy and environmental datasets, maintained by the Observation, Impacts, Energy (O.I.E.) center at MINES Paris \u2014 PSL / ARMINES. The integrated STAC (SpatioTemporal Asset Catalog) API, which follows the open STAC specification, enables users to access detailed asset-level metadata, including spatial coverage, temporal extent, and data specifications. This standardized interface facilitates efficient discovery and retrieval of solar radiation, in-situ measurement, and other renewable energy and environmental resources.",
+        "access": "public",
+        "created": "2026-10-08T09:59:00.084Z",
+        "updated": "2026-10-08T09:59:00.084Z",
+        "isPrivate": false,
+        "isApi": true,
+        "accessInfo": null
+    },
+    {
+        "title": "PSUP Data",
+        "id": 194,
+        "url": "http://idoc-stac.ias.u-psud.fr/",
+        "slug": "psup-data",
+        "summary": "This beta STAC catalog contains Mars data collections and sub-catalogs currently hosted and distributed by PSUP (Planetary SUrface Portal).",
+        "access": "private",
+        "created": "2026-10-16T08:58:48.107Z",
+        "updated": "2026-10-16T08:58:48.107Z",
+        "isPrivate": true,
+        "isApi": false,
+        "accessInfo": "The catalog is still in beta from now on, but it already contains some metadata. Note that the downloadable data is still not yes accessible."
     },
     {
         "title": "Paituli STAC (Finland)",
@@ -1453,6 +1505,19 @@
         "updated": "2026-06-27T20:24:35.828Z",
         "isPrivate": false,
         "isApi": false,
+        "accessInfo": null
+    },
+    {
+        "title": "STAC for Data to Science",
+        "id": 191,
+        "url": "https://stac.d2s.org/api/v1/",
+        "slug": "stac-for-data-to-science",
+        "summary": "STAC for Digital Forestry at Purdue University and Geospatial Data Science Lab",
+        "access": "public",
+        "created": "2026-10-12T14:52:52.077Z",
+        "updated": "2026-10-12T14:52:52.077Z",
+        "isPrivate": false,
+        "isApi": true,
         "accessInfo": null
     },
     {
