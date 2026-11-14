@@ -56344,7 +56344,7 @@
     {
         "id": "AVHRR_Fire_Products_1545_1",
         "title": "ABoVE: AVHRR-Derived Forest Fire Burned Area-Hot Spots, Alaska and Canada, 1989-2000",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "1989-05-01",
         "end_date": "2000-10-31",
         "bbox": "-165.186, 41.7216, -53.1678, 69.007",
@@ -56357,7 +56357,7 @@
     {
         "id": "AVHRR_Fire_Products_1545_1",
         "title": "ABoVE: AVHRR-Derived Forest Fire Burned Area-Hot Spots, Alaska and Canada, 1989-2000",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1989-05-01",
         "end_date": "2000-10-31",
         "bbox": "-165.186, 41.7216, -53.1678, 69.007",
@@ -56560,6 +56560,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2711871294-ORNL_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/AVIRIS-Classic_L2_Reflectance_2154_1",
         "description": "This dataset contains Level 2 (L2) orthocorrected reflectance from the Airborne Visible / Infrared Imaging Spectrometer (AVIRIS-Classic) instrument. This is the NASA Earth Observing System Data and Information System (EOSDIS) facility instrument archive of these data. The NASA AVIRIS-Classic is a pushbroom spectral mapping system with high signal-to-noise ratio (SNR), designed and toleranced for high performance spectroscopy. AVIRIS-Classic measures reflected radiance in 224 contiguous bands at approximately 10-nm intervals in the Visible to Shortwave Infrared (VSWIR) spectral range from 400-2500 nm. The AVIRIS-Classic sensor has a 1 milliradian instantaneous field of view, providing altitude dependent ground sampling distances from 20 m to sub meter range. AVIRIS-Classic is flown on a variety of aircraft platforms including the Twin Otter, NASA's WB-57, and NASA's high altitude ER-2. For each flight line, two types of L2 data files may be included: (a) calibrated surface reflectance and (b) water vapor and optical absorption paths for liquid water and ice. The L2 data are provided in ENVI format, which includes a flat binary file accompanied by a header (.hdr) file holding metadata in text format. This archive currently includes data from 2008 - 2025. Additional AVIRIS-Classic facility instrument L2 data will be added as they become available. AVIRIS-Classic supports NASA Science and applications in many areas including plant composition and function, geology and soils, greenhouse gas mapping, and calibration of orbital platforms.",
+        "license": "CC0-1.0"
+    },
+    {
+        "id": "AVIRIS-NG_ARCSIX_2024_2535_1",
+        "title": "AVIRIS-NG L1B and L2A data for ARCSIX",
+        "catalog": "ORNL_CLOUD STAC Catalog",
+        "state_date": "2024-05-30",
+        "end_date": "2024-08-16",
+        "bbox": "-108.338, 36.6947, 1.69083, 85.7889",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C4410694554-ORNL_CLOUD.umm_json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4410694554-ORNL_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/ORNL_CLOUD/collections/AVIRIS-NG_ARCSIX_2024_2535_1",
+        "description": "This dataset contains Level 1B (L1B) calibrated radiance and Level 2A (L2A) orthocorrected surface reflectance products from the Airborne Visible / Infrared Imaging Spectrometer-Next Generation (AVIRIS-NG) instrument acquired between 2024-05-30 and 2024-08-16 for the Arctic Radiation-Cloud Aerosol-Surface Interaction Experiment (ARCSIX) project. ARCSIX was a NASA field investigation aimed at quantifying the contributions of surface properties, clouds, aerosol particles, and precipitation to the Arctic summer surface radiation budget and to sea ice melting during the early melt season. The L1B files include calibrated radiance. These data are georeferenced but not orthorectified; the L1B files include orthocorrected pixel locations in geographic coordinates and a geometric lookup table, which provides projected coordinates in a UTM grid. The L2A files hold orthocorrected surface hemispherical directional reflectance derived from calibrated radiance using an optimal estimation algorithm. These files include estimates of atmospheric aerosol optical thickness (AOT) and column water vapor. The L2A data are projected in a UTM coordinate system. The NASA AVIRIS-NG instrument is a pushbroom spectral mapping system with high signal-to-noise ratio (SNR), designed and toleranced for high-performance spectroscopy. AVIRIS-NG measures reflected radiance at 5-nm intervals in the Visible to Shortwave Infrared (VSWIR) spectral range from 380-2510 nm. The AVIRIS-NG sensor has a 1 milliradian instantaneous field of view, providing altitude dependent ground sampling distances from 20 m to sub meter range. AVIRIS-NG was flown on a NASA Gulfstream III aircraft. These AVIRIS-NG L1B and L2A data are provided in NetCDF format.",
         "license": "CC0-1.0"
     },
     {
@@ -56773,7 +56786,7 @@
     {
         "id": "Active_Fluorescence_2001_0",
         "title": "Active fluorescence measurements in the Gulf Stream in 2001",
-        "catalog": "OB_DAAC STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2001-06-01",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
@@ -56786,7 +56799,7 @@
     {
         "id": "Active_Fluorescence_2001_0",
         "title": "Active fluorescence measurements in the Gulf Stream in 2001",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "OB_DAAC STAC Catalog",
         "state_date": "2001-06-01",
         "end_date": "",
         "bbox": "-180, -90, 180, 90",
@@ -56799,7 +56812,7 @@
     {
         "id": "Active_Layer_Thaw_Depths_1701_1",
         "title": "ABoVE: Soil Active Layer Thaw Depths at CRREL sites near Fairbanks, Alaska, 2014-2018",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2014-10-15",
         "end_date": "2018-10-15",
         "bbox": "-147.74, 64.8677, -147.612, 64.9511",
@@ -56812,7 +56825,7 @@
     {
         "id": "Active_Layer_Thaw_Depths_1701_1",
         "title": "ABoVE: Soil Active Layer Thaw Depths at CRREL sites near Fairbanks, Alaska, 2014-2018",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2014-10-15",
         "end_date": "2018-10-15",
         "bbox": "-147.74, 64.8677, -147.612, 64.9511",
@@ -56916,7 +56929,7 @@
     {
         "id": "Aeolus-CalVal-Dropsondes_DC8_1",
         "title": "Aeolus CalVal Dropsonde Profiles",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2019-04-18",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56929,7 +56942,7 @@
     {
         "id": "Aeolus-CalVal-Dropsondes_DC8_1",
         "title": "Aeolus CalVal Dropsonde Profiles",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2019-04-18",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56942,7 +56955,7 @@
     {
         "id": "Aeolus-CalVal-HALO_DC8_1",
         "title": "Aeolus CalVal HALO Aerosol and Water Vapor Profiles and Images",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2019-04-17",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56955,7 +56968,7 @@
     {
         "id": "Aeolus-CalVal-HALO_DC8_1",
         "title": "Aeolus CalVal HALO Aerosol and Water Vapor Profiles and Images",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2019-04-17",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -57111,7 +57124,7 @@
     {
         "id": "AfriSAR_Mondah_Field_Data_1580_1",
         "title": "AfriSAR: Mondah Forest Tree Species, Biophysical, and Biomass Data, Gabon, 2016",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2016-03-01",
         "end_date": "2016-03-23",
         "bbox": "9.31622, 0.538705, 9.42251, 0.616939",
@@ -57124,7 +57137,7 @@
     {
         "id": "AfriSAR_Mondah_Field_Data_1580_1",
         "title": "AfriSAR: Mondah Forest Tree Species, Biophysical, and Biomass Data, Gabon, 2016",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-03-01",
         "end_date": "2016-03-23",
         "bbox": "9.31622, 0.538705, 9.42251, 0.616939",
@@ -57202,7 +57215,7 @@
     {
         "id": "AgriFieldNet Competition Dataset_1",
         "title": "AgriFieldNet Competition Dataset",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "MLHUB STAC Catalog",
         "state_date": "2020-01-01",
         "end_date": "2023-01-01",
         "bbox": "76.2448319, 18.9414403, 88.0460054, 28.3269976",
@@ -57215,7 +57228,7 @@
     {
         "id": "AgriFieldNet Competition Dataset_1",
         "title": "AgriFieldNet Competition Dataset",
-        "catalog": "MLHUB STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2020-01-01",
         "end_date": "2023-01-01",
         "bbox": "76.2448319, 18.9414403, 88.0460054, 28.3269976",
@@ -57306,7 +57319,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_DukeFr_1408_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Duke Forest, 2012-2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-10-13",
         "end_date": "2015-09-10",
         "bbox": "-80.0423, 35.3877, -78.503, 36.4334",
@@ -57319,7 +57332,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_DukeFr_1408_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Duke Forest, 2012-2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-10-13",
         "end_date": "2015-09-10",
         "bbox": "-80.0423, 35.3877, -78.503, 36.4334",
@@ -57410,7 +57423,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_Metoli_1412_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Metolius, 2012-2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-09-18",
         "end_date": "2015-09-29",
         "bbox": "-122.861, 43.9931, -120.892, 44.6942",
@@ -57423,7 +57436,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_Metoli_1412_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Metolius, 2012-2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-09-18",
         "end_date": "2015-09-29",
         "bbox": "-122.861, 43.9931, -120.892, 44.6942",
@@ -57540,7 +57553,7 @@
     {
         "id": "AirMOSS_L2_Carbon_Flux_1420_1",
         "title": "AirMOSS: L2 Airborne Carbon Flux at Selected AirMOSS Sites, 2012-2014",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-07-07",
         "end_date": "2014-06-01",
         "bbox": "-79.504, 35.77, -68.43, 45.643",
@@ -57553,7 +57566,7 @@
     {
         "id": "AirMOSS_L2_Carbon_Flux_1420_1",
         "title": "AirMOSS: L2 Airborne Carbon Flux at Selected AirMOSS Sites, 2012-2014",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-07-07",
         "end_date": "2014-06-01",
         "bbox": "-79.504, 35.77, -68.43, 45.643",
@@ -57566,7 +57579,7 @@
     {
         "id": "AirMOSS_L2_Inground_Soil_Moist_1416_1",
         "title": "AirMOSS: L2 Hourly In-Ground Soil Moisture at AirMOSS Sites, 2011-2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2011-09-01",
         "end_date": "2015-12-31",
         "bbox": "-121.558, 19.5086, -72.1712, 53.9169",
@@ -57579,7 +57592,7 @@
     {
         "id": "AirMOSS_L2_Inground_Soil_Moist_1416_1",
         "title": "AirMOSS: L2 Hourly In-Ground Soil Moisture at AirMOSS Sites, 2011-2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2011-09-01",
         "end_date": "2015-12-31",
         "bbox": "-121.558, 19.5086, -72.1712, 53.9169",
@@ -57618,7 +57631,7 @@
     {
         "id": "AirMOSS_L4_Daily_NEE_1422_1",
         "title": "AirMOSS: L4 Daily Modeled Net Ecosystem Exchange (NEE), AirMOSS sites, 2012-2014",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-01-01",
         "end_date": "2014-10-30",
         "bbox": "-122.883, 31.4912, -68.3359, 45.7861",
@@ -57631,7 +57644,7 @@
     {
         "id": "AirMOSS_L4_Daily_NEE_1422_1",
         "title": "AirMOSS: L4 Daily Modeled Net Ecosystem Exchange (NEE), AirMOSS sites, 2012-2014",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-01-01",
         "end_date": "2014-10-30",
         "bbox": "-122.883, 31.4912, -68.3359, 45.7861",
@@ -57644,7 +57657,7 @@
     {
         "id": "AirMOSS_L4_RZ_Soil_Moisture_1421_1",
         "title": "AirMOSS: L4 Modeled Volumetric Root Zone Soil Moisture, 2012-2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-09-21",
         "end_date": "2015-09-28",
         "bbox": "-123.283, 19.1247, -68.1237, 54.1254",
@@ -57657,7 +57670,7 @@
     {
         "id": "AirMOSS_L4_RZ_Soil_Moisture_1421_1",
         "title": "AirMOSS: L4 Modeled Volumetric Root Zone Soil Moisture, 2012-2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-09-21",
         "end_date": "2015-09-28",
         "bbox": "-123.283, 19.1247, -68.1237, 54.1254",
@@ -57670,7 +57683,7 @@
     {
         "id": "AirMOSS_L4_Regional_NEE_1423_1",
         "title": "AirMOSS: L4 Modeled Net Ecosystem Exchange (NEE), Continental USA, 2012-2014",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-01-01",
         "end_date": "2014-10-31",
         "bbox": "-124.938, 25.062, -66.937, 53.062",
@@ -57683,7 +57696,7 @@
     {
         "id": "AirMOSS_L4_Regional_NEE_1423_1",
         "title": "AirMOSS: L4 Modeled Net Ecosystem Exchange (NEE), Continental USA, 2012-2014",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-01-01",
         "end_date": "2014-10-31",
         "bbox": "-124.938, 25.062, -66.937, 53.062",
@@ -57696,7 +57709,7 @@
     {
         "id": "AirMSPI_ACEPOL_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 ellipsoid-projected georegistered radiance product acquired during the NASA ACEPOL flight campaign Oct-Nov 2017",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2017-10-19",
         "end_date": "2017-11-09",
         "bbox": "180, -90, -180, 90",
@@ -57709,7 +57722,7 @@
     {
         "id": "AirMSPI_ACEPOL_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 ellipsoid-projected georegistered radiance product acquired during the NASA ACEPOL flight campaign Oct-Nov 2017",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2017-10-19",
         "end_date": "2017-11-09",
         "bbox": "180, -90, -180, 90",
@@ -57722,7 +57735,7 @@
     {
         "id": "AirMSPI_ACEPOL_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the NASA ACEPOL flight campaign Oct-Nov 2017",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2017-10-19",
         "end_date": "2017-11-09",
         "bbox": "180, -90, -180, 90",
@@ -57735,7 +57748,7 @@
     {
         "id": "AirMSPI_ACEPOL_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the NASA ACEPOL flight campaign Oct-Nov 2017",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2017-10-19",
         "end_date": "2017-11-09",
         "bbox": "180, -90, -180, 90",
@@ -57774,7 +57787,7 @@
     {
         "id": "AirMSPI_CalWater-2_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI version 6 terrain-projected georegistered radiance product acquired during the CalWater-2 flight campaign Jan-Feb 2015",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2015-01-20",
         "end_date": "2015-02-24",
         "bbox": "180, -90, -180, 90",
@@ -57787,7 +57800,7 @@
     {
         "id": "AirMSPI_CalWater-2_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI version 6 terrain-projected georegistered radiance product acquired during the CalWater-2 flight campaign Jan-Feb 2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2015-01-20",
         "end_date": "2015-02-24",
         "bbox": "180, -90, -180, 90",
@@ -57800,7 +57813,7 @@
     {
         "id": "AirMSPI_FIREX-AQ_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI version  6 terrain-projected georegistered radiance product acquired during the FIREX-AQ flight campaign",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2019-08-01",
         "end_date": "2019-08-22",
         "bbox": "180, -90, -180, 90",
@@ -57813,7 +57826,7 @@
     {
         "id": "AirMSPI_FIREX-AQ_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI version  6 terrain-projected georegistered radiance product acquired during the FIREX-AQ flight campaign",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2019-08-01",
         "end_date": "2019-08-22",
         "bbox": "180, -90, -180, 90",
@@ -57852,7 +57865,7 @@
     {
         "id": "AirMSPI_ImPACT-PM_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the ImPACT-PM flight campaign",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-07-05",
         "end_date": "2016-07-08",
         "bbox": "180, -90, -180, 90",
@@ -57865,7 +57878,7 @@
     {
         "id": "AirMSPI_ImPACT-PM_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the ImPACT-PM flight campaign",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-07-05",
         "end_date": "2016-07-08",
         "bbox": "180, -90, -180, 90",
@@ -57878,7 +57891,7 @@
     {
         "id": "AirMSPI_ORACLES_Cloud_Droplet_Size_and_Cloud_Optical_Depth_1",
         "title": "AirMSPI version 1 cloud droplet size and cloud optical depth product acquired during the ORACLES flight campaign Jul-Oct 2016.",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-08-03",
         "end_date": "2016-09-29",
         "bbox": "180, -90, -180, 90",
@@ -57891,7 +57904,7 @@
     {
         "id": "AirMSPI_ORACLES_Cloud_Droplet_Size_and_Cloud_Optical_Depth_1",
         "title": "AirMSPI version 1 cloud droplet size and cloud optical depth product acquired during the ORACLES flight campaign Jul-Oct 2016.",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-08-03",
         "end_date": "2016-09-29",
         "bbox": "180, -90, -180, 90",
@@ -57904,7 +57917,7 @@
     {
         "id": "AirMSPI_ORACLES_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 ellipsoid-projected georegistered radiance product acquired during the NASA ORACLES flight campaign Jul-Oct 2016",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-07-28",
         "end_date": "2016-10-06",
         "bbox": "-126, -24, 15, 40",
@@ -57917,7 +57930,7 @@
     {
         "id": "AirMSPI_ORACLES_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 ellipsoid-projected georegistered radiance product acquired during the NASA ORACLES flight campaign Jul-Oct 2016",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-07-28",
         "end_date": "2016-10-06",
         "bbox": "-126, -24, 15, 40",
@@ -57930,7 +57943,7 @@
     {
         "id": "AirMSPI_ORACLES_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the NASA ORACLES flight campaign Jul-Oct 2016",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-07-28",
         "end_date": "2016-10-06",
         "bbox": "-126, -24, 15, 40",
@@ -57943,7 +57956,7 @@
     {
         "id": "AirMSPI_ORACLES_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the NASA ORACLES flight campaign Jul-Oct 2016",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-07-28",
         "end_date": "2016-10-06",
         "bbox": "-126, -24, 15, 40",
@@ -57982,7 +57995,7 @@
     {
         "id": "AirMSPI_PODEX_Terrain-projected_Georegistered_Radiance_Data_5",
         "title": "AirMSPI version 5 terrain-projected georegistered radiance product acquired during the NASA PODEX flight campaign Jan-Feb 2013",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2013-01-14",
         "end_date": "2013-02-06",
         "bbox": "-130, 28, -114, 42.5",
@@ -57995,7 +58008,7 @@
     {
         "id": "AirMSPI_PODEX_Terrain-projected_Georegistered_Radiance_Data_5",
         "title": "AirMSPI version 5 terrain-projected georegistered radiance product acquired during the NASA PODEX flight campaign Jan-Feb 2013",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2013-01-14",
         "end_date": "2013-02-06",
         "bbox": "-130, 28, -114, 42.5",
@@ -58034,7 +58047,7 @@
     {
         "id": "AirMSPI_RADEX_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the RADEX flight campaign",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2015-11-10",
         "end_date": "2015-12-13",
         "bbox": "180, -90, -180, 90",
@@ -58047,7 +58060,7 @@
     {
         "id": "AirMSPI_RADEX_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the RADEX flight campaign",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2015-11-10",
         "end_date": "2015-12-13",
         "bbox": "180, -90, -180, 90",
@@ -58138,7 +58151,7 @@
     {
         "id": "AirMSPI_SPEX-PR_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the SPEX-PR flight campaign",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-02-02",
         "end_date": "2016-02-09",
         "bbox": "180, -90, -180, 90",
@@ -58151,7 +58164,7 @@
     {
         "id": "AirMSPI_SPEX-PR_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the SPEX-PR flight campaign",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-02-02",
         "end_date": "2016-02-09",
         "bbox": "180, -90, -180, 90",
@@ -58216,7 +58229,7 @@
     {
         "id": "AirSWOT_Orthomosaic_WaterMask_1655_1",
         "title": "ABoVE: AirSWOT Radar, Orthomosaic, and Water Masks, Yukon Flats Basin, Alaska, 2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2015-06-15",
         "end_date": "2015-06-15",
         "bbox": "-148, 65.9282, -145, 66.8978",
@@ -58229,7 +58242,7 @@
     {
         "id": "AirSWOT_Orthomosaic_WaterMask_1655_1",
         "title": "ABoVE: AirSWOT Radar, Orthomosaic, and Water Masks, Yukon Flats Basin, Alaska, 2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2015-06-15",
         "end_date": "2015-06-15",
         "bbox": "-148, 65.9282, -145, 66.8978",
@@ -58372,7 +58385,7 @@
     {
         "id": "Alaska_Yukon_NDVI_1614_1",
         "title": "ABoVE: MODIS-derived Maximum NDVI, Northern Alaska and Yukon Territory for 2002-2017",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2002-06-01",
         "end_date": "2017-08-30",
         "bbox": "-175.762, 52.1694, -97.9305, 68.9658",
@@ -58385,7 +58398,7 @@
     {
         "id": "Alaska_Yukon_NDVI_1614_1",
         "title": "ABoVE: MODIS-derived Maximum NDVI, Northern Alaska and Yukon Territory for 2002-2017",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2002-06-01",
         "end_date": "2017-08-30",
         "bbox": "-175.762, 52.1694, -97.9305, 68.9658",
@@ -58593,7 +58606,7 @@
     {
         "id": "Annual_Landcover_ABoVE_1691_1",
         "title": "ABoVE: Landsat-derived Annual Dominant Land Cover Across ABoVE Core Domain, 1984-2014",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1984-01-01",
         "end_date": "2014-12-31",
         "bbox": "-170.006, 50.259, -98.974, 76.2257",
@@ -58606,7 +58619,7 @@
     {
         "id": "Annual_Landcover_ABoVE_1691_1",
         "title": "ABoVE: Landsat-derived Annual Dominant Land Cover Across ABoVE Core Domain, 1984-2014",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "1984-01-01",
         "end_date": "2014-12-31",
         "bbox": "-170.006, 50.259, -98.974, 76.2257",
@@ -58619,7 +58632,7 @@
     {
         "id": "Annual_Seasonality_Greenness_1698_1",
         "title": "ABoVE: Annual Phenology Derived from Landsat across the ABoVE Core Domain, 1984-2014",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "1984-01-01",
         "end_date": "2014-12-31",
         "bbox": "-170.006, 50.259, -98.974, 75.0139",
@@ -58632,7 +58645,7 @@
     {
         "id": "Annual_Seasonality_Greenness_1698_1",
         "title": "ABoVE: Annual Phenology Derived from Landsat across the ABoVE Core Domain, 1984-2014",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1984-01-01",
         "end_date": "2014-12-31",
         "bbox": "-170.006, 50.259, -98.974, 75.0139",
@@ -60296,7 +60309,7 @@
     {
         "id": "Arctic_Boreal_CO2_Flux_V2_2448_1",
         "title": "ABCFlux v2: Arctic-Boreal CO2 and CH4 In-situ Flux and Environmental Data",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1984-05-01",
         "end_date": "2024-12-31",
         "bbox": "-165.833, 43.323, 161.843, 82.8226",
@@ -60309,7 +60322,7 @@
     {
         "id": "Arctic_Boreal_CO2_Flux_V2_2448_1",
         "title": "ABCFlux v2: Arctic-Boreal CO2 and CH4 In-situ Flux and Environmental Data",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "1984-05-01",
         "end_date": "2024-12-31",
         "bbox": "-165.833, 43.323, 161.843, 82.8226",
@@ -61804,7 +61817,7 @@
     {
         "id": "BANd0127_113",
         "title": "Administrative Districts map of Thmarpouk province, Cambodia",
-        "catalog": "CEOS_EXTRA STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1970-01-01",
         "end_date": "",
         "bbox": "102.28, 10.07, 107.98, 14.86",
@@ -61817,7 +61830,7 @@
     {
         "id": "BANd0127_113",
         "title": "Administrative Districts map of Thmarpouk province, Cambodia",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "CEOS_EXTRA STAC Catalog",
         "state_date": "1970-01-01",
         "end_date": "",
         "bbox": "102.28, 10.07, 107.98, 14.86",
@@ -62844,7 +62857,7 @@
     {
         "id": "BANd0216_113",
         "title": "Administrative map of Vietnam",
-        "catalog": "CEOS_EXTRA STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1970-01-01",
         "end_date": "",
         "bbox": "101.43, 7.75, 110.25, 24.05",
@@ -62857,7 +62870,7 @@
     {
         "id": "BANd0216_113",
         "title": "Administrative map of Vietnam",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "CEOS_EXTRA STAC Catalog",
         "state_date": "1970-01-01",
         "end_date": "",
         "bbox": "101.43, 7.75, 110.25, 24.05",
