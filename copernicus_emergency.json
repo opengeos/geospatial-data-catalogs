@@ -1,6 +1,94 @@
 [
     {
         "type": "Collection",
+        "id": "cems-fire-historical-v1",
+        "stac_version": "1.1.0",
+        "title": "Fire danger indices historical data from the Copernicus Emergency Management Service",
+        "description": "This data set provides complete historical reconstruction of meteorological conditions favourable to the start, spread and sustainability of fires. The fire danger metrics  provided are part of a vast dataset produced by the Copernicus Emergency Management Service for the\nEuropean Forest Fire Information System (EFFIS). The European Forest Fire Information System incorporates the fire danger indices for three different models developed in Canada, United States and Australia. In this dataset the fire danger indices are calculated using weather forecast from historical simulations provided by ECMWF ERA5 reanalysis.\nERA5 by combining  model data and  a vast set of quality controlled observations provides a  globally complete and consistent data-set and is regarded as a good proxy for observed atmospheric conditions.\nThe selected data records in this data set are regularly extended with time as ERA5 forcing data become available. \nThis dataset is produced by ECMWF in its role of the computational centre for fire danger forecast of the CEMS,  on behalf of the Joint Research Centre which is the managing entity of the service.",
+        "summaries": "{}",
+        "providers": [
+            {
+                "name": "Copernicus Emergency Management Service"
+            }
+        ],
+        "keywords": [
+            "Product type: Reanalysis",
+            "Temporal coverage: Past",
+            "Spatial coverage: Global",
+            "Variable domain: Land (biosphere)",
+            "Provider: Copernicus CEMS"
+        ],
+        "license": "CC-BY-4.0",
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        0,
+                        -90,
+                        360,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "1940-01-03T00:00:00Z",
+                        "2026-11-12T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-fire-historical-v1"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-fire-historical-v1/overview_7d52aa9bfd619151f13dba1d6a0c625edcb157696f3fbf0db3c24f0993f45e77.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/ObVmZLmujWun1v8ODWaaRNfQEAo=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-fire-historical-v1/overview_7d52aa9bfd619151f13dba1d6a0c625edcb157696f3fbf0db3c24f0993f45e77.png"
+            }
+        },
+        "published": "2019-09-30T00:00:00Z",
+        "updated": "2026-11-14T00:00:00Z",
+        "sci:doi": "10.24381/cds.0e89c522",
+        "cads:message": {
+            "id": "contents/cems/2026-11-12-warning-cems-fire.md",
+            "date": "2026-11-12T00:00:00Z",
+            "summary": null,
+            "url": null,
+            "severity": "warning",
+            "content": "On Monday, 16th November 2026, updates to this dataset will cease until further notice. A new mars configuration is required to support this dataset into the future.\nPlease see [this page](https://confluence.ecmwf.int/spaces/CEMS/pages/738062330/Upgrade+of+the+Global+Wildfire+Mars+structure) for further details.",
+            "live": true,
+            "show_date": true
+        },
+        "cads:disabled_reason": null,
+        "cads:sanity_check": {
+            "status": "available",
+            "timestamp": "2026-11-15T03:15:45.472371+00:00"
+        },
+        "cads:update_frequency": "Daily",
+        "cads:fair": 92
+    },
+    {
+        "type": "Collection",
         "id": "efas-historical",
         "stac_version": "1.1.0",
         "title": "River discharge and related historical data from the European Flood Awareness System",
@@ -34,7 +122,7 @@
                 "interval": [
                     [
                         "1991-01-01T00:00:00Z",
-                        "2026-11-04T00:00:00Z"
+                        "2026-11-11T00:00:00Z"
                     ]
                 ]
             }
@@ -67,90 +155,13 @@
             }
         },
         "published": "2019-05-09T00:00:00Z",
-        "updated": "2026-11-07T00:00:00Z",
+        "updated": "2026-11-14T00:00:00Z",
         "sci:doi": "10.24381/cds.e3458969",
+        "cads:message": null,
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-11-08T02:15:54.501237+00:00"
-        },
-        "cads:update_frequency": "Daily",
-        "cads:fair": 84
-    },
-    {
-        "type": "Collection",
-        "id": "cems-glofas-forecast",
-        "stac_version": "1.1.0",
-        "title": "River discharge and related forecasted data by the Global Flood Awareness System",
-        "description": "This dataset provides an ensemble of forecast time series of gridded hydrological data. The data set is a product of the Global Flood Awareness System (GloFAS) and offers a consistent representation of key hydrological variables across the global domain including:\n\nRiver discharge\nSoil wetness index (root zone)\nSnow water equivalent\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are two ancillary files for interpretation, one containing upstream area data and the other containing elevation data (see the table of related variables and the associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model with input from the European Centre for Medium-range Weather Forecasts (ECMWF) ensemble forecast combined with the ECMWF extended-range ensemble forecast up to 30 days.\nCompanion datasets, also available through the EWDS, are historical simulations which can be used to derive the hydrological climatology and for verification; reforecasts for research, local skill assessment and post-processing; and seasonal forecasts and reforecasts for users looking for longer leadtime forecasts. For users looking specifically for European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations.\nAll the GloFAS and EFAS datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
-        "summaries": "{}",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Global",
-            "Provider: Copernicus CEMS",
-            "Variable domain: Land (hydrology)",
-            "Product type: Forecasts"
-        ],
-        "license": "other",
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        0,
-                        -70,
-                        360,
-                        70
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2019-11-05T00:00:00Z",
-                        "2026-11-07T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-forecast"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-forecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/5Ei37SA8oZby9C0Xvw2VoF6dWag=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-glofas-forecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png"
-            }
-        },
-        "published": "2020-05-19T00:00:00Z",
-        "updated": "2026-11-07T00:00:00Z",
-        "sci:doi": "10.24381/cds.ff1aef77",
-        "cads:disabled_reason": null,
-        "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-11-08T02:15:33.993550+00:00"
+            "timestamp": "2026-11-15T03:15:26.009108+00:00"
         },
         "cads:update_frequency": "Daily",
         "cads:fair": 84
@@ -190,7 +201,7 @@
                 "interval": [
                     [
                         "1979-01-01T00:00:00Z",
-                        "2026-11-03T00:00:00Z"
+                        "2026-11-11T00:00:00Z"
                     ]
                 ]
             }
@@ -223,52 +234,53 @@
             }
         },
         "published": "2019-11-05T00:00:00Z",
-        "updated": "2026-11-06T00:00:00Z",
+        "updated": "2026-11-14T00:00:00Z",
         "sci:doi": "10.24381/cds.a4fdd6b9",
+        "cads:message": null,
         "cads:disabled_reason": null,
         "cads:sanity_check": {
-            "status": "down",
-            "timestamp": "2026-11-08T02:15:36.688686+00:00"
+            "status": "available",
+            "timestamp": "2026-11-15T03:16:01.982676+00:00"
         },
         "cads:update_frequency": "Daily",
         "cads:fair": 84
     },
     {
         "type": "Collection",
-        "id": "cems-fire-historical-v1",
+        "id": "cems-glofas-forecast",
         "stac_version": "1.1.0",
-        "title": "Fire danger indices historical data from the Copernicus Emergency Management Service",
-        "description": "This data set provides complete historical reconstruction of meteorological conditions favourable to the start, spread and sustainability of fires. The fire danger metrics  provided are part of a vast dataset produced by the Copernicus Emergency Management Service for the\nEuropean Forest Fire Information System (EFFIS). The European Forest Fire Information System incorporates the fire danger indices for three different models developed in Canada, United States and Australia. In this dataset the fire danger indices are calculated using weather forecast from historical simulations provided by ECMWF ERA5 reanalysis.\nERA5 by combining  model data and  a vast set of quality controlled observations provides a  globally complete and consistent data-set and is regarded as a good proxy for observed atmospheric conditions.\nThe selected data records in this data set are regularly extended with time as ERA5 forcing data become available. \nThis dataset is produced by ECMWF in its role of the computational centre for fire danger forecast of the CEMS,  on behalf of the Joint Research Centre which is the managing entity of the service.",
+        "title": "River discharge and related forecasted data by the Global Flood Awareness System",
+        "description": "This dataset provides an ensemble of forecast time series of gridded hydrological data. The data set is a product of the Global Flood Awareness System (GloFAS) and offers a consistent representation of key hydrological variables across the global domain including:\n\nRiver discharge\nSoil wetness index (root zone)\nSnow water equivalent\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are two ancillary files for interpretation, one containing upstream area data and the other containing elevation data (see the table of related variables and the associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model with input from the European Centre for Medium-range Weather Forecasts (ECMWF) ensemble forecast combined with the ECMWF extended-range ensemble forecast up to 30 days.\nCompanion datasets, also available through the EWDS, are historical simulations which can be used to derive the hydrological climatology and for verification; reforecasts for research, local skill assessment and post-processing; and seasonal forecasts and reforecasts for users looking for longer leadtime forecasts. For users looking specifically for European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations.\nAll the GloFAS and EFAS datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
         "summaries": "{}",
         "providers": [
             {
-                "name": "Copernicus Emergency Management Service"
+                "name": "ECMWF"
             }
         ],
         "keywords": [
-            "Product type: Reanalysis",
             "Temporal coverage: Past",
             "Spatial coverage: Global",
-            "Variable domain: Land (biosphere)",
-            "Provider: Copernicus CEMS"
+            "Provider: Copernicus CEMS",
+            "Variable domain: Land (hydrology)",
+            "Product type: Forecasts"
         ],
-        "license": "CC-BY-4.0",
+        "license": "other",
         "extent": {
             "spatial": {
                 "bbox": [
                     [
                         0,
-                        -90,
+                        -70,
                         360,
-                        90
+                        70
                     ]
                 ]
             },
             "temporal": {
                 "interval": [
                     [
-                        "1940-01-03T00:00:00Z",
-                        "2026-11-04T00:00:00Z"
+                        "2019-11-05T00:00:00Z",
+                        "2026-11-14T00:00:00Z"
                     ]
                 ]
             }
@@ -277,7 +289,7 @@
             {
                 "rel": "self",
                 "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-fire-historical-v1"
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-forecast"
             },
             {
                 "rel": "parent",
@@ -292,24 +304,262 @@
         ],
         "assets": {
             "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-fire-historical-v1/overview_7d52aa9bfd619151f13dba1d6a0c625edcb157696f3fbf0db3c24f0993f45e77.png",
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-forecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png",
                 "type": "image/jpg",
                 "roles": [
                     "thumbnail"
                 ],
-                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/ObVmZLmujWun1v8ODWaaRNfQEAo=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-fire-historical-v1/overview_7d52aa9bfd619151f13dba1d6a0c625edcb157696f3fbf0db3c24f0993f45e77.png"
+                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/5Ei37SA8oZby9C0Xvw2VoF6dWag=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-glofas-forecast/overview_36fc7b601512e3619bc5ba70ae0488b911d9d74e203400f9a321f5745768f6a5.png"
             }
         },
-        "published": "2019-09-30T00:00:00Z",
-        "updated": "2026-11-06T00:00:00Z",
-        "sci:doi": "10.24381/cds.0e89c522",
+        "published": "2020-05-19T00:00:00Z",
+        "updated": "2026-11-14T00:00:00Z",
+        "sci:doi": "10.24381/cds.ff1aef77",
+        "cads:message": null,
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-11-08T02:16:10.714357+00:00"
+            "timestamp": "2026-11-15T03:15:35.549498+00:00"
         },
         "cads:update_frequency": "Daily",
-        "cads:fair": 92
+        "cads:fair": 84
+    },
+    {
+        "type": "Collection",
+        "id": "efas-forecast",
+        "stac_version": "1.1.0",
+        "title": "River discharge and related forecasted data by the European Flood Awareness System",
+        "description": "This dataset provides gridded modelled hydrological time series forced with medium-range meteorological forecasts. The data is a consistent representation of the most important hydrological variables across the European Flood Awareness System (EFAS) domain. The temporal resolution is sub-daily high-resolution and ensemble forecasts of:\n\nRiver discharge\nVolumetric soil moisture\nSnow water equivalent\nSoil wetness index (root zone)\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are auxiliary (time invariant) data to aid interpretation of river discharge and soil moisture data. These auxiliary data are the upstream area, elevation, soil depth, wilting capacity and field capacity. The latter three are provided at three soil levels, one for each of the three soil layers represented in LISFLOOD.\nThis data set was produced by forcing the open-source LISFLOOD hydrological model at a 1x1 arcminute resolution (~1.5 km at EFAS latitudes) with meteorological forecasts. For version 4.0 and older, the open-source LISFLOOD hydrological model was forced at a 5x5km resolution. The forecasts are initialised twice daily at 00 and 12 UTC with time steps of 6 or 24 hours (the latter for version 3.5 and older) and lead times between 5 and 15 days depending on the forcing numerical weather prediction model. The forcing meteorological data are high-resolution and ensemble forecasts from the European Centre of Medium-range Weather Forecasts (ECMWF) with 51 ensemble members, high-resolution forecasts from the Deutsches Wetter Dienst (DWD) and the ensemble forecasts from the COSMO Local Ensemble Prediction System (COSMO-LEPS) with 20 ensemble members. The hydrological forecasts are available from 2018-10-10 up until present with a 30-day delay. The real-time data is only available to EFAS partners.\nCompanion datasets, also available through the EWDS, are historical simulations which can be used to derive the hydrological climatology and for verification; reforecasts for research, local skill assessment and post-processing; and seasonal forecasts and reforecasts for users looking for longer leadtime forecasts. For users looking for global hydrological data, we refer to the Global Flood Awareness System (GloFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
+        "summaries": "{}",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "keywords": [
+            "Temporal coverage: Past",
+            "Spatial coverage: Europe",
+            "Provider: Copernicus CEMS",
+            "Variable domain: Land (hydrology)",
+            "Product type: Forecasts"
+        ],
+        "license": "other",
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        0,
+                        -70,
+                        360,
+                        70
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2018-10-11T00:00:00Z",
+                        "2026-10-12T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/efas-forecast"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/efas-forecast/overview_ddd9074d456be00a54d03c320485bdbb1d1871507eccaa1039404a9c2c62fe31.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/qaKs1FDYFXDR1n4PompbSKLekhY=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/efas-forecast/overview_ddd9074d456be00a54d03c320485bdbb1d1871507eccaa1039404a9c2c62fe31.png"
+            }
+        },
+        "published": "2019-05-09T00:00:00Z",
+        "updated": "2026-11-11T00:00:00Z",
+        "sci:doi": "10.24381/cds.9f696a7a",
+        "cads:message": null,
+        "cads:disabled_reason": null,
+        "cads:sanity_check": {
+            "status": "available",
+            "timestamp": "2026-11-15T03:16:01.009790+00:00"
+        },
+        "cads:update_frequency": "Weekly",
+        "cads:fair": 84
+    },
+    {
+        "type": "Collection",
+        "id": "cems-glofas-seasonal",
+        "stac_version": "1.1.0",
+        "title": "Seasonal forecasts of river discharge and related data by the Global Flood Awareness System",
+        "description": "This dataset provides an ensemble of forecasted time series of gridded hydrological data forced with seasonal meteorological forecasts. The data set is a product of the Global Flood Awareness System (GloFAS) and offers a consistent representation of key hydrological variables across the global domain including:\n\nRiver discharge\nSoil wetness index (root zone)\nSnow water equivalent\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are two ancillary files for interpretation, one containing upstream area data and the other containing elevation data (see the table of related variables and the associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model at a 0.05\u00b0 (~5 km at the equator) resolution with seasonal meteorological forecasts from the European Centre for Medium-range Weather Forecasts (ECMWF). For version 3.1 and older, the open-source LISFLOOD hydrological model was forced at a 0.1\u00b0 (~11 km at the equator) resolution. The forecasts are initialised on the first of each month with a 24-hourly time step, and cover 123 days.\nCompanion datasets, also available through the Early Warning Data Store (EWDS), are the operational forecasts, historical simulations that can be used to derive the hydrological climatology, and medium-range and seasonal reforecasts. The latter dataset enables research, local skill assessment and post-processing of the seasonal forecasts. In addition, the seasonal reforecasts are also used to derive a specific range dependent climatology for the seasonal system. For users looking specifically for European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
+        "summaries": "{}",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "keywords": [
+            "Spatial coverage: Global",
+            "Provider: Copernicus CEMS",
+            "Product type: Seasonal forecasts",
+            "Variable domain: Land (hydrology)",
+            "Temporal coverage: Present"
+        ],
+        "license": "other",
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        0,
+                        -60,
+                        360,
+                        90
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2020-12-01T00:00:00Z",
+                        "2026-11-01T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/overview_0885f764fd7ce14e5c511c5751d22b0610d3004d3de56f389562cace8f67e2bc.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/S_cANS_r0oitqGUjgW8BjGlgg1s=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-glofas-seasonal/overview_0885f764fd7ce14e5c511c5751d22b0610d3004d3de56f389562cace8f67e2bc.png"
+            }
+        },
+        "published": "2020-12-09T00:00:00Z",
+        "updated": "2026-11-10T00:00:00Z",
+        "sci:doi": "10.24381/cds.00b6c4fb",
+        "cads:message": null,
+        "cads:disabled_reason": null,
+        "cads:sanity_check": {
+            "status": "available",
+            "timestamp": "2026-11-15T03:20:21.351908+00:00"
+        },
+        "cads:update_frequency": "Monthly",
+        "cads:fair": 84
+    },
+    {
+        "type": "Collection",
+        "id": "efas-seasonal",
+        "stac_version": "1.1.0",
+        "title": "Seasonal forecasts of river discharge and related data by the European Flood Awareness System",
+        "description": "This dataset provides gridded modelled daily hydrological time series forced with seasonal meteorological forecasts. The dataset is a consistent representation of the most important hydrological variables across the European Flood Awareness (EFAS) domain. The temporal resolution is daily forecasts initialised once a month consisting of:\n\nRiver discharge\nVolumetric soil moisture\nSnow water equivalent\nSoil wetness index (root zone)\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are auxiliary (time invariant) data to aid interpretation of river discharge and soil moisture data. These auxiliary data are the upstream area, elevation, soil depth, wilting capacity and field capacity. The latter three are provided at three soil levels, one for each of the three soil layers represented in LISFLOOD.\nThis data set was produced by forcing the open-source LISFLOOD hydrological model at a 1x1 arcminute resolution (~1.5 km at EFAS latitudes) with seasonal meteorological ensemble forecasts. For version 4.0 and older, the open-source LISFLOOD hydrological model was forced at a 5x5km resolution. The forecasts are initialised on the first of each month with a lead time of 215 days at 24-hour time steps. The meteorological data are seasonal forecasts (SEAS5) from the European Centre of Medium-range Weather Forecasts (ECMWF) with 51 ensemble members. The forecasts are available from November 2020.\nCompanion datasets, also available through the Early Warning Data Store (EWDS), are seasonal reforecasts for research, local skill assessment and post-processing of the seasonal forecasts. There are also medium-range forecasts for users who want to look at shorter time ranges. These are accompanied by historical simulations which can be used to derive the hydrological climatology, and medium-range reforecasts. For users looking for global hydrological data, we refer to the Global Flood Awareness System (GloFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
+        "summaries": "{}",
+        "providers": [
+            {
+                "name": "ECMWF"
+            }
+        ],
+        "keywords": [
+            "Spatial coverage: Europe",
+            "Provider: Copernicus CEMS",
+            "Product type: Seasonal forecasts",
+            "Variable domain: Land (hydrology)",
+            "Temporal coverage: Present"
+        ],
+        "license": "other",
+        "extent": {
+            "spatial": {
+                "bbox": [
+                    [
+                        0,
+                        -70,
+                        360,
+                        70
+                    ]
+                ]
+            },
+            "temporal": {
+                "interval": [
+                    [
+                        "2020-11-01T00:00:00Z",
+                        "2026-11-01T00:00:00Z"
+                    ]
+                ]
+            }
+        },
+        "links": [
+            {
+                "rel": "self",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/efas-seasonal"
+            },
+            {
+                "rel": "parent",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            },
+            {
+                "rel": "root",
+                "type": "application/json",
+                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
+            }
+        ],
+        "assets": {
+            "thumbnail": {
+                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/efas-seasonal/overview_027e11ba4b15ebcb3217e766cb5c74cfd08665cf129d439a9ef52724a1961fa0.png",
+                "type": "image/jpg",
+                "roles": [
+                    "thumbnail"
+                ],
+                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/O1bh_HpiA2OYGzlcy0IGnZu_pAI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/efas-seasonal/overview_027e11ba4b15ebcb3217e766cb5c74cfd08665cf129d439a9ef52724a1961fa0.png"
+            }
+        },
+        "published": "2020-11-12T00:00:00Z",
+        "updated": "2026-11-10T00:00:00Z",
+        "sci:doi": "10.24381/cds.eb224b0e",
+        "cads:message": null,
+        "cads:disabled_reason": null,
+        "cads:sanity_check": {
+            "status": "available",
+            "timestamp": "2026-11-15T03:16:25.126631+00:00"
+        },
+        "cads:update_frequency": "Monthly",
+        "cads:fair": 84
     },
     {
         "type": "Collection",
@@ -381,247 +631,23 @@
         "published": "2023-10-17T00:00:00Z",
         "updated": "2026-11-05T00:00:00Z",
         "sci:doi": "10.24381/cds.b9c753f1",
+        "cads:message": {
+            "id": "contents/cems/2026-11-12-warning-cems-fire.md",
+            "date": "2026-11-12T00:00:00Z",
+            "summary": null,
+            "url": null,
+            "severity": "warning",
+            "content": "On Monday, 16th November 2026, updates to this dataset will cease until further notice. A new mars configuration is required to support this dataset into the future.\nPlease see [this page](https://confluence.ecmwf.int/spaces/CEMS/pages/738062330/Upgrade+of+the+Global+Wildfire+Mars+structure) for further details.",
+            "live": true,
+            "show_date": true
+        },
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-11-08T02:17:22.904593+00:00"
+            "timestamp": "2026-11-15T03:17:08.922900+00:00"
         },
         "cads:update_frequency": "Monthly",
         "cads:fair": 92
-    },
-    {
-        "type": "Collection",
-        "id": "efas-forecast",
-        "stac_version": "1.1.0",
-        "title": "River discharge and related forecasted data by the European Flood Awareness System",
-        "description": "This dataset provides gridded modelled hydrological time series forced with medium-range meteorological forecasts. The data is a consistent representation of the most important hydrological variables across the European Flood Awareness System (EFAS) domain. The temporal resolution is sub-daily high-resolution and ensemble forecasts of:\n\nRiver discharge\nVolumetric soil moisture\nSnow water equivalent\nSoil wetness index (root zone)\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are auxiliary (time invariant) data to aid interpretation of river discharge and soil moisture data. These auxiliary data are the upstream area, elevation, soil depth, wilting capacity and field capacity. The latter three are provided at three soil levels, one for each of the three soil layers represented in LISFLOOD.\nThis data set was produced by forcing the open-source LISFLOOD hydrological model at a 1x1 arcminute resolution (~1.5 km at EFAS latitudes) with meteorological forecasts. For version 4.0 and older, the open-source LISFLOOD hydrological model was forced at a 5x5km resolution. The forecasts are initialised twice daily at 00 and 12 UTC with time steps of 6 or 24 hours (the latter for version 3.5 and older) and lead times between 5 and 15 days depending on the forcing numerical weather prediction model. The forcing meteorological data are high-resolution and ensemble forecasts from the European Centre of Medium-range Weather Forecasts (ECMWF) with 51 ensemble members, high-resolution forecasts from the Deutsches Wetter Dienst (DWD) and the ensemble forecasts from the COSMO Local Ensemble Prediction System (COSMO-LEPS) with 20 ensemble members. The hydrological forecasts are available from 2018-10-10 up until present with a 30-day delay. The real-time data is only available to EFAS partners.\nCompanion datasets, also available through the EWDS, are historical simulations which can be used to derive the hydrological climatology and for verification; reforecasts for research, local skill assessment and post-processing; and seasonal forecasts and reforecasts for users looking for longer leadtime forecasts. For users looking for global hydrological data, we refer to the Global Flood Awareness System (GloFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
-        "summaries": "{}",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "keywords": [
-            "Temporal coverage: Past",
-            "Spatial coverage: Europe",
-            "Provider: Copernicus CEMS",
-            "Variable domain: Land (hydrology)",
-            "Product type: Forecasts"
-        ],
-        "license": "other",
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        0,
-                        -70,
-                        360,
-                        70
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2018-10-11T00:00:00Z",
-                        "2026-10-05T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/efas-forecast"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/efas-forecast/overview_ddd9074d456be00a54d03c320485bdbb1d1871507eccaa1039404a9c2c62fe31.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/qaKs1FDYFXDR1n4PompbSKLekhY=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/efas-forecast/overview_ddd9074d456be00a54d03c320485bdbb1d1871507eccaa1039404a9c2c62fe31.png"
-            }
-        },
-        "published": "2019-05-09T00:00:00Z",
-        "updated": "2026-11-04T00:00:00Z",
-        "sci:doi": "10.24381/cds.9f696a7a",
-        "cads:disabled_reason": null,
-        "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-11-08T02:22:53.143803+00:00"
-        },
-        "cads:update_frequency": "Weekly",
-        "cads:fair": 84
-    },
-    {
-        "type": "Collection",
-        "id": "cems-glofas-seasonal",
-        "stac_version": "1.1.0",
-        "title": "Seasonal forecasts of river discharge and related data by the Global Flood Awareness System",
-        "description": "This dataset provides an ensemble of forecasted time series of gridded hydrological data forced with seasonal meteorological forecasts. The data set is a product of the Global Flood Awareness System (GloFAS) and offers a consistent representation of key hydrological variables across the global domain including:\n\nRiver discharge\nSoil wetness index (root zone)\nSnow water equivalent\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are two ancillary files for interpretation, one containing upstream area data and the other containing elevation data (see the table of related variables and the associated link in the documentation).\nThis dataset was produced by forcing the open-source LISFLOOD hydrological model at a 0.05\u00b0 (~5 km at the equator) resolution with seasonal meteorological forecasts from the European Centre for Medium-range Weather Forecasts (ECMWF). For version 3.1 and older, the open-source LISFLOOD hydrological model was forced at a 0.1\u00b0 (~11 km at the equator) resolution. The forecasts are initialised on the first of each month with a 24-hourly time step, and cover 123 days.\nCompanion datasets, also available through the Early Warning Data Store (EWDS), are the operational forecasts, historical simulations that can be used to derive the hydrological climatology, and medium-range and seasonal reforecasts. The latter dataset enables research, local skill assessment and post-processing of the seasonal forecasts. In addition, the seasonal reforecasts are also used to derive a specific range dependent climatology for the seasonal system. For users looking specifically for European hydrological data, we refer to the European Flood Awareness System (EFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
-        "summaries": "{}",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "keywords": [
-            "Spatial coverage: Global",
-            "Provider: Copernicus CEMS",
-            "Product type: Seasonal forecasts",
-            "Variable domain: Land (hydrology)",
-            "Temporal coverage: Present"
-        ],
-        "license": "other",
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        0,
-                        -60,
-                        360,
-                        90
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2020-12-01T00:00:00Z",
-                        "2026-10-01T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/cems-glofas-seasonal"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/cems-glofas-seasonal/overview_0885f764fd7ce14e5c511c5751d22b0610d3004d3de56f389562cace8f67e2bc.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/S_cANS_r0oitqGUjgW8BjGlgg1s=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/cems-glofas-seasonal/overview_0885f764fd7ce14e5c511c5751d22b0610d3004d3de56f389562cace8f67e2bc.png"
-            }
-        },
-        "published": "2020-12-09T00:00:00Z",
-        "updated": "2026-10-10T00:00:00Z",
-        "sci:doi": "10.24381/cds.00b6c4fb",
-        "cads:disabled_reason": null,
-        "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-11-08T02:22:54.065518+00:00"
-        },
-        "cads:update_frequency": "Monthly",
-        "cads:fair": 84
-    },
-    {
-        "type": "Collection",
-        "id": "efas-seasonal",
-        "stac_version": "1.1.0",
-        "title": "Seasonal forecasts of river discharge and related data by the European Flood Awareness System",
-        "description": "This dataset provides gridded modelled daily hydrological time series forced with seasonal meteorological forecasts. The dataset is a consistent representation of the most important hydrological variables across the European Flood Awareness (EFAS) domain. The temporal resolution is daily forecasts initialised once a month consisting of:\n\nRiver discharge\nVolumetric soil moisture\nSnow water equivalent\nSoil wetness index (root zone)\nRunoff water equivalent (surface plus subsurface)\n\nAlso provided are auxiliary (time invariant) data to aid interpretation of river discharge and soil moisture data. These auxiliary data are the upstream area, elevation, soil depth, wilting capacity and field capacity. The latter three are provided at three soil levels, one for each of the three soil layers represented in LISFLOOD.\nThis data set was produced by forcing the open-source LISFLOOD hydrological model at a 1x1 arcminute resolution (~1.5 km at EFAS latitudes) with seasonal meteorological ensemble forecasts. For version 4.0 and older, the open-source LISFLOOD hydrological model was forced at a 5x5km resolution. The forecasts are initialised on the first of each month with a lead time of 215 days at 24-hour time steps. The meteorological data are seasonal forecasts (SEAS5) from the European Centre of Medium-range Weather Forecasts (ECMWF) with 51 ensemble members. The forecasts are available from November 2020.\nCompanion datasets, also available through the Early Warning Data Store (EWDS), are seasonal reforecasts for research, local skill assessment and post-processing of the seasonal forecasts. There are also medium-range forecasts for users who want to look at shorter time ranges. These are accompanied by historical simulations which can be used to derive the hydrological climatology, and medium-range reforecasts. For users looking for global hydrological data, we refer to the Global Flood Awareness System (GloFAS) forecasts and historical simulations.\nAll these datasets are part of the operational flood forecasting within the Copernicus Emergency Management Service (CEMS), which is managed, technically implemented and developed by the European Commission\u2019s Joint Research Centre.",
-        "summaries": "{}",
-        "providers": [
-            {
-                "name": "ECMWF"
-            }
-        ],
-        "keywords": [
-            "Spatial coverage: Europe",
-            "Provider: Copernicus CEMS",
-            "Product type: Seasonal forecasts",
-            "Variable domain: Land (hydrology)",
-            "Temporal coverage: Present"
-        ],
-        "license": "other",
-        "extent": {
-            "spatial": {
-                "bbox": [
-                    [
-                        0,
-                        -70,
-                        360,
-                        70
-                    ]
-                ]
-            },
-            "temporal": {
-                "interval": [
-                    [
-                        "2020-11-01T00:00:00Z",
-                        "2026-10-01T00:00:00Z"
-                    ]
-                ]
-            }
-        },
-        "links": [
-            {
-                "rel": "self",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/collections/efas-seasonal"
-            },
-            {
-                "rel": "parent",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            },
-            {
-                "rel": "root",
-                "type": "application/json",
-                "href": "https://ewds.climate.copernicus.eu/api/catalogue/v1/"
-            }
-        ],
-        "assets": {
-            "thumbnail": {
-                "href": "https://object-store.os-api.cci2.ecmwf.int:443/cci2-prod-catalogue/resources/efas-seasonal/overview_027e11ba4b15ebcb3217e766cb5c74cfd08665cf129d439a9ef52724a1961fa0.png",
-                "type": "image/jpg",
-                "roles": [
-                    "thumbnail"
-                ],
-                "thumborHref": "https://ewds.climate.copernicus.eu/thumbnails/O1bh_HpiA2OYGzlcy0IGnZu_pAI=/150x0/filters:format(webp)/object-store.os-api.cci2.ecmwf.int/cci2-prod-catalogue/resources/efas-seasonal/overview_027e11ba4b15ebcb3217e766cb5c74cfd08665cf129d439a9ef52724a1961fa0.png"
-            }
-        },
-        "published": "2020-11-12T00:00:00Z",
-        "updated": "2026-10-10T00:00:00Z",
-        "sci:doi": "10.24381/cds.eb224b0e",
-        "cads:disabled_reason": null,
-        "cads:sanity_check": {
-            "status": "available",
-            "timestamp": "2026-11-08T02:22:49.153977+00:00"
-        },
-        "cads:update_frequency": "Monthly",
-        "cads:fair": 84
     },
     {
         "type": "Collection",
@@ -693,10 +719,11 @@
         "published": "2020-12-09T00:00:00Z",
         "updated": "2025-04-02T00:00:00Z",
         "sci:doi": "10.24381/cds.0aa9b9dd",
+        "cads:message": null,
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-11-08T02:25:58.374378+00:00"
+            "timestamp": "2026-11-15T03:22:09.989469+00:00"
         },
         "cads:update_frequency": "Monthly",
         "cads:fair": 84
@@ -771,10 +798,11 @@
         "published": "2020-12-09T00:00:00Z",
         "updated": "2025-04-02T00:00:00Z",
         "sci:doi": "10.24381/cds.2d78664e",
+        "cads:message": null,
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-11-08T02:26:25.421563+00:00"
+            "timestamp": "2026-11-15T03:22:11.260091+00:00"
         },
         "cads:update_frequency": "Weekly",
         "cads:fair": 84
@@ -849,10 +877,11 @@
         "published": "2020-11-12T00:00:00Z",
         "updated": "2020-11-12T00:00:00Z",
         "sci:doi": "10.24381/cds.768eefc2",
+        "cads:message": null,
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-11-08T02:27:00.325035+00:00"
+            "timestamp": "2026-11-15T03:23:14.213006+00:00"
         },
         "cads:update_frequency": "Monthly",
         "cads:fair": 84
@@ -927,10 +956,11 @@
         "published": "2019-05-09T00:00:00Z",
         "updated": "2019-05-09T00:00:00Z",
         "sci:doi": "10.24381/cds.c83f560f",
+        "cads:message": null,
         "cads:disabled_reason": null,
         "cads:sanity_check": {
             "status": "available",
-            "timestamp": "2026-11-08T02:29:37.277313+00:00"
+            "timestamp": "2026-11-15T03:23:19.612751+00:00"
         },
         "cads:update_frequency": "Weekly",
         "cads:fair": 84
