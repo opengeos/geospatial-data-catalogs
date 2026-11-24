@@ -117,19 +117,6 @@
         "accessInfo": "See the CEDA [documentation](https://help.ceda.ac.uk/article/5100-archive-access-tokens) for details."
     },
     {
-        "title": "CIESIN STAC",
-        "id": 144,
-        "url": "https://ciesin.github.io/sci-apps-stac/stac/catalog.json",
-        "slug": "ciesin-stac",
-        "summary": "CIESIN STAC is the authoritative SpatioTemporal Asset Catalog for datasets produced and curated by the Center for International Earth Science Information Network (CIESIN) and affiliated programs, including GRID3.",
-        "access": "public",
-        "created": "2026-02-11T16:20:29.070Z",
-        "updated": "2026-02-11T16:20:29.070Z",
-        "isPrivate": false,
-        "isApi": false,
-        "accessInfo": null
-    },
-    {
         "title": "CREODIAS",
         "id": 68,
         "url": "https://datahub.creodias.eu/stac/",
@@ -1107,7 +1094,7 @@
     {
         "title": "National geospatial data of the Republic of Moldova",
         "id": 163,
-        "url": "data.source.coop/nlebovits/moldova-geodata/catalog.json",
+        "url": "https://data.source.coop/nlebovits/moldova-geodata/catalog.json",
         "slug": "moldova-geodata",
         "summary": "A cloud-native mirror of the Moldovan national geoportal geodata.gov.md, run by \u00ce.S. INGEOCAD for the Agency for Geodesy, Cartography and Cadastre (AGCC). It holds vector layers extracted over WFS: cadastral parcels, buildings, addresses, the 2017 base map, CORINE land cover, the state forest fund, flood models, and the geodetic network. Data is published as GeoParquet and PMTiles in the source coordinate system, MOLDREF99 / Moldova TM (EPSG:4026). This is not an official AGCC product.",
         "access": "public",

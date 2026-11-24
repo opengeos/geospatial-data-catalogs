@@ -54808,19 +54808,6 @@
         "license": "CC0-1.0"
     },
     {
-        "id": "ATL24_001",
-        "title": "ATLAS/ICESat-2 L3A Along Track Coastal and Nearshore Bathymetry V001",
-        "catalog": "NSIDC_CPRD STAC Catalog",
-        "state_date": "2018-10-14",
-        "end_date": "",
-        "bbox": "-180, -88, 180, 88",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3433822507-NSIDC_CPRD.umm_json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3433822507-NSIDC_CPRD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/NSIDC_CPRD/collections/ATL24_001",
-        "description": "ATL24 provides global along-track coastal and nearshore bathymetry, consisting of refraction-corrected seafloor and sea surface heights (orthometric and ellipsoidal heights and instantaneous depths), as well as associated uncertainties. The data are derived from ATLAS/ICESat-2 L2A Global Geolocated Photon Data (ATL03).",
-        "license": "CC0-1.0"
-    },
-    {
         "id": "ATL24_002",
         "title": "ATLAS/ICESat-2 L3A Along Track Coastal and Nearshore Bathymetry V002",
         "catalog": "NSIDC_CPRD STAC Catalog",
@@ -56916,7 +56903,7 @@
     {
         "id": "Aeolus-CalVal-DAWN_DC8_1",
         "title": "Aeolus CalVal DAWN Wind Profiles",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2019-04-17",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56929,7 +56916,7 @@
     {
         "id": "Aeolus-CalVal-DAWN_DC8_1",
         "title": "Aeolus CalVal DAWN Wind Profiles",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2019-04-17",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56942,7 +56929,7 @@
     {
         "id": "Aeolus-CalVal-Dropsondes_DC8_1",
         "title": "Aeolus CalVal Dropsonde Profiles",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2019-04-18",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56955,7 +56942,7 @@
     {
         "id": "Aeolus-CalVal-Dropsondes_DC8_1",
         "title": "Aeolus CalVal Dropsonde Profiles",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2019-04-18",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56968,7 +56955,7 @@
     {
         "id": "Aeolus-CalVal-HALO_DC8_1",
         "title": "Aeolus CalVal HALO Aerosol and Water Vapor Profiles and Images",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2019-04-17",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56981,7 +56968,7 @@
     {
         "id": "Aeolus-CalVal-HALO_DC8_1",
         "title": "Aeolus CalVal HALO Aerosol and Water Vapor Profiles and Images",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2019-04-17",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -56994,7 +56981,7 @@
     {
         "id": "Aeolus-CalVal-MetNav_DC8_1",
         "title": "Aeolus CalVal Meteorological and Navigational",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2019-04-17",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -57007,7 +56994,7 @@
     {
         "id": "Aeolus-CalVal-MetNav_DC8_1",
         "title": "Aeolus CalVal Meteorological and Navigational",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2019-04-17",
         "end_date": "2019-04-30",
         "bbox": "-159, 5, -113, 52",
@@ -57085,7 +57072,7 @@
     {
         "id": "AfriSAR_AGB_Maps_1681_1",
         "title": "AfriSAR: Aboveground Biomass for Lope, Mabounie, Mondah, and Rabi Sites, Gabon",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2016-02-01",
         "end_date": "2016-03-31",
         "bbox": "9.30308, -1.94602, 11.6436, 0.611119",
@@ -57098,7 +57085,7 @@
     {
         "id": "AfriSAR_AGB_Maps_1681_1",
         "title": "AfriSAR: Aboveground Biomass for Lope, Mabounie, Mondah, and Rabi Sites, Gabon",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-02-01",
         "end_date": "2016-03-31",
         "bbox": "9.30308, -1.94602, 11.6436, 0.611119",
@@ -57111,7 +57098,7 @@
     {
         "id": "AfriSAR_LVIS_Footprint_Cover_1591_1",
         "title": "AfriSAR: Canopy Cover and Vertical Profile Metrics Derived from LVIS, Gabon, 2016",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2016-02-20",
         "end_date": "2016-03-08",
         "bbox": "8.7276, -2.29171, 12.0133, 0.701451",
@@ -57124,7 +57111,7 @@
     {
         "id": "AfriSAR_LVIS_Footprint_Cover_1591_1",
         "title": "AfriSAR: Canopy Cover and Vertical Profile Metrics Derived from LVIS, Gabon, 2016",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-02-20",
         "end_date": "2016-03-08",
         "bbox": "8.7276, -2.29171, 12.0133, 0.701451",
@@ -57137,7 +57124,7 @@
     {
         "id": "AfriSAR_Mondah_Field_Data_1580_1",
         "title": "AfriSAR: Mondah Forest Tree Species, Biophysical, and Biomass Data, Gabon, 2016",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2016-03-01",
         "end_date": "2016-03-23",
         "bbox": "9.31622, 0.538705, 9.42251, 0.616939",
@@ -57150,7 +57137,7 @@
     {
         "id": "AfriSAR_Mondah_Field_Data_1580_1",
         "title": "AfriSAR: Mondah Forest Tree Species, Biophysical, and Biomass Data, Gabon, 2016",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-03-01",
         "end_date": "2016-03-23",
         "bbox": "9.31622, 0.538705, 9.42251, 0.616939",
@@ -57228,7 +57215,7 @@
     {
         "id": "AgriFieldNet Competition Dataset_1",
         "title": "AgriFieldNet Competition Dataset",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "MLHUB STAC Catalog",
         "state_date": "2020-01-01",
         "end_date": "2023-01-01",
         "bbox": "76.2448319, 18.9414403, 88.0460054, 28.3269976",
@@ -57241,7 +57228,7 @@
     {
         "id": "AgriFieldNet Competition Dataset_1",
         "title": "AgriFieldNet Competition Dataset",
-        "catalog": "MLHUB STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2020-01-01",
         "end_date": "2023-01-01",
         "bbox": "76.2448319, 18.9414403, 88.0460054, 28.3269976",
@@ -57280,7 +57267,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_BERMS_1406_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, BERMS, Canada, 2012-2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-10-04",
         "end_date": "2015-09-28",
         "bbox": "-106.676, 53.5567, -104.137, 54.019",
@@ -57293,7 +57280,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_BERMS_1406_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, BERMS, Canada, 2012-2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-10-04",
         "end_date": "2015-09-28",
         "bbox": "-106.676, 53.5567, -104.137, 54.019",
@@ -57306,7 +57293,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_Chamel_1407_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Chamela, Mexico, 2012-2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2013-06-15",
         "end_date": "2015-04-21",
         "bbox": "-105.249, 19.2931, -104.16, 20.3042",
@@ -57319,7 +57306,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_Chamel_1407_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Chamela, Mexico, 2012-2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2013-06-15",
         "end_date": "2015-04-21",
         "bbox": "-105.249, 19.2931, -104.16, 20.3042",
@@ -57436,7 +57423,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_Metoli_1412_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Metolius, 2012-2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-09-18",
         "end_date": "2015-09-29",
         "bbox": "-122.861, 43.9931, -120.892, 44.6942",
@@ -57449,7 +57436,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_Metoli_1412_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, Metolius, 2012-2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-09-18",
         "end_date": "2015-09-29",
         "bbox": "-122.861, 43.9931, -120.892, 44.6942",
@@ -57462,7 +57449,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_Moisst_1413_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, MOISST, 2012-2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-10-24",
         "end_date": "2015-08-14",
         "bbox": "-98.9968, 35.7758, -96.8247, 36.8893",
@@ -57475,7 +57462,7 @@
     {
         "id": "AirMOSS_L1_Sigma0_Moisst_1413_1",
         "title": "AirMOSS: L1 S-0 Polarimetric Data from AirMOSS P-band SAR, MOISST, 2012-2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-10-24",
         "end_date": "2015-08-14",
         "bbox": "-98.9968, 35.7758, -96.8247, 36.8893",
@@ -57644,7 +57631,7 @@
     {
         "id": "AirMOSS_L4_Daily_NEE_1422_1",
         "title": "AirMOSS: L4 Daily Modeled Net Ecosystem Exchange (NEE), AirMOSS sites, 2012-2014",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2012-01-01",
         "end_date": "2014-10-30",
         "bbox": "-122.883, 31.4912, -68.3359, 45.7861",
@@ -57657,7 +57644,7 @@
     {
         "id": "AirMOSS_L4_Daily_NEE_1422_1",
         "title": "AirMOSS: L4 Daily Modeled Net Ecosystem Exchange (NEE), AirMOSS sites, 2012-2014",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2012-01-01",
         "end_date": "2014-10-30",
         "bbox": "-122.883, 31.4912, -68.3359, 45.7861",
@@ -57748,7 +57735,7 @@
     {
         "id": "AirMSPI_ACEPOL_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the NASA ACEPOL flight campaign Oct-Nov 2017",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2017-10-19",
         "end_date": "2017-11-09",
         "bbox": "180, -90, -180, 90",
@@ -57761,7 +57748,7 @@
     {
         "id": "AirMSPI_ACEPOL_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the NASA ACEPOL flight campaign Oct-Nov 2017",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2017-10-19",
         "end_date": "2017-11-09",
         "bbox": "180, -90, -180, 90",
@@ -57774,7 +57761,7 @@
     {
         "id": "AirMSPI_CalWater-2_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI version 6 ellipsoid-projected georegistered radiance product acquired during the CalWater-2 flight campaign Jan-Feb 2015",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2015-01-20",
         "end_date": "2015-02-24",
         "bbox": "180, -90, -180, 90",
@@ -57787,7 +57774,7 @@
     {
         "id": "AirMSPI_CalWater-2_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI version 6 ellipsoid-projected georegistered radiance product acquired during the CalWater-2 flight campaign Jan-Feb 2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2015-01-20",
         "end_date": "2015-02-24",
         "bbox": "180, -90, -180, 90",
@@ -57852,7 +57839,7 @@
     {
         "id": "AirMSPI_ImPACT-PM_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 ellipsoid-projected georegistered radiance product acquired during the ImPACT-PM flight campaign",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-07-05",
         "end_date": "2016-07-08",
         "bbox": "180, -90, -180, 90",
@@ -57865,7 +57852,7 @@
     {
         "id": "AirMSPI_ImPACT-PM_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 ellipsoid-projected georegistered radiance product acquired during the ImPACT-PM flight campaign",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-07-05",
         "end_date": "2016-07-08",
         "bbox": "180, -90, -180, 90",
@@ -57904,7 +57891,7 @@
     {
         "id": "AirMSPI_ORACLES_Cloud_Droplet_Size_and_Cloud_Optical_Depth_1",
         "title": "AirMSPI version 1 cloud droplet size and cloud optical depth product acquired during the ORACLES flight campaign Jul-Oct 2016.",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-08-03",
         "end_date": "2016-09-29",
         "bbox": "180, -90, -180, 90",
@@ -57917,7 +57904,7 @@
     {
         "id": "AirMSPI_ORACLES_Cloud_Droplet_Size_and_Cloud_Optical_Depth_1",
         "title": "AirMSPI version 1 cloud droplet size and cloud optical depth product acquired during the ORACLES flight campaign Jul-Oct 2016.",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-08-03",
         "end_date": "2016-09-29",
         "bbox": "180, -90, -180, 90",
@@ -57956,7 +57943,7 @@
     {
         "id": "AirMSPI_ORACLES_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the NASA ORACLES flight campaign Jul-Oct 2016",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-07-28",
         "end_date": "2016-10-06",
         "bbox": "-126, -24, 15, 40",
@@ -57969,7 +57956,7 @@
     {
         "id": "AirMSPI_ORACLES_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the NASA ORACLES flight campaign Jul-Oct 2016",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-07-28",
         "end_date": "2016-10-06",
         "bbox": "-126, -24, 15, 40",
@@ -58008,7 +57995,7 @@
     {
         "id": "AirMSPI_PODEX_Terrain-projected_Georegistered_Radiance_Data_5",
         "title": "AirMSPI version 5 terrain-projected georegistered radiance product acquired during the NASA PODEX flight campaign Jan-Feb 2013",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2013-01-14",
         "end_date": "2013-02-06",
         "bbox": "-130, 28, -114, 42.5",
@@ -58021,7 +58008,7 @@
     {
         "id": "AirMSPI_PODEX_Terrain-projected_Georegistered_Radiance_Data_5",
         "title": "AirMSPI version 5 terrain-projected georegistered radiance product acquired during the NASA PODEX flight campaign Jan-Feb 2013",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2013-01-14",
         "end_date": "2013-02-06",
         "bbox": "-130, 28, -114, 42.5",
@@ -58060,7 +58047,7 @@
     {
         "id": "AirMSPI_RADEX_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the RADEX flight campaign",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2015-11-10",
         "end_date": "2015-12-13",
         "bbox": "180, -90, -180, 90",
@@ -58073,7 +58060,7 @@
     {
         "id": "AirMSPI_RADEX_Terrain-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 terrain-projected georegistered radiance product acquired during the RADEX flight campaign",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2015-11-10",
         "end_date": "2015-12-13",
         "bbox": "180, -90, -180, 90",
@@ -58112,7 +58099,7 @@
     {
         "id": "AirMSPI_SEAC4RS_Terrain-projected_Georegistered_Radiance_Data_5",
         "title": "AirMSPI terrain-projected georegistered radiance product acquired during the NASA SEAC4RS flight campaign August-September 2013, V005",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2013-08-01",
         "end_date": "2013-09-23",
         "bbox": "-126, 15, -74, 52",
@@ -58125,7 +58112,7 @@
     {
         "id": "AirMSPI_SEAC4RS_Terrain-projected_Georegistered_Radiance_Data_5",
         "title": "AirMSPI terrain-projected georegistered radiance product acquired during the NASA SEAC4RS flight campaign August-September 2013, V005",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2013-08-01",
         "end_date": "2013-09-23",
         "bbox": "-126, 15, -74, 52",
@@ -58138,7 +58125,7 @@
     {
         "id": "AirMSPI_SPEX-PR_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 ellipsoid-projected georegistered radiance product acquired during the SPEX-PR flight campaign",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2016-02-02",
         "end_date": "2016-02-09",
         "bbox": "180, -90, -180, 90",
@@ -58151,7 +58138,7 @@
     {
         "id": "AirMSPI_SPEX-PR_Ellipsoid-projected_Georegistered_Radiance_Data_6",
         "title": "AirMSPI verison 6 ellipsoid-projected georegistered radiance product acquired during the SPEX-PR flight campaign",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2016-02-02",
         "end_date": "2016-02-09",
         "bbox": "180, -90, -180, 90",
@@ -58190,7 +58177,7 @@
     {
         "id": "AirSHARP_AircraftRemoteSensing_CIRPAS-TO_4STARB_Data_1",
         "title": "AirSHARP CIRPAS Twin Otter Remotely Sensed Spectrometers for Sky-Scanning, Sun-Tracking Atmospheric Research (4STAR) Data",
-        "catalog": "LARC_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2024-10-07",
         "end_date": "2025-05-21",
         "bbox": "-122.43, 36.42, -121.38, 36.97",
@@ -58203,7 +58190,7 @@
     {
         "id": "AirSHARP_AircraftRemoteSensing_CIRPAS-TO_4STARB_Data_1",
         "title": "AirSHARP CIRPAS Twin Otter Remotely Sensed Spectrometers for Sky-Scanning, Sun-Tracking Atmospheric Research (4STAR) Data",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "LARC_CLOUD STAC Catalog",
         "state_date": "2024-10-07",
         "end_date": "2025-05-21",
         "bbox": "-122.43, 36.42, -121.38, 36.97",
@@ -58211,6 +58198,19 @@
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4129962219-LARC_CLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/AirSHARP_AircraftRemoteSensing_CIRPAS-TO_4STARB_Data_1",
         "description": "AirSHARP_AircraftRemoteSensing_CIRPAS-TO_4STARB_Data is the in-situ aerosol data collected onboard the Twin Otter aircraft flying the CIRPAS suite of instruments during the Airborne aSsessment of Hyperspectral Aerosol optical depth and water-leaving Reflectance (AirSHARP) campaign. Data from the Spectrometers for Sky-Scanning, Sun-Tracking Atmospheric Research (4STAR) instrument is featured in this collection. Data collection for this product is complete.  NASA\u2019s Airborne aSsessment of Hyperspectral Aerosol optical depth and water-leaving Reflectance (AirSHARP) observed the atmosphere and ocean for validating the Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite\u2019s Ocean Color Instrument (OCI). During October 2024 and May 2025, AirSHARP conducted simultaneous airborne and seaborne campaigns to collect data under different environmental conditions, validating as much of OCI\u2019s range as possible. Over the two deployments, 14 flights were conducted utilizing the NPS CIRPAS Twin Otter Aircraft. The aircraft was equipped with facility instruments measuring meteorological and navigation parameters, along with the Spectrometer for sky-scanning sun Tracking Atmospheric Research B (4STAR-B) instrument. Additional radiometer package, C-AIR (Coastal Airborne In-Situ Radiometers), for sampling the water leaving radiances and remote sensing reflectances of the Monterey Bay were on board the Twin Otter during AirSHARP, with its data archived in the SeaBass archive (https://seabass.gsfc.nasa.gov/experiment/PVST_AIRSHARP). The overarching goal of both AirSHARP deployments was to assess hyperspectral aerosol optical depth and water-leaving reflectance products for PACE OCI and polarimeter validation.",
+        "license": "CC0-1.0"
+    },
+    {
+        "id": "AirSHARP_MetNav_AircraftInSitu_CIRPAS-TO_Data_1",
+        "title": "AirSHARP CIRPAS Twin Otter In-Situ Meteorology and Navigation Data",
+        "catalog": "ALL STAC Catalog",
+        "state_date": "2024-10-07",
+        "end_date": "2025-05-21",
+        "bbox": "-122.43, 36.42, -121.38, 36.97",
+        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C4126792971-LARC_CLOUD.umm_json",
+        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4126792971-LARC_CLOUD.html",
+        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/AirSHARP_MetNav_AircraftInSitu_CIRPAS-TO_Data_1",
+        "description": "AirSHARP_MetNav_AircraftInSitu_CIRPAS-TO_Data is the in-situ meteorology and navigation data collected onboard the Twin Otter aircraft flying the CIRPAS suite of instruments during the Airborne aSsessment of Hyperspectral Aerosol optical depth and water-leaving Reflectance (AirSHARP) campaign. Data from the N806NA Meteorological and Navigation Facility Instrumentation is featured in this collection. Data collection for this product is complete.  NASA\u2019s Airborne aSsessment of Hyperspectral Aerosol optical depth and water-leaving Reflectance (AirSHARP) observed the atmosphere and ocean for validating the Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite\u2019s Ocean Color Instrument (OCI). During October 2024 and May 2025, AirSHARP conducted simultaneous airborne and seaborne campaigns to collect data under different environmental conditions, validating as much of OCI\u2019s range as possible. Over the two deployments, 14 flights were conducted utilizing the NPS CIRPAS Twin Otter Aircraft. The aircraft was equipped with facility instruments measuring meteorological and navigation parameters, along with the Spectrometer for sky-scanning sun Tracking Atmospheric Research B (4STAR-B) instrument. Additional radiometer package, C-AIR (Coastal Airborne In-Situ Radiometers), for sampling the water leaving radiances and remote sensing reflectances of the Monterey Bay were on board the Twin Otter during AirSHARP, with its data archived in the SeaBass archive (https://seabass.gsfc.nasa.gov/experiment/PVST_AIRSHARP). The overarching goal of both AirSHARP deployments was to assess hyperspectral aerosol optical depth and water-leaving reflectance products for PACE OCI and polarimeter validation.",
         "license": "CC0-1.0"
     },
     {
@@ -58227,22 +58227,9 @@
         "license": "CC0-1.0"
     },
     {
-        "id": "AirSHARP_MetNav_AircraftInSitu_CIRPAS-TO_Data_1",
-        "title": "AirSHARP CIRPAS Twin Otter In-Situ Meteorology and Navigation Data",
-        "catalog": "ALL STAC Catalog",
-        "state_date": "2024-10-07",
-        "end_date": "2025-05-21",
-        "bbox": "-122.43, 36.42, -121.38, 36.97",
-        "url": "https://cmr.earthdata.nasa.gov/search/concepts/C4126792971-LARC_CLOUD.umm_json",
-        "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4126792971-LARC_CLOUD.html",
-        "href": "https://cmr.earthdata.nasa.gov/stac/LARC_CLOUD/collections/AirSHARP_MetNav_AircraftInSitu_CIRPAS-TO_Data_1",
-        "description": "AirSHARP_MetNav_AircraftInSitu_CIRPAS-TO_Data is the in-situ meteorology and navigation data collected onboard the Twin Otter aircraft flying the CIRPAS suite of instruments during the Airborne aSsessment of Hyperspectral Aerosol optical depth and water-leaving Reflectance (AirSHARP) campaign. Data from the N806NA Meteorological and Navigation Facility Instrumentation is featured in this collection. Data collection for this product is complete.  NASA\u2019s Airborne aSsessment of Hyperspectral Aerosol optical depth and water-leaving Reflectance (AirSHARP) observed the atmosphere and ocean for validating the Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite\u2019s Ocean Color Instrument (OCI). During October 2024 and May 2025, AirSHARP conducted simultaneous airborne and seaborne campaigns to collect data under different environmental conditions, validating as much of OCI\u2019s range as possible. Over the two deployments, 14 flights were conducted utilizing the NPS CIRPAS Twin Otter Aircraft. The aircraft was equipped with facility instruments measuring meteorological and navigation parameters, along with the Spectrometer for sky-scanning sun Tracking Atmospheric Research B (4STAR-B) instrument. Additional radiometer package, C-AIR (Coastal Airborne In-Situ Radiometers), for sampling the water leaving radiances and remote sensing reflectances of the Monterey Bay were on board the Twin Otter during AirSHARP, with its data archived in the SeaBass archive (https://seabass.gsfc.nasa.gov/experiment/PVST_AIRSHARP). The overarching goal of both AirSHARP deployments was to assess hyperspectral aerosol optical depth and water-leaving reflectance products for PACE OCI and polarimeter validation.",
-        "license": "CC0-1.0"
-    },
-    {
         "id": "AirSWOT_Orthomosaic_WaterMask_1655_1",
         "title": "ABoVE: AirSWOT Radar, Orthomosaic, and Water Masks, Yukon Flats Basin, Alaska, 2015",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2015-06-15",
         "end_date": "2015-06-15",
         "bbox": "-148, 65.9282, -145, 66.8978",
@@ -58255,7 +58242,7 @@
     {
         "id": "AirSWOT_Orthomosaic_WaterMask_1655_1",
         "title": "ABoVE: AirSWOT Radar, Orthomosaic, and Water Masks, Yukon Flats Basin, Alaska, 2015",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2015-06-15",
         "end_date": "2015-06-15",
         "bbox": "-148, 65.9282, -145, 66.8978",
@@ -58346,7 +58333,7 @@
     {
         "id": "Alaska_Lake_Pond_Maps_2134_1",
         "title": "ABoVE: Lake and Pond Extents in Alaskan Boreal and Tundra Subregions, 2019-2021",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2019-05-19",
         "end_date": "2021-09-28",
         "bbox": "-164.402, 60.7642, -143.836, 67.2081",
@@ -58359,7 +58346,7 @@
     {
         "id": "Alaska_Lake_Pond_Maps_2134_1",
         "title": "ABoVE: Lake and Pond Extents in Alaskan Boreal and Tundra Subregions, 2019-2021",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2019-05-19",
         "end_date": "2021-09-28",
         "bbox": "-164.402, 60.7642, -143.836, 67.2081",
@@ -58398,7 +58385,7 @@
     {
         "id": "Alaska_Yukon_NDVI_1614_1",
         "title": "ABoVE: MODIS-derived Maximum NDVI, Northern Alaska and Yukon Territory for 2002-2017",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2002-06-01",
         "end_date": "2017-08-30",
         "bbox": "-175.762, 52.1694, -97.9305, 68.9658",
@@ -58411,7 +58398,7 @@
     {
         "id": "Alaska_Yukon_NDVI_1614_1",
         "title": "ABoVE: MODIS-derived Maximum NDVI, Northern Alaska and Yukon Territory for 2002-2017",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2002-06-01",
         "end_date": "2017-08-30",
         "bbox": "-175.762, 52.1694, -97.9305, 68.9658",
@@ -58476,7 +58463,7 @@
     {
         "id": "Alder_Shrub_Soil_Alaska_V2_2300_2",
         "title": "ABoVE: Alder Shrub Cover and Soil Properties, Alaska, 2019, V2",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2018-08-14",
         "end_date": "2019-08-28",
         "bbox": "-150.714, 66.3401, -149.708, 68.0185",
@@ -58489,7 +58476,7 @@
     {
         "id": "Alder_Shrub_Soil_Alaska_V2_2300_2",
         "title": "ABoVE: Alder Shrub Cover and Soil Properties, Alaska, 2019, V2",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2018-08-14",
         "end_date": "2019-08-28",
         "bbox": "-150.714, 66.3401, -149.708, 68.0185",
@@ -58580,7 +58567,7 @@
     {
         "id": "Annual_30m_AGB_1808_1",
         "title": "ABoVE: Annual Aboveground Biomass for Boreal Forests of ABoVE Core Domain, 1984-2014",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1984-01-01",
         "end_date": "2014-12-31",
         "bbox": "-165.41, 51.7769, -101.736, 69.7323",
@@ -58593,7 +58580,7 @@
     {
         "id": "Annual_30m_AGB_1808_1",
         "title": "ABoVE: Annual Aboveground Biomass for Boreal Forests of ABoVE Core Domain, 1984-2014",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "1984-01-01",
         "end_date": "2014-12-31",
         "bbox": "-165.41, 51.7769, -101.736, 69.7323",
@@ -58645,7 +58632,7 @@
     {
         "id": "Annual_Seasonality_Greenness_1698_1",
         "title": "ABoVE: Annual Phenology Derived from Landsat across the ABoVE Core Domain, 1984-2014",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "1984-01-01",
         "end_date": "2014-12-31",
         "bbox": "-170.006, 50.259, -98.974, 75.0139",
@@ -58658,7 +58645,7 @@
     {
         "id": "Annual_Seasonality_Greenness_1698_1",
         "title": "ABoVE: Annual Phenology Derived from Landsat across the ABoVE Core Domain, 1984-2014",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1984-01-01",
         "end_date": "2014-12-31",
         "bbox": "-170.006, 50.259, -98.974, 75.0139",
@@ -60322,7 +60309,7 @@
     {
         "id": "Arctic_Boreal_CO2_Flux_V2_2448_1",
         "title": "ABCFlux v2: Arctic-Boreal CO2 and CH4 In-situ Flux and Environmental Data",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1984-05-01",
         "end_date": "2024-12-31",
         "bbox": "-165.833, 43.323, 161.843, 82.8226",
@@ -60335,7 +60322,7 @@
     {
         "id": "Arctic_Boreal_CO2_Flux_V2_2448_1",
         "title": "ABCFlux v2: Arctic-Boreal CO2 and CH4 In-situ Flux and Environmental Data",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "1984-05-01",
         "end_date": "2024-12-31",
         "bbox": "-165.833, 43.323, 161.843, 82.8226",
@@ -61856,7 +61843,7 @@
     {
         "id": "BANd0128_113",
         "title": "Agricultural Soils map of Thmarpouk province, Cambodia",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "CEOS_EXTRA STAC Catalog",
         "state_date": "1970-01-01",
         "end_date": "",
         "bbox": "102.28, 10.07, 107.98, 14.86",
@@ -61869,7 +61856,7 @@
     {
         "id": "BANd0128_113",
         "title": "Agricultural Soils map of Thmarpouk province, Cambodia",
-        "catalog": "CEOS_EXTRA STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1970-01-01",
         "end_date": "",
         "bbox": "102.28, 10.07, 107.98, 14.86",
@@ -64742,7 +64729,7 @@
     {
         "id": "Boreal_Forest_Survey_Fairbanks_2390_1",
         "title": "ABoVE: Boreal Forest Resilience Study 2020-2022, Fairbanks AK",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2017-01-01",
         "end_date": "2022-12-31",
         "bbox": "-148.9, 64.4, -146.1, 65",
@@ -64755,7 +64742,7 @@
     {
         "id": "Boreal_Forest_Survey_Fairbanks_2390_1",
         "title": "ABoVE: Boreal Forest Resilience Study 2020-2022, Fairbanks AK",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2017-01-01",
         "end_date": "2022-12-31",
         "bbox": "-148.9, 64.4, -146.1, 65",
@@ -64768,7 +64755,7 @@
     {
         "id": "Boreal_LandCoverClasses_AK_CA_2423_1",
         "title": "ABoVE: Landsat-derived Annual Dominant Land Cover in Boreal North America, 1986-2020",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "1986-01-01",
         "end_date": "2020-12-31",
         "bbox": "-166.685, 41.2276, -50.1766, 71.0677",
@@ -64781,7 +64768,7 @@
     {
         "id": "Boreal_LandCoverClasses_AK_CA_2423_1",
         "title": "ABoVE: Landsat-derived Annual Dominant Land Cover in Boreal North America, 1986-2020",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "1986-01-01",
         "end_date": "2020-12-31",
         "bbox": "-166.685, 41.2276, -50.1766, 71.0677",
@@ -64807,7 +64794,7 @@
     {
         "id": "BurnedArea_Emissions_AK_YT_NWT_1812_2",
         "title": "ABoVE: Ignitions, Burned Area, and Emissions of Fires in AK, YT, and NWT, 2001-2018",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2001-01-01",
         "end_date": "2018-12-31",
         "bbox": "-167, 51.6346, -99.9838, 79.2618",
@@ -64820,7 +64807,7 @@
     {
         "id": "BurnedArea_Emissions_AK_YT_NWT_1812_2",
         "title": "ABoVE: Ignitions, Burned Area, and Emissions of Fires in AK, YT, and NWT, 2001-2018",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2001-01-01",
         "end_date": "2018-12-31",
         "bbox": "-167, 51.6346, -99.9838, 79.2618",
@@ -64833,7 +64820,7 @@
     {
         "id": "Burned_Area_Depth_AK_CA_2063_1",
         "title": "ABoVE: Burned Area, Depth, and Combustion for Alaska and Canada, 2001-2019",
-        "catalog": "ORNL_CLOUD STAC Catalog",
+        "catalog": "ALL STAC Catalog",
         "state_date": "2001-01-01",
         "end_date": "2019-12-31",
         "bbox": "-167.959, 42.885, -48.7792, 72.9491",
@@ -64846,7 +64833,7 @@
     {
         "id": "Burned_Area_Depth_AK_CA_2063_1",
         "title": "ABoVE: Burned Area, Depth, and Combustion for Alaska and Canada, 2001-2019",
-        "catalog": "ALL STAC Catalog",
+        "catalog": "ORNL_CLOUD STAC Catalog",
         "state_date": "2001-01-01",
         "end_date": "2019-12-31",
         "bbox": "-167.959, 42.885, -48.7792, 72.9491",
@@ -136158,7 +136145,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C4073974601-LPCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4073974601-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/LPJ_EOSIM_L2_DCH4E_LL_002",
-        "description": "The Lund-Potsdam-Jena Earth Observation SIMulator (LPJ-EOSIM) model estimates global wetland methane (CH4) emissions using simulated wetland extent and characteristics including soil moisture, temperature, and carbon content. For this dataset, wetlands are defined as land areas that are either permanently or seasonally saturated, excluding small ponds, lakes, and coastal wetlands. These wetland CH4 flux data will be used to support the United States Greenhouse Gas Center ([GHGC](https://earth.gov/ghgcenter)) and its mission to study natural GHG fluxes. The model will also be used to facilitate improved rapid detection and attribution of climate-carbon feedback and help with strategic placement of measurement campaigns and monitoring systems as they relate to predicted biogeochemical hotspots.    The LPJ-EOSIM Level 2 Global Simulated Daily Wetland Methane Flux Low Latency (LPJ_EOSIM_L2_DCH4E_LL) Version 2 data product provides simulated daily wetland CH4 flux globally at a spatial resolution of 0.5 degrees. The daily data are presented in three Cloud Optimized GeoTIFF (COG) files and corresponding browse images based on each of the reanalysis datasets: the Modern-Era Retrospective analysis for Research and Applications Version 2 (MERRA-2), the European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA5), and the Japanese Reanalysis for Three Quarters of a Century (JRA-3Q). Please see Section 3.1 of the User Guide and Section 3 of the Algorithm Theoretical Basis Document for a more detailed explanation of these and other inputs.    These low latency data are delivered on a two-month cadence throughout the year. A new version of LPJ-EOSIM low latency data are expected to be released annually when new [Global Carbon Budget](https://globalcarbonbudget.org/) data become available. For more details about collection version updates, please refer to Section 6 of the User Guide.",
+        "description": "The Lund-Potsdam-Jena Earth Observation SIMulator (LPJ-EOSIM) model estimates global wetland methane (CH4) emissions using simulated wetland extent and characteristics including soil moisture, temperature, and carbon content. For this dataset, wetlands are defined as land areas that are either permanently or seasonally saturated, excluding small ponds, lakes, and coastal wetlands. These wetland CH4 flux data will be used to support the United States Greenhouse Gas Center ([GHGC](https://earth.gov/ghgcenter)) and its mission to study natural GHG fluxes. The model will also be used to facilitate improved rapid detection and attribution of climate-carbon feedback and help with strategic placement of measurement campaigns and monitoring systems as they relate to predicted biogeochemical hotspots.    The LPJ-EOSIM Level 2 Global Simulated Daily Wetland Methane Flux Low Latency (LPJ_EOSIM_L2_DCH4E_LL) Version 2 data product provides simulated daily wetland CH4 flux globally at a spatial resolution of 0.5 degrees. The daily data are presented in three Cloud Optimized GeoTIFF (COG) files and corresponding browse images based on each of the reanalysis datasets: the Modern-Era Retrospective analysis for Research and Applications Version 2 (MERRA-2), the European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA5), and the Japanese Reanalysis for Three Quarters of a Century (JRA-3Q). Please see Section 3.1 of the User Guide and Section 3 of the Algorithm Theoretical Basis Document for a more detailed explanation of these and other inputs.    These low latency data are delivered on a two-month cadence throughout the year. LPJ-EOSIM low latency data are expected to be reprocessed and redelivered when new [Global Carbon Budget](https://globalcarbonbudget.org/) data become available. For more details about collection version updates, please refer to Section 6 of the User Guide.",
         "license": "CC0-1.0"
     },
     {
@@ -136171,7 +136158,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C4075754298-LPCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4075754298-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/LPJ_EOSIM_L2_DNBP_LL_002",
-        "description": "The Lund-Potsdam-Jena Earth Observation SIMulator (LPJ-EOSIM) model estimates global terrestrial carbon emissions using simulated distribution of terrestrial vegetation and subsequent biological interactions including soil moisture, temperature, and carbon content. These carbon flux data will be used to support the United States Greenhouse Gas Center ([GHGC](https://earth.gov/ghgcenter)) and its mission to study natural GHG fluxes. The model will also be used to facilitate improved rapid detection and attribution of climate-carbon feedback and help with strategic placement of measurement campaigns and monitoring systems as they relate to predicted biogeochemical hotspots.  The LPJ-EOSIM Level 2 Global Simulated Daily Net Biome Production (NBP) Flux Low Latency (LPJ_EOSIM_L2_DNBP_LL) Version 2 data product provides simulated daily NBP as terrestrial carbon flux globally at a spatial resolution of 0.5 degrees. The daily data are presented in three Cloud Optimized GeoTIFF (COG) files and corresponding browse images based on each of the reanalysis datasets: the Modern-Era Retrospective analysis for Research and Applications Version 2 (MERRA-2), the European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA5), and the Japanese Reanalysis for Three Quarters of a Century (JRA-3Q). Please see Section 3.1 of the User Guide or Section 3.2 of the Algorithm Theoretical Basis Document (ATBD) for a more detailed explanation of these and other inputs.  These low latency data are delivered on a two-month cadence throughout the year. A new version of LPJ-EOSIM low latency data are expected to be released annually when new [Global Carbon Budget](https://globalcarbonbudget.org/) data become available. For more details about collection version updates, please refer to Section 6 of the User Guide.",
+        "description": "The Lund-Potsdam-Jena Earth Observation SIMulator (LPJ-EOSIM) model estimates global terrestrial carbon emissions using simulated distribution of terrestrial vegetation and subsequent biological interactions including soil moisture, temperature, and carbon content. These carbon flux data will be used to support the United States Greenhouse Gas Center ([GHGC](https://earth.gov/ghgcenter)) and its mission to study natural GHG fluxes. The model will also be used to facilitate improved rapid detection and attribution of climate-carbon feedback and help with strategic placement of measurement campaigns and monitoring systems as they relate to predicted biogeochemical hotspots.  The LPJ-EOSIM Level 2 Global Simulated Daily Net Biome Production (NBP) Flux Low Latency (LPJ_EOSIM_L2_DNBP_LL) Version 2 data product provides simulated daily NBP as terrestrial carbon flux globally at a spatial resolution of 0.5 degrees. The daily data are presented in three Cloud Optimized GeoTIFF (COG) files and corresponding browse images based on each of the reanalysis datasets: the Modern-Era Retrospective analysis for Research and Applications Version 2 (MERRA-2), the European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA5), and the Japanese Reanalysis for Three Quarters of a Century (JRA-3Q). Please see Section 3.1 of the User Guide or Section 3.2 of the Algorithm Theoretical Basis Document (ATBD) for a more detailed explanation of these and other inputs.  These low latency data are delivered on a two-month cadence throughout the year. LPJ-EOSIM low latency data are expected to be reprocessed and redelivered when new [Global Carbon Budget](https://globalcarbonbudget.org/) data become available. For more details about collection version updates, please refer to Section 6 of the User Guide.",
         "license": "CC0-1.0"
     },
     {
@@ -136210,7 +136197,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C4075593636-LPCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4075593636-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/LPJ_EOSIM_L2_MCH4E_LL_002",
-        "description": "The Lund-Potsdam-Jena Earth Observation SIMulator (LPJ-EOSIM) model estimates global wetland methane (CH4) emissions using simulated wetland extent and characteristics including soil moisture, temperature, and carbon content. For this dataset, wetlands are defined as land areas that are either permanently or seasonally saturated, excluding small ponds, lakes, and coastal wetlands. These wetland CH4 flux data will be used to support the United States Greenhouse Gas Center ([GHGC](https://earth.gov/ghgcenter)) and its mission to study natural GHG fluxes. The model will also be used to facilitate improved rapid detection and attribution of climate-carbon feedback and help with strategic placement of measurement campaigns and monitoring systems as they relate to predicted biogeochemical hotspots.  The LPJ-EOSIM Level 2 Global Simulated Monthly Wetland Methane Flux Low Latency (LPJ_EOSIM_L2_MCH4E_LL) Version 2 data product provides simulated monthly wetland CH4 flux globally at a spatial resolution of 0.5 degrees. The monthly simulation data contains aggregate versions of the daily LPJ-EOSIM L2 Global Simulated Daily Wetland Methane Flux Low Latency ([LPJ_EOSIM_L2_DCH4E_LL](https://doi.org/10.5067/Community/LPJ-EOSIM/LPJ_EOSIM_L2_DCH4E_LL.002)) Version 2 data. The data are presented in three Cloud Optimized GeoTIFF (COG) files and corresponding browse images based on each of the reanalysis datasets: the Modern-Era Retrospective analysis for Research and Applications Version 2 (MERRA-2), the European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA5), and the Japanese Reanalysis for Three Quarters of a Century (JRA-3Q). Please see Section 3.1 of the User Guide and Section 3 of the Algorithm Theoretical Basis Document (ATBD) for more detailed explanations of these and other inputs.  These low latency data are delivered on a two-month cadence throughout the year. LPJ-EOSIM low latency data is expected to be reprocessed annually when new [Global Carbon Budget](https://globalcarbonbudget.org/) data become available. For more details about collection version updates, please refer to Section 6 of the User Guide.",
+        "description": "The Lund-Potsdam-Jena Earth Observation SIMulator (LPJ-EOSIM) model estimates global wetland methane (CH4) emissions using simulated wetland extent and characteristics including soil moisture, temperature, and carbon content. For this dataset, wetlands are defined as land areas that are either permanently or seasonally saturated, excluding small ponds, lakes, and coastal wetlands. These wetland CH4 flux data will be used to support the United States Greenhouse Gas Center ([GHGC](https://earth.gov/ghgcenter)) and its mission to study natural GHG fluxes. The model will also be used to facilitate improved rapid detection and attribution of climate-carbon feedback and help with strategic placement of measurement campaigns and monitoring systems as they relate to predicted biogeochemical hotspots.  The LPJ-EOSIM Level 2 Global Simulated Monthly Wetland Methane Flux Low Latency (LPJ_EOSIM_L2_MCH4E_LL) Version 2 data product provides simulated monthly wetland CH4 flux globally at a spatial resolution of 0.5 degrees. The monthly simulation data contains aggregate versions of the daily LPJ-EOSIM L2 Global Simulated Daily Wetland Methane Flux Low Latency ([LPJ_EOSIM_L2_DCH4E_LL](https://doi.org/10.5067/Community/LPJ-EOSIM/LPJ_EOSIM_L2_DCH4E_LL.002)) Version 2 data. The data are presented in three Cloud Optimized GeoTIFF (COG) files and corresponding browse images based on each of the reanalysis datasets: the Modern-Era Retrospective analysis for Research and Applications Version 2 (MERRA-2), the European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA5), and the Japanese Reanalysis for Three Quarters of a Century (JRA-3Q). Please see Section 3.1 of the User Guide and Section 3 of the Algorithm Theoretical Basis Document (ATBD) for more detailed explanations of these and other inputs.  These low latency data are delivered on a two-month cadence throughout the year. LPJ-EOSIM low latency data are expected to be reprocessed and redelivered when new [Global Carbon Budget](https://globalcarbonbudget.org/) data become available. For more details about collection version updates, please refer to Section 6 of the User Guide.",
         "license": "CC0-1.0"
     },
     {
@@ -136223,7 +136210,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C4075757282-LPCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4075757282-LPCLOUD.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LPCLOUD/collections/LPJ_EOSIM_L2_MNBP_LL_002",
-        "description": "The Lund-Potsdam-Jena Earth Observation SIMulator (LPJ-EOSIM) model estimates global terrestrial carbon emissions using simulated distribution of terrestrial vegetation and subsequent biological interactions including soil moisture, temperature, and carbon content. These carbon flux data will be used to support the United States Greenhouse Gas Center ([GHGC](https://earth.gov/ghgcenter)) and its mission to study natural GHG fluxes. The model will also be used to facilitate improved rapid detection and attribution of climate-carbon feedback and help with strategic placement of measurement campaigns and monitoring systems as they relate to predicted biogeochemical hotspots.  The LPJ-EOSIM Level 2 Global Simulated Monthly Net Biome Production (NBP) Flux Low Latency (LPJ_EOSIM_L2_MNBP_LL) Version 2 data product provides simulated monthly NBP as terrestrial carbon flux globally at a spatial resolution of 0.5 degrees. The monthly simulation data contains aggregate versions of the daily LPJ-EOSIM L2 Global Simulated Daily Net Biome Production Flux Low Latency ([LPJ_EOSIM_L2_DNBP_LL](https://doi.org/10.5067/Community/LPJ-EOSIM/LPJ_EOSIM_L2_DNBP_LL.002)) Version 2 data. The monthly data are presented in three Cloud Optimized GeoTIFF (COG) files and corresponding browse images based on each of these reanalysis datasets: the Modern-Era Retrospective analysis for Research and Applications Version 2 (MERRA-2), the European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA5), and the Japanese Reanalysis for Three Quarters of a Century (JRA-3Q). Please see Section 3.1 of the User Guide and Section 3.2 of the Algorithm Theoretical Basis Document (ATBD) for more detailed explanations of these and other inputs.   These low latency data are delivered on a two-month cadence throughout the year. A new version of LPJ-EOSIM low latency data are expected to be released annually when new [Global Carbon Budget](https://globalcarbonbudget.org/) data become available. For more details about collection version updates, please refer to Section 6 of the User Guide.",
+        "description": "The Lund-Potsdam-Jena Earth Observation SIMulator (LPJ-EOSIM) model estimates global terrestrial carbon emissions using simulated distribution of terrestrial vegetation and subsequent biological interactions including soil moisture, temperature, and carbon content. These carbon flux data will be used to support the United States Greenhouse Gas Center ([GHGC](https://earth.gov/ghgcenter)) and its mission to study natural GHG fluxes. The model will also be used to facilitate improved rapid detection and attribution of climate-carbon feedback and help with strategic placement of measurement campaigns and monitoring systems as they relate to predicted biogeochemical hotspots.  The LPJ-EOSIM Level 2 Global Simulated Monthly Net Biome Production (NBP) Flux Low Latency (LPJ_EOSIM_L2_MNBP_LL) Version 2 data product provides simulated monthly NBP as terrestrial carbon flux globally at a spatial resolution of 0.5 degrees. The monthly simulation data contains aggregate versions of the daily LPJ-EOSIM L2 Global Simulated Daily Net Biome Production Flux Low Latency ([LPJ_EOSIM_L2_DNBP_LL](https://doi.org/10.5067/Community/LPJ-EOSIM/LPJ_EOSIM_L2_DNBP_LL.002)) Version 2 data. The monthly data are presented in three Cloud Optimized GeoTIFF (COG) files and corresponding browse images based on each of these reanalysis datasets: the Modern-Era Retrospective analysis for Research and Applications Version 2 (MERRA-2), the European Centre for Medium-Range Weather Forecasts (ECMWF) Re-Analysis (ERA5), and the Japanese Reanalysis for Three Quarters of a Century (JRA-3Q). Please see Section 3.1 of the User Guide and Section 3.2 of the Algorithm Theoretical Basis Document (ATBD) for more detailed explanations of these and other inputs.   These low latency data are delivered on a two-month cadence throughout the year. LPJ-EOSIM low latency data are expected to be reprocessed and redelivered when new [Global Carbon Budget](https://globalcarbonbudget.org/) data become available. For more details about collection version updates, please refer to Section 6 of the User Guide.",
         "license": "CC0-1.0"
     },
     {
@@ -145817,7 +145804,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3861664481-LAADS.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3861664481-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MOD021KM_7",
-        "description": "The Terra MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Terra MODIS L1B product is a set of three datasets (MOD02QKM, MOD02HKM, and MOD021KM) that are produced to address the three spatial-resolution variations: 250 m, 500 m, and 1000 m.  This 1000-meter product is with a short-name MOD021KM. It provides 1000-m calibrated radiances for the 29 Visible and Near-Infrared (VNIR) (bands 8 to 19) and Shortwave Infrared and Thermal Infrared (SWIR & TIR) (bands 20 to 36) bands.  Each 1-km band has 10 detectors in the along-track direction. The MOD021KM product contains the twelve Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.  Besides data and information for the 1-km reflective solar and thermal emissive bands, aggregated 250-m and 500-m bands are also generated through simple weighting functions that are applied to the data at their native resolution. Band 26 is a reflective solar band (RSB), which is handled uniquely. Notwithstanding its RSB status, it is transmitted along with the thermal band data. Consequently, the band order for the night-mode data is re-organized so that the Band 26 data are written to the RSB 1-km SDSs and not to the emissive band SDSs.  The v7.0 Terra MODIS MOD021KM in netCDF4 format represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 1000-m swath granule or data-file temporally spans 5 minutes and its image dimensions measure 2,030 lines (along-track direction) by 1,354 samples (cross-track direction). The v7.0 collection\u2019s data record starts from July 4, 2002 (2002\u2013185). Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.",
+        "description": "The Terra MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Terra MODIS L1B product is a set of three datasets (MOD02QKM, MOD02HKM, and MOD021KM) that are produced to address the three spatial-resolution variations: 250 m, 500 m, and 1000 m.  This document describes the version 7.0 (v7.0) of the Terra MODIS 1000-m Calibrated Radiances product whose short-name is MOD021KM. It represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 1000-m swath granule or data-file temporally spans 5 minutes, and its image dimensions measure 2,030 lines (along-track direction) by 1,354 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).  The MOD021KM product provides 1000-m calibrated radiances for the following 29 bands:   | Band | Wavelength | |------|------------| | Band 8 (VNIR)\\* | 0.405 \u00b5m - 0.420 \u00b5m | | Band 9 (VNIR) | 0.438 \u00b5m - 0.448 \u00b5m | | Band 10 (VNIR) | 0.483 \u00b5m - 0.493 \u00b5m | | Band 11 (VNIR) | 0.526 \u00b5m - 0.536 \u00b5m | | Band 12 (VNIR) | 0.546 \u00b5m - 0.556 \u00b5m | | Band 13 (VNIR) | 0.662 \u00b5m - 0.672 \u00b5m | | Band 14 (VNIR) | 0.673 \u00b5m - 0.683 \u00b5m | | Band 15 (VNIR) | 0.743 \u00b5m - 0.753 \u00b5m | | Band 16 (VNIR) | 0.862 \u00b5m - 0.877 \u00b5m | | Band 17 (VNIR) | 0.890 \u00b5m - 0.920 \u00b5m | | Band 18 (VNIR) | 0.931 \u00b5m - 0.941 \u00b5m | | Band 19 (VNIR) | 0.915 \u00b5m - 0.965 \u00b5m | | Band 20 (SWIR & TIR)\\*\\* | 3.660 \u00b5m - 3.840 \u00b5m | | Band 21 (SWIR & TIR) | 3.929 \u00b5m - 3.989 \u00b5m | | Band 22 (SWIR & TIR) | 3.929 \u00b5m - 3.989 \u00b5m | | Band 23 (SWIR & TIR) | 4.020 \u00b5m - 4.080 \u00b5m | | Band 24 (SWIR & TIR) | 4.433 \u00b5m - 4.498 \u00b5m | | Band 25 (SWIR & TIR) | 4.482 \u00b5m - 4.549 \u00b5m | | Band 26 (SWIR & TIR) | 1.360 \u00b5m - 1.390 \u00b5m | | Band 27 (SWIR & TIR) | 6.535 \u00b5m - 6.895 \u00b5m | | Band 28 (SWIR & TIR) | 7.175 \u00b5m - 7.475 \u00b5m | | Band 29 (SWIR & TIR) | 8.400 \u00b5m - 8.700 \u00b5m | | Band 30 (SWIR & TIR) | 9.580 \u00b5m - 9.880 \u00b5m | | Band 31 (SWIR & TIR) | 10.780 \u00b5m - 11.280 \u00b5m | | Band 32 (SWIR & TIR) | 11.770 \u00b5m - 12.270 \u00b5m | | Band 33 (SWIR & TIR) | 13.185 \u00b5m - 13.485 \u00b5m | | Band 34 (SWIR & TIR) | 13.485 \u00b5m - 13.785 \u00b5m | | Band 35 (SWIR & TIR) | 13.785 \u00b5m - 14.085 \u00b5m | | Band 36 (SWIR & TIR) | 14.085 \u00b5m - 14.385 \u00b5m |  \\* VNIR: Visible and Near-Infrared  \\*\\* SWIR & TIR: Shortwave Infrared and Thermal Infrared  Each 1-km band has 10 detectors in the along-track direction. The MOD021KM product contains twelve Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc. (See table below)  | SDS Variable | Long Name | |-------------|-----------| | EV_1KM_Emissive | Earth View 1KM Emissive Bands Scaled Integers | | EV_1KM_Emissive_Uncert_Indexes | Earth View 1KM Emissive Bands Uncertainty Indexes | | EV_1KM_RefSB | Earth View 1KM Reflective Solar Bands Scaled Integers | | EV_1KM_RefSB_Uncert_Indexes | Earth View 1KM Reflective Solar Bands Uncertainty Indexes | | EV_250_Aggr1km_RefSB | Earth View 250M Aggregated 1km Reflective Solar Bands Scaled Integers | | EV_250_Aggr1km_RefSB_Samples_Used | Earth View 250M Aggregated 1km Reflective Solar Bands Number of Samples Used in Aggregation | | EV_250_Aggr1km_RefSB_Uncert_Indexes | Earth View 250M Aggregated 1km Reflective Solar Bands Uncertainty Indexes | | EV_500_Aggr1km_RefSB | Earth View 500M Aggregated 1km Reflective Solar Bands Scaled Integers | | EV_500_Aggr1km_RefSB_Samples_Used | Earth View 500M Aggregated 1km Reflective Solar Bands Number of Samples Used in Aggregation | | EV_500_Aggr1km_RefSB_Uncert_Indexes | Earth View 500M Aggregated 1km Reflective Solar Bands Uncertainty Indexes | | EV_Band26 | Earth View Band 26 Scaled Integers | | EV_Band26_Uncert_Indexes | Earth View Band 26 Uncertainty Indexes |    In addition to the data and information for the 1-km reflective solar and thermal emissive bands, aggregated 250-m and 500-m bands are also generated through simple weighting functions that are applied to the data at their native resolution. Band 26 is a reflective solar band (RSB), which is handled uniquely. Notwithstanding its RSB status, it is transmitted along with the thermal band data. Consequently, the band order for the night-mode data is re-organized so that the Band 26 data are written to the RSB 1-km SDSs and not to the emissive band SDSs. Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.   #### Radiometric Calibration-specific Changes in the v7.0 Collection  The L1B calibration algorithms for the v7.0 collection include several updates compared to the previous v6.1 algorithms, that improve the radiometric accuracy and long-term stability of the L1B reflectance, radiance, and brightness temperature. The updated algorithms are applied consistently across the entire missions for v7.0. The most significant changes include the following:   ###### Reflective Solar Bands (RSB) Updates:  - A correction for changing instrument polarization sensitivity is applied to the desert-scene data before using that data to derive the response-versus-scan angle (RVS) for Terra MODIS bands 3, 4, 8, 9, and 10. Additional improvements are also made to the desert data-fitting algorithms for both Terra and Aqua MODIS. - For the Terra MODIS Short-wave Infrared (SWIR) bands, data from deep convective clouds are used to apply drift corrections and derive an on-orbit RVS for bands 5 and 26. The optical and electronic crosstalk-correction algorithms for these bands were also improved. - An inter-band calibration approach that relies on relative trends over ocean scenes is used to correct for drift in Terra bands 11 and 12.   ###### Thermal Emissive Bands (TEB) Updates  - Electronic crosstalk correction is applied to the Aqua MODIS Photovoltaic (PV) Long-wave Infrared (LWIR) bands 27\u201330 over the entire mission. Crosstalk correction is also applied to select Mid-wave Infrared (MWIR) detectors in both Terra and Aqua MODIS. Adjustments were made to the L1B code to improve the handling of crosstalk correction at the image-edge frames. - Data from deep convective clouds are used to apply bias corrections to Terra MODIS bands 20 and 29 and Aqua MODIS bands 27 through 30 as well as to improve the scan mirror-side differences in the Aqua MODIS TEBs. - Adjustments are applied to the non-linear calibration coefficients for Terra and Aqua MODIS band 30 to improve long-term stability.",
         "license": "CC0-1.0"
     },
     {
@@ -145856,7 +145843,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3861634092-LAADS.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3861634092-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MOD02HKM_7",
-        "description": "The Terra MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Aqua MODIS L1B product is a set of three datasets (MOD02QKM, MOD02HKM, and MOD021KM) that are produced to address the three spatial-resolution variations: 250 m, 500 m, and 1000 m.  This landing page describes the 500-meter product with a short-name MOD02HKM. It provides 500-m calibrated radiances for the following 5 bands:    <html> <body> <table style=\"width:50%\">   <tr>     <th>Band</th>     <th>Wavelength</th>   </tr>   <tr>     <td>Band 3 (Blue)</td>     <td>0.459\u20130.479 \u00b5m</td>   </tr>   <tr>     <td>Band 4 (Green)</td>     <td>0.545\u20130.565 \u00b5m</td>   </tr>   <tr>     <td>Band 5 (Near-Infrared (NIR))</td>     <td>1.230\u20130.250 \u00b5m</td>   </tr>   <tr>     <td>Band 6 (Shortwave Infrared (SWIR))</td>     <td>0.628\u20131.652 \u00b5m</td>   </tr>   <tr>     <td>Band 7 (SWIR)</td>     <td>2.105\u20132.155 \u00b5m</td>   </tr> </table> </body> </html> <br> Each 500-m band has 20 detectors in the along-track direction. The MOD02HKM product contains the following five Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.   <html> <body> <table>   <tr>     <th>SDS Variable</th>     <th>Long-name</th>   </tr>   <tr>     <td>EV_250_Aggr500_RefSB</td>     <td>Earth View 250M Aggregated 500M Reflective Solar Bands Scaled Integers</td>   </tr>   <tr>     <td>EV_250_Aggr500_RefSB_Samples_Used</td>     <td>Earth View 250M Aggregated 500M Reflective Solar Bands Number of Samples Used in Aggregation</td>   </tr>   <tr>     <td>EV_250_Aggr500_RefSB_Uncert_Indexes</td>     <td>Earth View 250M Aggregated 500M Reflective Solar Bands Uncertainty Indexes</td>   </tr>   <tr>     <td>EV_500_RefSB</td>     <td>Earth View 500M Reflective Solar Bands Scaled Integers</td>   </tr>   <tr>     <td>EV_500_RefSB_Uncert_Indexes</td>     <td>Earth View 500M Reflective Solar Bands Uncertainty Indexes</td>   </tr> </table> </body> </html> <br>   As evident from the above table, the 250-m (red and near-infrared) bands are also aggregated to 500 m through simple weighting functions that are applied to the data at their native resolution.  The v7.0 Terra MODIS MOD02HKM in netCDF4 format represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 500-m swath granule or data-file temporally spans 5 minutes and its image dimensions measure 4,060 lines (along-track direction) by 2,708 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055). Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.",
+        "description": "The Terra MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Terra MODIS L1B product consists of three datasets (MOD02QKM, MOD02HKM, and MOD021KM) with three spatial-resolution variations: 250 meters, 500 meters, and 1000 meters.  This document describes the version 7.0 (v7.0) of the Terra MODIS 500-m Calibrated Radiances product whose short-name is MOD02HKM. It represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 500-m swath granule or data-file temporally spans 5 minutes, and its image dimensions measure 4,060 lines (along-track direction) by 2,708 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).  The MOD02HKM product provides 500-m calibrated radiances for the following 5 bands:   | Band | Wavelength | |------|------------| | Band 3 (Blue)\t| 0.459\u20130.479 \u00b5m|  | Band 4 (Green)\t| 0.545\u20130.565 \u00b5m|  | Band 5 (Near-Infrared (NIR))\t| 1.230\u20130.250 \u00b5m|  | Band 6 (Shortwave Infrared (SWIR))\t| 0.628\u20131.652 \u00b5m|  | Band 7 (SWIR)\t| 2.105\u20132.155 \u00b5m|  |      |            |  Each 500-m band has 20 detectors in the along-track direction. The MOD02HKM product contains the following five Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.  | SDS Variable | Long Name | |-------------|-----------| | EV_250_Aggr500_RefSB\t| Earth View 250M Aggregated 500M Reflective Solar Bands Scaled Integers|  | EV_250_Aggr500_RefSB_Samples_Used\t| Earth View 250M Aggregated 500M Reflective Solar Bands Number of Samples Used in Aggregation|  | EV_250_Aggr500_RefSB_Uncert_Indexes\t| Earth View 250M Aggregated 500M Reflective Solar Bands Uncertainty Indexes|  | EV_500_RefSB\t| Earth View 500M Reflective Solar Bands Scaled Integers|  | EV_500_RefSB_Uncert_Indexes\t| Earth View 500M Reflective Solar Bands Uncertainty Indexes|  |      |            |   As evident from the above table, the 250-m (red and near-infrared) bands are also aggregated to 500 m through simple weighting functions that are applied to the data at their native resolution. Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.  #### Radiometric Calibration-specific Changes in the v7.0 Collection  The L1B calibration algorithms for the v7.0 collection include several updates compared to the previous v6.1 algorithms, which improve the radiometric accuracy and long-term stability of the L1B reflectance, radiance, and brightness temperature. The updated algorithms are applied consistently across the entire missions for v7.0. The most significant changes include the following:   ###### Reflective Solar Bands (RSB) updates:    - A correction for changing instrument polarization sensitivity is applied to the desert-scene data before using that data to derive the response-versus-scan angle (RVS) for Terra MODIS bands 3, 4, 8, 9, and 10. Additional improvements are also made to the desert data-fitting algorithms for both Terra and Aqua MODIS. - For the Terra MODIS Short-wave Infrared (SWIR) bands, data from deep convective clouds are used to apply drift corrections and derive an on-orbit RVS for bands 5 and 26. The optical and electronic crosstalk-correction algorithms for these bands were also improved.  - An inter-band calibration approach that relies on relative trends over ocean scenes is used to correct for drift in Terra bands 11 and 12.  ###### Thermal Emissive Bands (TEB) updates:  - Electronic crosstalk correction is applied to the Aqua MODIS Photovoltaic (PV) Long-wave Infrared (LWIR) bands 27\u201330 over the entire mission. Crosstalk correction is also applied to select Mid-wave Infrared (MWIR) detectors in both Terra and Aqua MODIS. Adjustments were made to the L1B code to improve the handling of crosstalk correction at the image-edge frames. - Data from deep convective clouds are used to apply bias corrections to Terra MODIS bands 20 and 29, and Aqua MODIS bands 27 through 30 as well as to improve the scan mirror-side differences in the Aqua MODIS TEBs. - Adjustments are applied to the non-linear calibration coefficients for Terra and Aqua MODIS band 30 to improve long-term stability.",
         "license": "CC0-1.0"
     },
     {
@@ -145895,7 +145882,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3861609263-LAADS.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3861609263-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MOD02QKM_7",
-        "description": "The Terra MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer/steradian. The Terra MODIS L1B product is a set three datasets (MOD02QKM, MOD02HKM, and MOD021KM) that are produced to address the three spatial-resolution variations: 250 m, 500 m, and 1000 m.  This landing page describes the quarter-kilometer product with a short-name MOD02QKM. It provides calibrated radiances derived from the 250-m at-nadir visible band-1 and near-infrared band-2 that have central wavelengths at 0.645 \u00b5m and 0.858 \u00b5m, respectively. Each 250-m band has 40 detectors in the along-track direction. The MOD02QKM product contains the following two Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.    <html> <body> <table>   <tr>     <th>SDS Variable</th>     <th>Long-name</th>   </tr>   <tr>     <td>EV_250_RefSB</td>     <td>Earth View 250M Reflective Solar Bands Scaled Integers</td>   </tr>   <tr>     <td>EV_250_RefSB_Uncert_Indexes</td>     <td>Earth View 250M Reflective Solar Bands Uncertainty Indexes</td>   </tr>  </table> </body> </html> <br> The v7.0 Terra MODIS MOD02QKM in netCDF4 format represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 250-m swath granule or data-file temporally spans 5 minutes and its image dimensions measure 8,120 lines (along-track direction) by 5,416 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055). Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.",
+        "description": "The Terra MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Terra MODIS L1B product is a set of three datasets (MOD02QKM, MOD02HKM, and MOD021KM) that are produced to address the three spatial-resolution variations: 250 meters, 500 meters, and 1000 meters.  This document describes the version 7.0 (v7.0) of the Terra MODIS 250-m Calibrated Radiances product whose short-name is MOD02QKM. It represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 250-m swath granule or data-file temporally spans 5 minutes, and its image dimensions measure 8,120 lines (along-track direction) by 5,416 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).  The MOD02QKM product provides calibrated radiances derived from the 250-m at-nadir visible band-1 and near-infrared band-2 that have central wavelengths at 0.645 \u00b5m and 0.858 \u00b5m, respectively. Each 250-m band has 40 detectors in the along-track direction. This product contains the following two Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.    | SDS Variable | Long Name | |-------------|-----------| | EV_250_RefSB\t| Earth View 250M Reflective Solar Bands Scaled Integers|  | EV_250_RefSB_Uncert_Indexes\t| Earth View 250M Reflective Solar Bands Uncertainty Indexes |     Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.  #### Radiometric Calibration-specific Changes in the v7.0 Collection  The L1B calibration algorithms for the v7.0 collection include several updates compared to the previous v6.1 algorithms, that improve the radiometric accuracy and long-term stability of the L1B reflectance, radiance, and brightness temperature. The updated algorithms are applied consistently across the entire missions for v7.0. The most significant changes include the following:   ###### Reflective Solar Bands (RSB) updates:  - A correction for changing instrument polarization sensitivity is applied to the desert-scene data before using that data to derive the response-versus-scan angle (RVS) for Terra MODIS bands 3, 4, 8, 9, and 10. Additional improvements are also made to the desert data-fitting algorithms for both Terra and Aqua MODIS.  - For the Terra MODIS Short-wave Infrared (SWIR) bands, data from deep convective clouds are used to apply drift corrections and derive an on-orbit RVS for bands 5 and 26. The optical and electronic crosstalk-correction algorithms for these bands were also improved.  - An inter-band calibration approach that relies on relative trends over ocean scenes is used to correct for drift in Terra bands 11 and 12.  ###### Thermal Emissive Bands (TEB) updates:  - Electronic crosstalk correction is applied to the Aqua MODIS Photovoltaic (PV) Long-wave Infrared (LWIR) bands 27\u201330 over the entire mission. Crosstalk correction is also applied to select Mid-wave Infrared (MWIR) detectors in both Terra and Aqua MODIS. Adjustments were made to the L1B code to improve the handling of crosstalk correction at the image-edge frames. - Data from deep convective clouds are used to apply bias corrections to Terra MODIS bands 20 and 29 and Aqua MODIS bands 27 through 30 as well as to improve the scan mirror-side differences in the Aqua MODIS TEBs. - Adjustments are applied to the non-linear calibration coefficients for Terra and Aqua MODIS band 30 to improve long-term stability.",
         "license": "CC0-1.0"
     },
     {
@@ -145947,7 +145934,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3860159104-LAADS.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3860159104-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MOD03_7",
-        "description": "The Terra MODIS (Moderate resolution Imaging Spectroradiometer) Level-1A (L1A) Geolocation product contains geodetic coordinates, ground elevation, and solar and satellite zenith and azimuth angles for the center of each MODIS 1-km pixel at nadir. These data serve as a companion dataset to the Level-1B calibrated radiances (MOD02) and the higher-level products to enable further processing. These geolocation fields are determined using data inputs from the spacecraft attitude and orbit, instrument telemetry, and a digital elevation model.  the Terra MODIS 1-km Geolocation product whose short-name is MOD03. The MOD03 Science Data Sets (SDS) describe the range of information provided for each 1-km pixel\u2019s Instantaneous Field of View (IFOV). In addition, a range of other information attributes (quality, offsets, observation start-time, etc.) exist as well.  The v7.0 Terra MODIS MOD03 in netCDF4 format represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 1-km swath granule or data-file temporally spans 5 minutes and its nominal image dimensions measure 2,030 lines (along-track direction) by 1,354 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).",
+        "description": "The Terra MODIS (Moderate resolution Imaging Spectroradiometer) Level-1A (L1A) Geolocation product contains geodetic coordinates, ground elevation, and solar and satellite zenith and azimuth angles for the center of each MODIS 1-km pixel at nadir. These data serve as a companion dataset to the Level-1B calibrated radiances (MOD02) and the higher-level products to enable further processing. These geolocation fields are determined using data inputs from the spacecraft attitude and orbit, instrument telemetry, and a digital elevation model.  This document describes the version 7.0 (v7.0) of the Terra MODIS 1-km Geolocation product whose short-name is MOD03. It represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 1-km swath granule or data-file temporally spans 5 minutes, and its nominal image dimensions measure 2,030 lines (along-track direction) by 1,354 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).  The following Science Data Sets (SDS) describe the range of information provided for each 1-km pixel\u2019s Instantaneous Field of View (IFOV). A range of other information attributes (quality, offsets, observation start-time, etc.) exist as well.    | SDS Variable | Long Name | |-------------|-----------| | Latitude | Latitude | | Latitude_500m | Latitude (500m) | | Longitude | Longitude | | Longitude_500m | Longitude (500m) |   ###### Data Fields  | SDS Variable | Long Name | |-------------|-----------| | gflags | gflags | | Height | Height | | Height_Offset | Height Offset | | Height_500m | Height (500m) | | Land-Sea Mask | Land-Sea Mask | | Range | Range | | Scan Offset | Scan Offset | | Sensor Azimuth | Sensor Azimuth | | Sensor Zenith | Sensor Zenith | | Solar Azimuth | Solar Azimuth | | Solar Zenith | Solar Zenith | | Track Offset | Track Offset | | Water Present | Water Present |   - Added a new solar-eclipse flag. - Added 500-m information for the geodetic latitude, longitude, and height variables. - Revised the practice of using a yearly updated Land-Water Mask database instead of a static database. - Refreshed the Ground Control Point (GCP) chip library:   - Expanded the number of chips from 1,214 to 2,514.   - Extended chip coverage from 24 \u00d7 24 km to 42 \u00d7 42 km.   - Extended error measurements from scan angles of \u00b145\u00b0 to \u00b155\u00b0.   - Extended error searches from an area of \u00b10.8 to \u00b12.5 250-m pixels.   - Increased the cross-correlation coefficient threshold from 0.6 to 0.85.",
         "license": "CC0-1.0"
     },
     {
@@ -150536,7 +150523,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3861713185-LAADS.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3861713185-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD021KM_7",
-        "description": "The Aqua MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Aqua MODIS L1B product is a set three datasets (MYD02QKM, MYD02HKM, and MYD021KM) that are produced to address the three spatial-resolution variations: 250 m, 500 m, and 1000 m.  This 1000-meter product is with a short-name MYD021KM. It provides 1000-m calibrated radiances for the 29 Visible and Near-Infrared (VNIR) (bands 8 to 19) and Shortwave Infrared and Thermal Infrared (SWIR & TIR) (bands 20 to 36) bands.  Each 1-km band has 10 detectors in the along-track direction. The MYD021KM product contains the twelve Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.  Besides data and information for the 1-km reflective solar and thermal emissive bands, aggregated 250-m and 500-m bands are also generated through simple weighting functions that are applied to the data at their native resolution. Band 26 is a reflective solar band (RSB), which is handled uniquely. Notwithstanding its RSB status, it is transmitted along with the thermal band data. Consequently, the band order for the night-mode data is re-organized so that the Band 26 data are written to the RSB 1-km SDSs and not to the emissive band SDSs.  The v7.0 Aqua MODIS MYD021KM in netCDF4 format represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 1000-m swath granule or data-file temporally spans 5 minutes and its image dimensions measure 2,030 lines (along-track direction) by 1,354 samples (cross-track direction). The v7.0 collection\u2019s data record starts from July 4, 2002 (2002\u2013185). Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.",
+        "description": "The Aqua MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Aqua MODIS L1B product is a set of three datasets (MYD02QKM, MYD02HKM, and MYD021KM) that are produced to address the three spatial-resolution variations: 250 m, 500 m, and 1000 m.  This document describes the version 7.0 (v7.0) of the Aqua MODIS 1000-m Calibrated Radiances product whose short-name is MYD021KM. It represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 1000-m swath granule or data-file temporally spans 5 minutes, and its image dimensions measure 2,030 lines (along-track direction) by 1,354 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).  The MYD021KM product provides 1000-m calibrated radiances for the following 29 bands:    | Band | Wavelength | |------|------------| | Band 8 (VNIR)\\* | 0.405 \u00b5m - 0.420 \u00b5m | | Band 9 (VNIR) | 0.438 \u00b5m - 0.448 \u00b5m | | Band 10 (VNIR) | 0.483 \u00b5m - 0.493 \u00b5m | | Band 11 (VNIR) | 0.526 \u00b5m - 0.536 \u00b5m | | Band 12 (VNIR) | 0.546 \u00b5m - 0.556 \u00b5m | | Band 13 (VNIR) | 0.662 \u00b5m - 0.672 \u00b5m | | Band 14 (VNIR) | 0.673 \u00b5m - 0.683 \u00b5m | | Band 15 (VNIR) | 0.743 \u00b5m - 0.753 \u00b5m | | Band 16 (VNIR) | 0.862 \u00b5m - 0.877 \u00b5m | | Band 17 (VNIR) | 0.890 \u00b5m - 0.920 \u00b5m | | Band 18 (VNIR) | 0.931 \u00b5m - 0.941 \u00b5m | | Band 19 (VNIR) | 0.915 \u00b5m - 0.965 \u00b5m | | Band 20 (SWIR & TIR)\\*\\* | 3.660 \u00b5m - 3.840 \u00b5m | | Band 21 (SWIR & TIR) | 3.929 \u00b5m - 3.989 \u00b5m | | Band 22 (SWIR & TIR) | 3.929 \u00b5m - 3.989 \u00b5m | | Band 23 (SWIR & TIR) | 4.020 \u00b5m - 4.080 \u00b5m | | Band 24 (SWIR & TIR) | 4.433 \u00b5m - 4.498 \u00b5m | | Band 25 (SWIR & TIR) | 4.482 \u00b5m - 4.549 \u00b5m | | Band 26 (SWIR & TIR) | 1.360 \u00b5m - 1.390 \u00b5m | | Band 27 (SWIR & TIR) | 6.535 \u00b5m - 6.895 \u00b5m | | Band 28 (SWIR & TIR) | 7.175 \u00b5m - 7.475 \u00b5m | | Band 29 (SWIR & TIR) | 8.400 \u00b5m - 8.700 \u00b5m | | Band 30 (SWIR & TIR) | 9.580 \u00b5m - 9.880 \u00b5m | | Band 31 (SWIR & TIR) | 10.780 \u00b5m - 11.280 \u00b5m | | Band 32 (SWIR & TIR) | 11.770 \u00b5m - 12.270 \u00b5m | | Band 33 (SWIR & TIR) | 13.185 \u00b5m - 13.485 \u00b5m | | Band 34 (SWIR & TIR) | 13.485 \u00b5m - 13.785 \u00b5m | | Band 35 (SWIR & TIR) | 13.785 \u00b5m - 14.085 \u00b5m | | Band 36 (SWIR & TIR) | 14.085 \u00b5m - 14.385 \u00b5m |  \\* VNIR: Visible and Near-Infrared  \\*\\* SWIR & TIR: Shortwave Infrared and Thermal Infrared  Each 1-km band has 10 detectors in the along-track direction. The MYD021KM product contains twelve Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc. (See table below):  | SDS Variable | Long Name | |-------------|-----------| | EV_1KM_Emissive | Earth View 1KM Emissive Bands Scaled Integers | | EV_1KM_Emissive_Uncert_Indexes | Earth View 1KM Emissive Bands Uncertainty Indexes | | EV_1KM_RefSB | Earth View 1KM Reflective Solar Bands Scaled Integers | | EV_1KM_RefSB_Uncert_Indexes | Earth View 1KM Reflective Solar Bands Uncertainty Indexes | | EV_250_Aggr1km_RefSB | Earth View 250M Aggregated 1km Reflective Solar Bands Scaled Integers | | EV_250_Aggr1km_RefSB_Samples_Used | Earth View 250M Aggregated 1km Reflective Solar Bands Number of Samples Used in Aggregation | | EV_250_Aggr1km_RefSB_Uncert_Indexes | Earth View 250M Aggregated 1km Reflective Solar Bands Uncertainty Indexes | | EV_500_Aggr1km_RefSB | Earth View 500M Aggregated 1km Reflective Solar Bands Scaled Integers | | EV_500_Aggr1km_RefSB_Samples_Used | Earth View 500M Aggregated 1km Reflective Solar Bands Number of Samples Used in Aggregation | | EV_500_Aggr1km_RefSB_Uncert_Indexes | Earth View 500M Aggregated 1km Reflective Solar Bands Uncertainty Indexes | | EV_Band26 | Earth View Band 26 Scaled Integers | | EV_Band26_Uncert_Indexes | Earth View Band 26 Uncertainty Indexes |   In addition to the data and information for the 1-km reflective solar and thermal emissive bands, aggregated 250-m and 500-m bands are also generated through simple weighting functions that are applied to the data at their native resolution. Band 26 is a reflective solar band (RSB), which is handled uniquely. Notwithstanding its RSB status, it is transmitted along with the thermal band data. Consequently, the band order for the night-mode data is re-organized so that the Band 26 data are written to the RSB 1-km SDSs and not to the emissive band SDSs. Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.   #### Radiometric Calibration-specific Changes in the v7.0 Collection  The L1B calibration algorithms for the v7.0 collection include several updates compared to the previous v6.1 algorithms, that improve the radiometric accuracy and long-term stability of the L1B reflectance, radiance, and brightness temperature. The updated algorithms are applied consistently across the entire missions for v7.0. The most significant changes include the following:  ###### Reflective Solar Bands (RSB) Updates:  - A correction for changing instrument polarization sensitivity is applied to the desert-scene data before using that data to derive the response-versus-scan angle (RVS) for Terra MODIS bands 3, 4, 8, 9, and 10. Additional improvements are also made to the desert data-fitting algorithms for both Terra and Aqua MODIS. - For the Terra MODIS Short-wave Infrared (SWIR) bands, data from deep convective clouds are used to apply drift corrections and derive an on-orbit RVS for bands 5 and 26. The optical and electronic crosstalk-correction algorithms for these bands were also improved. - An inter-band calibration approach that relies on relative trends over ocean scenes is used to correct for drift in Terra bands 11 and 12.  ###### Thermal Emissive Bands (TEB) Updates  - Electronic crosstalk correction is applied to the Aqua MODIS Photovoltaic (PV) Long-wave Infrared (LWIR) bands 27\u201330 over the entire mission. Crosstalk correction is also applied to select Mid-wave Infrared (MWIR) detectors in both Terra and Aqua MODIS. Adjustments were made to the L1B code to improve the handling of crosstalk correction at the image-edge frames. - Data from deep convective clouds are used to apply bias corrections to Terra MODIS bands 20 and 29 and Aqua MODIS bands 27 through 30 as well as to improve the scan mirror-side differences in the Aqua MODIS TEBs. - Adjustments are applied to the non-linear calibration coefficients for Terra and Aqua MODIS band 30 to improve long-term stability.",
         "license": "CC0-1.0"
     },
     {
@@ -150575,7 +150562,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3861620488-LAADS.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3861620488-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD02HKM_7",
-        "description": "The Aqua MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Aqua MODIS L1B product is a set three datasets (MYD02QKM, MYD02HKM, and MYD021KM) that are produced to address the three spatial-resolution variations: 250 m, 500 m, and 1000 m.  This landing page describes the 500-meter product with a short-name MYD02HKM. It provides 500-m calibrated radiances for the following 5 bands:    <html> <body> <table style=\"width:50%\">   <tr>     <th>Band</th>     <th>Wavelength</th>   </tr>   <tr>     <td>Band 3 (Blue)</td>     <td>0.459\u20130.479 \u00b5m</td>   </tr>   <tr>     <td>Band 4 (Green)</td>     <td>0.545\u20130.565 \u00b5m</td>   </tr>   <tr>     <td>Band 5 (Near-Infrared (NIR))</td>     <td>1.230\u20130.250 \u00b5m</td>   </tr>   <tr>     <td>Band 6 (Shortwave Infrared (SWIR))</td>     <td>0.628\u20131.652 \u00b5m</td>   </tr>   <tr>     <td>Band 7 (SWIR)</td>     <td>2.105\u20132.155 \u00b5m</td>   </tr> </table> </body> </html>   Each 500-m band has 20 detectors in the along-track direction. The MYD02HKM product contains the following five Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.   <html> <body> <table>   <tr>     <th>SDS Variable</th>     <th>Long-name</th>   </tr>   <tr>     <td>EV_250_Aggr500_RefSB</td>     <td>Earth View 250M Aggregated 500M Reflective Solar Bands Scaled Integers</td>   </tr>   <tr>     <td>EV_250_Aggr500_RefSB_Samples_Used</td>     <td>Earth View 250M Aggregated 500M Reflective Solar Bands Number of Samples Used in Aggregation</td>   </tr>   <tr>     <td>EV_250_Aggr500_RefSB_Uncert_Indexes</td>     <td>Earth View 250M Aggregated 500M Reflective Solar Bands Uncertainty Indexes</td>   </tr>   <tr>     <td>EV_500_RefSB</td>     <td>Earth View 500M Reflective Solar Bands Scaled Integers</td>   </tr>   <tr>     <td>EV_500_RefSB_Uncert_Indexes</td>     <td>Earth View 500M Reflective Solar Bands Uncertainty Indexes</td>   </tr> </table> </body> </html>    As evident from the above table, the 250-m (red and near-infrared) bands are also aggregated to 500 m through simple weighting functions that are applied to the data at their native resolution.  The v7.0 Aqua MODIS MYD02HKM in netCDF4 format represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 500-m swath granule or data-file temporally spans 5 minutes and its image dimensions measure 4,060 lines (along-track direction) by 2,708 samples (cross-track direction). The v7.0 collection\u2019s data record starts from July 4, 2002 (2002\u2013185). Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.",
+        "description": "The Aqua MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Aqua MODIS L1B product consists of three datasets (MYD02QKM, MYD02HKM, and MYD021KM) with three spatial-resolution variations: 250 meters, 500 meters, and 1000 meters.  This document describes the version 7.0 (v7.0) of the Aqua MODIS 500-m Calibrated Radiances product whose short-name is MYD02HKM. It represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 500-m swath granule or data-file temporally spans 5 minutes, and its image dimensions measure 4,060 lines (along-track direction) by 2,708 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).  The MYD02HKM product provides 500-m calibrated radiances for the following 5 bands:   | Band | Wavelength | |------|------------| | Band 3 (Blue)\t| 0.459\u20130.479 \u00b5m|  | Band 4 (Green)\t| 0.545\u20130.565 \u00b5m|  | Band 5 (Near-Infrared (NIR))\t| 1.230\u20130.250 \u00b5m|  | Band 6 (Shortwave Infrared (SWIR))\t| 0.628\u20131.652 \u00b5m|  | Band 7 (SWIR)\t| 2.105\u20132.155 \u00b5m|  |      |            |  Each 500-m band has 20 detectors in the along-track direction. The MYD02HKM product contains the following five Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.  | SDS Variable | Long Name | |-------------|-----------| | EV_250_Aggr500_RefSB\t| Earth View 250M Aggregated 500M Reflective Solar Bands Scaled Integers|  | EV_250_Aggr500_RefSB_Samples_Used\t| Earth View 250M Aggregated 500M Reflective Solar Bands Number of Samples Used in Aggregation|  | EV_250_Aggr500_RefSB_Uncert_Indexes\t| Earth View 250M Aggregated 500M Reflective Solar Bands Uncertainty Indexes|  | EV_500_RefSB\t| Earth View 500M Reflective Solar Bands Scaled Integers|  | EV_500_RefSB_Uncert_Indexes\t| Earth View 500M Reflective Solar Bands Uncertainty Indexes|  |      |            |   As evident from the above table, the 250-m (red and near-infrared) bands are also aggregated to 500 m through simple weighting functions that are applied to the data at their native resolution. Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.  #### Radiometric Calibration-specific Changes in the v7.0 Collection  The L1B calibration algorithms for the v7.0 collection include several updates compared to the previous v6.1 algorithms, which improve the radiometric accuracy and long-term stability of the L1B reflectance, radiance, and brightness temperature. The updated algorithms are applied consistently across the entire missions for v7.0. The most significant changes include the following:   ###### Reflective Solar Bands (RSB) updates:    - A correction for changing instrument polarization sensitivity is applied to the desert-scene data before using that data to derive the response-versus-scan angle (RVS) for Terra MODIS bands 3, 4, 8, 9, and 10. Additional improvements are also made to the desert data-fitting algorithms for both Terra and Aqua MODIS. - For the Terra MODIS Short-wave Infrared (SWIR) bands, data from deep convective clouds are used to apply drift corrections and derive an on-orbit RVS for bands 5 and 26. The optical and electronic crosstalk-correction algorithms for these bands were also improved.  - An inter-band calibration approach that relies on relative trends over ocean scenes is used to correct for drift in Terra bands 11 and 12.  ###### Thermal Emissive Bands (TEB) updates:  - Electronic crosstalk correction is applied to the Aqua MODIS Photovoltaic (PV) Long-wave Infrared (LWIR) bands 27\u201330 over the entire mission. Crosstalk correction is also applied to select Mid-wave Infrared (MWIR) detectors in both Terra and Aqua MODIS. Adjustments were made to the L1B code to improve the handling of crosstalk correction at the image-edge frames. - Data from deep convective clouds are used to apply bias corrections to Terra MODIS bands 20 and 29, and Aqua MODIS bands 27 through 30 as well as to improve the scan mirror-side differences in the Aqua MODIS TEBs. - Adjustments are applied to the non-linear calibration coefficients for Terra and Aqua MODIS band 30 to improve long-term stability.",
         "license": "CC0-1.0"
     },
     {
@@ -150614,7 +150601,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3861733272-LAADS.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3861733272-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD02QKM_7",
-        "description": "The Aqua MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer/steradian. The Aqua MODIS L1B product is a set three datasets (MYD02QKM, MYD02HKM, and MYD021KM) that are produced to address the three spatial-resolution variations: 250 m, 500 m, and 1000 m.  This landing page describes the quarter-kilometer product with a short-name MYD02QKM. It provides calibrated radiances derived from the 250-m at-nadir visible band-1 and near-infrared band-2 that have central wavelengths at 0.645 \u00b5m and 0.858 \u00b5m, respectively. Each 250-m band has 40 detectors in the along-track direction. The MYD02QKM product contains the following two Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.    <html> <body> <table>   <tr>     <th>SDS Variable</th>     <th>Long-name</th>   </tr>   <tr>     <td>EV_250_RefSB</td>     <td>Earth View 250M Reflective Solar Bands Scaled Integers</td>   </tr>   <tr>     <td>EV_250_RefSB_Uncert_Indexes</td>     <td>Earth View 250M Reflective Solar Bands Uncertainty Indexes</td>   </tr>  </table> </body> </html> <br> The v7.0 Aqua MODIS MYD02QKM in netCDF4 format represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 250-m swath granule or data-file temporally spans 5 minutes and its image dimensions measure 8,120 lines (along-track direction) by 5,416 samples (cross-track direction). The v7.0 collection\u2019s data record starts from July 4, 2002 (2002\u2013185). Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.",
+        "description": "The Aqua MODIS (Moderate resolution Imaging Spectroradiometer) Level-1B (L1B) product includes calibrated and geolocated at-aperture radiances for 36 bands generated from MODIS Level-1A raw sensor counts. The radiances are provided in watts/m2/micrometer (\u00b5m)/steradian. The Aqua MODIS L1B product is a set of three datasets (MYD02QKM, MYD02HKM, and MYD021KM) that are produced to address the three spatial-resolution variations: 250 meters, 500 meters, and 1000 meters.  This document describes the version 7.0 (v7.0) of the Aqua MODIS 250-m Calibrated Radiances product whose short-name is MYD02QKM. It represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 250-m swath granule or data-file temporally spans 5 minutes, and its image dimensions measure 8,120 lines (along-track direction) by 5,416 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).  The MYD02QKM product provides calibrated radiances derived from the 250-m at-nadir visible band-1 and near-infrared band-2 that have central wavelengths at 0.645 \u00b5m and 0.858 \u00b5m, respectively. Each 250-m band has 40 detectors in the along-track direction. This product contains the following two Science Data Sets (SDS) besides geolocation fields for latitude and longitude, quality flags, error estimates, etc.    | SDS Variable | Long Name | |-------------|-----------| | EV_250_RefSB\t| Earth View 250M Reflective Solar Bands Scaled Integers|  | EV_250_RefSB_Uncert_Indexes\t| Earth View 250M Reflective Solar Bands Uncertainty Indexes |     Consult the MODIS L1B User Guide to understand how to convert the per-pixel scaled integers to radiance or reflectance.  #### Radiometric Calibration-specific Changes in the v7.0 Collection  The L1B calibration algorithms for the v7.0 collection include several updates compared to the previous v6.1 algorithms, that improve the radiometric accuracy and long-term stability of the L1B reflectance, radiance, and brightness temperature. The updated algorithms are applied consistently across the entire missions for v7.0. The most significant changes include the following:   ###### Reflective Solar Bands (RSB) updates:  - A correction for changing instrument polarization sensitivity is applied to the desert-scene data before using that data to derive the response-versus-scan angle (RVS) for Terra MODIS bands 3, 4, 8, 9, and 10. Additional improvements are also made to the desert data-fitting algorithms for both Terra and Aqua MODIS.  - For the Terra MODIS Short-wave Infrared (SWIR) bands, data from deep convective clouds are used to apply drift corrections and derive an on-orbit RVS for bands 5 and 26. The optical and electronic crosstalk-correction algorithms for these bands were also improved.  - An inter-band calibration approach that relies on relative trends over ocean scenes is used to correct for drift in Terra bands 11 and 12.  ###### Thermal Emissive Bands (TEB) updates:  - Electronic crosstalk correction is applied to the Aqua MODIS Photovoltaic (PV) Long-wave Infrared (LWIR) bands 27\u201330 over the entire mission. Crosstalk correction is also applied to select Mid-wave Infrared (MWIR) detectors in both Terra and Aqua MODIS. Adjustments were made to the L1B code to improve the handling of crosstalk correction at the image-edge frames. - Data from deep convective clouds are used to apply bias corrections to Terra MODIS bands 20 and 29 and Aqua MODIS bands 27 through 30 as well as to improve the scan mirror-side differences in the Aqua MODIS TEBs. - Adjustments are applied to the non-linear calibration coefficients for Terra and Aqua MODIS band 30 to improve long-term stability.",
         "license": "CC0-1.0"
     },
     {
@@ -150666,7 +150653,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C3860236666-LAADS.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C3860236666-LAADS.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/LAADS/collections/MYD03_7",
-        "description": "The Aqua MODIS (Moderate resolution Imaging Spectroradiometer) Level-1A (L1A) Geolocation product contains geodetic coordinates, ground elevation, and solar and satellite zenith and azimuth angles for the center of each MODIS 1-km pixel at nadir. These data serve as a companion dataset to the Level-1B calibrated radiances (MYD02) and the higher-level products to enable further processing. These geolocation fields are determined using data inputs from the spacecraft attitude and orbit, instrument telemetry, and a digital elevation model.  The Aqua MODIS 1-km Geolocation product whose short-name is MYD03. The MYD03 Science Data Sets (SDS) describe the range of information provided for each 1-km pixel\u2019s Instantaneous Field of View (IFOV). In addition, a range of other information attributes (quality, offsets, observation start-time, etc.) exist as well.  The v7.0 Aqua MODIS MYD03 in netCDF4 format represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 1-km swath granule or data-file temporally spans 5 minutes and its nominal image dimensions measure 2,030 lines (along-track direction) by 1,354 samples (cross-track direction). The v7.0 collection\u2019s data record starts from July 4, 2002 (2002\u2013185).",
+        "description": "The Aqua MODIS (Moderate resolution Imaging Spectroradiometer) Level-1A (L1A) Geolocation product contains geodetic coordinates, ground elevation, and solar and satellite zenith and azimuth angles for the center of each MODIS 1-km pixel at nadir. These data serve as a companion dataset to the Level-1B calibrated radiances (MYD02) and the higher-level products to enable further processing. These geolocation fields are determined using data inputs from the spacecraft attitude and orbit, instrument telemetry, and a digital elevation model.  This document describes the version 7.0 (v7.0) of the Aqua MODIS 1-km Geolocation product whose short-name is MYD03. It represents the most current version of this product that has undergone around half-a-dozen reprocessing cycles in the last 2.5 decades. Each 1-km swath granule or data-file temporally spans 5 minutes, and its nominal image dimensions measure 2,030 lines (along-track direction) by 1,354 samples (cross-track direction). The v7.0 collection\u2019s data record starts from February 24, 2000 (2000\u2013055).  The following Science Data Sets (SDS) describe the range of information provided for each 1-km pixel\u2019s Instantaneous Field of View (IFOV). A range of other information attributes (quality, offsets, observation start-time, etc.) exist as well.    | SDS Variable | Long Name | |-------------|-----------| | Latitude | Latitude | | Latitude_500m | Latitude (500m) | | Longitude | Longitude | | Longitude_500m | Longitude (500m) | |  |  | #### Data Fields  | SDS Variable | Long Name | |-------------|-----------| | gflags | gflags | | Height | Height | | Height_Offset | Height Offset | | Height_500m | Height (500m) | | Land-Sea Mask | Land-Sea Mask | | Range | Range | | Scan Offset | Scan Offset | | Sensor Azimuth | Sensor Azimuth | | Sensor Zenith | Sensor Zenith | | Solar Azimuth | Solar Azimuth | | Solar Zenith | Solar Zenith | | Track Offset | Track Offset | | Water Present | Water Present |   - Added a new solar-eclipse flag. - Added 500-m information for the geodetic latitude, longitude, and height variables. - Revised the practice of using a yearly updated Land-Water Mask database instead of a static database. - Refreshed the Ground Control Point (GCP) chip library:   - Expanded the number of chips from 1,214 to 2,514.   - Extended chip coverage from 24 \u00d7 24 km to 42 \u00d7 42 km.   - Extended error measurements from scan angles of \u00b145\u00b0 to \u00b155\u00b0.   - Extended error searches from an area of \u00b10.8 to \u00b12.5 250-m pixels.   - Increased the cross-correlation coefficient threshold from 0.6 to 0.85.",
         "license": "CC0-1.0"
     },
     {
@@ -165577,7 +165564,7 @@
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C4200222120-NSIDCV0.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C4200222120-NSIDCV0.html",
         "href": "https://cmr.earthdata.nasa.gov/stac/NSIDCV0/collections/NSIDC-0710_2",
-        "description": "This data set is a compilation of ice velocity mappings for all terrestrial permanent ice larger than 5 km squared within the latitude range 82\u00b0S to 82\u00b0N, generated from pairs of Landsat 8 panchromatic images acquired between May 2013 and May 2021. The data are updated monthly with new Landsat 8 images that are paired with older images acquired within 400 days of the new acquisition for the Antarctic ice sheet; 112 days for the Greenland ice sheet; and 96 days for all other glacierized areas.  The data are generated with an image correlation algorithm that produces grids of ice displacement referenced to in-image rock outcrops, slow moving ice, or lacking that, the satellite's geo-positioning (accurate to +/- 5 m). Velocity vector grids are generated at a sample spacing of 300 m from small sub-images that are either 300 m or 600 m on a side, depending on the region. For example, ice sheet areas are mapped with 600 m x 600 m sub-images, and mountain glaciers are mapped with 300 m x 300 m sub-images. Accuracy of the velocity data varies depending on the time separation between the images, ranging between ~1 m/d per day to 0.02 m/d per day.  NOTE: A reprocessed version of these data is available from the ITS_LIVE project (https://nsidc.org/apps/itslive/), which uses additional imagery and a more robust algorithm to produce global ice velocities for all areas of permanent ice larger than 5 square km, from 1984 to present.  GoLive data are stored on the University of Colorado Boulder Research Computing FTP site. To access these files, go to NSIDC's <a href=\"https://nsidc.org/data/user-resources/help-center/how-access-nsidc-data-using-ftp-client-command-line-wget-or-python\">\"How to access NSIDC data using an FTP client, command line, wget, or Python\"</a> webpage. Under the heading \"How to find a data set's FTP address on NSIDC servers,\" GoLive's FTP data locations can be found under \"Data sets hosted on dtn.rc.colorado.edu.\"",
+        "description": "This data set is a compilation of ice velocity mappings for all terrestrial permanent ice larger than 5 km squared within the latitude range 82\u00b0S to 82\u00b0N, generated from pairs of Landsat 8 panchromatic images acquired between May 2013 and May 2021. The data are updated monthly with new Landsat 8 images that are paired with older images acquired within 400 days of the new acquisition for the Antarctic ice sheet; 112 days for the Greenland ice sheet; and 96 days for all other glacierized areas.  The data are generated with an image correlation algorithm that produces grids of ice displacement referenced to in-image rock outcrops, slow moving ice, or lacking that, the satellite's geo-positioning (accurate to +/- 5 m). Velocity vector grids are generated at a sample spacing of 300 m from small sub-images that are either 300 m or 600 m on a side, depending on the region. For example, ice sheet areas are mapped with 600 m x 600 m sub-images, and mountain glaciers are mapped with 300 m x 300 m sub-images. Accuracy of the velocity data varies depending on the time separation between the images, ranging between ~1 m/d per day to 0.02 m/d per day.  NOTE: A reprocessed version of these data, which uses additional imagery and a more robust algorithm to produce global ice velocities from 1984 to present for all areas of permanent ice larger than 5 square km, is available from the ITS_LIVE Project at https://nsidc.org/apps/itslive/.  GoLIVE data are stored on the University of Colorado Boulder Research Computing FTP site. For instructions on how to access these files, go to NSIDC's \"How to access NSIDC data using an FTP client, command line, wget, or Python\" webpage at https://nsidc.org/data/user-resources/help-center/how-access-nsidc-data-using-ftp-client-command-line-wget-or-python. The FTP addresses are listed under \"How to find a data set's FTP address on NSIDC servers\" | \"Data sets hosted on dtn.rc.colorado.edu.\"",
         "license": "CC0-1.0"
     },
     {
@@ -189101,8 +189088,8 @@
         "id": "SWOT_L1B_LR_INTF_2.0_2.0",
         "title": "SWOT Level 1B Low-Rate Interferogram Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-03-28",
+        "end_date": "2025-05-04",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438202-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438202-POCLOUD.html",
@@ -189153,8 +189140,8 @@
         "id": "SWOT_L2_HR_LakeAvg_2.0_2.0",
         "title": "SWOT Level 2 Lake Cycle-Averaged Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2024-11-12",
+        "end_date": "2024-12-02",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438221-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438221-POCLOUD.html",
@@ -189205,8 +189192,8 @@
         "id": "SWOT_L2_HR_LakeSP_obs_2.0_2.0",
         "title": "SWOT Level 2 Lake Single-Pass Vector Obs Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438239-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438239-POCLOUD.html",
@@ -189231,8 +189218,8 @@
         "id": "SWOT_L2_HR_LakeSP_prior_2.0_2.0",
         "title": "SWOT Level 2 Lake Single-Pass Vector Prior Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438247-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438247-POCLOUD.html",
@@ -189257,8 +189244,8 @@
         "id": "SWOT_L2_HR_LakeSP_unassigned_2.0_2.0",
         "title": "SWOT Level 2 Lake Single-Pass Vector Unassigned Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438254-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438254-POCLOUD.html",
@@ -189413,8 +189400,8 @@
         "id": "SWOT_L2_HR_RiverAvg_2.0_2.0",
         "title": "SWOT Level 2 River Cycle-Averaged Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-21",
+        "end_date": "2024-01-25",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438293-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438293-POCLOUD.html",
@@ -189439,8 +189426,8 @@
         "id": "SWOT_L2_HR_RiverSP_2.0_2.0",
         "title": "SWOT Level 2 River Single-Pass Vector Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-03-29",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438299-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438299-POCLOUD.html",
@@ -189465,8 +189452,8 @@
         "id": "SWOT_L2_HR_RiverSP_node_2.0_2.0",
         "title": "SWOT Level 2 River Single-Pass Vector Node Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438301-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438301-POCLOUD.html",
@@ -189491,8 +189478,8 @@
         "id": "SWOT_L2_HR_RiverSP_reach_2.0_2.0",
         "title": "SWOT Level 2 River Single-Pass Vector Reach Data Product, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438303-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438303-POCLOUD.html",
@@ -189595,8 +189582,8 @@
         "id": "SWOT_L2_LR_SSH_BASIC_2.0_2.0",
         "title": "SWOT Level 2 KaRIn Low Rate Sea Surface Height Data Product - Basic, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465428-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465428-POCLOUD.html",
@@ -189634,8 +189621,8 @@
         "id": "SWOT_L2_LR_SSH_EXPERT_2.0_2.0",
         "title": "SWOT Level 2 KaRIn Low Rate Sea Surface Height Data Product - Expert, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465497-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465497-POCLOUD.html",
@@ -189660,8 +189647,8 @@
         "id": "SWOT_L2_LR_SSH_UNSMOOTHED_2.0_2.0",
         "title": "SWOT Level 2 KaRIn Low Rate Sea Surface Height Data Product - Unsmoothed, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465503-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465503-POCLOUD.html",
@@ -189686,8 +189673,8 @@
         "id": "SWOT_L2_LR_SSH_WINDWAVE_2.0_2.0",
         "title": "SWOT Level 2 KaRIn Low Rate Sea Surface Height Data Product - WindWave, Version C",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-07-26",
+        "end_date": "2025-05-03",
         "bbox": "-180, -90, 180, 90",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465507-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465507-POCLOUD.html",
@@ -189712,8 +189699,8 @@
         "id": "SWOT_L2_NALT_GDR_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Geophysical Data Record with Waveforms",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-01-16",
+        "end_date": "2025-02-24",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438313-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438313-POCLOUD.html",
@@ -189738,8 +189725,8 @@
         "id": "SWOT_L2_NALT_GDR_GDR_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Geophysical Data Record with Waveforms - GDR",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-01-16",
+        "end_date": "2024-08-20",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465509-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465509-POCLOUD.html",
@@ -189764,8 +189751,8 @@
         "id": "SWOT_L2_NALT_GDR_SGDR_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Geophysical Data Record with Waveforms - SGDR",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-01-16",
+        "end_date": "2024-08-20",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465518-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465518-POCLOUD.html",
@@ -189790,8 +189777,8 @@
         "id": "SWOT_L2_NALT_GDR_SSHA_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Geophysical Data Record with Waveforms - SSHA",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-01-16",
+        "end_date": "2024-08-20",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465522-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465522-POCLOUD.html",
@@ -189816,8 +189803,8 @@
         "id": "SWOT_L2_NALT_IGDR_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Interim Geophysical Data Record with Waveforms",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-15",
+        "end_date": "2025-05-05",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438335-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438335-POCLOUD.html",
@@ -189842,8 +189829,8 @@
         "id": "SWOT_L2_NALT_IGDR_GDR_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Interim Geophysical Data Record with Waveforms - GDR",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-15",
+        "end_date": "2025-05-05",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465526-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465526-POCLOUD.html",
@@ -189868,8 +189855,8 @@
         "id": "SWOT_L2_NALT_IGDR_SGDR_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Interim Geophysical Data Record with Waveforms - SGDR",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-15",
+        "end_date": "2025-05-05",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465529-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465529-POCLOUD.html",
@@ -189894,8 +189881,8 @@
         "id": "SWOT_L2_NALT_IGDR_SSHA_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Interim Geophysical Data Record with Waveforms - SSHA",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-15",
+        "end_date": "2025-05-05",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465538-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465538-POCLOUD.html",
@@ -189920,8 +189907,8 @@
         "id": "SWOT_L2_NALT_OGDR_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Operational Geophysical Data Record with Waveforms",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-16",
+        "end_date": "2025-05-06",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438345-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438345-POCLOUD.html",
@@ -189946,8 +189933,8 @@
         "id": "SWOT_L2_NALT_OGDR_GDR_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Operational Geophysical Data Record with Waveforms - GDR",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-16",
+        "end_date": "2025-05-06",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465542-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465542-POCLOUD.html",
@@ -189985,8 +189972,8 @@
         "id": "SWOT_L2_NALT_OGDR_SSHA_2.0_2.0",
         "title": "SWOT Level 2 Nadir Altimeter Operational Geophysical Data Record with Waveforms - SSHA",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-16",
+        "end_date": "2025-05-06",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465544-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799465544-POCLOUD.html",
@@ -190011,8 +189998,8 @@
         "id": "SWOT_L2_RAD_GDR_2.0_2.0",
         "title": "SWOT Level 2 Radiometer Brightness Temperatures and Troposphere Data Product",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-01-15",
+        "end_date": "2025-02-24",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438350-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438350-POCLOUD.html",
@@ -190037,8 +190024,8 @@
         "id": "SWOT_L2_RAD_IGDR_2.0_2.0",
         "title": "SWOT Level 2 Radiometer Brightness Temperatures and Troposphere Interim Data Product",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-21",
+        "end_date": "2025-05-05",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438351-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438351-POCLOUD.html",
@@ -190063,8 +190050,8 @@
         "id": "SWOT_L2_RAD_OGDR_2.0_2.0",
         "title": "SWOT Level 2 Radiometer Brightness Temperatures and Troposphere Operational Data Product",
         "catalog": "POCLOUD STAC Catalog",
-        "state_date": "2022-12-16",
-        "end_date": "",
+        "state_date": "2023-11-16",
+        "end_date": "2025-05-06",
         "bbox": "-180, -77.6, 180, 77.6",
         "url": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438353-POCLOUD.umm_json",
         "metadata": "https://cmr.earthdata.nasa.gov/search/concepts/C2799438353-POCLOUD.html",
